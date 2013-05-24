@@ -17,12 +17,17 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&search=%1&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}"
+RESOURCES = ["Adresser","Stednavne","Postdistrikter","Matrikelnumre","Kommuner","Opstillingskredse","Politikredse","Regioner","Retskredse"]
+PLUGINNAME = "geosearch_dk"
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 
 from qgis.core import *
 from qgis.gui import *
+
+import microjson
 
 import qgisutils
 from autosuggest import AutoSuggest
@@ -41,7 +46,7 @@ class SearchBox(QFrame):
         self.ui.setupUi(self)
         self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
 
-        self.completion = AutoSuggest(username = 'septima', password = 'fgd4Septima', parent = self.ui.searchEdit)
+        self.completion = AutoSuggest(geturl_func = self.geturl, parseresult_func = self.parseresponse, parent = self.ui.searchEdit)
         self.setupCrsTransform()
 
         self.connect(self.ui.searchEdit, SIGNAL("returnPressed()"), self.doSearch)
@@ -57,10 +62,54 @@ class SearchBox(QFrame):
         self.ui.searchEdit.setFocus()
     
     def getconfig(self):
-        return {"kfuser":"",'kfpass':''}
+        self.username = 'septima'
+        self.password = ''
+        self.resources = RESOURCES
+        self.maxresults = 25
+        self.callback = 'callback'
+#        if self.password is None or len(self.password) < 1 or self.username is None or len(self.username) < 1:
+#            QMessageBox.warning(None, 'Manglende brugernavn og password', ' Pluginet mangler konfiguration af brugernavn og password til Kortforsyningen.')
     
     def setconfig(self):
         pass
+
+    def geturl(self, searchterm):
+        try:
+            return QUrl( QString( BASEURL.format( 
+                              resources = ','.join(self.resources), 
+                              limit = self.maxresults, 
+                              login = self.username, 
+                              password = self.password, 
+                              callback = self.callback)).arg( searchterm ) )
+        except AttributeError:
+            self.getconfig()
+            return self.geturl( searchterm )
+
+    def parseresponse(self, response):
+        # Trim callback
+        result = str( response )[ len(self.callback) + 1 : -1]
+        #print result
+        try:
+            obj = microjson.from_json( result )
+        except microjson.JSONError:
+            QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
+            # Check if we have an auth error
+            if 'User not found' in response or 'User not authenticated' in response:
+                QMessageBox.warning(None, 'Manglende brugernavn og password', ' Pluginet mangler konfiguration af brugernavn og password til Kortforsyningen.')
+            return None
+        
+        if not obj.has_key('status'):
+            QgsMessageLog.logMessage('Unexpected result from server: ' + result, PLUGINNAME)
+            return None
+        
+        if not obj['status'] == 'OK':
+            QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], PLUGINNAME)
+            return None
+        
+        data = obj['data']
+
+        # Make tuple with ("text", object) for each result        
+        return [(e['presentationString'], e) for e in data ]
 
     def setupCrsTransform(self):
         if not QgsCoordinateReferenceSystem is None:
@@ -145,6 +194,7 @@ class SearchBox(QFrame):
 ##    def keyPressEvent(self, event):
 ##        if event.key() == Qt.Key_Escape:
 ##            self.close()
+    
     def unload( self ):
         self.completion.unload()
         self.clearMarkerGeom()

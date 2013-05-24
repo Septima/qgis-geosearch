@@ -23,27 +23,27 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4.QtNetwork import *
 from PyQt4.uic import loadUi
-import microjson
+#import microjson
 
 from qgis.core import QgsMessageLog
 
-PLUGINNAME = "Septima Geo Search"
+#PLUGINNAME = "Septima Geo Search"
 
-BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&search=%1&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}"
-RESOURCES = ["Adresser","Stednavne","Postdistrikter","Matrikelnumre","Kommuner","Opstillingskredse","Politikredse","Regioner","Retskredse"]
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
 class AutoSuggest(QObject):
 
-    def __init__(self, username, password, parent = None):
+    def __init__(self, geturl_func, parseresult_func, parent = None):
         QObject.__init__(self, parent)
-        self.username = username
-        self.password = password
-        self.resources = RESOURCES
-        self.maxresults = 25
-        self.callback = 'callback'
-        self.update_service_url()
+#         self.username = username
+#         self.password = password
+#         self.resources = RESOURCES
+#         self.maxresults = 25
+#         self.callback = 'callback'
+#         self.update_service_url()
+        self.geturl = geturl_func
+        self.parseresult = parseresult_func
         
         self.editor = parent
         self.networkManager = QNetworkAccessManager()
@@ -81,16 +81,16 @@ class AutoSuggest(QObject):
         self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
                      self.handleNetworkData)
 
-    def update_service_url(self):
-        if self.password is None or len(self.password) < 1 or self.username is None or len(self.username is None):
-            QMessageBox.warning(None, 'Manglende brugernavn og password', PLUGINNAME + ' mangler konfiguration af brugernavn og password til Kortforsyningen.')
-            
-        self.serviceurl = BASEURL.format( 
-                                         resources = ','.join(self.resources), 
-                                         limit = self.maxresults, 
-                                         login =self.username, 
-                                         password = self.password, 
-                                         callback = self.callback)
+#     def update_service_url(self):
+#         if self.password is None or len(self.password) < 1 or self.username is None or len(self.username is None):
+#             QMessageBox.warning(None, 'Manglende brugernavn og password', PLUGINNAME + ' mangler konfiguration af brugernavn og password til Kortforsyningen.')
+#             
+#         self.serviceurl = BASEURL.format( 
+#                                          resources = ','.join(self.resources), 
+#                                          limit = self.maxresults, 
+#                                          login =self.username, 
+#                                          password = self.password, 
+#                                          callback = self.callback)
 
     def eventFilter(self, obj, ev):
         if obj != self.popup:
@@ -126,22 +126,23 @@ class AutoSuggest(QObject):
 
         return False
 
-    def showCompletion(self, choices, hits):
-        if not choices or len(choices) != len(hits):
-            return
-
+    def showCompletion(self, rows):
+        # Rows is an iterable of tuples like [("text",object1),("text2", object2),...]
         pal = self.editor.palette()
         color = pal.color(QPalette.Disabled, QPalette.WindowText)
 
         self.popup.setUpdatesEnabled(False)
         self.popup.clear()
-        for choice, hit in zip(choices, hits):
+        if rows is None or len( rows ) < 1:
+            return
+
+        for row in rows:
             item = QTreeWidgetItem(self.popup)
-            item.setText(0, choice)
+            item.setText(0, row[0])
             #item.setText(1, hit['type'])
             item.setTextAlignment(1, Qt.AlignRight)
             item.setTextColor(1, color)
-            item.setData(2, Qt.UserRole, QVariant((hit,))) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
+            item.setData(2, Qt.UserRole, QVariant((row[1],))) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
         self.popup.setCurrentItem(self.popup.topLevelItem(0))
         self.popup.resizeColumnToContents(0)
@@ -149,7 +150,7 @@ class AutoSuggest(QObject):
         self.popup.adjustSize()
         self.popup.setUpdatesEnabled(True)
 
-        h = self.popup.sizeHintForRow(0) * min(7, len(choices)) + 3
+        h = self.popup.sizeHintForRow(0) * min(7, len(rows)) + 3
         self.popup.resize(self.popup.width(), h)
 
         self.popup.move(self.editor.mapToGlobal(QPoint(0, self.editor.height())))
@@ -179,17 +180,17 @@ class AutoSuggest(QObject):
     def autoSuggest(self):
         term = self.editor.text()
         if not term.isEmpty():
-            url = QString( self.serviceurl ).arg( term )
-            print "URL: ", self.QstringToStr( url )
+            qurl = self.geturl( term )  #QString( self.serviceurl ).arg( term )
+            print "URL: ", self.QstringToStr( qurl.toString() )
             # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
-            self.networkManager.get(QNetworkRequest(QUrl(url)))
+            self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
 
     def handleNetworkData(self, networkReply):
         url = networkReply.url()
         print "received url:", self.QstringToStr( url.toString() )
         if not networkReply.error():
-            choices = []
-            objects = []
+            #choices = []
+            #objects = []
 
             response = networkReply.readAll()
             #print "Response: ", response
@@ -205,31 +206,34 @@ class AutoSuggest(QObject):
             #            hits.append(str.toString())
 
 
-            result = str( response )[ 9 : -1]
-            #print result
+#             result = str( response )[ 9 : -1]
+#             #print result
+# 
+#             try:
+#                 obj = microjson.from_json( result )
+#             except microjson.JSONError:
+#                 QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
+#                 return
+# 
+#             if not obj.has_key('status'):
+#                 QgsMessageLog.logMessage('Unexpected result from server: ' + result, PLUGINNAME)
+#                 return
+# 
+#             if not obj['status'] == 'OK':
+#                 QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], PLUGINNAME)
+#                 return
+# 
+#             data = obj['data']
+# 
+#             for e in data:
+#                 choices.append( e['presentationString'] )
+#                 #hits.append( e['wkt'] )
+#                 objects.append( e )
+# 
+#             self.showCompletion(choices, objects)
 
-            try:
-                obj = microjson.from_json( result )
-            except microjson.JSONError:
-                QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
-                return
-
-            if not obj.has_key('status'):
-                QgsMessageLog.logMessage('Unexpected result from server: ' + result, PLUGINNAME)
-                return
-
-            if not obj['status'] == 'OK':
-                QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], PLUGINNAME)
-                return
-
-            data = obj['data']
-
-            for e in data:
-                choices.append( e['presentationString'] )
-                #hits.append( e['wkt'] )
-                objects.append( e )
-
-            self.showCompletion(choices, objects)
+            rows = self.parseresult( response )
+            self.showCompletion( rows )
 
         networkReply.deleteLater()
 
