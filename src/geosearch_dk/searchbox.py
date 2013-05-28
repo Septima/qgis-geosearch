@@ -18,8 +18,7 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&search=%1&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}"
-RESOURCES = ["Adresser","Stednavne","Postdistrikter","Matrikelnumre","Kommuner","Opstillingskredse","Politikredse","Regioner","Retskredse"]
-PLUGINNAME = "geosearch_dk"
+RESOURCES = "Adresser,Stednavne,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
@@ -32,6 +31,7 @@ import microjson
 import qgisutils
 from autosuggest import AutoSuggest
 from ui_search import Ui_searchForm
+import settingsdialog
 
 
 class SearchBox(QFrame):
@@ -41,6 +41,7 @@ class SearchBox(QFrame):
 
         self.qgisIface = qgisIface
         self.marker = None
+        self.readconfig()
 
         self.ui = Ui_searchForm()
         self.ui.setupUi(self)
@@ -61,49 +62,59 @@ class SearchBox(QFrame):
         self.resize(50, self.height())
         self.ui.searchEdit.setFocus()
     
-    def getconfig(self):
-        self.username = ''
-        self.password = ''
-        self.resources = RESOURCES
-        self.maxresults = 25
-        self.callback = 'callback'
-#        if self.password is None or len(self.password) < 1 or self.username is None or len(self.username) < 1:
-#            QMessageBox.warning(None, 'Manglende brugernavn og password', ' Pluginet mangler konfiguration af brugernavn og password til Kortforsyningen.')
+    def readconfig(self):
+        s = QSettings()
+        k = __package__
+        self.config = {
+                'username': str(s.value( k + "/username", "").toString()),
+                'password': str(s.value( k + "/password", "").toString()),
+                'resources': str(s.value( k + "/resources", RESOURCES).toString()) ,
+                'maxresults': s.value( k + "/maxresults", 25).toInt()[0],
+                'callback': str(s.value( k + "/callback", "callback").toString()),
+            }
     
-    def setconfig(self):
-        pass
+    def updateconfig( self ):
+        s = QSettings()
+        k = __package__
+        s.setValue(k + "/username",  self.config['username'])
+        s.setValue(k + "/password",  self.config['password'])
+        s.setValue(k + "/resources",  self.config['resources'])
+        s.setValue(k + "/maxresults",  self.config['maxresults'])
+        s.setValue(k + "/callback",  self.config['callback'])
 
     def geturl(self, searchterm):
-        try:
-            return QUrl( QString( BASEURL.format( 
-                              resources = ','.join(self.resources), 
-                              limit = self.maxresults, 
-                              login = self.username, 
-                              password = self.password, 
-                              callback = self.callback)).arg( searchterm ) )
-        except AttributeError:
-            self.getconfig()
-            return self.geturl( searchterm )
+        url = QString( BASEURL.format( 
+                              resources = self.config['resources'], 
+                              limit = self.config['maxresults'], 
+                              login = self.config['username'], 
+                              password = self.config['password'], 
+                              callback = self.config['callback']))
+        return QUrl( url.arg( searchterm ) )
+            
 
     def parseresponse(self, response):
         # Trim callback
-        result = str( response )[ len(self.callback) + 1 : -1]
+        result = str( response )[ len(self.config['callback']) + 1 : -1]
         #print result
         try:
             obj = microjson.from_json( result )
         except microjson.JSONError:
-            QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
+            QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, __package__)
             # Check if we have an auth error
             if 'User not found' in response or 'User not authenticated' in response:
-                QMessageBox.warning(None, 'Bruger afvist', 'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.')
+                QMessageBox.warning(None, 'Bruger afvist af Kortforsyningen', 
+                                    'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\n'
+                                    + 'Kortforsyningen svarede:\n'
+                                    + str(response) )
+                self.show_settings_dialog()
             return None
         
         if not obj.has_key('status'):
-            QgsMessageLog.logMessage('Unexpected result from server: ' + result, PLUGINNAME)
+            QgsMessageLog.logMessage('Unexpected result from server: ' + result, __package__)
             return None
         
         if not obj['status'] == 'OK':
-            QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], PLUGINNAME)
+            QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], __package__)
             return None
         
         data = obj['data']
@@ -153,6 +164,8 @@ class SearchBox(QFrame):
 
         o = self.completion.selectedObject
         #print o
+        if not o:
+            return
 
         # Create a QGIS geom to represent object
         geom = None
@@ -194,6 +207,22 @@ class SearchBox(QFrame):
 ##    def keyPressEvent(self, event):
 ##        if event.key() == Qt.Key_Escape:
 ##            self.close()
+    
+    def show_settings_dialog(self):
+        # create and show the dialog
+        dlg = settingsdialog.SettingsDialog()
+        dlg.loginLineEdit.setText(self.config['username'])
+        dlg.passwordLineEdit.setText(self.config['password'])
+        # show the dialog
+        dlg.show()
+        result = dlg.exec_()
+        print "SettingsDialog result", result
+        # See if OK was pressed
+        if result == 1:
+            # save settings
+            self.config['username'] = str(dlg.loginLineEdit.text())
+            self.config['password'] = str(dlg.passwordLineEdit.text())
+            self.updateconfig()
     
     def unload( self ):
         self.completion.unload()

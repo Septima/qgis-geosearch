@@ -38,14 +38,17 @@ class SeptimaGeoSearch:
         self.iface = iface
 
         # initialize plugin directory
-        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/geosearch_dk"
+        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/" + __package__
+        
+        # config
+        self.config = QSettings()
         
         # initialize locale
         localePath = ""
         locale = self.config.value("locale/userLocale").toString()[0:2]
 
         if QFileInfo(self.plugin_dir).exists():
-            localePath = self.plugin_dir + "/i18n/geosearch_dk" + locale + ".qm"
+            localePath = self.plugin_dir + "/i18n/" + __package__ + locale + ".qm"
 
         if QFileInfo(localePath).exists():
             self.translator = QTranslator()

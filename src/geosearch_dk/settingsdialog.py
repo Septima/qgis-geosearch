@@ -19,10 +19,9 @@ author               : asger@septima.dk
 """
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
-from ui_settings import Ui_settingsForm
+from ui_settings import Ui_Dialog
 
-class Settings (QDialog, Ui_settingsForm):
-  def __init__(self, iface):
-    QDialog.__init__(self)
-    self.iface = iface
-    self.setupUi(self)
+class SettingsDialog (QDialog, Ui_Dialog):
+    def __init__(self):
+        QDialog.__init__(self)
+        self.setupUi(self)

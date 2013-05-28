@@ -163,14 +163,14 @@ class AutoSuggest(QObject):
     def autoSuggest(self):
         term = self.editor.text()
         if not term.isEmpty():
-            qurl = self.geturl( term )  #QString( self.serviceurl ).arg( term )
-            print "URL: ", self.QstringToStr( qurl.toString() )
+            qurl = self.geturl( term )
+            #print "URL: ", self.QstringToStr( qurl.toString() )
             # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
             self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
 
     def handleNetworkData(self, networkReply):
-        url = networkReply.url()
-        print "received url:", self.QstringToStr( url.toString() )
+        #url = networkReply.url()
+        # print "received url:", self.QstringToStr( url.toString() )
         if not networkReply.error():
             response = networkReply.readAll()
             #print "Response: ", response
