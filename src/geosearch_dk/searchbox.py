@@ -224,11 +224,20 @@ class SearchBox(QFrame):
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.updateconfig()
     
+    def show_about_dialog(self):
+        infoString = QString(QCoreApplication.translate('Geosearch DK', 
+                            u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
+                            u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk/</a>"
+                            u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
+                            u"Pluginets webside: <a href=\"http://github.com/Septima/qgis-geosearch\">github.com/Septima/qgis-geosearch</a><br />"
+                            u"Udviklet af: Septima<br />"
+                            u"Mail: <a href=\"mailto:kontakt@septima.dk\">kontakt@septima.dk</a><br />"
+                            u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n"))
+        QMessageBox.information(self.qgisIface.mainWindow(), "Om Geosearch DK",infoString)    
+    
     def unload( self ):
         self.completion.unload()
         self.clearMarkerGeom()
-
-
 
 if __name__ == "__main__":
 
