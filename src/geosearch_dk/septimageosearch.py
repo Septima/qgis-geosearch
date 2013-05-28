@@ -66,8 +66,30 @@ class SeptimaGeoSearch:
         self.searchdockwidget.setWidget(self.searchwidget)
         # add the dockwidget to iface
         self.iface.addDockWidget(Qt.TopDockWidgetArea,self.searchdockwidget)
+        
+        # Menu items
+        self.configAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Indstillinger"), self.iface.mainWindow())
+        self.aboutAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Om pluginet"), self.iface.mainWindow())
+        
+        QObject.connect(self.configAction, SIGNAL("activated()"), self.searchwidget.show_settings_dialog)
+        QObject.connect(self.aboutAction, SIGNAL("activated()"), self.about)
+        
+        self.iface.addPluginToMenu("Geosearch DK", self.configAction)
+        self.iface.addPluginToMenu("Geosearch DK", self.aboutAction)
+
+    def about(self):
+        infoString = QString(QCoreApplication.translate('Geosearch DK', 
+                            u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
+                            u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">http://kortforsyningen.dk/</a>"
+                            u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
+                            u"Udviklet af: Septima<br />"
+                            u"Mail: <a href=\"mailto:kontakt@septima.dk\">kontakt@septima.dk</a><br />"
+                            u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n"))
+        QMessageBox.information(self.iface.mainWindow(), "Om Geosearch DK",infoString)
 
     def unload(self):
         #win32api.MessageBox(0, 'unload', 'title')
         self.searchwidget.unload() # try to avoid processing events, when QGIS is closing
+        self.iface.removePluginMenu("Geosearch DK", self.configAction )
+        self.iface.removePluginMenu("Geosearch DK", self.aboutAction )
         self.iface.removeDockWidget( self.searchdockwidget )

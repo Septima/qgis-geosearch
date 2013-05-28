@@ -183,7 +183,7 @@ class SearchBox(QFrame):
             geom = QgsGeometry.fromPoint(QgsPoint(o['x'] , o['y']))
 
         # Zoom to feature
-        bufgeom = geom.buffer(50.0, 2)
+        bufgeom = geom.buffer(200.0, 2)
         #if self.qgisIface.mapCanvas().mapRenderer().hasCrsTransformEnabled():
         bufgeom.transform(self.crsTransform)
         rect= bufgeom.boundingBox()
