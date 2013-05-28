@@ -51,8 +51,8 @@ class SearchBox(QFrame):
         self.setupCrsTransform()
 
         self.connect(self.ui.searchEdit, SIGNAL("returnPressed()"), self.doSearch)
-        self.connect(self.ui.searchButton, SIGNAL("clicked()"), self.doSearch)
-        self.connect(self.ui.clearButton, SIGNAL("clicked()"), self.clear)
+        #self.connect(self.ui.searchButton, SIGNAL("clicked()"), self.doSearch)
+        #self.connect(self.ui.clearButton, SIGNAL("clicked()"), self.clear)
         # Listen to crs changes
         self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("destinationSrsChanged()"), self.setupCrsTransform )
         self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("hasCrsTransformEnabled(bool)"), self.setupCrsTransform )
@@ -199,14 +199,6 @@ class SearchBox(QFrame):
         self.setMarkerGeom( geom )
 
         mc.refresh()
-
-##        str = self.ui.searchEdit.text()
-##        url = QString(GSEARCH_URL).arg(str)
-##        QDesktopServices.openUrl(QUrl(url))
-##
-##    def keyPressEvent(self, event):
-##        if event.key() == Qt.Key_Escape:
-##            self.close()
     
     def show_settings_dialog(self):
         # create and show the dialog

@@ -10,6 +10,12 @@
     <height>33</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>Search</string>
   </property>
@@ -26,19 +32,12 @@
       <widget class="QLineEdit" name="searchEdit"/>
      </item>
      <item>
-      <widget class="QPushButton" name="searchButton">
+      <widget class="QLabel" name="label">
        <property name="text">
-        <string>Søg</string>
+        <string>&amp;copy; &lt;a href=&quot;http://www.septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
        </property>
-       <property name="default">
+       <property name="openExternalLinks">
         <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="clearButton">
-       <property name="text">
-        <string>Nulstil</string>
        </property>
       </widget>
      </item>

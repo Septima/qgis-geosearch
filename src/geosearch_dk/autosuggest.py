@@ -45,7 +45,7 @@ class AutoSuggest(QObject):
         self.selectedObject = None
         self.isUnloaded = False
 
-        self.popup = QTreeWidget()
+        self.popup = QTreeWidget(parent)
         #self.popup.setColumnCount(2)
         self.popup.setColumnCount(1)
         self.popup.setUniformRowHeights(True)
@@ -133,7 +133,7 @@ class AutoSuggest(QObject):
         self.popup.adjustSize()
         self.popup.setUpdatesEnabled(True)
 
-        h = self.popup.sizeHintForRow(0) * min(7, len(rows)) + 3
+        h = self.popup.sizeHintForRow(0) * min(15, len(rows)) + 3
         self.popup.resize(self.popup.width(), h)
 
         self.popup.move(self.editor.mapToGlobal(QPoint(0, self.editor.height())))

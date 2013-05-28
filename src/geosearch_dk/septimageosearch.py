@@ -65,7 +65,7 @@ class SeptimaGeoSearch:
         self.searchdockwidget.setObjectName("Geosearch DK")
         self.searchdockwidget.setWidget(self.searchwidget)
         # add the dockwidget to iface
-        self.iface.addDockWidget(Qt.TopDockWidgetArea,self.searchdockwidget)
+        self.iface.addDockWidget(Qt.TopDockWidgetArea,self.searchdockwidget) # & Qt.LeftDockWidgetArea
         
         # Menu items
         self.configAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Indstillinger"), self.iface.mainWindow())
