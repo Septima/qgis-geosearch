@@ -62,7 +62,7 @@ class SearchBox(QFrame):
         self.ui.searchEdit.setFocus()
     
     def getconfig(self):
-        self.username = 'septima'
+        self.username = ''
         self.password = ''
         self.resources = RESOURCES
         self.maxresults = 25
@@ -95,7 +95,7 @@ class SearchBox(QFrame):
             QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
             # Check if we have an auth error
             if 'User not found' in response or 'User not authenticated' in response:
-                QMessageBox.warning(None, 'Manglende brugernavn og password', ' Pluginet mangler konfiguration af brugernavn og password til Kortforsyningen.')
+                QMessageBox.warning(None, 'Bruger afvist', 'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.')
             return None
         
         if not obj.has_key('status'):

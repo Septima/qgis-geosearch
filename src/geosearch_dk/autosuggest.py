@@ -36,12 +36,6 @@ class AutoSuggest(QObject):
 
     def __init__(self, geturl_func, parseresult_func, parent = None):
         QObject.__init__(self, parent)
-#         self.username = username
-#         self.password = password
-#         self.resources = RESOURCES
-#         self.maxresults = 25
-#         self.callback = 'callback'
-#         self.update_service_url()
         self.geturl = geturl_func
         self.parseresult = parseresult_func
         
@@ -80,17 +74,6 @@ class AutoSuggest(QObject):
 
         self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
                      self.handleNetworkData)
-
-#     def update_service_url(self):
-#         if self.password is None or len(self.password) < 1 or self.username is None or len(self.username is None):
-#             QMessageBox.warning(None, 'Manglende brugernavn og password', PLUGINNAME + ' mangler konfiguration af brugernavn og password til Kortforsyningen.')
-#             
-#         self.serviceurl = BASEURL.format( 
-#                                          resources = ','.join(self.resources), 
-#                                          limit = self.maxresults, 
-#                                          login =self.username, 
-#                                          password = self.password, 
-#                                          callback = self.callback)
 
     def eventFilter(self, obj, ev):
         if obj != self.popup:
@@ -189,49 +172,8 @@ class AutoSuggest(QObject):
         url = networkReply.url()
         print "received url:", self.QstringToStr( url.toString() )
         if not networkReply.error():
-            #choices = []
-            #objects = []
-
             response = networkReply.readAll()
             #print "Response: ", response
-            #xml = QXmlStreamReader(response)
-            #while not xml.atEnd():
-            #    xml.readNext()
-            #    if xml.tokenType() == QXmlStreamReader.StartElement:
-            #        if xml.name() == "suggestion":
-            #            str = xml.attributes().value("data")
-            #            choices.append(str.toString())
-            #        elif xml.name() == "num_queries":
-            #            str = xml.attributes().value("int")
-            #            hits.append(str.toString())
-
-
-#             result = str( response )[ 9 : -1]
-#             #print result
-# 
-#             try:
-#                 obj = microjson.from_json( result )
-#             except microjson.JSONError:
-#                 QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, PLUGINNAME)
-#                 return
-# 
-#             if not obj.has_key('status'):
-#                 QgsMessageLog.logMessage('Unexpected result from server: ' + result, PLUGINNAME)
-#                 return
-# 
-#             if not obj['status'] == 'OK':
-#                 QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], PLUGINNAME)
-#                 return
-# 
-#             data = obj['data']
-# 
-#             for e in data:
-#                 choices.append( e['presentationString'] )
-#                 #hits.append( e['wkt'] )
-#                 objects.append( e )
-# 
-#             self.showCompletion(choices, objects)
-
             rows = self.parseresult( response )
             self.showCompletion( rows )
 

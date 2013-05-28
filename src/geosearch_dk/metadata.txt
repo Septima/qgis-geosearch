@@ -26,9 +26,9 @@ email=asger@septima.dk
 # tags are comma separated with spaces allowed
 tags=
 
-homepage=
-tracker=
-repository=
+homepage=https://github.com/Septima/qgis-geosearch
+tracker=https://github.com/Septima/qgis-geosearch/issues
+repository=https://github.com/Septima/qgis-geosearch
 icon=icon.png
 # experimental flag
 experimental=False

@@ -38,18 +38,14 @@ class SeptimaGeoSearch:
         self.iface = iface
 
         # initialize plugin directory
-        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/septimageosearch"
-        
-        # config
-        self.config = QSettings()
-        self.configkey = "septimageosearch"
+        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/geosearch_dk"
         
         # initialize locale
         localePath = ""
         locale = self.config.value("locale/userLocale").toString()[0:2]
 
         if QFileInfo(self.plugin_dir).exists():
-            localePath = self.plugin_dir + "/i18n/septimageosearch_" + locale + ".qm"
+            localePath = self.plugin_dir + "/i18n/geosearch_dk" + locale + ".qm"
 
         if QFileInfo(localePath).exists():
             self.translator = QTranslator()
@@ -62,8 +58,8 @@ class SeptimaGeoSearch:
         # create the widget to display information
         self.searchwidget = SearchBox(self.iface)
         # create the dockwidget with the correct parent and add the valuewidget
-        self.searchdockwidget=QDockWidget("Septima Geo Search" , self.iface.mainWindow() )
-        self.searchdockwidget.setObjectName("Septima Geo Search Tool")
+        self.searchdockwidget=QDockWidget("Geosearch DK" , self.iface.mainWindow() )
+        self.searchdockwidget.setObjectName("Geosearch DK")
         self.searchdockwidget.setWidget(self.searchwidget)
         # add the dockwidget to iface
         self.iface.addDockWidget(Qt.TopDockWidgetArea,self.searchdockwidget)
