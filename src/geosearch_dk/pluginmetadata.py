@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-/***************************************************************************
-Name                 : geosearch_dk
-Description          : Search suggestions in QGIS using GST's geosearch service
+#-------------------------------------------------------------------------------
+Name:        pluginmetadata
+Purpose:     Convenience class for getting plugin metadata in QGIS
 Date                 : 24-05-2013
 copyright            : (C) 2013 by Septima
 author               : asger@septima.dk
@@ -18,33 +18,24 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 
-import pluginmetadata
+import ConfigParser
+import codecs
+import os
 
-def name():
-    return pluginmetadata.metadata['name']
+metadata = None
 
+def plugin_metadata():
+    global metadata
+    if metadata is None:
+        config = ConfigParser.ConfigParser()
+        config.readfp(codecs.open( os.path.dirname( __file__ ).replace("\\", "/") + '/metadata.txt', 'r', 'utf8'))
+        metadata = dict( config.items('general') )
+    return metadata
 
-def description():
-    return pluginmetadata.metadata['description']
+metadata = plugin_metadata()
 
+def main():
+    print plugin_metadata()
 
-def version():
-    return "Version " + pluginmetadata.metadata['version']
-
-
-def icon():
-    return "icon.png"
-
-
-def qgisMinimumVersion():
-    return pluginmetadata.metadata['qgisMinimumVersion']
-
-def author():
-    return pluginmetadata.metadata['author']
-
-def email():
-    return pluginmetadata.metadata['email']
-
-def classFactory(iface):
-    from septimageosearch import SeptimaGeoSearch
-    return SeptimaGeoSearch(iface)
+if __name__ == '__main__':
+    main()

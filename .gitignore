@@ -34,3 +34,7 @@ nosetests.xml
 .project
 .pydevproject
 .settings/
+
+# Temporary files
+TMP/
+/*.bat
