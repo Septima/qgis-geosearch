@@ -11,7 +11,7 @@
 [general]
 name=Geosearch DK
 qgisMinimumVersion=1.8
-qgisMaximumVersion=2.99
+qgisMaximumVersion=1.99
 description=Zoom to named places in Denmark. Uses Kortforsyningen. Developed by Septima.
 version=0.1.20
 author=Asger Skovbo Petersen, Septima
