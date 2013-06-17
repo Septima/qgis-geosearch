@@ -17,7 +17,7 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&search=%1&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}"
+BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}&search="
 RESOURCES = "Adresser,Stednavne,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 from PyQt4.QtGui import *
@@ -50,13 +50,13 @@ class SearchBox(QFrame):
         self.completion = AutoSuggest(geturl_func = self.geturl, parseresult_func = self.parseresponse, parent = self.ui.searchEdit)
         self.setupCrsTransform()
 
-        self.connect(self.ui.searchEdit, SIGNAL("returnPressed()"), self.doSearch)
-        #self.connect(self.ui.searchButton, SIGNAL("clicked()"), self.doSearch)
-        #self.connect(self.ui.clearButton, SIGNAL("clicked()"), self.clear)
+        #self.connect(self.ui.searchEdit, SIGNAL("returnPressed()"), self.doSearch)
+        self.ui.searchEdit.returnPressed.connect( self.doSearch )
         # Listen to crs changes
-        self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("destinationSrsChanged()"), self.setupCrsTransform )
-        self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("hasCrsTransformEnabled(bool)"), self.setupCrsTransform )
-        #self.qgisIface.mapCanvas().mapRenderer().setProjectionsEnabled(True)
+        #self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("destinationSrsChanged()"), self.setupCrsTransform )
+        self.qgisIface.mapCanvas().mapRenderer().destinationSrsChanged.connect( self.setupCrsTransform )
+        #self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("hasCrsTransformEnabled(bool)"), self.setupCrsTransform )
+        self.qgisIface.mapCanvas().mapRenderer().hasCrsTransformEnabled.connect( self.setupCrsTransform )
 
         self.adjustSize()
         self.resize(50, self.height())
@@ -66,11 +66,11 @@ class SearchBox(QFrame):
         s = QSettings()
         k = __package__
         self.config = {
-                'username': str(s.value( k + "/username", "").toString()),
-                'password': str(s.value( k + "/password", "").toString()),
-                'resources': str(s.value( k + "/resources", RESOURCES).toString()) ,
-                'maxresults': s.value( k + "/maxresults", 25).toInt()[0],
-                'callback': str(s.value( k + "/callback", "callback").toString()),
+                'username': str(s.value( k + "/username", "", type=str)),
+                'password': str(s.value( k + "/password", "", type=str)),
+                'resources': str(s.value( k + "/resources", RESOURCES, type=str)) ,
+                'maxresults': s.value( k + "/maxresults", 25, type=int),
+                'callback': str(s.value( k + "/callback", "callback", type=str)),
             }
     
     def updateconfig( self ):
@@ -83,13 +83,14 @@ class SearchBox(QFrame):
         s.setValue(k + "/callback",  self.config['callback'])
 
     def geturl(self, searchterm):
-        url = QString( BASEURL.format( 
+        url = BASEURL.format( 
                               resources = self.config['resources'], 
                               limit = self.config['maxresults'], 
                               login = self.config['username'], 
                               password = self.config['password'], 
-                              callback = self.config['callback']))
-        return QUrl( url.arg( searchterm ) )
+                              callback = self.config['callback'])
+        url += searchterm
+        return QUrl( url )
             
 
     def parseresponse(self, response):
@@ -217,14 +218,14 @@ class SearchBox(QFrame):
             self.updateconfig()
     
     def show_about_dialog(self):
-        infoString = QString(QCoreApplication.translate('Geosearch DK', 
+        infoString = QCoreApplication.translate('Geosearch DK', 
                             u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
-                            u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk/</a>"
+                            u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
                             u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
                             u"Pluginets webside: <a href=\"http://github.com/Septima/qgis-geosearch\">github.com/Septima/qgis-geosearch</a><br />"
                             u"Udviklet af: Septima<br />"
                             u"Mail: <a href=\"mailto:kontakt@septima.dk\">kontakt@septima.dk</a><br />"
-                            u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n"))
+                            u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n")
         QMessageBox.information(self.qgisIface.mainWindow(), "Om Geosearch DK",infoString)    
     
     def unload( self ):
