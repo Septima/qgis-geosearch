@@ -59,8 +59,9 @@ class AutoSuggest(QObject):
         self.popup.installEventFilter(self)
         self.popup.setMouseTracking(True)
 
-        self.connect(self.popup, SIGNAL("itemClicked(QTreeWidgetItem*, int)"),
-                     self.doneCompletion)
+        #self.connect(self.popup, SIGNAL("itemClicked(QTreeWidgetItem*, int)"),
+        #             self.doneCompletion)
+        self.popup.itemClicked.connect( self.doneCompletion )
 
         self.popup.setWindowFlags(Qt.Popup)
         self.popup.setFocusPolicy(Qt.NoFocus)
@@ -69,11 +70,16 @@ class AutoSuggest(QObject):
         self.timer = QTimer(self)
         self.timer.setSingleShot(True)
         self.timer.setInterval(500)
-        self.connect(self.timer, SIGNAL("timeout()"), self.autoSuggest)
-        self.connect(self.editor, SIGNAL("textEdited(QString)"), self.timer, SLOT("start()"))
+        #self.connect(self.timer, SIGNAL("timeout()"), self.autoSuggest)
+        self.timer.timeout.connect( self.autoSuggest )
+        
+        #self.connect(self.editor, SIGNAL("textEdited(QString)"), self.timer, SLOT("start()"))
+        #self.editor.textEdited.connect( self.timer.start )
+        self.editor.textEdited.connect( self.timer.start )
 
-        self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
-                     self.handleNetworkData)
+        #self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
+        #             self.handleNetworkData)
+        self.networkManager.finished.connect( self.handleNetworkData )
 
     def eventFilter(self, obj, ev):
         if obj != self.popup:
@@ -125,7 +131,7 @@ class AutoSuggest(QObject):
             #item.setText(1, hit['type'])
             item.setTextAlignment(1, Qt.AlignRight)
             item.setTextColor(1, color)
-            item.setData(2, Qt.UserRole, QVariant((row[1],))) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
+            item.setData(2, Qt.UserRole, (row[1],)) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
         self.popup.setCurrentItem(self.popup.topLevelItem(0))
         self.popup.resizeColumnToContents(0)
@@ -147,11 +153,8 @@ class AutoSuggest(QObject):
         item = self.popup.currentItem()
         if item:
             self.editor.setText(item.text(0) )
-            o =  item.data(2, Qt.UserRole) #.toPyObject()
-            #print o
-            pyobj = o.toPyObject()
-            #print pyobj
-            self.selectedObject = pyobj[0]
+            obj =  item.data(2, Qt.UserRole) #.toPyObject()
+            self.selectedObject = obj[0]
             e = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
             QApplication.postEvent(self.editor, e)
             e = QKeyEvent(QEvent.KeyRelease, Qt.Key_Enter, Qt.NoModifier)
@@ -162,15 +165,14 @@ class AutoSuggest(QObject):
 
     def autoSuggest(self):
         term = self.editor.text()
-        if not term.isEmpty():
+        if term:
             qurl = self.geturl( term )
-            #print "URL: ", self.QstringToStr( qurl.toString() )
             # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
             self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
 
     def handleNetworkData(self, networkReply):
-        #url = networkReply.url()
-        # print "received url:", self.QstringToStr( url.toString() )
+        url = networkReply.url()
+        #print "received url:", url.toString()
         if not networkReply.error():
             response = networkReply.readAll()
             #print "Response: ", response
@@ -183,7 +185,3 @@ class AutoSuggest(QObject):
         # Avoid processing events after QGIS shutdown has begun
         self.popup.removeEventFilter(self)
         self.isUnloaded = True
-        
-    def QstringToStr(self, qstring):
-        return unicode(qstring.toUtf8(),'utf-8').encode('latin_1', 'replace')
-
