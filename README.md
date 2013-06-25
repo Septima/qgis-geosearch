@@ -21,6 +21,8 @@ Den nemmeste måde at installere pluginet på, er at tilføje Septima's reposito
  - 4) Indtast et selvvalgt navn (feks Septima) og under URL indtastes http://qgis.septima.dk/plugins
  - 5) I Plugin Manageren vil pluginet nu være listet under Get more
 
+![Add repository](http://septima.github.io/qgis-geosearch/img/qgis2-addrepo.PNG)
+
 Ny funktionalitet
 -----------------
 Har du en idé til en forbedring eller har du måske opdaget en bug i pluginet, så vil Septima med glæde tilbyde sin bistand.
