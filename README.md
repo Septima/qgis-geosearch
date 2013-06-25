@@ -8,6 +8,10 @@ Installation
 --------------
 Den nemmeste måde at installere pluginet på, er at tilføje Septima's repository til QGIS. På den måde finder QGIS selv en kompatibel version af pluginet, og du får atumatisk besked, når der kommer nye versioner af pluginet.
 
+Uanset installationsmetoden kræver pluginet et fungerende login til [Kortforsyningen.dk](http://www.kortforsyningen.dk/). Selvom geosearch-servicen på Kortforsyningen er fri, så er der set eksempler på, at der ikke er åbnet for servicen for eksisterende (feks kommunale) brugere af Kortforsyningen.
+
+Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kortvinduet. Panelet kan feks flyttes, så det ligger oven for lagkontrollen i stedet. På denne placering fylder det ikke så meget, men er stadig let tilgængeligt.
+
 ###QGIS 1.8
  - 1) Åbn Plugin Installeren (Klik Plugins -> Fetch python plugins...)
  - 2) Under fanebladet Repositories klikkes Add
@@ -25,6 +29,8 @@ Den nemmeste måde at installere pluginet på, er at tilføje Septima's reposito
 
 Ny funktionalitet
 -----------------
+Der er allerede en række forslag til forbedringer i projektets [Issuetracker](../../issues).
+
 Har du en idé til en forbedring eller har du måske opdaget en bug i pluginet, så vil Septima med glæde tilbyde sin bistand.
 
 Du kan registrere din idé eller bug i projektets [Issuetracker](../../issues). Her kan du også se eksistrende registreringer af idéer og bugs.
