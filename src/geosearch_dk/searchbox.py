@@ -17,7 +17,7 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&limit={limit}&login={login}&password={password}&callback={callback}&search="
+BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
 RESOURCES = "Adresser,Stednavne,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 from PyQt4.QtGui import *
@@ -77,16 +77,18 @@ class SearchBox(QFrame, FORM_CLASS):
             'resources': str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
+            'muncodes': s.value(k + "/muncodes", [])
         }
 
     def updateconfig(self):
         s = QSettings()
         k = __package__
-        s.setValue(k + "/username",  self.config['username'])
-        s.setValue(k + "/password",  self.config['password'])
-        s.setValue(k + "/resources",  self.config['resources'])
-        s.setValue(k + "/maxresults",  self.config['maxresults'])
-        s.setValue(k + "/callback",  self.config['callback'])
+        s.setValue(k + "/username",     self.config['username'])
+        s.setValue(k + "/password",     self.config['password'])
+        s.setValue(k + "/resources",    self.config['resources'])
+        s.setValue(k + "/maxresults",   self.config['maxresults'])
+        s.setValue(k + "/callback",     self.config['callback'])
+        s.setValue(k + "/muncodes",     self.config['muncodes'])
 
     def geturl(self, searchterm):
         url = BASEURL.format(
@@ -94,7 +96,8 @@ class SearchBox(QFrame, FORM_CLASS):
             limit=self.config['maxresults'],
             login=self.config['username'],
             password=self.config['password'],
-            callback=self.config['callback']
+            callback=self.config['callback'],
+            area=','.join(['muncode0'+str(k) for k in self.config['muncodes']])
         )
         url += searchterm
         return QUrl(url)
@@ -226,6 +229,7 @@ class SearchBox(QFrame, FORM_CLASS):
             # save settings
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
+            self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',')]
             self.updateconfig()
 
     def show_about_dialog(self):
