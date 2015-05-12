@@ -72,9 +72,9 @@ class SeptimaGeoSearch:
         self.aboutAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Om pluginet"), self.iface.mainWindow())
         
         #QObject.connect(self.configAction, SIGNAL("activated()"), self.searchwidget.show_settings_dialog)
-        self.configAction.activated.connect( self.searchwidget.show_settings_dialog )
+        self.configAction.triggered.connect( self.searchwidget.show_settings_dialog )
         #QObject.connect(self.aboutAction, SIGNAL("activated()"), self.searchwidget.show_about_dialog)
-        self.aboutAction.activated.connect( self.searchwidget.show_about_dialog )
+        self.aboutAction.triggered.connect( self.searchwidget.show_about_dialog )
         
         self.iface.addPluginToMenu("Geosearch DK", self.configAction)
         self.iface.addPluginToMenu("Geosearch DK", self.aboutAction)
