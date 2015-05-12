@@ -21,12 +21,21 @@ import os
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4 import uic
-#from ui_settings import Ui_Dialog
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'ui_settings.ui'))
+
+MUNCODE_REGEX = '[0-9,]*'
+
 
 class SettingsDialog (QDialog, FORM_CLASS):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
+
+        regex = QRegExp('', Qt.CaseInsensitive)
+        self.muncodeValidator = QRegExpValidator(MUNCODE_REGEX)
+        self.kommunekoderLineEdit.setValidator(
+            self.muncodeValidator,
+            self.kommunekoderLineEdit
+        )
