@@ -85,6 +85,7 @@ class SearchBox(QFrame):
         s.setValue(k + "/muncodes",     self.config['muncodes'])
 
     def geturl(self, searchterm):
+        # TODO: prepare what can be prepared
         url = BASEURL.format( 
                               resources = self.config['resources'], 
                               limit =     self.config['maxresults'], 
@@ -210,6 +211,7 @@ class SearchBox(QFrame):
         dlg = settingsdialog.SettingsDialog()
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
+        dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
         # show the dialog
         dlg.show()
         result = dlg.exec_()
@@ -219,7 +221,7 @@ class SearchBox(QFrame):
             # save settings
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
-            self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',')]
+            self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '' ]
             self.updateconfig()
     
     def show_about_dialog(self):

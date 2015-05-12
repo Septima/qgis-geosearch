@@ -21,7 +21,13 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from ui_settings import Ui_Dialog
 
+MUNCODE_REGEX = '[0-9,]*'
+
 class SettingsDialog (QDialog, Ui_Dialog):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
+        
+        regex = QRegExp('', Qt.CaseInsensitive)
+        self.muncodeValidator = QRegExpValidator( MUNCODE_REGEX )
+        self.kommunekoderLineEdit.setValidator( self.muncodeValidator, self.kommunekoderLineEdit )
