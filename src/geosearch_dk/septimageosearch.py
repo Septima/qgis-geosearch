@@ -28,8 +28,6 @@ import resources_rc
 
 from searchbox import SearchBox
 
-#import win32api
-
 
 class SeptimaGeoSearch:
 
@@ -39,10 +37,10 @@ class SeptimaGeoSearch:
 
         # initialize plugin directory
         self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/" + __package__
-        
+
         # config
         self.config = QSettings()
-        
+
         # initialize locale
         localePath = ""
         locale = self.config.value("locale/userLocale")[0:2]
@@ -61,27 +59,38 @@ class SeptimaGeoSearch:
         # create the widget to display information
         self.searchwidget = SearchBox(self.iface)
         # create the dockwidget with the correct parent and add the valuewidget
-        self.searchdockwidget=QDockWidget("Geosearch DK" , self.iface.mainWindow() )
+        self.searchdockwidget = QDockWidget(
+            "Geosearch DK", self.iface.mainWindow()
+        )
         self.searchdockwidget.setObjectName("Geosearch DK")
         self.searchdockwidget.setWidget(self.searchwidget)
         # add the dockwidget to iface
-        self.iface.addDockWidget(Qt.TopDockWidgetArea,self.searchdockwidget) # & Qt.LeftDockWidgetArea
-        
+        self.iface.addDockWidget(
+            Qt.TopDockWidgetArea, self.searchdockwidget
+        )
+
         # Menu items
-        self.configAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Indstillinger"), self.iface.mainWindow())
-        self.aboutAction=QAction(QIcon(), QCoreApplication.translate('Geosearch DK', "&Om pluginet"), self.iface.mainWindow())
-        
-        #QObject.connect(self.configAction, SIGNAL("activated()"), self.searchwidget.show_settings_dialog)
-        self.configAction.triggered.connect( self.searchwidget.show_settings_dialog )
-        #QObject.connect(self.aboutAction, SIGNAL("activated()"), self.searchwidget.show_about_dialog)
-        self.aboutAction.triggered.connect( self.searchwidget.show_about_dialog )
-        
+        self.configAction = QAction(
+            QIcon(),
+            QCoreApplication.translate('Geosearch DK', "&Indstillinger"),
+            self.iface.mainWindow()
+        )
+        self.aboutAction = QAction(
+            QIcon(),
+            QCoreApplication.translate('Geosearch DK', "&Om pluginet"),
+            self.iface.mainWindow()
+        )
+
+        self.configAction.triggered.connect(
+            self.searchwidget.show_settings_dialog
+        )
+        self.aboutAction.triggered.connect(self.searchwidget.show_about_dialog)
+
         self.iface.addPluginToMenu("Geosearch DK", self.configAction)
         self.iface.addPluginToMenu("Geosearch DK", self.aboutAction)
 
     def unload(self):
-        #win32api.MessageBox(0, 'unload', 'title')
         self.searchwidget.unload() # try to avoid processing events, when QGIS is closing
-        self.iface.removePluginMenu("Geosearch DK", self.configAction )
-        self.iface.removePluginMenu("Geosearch DK", self.aboutAction )
-        self.iface.removeDockWidget( self.searchdockwidget )
+        self.iface.removePluginMenu("Geosearch DK", self.configAction)
+        self.iface.removePluginMenu("Geosearch DK", self.aboutAction)
+        self.iface.removeDockWidget(self.searchdockwidget)
