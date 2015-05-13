@@ -33,9 +33,8 @@ class SettingsDialog (QDialog, FORM_CLASS):
         QDialog.__init__(self)
         self.setupUi(self)
 
-        regex = QRegExp('', Qt.CaseInsensitive)
-        self.muncodeValidator = QRegExpValidator(MUNCODE_REGEX)
+        regex = QRegExp(MUNCODE_REGEX, Qt.CaseInsensitive)
+        self.muncodeValidator = QRegExpValidator(regex)
         self.kommunekoderLineEdit.setValidator(
-            self.muncodeValidator,
-            self.kommunekoderLineEdit
+            self.muncodeValidator
         )
