@@ -17,11 +17,16 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+import os
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
-from ui_settings import Ui_Dialog
+from PyQt4 import uic
+#from ui_settings import Ui_Dialog
 
-class SettingsDialog (QDialog, Ui_Dialog):
+FORM_CLASS, _ = uic.loadUiType(os.path.join(
+    os.path.dirname(__file__), 'ui_settings.ui'))
+
+class SettingsDialog (QDialog, FORM_CLASS):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)

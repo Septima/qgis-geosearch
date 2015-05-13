@@ -22,58 +22,64 @@ RESOURCES = "Adresser,Stednavne,Postdistrikter,Matrikelnumre,Kommuner,Opstilling
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
+from PyQt4 import uic
 
 from qgis.core import *
 from qgis.gui import *
 
 import microjson
+import os
 
 import qgisutils
 from autosuggest import AutoSuggest
-from ui_search import Ui_searchForm
+# from ui_search import Ui_searchForm
 import settingsdialog
 
+FORM_CLASS, _ = uic.loadUiType(os.path.join(
+    os.path.dirname(__file__), 'ui_search.ui')
+)
 
-class SearchBox(QFrame):
+
+class SearchBox(QFrame, FORM_CLASS):
 
     def __init__(self, qgisIface):
         QFrame.__init__(self, qgisIface.mainWindow())
+        self.setupUi(self)
 
         self.qgisIface = qgisIface
         self.marker = None
         self.readconfig()
 
-        self.ui = Ui_searchForm()
-        self.ui.setupUi(self)
         self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
 
-        self.completion = AutoSuggest(geturl_func = self.geturl, parseresult_func = self.parseresponse, parent = self.ui.searchEdit)
+        self.completion = AutoSuggest(
+            geturl_func=self.geturl,
+            parseresult_func=self.parseresponse,
+            parent=self.searchEdit
+        )
         self.setupCrsTransform()
 
-        #self.connect(self.ui.searchEdit, SIGNAL("returnPressed()"), self.doSearch)
-        self.ui.searchEdit.returnPressed.connect( self.doSearch )
+        self.searchEdit.returnPressed.connect(self.doSearch)
         # Listen to crs changes
-        #self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("destinationSrsChanged()"), self.setupCrsTransform )
-        self.qgisIface.mapCanvas().mapRenderer().destinationSrsChanged.connect( self.setupCrsTransform )
-        #self.connect( self.qgisIface.mapCanvas().mapRenderer(), SIGNAL("hasCrsTransformEnabled(bool)"), self.setupCrsTransform )
-        self.qgisIface.mapCanvas().mapRenderer().hasCrsTransformEnabled.connect( self.setupCrsTransform )
+        self.qgisIface.mapCanvas().mapRenderer().destinationSrsChanged.connect(self.setupCrsTransform)
+        self.qgisIface.mapCanvas().mapRenderer().hasCrsTransformEnabled.connect(self.setupCrsTransform)
 
         self.adjustSize()
         self.resize(50, self.height())
-        self.ui.searchEdit.setFocus()
-    
+        self.searchEdit.setFocus()
+
     def readconfig(self):
         s = QSettings()
         k = __package__
         self.config = {
-                'username': str(s.value( k + "/username", "", type=str)),
-                'password': str(s.value( k + "/password", "", type=str)),
-                'resources': str(s.value( k + "/resources", RESOURCES, type=str)) ,
-                'maxresults': s.value( k + "/maxresults", 25, type=int),
-                'callback': str(s.value( k + "/callback", "callback", type=str)),
-            }
-    
-    def updateconfig( self ):
+            'username': str(s.value(k + "/username", "", type=str)),
+            'password': str(s.value(k + "/password", "", type=str)),
+            'resources': str(s.value(k + "/resources", RESOURCES, type=str)),
+            'maxresults': s.value(k + "/maxresults", 25, type=int),
+            'callback': str(s.value(k + "/callback", "callback", type=str)),
+        }
+
+    def updateconfig(self):
         s = QSettings()
         k = __package__
         s.setValue(k + "/username",  self.config['username'])
@@ -83,44 +89,49 @@ class SearchBox(QFrame):
         s.setValue(k + "/callback",  self.config['callback'])
 
     def geturl(self, searchterm):
-        url = BASEURL.format( 
-                              resources = self.config['resources'], 
-                              limit = self.config['maxresults'], 
-                              login = self.config['username'], 
-                              password = self.config['password'], 
-                              callback = self.config['callback'])
+        url = BASEURL.format(
+            resources=self.config['resources'],
+            limit=self.config['maxresults'],
+            login=self.config['username'],
+            password=self.config['password'],
+            callback=self.config['callback']
+        )
         url += searchterm
-        return QUrl( url )
-            
+        return QUrl(url)
 
     def parseresponse(self, response):
         # Trim callback
-        result = str( response )[ len(self.config['callback']) + 1 : -1]
-        #print result
+        result = str(response)[len(self.config['callback']) + 1: -1]
+        # print result
         try:
-            obj = microjson.from_json( result )
+            obj = microjson.from_json(result)
         except microjson.JSONError:
-            QgsMessageLog.logMessage('Invalid JSON response from server: ' + result, __package__)
+            QgsMessageLog.logMessage(
+                'Invalid JSON response from server: ' + result, __package__
+            )
             # Check if we have an auth error
             if 'User not found' in response or 'User not authenticated' in response:
-                QMessageBox.warning(None, 'Bruger afvist af Kortforsyningen', 
-                                    'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\n'
-                                    + 'Kortforsyningen svarede:\n'
-                                    + str(response) )
+                QMessageBox.warning(
+                    None,
+                    'Bruger afvist af Kortforsyningen',
+                    'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\n'
+                    + 'Kortforsyningen svarede:\n'
+                    + str(response)
+                )
                 self.show_settings_dialog()
             return None
-        
+
         if not obj.has_key('status'):
             QgsMessageLog.logMessage('Unexpected result from server: ' + result, __package__)
             return None
-        
+
         if not obj['status'] == 'OK':
             QgsMessageLog.logMessage('Server reported an error: ' + obj['message'], __package__)
             return None
-        
+
         data = obj['data']
 
-        # Make tuple with ("text", object) for each result        
+        # Make tuple with ("text", object) for each result
         return [(e['presentationString'], e) for e in data ]
 
     def setupCrsTransform(self):
@@ -200,7 +211,7 @@ class SearchBox(QFrame):
         self.setMarkerGeom( geom )
 
         mc.refresh()
-    
+
     def show_settings_dialog(self):
         # create and show the dialog
         dlg = settingsdialog.SettingsDialog()
@@ -216,9 +227,9 @@ class SearchBox(QFrame):
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.updateconfig()
-    
+
     def show_about_dialog(self):
-        infoString = QCoreApplication.translate('Geosearch DK', 
+        infoString = QCoreApplication.translate('Geosearch DK',
                             u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
                             u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
                             u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
@@ -227,7 +238,7 @@ class SearchBox(QFrame):
                             u"Mail: <a href=\"mailto:kontakt@septima.dk\">kontakt@septima.dk</a><br />"
                             u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n")
         QMessageBox.information(self.qgisIface.mainWindow(), "Om Geosearch DK",infoString)    
-    
+
     def unload( self ):
         self.completion.unload()
         self.clearMarkerGeom()
