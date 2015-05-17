@@ -38,7 +38,7 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	austosuggest.py \
+	autosuggest.py \
 	microjson.py \
 	pluginmetadata.py \
 	qgisutils.py \
@@ -46,11 +46,11 @@ SOURCES = \
 	septimageosearch.py\
 	settingsdialog.py
 
-PLUGINNAME = Geosearch DK
+PLUGINNAME = geosearch_dk
 
 PY_FILES = \
 	__init__.py \
-	austosuggest.py \
+	autosuggest.py \
 	microjson.py \
 	pluginmetadata.py \
 	qgisutils.py \
@@ -122,7 +122,8 @@ deploy: compile doc transcompile
 	cp -vf $(UI_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vf $(COMPILED_RESOURCE_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	#We have no translations, dont try and copy them.
+	#cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
 
 # The dclean target removes compiled python files from plugin directory

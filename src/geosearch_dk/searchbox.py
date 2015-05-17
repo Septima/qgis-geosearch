@@ -119,8 +119,7 @@ class SearchBox(QFrame, FORM_CLASS):
                 QMessageBox.warning(
                     None,
                     'Bruger afvist af Kortforsyningen',
-                    'Manglende eller ukorrekt brugernavn og password \
-                            til Kortforsyningen.\n\n'
+                    'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\n'
                     + 'Kortforsyningen svarede:\n'
                     + str(response)
                 )
