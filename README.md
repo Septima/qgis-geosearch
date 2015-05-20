@@ -12,13 +12,7 @@ Uanset installationsmetoden kræver pluginet et fungerende login til [Kortforsyn
 
 Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kortvinduet. Panelet kan feks flyttes, så det ligger oven for lagkontrollen i stedet. På denne placering fylder det ikke så meget, men er stadig let tilgængeligt.
 
-###QGIS 1.8
- - 1) Åbn Plugin Installeren (Klik Plugins -> Fetch python plugins...)
- - 2) Under fanebladet Repositories klikkes Add
- - 3) Indtast et selvvalgt navn (feks Septima) og under URL indtastes http://qgis.septima.dk/plugins
- - 4) Pluginet vil nu være listet Under fanebladet Plugins
-
-###QGIS 2.0 (inkl nyere 1.9)
+###QGIS 2.x
  - 1) Åbn Plugin Manageren (Klik Plugins -> Manage and Install Plugins)
  - 2) Vælg Settings
  - 3) Klik Add under Plugin Repositories
