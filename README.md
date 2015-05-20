@@ -21,6 +21,12 @@ Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kort
 
 ![Add repository](http://septima.github.io/qgis-geosearch/img/qgis2-addrepo.PNG)
 
+Indstillinger
+-----------------
+Følgende instilllinger kan foretages i pluginets indstillingsdialog (Klik Plugins -> Geosearch DK -> Indstillinger):
+- Brugernavn og password til Kortforsyningen (Opret bruger [her](http://download.kortforsyningen.dk/user/register))
+- Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Der vises nu kun søgeresultater fra de listede kommuner.
+
 Ny funktionalitet
 -----------------
 Der er allerede en række forslag til forbedringer i projektets [Issuetracker](../../issues).
