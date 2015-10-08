@@ -19,7 +19,7 @@ author               : asger@septima.dk
 """
 def getCurrentCrs( iface ):
     canvas = iface.mapCanvas()
-    renderer = canvas.mapRenderer()
-    return renderer.destinationCrs()
+    settings = canvas.mapSettings()
+    return settings.destinationCrs()
 
 
