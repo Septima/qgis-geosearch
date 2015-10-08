@@ -23,7 +23,16 @@
    <property name="spacing">
     <number>4</number>
    </property>
-   <property name="margin">
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>4</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
     <number>4</number>
    </property>
    <item>
@@ -31,21 +40,11 @@
      <item>
       <widget class="QgsFilterLineEdit" name="searchEdit"/>
      </item>
-     <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>&amp;copy; &lt;a href=&quot;http://www.septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
-       </property>
-       <property name="openExternalLinks">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
     </layout>
    </item>
   </layout>
  </widget>
-  <customwidgets>
+ <customwidgets>
   <customwidget>
    <class>QgsFilterLineEdit</class>
    <extends>QLineEdit</extends>
