@@ -29,7 +29,7 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QLineEdit" name="searchEdit"/>
+      <widget class="QgsFilterLineEdit" name="searchEdit"/>
      </item>
      <item>
       <widget class="QLabel" name="label">
@@ -45,6 +45,13 @@
    </item>
   </layout>
  </widget>
+  <customwidgets>
+  <customwidget>
+   <class>QgsFilterLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qgis.gui</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

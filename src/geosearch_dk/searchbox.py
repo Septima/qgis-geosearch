@@ -91,6 +91,9 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/muncodes",     self.config['muncodes'])
 
     def geturl(self, searchterm):
+        self.clearMarkerGeom()
+        if not searchterm:
+            return None
         # TODO: prepare what can be prepared
         url = BASEURL.format(
             resources=self.config['resources'],

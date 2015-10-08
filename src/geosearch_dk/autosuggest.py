@@ -36,8 +36,8 @@ class AutoSuggest(QObject):
 
     def __init__(self, geturl_func, parseresult_func, parent = None):
         QObject.__init__(self, parent)
-        self.geturl = geturl_func
-        self.parseresult = parseresult_func
+        self.geturl_func = geturl_func
+        self.parseresult_func = parseresult_func
         
         self.editor = parent
         self.networkManager = QNetworkAccessManager()
@@ -75,7 +75,9 @@ class AutoSuggest(QObject):
         
         #self.connect(self.editor, SIGNAL("textEdited(QString)"), self.timer, SLOT("start()"))
         #self.editor.textEdited.connect( self.timer.start )
-        self.editor.textEdited.connect( self.timer.start )
+        #self.editor.textEdited.connect( self.timer.start )
+        self.editor.textChanged.connect( self.timer.start )
+        self.editor.cleared.connect( self.clearPressed )
 
         #self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
         #             self.handleNetworkData)
@@ -165,8 +167,8 @@ class AutoSuggest(QObject):
 
     def autoSuggest(self):
         term = self.editor.text()
-        if term:
-            qurl = self.geturl( term )
+        qurl = self.geturl_func( term )
+        if qurl:
             # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
             self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
 
@@ -176,10 +178,14 @@ class AutoSuggest(QObject):
         if not networkReply.error():
             response = networkReply.readAll()
             #print "Response: ", response
-            rows = self.parseresult( response )
+            rows = self.parseresult_func( response )
             self.showCompletion( rows )
 
         networkReply.deleteLater()
+
+    def clearPressed(self):
+        #print "ClearPressed"
+        pass
 
     def unload( self ):
         # Avoid processing events after QGIS shutdown has begun
