@@ -142,7 +142,8 @@ class AutoSuggest(QObject):
         self.popup.setUpdatesEnabled(True)
 
         h = self.popup.sizeHintForRow(0) * min(15, len(rows)) + 3
-        self.popup.resize(self.popup.width(), h)
+        w = max(self.popup.width(), self.editor.width())
+        self.popup.resize(w, h)
 
         self.popup.move(self.editor.mapToGlobal(QPoint(0, self.editor.height())))
         self.popup.setFocus()
