@@ -60,6 +60,9 @@ class SearchBox(QFrame, FORM_CLASS):
         self.setupCrsTransform()
 
         self.searchEdit.returnPressed.connect(self.doSearch)
+        if hasattr(self.searchEdit, 'setPlaceholderText'):
+            self.searchEdit.setPlaceholderText(self.tr(u'Søg adresse, vejnavn, stednavn, postnummer, matrikel mm...'))
+
         # Listen to crs changes
         self.qgisIface.mapCanvas().mapRenderer().destinationSrsChanged.connect(self.setupCrsTransform)
         self.qgisIface.mapCanvas().mapRenderer().hasCrsTransformEnabled.connect(self.setupCrsTransform)
