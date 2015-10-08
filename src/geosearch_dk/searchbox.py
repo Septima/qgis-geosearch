@@ -60,6 +60,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.setupCrsTransform()
 
         self.searchEdit.returnPressed.connect(self.doSearch)
+        self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
             self.searchEdit.setPlaceholderText(self.tr(u'Søg adresse, vejnavn, stednavn, postnummer, matrikel mm...'))
 

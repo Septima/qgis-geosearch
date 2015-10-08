@@ -75,9 +75,8 @@ class AutoSuggest(QObject):
         
         #self.connect(self.editor, SIGNAL("textEdited(QString)"), self.timer, SLOT("start()"))
         #self.editor.textEdited.connect( self.timer.start )
-        #self.editor.textEdited.connect( self.timer.start )
-        self.editor.textChanged.connect( self.timer.start )
-        self.editor.cleared.connect( self.clearPressed )
+        self.editor.textEdited.connect( self.timer.start )
+        #self.editor.textChanged.connect( self.timer.start )
 
         #self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
         #             self.handleNetworkData)
@@ -168,8 +167,8 @@ class AutoSuggest(QObject):
 
     def autoSuggest(self):
         term = self.editor.text()
-        qurl = self.geturl_func( term )
-        if qurl:
+        if term:
+            qurl = self.geturl_func( term )
             # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
             self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
 
@@ -183,10 +182,6 @@ class AutoSuggest(QObject):
             self.showCompletion( rows )
 
         networkReply.deleteLater()
-
-    def clearPressed(self):
-        #print "ClearPressed"
-        pass
 
     def unload( self ):
         # Avoid processing events after QGIS shutdown has begun
