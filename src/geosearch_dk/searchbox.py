@@ -229,7 +229,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def show_settings_dialog(self):
         # create and show the dialog
-        dlg = settingsdialog.SettingsDialog()
+        dlg = settingsdialog.SettingsDialog(self.qgisIface)
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
         dlg.kommunekoderLineEdit.setText(

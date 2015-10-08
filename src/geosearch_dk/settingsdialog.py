@@ -29,8 +29,8 @@ MUNCODE_REGEX = '[0-9,]*'
 
 
 class SettingsDialog (QDialog, FORM_CLASS):
-    def __init__(self):
-        QDialog.__init__(self)
+    def __init__(self, qgisIface):
+        QDialog.__init__(self, qgisIface.mainWindow())
         self.setupUi(self)
 
         regex = QRegExp(MUNCODE_REGEX, Qt.CaseInsensitive)
