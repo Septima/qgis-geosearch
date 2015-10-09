@@ -10,10 +10,11 @@
 
 [general]
 name=Geosearch DK
-qgisMinimumVersion=2.0
+qgisMinimumVersion=2.8
 qgisMaximumVersion=2.99
-description=Zoom to named places in Denmark. Uses Kortforsyningen. Developed by Septima.
-version=0.1.23
+description=Search and zoom to named places in Denmark
+about= Uses Kortforsyningen services for searching addresses, road names, place names and a lot more. Developed by Septima.
+version=0.2.1
 author=Asger Skovbo Petersen, Septima
 email=asger@septima.dk
 
@@ -22,10 +23,11 @@ email=asger@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-# changelog=
+# changelog= 2015-10-09 0.2.0 "Clear" button in search box - also clears marker geometry. A lot of GUI improvements. Use new ressource "stednavne_v2" instead of "stednavne".
+    2015-05-20 0.1.23 Add municipality filter setting
 
 # tags are comma separated with spaces allowed
-tags=
+tags=Danmark, dansk, Kortforsyningen, søg, adresse, stednavn
 
 homepage=https://github.com/Septima/qgis-geosearch
 tracker=https://github.com/Septima/qgis-geosearch/issues
