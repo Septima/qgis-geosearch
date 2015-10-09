@@ -18,7 +18,7 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
-RESOURCES = "Adresser,Stednavne,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
+RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
@@ -47,7 +47,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.setupUi(self)
 
         self.qgisIface = qgisIface
-        self.marker = None
+        self.markers = []
         self.readconfig()
 
         self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
@@ -78,7 +78,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.config = {
             'username': str(s.value(k + "/username", "", type=str)),
             'password': str(s.value(k + "/password", "", type=str)),
-            'resources': str(s.value(k + "/resources", RESOURCES, type=str)),
+            'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
             'muncodes': s.value(k + "/muncodes", [])
@@ -161,27 +161,40 @@ class SearchBox(QFrame, FORM_CLASS):
     def setMarkerGeom(self, geom):
         # Show geometry
         self.clearMarkerGeom()
+        self._setMarkerGeom(geom)
 
-        if geom.wkbType() == QGis.WKBPoint:
-            m = QgsVertexMarker(self.qgisIface.mapCanvas())
-            m.setCenter(geom.asPoint())
-        elif geom.wkbType() == QGis.WKBLineString:
-            m = QgsRubberBand(self.qgisIface.mapCanvas(), False)  # not polygon
-            m.setToGeometry(geom, None)
+    def _setMarkerGeom(self, geom):
+        if geom.isMultipart():
+            geometries = self._extractAsSingle(geom)
+            for g in geometries:
+                self._setMarkerGeom(g)
+        else:
+            if geom.wkbType() == QGis.WKBPoint:
+                m = self._setPointMarker(geom)
+            elif geom.wkbType() in (QGis.WKBLineString, QGis.WKBPolygon):
+                m = self._setRubberBandMarker(geom)
+            m.setColor(QColor(255, 0, 0))
+            self.markers.append( m )
+
+    def _setPointMarker(self, pointgeom):
+        m = QgsVertexMarker(self.qgisIface.mapCanvas())
+        m.setCenter(pointgeom.asPoint())
+        return m
+
+    def _setRubberBandMarker(self, geom):
+        m = QgsRubberBand(self.qgisIface.mapCanvas(), False)  # not polygon
+        if geom.wkbType() == QGis.WKBLineString:
+            linegeom = geom
         elif geom.wkbType() == QGis.WKBPolygon:
-            m = QgsRubberBand(self.qgisIface.mapCanvas(), False)
-            m.setToGeometry(
-                QgsGeometry.fromPolyline(geom.asPolygon()[0]),
-                None
-            )
-
-        m.setColor(QColor(255, 0, 0))
-        self.marker = m
+            linegeom = QgsGeometry.fromPolyline(geom.asPolygon()[0])
+        m.setToGeometry(linegeom, None)
+        return m
 
     def clearMarkerGeom(self):
-        if self.marker is not None:
-            self.qgisIface.mapCanvas().scene().removeItem(self.marker)
-            self.marker = None
+        if self.markers:
+            for m in self.markers:
+                self.qgisIface.mapCanvas().scene().removeItem(m)
+        self.markers = []
 
     def clear(self):
         self.clearMarkerGeom()
@@ -191,7 +204,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.completion.preventSuggest()
 
         o = self.completion.selectedObject
-        # print o
+        print o
         if not o:
             return
 
@@ -265,6 +278,33 @@ class SearchBox(QFrame, FORM_CLASS):
     def unload(self):
         self.completion.unload()
         self.clearMarkerGeom()
+
+
+    def _extractAsSingle(self, geom):
+        multiGeom = QgsGeometry()
+        geometries = []
+        if geom.type() == QGis.Point:
+            if geom.isMultipart():
+                multiGeom = geom.asMultiPoint()
+                for i in multiGeom:
+                    geometries.append(QgsGeometry().fromPoint(i))
+            else:
+                geometries.append(geom)
+        elif geom.type() == QGis.Line:
+            if geom.isMultipart():
+                multiGeom = geom.asMultiPolyline()
+                for i in multiGeom:
+                    geometries.append(QgsGeometry().fromPolyline(i))
+            else:
+                geometries.append(geom)
+        elif geom.type() == QGis.Polygon:
+            if geom.isMultipart():
+                multiGeom = geom.asMultiPolygon()
+                for i in multiGeom:
+                    geometries.append(QgsGeometry().fromPolygon(i))
+            else:
+                geometries.append(geom)
+        return geometries
 
 if __name__ == "__main__":
 
