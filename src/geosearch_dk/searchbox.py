@@ -204,7 +204,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.completion.preventSuggest()
 
         o = self.completion.selectedObject
-        print o
+        #print o
         if not o:
             return
 
