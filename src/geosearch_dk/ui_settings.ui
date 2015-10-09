@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>452</width>
-    <height>228</height>
+    <height>252</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -69,7 +69,7 @@
          <item row="2" column="1">
           <widget class="QLineEdit" name="passwordLineEdit">
            <property name="inputMethodHints">
-            <set>Qt::ImhNone</set>
+            <set>Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText</set>
            </property>
            <property name="echoMode">
             <enum>QLineEdit::PasswordEchoOnEdit</enum>
@@ -124,6 +124,16 @@
          </item>
         </layout>
        </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="copyrightLabel">
+       <property name="text">
+        <string>Geosearch DK er bygget af  &lt;a href=&quot;http://www.septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
