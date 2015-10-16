@@ -46,7 +46,7 @@ class SeptimaGeoSearch:
         locale = self.config.value("locale/userLocale")[0:2]
 
         if QFileInfo(self.plugin_dir).exists():
-            localePath = self.plugin_dir + "/i18n/" + __package__ + locale + ".qm"
+            localePath = self.plugin_dir + "/i18n/" + locale + ".qm"
 
         if QFileInfo(localePath).exists():
             self.translator = QTranslator()

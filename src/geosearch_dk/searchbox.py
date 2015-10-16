@@ -62,7 +62,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.returnPressed.connect(self.doSearch)
         self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
-            self.searchEdit.setPlaceholderText(self.tr(u'Søg adresse, vejnavn, stednavn, postnummer, matrikel mm...'))
+            self.searchEdit.setPlaceholderText(self.trUtf8(u'Søg adresse, vejnavn, stednavn, postnummer, matrikel mm...'))
 
         # Listen to crs changes
         self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
@@ -251,7 +251,6 @@ class SearchBox(QFrame, FORM_CLASS):
         # show the dialog
         dlg.show()
         result = dlg.exec_()
-        print "SettingsDialog result", result
         # See if OK was pressed
         if result == 1:
             # save settings
@@ -261,8 +260,7 @@ class SearchBox(QFrame, FORM_CLASS):
             self.updateconfig()
 
     def show_about_dialog(self):
-        infoString = QCoreApplication.translate(
-            'Geosearch DK',
+        infoString = self.trUtf8(
             u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
             u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
             u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
