@@ -123,13 +123,10 @@ class SearchBox(QFrame, FORM_CLASS):
             # Check if we have an auth error
             if 'User not found' in response or \
                     'User not authenticated' in response:
-                QMessageBox.warning(
-                    None,
-                    'Bruger afvist af Kortforsyningen',
-                    'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\n'
-                    + 'Kortforsyningen svarede:\n'
-                    + str(response)
-                )
+                title = self.trUtf8(u'Bruger afvist af Kortforsyningen')
+                msg = self.trUtf8(u'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\nKortforsyningen svarede:\n')
+                QMessageBox.warning( None, title, msg + str(response))
+                # Now show settings dialog
                 self.show_settings_dialog()
             return None
 
