@@ -73,6 +73,8 @@ PEP8EXCLUDE=pydev,resources_rc.py,conf.py,third_party,ui
 # Normally you would not need to edit below here
 #################################################
 
+PCKGDIR = ../../install
+
 HELP = help/build/html
 
 PLUGIN_UPLOAD = $(c)/plugin_upload.py
@@ -109,7 +111,20 @@ test: compile transcompile
 	@echo "e.g. source run-env-linux.sh <path to qgis install>; make test"
 	@echo "----------------------"
 
-deploy: compile doc transcompile
+pack: compile doc transcompile
+	@echo
+	@echo "------------------------------------------"
+	@echo "Packing plugin .                          "
+	@echo "------------------------------------------"
+	mkdir -p $(PCKGDIR)/$(PLUGINNAME)
+	cp -vf $(PY_FILES) $(PCKGDIR)/$(PLUGINNAME)
+	cp -vf $(UI_FILES) $(PCKGDIR)/$(PLUGINNAME)
+	cp -vf $(COMPILED_RESOURCE_FILES) $(PCKGDIR)/$(PLUGINNAME)
+	cp -vf $(EXTRAS) $(PCKGDIR)/$(PLUGINNAME)
+	cp -vfr i18n $(PCKGDIR)/$(PLUGINNAME)
+	cp -vfr $(HELP) $(PCKGDIR)/$(PLUGINNAME)/help
+
+deploy: pack
 	@echo
 	@echo "------------------------------------------"
 	@echo "Deploying plugin to your .qgis2 directory."
@@ -117,14 +132,7 @@ deploy: compile doc transcompile
 	# The deploy  target only works on unix like operating system where
 	# the Python plugin directory is located at:
 	# $HOME/$(QGISDIR)/python/plugins
-	mkdir -p $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vf $(PY_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vf $(UI_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vf $(COMPILED_RESOURCE_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	#We have no translations, dont try and copy them.
-	#cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
-	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
+	cp -vfr $(PCKGDIR)/$(PLUGINNAME) $(HOME)/$(QGISDIR)/python/plugins
 
 # The dclean target removes compiled python files from plugin directory
 # also deletes any .git entry
@@ -152,7 +160,7 @@ zip: deploy dclean
 	# The zip target deploys the plugin and creates a zip file with the deployed
 	# content. You can then upload the zip file on http://plugins.qgis.org
 	rm -f $(PLUGINNAME).zip
-	cd $(HOME)/$(QGISDIR)/python/plugins; zip -9r $(CURDIR)/$(PLUGINNAME).zip $(PLUGINNAME)
+	cd $(PCKGDIR); zip -9r $(CURDIR)/$(PLUGINNAME).zip $(PLUGINNAME)
 
 package: compile
 	# Create a zip package of the plugin named $(PLUGINNAME).zip.
@@ -165,7 +173,9 @@ package: compile
 	@echo "Exporting plugin to zip package.	"
 	@echo "------------------------------------"
 	rm -f $(PLUGINNAME).zip
-	git archive --prefix=$(PLUGINNAME)/ -o $(PLUGINNAME).zip $(VERSION)
+	#git archive --prefix=$(PLUGINNAME)/ -o $(PLUGINNAME).zip $(VERSION)
+	# Our py-files are in src/
+	cd ../..; git archive -o $(PLUGINNAME).zip $(VERSION):src
 	echo "Created package: $(PLUGINNAME).zip"
 
 upload: zip
@@ -210,7 +220,8 @@ doc:
 	@echo "------------------------------------"
 	@echo "Building documentation using sphinx."
 	@echo "------------------------------------"
-	cd help; make html
+	# We dont have documentation....
+	#cd help; make html
 
 pylint:
 	@echo
