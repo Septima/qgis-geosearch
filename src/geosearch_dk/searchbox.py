@@ -20,6 +20,17 @@ author               : asger@septima.dk
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
 RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
+RESOURCESdic = {
+                'adr': {'id':'Adresser', 'title':'Adresser'},
+                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'},
+                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter'},
+                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'},
+                'kom': {'id':'Kommuner', 'titel':'Kommuner'},
+                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
+                'pol': {'id':'Politikredse', 'titel':'Politikredse'},
+                'reg': {'id':'Regioner', 'titel':'Regioner'}
+                }
+
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 from PyQt4 import uic
@@ -62,7 +73,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.returnPressed.connect(self.doSearch)
         self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
-            self.searchEdit.setPlaceholderText(self.trUtf8(u'Søg adresse, vejnavn, stednavn, postnummer, matrikel mm...'))
+            self.searchEdit.setPlaceholderText(self.trUtf8(u"Søg adresse, stednavn, postnummer, matrikel m.m."))
 
         # Listen to crs changes
         self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
@@ -94,19 +105,31 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     self.config['muncodes'])
 
+
     def geturl(self, searchterm):
         self.clearMarkerGeom()
+        # List with shortcuts
+        req_resources = self.config['resources'] # Is this needed?
+        split = searchterm.split(':')
+        if len(split)>1:
+            first3letters_lowerCase = split[0][0:3].lower()
+            if first3letters_lowerCase in RESOURCESdic.keys():
+                req_resources = RESOURCESdic[first3letters_lowerCase]['id']
+                searchterm = split[1].lstrip()
         if not searchterm:
             return None
+
         # TODO: prepare what can be prepared
+
         url = BASEURL.format(
-            resources=self.config['resources'],
+            resources=req_resources,
             limit=self.config['maxresults'],
             login=self.config['username'],
             password=self.config['password'],
             callback=self.config['callback'],
             area=','.join(['muncode0'+str(k) for k in self.config['muncodes']])
         )
+
         url += searchterm
         return QUrl(url)
 
@@ -142,7 +165,11 @@ class SearchBox(QFrame, FORM_CLASS):
             )
             return None
 
+        if not obj.has_key("data"):
+            return None
         data = obj['data']
+        if not data:
+            return [(self.trUtf8("Ingen resultater"),None)]
 
         # Make tuple with ("text", object) for each result
         return [(e['presentationString'], e) for e in data]
