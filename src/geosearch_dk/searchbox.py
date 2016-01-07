@@ -159,7 +159,11 @@ class SearchBox(QFrame, FORM_CLASS):
             )
             return None
 
+        if not obj.has_key("data"):
+            return None
         data = obj['data']
+        if not data:
+            return [("Ingen resultater",None)]
 
         # Make tuple with ("text", object) for each result
         return [(e['presentationString'], e) for e in data]
