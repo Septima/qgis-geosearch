@@ -40,7 +40,6 @@ from qgis.gui import *
 
 import microjson
 import os
-import fnmatch
 
 import qgisutils
 from autosuggest import AutoSuggest
