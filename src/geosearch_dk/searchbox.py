@@ -20,6 +20,10 @@ author               : asger@septima.dk
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
 RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
+RESOURCESdic = {'adr': {'id':'Adresser', 'title':'Adresser'},'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'}, 'post': {id:'Postdistrikter', 'titel':'Postdistrikter'},
+                'matr': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'}, 'kom': {'id':'Kommuner', 'titel':'Kommuner'}, 'ops':{'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
+                'pol': {'id':'Politikredse', 'titel':'Politikredse'}, 'reg': {'id':'Regioner', 'titel':'Regioner'}}
+
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 from PyQt4 import uic
@@ -94,19 +98,32 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     self.config['muncodes'])
 
+
     def geturl(self, searchterm):
         self.clearMarkerGeom()
+        # List with shortcuts
         if not searchterm:
             return None
+        req_resources = self.config['resources'] # Is this needed?
+        shortcuts_list = RESOURCESdic.keys() # A list with shortcuts - maybe not in this def?
+        for shortc in shortcuts_list:
+            if "{0}:".format(shortc) in searchterm: # Maybe allow space wild wildcard in between ':' eg. 'adr : Abel'
+                split = searchterm.split(':')
+                shortcut = split[0]
+                searchterm = split[1]
+                req_resources = RESOURCESdic[shortcut]['id']
+
         # TODO: prepare what can be prepared
+
         url = BASEURL.format(
-            resources=self.config['resources'],
+            resources=req_resources,
             limit=self.config['maxresults'],
             login=self.config['username'],
             password=self.config['password'],
             callback=self.config['callback'],
             area=','.join(['muncode0'+str(k) for k in self.config['muncodes']])
         )
+
         url += searchterm
         return QUrl(url)
 
