@@ -18,10 +18,10 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
-RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
+##RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 RESOURCESdic = {'adr': {'id':'Adresser', 'title':'Adresser'},'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'}, 'post': {id:'Postdistrikter', 'titel':'Postdistrikter'},
-                'matr': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'}, 'kom': {'id':'Kommuner', 'titel':'Kommuner'}, 'ops':{'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
+                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'}, 'kom': {'id':'Kommuner', 'titel':'Kommuner'}, 'ops':{'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
                 'pol': {'id':'Politikredse', 'titel':'Politikredse'}, 'reg': {'id':'Regioner', 'titel':'Regioner'}}
 
 from PyQt4.QtGui import *
@@ -33,6 +33,7 @@ from qgis.gui import *
 
 import microjson
 import os
+import fnmatch
 
 import qgisutils
 from autosuggest import AutoSuggest
@@ -66,7 +67,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.returnPressed.connect(self.doSearch)
         self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
-            self.searchEdit.setPlaceholderText(self.trUtf8(u'Søg adresse (adr), vejnavn, stednavn, postnummer, matrikel mm...'))
+            self.searchEdit.setPlaceholderText(self.trUtf8(u"Søg adresse('adr:), stednavn ('ste:'), postnummer ('post:'), matrikel ('mat:') mm."))
 
         # Listen to crs changes
         self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
@@ -102,16 +103,15 @@ class SearchBox(QFrame, FORM_CLASS):
     def geturl(self, searchterm):
         self.clearMarkerGeom()
         # List with shortcuts
+        req_resources = self.config['resources'] # Is this needed?
+        split = searchterm.split(':')
+        if len(split)>1:
+            first3letters_lowerCase = split[0][0:3].lower()
+            if first3letters_lowerCase in RESOURCESdic.keys():
+                req_resources = RESOURCESdic[first3letters_lowerCase]['id']
+                searchterm = split[1].lstrip()
         if not searchterm:
             return None
-        req_resources = self.config['resources'] # Is this needed?
-        shortcuts_list = RESOURCESdic.keys() # A list with shortcuts - maybe not in this def?
-        for shortc in shortcuts_list:
-            if "{0}:".format(shortc) in searchterm: # Maybe allow space wild wildcard in between ':' eg. 'adr : Abel'
-                split = searchterm.split(':')
-                shortcut = split[0]
-                searchterm = split[1]
-                req_resources = RESOURCESdic[shortcut]['id']
 
         # TODO: prepare what can be prepared
 
