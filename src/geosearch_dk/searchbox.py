@@ -18,11 +18,18 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
-##RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
+RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
-RESOURCESdic = {'adr': {'id':'Adresser', 'title':'Adresser'},'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'}, 'post': {id:'Postdistrikter', 'titel':'Postdistrikter'},
-                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'}, 'kom': {'id':'Kommuner', 'titel':'Kommuner'}, 'ops':{'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
-                'pol': {'id':'Politikredse', 'titel':'Politikredse'}, 'reg': {'id':'Regioner', 'titel':'Regioner'}}
+RESOURCESdic = {
+                'adr': {'id':'Adresser', 'title':'Adresser'},
+                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'},
+                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter'},
+                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'},
+                'kom': {'id':'Kommuner', 'titel':'Kommuner'},
+                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
+                'pol': {'id':'Politikredse', 'titel':'Politikredse'},
+                'reg': {'id':'Regioner', 'titel':'Regioner'}
+                }
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
