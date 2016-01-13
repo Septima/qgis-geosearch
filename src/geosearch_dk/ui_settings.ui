@@ -137,7 +137,7 @@
           <rect>
            <x>10</x>
            <y>20</y>
-           <width>281</width>
+           <width>271</width>
            <height>121</height>
           </rect>
          </property>
@@ -149,6 +149,9 @@
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at regioner skal udvælges"/>
             </property>
             <property name="text">
              <string>Regioner ('reg')</string>
@@ -166,6 +169,9 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at adresser skal udvælges"/>
+            </property>
             <property name="text">
              <string>Adresser ('adr')</string>
             </property>
@@ -178,6 +184,9 @@
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at stednavne skal udvælges"/>
             </property>
             <property name="text">
              <string>Stednavne ('ste')</string>
@@ -195,6 +204,9 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at politikredse skal udvælges"/>
+            </property>
             <property name="text">
              <string>Politikredse ('pol')</string>
             </property>
@@ -210,6 +222,9 @@
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at opstillingskredse skal udvælges"/>
             </property>
             <property name="text">
              <string>Opstillingskredse ('ops')</string>
@@ -227,6 +242,9 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at postdistrikter skal udvælges"/>
+            </property>
             <property name="text">
              <string>Postdistrikter ('pos')</string>
             </property>
@@ -243,6 +261,9 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="toolTip">
+             <string extracomment="Sæt hak hvis det ønskes at matrikler skal udvælges"/>
+            </property>
             <property name="text">
              <string>Matrikelnumre ('mat')</string>
             </property>
@@ -258,7 +279,7 @@
           <rect>
            <x>11</x>
            <y>4</y>
-           <width>331</width>
+           <width>271</width>
            <height>16</height>
           </rect>
          </property>
