@@ -6,8 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>452</width>
-    <height>252</height>
+    <height>278</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -23,12 +22,16 @@
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <layout class="QFormLayout" name="formLayout"/>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+      </layout>
      </item>
      <item>
       <widget class="QTabWidget" name="tabWidget">
        <property name="currentIndex">
-        <number>0</number>
+        <number>2</number>
        </property>
        <widget class="QWidget" name="kortforsyningenTab">
         <property name="sizePolicy">
@@ -123,6 +126,103 @@
           </widget>
          </item>
         </layout>
+       </widget>
+       <widget class="QWidget" name="filterTab">
+        <attribute name="title">
+         <string>Filter</string>
+        </attribute>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>411</width>
+           <height>121</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="3" column="1">
+           <widget class="QCheckBox" name="regCheckbox">
+            <property name="text">
+             <string>Regioner</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="adrCheckbox">
+            <property name="text">
+             <string>Adresser</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="steCheckbox">
+            <property name="text">
+             <string>Stednavne</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="polCheckbox">
+            <property name="text">
+             <string>Politikredse</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QCheckBox" name="opsCheckbox">
+            <property name="text">
+             <string>Opstillingskredse</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="posCheckbox">
+            <property name="text">
+             <string>Postdistrikter</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="matCheckbox">
+            <property name="text">
+             <string>Matrikelnumre</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>11</x>
+           <y>4</y>
+           <width>331</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Sæt hak ved de resultater som søgningen skal returnere:</string>
+         </property>
+        </widget>
        </widget>
       </widget>
      </item>
