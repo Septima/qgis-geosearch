@@ -89,6 +89,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.config = {
             'username': str(s.value(k + "/username", "", type=str)),
             'password': str(s.value(k + "/password", "", type=str)),
+            ##'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
@@ -104,12 +105,13 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/maxresults",   self.config['maxresults'])
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     self.config['muncodes'])
+        ##s.setValue(k + "/", self.config)
 
 
     def geturl(self, searchterm):
         self.clearMarkerGeom()
         # List with shortcuts
-        req_resources = self.config['resources'] # Is this needed?
+        req_resources = self.config['resources']
         split = searchterm.split(':')
         if len(split)>1:
             first3letters_lowerCase = split[0][0:3].lower()
@@ -269,9 +271,22 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg = settingsdialog.SettingsDialog(self.qgisIface)
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
-        dlg.kommunekoderLineEdit.setText(
-            ','.join(map(str, self.config['muncodes']))
-        )
+        dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
+        if 'Adresser' in self.config['resources']:
+            dlg.adrCheckbox.setCheckState(2)
+        if 'Stednavne_v2' in self.config['resources']:
+            dlg.steCheckbox.setCheckState(2)
+        if 'Postdistrikter' in self.config['resources']:
+            dlg.posCheckbox.setCheckState(2)
+        if 'Matrikelnumre' in self.config['resources']:
+            dlg.matCheckbox.setCheckState(2)
+        if 'Opstillingskredse' in self.config['resources']:
+            dlg.opsCheckbox.setCheckState(2)
+        if 'Politikredse' in self.config['resources']:
+            dlg.polCheckbox.setCheckState(2)
+        if 'Regioner' in self.config['resources']:
+            dlg.regCheckbox.setCheckState(2)
+        self.updateconfig()
         # show the dialog
         dlg.show()
         result = dlg.exec_()
@@ -281,7 +296,22 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
-            self.updateconfig()
+            resources_list = []
+            if dlg.adrCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['adr']['id'])
+            if dlg.steCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['ste']['id'])
+            if dlg.posCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['pos']['id'])
+            if dlg.matCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['mat']['id'])
+            if dlg.opsCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['ops']['id'])
+            if dlg.polCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['pol']['id'])
+            if dlg.regCheckbox.isChecked():
+                resources_list.append(RESOURCESdic['reg']['id'])
+            self.config['resources'] = ', '.join(resources_list)
 
     def show_about_dialog(self):
         infoString = self.trUtf8(
