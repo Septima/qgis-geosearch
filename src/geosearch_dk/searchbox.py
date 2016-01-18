@@ -89,7 +89,6 @@ class SearchBox(QFrame, FORM_CLASS):
         self.config = {
             'username': str(s.value(k + "/username", "", type=str)),
             'password': str(s.value(k + "/password", "", type=str)),
-            ##'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
@@ -273,7 +272,7 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg.passwordLineEdit.setText(self.config['password'])
         dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
 
-        for dic in RESOURCESdic.values():
+        for dic in sorted(RESOURCESdic.values()):
             cb = getattr(dlg,dic['checkbox'])
             if dic['id'] in self.config['resources']:
                 cb.setCheckState(2)
