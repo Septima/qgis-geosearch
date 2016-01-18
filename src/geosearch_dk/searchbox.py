@@ -271,14 +271,12 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
         dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
-
         for dic in sorted(RESOURCESdic.values()):
             cb = getattr(dlg,dic['checkbox'])
             if dic['id'] in self.config['resources']:
                 cb.setCheckState(2)
             else:
                 cb.setCheckState(0)
-
         self.updateconfig()
         # show the dialog
         dlg.show()
