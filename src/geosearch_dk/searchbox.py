@@ -21,14 +21,14 @@ BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resour
 RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 RESOURCESdic = {
-                'adr': {'id':'Adresser', 'title':'Adresser'},
-                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'},
-                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter'},
-                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'},
-                'kom': {'id':'Kommuner', 'titel':'Kommuner'},
-                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
-                'pol': {'id':'Politikredse', 'titel':'Politikredse'},
-                'reg': {'id':'Regioner', 'titel':'Regioner'}
+                'adr': {'id':'Adresser', 'title':'Adresser', 'checkbox': 'adrCheckbox'},
+                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne', 'checkbox': 'steCheckbox'},
+                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter', 'checkbox':'posCheckbox'},
+                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre', 'checkbox': 'matCheckbox'},
+                'kom': {'id':'Kommuner', 'titel':'Kommuner', 'checkbox': 'komCheckbox'},
+                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse', 'checkbox': 'opsCheckbox'},
+                'pol': {'id':'Politikredse', 'titel':'Politikredse', 'checkbox':'polCheckbox' },
+                'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckbox'}
                 }
 
 from PyQt4.QtGui import *
@@ -272,20 +272,14 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
         dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
-        if 'Adresser' in self.config['resources']:
-            dlg.adrCheckbox.setCheckState(2)
-        if 'Stednavne_v2' in self.config['resources']:
-            dlg.steCheckbox.setCheckState(2)
-        if 'Postdistrikter' in self.config['resources']:
-            dlg.posCheckbox.setCheckState(2)
-        if 'Matrikelnumre' in self.config['resources']:
-            dlg.matCheckbox.setCheckState(2)
-        if 'Opstillingskredse' in self.config['resources']:
-            dlg.opsCheckbox.setCheckState(2)
-        if 'Politikredse' in self.config['resources']:
-            dlg.polCheckbox.setCheckState(2)
-        if 'Regioner' in self.config['resources']:
-            dlg.regCheckbox.setCheckState(2)
+
+        for dic in RESOURCESdic.values():
+            cb = getattr(dlg,dic['checkbox'])
+            if dic['id'] in self.config['resources']:
+                cb.setCheckState(2)
+            else:
+                cb.setCheckState(0)
+
         self.updateconfig()
         # show the dialog
         dlg.show()
@@ -297,20 +291,10 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
             resources_list = []
-            if dlg.adrCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['adr']['id'])
-            if dlg.steCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['ste']['id'])
-            if dlg.posCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['pos']['id'])
-            if dlg.matCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['mat']['id'])
-            if dlg.opsCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['ops']['id'])
-            if dlg.polCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['pol']['id'])
-            if dlg.regCheckbox.isChecked():
-                resources_list.append(RESOURCESdic['reg']['id'])
+            for dic in RESOURCESdic.values():
+                cb = getattr(dlg,dic['checkbox'])
+                if cb.isChecked():
+                    resources_list.append(dic['id'])
             self.config['resources'] = ', '.join(resources_list)
 
     def show_about_dialog(self):
