@@ -21,14 +21,14 @@ BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resour
 RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
 RESOURCESdic = {
-                'adr': {'id':'Adresser', 'title':'Adresser'},
-                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne'},
-                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter'},
-                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre'},
-                'kom': {'id':'Kommuner', 'titel':'Kommuner'},
-                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse'},
-                'pol': {'id':'Politikredse', 'titel':'Politikredse'},
-                'reg': {'id':'Regioner', 'titel':'Regioner'}
+                'adr': {'id':'Adresser', 'title':'Adresser', 'checkbox': 'adrCheckbox'},
+                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne', 'checkbox': 'steCheckbox'},
+                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter', 'checkbox':'posCheckbox'},
+                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre', 'checkbox': 'matCheckbox'},
+                'kom': {'id':'Kommuner', 'titel':'Kommuner', 'checkbox': 'komCheckbox'},
+                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse', 'checkbox': 'opsCheckbox'},
+                'pol': {'id':'Politikredse', 'titel':'Politikredse', 'checkbox':'polCheckbox' },
+                'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckbox'}
                 }
 
 from PyQt4.QtGui import *
@@ -104,12 +104,13 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/maxresults",   self.config['maxresults'])
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     self.config['muncodes'])
+        ##s.setValue(k + "/", self.config)
 
 
     def geturl(self, searchterm):
         self.clearMarkerGeom()
         # List with shortcuts
-        req_resources = self.config['resources'] # Is this needed?
+        req_resources = self.config['resources']
         split = searchterm.split(':')
         if len(split)>1:
             first3letters_lowerCase = split[0][0:3].lower()
@@ -269,9 +270,14 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg = settingsdialog.SettingsDialog(self.qgisIface)
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
-        dlg.kommunekoderLineEdit.setText(
-            ','.join(map(str, self.config['muncodes']))
-        )
+        dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
+        for dic in RESOURCESdic.values():
+            cb = getattr(dlg,dic['checkbox'])
+            if dic['id'] in self.config['resources']:
+                cb.setCheckState(2)
+            else:
+                cb.setCheckState(0)
+        self.updateconfig()
         # show the dialog
         dlg.show()
         result = dlg.exec_()
@@ -281,7 +287,12 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
-            self.updateconfig()
+            resources_list = []
+            for dic in sorted(RESOURCESdic.values()):
+                cb = getattr(dlg,dic['checkbox'])
+                if cb.isChecked():
+                    resources_list.append(dic['id'])
+            self.config['resources'] = ', '.join(resources_list)
 
     def show_about_dialog(self):
         infoString = self.trUtf8(
