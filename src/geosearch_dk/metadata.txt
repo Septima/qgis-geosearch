@@ -14,7 +14,7 @@ qgisMinimumVersion=2.8
 qgisMaximumVersion=2.99
 description=Search and zoom to named places in Denmark
 about= Uses Kortforsyningen services for searching addresses, road names, place names, land registry and a lot more. Developed by Septima.
-version=0.2.4
+version=0.2.5
 author=Asger Skovbo Petersen, Septima
 email=asger@septima.dk
 
@@ -23,7 +23,9 @@ email=asger@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog= 2015-10-23 0.2.4 Fix distribution package bug
+changelog=
+    2016-01-25 0.2.5 Added the possibility to limit the search to adresses/placenames/cadstral numbers/etc. in the searchbox by using keywords or by specifying the resulttype in the settingsdialog. This work was funded by Ballerup Kommune.
+    2015-10-23 0.2.4 Fix distribution package bug
     2015-10-19 0.2.3 Fixed missing translation of error dialog.
     2015-10-09 0.2.2 English translation.
     2015-10-09 0.2.0 "Clear" button in search box - also clears marker geometry (Funded by Frederikssund Kommune). A lot of GUI improvements. Use new ressource "stednavne_v2" instead of "stednavne".
