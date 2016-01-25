@@ -45,52 +45,52 @@
     <message>
         <location filename="ui_settings.ui" line="148"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="Filter"></translation>
     </message>
     <message encoding="UTF-8">
         <location filename="ui_settings.ui" line="160"/>
         <source>Sæt hak ved de resultater som søgningen skal returnere:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mark the kind of results which the search should return:</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="176"/>
         <source>Adresser (&apos;adr&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Addresses (&apos;adr&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="192"/>
         <source>Opstillingskredse (&apos;ops&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Voting districts (&apos;ops&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="211"/>
         <source>Stednavne (&apos;ste&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Placenames (&apos;ste&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="230"/>
         <source>Politikredse (&apos;pol&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Police districts (&apos;pol&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="249"/>
         <source>Postdistrikter (&apos;pos&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Postal codes (&apos;pos&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="268"/>
         <source>Kommuner (&apos;kom&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Municipalities (&apos;kom&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="287"/>
         <source>Matrikelnumre (&apos;mat&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Cadastral numbers (&apos;mat&apos;)</translation>
     </message>
     <message>
         <location filename="ui_settings.ui" line="306"/>
         <source>Regioner (&apos;reg&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Regions (&apos;reg&apos;)</translation>
     </message>
 </context>
 <context>
