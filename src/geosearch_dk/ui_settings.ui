@@ -47,7 +47,7 @@
          <item>
           <widget class="QTabWidget" name="tabWidget">
            <property name="currentIndex">
-            <number>1</number>
+            <number>2</number>
            </property>
            <widget class="QWidget" name="kortforsyningenTab">
             <property name="sizePolicy">
@@ -170,7 +170,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at adresser skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Adresser ('adr')</string>
@@ -186,7 +186,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at opstillingskredse skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Opstillingskredse ('ops')</string>
@@ -205,7 +205,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at stednavne skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Stednavne ('ste')</string>
@@ -224,7 +224,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at politikredse skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Politikredse ('pol')</string>
@@ -243,7 +243,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at postdistrikter skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Postdistrikter ('pos')</string>
@@ -262,7 +262,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at politikredse skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Kommuner ('kom')</string>
@@ -281,7 +281,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at matrikler skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Matrikelnumre ('mat')</string>
@@ -300,7 +300,7 @@
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string extracomment="Sæt hak hvis det ønskes at regioner skal udvælges"/>
+                <string/>
                </property>
                <property name="text">
                 <string>Regioner ('reg')</string>
