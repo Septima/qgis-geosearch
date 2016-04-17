@@ -92,7 +92,8 @@ class SearchBox(QFrame, FORM_CLASS):
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': s.value(k + "/muncodes", [])
+            'muncodes': str(s.value(k + "/muncodes", "", type=str))
+
         }
 
     def updateconfig(self):
@@ -128,7 +129,7 @@ class SearchBox(QFrame, FORM_CLASS):
             login=self.config['username'],
             password=self.config['password'],
             callback=self.config['callback'],
-            area=','.join(['muncode0'+str(k) for k in self.config['muncodes']])
+            area=self.config['muncodes']
         )
 
         url += searchterm
@@ -270,7 +271,7 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg = settingsdialog.SettingsDialog(self.qgisIface)
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
-        dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
+        dlg.kommunekoderLineEdit.setText(self.config['muncodes'].replace("muncode0",""))
         for dic in RESOURCESdic.values():
             cb = getattr(dlg,dic['checkbox'])
             if dic['id'] in self.config['resources']:
@@ -286,7 +287,8 @@ class SearchBox(QFrame, FORM_CLASS):
             # save settings
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
-            self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
+            self.config['muncodes'] = str(dlg.kommunekoderLineEdit.text())
+            self.config['muncodes'] = 'muncode0' + self.config['muncodes'].replace(",",",muncode0") if self.config['muncodes'] != '' else ''
             resources_list = []
             for dic in sorted(RESOURCESdic.values()):
                 cb = getattr(dlg,dic['checkbox'])
