@@ -84,16 +84,24 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.setFocus()
 
     def readconfig(self):
+
         s = QSettings()
         k = __package__
+        # Butt ugly hack to change muncode setting from old to new format
+        x = str(s.value(k + "/muncodes", "", type=str))
+        x = x.replace("[","")
+        x = x.replace("]","")
+        x = x.replace("u'","muncode0")
+        x = x.replace("'","")
+        x = x.replace(" ","")
+        # Hack finished (Some regexp guru could probably do a one-liner, but i'm too bloody tired)
         self.config = {
             'username': str(s.value(k + "/username", "", type=str)),
             'password': str(s.value(k + "/password", "", type=str)),
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': str(s.value(k + "/muncodes", "", type=str))
-
+            'muncodes': x
         }
 
     def updateconfig(self):
