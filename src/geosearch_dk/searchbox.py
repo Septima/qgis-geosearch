@@ -277,7 +277,6 @@ class SearchBox(QFrame, FORM_CLASS):
                 cb.setCheckState(2)
             else:
                 cb.setCheckState(0)
-        self.updateconfig()
         # show the dialog
         dlg.show()
         result = dlg.exec_()
@@ -293,6 +292,8 @@ class SearchBox(QFrame, FORM_CLASS):
                 if cb.isChecked():
                     resources_list.append(dic['id'])
             self.config['resources'] = ', '.join(resources_list)
+            # Write config
+            self.updateconfig()
 
     def show_about_dialog(self):
         infoString = self.trUtf8(
