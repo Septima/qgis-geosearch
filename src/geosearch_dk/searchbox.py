@@ -104,6 +104,8 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/maxresults",   self.config['maxresults'])
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     self.config['muncodes'])
+        # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
+        del s
         ##s.setValue(k + "/", self.config)
 
 
