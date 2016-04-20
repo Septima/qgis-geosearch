@@ -40,6 +40,7 @@ from qgis.gui import *
 
 import microjson
 import os
+import re
 
 import qgisutils
 from autosuggest import AutoSuggest
@@ -86,13 +87,20 @@ class SearchBox(QFrame, FORM_CLASS):
     def readconfig(self):
         s = QSettings()
         k = __package__
+
+        # Handle old muncodes storage, where it was stored as a list
+        muncodes = s.value(k + "/muncodes", "")
+        if not isinstance(muncodes, basestring):
+            muncodes = ""
+        muncodes = re.findall(r'\d+', muncodes)
+
         self.config = {
             'username': str(s.value(k + "/username", "", type=str)),
             'password': str(s.value(k + "/password", "", type=str)),
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': s.value(k + "/muncodes", [])
+            'muncodes': muncodes
         }
 
     def updateconfig(self):
@@ -103,10 +111,9 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/resources",    self.config['resources'])
         s.setValue(k + "/maxresults",   self.config['maxresults'])
         s.setValue(k + "/callback",     self.config['callback'])
-        s.setValue(k + "/muncodes",     self.config['muncodes'])
+        s.setValue(k + "/muncodes",     ",".join(self.config['muncodes'])) # Store as string because of issue #24
         # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
         del s
-        ##s.setValue(k + "/", self.config)
 
 
     def geturl(self, searchterm):
@@ -287,7 +294,7 @@ class SearchBox(QFrame, FORM_CLASS):
             # save settings
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
-            self.config['muncodes'] = [int(k) for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
+            self.config['muncodes'] = [k for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
             resources_list = []
             for dic in sorted(RESOURCESdic.values()):
                 cb = getattr(dlg,dic['checkbox'])

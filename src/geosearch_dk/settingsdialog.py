@@ -25,7 +25,7 @@ from PyQt4 import uic
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'ui_settings.ui'))
 
-MUNCODE_REGEX = '[0-9,]*'
+MUNCODE_REGEX = '[0-9]{3}(,[0-9]{3})*'
 
 
 class SettingsDialog (QDialog, FORM_CLASS):
