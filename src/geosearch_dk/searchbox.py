@@ -208,6 +208,9 @@ class SearchBox(QFrame, FORM_CLASS):
             elif geom.wkbType() in (QGis.WKBLineString, QGis.WKBPolygon):
                 m = self._setRubberBandMarker(geom)
             m.setColor(QColor(255, 0, 0))
+            m.setIconType(QgsVertexMarker.ICON_CROSS)
+            m.setPenWidth(3)
+            m.setIconSize(30)
             self.markers.append( m )
 
     def _setPointMarker(self, pointgeom):
