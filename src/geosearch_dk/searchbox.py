@@ -102,10 +102,10 @@ class SearchBox(QFrame, FORM_CLASS):
             'callback': str(s.value(k + "/callback", "callback", type=str)),
             'muncodes': muncodes,
             'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
-            'rubber_width': s.value(k + "/rubber_width", 30, type=int),
-            'marker_color': str(s.value(k + "/marker_color", "#FF00FF", type=str)),
+            'rubber_width': s.value(k + "/rubber_width", 4, type=int),
+            'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
             'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
-            'marker_width': s.value(k + "/marker_width", 33, type=int),
+            'marker_width': s.value(k + "/marker_width", 4, type=int),
             'marker_size': s.value(k + "/marker_size", 30, type=int)
         }
 
