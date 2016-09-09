@@ -100,7 +100,13 @@ class SearchBox(QFrame, FORM_CLASS):
             'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': muncodes
+            'muncodes': muncodes,
+            'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
+            'rubber_width': s.value(k + "/rubber_width", 4, type=int),
+            'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
+            'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
+            'marker_width': s.value(k + "/marker_width", 4, type=int),
+            'marker_size': s.value(k + "/marker_size", 30, type=int)
         }
 
     def updateconfig(self):
@@ -112,9 +118,14 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/maxresults",   self.config['maxresults'])
         s.setValue(k + "/callback",     self.config['callback'])
         s.setValue(k + "/muncodes",     ",".join(self.config['muncodes'])) # Store as string because of issue #24
+        s.setValue(k + "/rubber_color",     self.config['rubber_color'])
+        s.setValue(k + "/rubber_width",     self.config['rubber_width'])
+        s.setValue(k + "/marker_color",     self.config['marker_color'])
+        s.setValue(k + "/marker_icon",     self.config['marker_icon'])
+        s.setValue(k + "/marker_width",     self.config['marker_width'])
+        s.setValue(k + "/marker_size",     self.config['marker_size'])
         # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
         del s
-
 
     def geturl(self, searchterm):
         self.clearMarkerGeom()
@@ -207,11 +218,14 @@ class SearchBox(QFrame, FORM_CLASS):
                 m = self._setPointMarker(geom)
             elif geom.wkbType() in (QGis.WKBLineString, QGis.WKBPolygon):
                 m = self._setRubberBandMarker(geom)
-            m.setColor(QColor(255, 0, 0))
             self.markers.append( m )
 
     def _setPointMarker(self, pointgeom):
         m = QgsVertexMarker(self.qgisIface.mapCanvas())
+        m.setColor(QColor(self.config['marker_color']))
+        m.setIconType(self.config['marker_icon'])
+        m.setPenWidth(self.config['marker_width'])
+        m.setIconSize(self.config['marker_size'])
         m.setCenter(pointgeom.asPoint())
         return m
 
@@ -222,6 +236,8 @@ class SearchBox(QFrame, FORM_CLASS):
         elif geom.wkbType() == QGis.WKBPolygon:
             linegeom = QgsGeometry.fromPolyline(geom.asPolygon()[0])
         m.setToGeometry(linegeom, None)
+        m.setBorderColor(QColor(self.config['rubber_color']))
+        m.setWidth(self.config['rubber_width'])
         return m
 
     def clearMarkerGeom(self):
