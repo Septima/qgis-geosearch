@@ -264,7 +264,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         # Create a QGIS geom to represent object
         geom = None
-        buffer = self.config['rubber_buffer']
+
         if 'geometryWkt' in o:
             wkt = o['geometryWkt']
             # Fix invalid wkt
@@ -283,7 +283,6 @@ class SearchBox(QFrame, FORM_CLASS):
             geom = QgsGeometry.fromPoint(QgsPoint(o['x'], o['y']))
 
         # Zoom to feature
-
         bufgeom = geom.buffer(self.config['marker_buffer'] if geom.wkbType() == QGis.WKBPoint else self.config['rubber_buffer'], 2)
         bufgeom.transform(self.crsTransform)
         rect = bufgeom.boundingBox()
