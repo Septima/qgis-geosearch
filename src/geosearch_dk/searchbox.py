@@ -107,8 +107,8 @@ class SearchBox(QFrame, FORM_CLASS):
             'marker_icon':   s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
             'marker_width':  s.value(k + "/marker_width", 4, type=int),
             'marker_size':   s.value(k + "/marker_size", 30, type=int),
-            'marker_buffer': s.value(k + "/marker_buffer", 10.01, type=float),
-            'rubber_buffer': s.value(k + "/rubber_buffer", 0.01, type=float)
+            'marker_buffer': s.value(k + "/marker_buffer", 199.99, type=float),
+            'rubber_buffer': s.value(k + "/rubber_buffer", 199.99, type=float)
         }
 
     def updateconfig(self):
