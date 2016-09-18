@@ -95,35 +95,39 @@ class SearchBox(QFrame, FORM_CLASS):
         muncodes = re.findall(r'\d+', muncodes)
 
         self.config = {
-            'username': str(s.value(k + "/username", "", type=str)),
-            'password': str(s.value(k + "/password", "", type=str)),
-            'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
-            'maxresults': s.value(k + "/maxresults", 25, type=int),
-            'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': muncodes,
-            'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
-            'rubber_width': s.value(k + "/rubber_width", 4, type=int),
-            'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
-            'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
-            'marker_width': s.value(k + "/marker_width", 4, type=int),
-            'marker_size': s.value(k + "/marker_size", 30, type=int)
+            'username':      str(s.value(k + "/username", "", type=str)),
+            'password':      str(s.value(k + "/password", "", type=str)),
+            'resources':     RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
+            'maxresults':    s.value(k + "/maxresults", 25, type=int),
+            'callback':      str(s.value(k + "/callback", "callback", type=str)),
+            'muncodes':      muncodes,
+            'rubber_color':  str(s.value(k + "/rubber_color", "#FF0000", type=str)),
+            'rubber_width':  s.value(k + "/rubber_width", 4, type=int),
+            'marker_color':  str(s.value(k + "/marker_color", "#FF0000", type=str)),
+            'marker_icon':   s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
+            'marker_width':  s.value(k + "/marker_width", 4, type=int),
+            'marker_size':   s.value(k + "/marker_size", 30, type=int),
+            'marker_buffer': s.value(k + "/marker_buffer", 10.01, type=float),
+            'rubber_buffer': s.value(k + "/rubber_buffer", 0.01, type=float)
         }
 
     def updateconfig(self):
         s = QSettings()
         k = __package__
-        s.setValue(k + "/username",     self.config['username'])
-        s.setValue(k + "/password",     self.config['password'])
-        s.setValue(k + "/resources",    self.config['resources'])
-        s.setValue(k + "/maxresults",   self.config['maxresults'])
-        s.setValue(k + "/callback",     self.config['callback'])
-        s.setValue(k + "/muncodes",     ",".join(self.config['muncodes'])) # Store as string because of issue #24
-        s.setValue(k + "/rubber_color",     self.config['rubber_color'])
-        s.setValue(k + "/rubber_width",     self.config['rubber_width'])
-        s.setValue(k + "/marker_color",     self.config['marker_color'])
-        s.setValue(k + "/marker_icon",     self.config['marker_icon'])
-        s.setValue(k + "/marker_width",     self.config['marker_width'])
-        s.setValue(k + "/marker_size",     self.config['marker_size'])
+        s.setValue(k + "/username",      self.config['username'])
+        s.setValue(k + "/password",      self.config['password'])
+        s.setValue(k + "/resources",     self.config['resources'])
+        s.setValue(k + "/maxresults",    self.config['maxresults'])
+        s.setValue(k + "/callback",      self.config['callback'])
+        s.setValue(k + "/muncodes",      ",".join(self.config['muncodes'])) # Store as string because of issue #24
+        s.setValue(k + "/rubber_color",  self.config['rubber_color'])
+        s.setValue(k + "/rubber_width",  self.config['rubber_width'])
+        s.setValue(k + "/marker_color",  self.config['marker_color'])
+        s.setValue(k + "/marker_icon",   self.config['marker_icon'])
+        s.setValue(k + "/marker_width",  self.config['marker_width'])
+        s.setValue(k + "/marker_size",   self.config['marker_size'])
+        s.setValue(k + "/marker_buffer", self.config['marker_buffer'])
+        s.setValue(k + "/rubber_buffer", self.config['rubber_buffer'])
         # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
         del s
 
@@ -260,6 +264,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         # Create a QGIS geom to represent object
         geom = None
+        buffer = self.config['rubber_buffer']
         if 'geometryWkt' in o:
             wkt = o['geometryWkt']
             # Fix invalid wkt
@@ -278,7 +283,8 @@ class SearchBox(QFrame, FORM_CLASS):
             geom = QgsGeometry.fromPoint(QgsPoint(o['x'], o['y']))
 
         # Zoom to feature
-        bufgeom = geom.buffer(200.0, 2)
+
+        bufgeom = geom.buffer(self.config['marker_buffer'] if geom.wkbType() == QGis.WKBPoint else self.config['rubber_buffer'], 2)
         bufgeom.transform(self.crsTransform)
         rect = bufgeom.boundingBox()
         mc = self.qgisIface.mapCanvas()
@@ -302,11 +308,13 @@ class SearchBox(QFrame, FORM_CLASS):
                 cb.setCheckState(2)
             else:
                 cb.setCheckState(0)
+
         # show the dialog
         dlg.show()
         result = dlg.exec_()
         # See if OK was pressed
         if result == 1:
+            self.readconfig() # Hack for getting latest "invisible" settings updated 
             # save settings
             self.config['username'] = str(dlg.loginLineEdit.text())
             self.config['password'] = str(dlg.passwordLineEdit.text())
