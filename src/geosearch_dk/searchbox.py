@@ -112,6 +112,42 @@ class SearchBox(QFrame, FORM_CLASS):
             'rubber_buffer': s.value(k + "/rubberband/buffer", 199.99, type=float)
         }
 
+        if re.match(r'#[0-9a-fA-F]',self.config['rubber_color']) is None:
+            self.config['rubber_color'] = '##FF0000'
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Color for rubberband is out of range; defaulting to color red", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['rubber_width'] < 1:
+            self.config['rubber_width'] = 4
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Width value for rubberband is out of range (>= 1); defaulting to 4", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['rubber_style'] not in {0,1,2,3,4,5}:
+            self.config['rubber_style'] = 1
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Style value for rubberband is out of range (0 - 5); defaulting to 1, simple line", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['rubber_buffer'] < 0.0:
+            self.config['rubber_buffer'] = 200.0
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Buffer value for rubberband is out of range (>= 0.0); defaulting to 200.0", level=QgsMessageBar.WARNING, duration=10)
+
+        if re.match(r'#[0-9a-fA-F]',self.config['marker_color']) is None:
+            self.config['marker_color'] = '##FF0000'
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Color for marker is out of range; defaulting to color red", level=QgsMessageBar.WARNING, duration=10)
+			
+        if self.config['marker_width'] < 1:
+            self.config['marker_width'] = 4
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Width value for marker is out of range (>= 1); defaulting to 4", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['marker_size'] < 1:
+            self.config['marker_size'] = 30
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Size value for marker is out of range (>= 1); defaulting to 30", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['marker_icon'] not in {0,1,2,3,4}:
+            self.config['marker_icon'] = 1
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Icon value for marker is out of range (0 - 4); defaulting to 1, cross", level=QgsMessageBar.WARNING, duration=10)
+
+        if self.config['marker_buffer'] < 0.0:
+            self.config['marker_buffer'] = 200.0
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Buffer value for marker is out of range (>= 0.0); defaulting to 200.0", level=QgsMessageBar.WARNING, duration=10)
+
     def updateconfig(self):
         s = QSettings()
         k = __package__
