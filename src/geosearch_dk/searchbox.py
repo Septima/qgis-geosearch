@@ -88,6 +88,19 @@ class SearchBox(QFrame, FORM_CLASS):
         s = QSettings()
         k = __package__
 
+
+        # Remove obsolete settings
+        s.remove(k + "/rubber_color")
+        s.remove(k + "/rubber_width")
+        s.remove(k + "/rubber_style")
+        s.remove(k + "/rubber_buffer")
+        s.remove(k + "/marker_color")
+        s.remove(k + "/marker_width")
+        s.remove(k + "/marker_icon")
+        s.remove(k + "/marker_size")
+        s.remove(k + "/marker_buffer")
+        s.sync
+
         # Handle old muncodes storage, where it was stored as a list
         muncodes = s.value(k + "/muncodes", "")
         if not isinstance(muncodes, basestring):
