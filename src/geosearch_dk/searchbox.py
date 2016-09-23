@@ -125,7 +125,7 @@ class SearchBox(QFrame, FORM_CLASS):
             'rubber_buffer': s.value(k + "/rubberband/buffer", 199.99, type=float)
         }
 
-        if re.match(r'#[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]',self.config['rubber_color']) is None:
+        if re.match(r'#[0-9a-fA-F]{6}\Z',self.config['rubber_color']) is None:
             self.config['rubber_color'] = '##FF0000'
             self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Color for rubberband is out of range; defaulting to color red", level=QgsMessageBar.WARNING, duration=10)
 
@@ -141,7 +141,7 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['rubber_buffer'] = 200.0
             self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Buffer value for rubberband is out of range (>= 0.0); defaulting to 200.0", level=QgsMessageBar.WARNING, duration=10)
 
-        if re.match(r'#[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]',self.config['marker_color']) is None:
+        if re.match(r'#[0-9a-fA-F]{6}\Z',self.config['marker_color']) is None:
             self.config['marker_color'] = '##FF0000'
             self.qgisIface.messageBar().pushMessage("GeoSearch-DK", "  Color for marker is out of range; defaulting to color red", level=QgsMessageBar.WARNING, duration=10)
 			
@@ -432,3 +432,4 @@ if __name__ == "__main__":
     suggest.show()
 
     sys.exit(app.exec_())
+    
