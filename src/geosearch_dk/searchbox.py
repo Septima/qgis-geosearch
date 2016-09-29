@@ -151,7 +151,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         if not 10 <= self.config['marker_size'] <= 200:
             self.config['marker_size'] = 30
-            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", self.trUtf8(u"  Værdi for størrelse af valgboks er ulovlig (10 - 200); sættes til standard: 30"), level=QgsMessageBar.WARNING, duration=10)
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", self.trUtf8(u"  Værdi for størrelse af valgmarkør er ulovlig (10 - 200); sættes til standard: 30"), level=QgsMessageBar.WARNING, duration=10)
 
         if self.config['marker_icon'] not in {0,1,2,3,4}:
             self.config['marker_icon'] = 1
@@ -159,7 +159,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         if not 20.0 <= self.config['marker_buffer'] <= 10000.0:
             self.config['marker_buffer'] = 200.0
-            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", self.trUtf8(u"  Buffer værdi for valgboks er ulovlig (20 - 10000); sættes til standard: 200.0"), level=QgsMessageBar.WARNING, duration=10)
+            self.qgisIface.messageBar().pushMessage("GeoSearch-DK", self.trUtf8(u"  Buffer værdi for valgmarkør er ulovlig (20 - 10000); sættes til standard: 200.0"), level=QgsMessageBar.WARNING, duration=10)
 
     def updateconfig(self):
         s = QSettings()
