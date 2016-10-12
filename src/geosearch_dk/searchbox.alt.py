@@ -158,7 +158,9 @@ class SearchBox(QFrame, FORM_CLASS):
         s.remove(k + "/marker_icon")
         s.remove(k + "/marker_size")
         s.remove(k + "/marker_buffer")
-        s.sync
+
+        # Just in case that any settings has been changed or deleted
+        self.updateconfig()
 
 			
     def updateconfig(self):
@@ -179,8 +181,7 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/marker/size",   self.config['marker_size'])
         s.setValue(k + "/marker/buffer", self.config['marker_buffer'])
         s.setValue(k + "/rubberband/buffer", self.config['rubber_buffer'])
-        # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
-        del s
+        s.sync
 
     def geturl(self, searchterm):
         self.clearMarkerGeom()
