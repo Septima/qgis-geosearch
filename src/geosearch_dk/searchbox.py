@@ -161,6 +161,9 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['marker_buffer'] = 200.0
             self.qgisIface.messageBar().pushMessage("GeoSearch-DK", self.trUtf8(u"  Buffer værdi for valgmarkør er ulovlig (20 - 10000); sættes til standard: 200.0"), level=QgsMessageBar.WARNING, duration=10)
 
+	# Just in case that any settings has been changed or deleted
+        self.updateconfig()
+		
     def updateconfig(self):
         s = QSettings()
         k = __package__
@@ -179,8 +182,7 @@ class SearchBox(QFrame, FORM_CLASS):
         s.setValue(k + "/marker/size",   self.config['marker_size'])
         s.setValue(k + "/marker/buffer", self.config['marker_buffer'])
         s.setValue(k + "/rubberband/buffer", self.config['rubber_buffer'])
-        # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
-        del s
+        s.sync
 
     def geturl(self, searchterm):
         self.clearMarkerGeom()
