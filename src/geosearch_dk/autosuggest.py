@@ -19,10 +19,11 @@ author               : asger@septima.dk
 """
 
 import sys
-from PyQt4.QtCore import QObject, Qt, QEvent, QTimer, QPoint
-from PyQt4.QtGui import QTreeWidget, QTreeWidgetItem, QFrame, QPalette, QKeyEvent, QApplication
-from PyQt4.QtNetwork import QNetworkAccessManager, QNetworkReply, QNetworkRequest
-from PyQt4.uic import loadUi
+from qgis.PyQt.QtCore import QObject, Qt, QEvent, QTimer, QPoint
+from qgis.PyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QFrame, QApplication
+from qgis.PyQt.QtGui import QPalette, QKeyEvent
+from qgis.PyQt.QtNetwork import QNetworkReply, QNetworkRequest, QNetworkAccessManager
+from qgis.PyQt.uic import loadUi
 from qgis.core import QgsMessageLog
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
@@ -126,7 +127,7 @@ class AutoSuggest(QObject):
             item.setText(0, row[0])
             #item.setText(1, hit['type'])
             item.setTextAlignment(1, Qt.AlignRight)
-            item.setTextColor(1, color)
+            item.setForeground(1, color)
             item.setData(2, Qt.UserRole, (row[1],)) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
         self.popup.setCurrentItem(self.popup.topLevelItem(0))
@@ -174,8 +175,9 @@ class AutoSuggest(QObject):
         #print "received url:", url.toString()
         if not networkReply.error():
             response = networkReply.readAll()
+            pystring = str(response, 'utf-8')
             #print "Response: ", response
-            rows = self.parseresult_func( response )
+            rows = self.parseresult_func( pystring )
             self.showCompletion( rows )
 
         networkReply.deleteLater()

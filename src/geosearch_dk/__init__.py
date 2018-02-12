@@ -17,8 +17,9 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+from __future__ import absolute_import
 
-import pluginmetadata
+from . import pluginmetadata
 
 def name():
     return pluginmetadata.metadata['name']
@@ -46,5 +47,5 @@ def email():
     return pluginmetadata.metadata['email']
 
 def classFactory(iface):
-    from septimageosearch import SeptimaGeoSearch
+    from .septimageosearch import SeptimaGeoSearch
     return SeptimaGeoSearch(iface)
