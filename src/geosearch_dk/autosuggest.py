@@ -19,16 +19,11 @@ author               : asger@septima.dk
 """
 
 import sys
-from PyQt4.QtCore import * 
-from PyQt4.QtGui import *
-from PyQt4.QtNetwork import *
+from PyQt4.QtCore import QObject, Qt, QEvent, QTimer, QPoint
+from PyQt4.QtGui import QTreeWidget, QTreeWidgetItem, QFrame, QPalette, QKeyEvent, QApplication
+from PyQt4.QtNetwork import QNetworkAccessManager, QNetworkReply, QNetworkRequest
 from PyQt4.uic import loadUi
-#import microjson
-
 from qgis.core import QgsMessageLog
-
-#PLUGINNAME = "Septima Geo Search"
-
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 

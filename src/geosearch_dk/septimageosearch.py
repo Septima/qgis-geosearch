@@ -19,9 +19,9 @@ author               : asger@septima.dk
 """
 
 # Import the PyQt and QGIS libraries
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-from qgis.core import *
+from PyQt4.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
+from PyQt4.QtGui import QDockWidget, QAction, QIcon
+from qgis.core import QgsApplication, QCoreApplication
 # Initialize Qt resources from file resources.py
 import resources_rc
 # Import the code for the dialog

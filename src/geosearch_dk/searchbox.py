@@ -31,12 +31,12 @@ RESOURCESdic = {
                 'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckbox'}
                 }
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from PyQt4.QtGui import QFrame, QColor
+from PyQt4.QtCore import QSettings, QUrl
 from PyQt4 import uic
 
-from qgis.core import *
-from qgis.gui import *
+from qgis.core import QGis, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform
+from qgis.gui import QgsVertexMarker, QgsRubberBand
 
 import microjson
 import os

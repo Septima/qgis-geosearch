@@ -18,8 +18,8 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 import os
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt4.QtCore import QRegExp, Qt
+from PyQt4.QtGui import QDialog, QRegExpValidator
 from PyQt4 import uic
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
