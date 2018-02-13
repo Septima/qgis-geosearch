@@ -64,7 +64,7 @@ UI_FILES = \
 
 EXTRAS = icon.png metadata.txt
 
-COMPILED_RESOURCE_FILES = resources_rc.py
+COMPILED_RESOURCE_FILES = 
 
 PEP8EXCLUDE=pydev,resources_rc.py,conf.py,third_party,ui
 
