@@ -17,26 +17,29 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+from __future__ import absolute_import
 
 # Import the PyQt and QGIS libraries
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-from qgis.core import *
+from builtins import object
+from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
+from qgis.PyQt.QtWidgets import QDockWidget, QAction
+from qgis.PyQt.QtGui import QIcon
+from qgis.core import QgsApplication, QCoreApplication
 # Initialize Qt resources from file resources.py
-import resources_rc
+# from . import resources_rc
 # Import the code for the dialog
 
-from searchbox import SearchBox
+from .searchbox import SearchBox
 
 
-class SeptimaGeoSearch:
+class SeptimaGeoSearch(object):
 
     def __init__(self, iface):
         # Save reference to the QGIS interface
         self.iface = iface
 
         # initialize plugin directory
-        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() + "/python/plugins/" + __package__
+        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDatabaseFilePath()).path() + "/python/plugins/" + __package__
 
         # config
         self.config = QSettings()

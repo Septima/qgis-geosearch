@@ -17,6 +17,9 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+from __future__ import absolute_import
+from builtins import map
+from builtins import str
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
 RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
 
@@ -31,21 +34,22 @@ RESOURCESdic = {
                 'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckbox'}
                 }
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
-from PyQt4 import uic
+from qgis.PyQt.QtWidgets import QFrame, QMessageBox
+from qgis.PyQt.QtGui import QColor
+from qgis.PyQt.QtCore import QSettings, QUrl
+from qgis.PyQt import uic
 
-from qgis.core import *
-from qgis.gui import *
+from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication
+from qgis.gui import QgsVertexMarker, QgsRubberBand
 
-import microjson
+import json
 import os
 import re
 
-import qgisutils
-from autosuggest import AutoSuggest
+from . import qgisutils
+from .autosuggest import AutoSuggest
 # from ui_search import Ui_searchForm
-import settingsdialog
+from . import settingsdialog
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'ui_search.ui')
@@ -74,11 +78,12 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.returnPressed.connect(self.doSearch)
         self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
-            self.searchEdit.setPlaceholderText(self.trUtf8(u"Søg adresse, stednavn, postnummer, matrikel m.m."))
+            self.searchEdit.setPlaceholderText(self.tr(u"Søg adresse, stednavn, postnummer, matrikel m.m."))
 
         # Listen to crs changes
         self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
-        self.qgisIface.mapCanvas().hasCrsTransformEnabledChanged.connect(self.setupCrsTransform)
+        # From 3 CRS transform is always enabled
+        # self.qgisIface.mapCanvas().hasCrsTransformEnabledChanged.connect(self.setupCrsTransform)
 
         self.adjustSize()
         self.resize(50, self.height())
@@ -90,7 +95,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         # Handle old muncodes storage, where it was stored as a list
         muncodes = s.value(k + "/muncodes", "")
-        if not isinstance(muncodes, basestring):
+        if not isinstance(muncodes, str):
             muncodes = ""
         muncodes = re.findall(r'\d+', muncodes)
 
@@ -134,7 +139,7 @@ class SearchBox(QFrame, FORM_CLASS):
         split = searchterm.split(':')
         if len(split)>1:
             first3letters_lowerCase = split[0][0:3].lower()
-            if first3letters_lowerCase in RESOURCESdic.keys():
+            if first3letters_lowerCase in list(RESOURCESdic.keys()):
                 req_resources = RESOURCESdic[first3letters_lowerCase]['id']
                 searchterm = split[1].lstrip()
         if not searchterm:
@@ -156,41 +161,40 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def parseresponse(self, response):
         # Trim callback
-        result = str(response)[len(self.config['callback']) + 1: -1]
-        # print result
+        result = response[len(self.config['callback']) + 1: -1]
         try:
-            obj = microjson.from_json(result)
-        except microjson.JSONError:
-            QgsMessageLog.logMessage(
+            obj = json.loads(result)
+        except:
+            QgsApplication.messageLog().logMessage(
                 'Invalid JSON response from server: ' + result, __package__
             )
             # Check if we have an auth error
-            if 'User not found' in response or \
-                    'User not authenticated' in response:
-                title = self.trUtf8(u'Bruger afvist af Kortforsyningen')
-                msg = self.trUtf8(u'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\nKortforsyningen svarede:\n')
-                QMessageBox.warning( None, title, msg + str(response))
+            if 'User not found' in strresponse or \
+                    'User not authenticated' in strresponse:
+                title = self.tr(u'Bruger afvist af Kortforsyningen')
+                msg = self.tr(u'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\nKortforsyningen svarede:\n')
+                QMessageBox.warning( None, title, msg + strresponse)
                 # Now show settings dialog
                 self.show_settings_dialog()
             return None
 
         if 'status' not in obj:
-            QgsMessageLog.logMessage(
+            QgsApplication.messageLog().logMessage(
                 'Unexpected result from server: ' + result, __package__
             )
             return None
 
         if not obj['status'] == 'OK':
-            QgsMessageLog.logMessage(
+            QgsApplication.messageLog().logMessage(
                 'Server reported an error: ' + obj['message'], __package__
             )
             return None
 
-        if not obj.has_key("data"):
+        if "data" not in obj:
             return None
         data = obj['data']
         if not data:
-            return [(self.trUtf8("Ingen resultater"),None)]
+            return [(self.tr("Ingen resultater"),None)]
 
         # Make tuple with ("text", object) for each result
         return [(e['presentationString'], e) for e in data]
@@ -201,7 +205,7 @@ class SearchBox(QFrame, FORM_CLASS):
                 25832, QgsCoordinateReferenceSystem.EpsgCrsId
             )
             dstCrs = qgisutils.getCurrentCrs(self.qgisIface)
-            self.crsTransform = QgsCoordinateTransform(srcCrs, dstCrs)
+            self.crsTransform = QgsCoordinateTransform(srcCrs, dstCrs, QgsProject.instance())
 
     def setMarkerGeom(self, geom):
         # Show geometry
@@ -214,9 +218,9 @@ class SearchBox(QFrame, FORM_CLASS):
             for g in geometries:
                 self._setMarkerGeom(g)
         else:
-            if geom.wkbType() == QGis.WKBPoint:
+            if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.PointGeometry:
                 m = self._setPointMarker(geom)
-            elif geom.wkbType() in (QGis.WKBLineString, QGis.WKBPolygon):
+            elif QgsWkbTypes.geometryType(geom.wkbType()) in (QgsWkbTypes.LineGeometry, QgsWkbTypes.PolygonGeometry):
                 m = self._setRubberBandMarker(geom)
             self.markers.append( m )
 
@@ -231,12 +235,12 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def _setRubberBandMarker(self, geom):
         m = QgsRubberBand(self.qgisIface.mapCanvas(), False)  # not polygon
-        if geom.wkbType() == QGis.WKBLineString:
+        if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.LineGeometry:
             linegeom = geom
-        elif geom.wkbType() == QGis.WKBPolygon:
-            linegeom = QgsGeometry.fromPolyline(geom.asPolygon()[0])
+        elif QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.PolygonGeometry:
+            linegeom = QgsGeometry.fromPolylineXY(geom.asPolygon()[0])
         m.setToGeometry(linegeom, None)
-        m.setBorderColor(QColor(self.config['rubber_color']))
+        m.setColor(QColor(self.config['rubber_color']))
         m.setWidth(self.config['rubber_width'])
         return m
 
@@ -296,7 +300,7 @@ class SearchBox(QFrame, FORM_CLASS):
         dlg.loginLineEdit.setText(self.config['username'])
         dlg.passwordLineEdit.setText(self.config['password'])
         dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
-        for dic in RESOURCESdic.values():
+        for dic in list(RESOURCESdic.values()):
             cb = getattr(dlg,dic['checkbox'])
             if dic['id'] in self.config['resources']:
                 cb.setCheckState(2)
@@ -312,7 +316,7 @@ class SearchBox(QFrame, FORM_CLASS):
             self.config['password'] = str(dlg.passwordLineEdit.text())
             self.config['muncodes'] = [k for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
             resources_list = []
-            for dic in sorted(RESOURCESdic.values()):
+            for dic in RESOURCESdic.values():
                 cb = getattr(dlg,dic['checkbox'])
                 if cb.isChecked():
                     resources_list.append(dic['id'])
@@ -321,7 +325,7 @@ class SearchBox(QFrame, FORM_CLASS):
             self.updateconfig()
 
     def show_about_dialog(self):
-        infoString = self.trUtf8(
+        infoString = self.tr(
             u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
             u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
             u" og kræver derfor et gyldigt login til denne tjeneste.<br />"

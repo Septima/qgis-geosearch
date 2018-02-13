@@ -31,7 +31,7 @@ LOCALES = en
 # If locales are enabled, set the name of the lrelease binary on your system. If
 # you have trouble compiling the translations, you may have to specify the full path to
 # lrelease
-LRELEASE = lrelease
+LRELEASE = /usr/local/Cellar/qt/5.10.0_1/bin/lrelease
 #LRELEASE = lrelease-qt4
 
 
@@ -64,7 +64,7 @@ UI_FILES = \
 
 EXTRAS = icon.png metadata.txt
 
-COMPILED_RESOURCE_FILES = resources_rc.py
+COMPILED_RESOURCE_FILES = 
 
 PEP8EXCLUDE=pydev,resources_rc.py,conf.py,third_party,ui
 

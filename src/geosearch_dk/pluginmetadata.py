@@ -17,8 +17,11 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+from __future__ import print_function
 
-import ConfigParser
+from future import standard_library
+standard_library.install_aliases()
+import configparser
 import codecs
 import os
 
@@ -27,7 +30,7 @@ metadata = None
 def plugin_metadata():
     global metadata
     if metadata is None:
-        config = ConfigParser.ConfigParser()
+        config = configparser.ConfigParser()
         config.readfp(codecs.open( os.path.dirname( __file__ ).replace("\\", "/") + '/metadata.txt', 'r', 'utf8'))
         metadata = dict( config.items('general') )
     return metadata
@@ -35,7 +38,8 @@ def plugin_metadata():
 metadata = plugin_metadata()
 
 def main():
-    print plugin_metadata()
+    # fix_print_with_import
+    print(plugin_metadata())
 
 if __name__ == '__main__':
     main()
