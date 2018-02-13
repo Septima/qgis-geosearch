@@ -169,11 +169,11 @@ class SearchBox(QFrame, FORM_CLASS):
                 'Invalid JSON response from server: ' + result, __package__
             )
             # Check if we have an auth error
-            if 'User not found' in strresponse or \
-                    'User not authenticated' in strresponse:
+            if 'User not found' in response or \
+                    'User not authenticated' in response:
                 title = self.tr(u'Bruger afvist af Kortforsyningen')
                 msg = self.tr(u'Manglende eller ukorrekt brugernavn og password til Kortforsyningen.\n\nKortforsyningen svarede:\n')
-                QMessageBox.warning( None, title, msg + strresponse)
+                QMessageBox.warning( None, title, msg + response)
                 # Now show settings dialog
                 self.show_settings_dialog()
             return None
