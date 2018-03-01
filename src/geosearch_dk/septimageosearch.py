@@ -44,9 +44,12 @@ class SeptimaGeoSearch(object):
         # config
         self.config = QSettings()
 
-        # initialize locale
+        # initialize locale. Default to Danish
         localePath = ""
-        locale = self.config.value("locale/userLocale")[0:2]
+        try:
+            locale = self.config.value("locale/userLocale")[0:2]
+        except:
+            locale = 'da'
 
         if QFileInfo(self.plugin_dir).exists():
             localePath = self.plugin_dir + "/i18n/" + locale + ".qm"
