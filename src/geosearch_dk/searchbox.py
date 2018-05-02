@@ -17,7 +17,6 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-from __future__ import absolute_import
 from builtins import map
 from builtins import str
 BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
