@@ -17,7 +17,6 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-from __future__ import absolute_import
 
 # Import the PyQt and QGIS libraries
 from builtins import object

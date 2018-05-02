@@ -17,10 +17,6 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-from __future__ import print_function
-
-from future import standard_library
-standard_library.install_aliases()
 import configparser
 import codecs
 import os
@@ -38,8 +34,8 @@ def plugin_metadata():
 metadata = plugin_metadata()
 
 def main():
-    # fix_print_with_import
-    print(plugin_metadata())
+    metadata_to_print = plugin_metadata() 
+    print(metadata_to_print)
 
 if __name__ == '__main__':
     main()
