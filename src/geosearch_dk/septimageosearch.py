@@ -23,7 +23,7 @@ from builtins import object
 from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
 from qgis.PyQt.QtWidgets import QDockWidget, QAction
 from qgis.PyQt.QtGui import QIcon
-from qgis.core import QgsApplication, QCoreApplication
+from qgis.core import QgsApplication
 # Initialize Qt resources from file resources.py
 # from . import resources_rc
 # Import the code for the dialog
@@ -58,7 +58,7 @@ class SeptimaGeoSearch(object):
             self.translator.load(localePath)
 
             if qVersion() > '4.3.3':
-                QCoreApplication.installTranslator(self.translator)
+                QgsApplication.installTranslator(self.translator)
 
     def initGui(self):
         # create the widget to display information
@@ -77,12 +77,12 @@ class SeptimaGeoSearch(object):
         # Menu items
         self.configAction = QAction(
             QIcon(),
-            QCoreApplication.translate('Geosearch DK', "&Indstillinger"),
+            QgsApplication.translate('Geosearch DK', "&Indstillinger"),
             self.iface.mainWindow()
         )
         self.aboutAction = QAction(
             QIcon(),
-            QCoreApplication.translate('Geosearch DK', "&Om pluginet"),
+            QgsApplication.translate('Geosearch DK', "&Om pluginet"),
             self.iface.mainWindow()
         )
 
