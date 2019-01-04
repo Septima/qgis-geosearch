@@ -37,6 +37,7 @@ from qgis.PyQt.QtWidgets import QFrame, QMessageBox
 from qgis.PyQt.QtGui import QColor
 from qgis.PyQt.QtCore import QSettings, QUrl
 from qgis.PyQt import uic
+from qgis.core import QgsWkbTypes
 
 from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication
 from qgis.gui import QgsVertexMarker, QgsRubberBand
@@ -345,25 +346,25 @@ class SearchBox(QFrame, FORM_CLASS):
     def _extractAsSingle(self, geom):
         multiGeom = QgsGeometry()
         geometries = []
-        if geom.type() == QGis.Point:
+        if geom.type() == QgsWkbTypes.PointGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPoint()
                 for i in multiGeom:
-                    geometries.append(QgsGeometry().fromPoint(i))
+                    geometries.append(QgsGeometry().fromPointXY(i))
             else:
                 geometries.append(geom)
-        elif geom.type() == QGis.Line:
+        elif geom.type() == QgsWkbTypes.LineGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPolyline()
                 for i in multiGeom:
-                    geometries.append(QgsGeometry().fromPolyline(i))
+                    geometries.append(QgsGeometry().fromPolylineXY(i))
             else:
                 geometries.append(geom)
-        elif geom.type() == QGis.Polygon:
+        elif geom.type() == QgsWkbTypes.PolygonGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPolygon()
                 for i in multiGeom:
-                    geometries.append(QgsGeometry().fromPolygon(i))
+                    geometries.append(QgsGeometry().fromPolygonXY(i))
             else:
                 geometries.append(geom)
         return geometries
