@@ -37,8 +37,6 @@ from qgis.PyQt.QtWidgets import QFrame, QMessageBox
 from qgis.PyQt.QtGui import QColor
 from qgis.PyQt.QtCore import QSettings, QUrl
 from qgis.PyQt import uic
-from qgis.core import QgsWkbTypes
-
 from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
@@ -279,7 +277,7 @@ class SearchBox(QFrame, FORM_CLASS):
                 QgsRectangle(o['xMin'], o['yMin'], o['xMax'], o['yMax'])
             )
         else:
-            geom = QgsGeometry.fromPoint(QgsPoint(o['x'], o['y']))
+            geom = QgsGeometry.fromPointXY(QgsPointXY(o['x'], o['y']))
 
         # Zoom to feature
         bufgeom = geom.buffer(200.0, 2)
