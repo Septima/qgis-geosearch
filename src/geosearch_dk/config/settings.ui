@@ -87,7 +87,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
-              <widget class="QLineEdit" name="tokenLineEdit">
+              <widget class="QLineEdit" name="token">
                <property name="text">
                 <string/>
                </property>
@@ -127,7 +127,7 @@
              <item>
               <layout class="QFormLayout" name="formLayout">
                <item row="0" column="1">
-                <widget class="QLineEdit" name="kommunekoderLineEdit">
+                <widget class="QLineEdit" name="kommunefilter">
                  <property name="toolTip">
                   <string/>
                  </property>
@@ -158,7 +158,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_3">
              <item row="2" column="1">
-              <widget class="QCheckBox" name="komCheckBox">
+              <widget class="QCheckBox" name="search_kom">
                <property name="text">
                 <string>Kommuner ('kom')</string>
                </property>
@@ -168,7 +168,7 @@
               </widget>
              </item>
              <item row="0" column="0">
-              <widget class="QCheckBox" name="adrCheckBox">
+              <widget class="QCheckBox" name="search_adr">
                <property name="text">
                 <string>Adresser ('adr')</string>
                </property>
@@ -178,7 +178,7 @@
               </widget>
              </item>
              <item row="1" column="0">
-              <widget class="QCheckBox" name="steCheckBox">
+              <widget class="QCheckBox" name="search_ste">
                <property name="text">
                 <string>Stednavne ('ste')</string>
                </property>
@@ -188,7 +188,7 @@
               </widget>
              </item>
              <item row="2" column="0">
-              <widget class="QCheckBox" name="posCheckBox">
+              <widget class="QCheckBox" name="search_pos">
                <property name="text">
                 <string>Postdistrikter ('pos')</string>
                </property>
@@ -198,7 +198,7 @@
               </widget>
              </item>
              <item row="0" column="1">
-              <widget class="QCheckBox" name="opsCheckBox">
+              <widget class="QCheckBox" name="search_ops">
                <property name="text">
                 <string>Opstillingskredse ('ops')</string>
                </property>
@@ -208,7 +208,7 @@
               </widget>
              </item>
              <item row="1" column="1">
-              <widget class="QCheckBox" name="polCheckBox">
+              <widget class="QCheckBox" name="search_pol">
                <property name="text">
                 <string>Politikredse ('pol')</string>
                </property>
@@ -218,7 +218,7 @@
               </widget>
              </item>
              <item row="3" column="0">
-              <widget class="QCheckBox" name="matCheckBox">
+              <widget class="QCheckBox" name="search_mat">
                <property name="text">
                 <string>Matrikelnumre ('mat')</string>
                </property>
@@ -228,7 +228,7 @@
               </widget>
              </item>
              <item row="3" column="1">
-              <widget class="QCheckBox" name="regCheckBox">
+              <widget class="QCheckBox" name="search_reg">
                <property name="text">
                 <string>Regioner ('reg')</string>
                </property>

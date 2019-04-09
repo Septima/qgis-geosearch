@@ -24,7 +24,16 @@ class Settings(SettingManager):
 
         self.add_setting(String('token', Scope.Global, '787484d3a8dfee7562ffd6eff1d6e0ee'))
         self.add_setting(String('kommunefilter', Scope.Global, ''))
-        self.add_setting(String('resourcesfilter', Scope.Global, ",".join([v['id'] for k,v in self.resources.items()])))
+
+        for k, dict in self.resources.items():
+            self.add_setting(Bool(f"search_{k}",Scope.Global, True))
+
+    def resourcesfilter(self):
+        resultlist = []
+        for k, dict in self.resources.items():
+            if self.value(f"search_{k}"):
+                resultlist.append(dict["id"])
+        return resultlist
 
     def emit_updated(self):
         self.settings_updated.emit()

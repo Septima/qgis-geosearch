@@ -87,7 +87,7 @@ class SearchBox(QFrame, FORM_CLASS):
             'baseurl': settings.baseurl,
             'token' : settings.value('token'),
             'resources': settings.resources,
-            'resourcesfilter': settings.value('resourcesfilter'),
+            'resourcesfilter': ",".join(settings.resourcesfilter()),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
             'areafilter': areafilter,
