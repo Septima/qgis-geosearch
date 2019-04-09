@@ -41,4 +41,7 @@ nosetests.xml
 # Temporary files
 TMP/
 /*.bat
-geosearch_dk.zip
+*.zip
+
+# VS Code settings
+.vscode/

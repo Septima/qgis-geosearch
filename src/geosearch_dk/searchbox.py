@@ -19,19 +19,6 @@ author               : asger@septima.dk
 """
 from builtins import map
 from builtins import str
-BASEURL = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&login={login}&password={password}&callback={callback}&search="
-RESOURCES = "Adresser,Stednavne_v2,Postdistrikter,Matrikelnumre,Kommuner,Opstillingskredse,Politikredse,Regioner,Retskredse"
-
-RESOURCESdic = {
-                'adr': {'id':'Adresser', 'title':'Adresser', 'checkbox': 'adrCheckbox'},
-                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne', 'checkbox': 'steCheckbox'},
-                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter', 'checkbox':'posCheckbox'},
-                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre', 'checkbox': 'matCheckbox'},
-                'kom': {'id':'Kommuner', 'titel':'Kommuner', 'checkbox': 'komCheckbox'},
-                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse', 'checkbox': 'opsCheckbox'},
-                'pol': {'id':'Politikredse', 'titel':'Politikredse', 'checkbox':'polCheckbox' },
-                'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckbox'}
-                }
 
 from qgis.PyQt.QtWidgets import QFrame, QMessageBox
 from qgis.PyQt.QtGui import QColor
@@ -46,8 +33,7 @@ import re
 
 from . import qgisutils
 from .autosuggest import AutoSuggest
-# from ui_search import Ui_searchForm
-from . import settingsdialog
+from .config import Settings
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'ui_search.ui')
@@ -62,7 +48,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
         self.qgisIface = qgisIface
         self.markers = []
-        self.readconfig()
+        self.readconfig() # old config
 
         self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
 
@@ -88,22 +74,23 @@ class SearchBox(QFrame, FORM_CLASS):
         self.searchEdit.setFocus()
 
     def readconfig(self):
+        settings = Settings() # new config
+        # Old way was storing settings in global scope. Leave advanced options there for now
         s = QSettings()
         k = __package__
 
-        # Handle old muncodes storage, where it was stored as a list
-        muncodes = s.value(k + "/muncodes", "")
-        if not isinstance(muncodes, str):
-            muncodes = ""
-        muncodes = re.findall(r'\d+', muncodes)
+        # prefix muncodes
+        muncodes = re.findall(r'\d+', settings.value('kommunefilter'))
+        areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
 
         self.config = {
-            'username': str(s.value(k + "/username", "", type=str)),
-            'password': str(s.value(k + "/password", "", type=str)),
-            'resources': RESOURCES, #str(s.value(k + "/resources", RESOURCES, type=str)),
+            'baseurl': settings.baseurl,
+            'token' : settings.value('token'),
+            'resources': settings.resources,
+            'resourcesfilter': settings.value('resourcesfilter'),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
             'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'muncodes': muncodes,
+            'areafilter': areafilter,
             'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
             'rubber_width': s.value(k + "/rubber_width", 4, type=int),
             'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
@@ -112,46 +99,25 @@ class SearchBox(QFrame, FORM_CLASS):
             'marker_size': s.value(k + "/marker_size", 30, type=int)
         }
 
-    def updateconfig(self):
-        s = QSettings()
-        k = __package__
-        s.setValue(k + "/username",     self.config['username'])
-        s.setValue(k + "/password",     self.config['password'])
-        s.setValue(k + "/resources",    self.config['resources'])
-        s.setValue(k + "/maxresults",   self.config['maxresults'])
-        s.setValue(k + "/callback",     self.config['callback'])
-        s.setValue(k + "/muncodes",     ",".join(self.config['muncodes'])) # Store as string because of issue #24
-        s.setValue(k + "/rubber_color",     self.config['rubber_color'])
-        s.setValue(k + "/rubber_width",     self.config['rubber_width'])
-        s.setValue(k + "/marker_color",     self.config['marker_color'])
-        s.setValue(k + "/marker_icon",     self.config['marker_icon'])
-        s.setValue(k + "/marker_width",     self.config['marker_width'])
-        s.setValue(k + "/marker_size",     self.config['marker_size'])
-        # This will write the settings to the platform specific storage. According to http://pyqt.sourceforge.net/Docs/PyQt4/pyqt_qsettings.html
-        del s
-
     def geturl(self, searchterm):
         self.clearMarkerGeom()
         # List with shortcuts
-        req_resources = self.config['resources']
+        req_resources = self.config['resourcesfilter']
         split = searchterm.split(':')
         if len(split)>1:
             first3letters_lowerCase = split[0][0:3].lower()
-            if first3letters_lowerCase in list(RESOURCESdic.keys()):
-                req_resources = RESOURCESdic[first3letters_lowerCase]['id']
+            if first3letters_lowerCase in self.config['resources']:
+                req_resources = self.config['resources'][first3letters_lowerCase]['id']
                 searchterm = split[1].lstrip()
         if not searchterm:
             return None
 
-        # TODO: prepare what can be prepared
-
-        url = BASEURL.format(
+        url = self.config['baseurl'].format(
             resources=req_resources,
             limit=self.config['maxresults'],
-            login=self.config['username'],
-            password=self.config['password'],
+            token = self.config['token'],
+            area= self.config['areafilter'],
             callback=self.config['callback'],
-            area=','.join(['muncode0'+str(k) for k in self.config['muncodes']])
         )
 
         url += searchterm
@@ -291,36 +257,6 @@ class SearchBox(QFrame, FORM_CLASS):
         self.setMarkerGeom(geom)
 
         mc.refresh()
-
-    def show_settings_dialog(self):
-        # create and show the dialog
-        dlg = settingsdialog.SettingsDialog(self.qgisIface)
-        dlg.loginLineEdit.setText(self.config['username'])
-        dlg.passwordLineEdit.setText(self.config['password'])
-        dlg.kommunekoderLineEdit.setText(','.join(map(str, self.config['muncodes'])))
-        for dic in list(RESOURCESdic.values()):
-            cb = getattr(dlg,dic['checkbox'])
-            if dic['id'] in self.config['resources']:
-                cb.setCheckState(2)
-            else:
-                cb.setCheckState(0)
-        # show the dialog
-        dlg.show()
-        result = dlg.exec_()
-        # See if OK was pressed
-        if result == 1:
-            # save settings
-            self.config['username'] = str(dlg.loginLineEdit.text())
-            self.config['password'] = str(dlg.passwordLineEdit.text())
-            self.config['muncodes'] = [k for k in dlg.kommunekoderLineEdit.text().split(',') if not k.strip() == '']
-            resources_list = []
-            for dic in RESOURCESdic.values():
-                cb = getattr(dlg,dic['checkbox'])
-                if cb.isChecked():
-                    resources_list.append(dic['id'])
-            self.config['resources'] = ', '.join(resources_list)
-            # Write config
-            self.updateconfig()
 
     def show_about_dialog(self):
         infoString = self.tr(

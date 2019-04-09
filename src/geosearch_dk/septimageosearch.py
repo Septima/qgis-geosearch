@@ -24,6 +24,7 @@ from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
 from qgis.PyQt.QtWidgets import QDockWidget, QAction
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import QgsApplication
+from .config import Settings, OptionsFactory
 # Initialize Qt resources from file resources.py
 # from . import resources_rc
 # Import the code for the dialog
@@ -40,10 +41,8 @@ class SeptimaGeoSearch(object):
         # initialize plugin directory
         self.plugin_dir = QFileInfo(QgsApplication.qgisUserDatabaseFilePath()).path() + "/python/plugins/" + __package__
 
-        # config
-        self.config = QSettings()
-
         # initialize locale. Default to Danish
+        self.config = QSettings()
         localePath = ""
         try:
             locale = self.config.value("locale/userLocale")[0:2]
@@ -59,6 +58,12 @@ class SeptimaGeoSearch(object):
 
             if qVersion() > '4.3.3':
                 QgsApplication.installTranslator(self.translator)
+        
+        # new config method
+        self.settings = Settings()
+        self.options_factory = OptionsFactory(self.settings)
+        self.options_factory.setTitle('Geosearch DK')
+        iface.registerOptionsWidgetFactory(self.options_factory)
 
     def initGui(self):
         # create the widget to display information
@@ -73,29 +78,10 @@ class SeptimaGeoSearch(object):
         self.iface.addDockWidget(
             Qt.TopDockWidgetArea, self.searchdockwidget
         )
-
-        # Menu items
-        self.configAction = QAction(
-            QIcon(),
-            QgsApplication.translate('Geosearch DK', "&Indstillinger"),
-            self.iface.mainWindow()
-        )
-        self.aboutAction = QAction(
-            QIcon(),
-            QgsApplication.translate('Geosearch DK', "&Om pluginet"),
-            self.iface.mainWindow()
-        )
-
-        self.configAction.triggered.connect(
-            self.searchwidget.show_settings_dialog
-        )
-        self.aboutAction.triggered.connect(self.searchwidget.show_about_dialog)
-
-        self.iface.addPluginToMenu("Geosearch DK", self.configAction)
-        self.iface.addPluginToMenu("Geosearch DK", self.aboutAction)
+        # Make changed settings apply immediately
+        self.settings.settings_updated.connect(self.searchwidget.readconfig)
 
     def unload(self):
         self.searchwidget.unload() # try to avoid processing events, when QGIS is closing
-        self.iface.removePluginMenu("Geosearch DK", self.configAction)
-        self.iface.removePluginMenu("Geosearch DK", self.aboutAction)
         self.iface.removeDockWidget(self.searchdockwidget)
+        self.iface.unregisterOptionsWidgetFactory(self.options_factory)
