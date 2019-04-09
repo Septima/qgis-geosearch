@@ -27,7 +27,8 @@ def plugin_metadata():
     global metadata
     if metadata is None:
         config = configparser.ConfigParser()
-        config.readfp(codecs.open( os.path.dirname( __file__ ).replace("\\", "/") + '/metadata.txt', 'r', 'utf8'))
+        with codecs.open( os.path.dirname( __file__ ).replace("\\", "/") + '/metadata.txt', 'r', 'utf8') as fp:
+            config.read_file(fp)
         metadata = dict( config.items('general') )
     return metadata
 
