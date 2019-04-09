@@ -37,21 +37,11 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.setupUi(self)
         SettingDialog.__init__(self, settings)
         self.settings = settings
-        self.tokenLineEdit.setText(self.settings.value('token'))
-        
-        self.kommunekoderLineEdit.setText(self.settings.value('kommunefilter'))
         regex = QRegExp(MUNCODE_REGEX, Qt.CaseInsensitive)
         self.muncodeValidator = QRegExpValidator(regex)
-        self.kommunekoderLineEdit.setValidator(
+        self.kommunefilter.setValidator(
             self.muncodeValidator
         )
-
-        for key, dict in self.settings.resources.items():
-            cb = getattr(self, dict['checkbox'])
-            if dict['id'] in self.settings.value('resourcesfilter'):
-                cb.setCheckState(2)
-            else:
-                cb.setCheckState(0)
 
         
 
