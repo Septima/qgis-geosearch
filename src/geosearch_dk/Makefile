@@ -39,28 +39,24 @@ LRELEASE = /usr/local/Cellar/qt/5.10.0_1/bin/lrelease
 SOURCES = \
 	__init__.py \
 	autosuggest.py \
-	microjson.py \
 	pluginmetadata.py \
 	qgisutils.py \
 	searchbox.py \
-	septimageosearch.py\
-	settingsdialog.py
+	septimageosearch.py
 
 PLUGINNAME = geosearch_dk
 
 PY_FILES = \
 	__init__.py \
 	autosuggest.py \
-	microjson.py \
 	pluginmetadata.py \
 	qgisutils.py \
 	searchbox.py \
-	septimageosearch.py\
-	settingsdialog.py
+	septimageosearch.py
 
 UI_FILES = \
 	ui_search.ui \
-	ui_settings.ui
+	config/settings.ui
 
 EXTRAS = icon.png metadata.txt
 
