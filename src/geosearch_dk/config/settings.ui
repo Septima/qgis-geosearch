@@ -49,7 +49,7 @@
         <x>0</x>
         <y>0</y>
         <width>1029</width>
-        <height>346</height>
+        <height>378</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -238,6 +238,19 @@
               </widget>
              </item>
             </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="copyrightLabel">
+            <property name="text">
+             <string>Geosearch DK er bygget af  &lt;a href=&quot;http://www.septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="openExternalLinks">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
          </layout>
