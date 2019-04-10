@@ -9,9 +9,9 @@ Installation
 --------------
 Pluginet er tilgængeligt fra QGIS' officielle plugin repository, dermed finder QGIS selv en kompatibel version af pluginet, og du får automatisk besked, når der kommer nye versioner af pluginet.
 
-Uanset installationsmetoden kræver pluginet et fungerende login til [Kortforsyningen.dk](http://www.kortforsyningen.dk/).
-
 Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kortvinduet. Panelet kan f.eks. flyttes, så det ligger oven for lagkontrollen i stedet. På denne placering fylder det ikke så meget, men er stadig let tilgængeligt.
+
+Pluginet distribueres med et fungerende [token](https://kortforsyningen.dk/indhold/ny-brugerstyring) til Kortforsyningen. Det er muligt at angive sit eget token.
 
 Opdatering
 --------------
@@ -19,9 +19,10 @@ Nye versioner af pluginet udstilles via QGIS' officielle plugin repository. I Pl
 
 Indstillinger
 -----------------
-Følgende instilllinger kan foretages i pluginets indstillingsdialog (Klik Plugins -> Geosearch DK -> Indstillinger):
-- Brugernavn og password til Kortforsyningen (Opret bruger [her](http://download.kortforsyningen.dk/user/register))
+Følgende instilllinger kan foretages i pluginets indstillingsdialog (Klik Indstillinger -> Generelle Indstillinger -> Geosearch DK):
+- Token til Kortforsyningen (Opret bruger [her](http://download.kortforsyningen.dk/user/register) og opret derefter et token på "Min side")
 - Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Der vises nu kun søgeresultater fra de listede kommuner.
+- Typefilter. Vis kun søgeresultater af bestemte typer. Feks adresser, matrikelnumre, stednavne etc.
 
 Ny funktionalitet
 -----------------
