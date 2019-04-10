@@ -243,7 +243,7 @@
           <item>
            <widget class="QLabel" name="copyrightLabel">
             <property name="text">
-             <string>Geosearch DK er bygget af  &lt;a href=&quot;http://www.septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
+             <string>Geosearch DK er bygget af  &lt;a href=&quot;https://septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
