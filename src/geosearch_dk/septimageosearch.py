@@ -50,7 +50,7 @@ class SeptimaGeoSearch(object):
             locale = 'da'
 
         if QFileInfo(self.plugin_dir).exists():
-            localePath = self.plugin_dir + "/i18n/" + locale + ".qm"
+            localePath = self.plugin_dir + "/i18n/" + locale + ".qt.qm"
 
         if QFileInfo(localePath).exists():
             self.translator = QTranslator()
