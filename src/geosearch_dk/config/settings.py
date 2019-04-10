@@ -11,6 +11,8 @@ class Settings(SettingManager):
         SettingManager.__init__(self, 'Geosearch DK')
 
         self.baseurl = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&token={token}&callback={callback}&search="
+
+        # The order here is the order results are displayed in
         self.resources = {
                 'adr': {'id':'Adresser', 'title':'Adresser', 'checkbox': 'adrCheckBox'},
                 'ste': {'id':'Stednavne_v2', 'titel':'Stednavne', 'checkbox': 'steCheckBox'},
