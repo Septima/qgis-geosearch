@@ -14,7 +14,7 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=3.98
 description=Search and zoom to named places in Denmark
 about= Uses Kortforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. In order to use the plugin, a user at Kortforsyningen is required. If you do not have a Kortforsyning-user, create one with this <a href="http://download.kortforsyningen.dk//content/opret-mig-som-bruger">link</a> - it is free of charge. When the plugin is installed, enter your user name and password to Kortforsyning in the dialog found under the menu Plugins --> Geosearch DK --> Settings. This plugin is developed by Septima.
-version=1.0.4
+version=1.1.0
 author=Asger Skovbo Petersen, Septima
 email=asger@septima.dk
 
@@ -23,7 +23,8 @@ email=asger@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2019-06-01 1.0.4 Fix problem with multigeometries (Funded by Roskilde Kommune)
+changelog=2019-04-10 Use Kortforsyningen token instead of username/password. Move plugin settings to main QGIS Settings dialog.  
+    2019-01-06 1.0.4 Fix problem with multigeometries (Funded by Roskilde Kommune)
     2018-06-14 1.0.3 Removed python future
     2018-03-01 1.0.2 Avoid crash when QSettings().value("locale/userLocale") returns a NULL QVariant
     2018-02-13 1.0.1 Fix authentication dialog not showing automatically
@@ -38,7 +39,7 @@ changelog=2019-06-01 1.0.4 Fix problem with multigeometries (Funded by Roskilde 
     2015-05-20 0.1.23 Add municipality filter setting.
 
 # tags are comma separated with spaces allowed
-tags=Danmark, dansk, Kortforsyningen, søg, adresse, stednavn
+tags=Danmark, dansk, Kortforsyningen, søg, adresse, stednavn, matrikel
 
 homepage=https://github.com/Septima/qgis-geosearch
 tracker=https://github.com/Septima/qgis-geosearch/issues
