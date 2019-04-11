@@ -16,15 +16,15 @@ author               : asger@septima.dk
  *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
-"""
+""" 
 from builtins import map
 from builtins import str
 
-from qgis.PyQt.QtWidgets import QFrame, QMessageBox
+from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton
 from qgis.PyQt.QtGui import QColor
 from qgis.PyQt.QtCore import QSettings, QUrl
 from qgis.PyQt import uic
-from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication
+from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication, Qgis
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
 import json
@@ -135,9 +135,14 @@ class SearchBox(QFrame, FORM_CLASS):
             # Check if we have an auth error
             if "User not authorized" in response:
                 title = self.tr(u'Afvist af Kortforsyningen')
-                msg = self.tr(u'Manglende eller ukorrekt token til Kortforsyningen.\n\nKortforsyningen svarede:\n')
-                QMessageBox.warning( None, title, msg + response)
-                # Now show settings dialog
+                message = self.tr(u'Manglende eller ukorrekt token til Kortforsyningen.')
+                button_text = self.tr(u'Åbn settings')
+                widget = self.qgisIface.messageBar().createMessage(title, message)
+                button = QPushButton(widget)
+                button.setText(button_text)
+                button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
+                widget.layout().addWidget(button)
+                self.qgisIface.messageBar().pushWidget(widget, level=Qgis.Warning, duration=15)
             return None
 
         if 'status' not in obj:
