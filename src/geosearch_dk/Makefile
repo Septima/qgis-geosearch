@@ -31,7 +31,7 @@ LOCALES = en
 # If locales are enabled, set the name of the lrelease binary on your system. If
 # you have trouble compiling the translations, you may have to specify the full path to
 # lrelease
-LRELEASE = /usr/local/Cellar/qt/5.10.0_1/bin/lrelease
+LRELEASE = /Users/asger/miniconda3/envs/qttools/bin/lrelease
 #LRELEASE = lrelease-qt4
 
 

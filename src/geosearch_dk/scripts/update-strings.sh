@@ -20,7 +20,7 @@ done
 UPDATE=false
 for LOCALE in ${LOCALES}
 do
-  TRANSLATION_FILE="i18n/$LOCALE.ts"
+  TRANSLATION_FILE="i18n/$LOCALE.qt.ts"
   if [ ! -f ${TRANSLATION_FILE} ]
   then
     # Force translation string collection as we have a new language file
@@ -45,10 +45,10 @@ then
   echo "Please provide translations by editing the translation files below:"
   for LOCALE in ${LOCALES}
   do
-    echo "i18n/"${LOCALE}".ts"
+    echo "i18n/"${LOCALE}".qt.ts"
     # Note we don't use pylupdate with qt .pro file approach as it is flakey
     # about what is made available.
-    pylupdate5 -noobsolete ${PYTHON_FILES} -ts i18n/${LOCALE}.ts
+    /Users/asger/miniconda3/pkgs/pyqt-5.9.2-py27h655552a_2/bin/pylupdate5 -noobsolete ${PYTHON_FILES} -ts i18n/${LOCALE}.qt.ts
   done
 else
   echo "No need to edit any translation files (.ts) because no python files"
