@@ -22,9 +22,9 @@ import sys
 from qgis.PyQt.QtCore import QObject, Qt, QEvent, QTimer, QPoint
 from qgis.PyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QFrame, QApplication
 from qgis.PyQt.QtGui import QPalette, QKeyEvent
-from qgis.PyQt.QtNetwork import QNetworkReply, QNetworkRequest, QNetworkAccessManager
+from qgis.PyQt.QtNetwork import QNetworkReply
 from qgis.PyQt.uic import loadUi
-from qgis.core import QgsMessageLog
+from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
@@ -36,7 +36,7 @@ class AutoSuggest(QObject):
         self.parseresult_func = parseresult_func
         
         self.editor = parent
-        self.networkManager = QNetworkAccessManager()
+        self.networkFetcher = QgsNetworkContentFetcher()
 
         self.selectedObject = None
         self.isUnloaded = False
@@ -76,7 +76,7 @@ class AutoSuggest(QObject):
 
         #self.connect(self.networkManager, SIGNAL("finished(QNetworkReply*)"),
         #             self.handleNetworkData)
-        self.networkManager.finished.connect( self.handleNetworkData )
+        self.networkFetcher.finished.connect( self.handleNetworkData )
 
     def eventFilter(self, obj, ev):
         if obj != self.popup:
@@ -167,25 +167,19 @@ class AutoSuggest(QObject):
             qurl = self.geturl_func( term )
             if qurl:
                 # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
-                r = QNetworkRequest(qurl)
-                r.setAttribute(QNetworkRequest.FollowRedirectsAttribute, True)
-                r.setAttribute(
-                    QNetworkRequest.RedirectPolicyAttribute,
-                    QNetworkRequest.RedirectPolicy.NoLessSafeRedirectPolicy,
-                )
-                self.networkManager.get(r)  # QUrl(url)))
+                self.networkFetcher.fetchContent(qurl)  # QUrl(url)))
 
-    def handleNetworkData(self, networkReply):
-        url = networkReply.url()
-        #print "received url:", url.toString()
-        if not networkReply.error():
-            response = networkReply.readAll()
-            pystring = str(response, 'utf-8')
-            #print "Response: ", response
-            rows = self.parseresult_func( pystring )
-            self.showCompletion( rows )
-
-        networkReply.deleteLater()
+    def handleNetworkData(self):
+        reply = self.networkFetcher.reply()
+        if reply:
+            if reply.error() == QNetworkReply.NoError:
+                content = self.networkFetcher.contentAsString()
+                rows = self.parseresult_func( content )
+                self.showCompletion( rows )
+            else:
+                QgsApplication.messageLog().logMessage(
+                'Server returned: ' + reply.error(), __package__
+            )
 
     def unload( self ):
         # Avoid processing events after QGIS shutdown has begun
