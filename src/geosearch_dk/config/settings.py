@@ -10,7 +10,7 @@ class Settings(SettingManager):
     def __init__(self):
         SettingManager.__init__(self, 'Geosearch DK')
 
-        self.baseurl = "http://kortforsyningen.kms.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&token={token}&callback={callback}&search="
+        self.baseurl = "https://api.dataforsyningen.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&token={token}&callback={callback}&search="
 
         # The order here is the order results are displayed in
         self.resources = {
