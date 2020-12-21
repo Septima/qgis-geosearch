@@ -167,8 +167,13 @@ class AutoSuggest(QObject):
             qurl = self.geturl_func( term )
             if qurl:
                 # TODO: Cancel existing requests: http://qt-project.org/forums/viewthread/18073
-                self.networkManager.get(QNetworkRequest( qurl ))      #QUrl(url)))
-
+                r = QNetworkRequest(qurl)
+                r.setAttribute(QNetworkRequest.FollowRedirectsAttribute, True)
+                r.setAttribute(
+                    QNetworkRequest.RedirectPolicyAttribute,
+                    QNetworkRequest.RedirectPolicy.NoLessSafeRedirectPolicy,
+                )
+                self.networkManager.get(r)  # QUrl(url)))
 
     def handleNetworkData(self, networkReply):
         url = networkReply.url()
