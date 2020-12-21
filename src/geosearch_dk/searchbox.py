@@ -168,9 +168,7 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def setupCrsTransform(self):
         if QgsCoordinateReferenceSystem is not None:
-            srcCrs = QgsCoordinateReferenceSystem(
-                25832, QgsCoordinateReferenceSystem.EpsgCrsId
-            )
+            srcCrs = QgsCoordinateReferenceSystem.fromEpsgId(25832)
             dstCrs = qgisutils.getCurrentCrs(self.qgisIface)
             self.crsTransform = QgsCoordinateTransform(srcCrs, dstCrs, QgsProject.instance())
 
