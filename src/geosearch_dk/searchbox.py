@@ -55,7 +55,8 @@ class SearchBox(QFrame, FORM_CLASS):
         self.completion = AutoSuggest(
             geturl_func=self.geturl,
             parseresult_func=self.parseresponse,
-            parent=self.searchEdit
+            parent=self.searchEdit,
+            notauthorized_func = self.handleNotAuthorized
         )
         self.setupCrsTransform()
 
@@ -123,6 +124,17 @@ class SearchBox(QFrame, FORM_CLASS):
         url += searchterm
         return QUrl(url)
 
+    def handleNotAuthorized(self):
+        title = self.tr(u'Afvist af Kortforsyningen')
+        message = self.tr(u'Manglende eller ukorrekt token til Kortforsyningen.')
+        button_text = self.tr(u'Åbn settings')
+        widget = self.qgisIface.messageBar().createMessage(title, message)
+        button = QPushButton(widget)
+        button.setText(button_text)
+        button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
+        widget.layout().addWidget(button)
+        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.Warning, duration=15)
+
     def parseresponse(self, response):
         # Trim callback
         result = response[len(self.config['callback']) + 1: -1]
@@ -134,15 +146,7 @@ class SearchBox(QFrame, FORM_CLASS):
             )
             # Check if we have an auth error
             if "User not authorized" in response:
-                title = self.tr(u'Afvist af Kortforsyningen')
-                message = self.tr(u'Manglende eller ukorrekt token til Kortforsyningen.')
-                button_text = self.tr(u'Åbn settings')
-                widget = self.qgisIface.messageBar().createMessage(title, message)
-                button = QPushButton(widget)
-                button.setText(button_text)
-                button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
-                widget.layout().addWidget(button)
-                self.qgisIface.messageBar().pushWidget(widget, level=Qgis.Warning, duration=15)
+                self.handleNotAuthorized()
             return None
 
         if 'status' not in obj:
