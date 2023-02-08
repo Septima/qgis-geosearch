@@ -20,20 +20,21 @@ author               : asger@septima.dk
 
 import sys
 from qgis.PyQt.QtCore import QObject, Qt, QEvent, QTimer, QPoint
-from qgis.PyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QFrame, QApplication
+from qgis.PyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QFrame, QApplication, QFrame, QMessageBox, QPushButton
 from qgis.PyQt.QtGui import QPalette, QKeyEvent
 from qgis.PyQt.QtNetwork import QNetworkReply
 from qgis.PyQt.uic import loadUi
-from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher
+from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
 class AutoSuggest(QObject):
 
-    def __init__(self, geturl_func, parseresult_func, parent = None):
+    def __init__(self, geturl_func, parseresult_func, parent = None, notauthorized_func = None):
         QObject.__init__(self, parent)
         self.geturl_func = geturl_func
         self.parseresult_func = parseresult_func
+        self.notauthorized_func = notauthorized_func
         
         self.editor = parent
         self.networkFetcher = QgsNetworkContentFetcher()
@@ -177,9 +178,13 @@ class AutoSuggest(QObject):
                 rows = self.parseresult_func( content )
                 self.showCompletion( rows )
             else:
-                QgsApplication.messageLog().logMessage(
-                'Server returned: ' + reply.error(), __package__
-            )
+                response_content = self.networkFetcher.contentAsString()
+                QgsApplication.messageLog().logMessage('Server returned: [' + reply.errorString() + '] ' + response_content, __package__)
+                # Check if we have an auth error
+                if reply.error() == QNetworkReply.AuthenticationRequiredError:
+                    if self.notauthorized_func:
+                        self.notauthorized_func()
+                return None
 
     def unload( self ):
         # Avoid processing events after QGIS shutdown has begun

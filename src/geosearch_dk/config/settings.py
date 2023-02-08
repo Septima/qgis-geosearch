@@ -4,6 +4,9 @@ from PyQt5.QtCore import QFileInfo, QObject
 from qgis.PyQt import QtCore
 
 from .qgissettingmanager import *
+
+DEFAULT_DATAFORSYNING_TOKEN = "0350b5341749c0970454474881173412"
+
 class Settings(SettingManager):
     settings_updated = QtCore.pyqtSignal()
 
@@ -24,8 +27,10 @@ class Settings(SettingManager):
                 'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckBox'}
                 }
 
-        self.add_setting(String('token', Scope.Global, '787484d3a8dfee7562ffd6eff1d6e0ee'))
+        self.add_setting(String('token', Scope.Global, DEFAULT_DATAFORSYNING_TOKEN))
         self.add_setting(String('kommunefilter', Scope.Global, ''))
+
+        self._migratesettings()
 
         for k, dict in self.resources.items():
             self.add_setting(Bool(f"search_{k}",Scope.Global, True))
@@ -39,6 +44,14 @@ class Settings(SettingManager):
 
     def emit_updated(self):
         self.settings_updated.emit()
+
+    def _migratesettings(self):
+        # Migrerer existerende settings
+
+        # Gammelt, nu nedlagt dataforsyningstoken erstattes. Brugerens evt eget token skal ikke røres.
+        old_default_token = "787484d3a8dfee7562ffd6eff1d6e0ee"
+        if self.value("token") == old_default_token:
+            self.set_value("token", DEFAULT_DATAFORSYNING_TOKEN)
 
     
 
