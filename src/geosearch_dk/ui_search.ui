@@ -40,6 +40,19 @@
      <item>
       <widget class="QgsFilterLineEdit" name="searchEdit"/>
      </item>
+     <item>
+      <widget class="QLabel" name="labelVigtigInfo">
+       <property name="toolTip">
+        <string>SDFI lukker tjenesten Geosearch. Tryk for at læse mere.</string>
+       </property>
+       <property name="text">
+        <string>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Vigtig info&lt;/a&gt;</string>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>

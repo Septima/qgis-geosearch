@@ -4,35 +4,35 @@
 <context>
     <name>SearchBox</name>
     <message>
-        <location filename="../searchbox.py" line="164"/>
+        <location filename="../searchbox.py" line="168"/>
         <source>Ingen resultater</source>
         <translation>No results</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="137"/>
+        <location filename="../searchbox.py" line="128"/>
         <source>Afvist af Kortforsyningen</source>
         <translation>Rejected by Kortforsyningen</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="65"/>
-        <source>SÃ¸g adresse, stednavn, postnummer, matrikel m.m.</source>
-        <translation>Search Danish addresses, road names, place names, postal codes, land registry etc.</translation>
-    </message>
-    <message>
-        <location filename="../searchbox.py" line="138"/>
+        <location filename="../searchbox.py" line="129"/>
         <source>Manglende eller ukorrekt token til Kortforsyningen.</source>
         <translation>Missing or incorrect token for Kortforsyningen.</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="139"/>
-        <source>Ãbn settings</source>
+        <location filename="../searchbox.py" line="66"/>
+        <source>Søg adresse, stednavn, postnummer, matrikel m.m.</source>
+        <translation>Search Danish addresses, road names, place names, postal codes, land registry etc.</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="130"/>
+        <source>Åbn settings</source>
         <translation>Open settings</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="265"/>
-        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten &apos;geosearch&apos; fra &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; og krÃ¦ver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
+        <location filename="../searchbox.py" line="267"/>
+        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten &apos;geosearch&apos; fra &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </source>
-        <translation>&lt;html&gt;&lt;head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find your token for Kortforsyningen&lt;/span&gt;&lt;/a&gt; or &lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;create a new token&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Not registered as a user at Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Create user &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+        <translation>Geosearch DK lets the user zoom to named places in Denmark.&lt;br/&gt;This plugin uses the service &apos;Geosearch&apos; from &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; and requires a valid login for this service.&lt;br/&gt;Plugin homepage: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </translation>
     </message>
 </context>
@@ -140,6 +140,16 @@
         <location filename="../ui_search.ui" line="20"/>
         <source>Search</source>
         <translation>Search</translation>
+    </message>
+    <message>
+        <location filename="../ui_search.ui" line="46"/>
+        <source>SDFI lukker tjenesten Geosearch. Tryk for at læse mere.</source>
+        <translation>SDFI terminates the service Geosearch. Click to read more.</translation>
+    </message>
+    <message>
+        <location filename="../ui_search.ui" line="49"/>
+        <source>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Vigtig info&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Important&lt;/a&gt;</translation>
     </message>
 </context>
 </TS>
