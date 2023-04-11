@@ -5,6 +5,10 @@ QGIS plugin med en søgebox, som tillader brugeren lynhurtigt at zoome til navng
 
 Pluginet er udviklet af [Septima](http://www.septima.dk), som har frigivet det under Open Source licensen [GPL3](http://www.gnu.org/licenses/gpl.html).
 
+Vigtig information
+--------------
+SDFI lukker tjenesten `Geosearch`, hvilket har betydning for dette plugin. Læs [mere her](https://github.com/Septima/qgis-geosearch/issues/50).
+
 Installation
 --------------
 Pluginet er tilgængeligt fra QGIS' officielle plugin repository, dermed finder QGIS selv en kompatibel version af pluginet, og du får automatisk besked, når der kommer nye versioner af pluginet.
