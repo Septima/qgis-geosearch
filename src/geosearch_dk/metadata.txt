@@ -8,10 +8,10 @@ name=Geosearch DK
 qgisMinimumVersion=3.0
 qgisMaximumVersion=3.98
 description=Search and zoom to named places in Denmark
-about= Uses Kortforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
+about= Uses Dataforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
 version=1.4.0
-author=Asger Skovbo Petersen, Septima
-email=asger@septima.dk
+author=Septima
+email=kontakt@septima.dk
 
 # end of mandatory metadata
 
@@ -37,7 +37,7 @@ changelog=2023-04-11 1.4.0 Warn about SDFI discontinuing Geosearch
     2015-05-20 0.1.23 Add municipality filter setting.
 
 # tags are comma separated with spaces allowed
-tags=Danmark, dansk, Kortforsyningen, søg, adresse, stednavn, matrikel
+tags=Danmark, dansk, Dataforsyningen, søg, adresse, stednavn, matrikel
 
 homepage=https://github.com/Septima/qgis-geosearch
 tracker=https://github.com/Septima/qgis-geosearch/issues

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from PyQt5.QtCore import QFileInfo, QObject
+
 from qgis.PyQt import QtCore
 
 from .qgissettingmanager import *
@@ -12,19 +12,20 @@ class Settings(SettingManager):
 
     def __init__(self):
         SettingManager.__init__(self, 'Geosearch DK')
+        #self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}&filter={filter}"
+        self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}"
 
-        self.baseurl = "https://api.dataforsyningen.dk/Geosearch?service=GEO&resources={resources}&area={area}&limit={limit}&token={token}&callback={callback}&search="
 
         # The order here is the order results are displayed in
         self.resources = {
-                'adr': {'id':'Adresser', 'title':'Adresser', 'checkbox': 'adrCheckBox'},
-                'ste': {'id':'Stednavne_v2', 'titel':'Stednavne', 'checkbox': 'steCheckBox'},
-                'pos': {'id':'Postdistrikter', 'titel':'Postdistrikter', 'checkbox':'posCheckBox'},
-                'mat': {'id':'Matrikelnumre', 'titel':'Matrikelnumre', 'checkbox': 'matCheckBox'},
-                'kom': {'id':'Kommuner', 'titel':'Kommuner', 'checkbox': 'komCheckBox'},
-                'ops': {'id':'Opstillingskredse', 'titel':'Opstillingskredse', 'checkbox': 'opsCheckBox'},
-                'pol': {'id':'Politikredse', 'titel':'Politikredse', 'checkbox':'polCheckBox' },
-                'reg': {'id':'Regioner', 'titel':'Regioner', 'checkbox':'regCheckBox'}
+                'hus': {'id':'husnummer', 'titel':'Husnumre'},
+                'ste': {'id':'stednavn', 'titel':'Stednavne'},
+                'pos': {'id':'postnummer', 'titel':'Postdistrikter'},
+                'mat': {'id':'matrikel', 'titel':'Matrikelnumre'},
+                'kom': {'id':'kommune', 'titel':'Kommuner'},
+                'ops': {'id':'opstillingskreds', 'titel':'Opstillingskredse'},
+                'pol': {'id':'politikreds', 'titel':'Politikredse'},
+                'reg': {'id':'region', 'titel':'Regioner'}
                 }
 
         self.add_setting(String('token', Scope.Global, DEFAULT_DATAFORSYNING_TOKEN))
@@ -35,12 +36,12 @@ class Settings(SettingManager):
         for k, dict in self.resources.items():
             self.add_setting(Bool(f"search_{k}",Scope.Global, True))
 
-    def resourcesfilter(self):
-        resultlist = []
-        for k, dict in self.resources.items():
-            if self.value(f"search_{k}"):
-                resultlist.append(dict["id"])
-        return resultlist
+    def selected_resources(self):
+        selected_resources = {}
+        for key, dict in self.resources.items():
+            if self.value(f"search_{key}"):
+                selected_resources[key] = self.resources[key]
+        return selected_resources
 
     def emit_updated(self):
         self.settings_updated.emit()

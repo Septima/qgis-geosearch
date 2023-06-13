@@ -48,8 +48,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1029</width>
-        <height>378</height>
+        <width>1032</width>
+        <height>306</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -83,7 +83,7 @@
           <item>
            <widget class="QGroupBox" name="groupBox">
             <property name="title">
-             <string>Kortforsyningen token</string>
+             <string>Dataforsyningen token</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
@@ -92,14 +92,14 @@
                 <string/>
                </property>
                <property name="placeholderText">
-                <string>Indsæt token til Kortforsyningen</string>
+                <string>Indsæt token til Dataforsyningen</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QLabel" name="label">
                <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Kortforsyningen&lt;/span&gt;&lt;/a&gt; eller &lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;opret et nyt token&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Ikke oprettet som bruger på Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Opret bruger &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Dataforsyningen eller opret nyt&lt;/span&gt;&lt;/a&gt;</string>
                </property>
                <property name="openExternalLinks">
                 <bool>true</bool>
@@ -168,9 +168,9 @@
               </widget>
              </item>
              <item row="0" column="0">
-              <widget class="QCheckBox" name="search_adr">
+              <widget class="QCheckBox" name="search_hus">
                <property name="text">
-                <string>Adresser ('adr')</string>
+                <string>Husnumre ('hus')</string>
                </property>
                <property name="checked">
                 <bool>true</bool>

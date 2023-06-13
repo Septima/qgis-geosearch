@@ -27,13 +27,13 @@
     <number>4</number>
    </property>
    <property name="topMargin">
-    <number>4</number>
+    <number>2</number>
    </property>
    <property name="rightMargin">
     <number>4</number>
    </property>
    <property name="bottomMargin">
-    <number>4</number>
+    <number>2</number>
    </property>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -41,14 +41,23 @@
       <widget class="QgsFilterLineEdit" name="searchEdit"/>
      </item>
      <item>
-      <widget class="QLabel" name="labelVigtigInfo">
-       <property name="toolTip">
-        <string>SDFI lukker tjenesten Geosearch. Tryk for at læse mere.</string>
+      <widget class="QToolButton" name="settingsButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>22</height>
+        </size>
        </property>
        <property name="text">
-        <string>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Vigtig info&lt;/a&gt;</string>
+        <string/>
        </property>
-       <property name="openExternalLinks">
+       <property name="autoRaise">
         <bool>true</bool>
        </property>
       </widget>
@@ -61,7 +70,7 @@
   <customwidget>
    <class>QgsFilterLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>qgis.gui</header>
+   <header>qgsfilterlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
