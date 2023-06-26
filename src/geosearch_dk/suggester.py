@@ -147,8 +147,9 @@ class Suggester(QObject):
         self.my_searchbox_widget.setFocus()
         item = self.resultlistwidget.currentItem()
         if item:
-            self.my_searchbox_widget.setText(item.text(0) )
             row =  item.data(2, Qt.UserRole) #.toPyObject()
+            if row[0]["status"] != "error":
+                self.my_searchbox_widget.setText(item.text(0) )
             self.selectedObject = row
             e = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
             QApplication.postEvent(self.my_searchbox_widget, e)
