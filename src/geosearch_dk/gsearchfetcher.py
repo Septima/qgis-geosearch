@@ -26,7 +26,7 @@ class GSearchFetcher(QObject):
 
     def geturls(self, searchterm):
         urls = {}
-        limit = 25
+        limit = 40
         #https://api.dataforsyningen.dk/rest/gsearch/v1.0/kommune?token=fd44f26ab5701c01ca9f570e507fe9ab&q=kom&limit=10
         selected_resources = self.settings.selected_resources()
         split = searchterm.split(':')
