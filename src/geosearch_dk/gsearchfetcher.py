@@ -2,9 +2,8 @@ import re
 import json
 
 from qgis.PyQt import QtCore
-from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis
+from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis, QgsNetworkAccessManager
 from qgis.PyQt.QtCore import QObject, QUrl
-from qgis.PyQt.QtNetwork import QNetworkAccessManager
 
 from .multigetter import MultiGetter
 
@@ -14,7 +13,7 @@ class GSearchFetcher(QObject):
     def __init__(self, settings):
         QObject.__init__(self)
         self.settings = settings
-        self.networkManager = QNetworkAccessManager()
+        self.networkManager = QgsNetworkAccessManager.instance()
         self.result = None
         pass
     

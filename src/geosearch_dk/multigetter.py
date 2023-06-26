@@ -3,6 +3,7 @@ import json
 from qgis.PyQt import QtCore
 from qgis.PyQt.QtCore import QObject, QUrl
 from qgis.PyQt.QtNetwork import QNetworkRequest
+from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis, QgsNetworkAccessManager
 
 class MultiGetter(QObject):
 
