@@ -27,7 +27,7 @@ from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton
 from qgis.PyQt.QtGui import QColor, QIcon
 from qgis.PyQt.QtCore import QSettings, QSize
 from qgis.PyQt import uic
-from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, Qgis
+from qgis.core import QgsApplication, QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, Qgis
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
 from . import qgisutils
@@ -69,9 +69,9 @@ class SearchBox(QFrame, FORM_CLASS):
         self.resize(50, self.height())
         self.searchEdit.setFocus()
 
-        settings_icon_path = os.path.join(os.path.dirname(__file__), 'images', 'settings.svg')
         self.settingsButton = self.settingsButton
-        self.settingsButton.setIcon(QIcon(settings_icon_path))
+        settings_icon = QIcon(":images/themes/default/console/iconSettingsConsole.svg")
+        self.settingsButton.setIcon(settings_icon)
         self.settingsButton.setIconSize(QSize(16, 16))
         self.settingsButton.setStyleSheet('border: none;')
         self.settingsButton.setFixedSize( 20, 20 )
