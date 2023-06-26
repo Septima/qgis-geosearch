@@ -15,12 +15,12 @@ class GSearchFetcher(QObject):
         self.settings = settings
         self.networkManager = QgsNetworkAccessManager.instance()
         self.result = None
-        pass
+        self.last_get_id = None
     
     def fetch (self, term):
         urls = self.geturls(term)
         multigetter = MultiGetter(self.networkManager)
-        multigetter.get(urls, self.handleMultiGetterResult)
+        self.last_get_id = multigetter.get(urls, self.handleMultiGetterResult)
         #multigetter.finished.connect(self.handleMultiGetterResult)
 
 
@@ -58,25 +58,26 @@ class GSearchFetcher(QObject):
     def get_result(self):
         return self.result
 
-    def handleMultiGetterResult(self, results):
-        self.result = []
-        for key, result in results.items():
-            resource = self.settings.resources[key]
-            if result["ok"]:
-                rows = result["data"]
-                for row in rows:
+    def handleMultiGetterResult(self, get_id, results):
+        if self.last_get_id == get_id:
+            self.result = []
+            for key, result in results.items():
+                resource = self.settings.resources[key]
+                if result["ok"]:
+                    rows = result["data"]
+                    for row in rows:
+                        row["key"] = key
+                        row["status"] = "ok"
+                        row["resource"] = resource
+                    self.result.extend(rows)
+                else:
+                    row = {}
                     row["key"] = key
-                    row["status"] = "ok"
+                    row["status"] = "error"
                     row["resource"] = resource
-                self.result.extend(rows)
-            else:
-                row = {}
-                row["key"] = key
-                row["status"] = "error"
-                row["resource"] = resource
-                row["response"] = result["response"]
-                self.result.extend([row])
-                QgsApplication.messageLog().logMessage('Fejl i kald til GSearch: [' + str(result["error"]) + '] ' + result["response"], __package__)
-        self.finished.emit()
+                    row["response"] = result["response"]
+                    self.result.extend([row])
+                    QgsApplication.messageLog().logMessage('Fejl i kald til GSearch: [' + str(result["error"]) + '] ' + result["response"], __package__)
+            self.finished.emit()
 
 

@@ -1,4 +1,5 @@
 import json
+import uuid
 
 from qgis.PyQt import QtCore
 from qgis.PyQt.QtCore import QObject, QUrl
@@ -14,6 +15,7 @@ class MultiGetter(QObject):
         self.results = {}
 
     def get (self, urls, callback_fn):
+        self.get_id = str(uuid.uuid4())
         for key, url in urls.items():
             request = QNetworkRequest( QUrl(url) )
             networkReply = self.networkManager.get(request) 
@@ -21,6 +23,7 @@ class MultiGetter(QObject):
             self.results[key] = None
             func = MultiGetter.bind_instance_method(self, "get_data", key, callback_fn)
             networkReply.finished.connect( func )
+        return self.get_id
 
     def bind(fn, *args):
         def inner(*a):
@@ -66,4 +69,4 @@ class MultiGetter(QObject):
                 break
             
         if finished:
-            callback_fn(self.results)
+            callback_fn(self.get_id, self.results)
