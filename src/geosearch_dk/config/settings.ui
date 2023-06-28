@@ -168,9 +168,9 @@
               </widget>
              </item>
              <item row="0" column="0">
-              <widget class="QCheckBox" name="search_hus">
+              <widget class="QCheckBox" name="search_adr">
                <property name="text">
-                <string>Husnumre ('hus')</string>
+                <string>Adresser ('adr')</string>
                </property>
                <property name="checked">
                 <bool>true</bool>

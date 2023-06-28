@@ -18,7 +18,7 @@ class Settings(SettingManager):
 
         # The order here is the order results are displayed in
         self.resources = {
-                'hus': {'id':'husnummer', 'titel':'Husnumre'},
+                'adr': {'id':'husnummer', 'titel':'Husnumre'},
                 'ste': {'id':'stednavn', 'titel':'Stednavne'},
                 'pos': {'id':'postnummer', 'titel':'Postdistrikter'},
                 'mat': {'id':'matrikel', 'titel':'Matrikelnumre'},

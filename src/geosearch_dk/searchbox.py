@@ -73,7 +73,7 @@ class SearchBox(QFrame, FORM_CLASS):
         settings_icon = QIcon(":images/themes/default/console/iconSettingsConsole.svg")
         self.settingsButton.setIcon(settings_icon)
         self.settingsButton.setIconSize(QSize(16, 16))
-        self.settingsButton.setStyleSheet('border: none;')
+        #self.settingsButton.setStyleSheet('border: none;')
         self.settingsButton.setFixedSize( 20, 20 )
 
         self.settingsButton.clicked.connect(self.show_settings)

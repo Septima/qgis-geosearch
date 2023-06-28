@@ -19,9 +19,9 @@ class GSearchFetcher(QObject):
     
     def fetch (self, term):
         urls = self.geturls(term)
-        multigetter = MultiGetter(self.networkManager)
-        self.last_get_id = multigetter.get(urls, self.handleMultiGetterResult)
-        #multigetter.finished.connect(self.handleMultiGetterResult)
+        if len(urls)>0:
+            multigetter = MultiGetter(self.networkManager)
+            self.last_get_id = multigetter.get(urls, self.handleMultiGetterResult)
 
 
     def geturls(self, searchterm):
@@ -33,10 +33,11 @@ class GSearchFetcher(QObject):
         if len(split)>1:
             first3letters_lowerCase = split[0][0:3].lower()
             if first3letters_lowerCase in self.settings.resources:
+                selected_resources = {}
                 selected_resources[first3letters_lowerCase] = self.settings.resources[first3letters_lowerCase]
                 searchterm = split[1].lstrip()
         if not searchterm:
-            return None
+            return urls
         if len(selected_resources) > 0:
             limit = limit // len(selected_resources)
             kommunekoder = re.findall(r'\d+', self.settings.value('kommunefilter'))
@@ -53,7 +54,7 @@ class GSearchFetcher(QObject):
                 urls[key] = url
             return urls
         else:
-            return None
+            return urls
 
     def get_result(self):
         return self.result
