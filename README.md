@@ -13,7 +13,7 @@ Installation
 --------------
 Pluginet er tilgængeligt fra QGIS' officielle plugin repository, dermed finder QGIS selv en kompatibel version af pluginet.
 
-Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kortvinduet. Panelet kan f.eks. flyttes, så det ligger oven for lagkontrollen i stedet. På denne placering fylder det ikke så meget, men er stadig let tilgængeligt.
+Pluginet installerer en søgebox, der som udgangspunkt lægger sig oven for kortvinduet. Panelet kan flyttes, så det fx ligger oven for lagpanelet i stedet. På denne placering fylder det ikke så meget, men er stadig let tilgængeligt.
 
 Pluginet distribueres med et fungerende token til Dataforsyningen. Det er muligt at angive sit eget token.
 
