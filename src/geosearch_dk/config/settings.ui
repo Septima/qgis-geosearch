@@ -49,7 +49,7 @@
         <x>0</x>
         <y>0</y>
         <width>1032</width>
-        <height>306</height>
+        <height>344</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -83,7 +83,7 @@
           <item>
            <widget class="QGroupBox" name="groupBox">
             <property name="title">
-             <string>Dataforsyningen token</string>
+             <string>Token til Dataforsyningen</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
@@ -115,7 +115,7 @@
              <string>Søg kun i listede kommuner</string>
             </property>
             <property name="title">
-             <string>Kommunefilter</string>
+             <string>Begræns søgning til følgende kommuner:</string>
             </property>
             <property name="flat">
              <bool>false</bool>
@@ -154,9 +154,69 @@
              <string>Søg kun blandt markerede typer</string>
             </property>
             <property name="title">
-             <string>Typefilter</string>
+             <string>Begræns søgning til resultater af disse typer:</string>
             </property>
             <layout class="QGridLayout" name="gridLayout_3">
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="search_pos">
+               <property name="text">
+                <string>Postdistrikter ('pos')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QCheckBox" name="search_pol">
+               <property name="text">
+                <string>Politikredse ('pol')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QCheckBox" name="search_ste">
+               <property name="text">
+                <string>Stednavne ('ste')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QCheckBox" name="search_reg">
+               <property name="text">
+                <string>Regioner ('reg')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QCheckBox" name="search_mat">
+               <property name="text">
+                <string>Matrikelnumre ('mat')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QCheckBox" name="search_ops">
+               <property name="text">
+                <string>Opstillingskredse ('ops')</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
              <item row="2" column="1">
               <widget class="QCheckBox" name="search_kom">
                <property name="text">
@@ -177,73 +237,27 @@
                </property>
               </widget>
              </item>
-             <item row="1" column="0">
-              <widget class="QCheckBox" name="search_ste">
-               <property name="text">
-                <string>Stednavne ('ste')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QCheckBox" name="search_pos">
-               <property name="text">
-                <string>Postdistrikter ('pos')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="1">
-              <widget class="QCheckBox" name="search_ops">
-               <property name="text">
-                <string>Opstillingskredse ('ops')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1">
-              <widget class="QCheckBox" name="search_pol">
-               <property name="text">
-                <string>Politikredse ('pol')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <widget class="QCheckBox" name="search_mat">
-               <property name="text">
-                <string>Matrikelnumre ('mat')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1">
-              <widget class="QCheckBox" name="search_reg">
-               <property name="text">
-                <string>Regioner ('reg')</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
             </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_soegtip1">
+            <property name="text">
+             <string>I parantes er angivet den forkortelse, der kan bruges i GeosearchDK-søgefeltet til at begrænse søgningen til specifik resultattype.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_soegtip2">
+            <property name="text">
+             <string>I søgefeltet kan således tastes 'adr:' efterfulgt af adressen - dette gør, at der kun vises adresser som søgeresultater.</string>
+            </property>
            </widget>
           </item>
           <item>
            <widget class="QLabel" name="copyrightLabel">
             <property name="text">
-             <string>Geosearch DK er bygget af  &lt;a href=&quot;https://septima.dk&quot;&gt;Septima&lt;/a&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geosearch DK er bygget af &lt;a href=&quot;https://septima.dk&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Septima&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
