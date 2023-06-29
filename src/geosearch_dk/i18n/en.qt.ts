@@ -5,13 +5,13 @@
     <name>SearchBox</name>
     <message>
         <location filename="../searchbox.py" line="110"/>
-        <source>Afvist af Kortforsyningen</source>
-        <translation>Rejected by Kortforsyningen</translation>
+        <source>Afvist af Dataforsyningen</source>
+        <translation>Rejected by Dataforsyningen</translation>
     </message>
     <message>
         <location filename="../searchbox.py" line="111"/>
-        <source>Manglende eller ukorrekt token til Kortforsyningen.</source>
-        <translation>Missing or incorrect token for Kortforsyningen.</translation>
+        <source>Manglende eller ukorrekt token til Dataforsyningen.</source>
+        <translation>Missing or incorrect token for Dataforsyningen.</translation>
     </message>
     <message>
         <location filename="../searchbox.py" line="63"/>
@@ -25,9 +25,9 @@
     </message>
     <message>
         <location filename="../searchbox.py" line="214"/>
-        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten 'gsearch' fra &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
+        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten 'gsearch' fra &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>With Geosearch DK the user can zoom to named places in Denmark.&lt;br /&gt;The plugin uses the service 'gsearch' from &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; and require a valid login to this service.&lt;br /&gt;The website of the plugin: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -100,37 +100,37 @@
     <message>
         <location filename="../config/settings.ui" line="86"/>
         <source>Token til Dataforsyningen</source>
-        <translation type="unfinished"></translation>
+        <translation>Token to Dataforsyningen</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="95"/>
         <source>Indsæt token til Dataforsyningen</source>
-        <translation type="unfinished"></translation>
+        <translation>Add token to Dataforsyningen</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Dataforsyningen eller opret nyt&lt;/span&gt;&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find your token to Dataforsyningen or create a new one&lt;/span&gt;&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="118"/>
         <source>Begræns søgning til følgende kommuner:</source>
-        <translation type="unfinished"></translation>
+        <translation>Limit the search to the following municipalities</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="157"/>
         <source>Begræns søgning til resultater af disse typer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Limit the search to the results from these types</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="253"/>
         <source>I parantes er angivet den forkortelse, der kan bruges i GeosearchDK-søgefeltet til at begrænse søgningen til specifik resultattype. I søgefeltet kan således tastes 'adr:' efterfulgt af adressen - dette gør, at der kun vises adresser som søgeresultater.</source>
-        <translation type="unfinished"></translation>
+        <translation>In parentheses is the abbreviation that can be used in the GeosearchDK search field to limit the search to a specific result type. In the search field, you can type 'adr:' followed by the address - this means that only addresses are displayed as search results.</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="269"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geosearch DK er bygget af &lt;a href=&quot;https://septima.dk&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Septima&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geosearch DK is build by &lt;a href=&quot;https://septima.dk&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Septima&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
