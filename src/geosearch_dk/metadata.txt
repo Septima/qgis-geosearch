@@ -9,7 +9,7 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=3.98
 description=Search and zoom to named places in Denmark
 about= Uses Dataforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
-version=1.4.0
+version=2.0.0
 author=Septima
 email=kontakt@septima.dk
 
@@ -18,7 +18,8 @@ email=kontakt@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2023-04-11 1.4.0 Warn about SDFI discontinuing Geosearch
+changelog=2023-06-30 2.0.0 Substantial rewrite and switch to new GSearch service from SDFI
+	2023-04-11 1.4.0 Warn about SDFI discontinuing Geosearch
     2023-02-08 1.3.0 Handle not authorized responses better. Change embedded token.
     2020-12-21 1.2.0 Use dataforsyningen.dk instead of kortforsyningen.dk. Use native QGIS http fetcher to make requests show up in the debugging tools.  
     2019-04-10 1.1.0 Use Kortforsyningen token instead of username/password. Move plugin settings to main QGIS Settings dialog.  
