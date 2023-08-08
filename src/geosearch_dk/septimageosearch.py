@@ -18,19 +18,16 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 
-# Import the PyQt and QGIS libraries
 from builtins import object
+
 from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
 from qgis.PyQt.QtWidgets import QDockWidget, QAction
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import QgsApplication
+
 from .config import Settings, OptionsFactory
-# Initialize Qt resources from file resources.py
-# from . import resources_rc
-# Import the code for the dialog
 
 from .searchbox import SearchBox
-
 
 class SeptimaGeoSearch(object):
 
@@ -67,7 +64,7 @@ class SeptimaGeoSearch(object):
 
     def initGui(self):
         # create the widget to display information
-        self.searchwidget = SearchBox(self.iface)
+        self.searchwidget = SearchBox(self.iface, self.settings)
         # create the dockwidget with the correct parent and add the valuewidget
         self.searchdockwidget = QDockWidget(
             "Geosearch DK", self.iface.mainWindow()

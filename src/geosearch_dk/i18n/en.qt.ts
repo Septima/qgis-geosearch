@@ -4,36 +4,30 @@
 <context>
     <name>SearchBox</name>
     <message>
-        <location filename="../searchbox.py" line="168"/>
-        <source>Ingen resultater</source>
-        <translation>No results</translation>
+        <location filename="../searchbox.py" line="110"/>
+        <source>Afvist af Dataforsyningen</source>
+        <translation>Rejected by Dataforsyningen</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="128"/>
-        <source>Afvist af Kortforsyningen</source>
-        <translation>Rejected by Kortforsyningen</translation>
+        <location filename="../searchbox.py" line="111"/>
+        <source>Manglende eller ukorrekt token til Dataforsyningen.</source>
+        <translation>Missing or incorrect token for Dataforsyningen.</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="129"/>
-        <source>Manglende eller ukorrekt token til Kortforsyningen.</source>
-        <translation>Missing or incorrect token for Kortforsyningen.</translation>
-    </message>
-    <message>
-        <location filename="../searchbox.py" line="66"/>
+        <location filename="../searchbox.py" line="63"/>
         <source>Søg adresse, stednavn, postnummer, matrikel m.m.</source>
         <translation>Search Danish addresses, road names, place names, postal codes, land registry etc.</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="130"/>
+        <location filename="../searchbox.py" line="112"/>
         <source>Åbn settings</source>
         <translation>Open settings</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="267"/>
-        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten &apos;geosearch&apos; fra &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
+        <location filename="../searchbox.py" line="214"/>
+        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten 'gsearch' fra &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </source>
-        <translation>Geosearch DK lets the user zoom to named places in Denmark.&lt;br/&gt;This plugin uses the service &apos;Geosearch&apos; from &lt;a href=&quot;http://kortforsyningen.dk/&quot;&gt;kortforsyningen.dk&lt;/a&gt; and requires a valid login for this service.&lt;br/&gt;Plugin homepage: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
-</translation>
+        <translation>With Geosearch DK the user can zoom to named places in Denmark.&lt;br /&gt;The plugin uses the service 'gsearch' from &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; and require a valid login to this service.&lt;br /&gt;The website of the plugin: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -42,16 +36,6 @@
         <location filename="../config/settings.ui" line="14"/>
         <source>Geosearch DK - Settings</source>
         <translation>Geosearch DK - Settings</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="86"/>
-        <source>Kortforsyningen token</source>
-        <translation>Kortforsyningen token</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="118"/>
-        <source>Kommunefilter</source>
-        <translation>Municipality filter</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="135"/>
@@ -64,64 +48,44 @@
         <translation>Municipality codes:</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="157"/>
-        <source>Typefilter</source>
-        <translation>Type filter</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="163"/>
+        <location filename="../config/settings.ui" line="215"/>
         <source>Kommuner (&apos;kom&apos;)</source>
-        <translation>Municipalities (&apos;kom&apos;)</translation>
+        <translation>Municipalities ('kom')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="173"/>
+        <location filename="../config/settings.ui" line="165"/>
         <source>Adresser (&apos;adr&apos;)</source>
-        <translation>Addresses (&apos;adr&apos;)</translation>
+        <translation>Addresses ('adr')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="183"/>
+        <location filename="../config/settings.ui" line="185"/>
         <source>Stednavne (&apos;ste&apos;)</source>
-        <translation>Place names (&apos;ste&apos;)</translation>
+        <translation>Place names ('ste')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="193"/>
+        <location filename="../config/settings.ui" line="205"/>
         <source>Postdistrikter (&apos;pos&apos;)</source>
-        <translation>Postal codes (&apos;pos&apos;)</translation>
+        <translation>Postal codes ('pos')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="203"/>
+        <location filename="../config/settings.ui" line="175"/>
         <source>Opstillingskredse (&apos;ops&apos;)</source>
-        <translation>Voting districts (&apos;ops&apos;)</translation>
+        <translation>Voting districts ('ops')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="213"/>
+        <location filename="../config/settings.ui" line="195"/>
         <source>Politikredse (&apos;pol&apos;)</source>
-        <translation>Police districts (&apos;pol&apos;)</translation>
+        <translation>Police districts ('pol')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="223"/>
+        <location filename="../config/settings.ui" line="225"/>
         <source>Matrikelnumre (&apos;mat&apos;)</source>
-        <translation>Cadastral numbers (&apos;mat&apos;)</translation>
+        <translation>Cadastral numbers ('mat')</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="233"/>
+        <location filename="../config/settings.ui" line="235"/>
         <source>Regioner (&apos;reg&apos;)</source>
-        <translation>Regions (&apos;reg&apos;)</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="246"/>
-        <source>Geosearch DK er bygget af  &lt;a href=&quot;https://septima.dk&quot;&gt;Septima&lt;/a&gt;</source>
-        <translation>Geosearch DK is made by &lt;a href=&quot;https://septima.dk&quot;&gt;Septima&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="95"/>
-        <source>Indsæt token til Kortforsyningen</source>
-        <translation>Insert token for Kortforsyningen</translation>
-    </message>
-    <message>
-        <location filename="../config/settings.ui" line="102"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Kortforsyningen&lt;/span&gt;&lt;/a&gt; eller &lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;opret et nyt token&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Ikke oprettet som bruger på Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Opret bruger &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find your token for Kortforsyningen&lt;/span&gt;&lt;/a&gt; or &lt;a href=&quot;https://kortforsyningen.dk/indhold/min-side-0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;create a new token&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Not registered as a user at Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Create user&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>Regions ('reg')</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="115"/>
@@ -133,6 +97,41 @@
         <source>Søg kun blandt markerede typer</source>
         <translation>Only search checked types</translation>
     </message>
+    <message>
+        <location filename="../config/settings.ui" line="86"/>
+        <source>Token til Dataforsyningen</source>
+        <translation>Token to Dataforsyningen</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="95"/>
+        <source>Indsæt token til Dataforsyningen</source>
+        <translation>Add token to Dataforsyningen</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="102"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Dataforsyningen eller opret nyt&lt;/span&gt;&lt;/a&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find your token to Dataforsyningen or create a new one&lt;/span&gt;&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="118"/>
+        <source>Begræns søgning til følgende kommuner:</source>
+        <translation>Limit the search to the following municipalities</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="157"/>
+        <source>Begræns søgning til resultater af disse typer:</source>
+        <translation>Limit the search to the results from these types</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="253"/>
+        <source>I parantes er angivet den forkortelse, der kan bruges i GeosearchDK-søgefeltet til at begrænse søgningen til specifik resultattype. I søgefeltet kan således tastes 'adr:' efterfulgt af adressen - dette gør, at der kun vises adresser som søgeresultater.</source>
+        <translation>In parentheses is the abbreviation that can be used in the GeosearchDK search field to limit the search to a specific result type. In the search field, you can type 'adr:' followed by the address - this means that only addresses are displayed as search results.</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="269"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geosearch DK er bygget af &lt;a href=&quot;https://septima.dk&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Septima&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geosearch DK is build by &lt;a href=&quot;https://septima.dk&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Septima&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
 </context>
 <context>
     <name>searchForm</name>
@@ -140,16 +139,6 @@
         <location filename="../ui_search.ui" line="20"/>
         <source>Search</source>
         <translation>Search</translation>
-    </message>
-    <message>
-        <location filename="../ui_search.ui" line="46"/>
-        <source>SDFI lukker tjenesten Geosearch. Tryk for at læse mere.</source>
-        <translation>SDFI terminates the service Geosearch. Click to read more.</translation>
-    </message>
-    <message>
-        <location filename="../ui_search.ui" line="49"/>
-        <source>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Vigtig info&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://github.com/Septima/qgis-geosearch/issues/50&quot;&gt;Important&lt;/a&gt;</translation>
     </message>
 </context>
 </TS>

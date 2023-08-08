@@ -17,32 +17,30 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """ 
-from builtins import map
-from builtins import str
-
-from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton
-from qgis.PyQt.QtGui import QColor
-from qgis.PyQt.QtCore import QSettings, QUrl
-from qgis.PyQt import uic
-from qgis.core import QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, QgsApplication, Qgis
-from qgis.gui import QgsVertexMarker, QgsRubberBand
-
 import json
 import os
 import re
 
+from osgeo import ogr
+
+from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton
+from qgis.PyQt.QtGui import QColor, QIcon
+from qgis.PyQt.QtCore import QSettings, QSize
+from qgis.PyQt import uic
+from qgis.core import QgsApplication, QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, Qgis
+from qgis.gui import QgsVertexMarker, QgsRubberBand
+
 from . import qgisutils
-from .autosuggest import AutoSuggest
+from .suggester import Suggester
 from .config import Settings
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'ui_search.ui')
 )
 
-
 class SearchBox(QFrame, FORM_CLASS):
 
-    def __init__(self, qgisIface):
+    def __init__(self, qgisIface, settings):
         QFrame.__init__(self, qgisIface.mainWindow())
         self.setupUi(self)
 
@@ -52,27 +50,36 @@ class SearchBox(QFrame, FORM_CLASS):
 
         self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
 
-        self.completion = AutoSuggest(
-            geturl_func=self.geturl,
-            parseresult_func=self.parseresponse,
-            parent=self.searchEdit,
+        self.suggester = Suggester(
+            settings = settings,
+            searchbox_widget=self.searchEdit,
             notauthorized_func = self.handleNotAuthorized
         )
         self.setupCrsTransform()
 
-        self.searchEdit.returnPressed.connect(self.doSearch)
+        self.searchEdit.returnPressed.connect(self.showSelected)
         self.searchEdit.cleared.connect( self.clearMarkerGeom )
         if hasattr(self.searchEdit, 'setPlaceholderText'):
             self.searchEdit.setPlaceholderText(self.tr(u"Søg adresse, stednavn, postnummer, matrikel m.m."))
 
         # Listen to crs changes
         self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
-        # From 3 CRS transform is always enabled
-        # self.qgisIface.mapCanvas().hasCrsTransformEnabledChanged.connect(self.setupCrsTransform)
 
         self.adjustSize()
         self.resize(50, self.height())
         self.searchEdit.setFocus()
+
+        self.settingsButton = self.settingsButton
+        settings_icon = QIcon(":images/themes/default/console/iconSettingsConsole.svg")
+        self.settingsButton.setIcon(settings_icon)
+        self.settingsButton.setIconSize(QSize(16, 16))
+        #self.settingsButton.setStyleSheet('border: none;')
+        self.settingsButton.setFixedSize( 20, 20 )
+
+        self.settingsButton.clicked.connect(self.show_settings)
+
+    def show_settings(self):
+        self.qgisIface.showOptionsDialog(currentPage="geosearchOptions")
 
     def readconfig(self):
         settings = Settings() # new config
@@ -81,17 +88,16 @@ class SearchBox(QFrame, FORM_CLASS):
         k = __package__
 
         # prefix muncodes
-        muncodes = re.findall(r'\d+', settings.value('kommunefilter'))
-        areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
+        #muncodes = re.findall(r'\d+', settings.value('kommunefilter'))
+        #areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
 
         self.config = {
-            'baseurl': settings.baseurl,
-            'token' : settings.value('token'),
-            'resources': settings.resources,
-            'resourcesfilter': ",".join(settings.resourcesfilter()),
+            #'token' : settings.value('token'),
+            #'resources': settings.resources,
+            #'resourcesfilter': ",".join(settings.selected_resources()),
             'maxresults': s.value(k + "/maxresults", 25, type=int),
-            'callback': str(s.value(k + "/callback", "callback", type=str)),
-            'areafilter': areafilter,
+            #'callback': str(s.value(k + "/callback", "callback", type=str)),
+            #'areafilter': areafilter,
             'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
             'rubber_width': s.value(k + "/rubber_width", 4, type=int),
             'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
@@ -99,30 +105,6 @@ class SearchBox(QFrame, FORM_CLASS):
             'marker_width': s.value(k + "/marker_width", 4, type=int),
             'marker_size': s.value(k + "/marker_size", 30, type=int)
         }
-
-    def geturl(self, searchterm):
-        self.clearMarkerGeom()
-        # List with shortcuts
-        req_resources = self.config['resourcesfilter']
-        split = searchterm.split(':')
-        if len(split)>1:
-            first3letters_lowerCase = split[0][0:3].lower()
-            if first3letters_lowerCase in self.config['resources']:
-                req_resources = self.config['resources'][first3letters_lowerCase]['id']
-                searchterm = split[1].lstrip()
-        if not searchterm:
-            return None
-
-        url = self.config['baseurl'].format(
-            resources=req_resources,
-            limit=self.config['maxresults'],
-            token = self.config['token'],
-            area= self.config['areafilter'],
-            callback=self.config['callback'],
-        )
-
-        url += searchterm
-        return QUrl(url)
 
     def handleNotAuthorized(self):
         title = self.tr(u'Afvist af Kortforsyningen')
@@ -134,41 +116,6 @@ class SearchBox(QFrame, FORM_CLASS):
         button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
         widget.layout().addWidget(button)
         self.qgisIface.messageBar().pushWidget(widget, level=Qgis.Warning, duration=15)
-
-    def parseresponse(self, response):
-        # Trim callback
-        result = response[len(self.config['callback']) + 1: -1]
-        try:
-            obj = json.loads(result)
-        except:
-            QgsApplication.messageLog().logMessage(
-                'Invalid JSON response from server: ' + result, __package__
-            )
-            # Check if we have an auth error
-            if "User not authorized" in response:
-                self.handleNotAuthorized()
-            return None
-
-        if 'status' not in obj:
-            QgsApplication.messageLog().logMessage(
-                'Unexpected result from server: ' + result, __package__
-            )
-            return None
-
-        if not obj['status'] == 'OK':
-            QgsApplication.messageLog().logMessage(
-                'Server reported an error: ' + obj['message'], __package__
-            )
-            return None
-
-        if "data" not in obj:
-            return None
-        data = obj['data']
-        if not data:
-            return [(self.tr("Ingen resultater"),None)]
-
-        # Make tuple with ("text", object) for each result
-        return [(e['presentationString'], e) for e in data]
 
     def setupCrsTransform(self):
         if QgsCoordinateReferenceSystem is not None:
@@ -203,7 +150,7 @@ class SearchBox(QFrame, FORM_CLASS):
         return m
 
     def _setRubberBandMarker(self, geom):
-        m = QgsRubberBand(self.qgisIface.mapCanvas(), False)  # not polygon
+        m = QgsRubberBand(self.qgisIface.mapCanvas())  # not polygon
         if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.LineGeometry:
             linegeom = geom
         elif QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.PolygonGeometry:
@@ -223,50 +170,50 @@ class SearchBox(QFrame, FORM_CLASS):
         self.clearMarkerGeom()
         self.ui.searchEdit.clear()
 
-    def doSearch(self):
-        self.completion.preventSuggest()
+    def showSelected(self):
+        try:
+            self.suggester.preventSuggest()
 
-        o = self.completion.selectedObject
-        #print o
-        if not o:
-            return
-
-        # Create a QGIS geom to represent object
-        geom = None
-        if 'geometryWkt' in o:
-            wkt = o['geometryWkt']
-            # Fix invalid wkt
-            if wkt.startswith('BOX'):
-                wkt = 'LINESTRING' + wkt[3:]
-                geom = QgsGeometry.fromRect(
-                    QgsGeometry.fromWkt(wkt).boundingBox()
+            row = self.suggester.selectedObject[0]
+            #print o
+            if not row:
+                return
+            if row["status"] == "error":
+                QMessageBox.information(
+                    self.qgisIface.mainWindow(), "Geosearch DK - Fejl", row["response"]
                 )
-            else:
+                return
+
+            # Create a QGIS geom to represent object
+            geom = None
+            if 'geometri' in row:
+                geometri = row['geometri']
+                #Convert to qGisGeom
+                geo_json = json.dumps(geometri)
+                ogr_geom = ogr.CreateGeometryFromJson(geo_json)
+                wkt = ogr_geom.ExportToWkt()
                 geom = QgsGeometry.fromWkt(wkt)
-        elif 'xMin' in o:
-            geom = QgsGeometry.fromRect(
-                QgsRectangle(o['xMin'], o['yMin'], o['xMax'], o['yMax'])
-            )
-        else:
-            geom = QgsGeometry.fromPointXY(QgsPointXY(o['x'], o['y']))
 
-        # Zoom to feature
-        bufgeom = geom.buffer(200.0, 2)
-        bufgeom.transform(self.crsTransform)
-        rect = bufgeom.boundingBox()
-        mc = self.qgisIface.mapCanvas()
-        mc.setExtent(rect)
+                if geom:
+                    # Zoom to feature
+                    bufgeom = geom.buffer(200.0, 2)
+                    bufgeom.transform(self.crsTransform)
+                    rect = bufgeom.boundingBox()
+                    mc = self.qgisIface.mapCanvas()
+                    mc.setExtent(rect)
 
-        # Mark the spot
-        geom.transform(self.crsTransform)
-        self.setMarkerGeom(geom)
+                    # Mark the spot
+                    geom.transform(self.crsTransform)
+                    self.setMarkerGeom(geom)
 
-        mc.refresh()
+                    mc.refresh()
+        except Exception as e:
+            pass
 
     def show_about_dialog(self):
         infoString = self.tr(
             u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
-            u"Pluginet benytter tjenesten 'geosearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
+            u"Pluginet benytter tjenesten 'gsearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
             u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
             u"Pluginets webside: <a href=\"http://github.com/Septima/qgis-geosearch\">github.com/Septima/qgis-geosearch</a><br />"
             u"Udviklet af: Septima<br />"
@@ -278,7 +225,7 @@ class SearchBox(QFrame, FORM_CLASS):
         )
 
     def unload(self):
-        self.completion.unload()
+        self.suggester.unload()
         self.clearMarkerGeom()
 
 

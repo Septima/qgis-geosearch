@@ -5,10 +5,6 @@ QGIS plugin med en søgebox, som tillader brugeren lynhurtigt at zoome til navng
 
 Pluginet er udviklet af [Septima](http://www.septima.dk), som har frigivet det under Open Source licensen [GPL3](http://www.gnu.org/licenses/gpl.html).
 
-Vigtig information
---------------
-SDFI lukker tjenesten `Geosearch`, hvilket har betydning for dette plugin. Læs [mere her](https://github.com/Septima/qgis-geosearch/issues/50).
-
 Installation
 --------------
 Pluginet er tilgængeligt fra QGIS' officielle plugin repository, dermed finder QGIS selv en kompatibel version af pluginet.
@@ -24,7 +20,7 @@ Nye versioner af pluginet udstilles via QGIS' officielle plugin repository. I Pl
 Indstillinger
 -----------------
 Følgende instilllinger kan foretages i pluginets indstillingsdialog (Klik Indstillinger -> Generelle Indstillinger -> Geosearch DK):
-- Token til dataforsyningen (Opret bruger [her]([https://dataforsyningen.dk/user#token](https://dataforsyningen.dk/)) - sørg for at du er logget ind øverst til højre og opret derefter et token under "Administrer token til webservices og API'er"
+- Token til Dataforsyningen (Opret bruger [her]([https://dataforsyningen.dk/user#token](https://dataforsyningen.dk/)) - sørg for at du er logget ind øverst til højre og opret derefter et token under "Administrer token til webservices og API'er"
 - Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Der vises nu kun søgeresultater fra de listede kommuner.
 - Typefilter. Vis kun søgeresultater af bestemte typer, fx adresser, matrikelnumre, stednavne etc.
 
