@@ -36,7 +36,7 @@ Vil du selv opdatere dit plugin, så gør således:
    * Vælg GeosearchDK i listen
    * Klik på 'Opgradér Plugin'. Derefter opgraderes pluginet til den nyeste version.
 
-![geosearchopgrader](https://github.com/Septima/qgis-geosearch/assets/16276034/58e8fd02-a770-4931-9079-8e949e3f97a3)
+![geosearchopgraderplugin](https://github.com/Septima/qgis-geosearch/assets/16276034/7ec1bf18-a5d4-4ba2-ae4d-089f93d6e3bc)
 
 
 Indstillinger
