@@ -2,7 +2,7 @@
 """
 /***************************************************************************
 Name                 : geosearch_dk
-Description          : Search suggestions in QGIS using GST's geosearch service
+Description          : Search suggestions in QGIS using SDFI's Gsearch service
 Date                 : 24-05-2013
 copyright            : (C) 2013 by Septima
 author               : asger@septima.dk
