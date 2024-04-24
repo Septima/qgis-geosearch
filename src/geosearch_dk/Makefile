@@ -1,7 +1,7 @@
 #/***************************************************************************
 # geosearch_dk
 #
-# Nem adgang til kortforsyningens geosearch service
+# Nem adgang til SDFI's Gsearch-service
 #							 -------------------
 #		begin				: 2015-05-01
 #		git sha				: $Format:%H$
@@ -10,12 +10,12 @@
 # ***************************************************************************/
 #
 #/***************************************************************************
-# *																		 *
+# *                                                                         *
 # *   This program is free software; you can redistribute it and/or modify  *
 # *   it under the terms of the GNU General Public License as published by  *
-# *   the Free Software Foundation; either version 2 of the License, or	 *
-# *   (at your option) any later version.								   *
-# *																		 *
+# *   the Free Software Foundation; either version 3 of the License, or     *
+# *   (at your option) any later version.                                   *
+# *                                                                         *
 # ***************************************************************************/
 
 #################################################
