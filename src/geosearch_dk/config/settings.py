@@ -12,8 +12,8 @@ class Settings(SettingManager):
 
     def __init__(self):
         SettingManager.__init__(self, 'Geosearch DK')
-        #self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}&filter={filter}"
-        self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}"
+        #self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}"
+        self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v2.0/{resource}?token={token}&q={query}&limit={limit}"
 
 
         # The order here is the order results are displayed in
