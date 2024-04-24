@@ -9,7 +9,7 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=3.98
 description=Search and zoom to named places in Denmark
 about= Uses Dataforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
-version=2.0.1
+version=2.0.3
 author=Septima
 email=kontakt@septima.dk
 
