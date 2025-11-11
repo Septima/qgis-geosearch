@@ -34,7 +34,7 @@ Debug = False
 # TODO remove this import used in deprecated method
 from types import *
 
-from PyQt5.QtCore import QObject
+from qgis.PyQt.QtCore import QObject
 
 class SettingManager(QObject):
     def __init__(self, plugin_name):

@@ -48,10 +48,10 @@ class Suggester(QObject):
         self.resultlistwidget.setColumnCount(1)
         self.resultlistwidget.setUniformRowHeights(True)
         self.resultlistwidget.setRootIsDecorated(False)
-        self.resultlistwidget.setEditTriggers(QTreeWidget.NoEditTriggers)
-        self.resultlistwidget.setSelectionBehavior(QTreeWidget.SelectRows)
-        self.resultlistwidget.setFrameStyle(QFrame.Box | QFrame.Plain)
-        self.resultlistwidget.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.resultlistwidget.setEditTriggers(QTreeWidget.EditTrigger.NoEditTriggers)
+        self.resultlistwidget.setSelectionBehavior(QTreeWidget.SelectionBehavior.SelectRows)
+        self.resultlistwidget.setFrameStyle(QFrame.Shape.Box | QFrame.Shadow.Plain)
+        self.resultlistwidget.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
 
         self.resultlistwidget.header().hide()
         self.resultlistwidget.installEventFilter(self)
@@ -59,8 +59,8 @@ class Suggester(QObject):
 
         self.resultlistwidget.itemClicked.connect( self.onResultSelected )
 
-        self.resultlistwidget.setWindowFlags(Qt.Popup)
-        self.resultlistwidget.setFocusPolicy(Qt.NoFocus)
+        self.resultlistwidget.setWindowFlags(Qt.WindowType.Popup)
+        self.resultlistwidget.setFocusPolicy(Qt.FocusPolicy.NoFocus)
         self.resultlistwidget.setFocusProxy(searchbox_widget)
 
         self.timer = QTimer(self)
@@ -77,25 +77,25 @@ class Suggester(QObject):
         if obj != self.resultlistwidget:
             return False
 
-        if ev.type() == QEvent.MouseButtonPress:
+        if ev.type() == QEvent.Type.MouseButtonPress:
             self.resultlistwidget.hide()
             self.my_searchbox_widget.setFocus()
             return True
 
-        if ev.type() == QEvent.KeyPress:
+        if ev.type() == QEvent.Type.KeyPress:
             consumed = False
             key = ev.key()
-            if key == Qt.Key_Enter or key == Qt.Key_Return:
+            if key == Qt.Key.Key_Enter or key == Qt.Key.Key_Return:
                 self.onResultSelected()
                 consumed = True
 
-            elif key == Qt.Key_Escape:
+            elif key == Qt.Key.Key_Escape:
                 self.my_searchbox_widget.setFocus()
                 self.resultlistwidget.hide()
                 consumed = True
 
-            elif key in (Qt.Key_Up, Qt.Key_Down, Qt.Key_Home, Qt.Key_End,
-                         Qt.Key_PageUp, Qt.Key_PageDown):
+            elif key in (Qt.Key.Key_Up, Qt.Key.Key_Down, Qt.Key.Key_Home, Qt.Key.Key_End,
+                         Qt.Key.Key_PageUp, Qt.Key.Key_PageDown):
                 pass
 
             else:
@@ -109,7 +109,7 @@ class Suggester(QObject):
 
     def showResultRows(self, rows):
         pal = self.my_searchbox_widget.palette()
-        color = pal.color(QPalette.Disabled, QPalette.WindowText)
+        color = pal.color(QPalette.ColorGroup.Disabled, QPalette.ColorRole.WindowText)
 
         self.resultlistwidget.setUpdatesEnabled(False)
         self.resultlistwidget.clear()
@@ -124,9 +124,9 @@ class Suggester(QObject):
             else:
                 text = row["visningstekst"]
             item.setText(0, text)
-            item.setTextAlignment(1, Qt.AlignRight)
+            item.setTextAlignment(1, Qt.AlignmentFlag.AlignRight)
             item.setForeground(1, color)
-            item.setData(2, Qt.UserRole, (row,)) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
+            item.setData(2, Qt.ItemDataRole.UserRole, (row,)) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
         self.resultlistwidget.setCurrentItem(self.resultlistwidget.topLevelItem(0))
         self.resultlistwidget.resizeColumnToContents(0)
@@ -147,13 +147,13 @@ class Suggester(QObject):
         self.my_searchbox_widget.setFocus()
         item = self.resultlistwidget.currentItem()
         if item:
-            row =  item.data(2, Qt.UserRole) #.toPyObject()
+            row =  item.data(2, Qt.ItemDataRole.UserRole) #.toPyObject()
             if row[0]["status"] != "error":
                 self.my_searchbox_widget.setText(item.text(0) )
             self.selectedObject = row
-            e = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
+            e = QKeyEvent(QEvent.Type.KeyPress, Qt.Key.Key_Enter, Qt.KeyboardModifier.NoModifier)
             QApplication.postEvent(self.my_searchbox_widget, e)
-            e = QKeyEvent(QEvent.KeyRelease, Qt.Key_Enter, Qt.NoModifier)
+            e = QKeyEvent(QEvent.Type.KeyRelease, Qt.Key.Key_Enter, Qt.KeyboardModifier.NoModifier)
             QApplication.postEvent(self.my_searchbox_widget, e)
 
     def preventSuggest(self):
@@ -172,7 +172,7 @@ class Suggester(QObject):
             self.showResultRows( rows )
         else:
             QgsApplication.messageLog().logMessage('Server returned: [' + result["errorString"] + '] ' + result["response"], __package__)
-            if result["error"] == QNetworkReply.AuthenticationRequiredError:
+            if result["error"] == QNetworkReply.NetworkError.AuthenticationRequiredError:
                 if self.notauthorized_func:
                     self.notauthorized_func()
 

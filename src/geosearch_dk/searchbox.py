@@ -48,7 +48,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.markers = []
         self.readconfig() # old config
 
-        self.setFrameStyle(QFrame.StyledPanel + QFrame.Raised)
+        self.setFrameStyle(QFrame.Shape.StyledPanel + QFrame.Shadow.Raised)
 
         self.suggester = Suggester(
             settings = settings,
@@ -102,7 +102,7 @@ class SearchBox(QFrame, FORM_CLASS):
             'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
             'rubber_width': s.value(k + "/rubber_width", 4, type=int),
             'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
-            'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.ICON_CROSS, type=int),
+            'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.IconType.ICON_CROSS, type=int),
             'marker_width': s.value(k + "/marker_width", 4, type=int),
             'marker_size': s.value(k + "/marker_size", 30, type=int)
         }
@@ -116,7 +116,7 @@ class SearchBox(QFrame, FORM_CLASS):
         button.setText(button_text)
         button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
         widget.layout().addWidget(button)
-        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.Warning, duration=15)
+        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.MessageLevel.Warning, duration=15)
 
     def setupCrsTransform(self):
         if QgsCoordinateReferenceSystem is not None:
@@ -135,9 +135,9 @@ class SearchBox(QFrame, FORM_CLASS):
             for g in geometries:
                 self._setMarkerGeom(g)
         else:
-            if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.PointGeometry:
+            if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.PointGeometry:
                 m = self._setPointMarker(geom)
-            elif QgsWkbTypes.geometryType(geom.wkbType()) in (QgsWkbTypes.LineGeometry, QgsWkbTypes.PolygonGeometry):
+            elif QgsWkbTypes.geometryType(geom.wkbType()) in (QgsWkbTypes.GeometryType.LineGeometry, QgsWkbTypes.GeometryType.PolygonGeometry):
                 m = self._setRubberBandMarker(geom)
             self.markers.append( m )
 
@@ -152,9 +152,9 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def _setRubberBandMarker(self, geom):
         m = QgsRubberBand(self.qgisIface.mapCanvas())  # not polygon
-        if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.LineGeometry:
+        if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.LineGeometry:
             linegeom = geom
-        elif QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.PolygonGeometry:
+        elif QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.PolygonGeometry:
             linegeom = QgsGeometry.fromPolylineXY(geom.asPolygon()[0])
         m.setToGeometry(linegeom, None)
         m.setColor(QColor(self.config['rubber_color']))
@@ -233,21 +233,21 @@ class SearchBox(QFrame, FORM_CLASS):
     def _extractAsSingle(self, geom):
         multiGeom = QgsGeometry()
         geometries = []
-        if geom.type() == QgsWkbTypes.PointGeometry:
+        if geom.type() == QgsWkbTypes.GeometryType.PointGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPoint()
                 for i in multiGeom:
                     geometries.append(QgsGeometry().fromPointXY(i))
             else:
                 geometries.append(geom)
-        elif geom.type() == QgsWkbTypes.LineGeometry:
+        elif geom.type() == QgsWkbTypes.GeometryType.LineGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPolyline()
                 for i in multiGeom:
                     geometries.append(QgsGeometry().fromPolylineXY(i))
             else:
                 geometries.append(geom)
-        elif geom.type() == QgsWkbTypes.PolygonGeometry:
+        elif geom.type() == QgsWkbTypes.GeometryType.PolygonGeometry:
             if geom.isMultipart():
                 multiGeom = geom.asMultiPolygon()
                 for i in multiGeom:
@@ -263,4 +263,4 @@ if __name__ == "__main__":
     suggest = SearchBox()
     suggest.show()
 
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

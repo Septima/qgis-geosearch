@@ -19,7 +19,7 @@ author               : asger@septima.dk
 """
 import os
 from PyQt5 import QtGui, uic
-from PyQt5.QtWidgets import QFileDialog
+from qgis.PyQt.QtWidgets import QFileDialog
 from qgis.gui import (QgsOptionsPageWidget)
 from qgis.PyQt.QtWidgets import  QVBoxLayout
 from qgis.PyQt.QtGui import QRegExpValidator
@@ -55,7 +55,7 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.setupUi(self)
         SettingDialog.__init__(self, settings)
         self.settings = settings
-        regex = QRegExp(MUNCODE_REGEX, Qt.CaseInsensitive)
+        regex = QRegExp(MUNCODE_REGEX, Qt.CaseSensitivity.CaseInsensitive)
         self.muncodeValidator = QRegExpValidator(regex)
         self.kommunefilter.setValidator(
             self.muncodeValidator

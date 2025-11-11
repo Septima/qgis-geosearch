@@ -32,8 +32,8 @@
 # alpha: use or not alpha channel
 
 
-from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QColorDialog
+from qgis.PyQt.QtGui import QColor
+from qgis.PyQt.QtWidgets import QColorDialog
 from qgis.core import QgsProject
 from qgis.gui import QgsColorButton
 
@@ -80,7 +80,7 @@ class QgisColorWidget(SettingWidget):
         SettingWidget.__init__(self, setting, widget, options, signal)
 
         if type(self.widget) == QgsColorButton:
-            self.widget.setColorDialogOptions(QColorDialog.ShowAlphaChannel)
+            self.widget.setColorDialogOptions(QColorDialog.ColorDialogOption.ShowAlphaChannel)
         else:
             self.widget.setAllowAlpha(self.options.get("allowAlpha", False))
 
