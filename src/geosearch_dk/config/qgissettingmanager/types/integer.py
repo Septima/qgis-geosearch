@@ -29,7 +29,7 @@
 
 # for combobox, the value corresponds to the index of the combobox
 
-from PyQt5.QtWidgets import QLineEdit, QSpinBox, QSlider, QComboBox
+from qgis.PyQt.QtWidgets import QLineEdit, QSpinBox, QSlider, QComboBox
 from qgis.core import QgsProject
 
 from ..setting import Setting

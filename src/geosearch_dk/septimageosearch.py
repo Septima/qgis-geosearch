@@ -73,7 +73,7 @@ class SeptimaGeoSearch(object):
         self.searchdockwidget.setWidget(self.searchwidget)
         # add the dockwidget to iface
         self.iface.addDockWidget(
-            Qt.TopDockWidgetArea, self.searchdockwidget
+            Qt.DockWidgetArea.TopDockWidgetArea, self.searchdockwidget
         )
         # Make changed settings apply immediately
         self.settings.settings_updated.connect(self.searchwidget.readconfig)

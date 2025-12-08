@@ -27,8 +27,8 @@
 #---------------------------------------------------------------------
 
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QListWidget, QButtonGroup
+from qgis.PyQt.QtCore import Qt
+from qgis.PyQt.QtWidgets import QListWidget, QButtonGroup
 from qgis.core import QgsProject
 
 from ..setting import Setting
@@ -71,15 +71,15 @@ class ListStringListWidget(SettingWidget):
         for i in range(self.widget.count()):
             item = self.widget.item(i)
             if item.text() in value:
-                item.setCheckState(Qt.Checked)
+                item.setCheckState(Qt.CheckState.Checked)
             else:
-                item.setCheckState(Qt.Unchecked)
+                item.setCheckState(Qt.CheckState.Unchecked)
 
     def widget_value(self):
         value = []
         for i in range(self.widget.count()):
             item = self.widget.item(i)
-            if item.checkState() == Qt.Checked:
+            if item.checkState() == Qt.CheckState.Checked:
                 value.append(item.text())
         return value
 

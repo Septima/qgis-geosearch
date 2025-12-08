@@ -26,7 +26,7 @@
 #
 #---------------------------------------------------------------------
 
-from PyQt5.QtCore import pyqtSlot, QObject
+from qgis.PyQt.QtCore import pyqtSlot, QObject
 
 
 class SettingWidget(QObject):

@@ -26,7 +26,7 @@
 #
 #---------------------------------------------------------------------
 
-from PyQt5.QtWidgets import QCheckBox
+from qgis.PyQt.QtWidgets import QCheckBox
 from qgis.core import QgsProject
 from ..setting import Setting
 from ..setting_widget import SettingWidget

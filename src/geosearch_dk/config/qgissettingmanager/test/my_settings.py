@@ -23,8 +23,8 @@
 #
 #---------------------------------------------------------------------
 
-from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QCheckBox, QLabel, QPushButton, QDoubleSpinBox, QLineEdit, QSpinBox, QSlider, QComboBox, QListWidget
+from qgis.PyQt.QtGui import QColor
+from qgis.PyQt.QtWidgets import QCheckBox, QLabel, QPushButton, QDoubleSpinBox, QLineEdit, QSpinBox, QSlider, QComboBox, QListWidget
 from qgis.gui import QgsCollapsibleGroupBox, QgsColorButton
 
 from .. import *
