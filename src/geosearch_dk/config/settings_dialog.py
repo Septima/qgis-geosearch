@@ -18,12 +18,12 @@ author               : asger@septima.dk
  ***************************************************************************/
 """
 import os
-from PyQt5 import QtGui, uic
+from qgis.PyQt import uic
 from qgis.PyQt.QtWidgets import QFileDialog
 from qgis.gui import (QgsOptionsPageWidget)
 from qgis.PyQt.QtWidgets import  QVBoxLayout
-from qgis.PyQt.QtGui import QRegExpValidator
-from qgis.PyQt.QtCore import QRegExp, Qt
+from qgis.PyQt.QtGui import QRegularExpressionValidator
+from qgis.PyQt.QtCore import QRegularExpression, Qt
 from .qgissettingmanager import *
 
 MUNCODE_REGEX = '[0-9]{3}(,[0-9]{3})*'
@@ -40,7 +40,6 @@ class ConfigOptionsPage(QgsOptionsPageWidget):
         self.config_widget = ConfigDialog(self.settings)
         layout = QVBoxLayout()
         layout.setContentsMargins(0, 0, 0, 0)
-        layout.setMargin(0)
         self.setLayout(layout)
         layout.addWidget(self.config_widget)
         self.setObjectName('geosearchOptions')
@@ -55,8 +54,8 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.setupUi(self)
         SettingDialog.__init__(self, settings)
         self.settings = settings
-        regex = QRegExp(MUNCODE_REGEX, Qt.CaseSensitivity.CaseInsensitive)
-        self.muncodeValidator = QRegExpValidator(regex)
+        regex = QRegularExpression(MUNCODE_REGEX)
+        self.muncodeValidator = QRegularExpressionValidator(regex)
         self.kommunefilter.setValidator(
             self.muncodeValidator
         )

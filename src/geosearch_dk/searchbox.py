@@ -20,10 +20,11 @@ author               : asger@septima.dk
 import json
 import os
 import re
+import sys
 
 from osgeo import ogr
 
-from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton
+from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton, QApplication
 from qgis.PyQt.QtGui import QColor, QIcon
 from qgis.PyQt.QtCore import QSettings, QSize
 from qgis.PyQt import uic
