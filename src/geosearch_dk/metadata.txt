@@ -19,7 +19,7 @@ email=kontakt@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2025-12-11 3.0.1 Fixed wrong files
+changelog=2025-12-11 3.0.1 Additional code updates to make it Qt6-compatible
     2025-11-10 3.0.0 Update to Qt 6
     2024-05-22 2.0.4. Switch to version 2 of GSearch service / Delete map marker on new search. Work funded by den danske QGIS Brugergruppe and Septima.
 	2023-08-08 2.0.0 Substantial rewrite and switch to new GSearch service from SDFI (Funded by Odsherred Kommune, Odense Kommune, Novafos, Region Midt og den danske QGIS Brugergruppe)
