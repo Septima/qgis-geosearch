@@ -22,7 +22,7 @@ import uuid
 
 from qgis.PyQt import QtCore
 from qgis.PyQt.QtCore import QObject, QUrl
-from qgis.PyQt.QtNetwork import QNetworkRequest
+from qgis.PyQt.QtNetwork import QNetworkRequest, QNetworkReply
 from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis, QgsNetworkAccessManager
 
 class MultiGetter(QObject):
@@ -61,7 +61,7 @@ class MultiGetter(QObject):
         networkReply.deleteLater()
 
         error = networkReply.error()
-        if not error:
+        if error == QNetworkReply.NetworkError.NoError:
             content = networkReply.readAll()
             content = str(content, 'utf-8')
 
