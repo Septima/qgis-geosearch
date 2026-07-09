@@ -37,6 +37,7 @@ class MultiGetter(QObject):
         self.get_id = str(uuid.uuid4())
         for key, url in urls.items():
             request = QNetworkRequest( QUrl(url) )
+            request.setRawHeader(b"Accept-Encoding", b"identity")
             networkReply = self.networkManager.get(request) 
             self.replies[key] = networkReply
             self.results[key] = None
