@@ -310,4 +310,5 @@ if __name__ == "__main__":
     suggest = SearchBox()
     suggest.show()
 
-    sys.exit(app.exec_())
+    exec_func = getattr(app, "exec", None) or getattr(app, "exec_")
+    sys.exit(exec_func())

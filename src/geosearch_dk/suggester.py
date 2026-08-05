@@ -210,20 +210,6 @@ class Suggester(QObject):
     def handleFetcherResults(self):
         rows = self.gSearchFetcher.get_result()
         self.showResultRows(rows)
-        return
-        if result["ok"]:
-            self.showResultRows(rows)
-        else:
-            QgsApplication.messageLog().logMessage(
-                "Server returned: ["
-                + result["errorString"]
-                + "] "
-                + result["response"],
-                __package__,
-            )
-            if result["error"] == QNetworkReply.AuthenticationRequiredError:
-                if self.notauthorized_func:
-                    self.notauthorized_func()
 
     def unload(self):
         # Avoid processing events after QGIS shutdown has begun
