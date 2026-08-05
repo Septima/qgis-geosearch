@@ -17,9 +17,9 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
-def getCurrentCrs( iface ):
+
+
+def getCurrentCrs(iface):
     canvas = iface.mapCanvas()
     settings = canvas.mapSettings()
     return settings.destinationCrs()
-
-

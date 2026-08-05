@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 
 # options:
@@ -40,12 +40,25 @@ from ..setting_widget import SettingWidget
 
 class String(Setting):
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, str, QgsProject.instance().readEntry, QgsProject.instance().writeEntry, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            str,
+            QgsProject.instance().readEntry,
+            QgsProject.instance().writeEntry,
+            options,
+        )
 
     def check(self, value):
         if type(value) != str:
             print(type(value))
-            raise NameError('{}:: Invalid value for setting {}: {}. It must be a string.'.format(self.plugin_name, self.name, value))
+            raise NameError(
+                "{}:: Invalid value for setting {}: {}. It must be a string.".format(
+                    self.plugin_name, self.name, value
+                )
+            )
 
     def config_widget(self, widget):
         if type(widget) == QLineEdit:
@@ -59,8 +72,10 @@ class String(Setting):
         elif type(widget) == QgsFieldComboBox:
             return FieldComboStringWidget(self, widget, self.options)
         else:
-            raise NameError("SettingManager does not handle %s widgets for strings at the moment (setting: %s)" %
-                (type(widget), self.name))
+            raise NameError(
+                "SettingManager does not handle %s widgets for strings at the moment (setting: %s)"
+                % (type(widget), self.name)
+            )
 
 
 class LineEditStringWidget(SettingWidget):
@@ -102,21 +117,29 @@ class ComboStringWidget(SettingWidget):
 
     def set_widget_value(self, value):
         combo_mode = self.options.get("comboMode", "data")
-        if combo_mode == 'data':
+        if combo_mode == "data":
             self.widget.setCurrentIndex(self.widget.findData(value))
-        elif combo_mode == 'text':
+        elif combo_mode == "text":
             self.widget.setCurrentIndex(self.widget.findText(value))
         else:
-            raise NameError('invalid options for {}.comboMode: {}'.format(self.setting.name, combo_mode))
+            raise NameError(
+                "invalid options for {}.comboMode: {}".format(
+                    self.setting.name, combo_mode
+                )
+            )
 
     def widget_value(self):
         combo_mode = self.options.get("comboMode", "data")
-        if combo_mode == 'data':
+        if combo_mode == "data":
             return self.widget.itemData(self.widget.currentIndex()) or ""
-        elif combo_mode == 'text':
+        elif combo_mode == "text":
             return self.widget.currentText()
         else:
-            raise NameError('invalid options for {}.comboMode: {}'.format(self.setting.name, combo_mode))
+            raise NameError(
+                "invalid options for {}.comboMode: {}".format(
+                    self.setting.name, combo_mode
+                )
+            )
 
 
 class MapLayerComboStringWidget(SettingWidget):
@@ -145,11 +168,3 @@ class FieldComboStringWidget(SettingWidget):
 
     def widget_value(self):
         return self.widget.currentField()
-
-
-
-
-
-
-
-

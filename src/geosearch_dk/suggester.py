@@ -21,7 +21,15 @@ author               : asger@septima.dk
 import sys
 
 from qgis.PyQt.QtCore import QObject, Qt, QEvent, QTimer, QPoint
-from qgis.PyQt.QtWidgets import QTreeWidget, QTreeWidgetItem, QFrame, QApplication, QFrame, QMessageBox, QPushButton
+from qgis.PyQt.QtWidgets import (
+    QTreeWidget,
+    QTreeWidgetItem,
+    QFrame,
+    QApplication,
+    QFrame,
+    QMessageBox,
+    QPushButton,
+)
 from qgis.PyQt.QtGui import QPalette, QKeyEvent
 from qgis.PyQt.QtNetwork import QNetworkReply
 from qgis.PyQt.uic import loadUi
@@ -31,12 +39,15 @@ from .gsearchfetcher import GSearchFetcher
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
+
 class Suggester(QObject):
 
-    def __init__(self, settings, searchbox_widget = None, notauthorized_func = None):
+    def __init__(
+        self, settings, searchbox_widget=None, notauthorized_func=None
+    ):
         QObject.__init__(self, searchbox_widget)
         self.notauthorized_func = notauthorized_func
-        
+
         self.my_searchbox_widget = searchbox_widget
         self.gSearchFetcher = GSearchFetcher(settings)
 
@@ -44,20 +55,28 @@ class Suggester(QObject):
         self.isUnloaded = False
 
         self.resultlistwidget = QTreeWidget(searchbox_widget)
-        #self.resultlistwidget.setColumnCount(2)
+        # self.resultlistwidget.setColumnCount(2)
         self.resultlistwidget.setColumnCount(1)
         self.resultlistwidget.setUniformRowHeights(True)
         self.resultlistwidget.setRootIsDecorated(False)
-        self.resultlistwidget.setEditTriggers(QTreeWidget.EditTrigger.NoEditTriggers)
-        self.resultlistwidget.setSelectionBehavior(QTreeWidget.SelectionBehavior.SelectRows)
-        self.resultlistwidget.setFrameStyle(QFrame.Shape.Box | QFrame.Shadow.Plain)
-        self.resultlistwidget.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
+        self.resultlistwidget.setEditTriggers(
+            QTreeWidget.EditTrigger.NoEditTriggers
+        )
+        self.resultlistwidget.setSelectionBehavior(
+            QTreeWidget.SelectionBehavior.SelectRows
+        )
+        self.resultlistwidget.setFrameStyle(
+            QFrame.Shape.Box | QFrame.Shadow.Plain
+        )
+        self.resultlistwidget.setHorizontalScrollBarPolicy(
+            Qt.ScrollBarPolicy.ScrollBarAlwaysOff
+        )
 
         self.resultlistwidget.header().hide()
         self.resultlistwidget.installEventFilter(self)
         self.resultlistwidget.setMouseTracking(True)
 
-        self.resultlistwidget.itemClicked.connect( self.onResultSelected )
+        self.resultlistwidget.itemClicked.connect(self.onResultSelected)
 
         self.resultlistwidget.setWindowFlags(Qt.WindowType.Popup)
         self.resultlistwidget.setFocusPolicy(Qt.FocusPolicy.NoFocus)
@@ -66,11 +85,11 @@ class Suggester(QObject):
         self.timer = QTimer(self)
         self.timer.setSingleShot(True)
         self.timer.setInterval(500)
-        self.timer.timeout.connect( self.invoke_fetcher )
-        
-        self.my_searchbox_widget.textEdited.connect( self.timer.start )
+        self.timer.timeout.connect(self.invoke_fetcher)
 
-        self.gSearchFetcher.finished.connect( self.handleFetcherResults )
+        self.my_searchbox_widget.textEdited.connect(self.timer.start)
+
+        self.gSearchFetcher.finished.connect(self.handleFetcherResults)
         self.last_query_id = 0
 
     def eventFilter(self, obj, ev):
@@ -94,8 +113,14 @@ class Suggester(QObject):
                 self.resultlistwidget.hide()
                 consumed = True
 
-            elif key in (Qt.Key.Key_Up, Qt.Key.Key_Down, Qt.Key.Key_Home, Qt.Key.Key_End,
-                         Qt.Key.Key_PageUp, Qt.Key.Key_PageDown):
+            elif key in (
+                Qt.Key.Key_Up,
+                Qt.Key.Key_Down,
+                Qt.Key.Key_Home,
+                Qt.Key.Key_End,
+                Qt.Key.Key_PageUp,
+                Qt.Key.Key_PageDown,
+            ):
                 pass
 
             else:
@@ -109,11 +134,13 @@ class Suggester(QObject):
 
     def showResultRows(self, rows):
         pal = self.my_searchbox_widget.palette()
-        color = pal.color(QPalette.ColorGroup.Disabled, QPalette.ColorRole.WindowText)
+        color = pal.color(
+            QPalette.ColorGroup.Disabled, QPalette.ColorRole.WindowText
+        )
 
         self.resultlistwidget.setUpdatesEnabled(False)
         self.resultlistwidget.clear()
-        if rows is None or len( rows ) < 1:
+        if rows is None or len(rows) < 1:
             return
 
         for row in rows:
@@ -126,9 +153,13 @@ class Suggester(QObject):
             item.setText(0, text)
             item.setTextAlignment(1, Qt.AlignmentFlag.AlignRight)
             item.setForeground(1, color)
-            item.setData(2, Qt.ItemDataRole.UserRole, (row,)) # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
+            item.setData(
+                2, Qt.ItemDataRole.UserRole, (row,)
+            )  # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
-        self.resultlistwidget.setCurrentItem(self.resultlistwidget.topLevelItem(0))
+        self.resultlistwidget.setCurrentItem(
+            self.resultlistwidget.topLevelItem(0)
+        )
         self.resultlistwidget.resizeColumnToContents(0)
         self.resultlistwidget.adjustSize()
         self.resultlistwidget.setUpdatesEnabled(True)
@@ -137,7 +168,11 @@ class Suggester(QObject):
         w = max(self.resultlistwidget.width(), self.my_searchbox_widget.width())
         self.resultlistwidget.resize(w, h)
 
-        self.resultlistwidget.move(self.my_searchbox_widget.mapToGlobal(QPoint(0, self.my_searchbox_widget.height())))
+        self.resultlistwidget.move(
+            self.my_searchbox_widget.mapToGlobal(
+                QPoint(0, self.my_searchbox_widget.height())
+            )
+        )
         self.resultlistwidget.setFocus()
         self.resultlistwidget.show()
 
@@ -147,13 +182,21 @@ class Suggester(QObject):
         self.my_searchbox_widget.setFocus()
         item = self.resultlistwidget.currentItem()
         if item:
-            row =  item.data(2, Qt.ItemDataRole.UserRole) #.toPyObject()
+            row = item.data(2, Qt.ItemDataRole.UserRole)  # .toPyObject()
             if row[0]["status"] != "error":
-                self.my_searchbox_widget.setText(item.text(0) )
+                self.my_searchbox_widget.setText(item.text(0))
             self.selectedObject = row
-            e = QKeyEvent(QEvent.Type.KeyPress, Qt.Key.Key_Enter, Qt.KeyboardModifier.NoModifier)
+            e = QKeyEvent(
+                QEvent.Type.KeyPress,
+                Qt.Key.Key_Enter,
+                Qt.KeyboardModifier.NoModifier,
+            )
             QApplication.postEvent(self.my_searchbox_widget, e)
-            e = QKeyEvent(QEvent.Type.KeyRelease, Qt.Key.Key_Enter, Qt.KeyboardModifier.NoModifier)
+            e = QKeyEvent(
+                QEvent.Type.KeyRelease,
+                Qt.Key.Key_Enter,
+                Qt.KeyboardModifier.NoModifier,
+            )
             QApplication.postEvent(self.my_searchbox_widget, e)
 
     def preventSuggest(self):
@@ -166,18 +209,23 @@ class Suggester(QObject):
 
     def handleFetcherResults(self):
         rows = self.gSearchFetcher.get_result()
-        self.showResultRows( rows )
+        self.showResultRows(rows)
         return
-        if (result["ok"]):
-            self.showResultRows( rows )
+        if result["ok"]:
+            self.showResultRows(rows)
         else:
-            QgsApplication.messageLog().logMessage('Server returned: [' + result["errorString"] + '] ' + result["response"], __package__)
-            if result["error"] == QNetworkReply.NetworkError.AuthenticationRequiredError:
+            QgsApplication.messageLog().logMessage(
+                "Server returned: ["
+                + result["errorString"]
+                + "] "
+                + result["response"],
+                __package__,
+            )
+            if result["error"] == QNetworkReply.AuthenticationRequiredError:
                 if self.notauthorized_func:
                     self.notauthorized_func()
 
-
-    def unload( self ):
+    def unload(self):
         # Avoid processing events after QGIS shutdown has begun
         self.resultlistwidget.removeEventFilter(self)
         self.isUnloaded = True

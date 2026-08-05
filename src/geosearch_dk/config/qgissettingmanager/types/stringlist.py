@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 
 from qgis.PyQt.QtCore import Qt
@@ -37,7 +37,16 @@ from ..setting_widget import SettingWidget
 
 class Stringlist(Setting):
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, None, QgsProject.instance().readListEntry, QgsProject.instance().writeEntry, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            None,
+            QgsProject.instance().readListEntry,
+            QgsProject.instance().writeEntry,
+            options,
+        )
 
     def read_out(self, value, scope):
         # always cast to list
@@ -58,8 +67,10 @@ class Stringlist(Setting):
             return ButtonGroupStringListWidget(self, widget, self.options)
         else:
             print(type(widget))
-            raise NameError("SettingManager does not handle %s widgets for integers for the moment (setting: %s)" %
-                            (type(widget), self.name))
+            raise NameError(
+                "SettingManager does not handle %s widgets for integers for the moment (setting: %s)"
+                % (type(widget), self.name)
+            )
 
 
 class ListStringListWidget(SettingWidget):
@@ -99,9 +110,3 @@ class ButtonGroupStringListWidget(SettingWidget):
             if item.isChecked():
                 value.append(item.objectName())
         return value
-
-
-
-
-
-

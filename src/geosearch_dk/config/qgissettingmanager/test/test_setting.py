@@ -43,17 +43,16 @@ class TestSetting(unittest.TestCase):
         MySettings().remove(name)
 
         # default
-        self.assertEqual( MySettings().value(name), setting_['default'])
+        self.assertEqual(MySettings().value(name), setting_["default"])
 
         # set value
-        MySettings().set_value(name, setting_['new_value'])
-        self.assertEqual(MySettings().value(name), setting_['new_value'])
+        MySettings().set_value(name, setting_["new_value"])
+        self.assertEqual(MySettings().value(name), setting_["new_value"])
 
         # remove setting
         MySettings().remove(name)
-        self.assertEqual(MySettings().value(name), setting_['default'])
+        self.assertEqual(MySettings().value(name), setting_["default"])
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     nose2.main()

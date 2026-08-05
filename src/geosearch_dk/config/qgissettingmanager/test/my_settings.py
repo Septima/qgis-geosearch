@@ -1,9 +1,9 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS Setting Manager
 # Copyright (C) 2016 Denis Rouzaud
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -21,10 +21,20 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 from qgis.PyQt.QtGui import QColor
-from qgis.PyQt.QtWidgets import QCheckBox, QLabel, QPushButton, QDoubleSpinBox, QLineEdit, QSpinBox, QSlider, QComboBox, QListWidget
+from qgis.PyQt.QtWidgets import (
+    QCheckBox,
+    QLabel,
+    QPushButton,
+    QDoubleSpinBox,
+    QLineEdit,
+    QSpinBox,
+    QSlider,
+    QComboBox,
+    QListWidget,
+)
 from qgis.gui import QgsCollapsibleGroupBox, QgsColorButton
 
 from .. import *
@@ -36,22 +46,63 @@ class MySettings(SettingManager):
     def __init__(self):
         SettingManager.__init__(self, pluginName)
 
-        settings_root = {'bool': {'class': Bool, 'default': True, 'options': {}, 'new_value': False, 'widgets': (QCheckBox, QgsCollapsibleGroupBox)},
-                         'color': {'class': Color, 'default': QColor(100, 100, 100, 100), 'options': {'allowAlpha': True}, 'new_value': QColor(30, 30, 30, 30), 'widgets': (QgsColorButton, QLabel, QPushButton)},
-                         'double': {'class': Double, 'default': 0.12345, 'options': {}, 'new_value': 1.98765, 'widgets': (QDoubleSpinBox, QLineEdit)},
-                         'integer': {'class': Integer, 'default': 1, 'options': {}, 'new_value': 2, 'widgets': (QLineEdit, QSpinBox, QSlider, QComboBox)},
-                         'string': {'class': String, 'default': 'default_string', 'options': {'comboMode': 'text'}, 'new_value': 'new_string', 'widgets': (QLineEdit, QComboBox)},
-                         'stringlist': {'class': Stringlist, 'default': ['abc', 'def', 'ghi'], 'options': {}, 'new_value': ['qwe', 'rtz', 'uio'], 'widgets': [QListWidget]}}
-
+        settings_root = {
+            "bool": {
+                "class": Bool,
+                "default": True,
+                "options": {},
+                "new_value": False,
+                "widgets": (QCheckBox, QgsCollapsibleGroupBox),
+            },
+            "color": {
+                "class": Color,
+                "default": QColor(100, 100, 100, 100),
+                "options": {"allowAlpha": True},
+                "new_value": QColor(30, 30, 30, 30),
+                "widgets": (QgsColorButton, QLabel, QPushButton),
+            },
+            "double": {
+                "class": Double,
+                "default": 0.12345,
+                "options": {},
+                "new_value": 1.98765,
+                "widgets": (QDoubleSpinBox, QLineEdit),
+            },
+            "integer": {
+                "class": Integer,
+                "default": 1,
+                "options": {},
+                "new_value": 2,
+                "widgets": (QLineEdit, QSpinBox, QSlider, QComboBox),
+            },
+            "string": {
+                "class": String,
+                "default": "default_string",
+                "options": {"comboMode": "text"},
+                "new_value": "new_string",
+                "widgets": (QLineEdit, QComboBox),
+            },
+            "stringlist": {
+                "class": Stringlist,
+                "default": ["abc", "def", "ghi"],
+                "options": {},
+                "new_value": ["qwe", "rtz", "uio"],
+                "widgets": [QListWidget],
+            },
+        }
 
         self.settings_cfg = {}
-        scopes = {'project': Scope.Project, 'global': Scope.Global}
+        scopes = {"project": Scope.Project, "global": Scope.Global}
         for s_name, setting_ in settings_root.items():
             for scope_str, scope_val in scopes.items():
                 # TODO python 3 use enum
-                setting_name = '{}_{}'.format(s_name, scope_str)
+                setting_name = "{}_{}".format(s_name, scope_str)
                 self.settings_cfg[setting_name] = setting_
-                self.add_setting(setting_['class'](setting_name, scope_val, setting_['default'], setting_['options']))
-
-
-
+                self.add_setting(
+                    setting_["class"](
+                        setting_name,
+                        scope_val,
+                        setting_["default"],
+                        setting_["options"],
+                    )
+                )

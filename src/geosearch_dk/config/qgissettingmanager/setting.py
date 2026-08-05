@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,15 +24,15 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 from qgis.PyQt.QtCore import QObject, pyqtSignal, QSettings
 from qgis.core import QgsProject
 
-
 # Regex to replace old class
 # (self.addSetting\(")(.*)(",\s*")(.*)(",\s*")(.*)(",\s*)(.*)\)
 # self.add_setting( $4( '$2', Scope.$6, $8) )
+
 
 # TODO python3 use enum instead
 class Scope(object):
@@ -43,12 +43,23 @@ class Scope(object):
 class Setting(QObject):
     valueChanged = pyqtSignal()
 
-    def __init__(self, name, scope, default_value, object_type, project_read, project_write, options={}):
+    def __init__(
+        self,
+        name,
+        scope,
+        default_value,
+        object_type,
+        project_read,
+        project_write,
+        options={},
+    ):
         QObject.__init__(self)
 
         # TODO python3 check based on enum
         if scope not in (Scope.Global, Scope.Project):
-            raise NameError('Scope of setting {} is not valid: {}'.format(name, scope))
+            raise NameError(
+                "Scope of setting {} is not valid: {}".format(name, scope)
+            )
         self.check(default_value)
 
         # these will determined when set_plugin_name is called
@@ -96,7 +107,7 @@ class Setting(QObject):
         self.plugin_name = plugin_name
 
     def global_name(self):
-        return 'plugins/{}/{}'.format(self.plugin_name, self.name)
+        return "plugins/{}/{}".format(self.plugin_name, self.name)
 
     def set_value(self, value):
         self.check(value)
@@ -110,24 +121,38 @@ class Setting(QObject):
     def value(self):
         if self.scope == Scope.Global:
             if self.object_type is not None:
-                value = QSettings().value(self.global_name(), self.write_in(self.default_value, self.scope), type=self.object_type)
+                value = QSettings().value(
+                    self.global_name(),
+                    self.write_in(self.default_value, self.scope),
+                    type=self.object_type,
+                )
             else:
-                value = QSettings().value(self.global_name(), self.write_in(self.default_value, self.scope))
+                value = QSettings().value(
+                    self.global_name(),
+                    self.write_in(self.default_value, self.scope),
+                )
             # TODO python3: remove backward compatibility
             # try to gather old setting value (using old version of QGIS Setting Manager)
             if self.read_out(value, self.scope) == self.default_value:
                 if self.object_type is not None:
-                    value = QSettings(self.plugin_name, self.plugin_name).value(self.name,
-                                                                                self.write_in(self.default_value, self.scope),
-                                                                                type=self.object_type)
+                    value = QSettings(self.plugin_name, self.plugin_name).value(
+                        self.name,
+                        self.write_in(self.default_value, self.scope),
+                        type=self.object_type,
+                    )
                 else:
-                    value = QSettings(self.plugin_name, self.plugin_name).value(self.name,
-                                                                                self.write_in(self.default_value, self.scope))
+                    value = QSettings(self.plugin_name, self.plugin_name).value(
+                        self.name, self.write_in(self.default_value, self.scope)
+                    )
                 if self.read_out(value, self.scope) != self.default_value:
                     # rewrite the setting in new system
                     QSettings().setValue(self.global_name(), value)
         elif self.scope == Scope.Project:
-            value = self.project_read(self.plugin_name, self.name, self.write_in(self.default_value, self.scope))[0]
+            value = self.project_read(
+                self.plugin_name,
+                self.name,
+                self.write_in(self.default_value, self.scope),
+            )[0]
         return self.read_out(value, self.scope)
 
     def reset_default(self):

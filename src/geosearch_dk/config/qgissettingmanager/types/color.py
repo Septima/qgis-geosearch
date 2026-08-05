@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 
 # options:
@@ -44,7 +44,16 @@ from ..setting_widget import SettingWidget
 class Color(Setting):
 
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, None, QgsProject.instance().readListEntry, QgsProject.instance().writeEntry, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            None,
+            QgsProject.instance().readListEntry,
+            QgsProject.instance().writeEntry,
+            options,
+        )
 
     def read_out(self, value, scope):
         if type(value) not in (list, tuple) or len(value) not in (3, 4):
@@ -54,14 +63,27 @@ class Color(Setting):
             r = int(value[0])
             g = int(value[1])
             b = int(value[2])
-            a = int(value[3]) if len(value) > 3 and self.options.get("allowAlpha", False) else 255
+            a = (
+                int(value[3])
+                if len(value) > 3 and self.options.get("allowAlpha", False)
+                else 255
+            )
             return QColor(r, g, b, a)
 
     def write_in(self, value, scope):
         if self.options.get("allowAlpha", False):
-            return ["%u" % value.red(), "%u" % value.green(), "%u" % value.blue(), "%u" % value.alpha()]
+            return [
+                "%u" % value.red(),
+                "%u" % value.green(),
+                "%u" % value.blue(),
+                "%u" % value.alpha(),
+            ]
         else:
-            return ["%u" % value.red(), "%u" % value.green(), "%u" % value.blue()]
+            return [
+                "%u" % value.red(),
+                "%u" % value.green(),
+                "%u" % value.blue(),
+            ]
 
     def check(self, color):
         if type(color) != QColor:
@@ -80,7 +102,9 @@ class QgisColorWidget(SettingWidget):
         SettingWidget.__init__(self, setting, widget, options, signal)
 
         if type(self.widget) == QgsColorButton:
-            self.widget.setColorDialogOptions(QColorDialog.ColorDialogOption.ShowAlphaChannel)
+            self.widget.setColorDialogOptions(
+                QColorDialog.ColorDialogOption.ShowAlphaChannel
+            )
         else:
             self.widget.setAllowAlpha(self.options.get("allowAlpha", False))
 
@@ -105,8 +129,3 @@ class StandardColorWidget(SettingWidget):
 
     def widget_value(self):
         return self.widget.color()
-
-
-
-
-

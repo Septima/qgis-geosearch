@@ -40,37 +40,43 @@ class UpdateMode(object):
 
 class SettingDialog:
     def __init__(self, setting_manager=None, mode=UpdateMode.DialogAccept):
-        
+
         if setting_manager is not None:
 
             if isinstance(self, QDialog) and mode == UpdateMode.DialogAccept:
                 self.accepted.connect(self.accept_dialog)
-    
+
             self.setting_manager = setting_manager
-    
+
             self.__settings = {}
-    
+
             for setting_name in self.setting_manager.settings_list():
                 for objectClass in (QWidget, QButtonGroup):
                     widget = self.findChild(objectClass, setting_name)
                     if widget is not None:
                         if Debug:
                             print("Widget found: {}".format(setting_name))
-    
+
                         # configure the widget
-                        setting_widget = self.setting_manager.setting(setting_name).config_widget(widget)
+                        setting_widget = self.setting_manager.setting(
+                            setting_name
+                        ).config_widget(widget)
                         if setting_widget is None:
-                            raise NameError('Widget could not be set for setting {}'.format(setting_name))
-    
+                            raise NameError(
+                                "Widget could not be set for setting {}".format(
+                                    setting_name
+                                )
+                            )
+
                         # TODO
                         # setting_widget.widgetDestroyed.connect(self.widgetDestroyed)
-    
+
                         if mode == UpdateMode.WidgetUpdate:
                             setting_widget.connect_widget_auto_update()
-    
+
                         self.__settings[setting_name] = setting_widget
                         break
-    
+
             # in case the widget has no showEvent
             self.set_widgets_from_values()
 
@@ -105,4 +111,3 @@ class SettingDialog:
     def set_widgets_from_values(self):
         for setting_widget in self.__settings.values():
             setting_widget.set_widget_from_value()
-

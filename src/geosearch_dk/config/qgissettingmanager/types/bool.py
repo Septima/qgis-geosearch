@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 from qgis.PyQt.QtWidgets import QCheckBox
 from qgis.core import QgsProject
@@ -36,12 +36,21 @@ from ..setting_manager import Debug
 class Bool(Setting):
 
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, bool, QgsProject.instance().readBoolEntry, QgsProject.instance().writeEntryBool, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            bool,
+            QgsProject.instance().readBoolEntry,
+            QgsProject.instance().writeEntryBool,
+            options,
+        )
 
     def check(self, value):
         if type(value) != bool:
             raise NameError("Setting %s must be a boolean." % self.name)
-        
+
     def config_widget(self, widget):
         if type(widget) == QCheckBox:
             return CheckBoxBoolWidget(self, widget, self.options)
@@ -49,8 +58,10 @@ class Bool(Setting):
             return CheckableBoolWidget(self, widget, self.options)
         else:
             print(type(widget))
-            raise NameError("SettingManager does not handle %s widgets for booleans at the moment (setting: %s)" %
-                            (type(widget), self.name))
+            raise NameError(
+                "SettingManager does not handle %s widgets for booleans at the moment (setting: %s)"
+                % (type(widget), self.name)
+            )
 
 
 class CheckBoxBoolWidget(SettingWidget):
@@ -60,7 +71,11 @@ class CheckBoxBoolWidget(SettingWidget):
 
     def set_widget_value(self, value):
         if Debug:
-            print("Bool: set_widget_value: {0}{1}".format(value, self.setting.name))
+            print(
+                "Bool: set_widget_value: {0}{1}".format(
+                    value, self.setting.name
+                )
+            )
         self.widget.setChecked(value)
 
     def widget_value(self):
@@ -79,5 +94,5 @@ class CheckableBoolWidget(SettingWidget):
         return self.widget.isChecked()
 
     def widget_test(self, value):
-        print('cannot test checkable groupbox at the moment')
+        print("cannot test checkable groupbox at the moment")
         return False
