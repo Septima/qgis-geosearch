@@ -17,26 +17,35 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+
 import configparser
 import codecs
 import os
 
 metadata = None
 
+
 def plugin_metadata():
     global metadata
     if metadata is None:
         config = configparser.ConfigParser()
-        with codecs.open( os.path.dirname( __file__ ).replace("\\", "/") + '/metadata.txt', 'r', 'utf8') as fp:
+        with codecs.open(
+            os.path.dirname(__file__).replace("\\", "/") + "/metadata.txt",
+            "r",
+            "utf8",
+        ) as fp:
             config.read_file(fp)
-        metadata = dict( config.items('general') )
+        metadata = dict(config.items("general"))
     return metadata
+
 
 metadata = plugin_metadata()
 
+
 def main():
-    metadata_to_print = plugin_metadata() 
+    metadata_to_print = plugin_metadata()
     print(metadata_to_print)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

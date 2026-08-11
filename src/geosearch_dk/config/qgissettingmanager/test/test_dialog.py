@@ -1,9 +1,9 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS Setting Manager
 # Copyright (C) 2016 Denis Rouzaud
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -21,7 +21,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 import qgis
 from qgis.testing import start_app, unittest
@@ -32,8 +32,6 @@ from ..setting_dialog import UpdateMode
 from .my_settings import MySettings
 from .my_settings_dialog import MySettingsDialog
 
-
-
 # TODO: remaining tests:
 # string with QgsMapLayerComboBox and QButtonGroup and also comboMode:data
 # stringlist with QGroupBox
@@ -42,8 +40,14 @@ from .my_settings_dialog import MySettingsDialog
 def params(settings):
     params = []
     for s_name, setting_ in settings.items():
-        for widget_class in setting_['widgets']:
-            params.append(('{}_{}'.format(s_name, widget_class.__name__), s_name, widget_class))
+        for widget_class in setting_["widgets"]:
+            params.append(
+                (
+                    "{}_{}".format(s_name, widget_class.__name__),
+                    s_name,
+                    widget_class,
+                )
+            )
     return params
 
 
@@ -75,19 +79,21 @@ class TestDialog(unittest.TestCase):
         self.assertIsNotNone(setting_widget)
 
         # controls that widget is set to default
-        self.assertEqual(setting_widget.widget_value(), setting_cfg['default'])
+        self.assertEqual(setting_widget.widget_value(), setting_cfg["default"])
 
         # set value
-        setting_widget.set_widget_value(setting_cfg['new_value'])
+        setting_widget.set_widget_value(setting_cfg["new_value"])
 
         # controls that widget has been update
-        self.assertEqual(setting_widget.widget_value(), setting_cfg['new_value'])
+        self.assertEqual(
+            setting_widget.widget_value(), setting_cfg["new_value"]
+        )
 
         # accept dialog
         self.dlg.accept()
 
         # check setting has now new value
-        self.assertEqual(MySettings().value(name), setting_cfg['new_value'])
+        self.assertEqual(MySettings().value(name), setting_cfg["new_value"])
         self.dlg.close()
 
         # reset setting
@@ -112,19 +118,23 @@ class TestDialog(unittest.TestCase):
         setting_widget = self.dlg.setting_widget(name)
 
         # controls that widget is set to default
-        self.assertEqual(setting_widget.widget_value(), setting_cfg['default'])
+        self.assertEqual(setting_widget.widget_value(), setting_cfg["default"])
 
         # set value
-        if setting_widget.widget_test(setting_cfg['new_value']) is not False:
-            self.assertEqual(MySettings().value(name), setting_cfg['new_value'])
+        if setting_widget.widget_test(setting_cfg["new_value"]) is not False:
+            self.assertEqual(MySettings().value(name), setting_cfg["new_value"])
         else:
             # cannot test UI
-            print('{} cannot be run for set_value_on_widget_update = True'.format(test_name))
+            print(
+                "{} cannot be run for set_value_on_widget_update = True".format(
+                    test_name
+                )
+            )
         self.dlg.close()
 
         # reset setting
         MySettings().remove(name)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     nose2.main()

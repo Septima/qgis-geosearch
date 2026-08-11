@@ -17,13 +17,21 @@ author               : klavs@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+
 import json
 import uuid
 
 from qgis.PyQt import QtCore
 from qgis.PyQt.QtCore import QObject, QUrl
 from qgis.PyQt.QtNetwork import QNetworkRequest, QNetworkReply
-from qgis.core import QgsApplication, QgsMessageLog, QgsNetworkContentFetcher, Qgis, QgsNetworkAccessManager
+from qgis.core import (
+    QgsApplication,
+    QgsMessageLog,
+    QgsNetworkContentFetcher,
+    Qgis,
+    QgsNetworkAccessManager,
+)
+
 
 class MultiGetter(QObject):
 
@@ -33,22 +41,25 @@ class MultiGetter(QObject):
         self.replies = {}
         self.results = {}
 
-    def get (self, urls, callback_fn):
+    def get(self, urls, callback_fn):
         self.get_id = str(uuid.uuid4())
         for key, url in urls.items():
-            request = QNetworkRequest( QUrl(url) )
+            request = QNetworkRequest(QUrl(url))
             request.setRawHeader(b"Accept-Encoding", b"identity")
-            networkReply = self.networkManager.get(request) 
+            networkReply = self.networkManager.get(request)
             self.replies[key] = networkReply
             self.results[key] = None
-            func = MultiGetter.bind_instance_method(self, "get_data", key, callback_fn)
-            networkReply.finished.connect( func )
+            func = MultiGetter.bind_instance_method(
+                self, "get_data", key, callback_fn
+            )
+            networkReply.finished.connect(func)
         return self.get_id
 
     def bind(fn, *args):
         def inner(*a):
             return fn(*args, *a)
-        return inner        
+
+        return inner
 
     def bind_instance_method(obj, method_name, *args):
         method = getattr(obj, method_name)
@@ -62,9 +73,9 @@ class MultiGetter(QObject):
         networkReply.deleteLater()
 
         error = networkReply.error()
-        if error == QNetworkReply.NetworkError.NoError:
+        if not error:
             content = networkReply.readAll()
-            content = str(content, 'utf-8')
+            content = str(content, "utf-8")
 
             try:
                 result["data"] = json.loads(content)
@@ -75,7 +86,7 @@ class MultiGetter(QObject):
                 result["response"] = str(e)
         else:
             response_content = networkReply.readAll()
-            response_content = str(response_content, 'utf-8')
+            response_content = str(response_content, "utf-8")
             result["ok"] = None
             result["error"] = error
             result["response"] = response_content
@@ -84,9 +95,9 @@ class MultiGetter(QObject):
 
         finished = True
         for key, result in self.results.items():
-            finished = (result != None)
+            finished = result != None
             if not finished:
                 break
-            
+
         if finished:
             callback_fn(self.get_id, self.results)

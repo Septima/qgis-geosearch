@@ -1,9 +1,9 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS Setting Manager
 # Copyright (C) 2016 Denis Rouzaud
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -21,7 +21,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 from qgis.PyQt.QtWidgets import QDialog, QDoubleSpinBox, QComboBox, QListWidget
 from qgis.gui import QgsCollapsibleGroupBox
@@ -30,7 +30,9 @@ from .my_settings import MySettings
 
 
 class MySettingsDialog(QDialog, SettingDialog):
-    def __init__(self, setting_name, widget_class, mode=UpdateMode.DialogAccept):
+    def __init__(
+        self, setting_name, widget_class, mode=UpdateMode.DialogAccept
+    ):
         QDialog.__init__(self)
 
         self.settings = MySettings()
@@ -38,18 +40,27 @@ class MySettingsDialog(QDialog, SettingDialog):
         w.setObjectName(setting_name)
 
         # setup UI
-        if setting_name.startswith('bool_') and widget_class == QgsCollapsibleGroupBox:
+        if (
+            setting_name.startswith("bool_")
+            and widget_class == QgsCollapsibleGroupBox
+        ):
             w.setCheckable(True)
-        if setting_name.startswith('double_') and widget_class == QDoubleSpinBox:
+        if (
+            setting_name.startswith("double_")
+            and widget_class == QDoubleSpinBox
+        ):
             w.setDecimals(5)
-        if setting_name.startswith('integer_') and widget_class == QComboBox:
+        if setting_name.startswith("integer_") and widget_class == QComboBox:
             for x in (1, 2, 3):
                 w.addItem(str(x))
-        if setting_name.startswith('string_') and widget_class == QComboBox:
-            w.addItem('default_string')
-            w.addItem('new_string')
-        if setting_name.startswith('stringlist_') and widget_class == QListWidget:
-            w.addItems(('abc', 'def', 'ghi', 'random', 'qwe', 'rtz', 'uio'))
+        if setting_name.startswith("string_") and widget_class == QComboBox:
+            w.addItem("default_string")
+            w.addItem("new_string")
+        if (
+            setting_name.startswith("stringlist_")
+            and widget_class == QListWidget
+        ):
+            w.addItems(("abc", "def", "ghi", "random", "qwe", "rtz", "uio"))
 
         # init SettingDialog
         SettingDialog.__init__(self, self.settings, mode)

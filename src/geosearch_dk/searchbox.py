@@ -16,7 +16,8 @@ author               : asger@septima.dk
  *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
-""" 
+"""
+
 import json
 import os
 import re
@@ -28,16 +29,25 @@ from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton, QApplication
 from qgis.PyQt.QtGui import QColor, QIcon
 from qgis.PyQt.QtCore import QSettings, QSize
 from qgis.PyQt import uic
-from qgis.core import QgsApplication, QgsWkbTypes, QgsGeometry, QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsProject, Qgis
+from qgis.core import (
+    QgsApplication,
+    QgsWkbTypes,
+    QgsGeometry,
+    QgsCoordinateReferenceSystem,
+    QgsCoordinateTransform,
+    QgsProject,
+    Qgis,
+)
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
 from . import qgisutils
 from .suggester import Suggester
 from .config import Settings
 
-FORM_CLASS, _ = uic.loadUiType(os.path.join(
-    os.path.dirname(__file__), 'ui_search.ui')
+FORM_CLASS, _ = uic.loadUiType(
+    os.path.join(os.path.dirname(__file__), "ui_search.ui")
 )
+
 
 class SearchBox(QFrame, FORM_CLASS):
 
@@ -47,36 +57,42 @@ class SearchBox(QFrame, FORM_CLASS):
 
         self.qgisIface = qgisIface
         self.markers = []
-        self.readconfig() # old config
+        self.readconfig()  # old config
 
         self.setFrameStyle(QFrame.Shape.StyledPanel + QFrame.Shadow.Raised)
 
         self.suggester = Suggester(
-            settings = settings,
+            settings=settings,
             searchbox_widget=self.searchEdit,
-            notauthorized_func = self.handleNotAuthorized
+            notauthorized_func=self.handleNotAuthorized,
         )
         self.setupCrsTransform()
 
         self.searchEdit.returnPressed.connect(self.showSelected)
-        self.searchEdit.cleared.connect( self.clearMarkerGeom )
-        self.searchEdit.textEdited.connect( self.clearMarkerGeom )
-        if hasattr(self.searchEdit, 'setPlaceholderText'):
-            self.searchEdit.setPlaceholderText(self.tr(u"Søg adresse, stednavn, postnummer, matrikel m.m."))
+        self.searchEdit.cleared.connect(self.clearMarkerGeom)
+        self.searchEdit.textEdited.connect(self.clearMarkerGeom)
+        if hasattr(self.searchEdit, "setPlaceholderText"):
+            self.searchEdit.setPlaceholderText(
+                self.tr("Søg adresse, stednavn, postnummer, matrikel m.m.")
+            )
 
         # Listen to crs changes
-        self.qgisIface.mapCanvas().destinationCrsChanged.connect(self.setupCrsTransform)
+        self.qgisIface.mapCanvas().destinationCrsChanged.connect(
+            self.setupCrsTransform
+        )
 
         self.adjustSize()
         self.resize(50, self.height())
         self.searchEdit.setFocus()
 
         self.settingsButton = self.settingsButton
-        settings_icon = QIcon(":images/themes/default/console/iconSettingsConsole.svg")
+        settings_icon = QIcon(
+            ":images/themes/default/console/iconSettingsConsole.svg"
+        )
         self.settingsButton.setIcon(settings_icon)
         self.settingsButton.setIconSize(QSize(16, 16))
-        #self.settingsButton.setStyleSheet('border: none;')
-        self.settingsButton.setFixedSize( 20, 20 )
+        # self.settingsButton.setStyleSheet('border: none;')
+        self.settingsButton.setFixedSize(20, 20)
 
         self.settingsButton.clicked.connect(self.show_settings)
 
@@ -84,46 +100,62 @@ class SearchBox(QFrame, FORM_CLASS):
         self.qgisIface.showOptionsDialog(currentPage="geosearchOptions")
 
     def readconfig(self):
-        settings = Settings() # new config
+        settings = Settings()  # new config
         # Old way was storing settings in global scope. Leave advanced options there for now
         s = QSettings()
         k = __package__
 
         # prefix muncodes
-        #muncodes = re.findall(r'\d+', settings.value('kommunefilter'))
-        #areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
+        # muncodes = re.findall(r'\d+', settings.value('kommunefilter'))
+        # areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
 
         self.config = {
             #'token' : settings.value('token'),
             #'resources': settings.resources,
             #'resourcesfilter': ",".join(settings.selected_resources()),
-            'maxresults': s.value(k + "/maxresults", 25, type=int),
+            "maxresults": s.value(k + "/maxresults", 25, type=int),
             #'callback': str(s.value(k + "/callback", "callback", type=str)),
             #'areafilter': areafilter,
-            'rubber_color': str(s.value(k + "/rubber_color", "#FF0000", type=str)),
-            'rubber_width': s.value(k + "/rubber_width", 4, type=int),
-            'marker_color': str(s.value(k + "/marker_color", "#FF0000", type=str)),
-            'marker_icon': s.value(k + "/marker_icon", QgsVertexMarker.IconType.ICON_CROSS, type=int),
-            'marker_width': s.value(k + "/marker_width", 4, type=int),
-            'marker_size': s.value(k + "/marker_size", 30, type=int)
+            "rubber_color": str(
+                s.value(k + "/rubber_color", "#FF0000", type=str)
+            ),
+            "rubber_width": s.value(k + "/rubber_width", 4, type=int),
+            "marker_color": str(
+                s.value(k + "/marker_color", "#FF0000", type=str)
+            ),
+            "marker_icon": s.value(
+                k + "/marker_icon",
+                QgsVertexMarker.IconType.ICON_CROSS,
+                type=int,
+            ),
+            "marker_width": s.value(k + "/marker_width", 4, type=int),
+            "marker_size": s.value(k + "/marker_size", 30, type=int),
         }
 
     def handleNotAuthorized(self):
-        title = self.tr(u'Afvist af Kortforsyningen')
-        message = self.tr(u'Manglende eller ukorrekt token til Kortforsyningen.')
-        button_text = self.tr(u'Åbn settings')
+        title = self.tr("Afvist af Kortforsyningen")
+        message = self.tr("Manglende eller ukorrekt token til Kortforsyningen.")
+        button_text = self.tr("Åbn settings")
         widget = self.qgisIface.messageBar().createMessage(title, message)
         button = QPushButton(widget)
         button.setText(button_text)
-        button.pressed.connect(lambda : self.qgisIface.showOptionsDialog(currentPage='geosearchOptions'))
+        button.pressed.connect(
+            lambda: self.qgisIface.showOptionsDialog(
+                currentPage="geosearchOptions"
+            )
+        )
         widget.layout().addWidget(button)
-        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.MessageLevel.Warning, duration=15)
+        self.qgisIface.messageBar().pushWidget(
+            widget, level=Qgis.MessageLevel.Warning, duration=15
+        )
 
     def setupCrsTransform(self):
         if QgsCoordinateReferenceSystem is not None:
             srcCrs = QgsCoordinateReferenceSystem.fromEpsgId(25832)
             dstCrs = qgisutils.getCurrentCrs(self.qgisIface)
-            self.crsTransform = QgsCoordinateTransform(srcCrs, dstCrs, QgsProject.instance())
+            self.crsTransform = QgsCoordinateTransform(
+                srcCrs, dstCrs, QgsProject.instance()
+            )
 
     def setMarkerGeom(self, geom):
         # Show geometry
@@ -136,30 +168,42 @@ class SearchBox(QFrame, FORM_CLASS):
             for g in geometries:
                 self._setMarkerGeom(g)
         else:
-            if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.PointGeometry:
+            if (
+                QgsWkbTypes.geometryType(geom.wkbType())
+                == QgsWkbTypes.GeometryType.PointGeometry
+            ):
                 m = self._setPointMarker(geom)
-            elif QgsWkbTypes.geometryType(geom.wkbType()) in (QgsWkbTypes.GeometryType.LineGeometry, QgsWkbTypes.GeometryType.PolygonGeometry):
+            elif QgsWkbTypes.geometryType(geom.wkbType()) in (
+                QgsWkbTypes.GeometryType.LineGeometry,
+                QgsWkbTypes.GeometryType.PolygonGeometry,
+            ):
                 m = self._setRubberBandMarker(geom)
-            self.markers.append( m )
+            self.markers.append(m)
 
     def _setPointMarker(self, pointgeom):
         m = QgsVertexMarker(self.qgisIface.mapCanvas())
-        m.setColor(QColor(self.config['marker_color']))
-        m.setIconType(self.config['marker_icon'])
-        m.setPenWidth(self.config['marker_width'])
-        m.setIconSize(self.config['marker_size'])
+        m.setColor(QColor(self.config["marker_color"]))
+        m.setIconType(self.config["marker_icon"])
+        m.setPenWidth(self.config["marker_width"])
+        m.setIconSize(self.config["marker_size"])
         m.setCenter(pointgeom.asPoint())
         return m
 
     def _setRubberBandMarker(self, geom):
         m = QgsRubberBand(self.qgisIface.mapCanvas())  # not polygon
-        if QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.LineGeometry:
+        if (
+            QgsWkbTypes.geometryType(geom.wkbType())
+            == QgsWkbTypes.GeometryType.LineGeometry
+        ):
             linegeom = geom
-        elif QgsWkbTypes.geometryType(geom.wkbType()) == QgsWkbTypes.GeometryType.PolygonGeometry:
+        elif (
+            QgsWkbTypes.geometryType(geom.wkbType())
+            == QgsWkbTypes.GeometryType.PolygonGeometry
+        ):
             linegeom = QgsGeometry.fromPolylineXY(geom.asPolygon()[0])
         m.setToGeometry(linegeom, None)
-        m.setColor(QColor(self.config['rubber_color']))
-        m.setWidth(self.config['rubber_width'])
+        m.setColor(QColor(self.config["rubber_color"]))
+        m.setWidth(self.config["rubber_width"])
         return m
 
     def clearMarkerGeom(self):
@@ -177,20 +221,22 @@ class SearchBox(QFrame, FORM_CLASS):
             self.suggester.preventSuggest()
 
             row = self.suggester.selectedObject[0]
-            #print o
+            # print o
             if not row:
                 return
             if row["status"] == "error":
                 QMessageBox.information(
-                    self.qgisIface.mainWindow(), "Geosearch DK - Fejl", row["response"]
+                    self.qgisIface.mainWindow(),
+                    "Geosearch DK - Fejl",
+                    row["response"],
                 )
                 return
 
             # Create a QGIS geom to represent object
             geom = None
-            if 'geometri' in row:
-                geometri = row['geometri']
-                #Convert to qGisGeom
+            if "geometri" in row:
+                geometri = row["geometri"]
+                # Convert to qGisGeom
                 geo_json = json.dumps(geometri)
                 ogr_geom = ogr.CreateGeometryFromJson(geo_json)
                 wkt = ogr_geom.ExportToWkt()
@@ -214,13 +260,13 @@ class SearchBox(QFrame, FORM_CLASS):
 
     def show_about_dialog(self):
         infoString = self.tr(
-            u"Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
-            u"Pluginet benytter tjenesten 'gsearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
-            u" og kræver derfor et gyldigt login til denne tjeneste.<br />"
-            u"Pluginets webside: <a href=\"http://github.com/Septima/qgis-geosearch\">github.com/Septima/qgis-geosearch</a><br />"
-            u"Udviklet af: Septima<br />"
-            u"Mail: <a href=\"mailto:kontakt@septima.dk\">kontakt@septima.dk</a><br />"
-            u"Web: <a href=\"http://www.septima.dk\">www.septima.dk</a>\n"
+            "Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
+            "Pluginet benytter tjenesten 'gsearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
+            " og kræver derfor et gyldigt login til denne tjeneste.<br />"
+            'Pluginets webside: <a href="http://github.com/Septima/qgis-geosearch">github.com/Septima/qgis-geosearch</a><br />'
+            "Udviklet af: Septima<br />"
+            'Mail: <a href="mailto:kontakt@septima.dk">kontakt@septima.dk</a><br />'
+            'Web: <a href="http://www.septima.dk">www.septima.dk</a>\n'
         )
         QMessageBox.information(
             self.qgisIface.mainWindow(), "Om Geosearch DK", infoString
@@ -229,7 +275,6 @@ class SearchBox(QFrame, FORM_CLASS):
     def unload(self):
         self.suggester.unload()
         self.clearMarkerGeom()
-
 
     def _extractAsSingle(self, geom):
         multiGeom = QgsGeometry()
@@ -257,6 +302,7 @@ class SearchBox(QFrame, FORM_CLASS):
                 geometries.append(geom)
         return geometries
 
+
 if __name__ == "__main__":
 
     app = QApplication(sys.argv)
@@ -264,4 +310,5 @@ if __name__ == "__main__":
     suggest = SearchBox()
     suggest.show()
 
-    sys.exit(app.exec())
+    exec_func = getattr(app, "exec", None) or getattr(app, "exec_")
+    sys.exit(exec_func())

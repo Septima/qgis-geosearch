@@ -20,16 +20,17 @@ author               : asger@septima.dk
 
 from . import pluginmetadata
 
+
 def name():
-    return pluginmetadata.metadata['name']
+    return pluginmetadata.metadata["name"]
 
 
 def description():
-    return pluginmetadata.metadata['description']
+    return pluginmetadata.metadata["description"]
 
 
 def version():
-    return "Version " + pluginmetadata.metadata['version']
+    return "Version " + pluginmetadata.metadata["version"]
 
 
 def icon():
@@ -37,14 +38,18 @@ def icon():
 
 
 def qgisMinimumVersion():
-    return pluginmetadata.metadata['qgisMinimumVersion']
+    return pluginmetadata.metadata["qgisMinimumVersion"]
+
 
 def author():
-    return pluginmetadata.metadata['author']
+    return pluginmetadata.metadata["author"]
+
 
 def email():
-    return pluginmetadata.metadata['email']
+    return pluginmetadata.metadata["email"]
+
 
 def classFactory(iface):
     from .septimageosearch import SeptimaGeoSearch
+
     return SeptimaGeoSearch(iface)

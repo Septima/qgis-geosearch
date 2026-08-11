@@ -29,6 +29,7 @@ from .config import Settings, OptionsFactory
 
 from .searchbox import SearchBox
 
+
 class SeptimaGeoSearch(object):
 
     def __init__(self, iface):
@@ -36,7 +37,11 @@ class SeptimaGeoSearch(object):
         self.iface = iface
 
         # initialize plugin directory
-        self.plugin_dir = QFileInfo(QgsApplication.qgisUserDatabaseFilePath()).path() + "/python/plugins/" + __package__
+        self.plugin_dir = (
+            QFileInfo(QgsApplication.qgisUserDatabaseFilePath()).path()
+            + "/python/plugins/"
+            + __package__
+        )
 
         # initialize locale. Default to Danish
         self.config = QSettings()
@@ -44,7 +49,7 @@ class SeptimaGeoSearch(object):
         try:
             locale = self.config.value("locale/userLocale")[0:2]
         except:
-            locale = 'da'
+            locale = "da"
 
         if QFileInfo(self.plugin_dir).exists():
             localePath = self.plugin_dir + "/i18n/" + locale + ".qt.qm"
@@ -53,13 +58,13 @@ class SeptimaGeoSearch(object):
             self.translator = QTranslator()
             self.translator.load(localePath)
 
-            if qVersion() > '4.3.3':
+            if qVersion() > "4.3.3":
                 QgsApplication.installTranslator(self.translator)
-        
+
         # new config method
         self.settings = Settings()
         self.options_factory = OptionsFactory(self.settings)
-        self.options_factory.setTitle('Geosearch DK')
+        self.options_factory.setTitle("Geosearch DK")
         iface.registerOptionsWidgetFactory(self.options_factory)
 
     def initGui(self):
@@ -79,6 +84,6 @@ class SeptimaGeoSearch(object):
         self.settings.settings_updated.connect(self.searchwidget.readconfig)
 
     def unload(self):
-        self.searchwidget.unload() # try to avoid processing events, when QGIS is closing
+        self.searchwidget.unload()  # try to avoid processing events, when QGIS is closing
         self.iface.removeDockWidget(self.searchdockwidget)
         self.iface.unregisterOptionsWidgetFactory(self.options_factory)

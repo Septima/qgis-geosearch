@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 from qgis.PyQt.QtWidgets import QLineEdit, QDoubleSpinBox
 from qgis.core import QgsProject
@@ -32,10 +32,20 @@ from qgis.core import QgsProject
 from ..setting import Setting
 from ..setting_widget import SettingWidget
 
+
 class Double(Setting):
 
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, float, QgsProject.instance().readDoubleEntry, QgsProject.instance().writeEntryDouble, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            float,
+            QgsProject.instance().readDoubleEntry,
+            QgsProject.instance().writeEntryDouble,
+            options,
+        )
 
     def check(self, value):
         if type(value) != int and type(value) != float:
@@ -47,8 +57,10 @@ class Double(Setting):
         elif type(widget) == QDoubleSpinBox:
             return DoubleSpinBoxDoubleWidget(self, widget, self.options)
         else:
-            raise NameError("SettingManager does not handle %s widgets for integers for the moment (setting: %s)" %
-                            (type(widget), self.name))
+            raise NameError(
+                "SettingManager does not handle %s widgets for integers for the moment (setting: %s)"
+                % (type(widget), self.name)
+            )
 
 
 class LineEditDoubleWidget(SettingWidget):
@@ -57,7 +69,7 @@ class LineEditDoubleWidget(SettingWidget):
         SettingWidget.__init__(self, setting, widget, options, signal)
 
     def set_widget_value(self, value):
-        self.widget.setText('{}'.format(value))
+        self.widget.setText("{}".format(value))
 
     def widget_value(self):
         return float(self.widget.text())
@@ -73,6 +85,3 @@ class DoubleSpinBoxDoubleWidget(SettingWidget):
 
     def widget_value(self):
         return self.widget.value()
-
-
-

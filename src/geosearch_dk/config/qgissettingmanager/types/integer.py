@@ -1,4 +1,4 @@
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # QGIS setting manager is a python module to easily manage read/write
 # settings and set/get corresponding widgets.
@@ -6,7 +6,7 @@
 # Copyright    : (C) 2013 Denis Rouzaud
 # Email        : denis.rouzaud@gmail.com
 #
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 #
 # licensed under the terms of GNU GPL 2
 #
@@ -24,7 +24,7 @@
 # with this progsram; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 
 # for combobox, the value corresponds to the index of the combobox
@@ -38,7 +38,16 @@ from ..setting_widget import SettingWidget
 
 class Integer(Setting):
     def __init__(self, name, scope, default_value, options={}):
-        Setting.__init__(self, name, scope, default_value, int, QgsProject.instance().readNumEntry, QgsProject.instance().writeEntry, options)
+        Setting.__init__(
+            self,
+            name,
+            scope,
+            default_value,
+            int,
+            QgsProject.instance().readNumEntry,
+            QgsProject.instance().writeEntry,
+            options,
+        )
 
     def check(self, value):
         if type(value) != int and type(value) != float:
@@ -53,8 +62,10 @@ class Integer(Setting):
             return ComboBoxIntegerWidget(self, widget, self.options)
         else:
             print(type(widget))
-            raise NameError("SettingManager does not handle %s widgets for integers for the moment (setting: %s)" %
-                            (type(widget), self.name))
+            raise NameError(
+                "SettingManager does not handle %s widgets for integers for the moment (setting: %s)"
+                % (type(widget), self.name)
+            )
 
 
 class LineEditIntegerWidget(SettingWidget):
@@ -63,7 +74,7 @@ class LineEditIntegerWidget(SettingWidget):
         SettingWidget.__init__(self, setting, widget, options, signal)
 
     def set_widget_value(self, value):
-        self.widget.setText('{}'.format(value))
+        self.widget.setText("{}".format(value))
 
     def widget_value(self):
         try:
@@ -71,7 +82,6 @@ class LineEditIntegerWidget(SettingWidget):
         except ValueError:
             value = None
         return value
-
 
 
 class SpinBoxIntegerWidget(SettingWidget):
@@ -96,6 +106,3 @@ class ComboBoxIntegerWidget(SettingWidget):
 
     def widget_value(self):
         return self.widget.currentIndex()
-
-
-

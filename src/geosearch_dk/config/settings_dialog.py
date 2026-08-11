@@ -17,20 +17,22 @@ author               : asger@septima.dk
  *                                                                         *
  ***************************************************************************/
 """
+
 import os
 from qgis.PyQt import uic
 from qgis.PyQt.QtWidgets import QFileDialog
-from qgis.gui import (QgsOptionsPageWidget)
-from qgis.PyQt.QtWidgets import  QVBoxLayout
+from qgis.gui import QgsOptionsPageWidget
+from qgis.PyQt.QtWidgets import QVBoxLayout
 from qgis.PyQt.QtGui import QRegularExpressionValidator
 from qgis.PyQt.QtCore import QRegularExpression, Qt
 from .qgissettingmanager import *
 
-MUNCODE_REGEX = '[0-9]{3}(,[0-9]{3})*'
+MUNCODE_REGEX = "[0-9]{3}(,[0-9]{3})*"
 
 WIDGET, BASE = uic.loadUiType(
-    os.path.join(os.path.dirname(__file__), 'settings.ui')
+    os.path.join(os.path.dirname(__file__), "settings.ui")
 )
+
 
 class ConfigOptionsPage(QgsOptionsPageWidget):
 
@@ -42,11 +44,12 @@ class ConfigOptionsPage(QgsOptionsPageWidget):
         layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(layout)
         layout.addWidget(self.config_widget)
-        self.setObjectName('geosearchOptions')
+        self.setObjectName("geosearchOptions")
 
     def apply(self):
         self.config_widget.accept_dialog()
         self.settings.emit_updated()
+
 
 class ConfigDialog(WIDGET, BASE, SettingDialog):
     def __init__(self, settings):
@@ -56,13 +59,4 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.settings = settings
         regex = QRegularExpression(MUNCODE_REGEX)
         self.muncodeValidator = QRegularExpressionValidator(regex)
-        self.kommunefilter.setValidator(
-            self.muncodeValidator
-        )
-
-        
-
-
-
-
-
+        self.kommunefilter.setValidator(self.muncodeValidator)
