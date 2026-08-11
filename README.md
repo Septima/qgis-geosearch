@@ -1,3 +1,5 @@
+OB! GSearch (https://github.com/Klimadatastyrelsen/gsearch), som er den tjeneste som pluginet anvender, er sat til at lukke i november 2026. Når GSearch lukkes, så vil dette plugin ikke længere kunne bruges.
+
 Geosearch DK
 ==============
 
