@@ -7,12 +7,6 @@ QGIS-plugin der tilføjer en søgeboks der anvender offentlige data, som tillade
 
 Pluginet er udviklet af [Septima](http://www.septima.dk) og stilles frit og gratis til rådighed for QGIS-brugere under GNU General Public License v3.0, se nærmere i afsnittet [Ophavsret og videredistribution](#ophavsret-og-videredistribution).
 
-OBS - Er dit plugin stoppet med at virke efter 31. august 2023?
---------------
-[Styrelsen for Dataforsyning og Infrastruktur (SDFI)](https://sdfi.dk/) har pr. 31. august 2023 nedlagt den hidtil anvendte API-tjeneste Geosearch, og erstattet den med den nye tjeneste [Gsearch](https://docs.dataforsyningen.dk/#gsearch-dokumentation). Du skal opdatere til den nye version af pluginet (version 2.0.0) for at dit plugin bruger Gsearch - **og derfor virker efter 31. august 2023**. Du henter den nye version fra QGIS' plugin repository - dette er lettest at hente direkte fra QGIS. Læs mere om dette i afsnittet [Opdatering af pluginet](#opdatering-af-pluginet).
-
-Læs nyheden om ændringen i dette plugin [på Septimas hjemmeside](https://septima.dk/nyheder/Ny-version-GeosearchDKplugin) eller detaljer om Gsearch i [projektets koderepository](https://github.com/SDFIdk/gsearch).
-
 Installation af pluginet
 --------------
 Pluginet er tilgængeligt fra QGIS' officielle plugin repository, dermed finder en installation af QGIS selv en kompatibel version af pluginet.
