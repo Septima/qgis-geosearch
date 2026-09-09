@@ -73,7 +73,7 @@ class MultiGetter(QObject):
         networkReply.deleteLater()
 
         error = networkReply.error()
-        if not error:
+        if error == QNetworkReply.NetworkError.NoError:
             content = networkReply.readAll()
             content = str(content, "utf-8")
 
