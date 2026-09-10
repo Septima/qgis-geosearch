@@ -10,7 +10,7 @@ qgisMaximumVersion=4.99
 supportsQt6=True
 description=Search and zoom to named places in Denmark
 about= Uses Dataforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
-version=3.1.0
+version=3.1.1
 author=Septima
 email=kontakt@septima.dk
 
@@ -19,7 +19,8 @@ email=kontakt@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2026-05-08 3.1.0 Update to new QIS security check standards
+changelog=2026-09-10 3.1.1 Revert network error check
+    2026-08-05 3.1.0 Update to new QIS security check standards
     2026-07-31 3.0.2 Circumvent gzip compression issue on Dataforsyningen
     2025-12-11 3.0.1 Additional code updates to make it Qt6-compatible
     2025-11-10 3.0.0 Update to Qt 6
