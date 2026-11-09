@@ -1,0 +1,6002 @@
+{
+ "case": {
+  "kommunefilter": "230",
+  "proposed": false,
+  "selected": [
+   "ste",
+   "pos",
+   "reg"
+  ],
+  "text": "skodsborg"
+ },
+ "geometry": null,
+ "kommune_refs": {
+  "0230": {
+   "body": {
+    "input": "0230",
+    "limit": 1,
+    "target": "kommune"
+   },
+   "endpoint": "search",
+   "keys": [],
+   "response": {
+    "input": "0230",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "kommune": {
+         "id": "0230",
+         "source": "DAGI.Kommuneinddeling"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718244.962,
+        6193259.285
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "vj4hw4m5amctk",
+       "kind": "kommune"
+      },
+      "refs": {
+       "kommune": "vj4hw4m5amctk"
+      },
+      "result": "Rudersdal"
+     }
+    ]
+   },
+   "status": 200
+  }
+ },
+ "memberships": {
+  "0230": {
+   "region": [
+    {
+     "body": {
+      "input": {
+       "id": "vj4hw4m5amctk",
+       "kind": "kommune"
+      },
+      "limit": 500,
+      "target": "region"
+     },
+     "endpoint": "project",
+     "keys": [],
+     "response": {
+      "input": {
+       "id": "vj4hw4m5amctk",
+       "kind": "kommune"
+      },
+      "matches": [
+       {
+        "components": {
+         "regioner": [
+          {
+           "region": "Region Hovedstaden",
+           "regionskode": "1084"
+          }
+         ]
+        },
+        "geometry": null,
+        "lifecycle": "current",
+        "meta": {
+         "confidence": "A",
+         "score": 1.0,
+         "upstream": {
+          "region": {
+           "id": "1084",
+           "source": "DAGI.Regionsinddeling"
+          }
+         }
+        },
+        "point": {
+         "coordinates": [
+          707190.179,
+          6193988.415
+         ],
+         "type": "Point"
+        },
+        "ref": {
+         "id": "dev2fbrhqasz6",
+         "kind": "region"
+        },
+        "refs": {
+         "region": "dev2fbrhqasz6"
+        },
+        "result": "Region Hovedstaden"
+       }
+      ]
+     },
+     "status": 200
+    }
+   ]
+  }
+ },
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "skodsborg",
+     "limit": 100,
+     "target": "stednavn"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 100,
+     "target": "postcode"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 100,
+     "target": "region"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7484561",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e3b35gin6kt46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Dam",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1069615",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723374.191,
+         6191540.295
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mzxzitjismblg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mzxzitjismblg"
+       },
+       "result": "Skodsborg Dam"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Eng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1146660",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723709.513,
+         6191735.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g7cwn7ues2d7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "g7cwn7ues2d7a"
+       },
+       "result": "Skodsborg Eng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Station",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5882,
+        "upstream": {
+         "stednavn": {
+          "id": "1055683",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723718.63,
+         6192176.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "swnarffxruiuc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "swnarffxruiuc"
+       },
+       "result": "Skodsborg Station"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "1104551",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         468159.129,
+         6263176.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qae2ryek43c4u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qae2ryek43c4u"
+       },
+       "result": "Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "7492385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509710.62,
+         6141371.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zwxqzyvhxi7ry",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zwxqzyvhxi7ry"
+       },
+       "result": "Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1128072",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473453.173,
+         6190323.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eth6gvgzyxiek",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eth6gvgzyxiek"
+       },
+       "result": "Skodsbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "7491937",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542161.298,
+         6083709.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4wg7gqp6qs6so",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4wg7gqp6qs6so"
+       },
+       "result": "Skodsbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1019240",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         649593.242,
+         6159967.86
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hxvkh7wwdn7og",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hxvkh7wwdn7og"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1027721",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         494069.42,
+         6206176.745
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dwdhglo6i3cqs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dwdhglo6i3cqs"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1088792",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         533038.535,
+         6240006.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fbydzo4fo27ku",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fbydzo4fo27ku"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1129818",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874256.443,
+         6129502.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zezeh7gdqzyac",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zezeh7gdqzyac"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Kurhotel Skodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5263,
+        "upstream": {
+         "stednavn": {
+          "id": "1011673",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723869.849,
+         6191709.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bqigwrprgl7da",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bqigwrprgl7da"
+       },
+       "result": "Kurhotel Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1111670",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510857.621,
+         6138587.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e6ehqu4fobluu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e6ehqu4fobluu"
+       },
+       "result": "Skodborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Skodsbjerg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1141518",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         515891.606,
+         6125097.17
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xwr2m46ci7lrk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xwr2m46ci7lrk"
+       },
+       "result": "Skodsbjerg"
+      },
+      {
+       "components": {
+        "stednavn": "Skodsborg Strandpark",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7534645",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723891.403,
+         6192768.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xzvrtzat2ezuq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xzvrtzat2ezuq"
+       },
+       "result": "Skodsborg Strandpark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Stadsborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1018381",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591496.851,
+         6254115.765
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kz4xs4szfplik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kz4xs4szfplik"
+       },
+       "result": "Stadsborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Nr Skodborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1009888",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467929.195,
+         6263535.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "226x3mx635bvq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "226x3mx635bvq"
+       },
+       "result": "Nr Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1062627",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540446.844,
+         6085008.61
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ozavfmzvt6s72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ozavfmzvt6s72"
+       },
+       "result": "Skodsbøl Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Godsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1025337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         456071.87,
+         6253773.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "soyh2ydpwpzhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "soyh2ydpwpzhw"
+       },
+       "result": "Godsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Skolborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "7438817",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         460587.01,
+         6174610.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ivsme52bncvhi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ivsme52bncvhi"
+       },
+       "result": "Skolborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Skovborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1069150",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532023.32,
+         6194137.16
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e7vjh4ycsih72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e7vjh4ycsih72"
+       },
+       "result": "Skovborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Klodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1147913",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560739.992,
+         6184906.765
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zngei6aosfxgc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zngei6aosfxgc"
+       },
+       "result": "Klodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Spidsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1093832",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         471215.887,
+         6261822.655
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fltei36cy42zq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fltei36cy42zq"
+       },
+       "result": "Spidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Spidsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1105043",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581103.449,
+         6258461.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mpuprdylnjtmm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mpuprdylnjtmm"
+       },
+       "result": "Spidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Stadsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1010029",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509980.165,
+         6273188.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "li4lsk6vcvrk6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "li4lsk6vcvrk6"
+       },
+       "result": "Stadsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Stadsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1140163",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591913.585,
+         6254210.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wknwqbzt3mb6i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wknwqbzt3mb6i"
+       },
+       "result": "Stadsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Stidsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1149955",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585035.077,
+         6359474.29
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nlrgin2t4hjhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nlrgin2t4hjhw"
+       },
+       "result": "Stidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Trodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1098889",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         528486.729,
+         6141072.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ccd3ozsartg62",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ccd3ozsartg62"
+       },
+       "result": "Trodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Bæk",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1082207",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510750.67,
+         6141448.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xhvzc5czosv7u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xhvzc5czosv7u"
+       },
+       "result": "Skodborg Bæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Skodborg Høj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1052654",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         485819.327,
+         6170640.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "it7667bgx4vwy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "it7667bgx4vwy"
+       },
+       "result": "Skodborg Høj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborg Huse",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1123605",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467224.536,
+         6261374.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "52grgeleekteo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "52grgeleekteo"
+       },
+       "result": "Skodborg Huse"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Mark",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1134687",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508893.52,
+         6142984.3
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vrbl5vncwywuy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vrbl5vncwywuy"
+       },
+       "result": "Skodborg Mark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skonningsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1099071",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461133.199,
+         6238942.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zkezsapsrs4h4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zkezsapsrs4h4"
+       },
+       "result": "Skonningsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Aborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1150949",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558313.034,
+         6129831.515
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oetxizyhgogrc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oetxizyhgogrc"
+       },
+       "result": "Aborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Glesborg Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7539227",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605652.523,
+         6260705.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mvu22ahovn7pm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mvu22ahovn7pm"
+       },
+       "result": "Glesborg Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1089963",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509596.656,
+         6141408.205
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y5he5njhyaiyy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "y5he5njhyaiyy"
+       },
+       "result": "Skodborg Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl Mark",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1150067",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         541112.848,
+         6084405.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "to6vrovx4jctm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "to6vrovx4jctm"
+       },
+       "result": "Skodsbøl Mark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Skodsbølgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1024636",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473221.865,
+         6190410.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j4k2ytikc443s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j4k2ytikc443s"
+       },
+       "result": "Skodsbølgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborghus",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1047664",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508837.876,
+         6144670.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p33k4w3bnkjh4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p33k4w3bnkjh4"
+       },
+       "result": "Skodborghus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborghus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1063405",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         511090.406,
+         6158568.765
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dyy6je3tlugj6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dyy6je3tlugj6"
+       },
+       "result": "Skodborghus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborgskov",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1010809",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         511917.526,
+         6139107.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c6u4pmxesih3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "c6u4pmxesih3w"
+       },
+       "result": "Skodborgskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Lille Skodsbøl",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1074710",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542385.935,
+         6083490.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dyyyg4pt6pbpy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dyyyg4pt6pbpy"
+       },
+       "result": "Lille Skodsbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Mellem Skodborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1061559",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467918.19,
+         6263232.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f2eexofr7i5qo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "f2eexofr7i5qo"
+       },
+       "result": "Mellem Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Nørre Skodborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1009887",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467929.195,
+         6263535.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s6bgvi6fr4qsg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "s6bgvi6fr4qsg"
+       },
+       "result": "Nørre Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Øster Skodborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1068874",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         468343.511,
+         6263308.22
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4rxloata7s4xc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4rxloata7s4xc"
+       },
+       "result": "Øster Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Petersborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1070039",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         514081.117,
+         6148071.795
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lswkqxr6k5ylw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lswkqxr6k5ylw"
+       },
+       "result": "Petersborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Stadion",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1084630",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509704.25,
+         6140591.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kdcomvunnvjiu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kdcomvunnvjiu"
+       },
+       "result": "Skodborg Stadion"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "stednavn": "Saksborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "7521745",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         504445.733,
+         6087217.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qrqlqaworkzsm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qrqlqaworkzsm"
+       },
+       "result": "Saksborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Saksborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "7649237",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539942.633,
+         6092411.545
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4fi2dok5dgqdq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4fi2dok5dgqdq"
+       },
+       "result": "Saksborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skadborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1011037",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484167.11,
+         6239978.1
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lpqxviroehse6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lpqxviroehse6"
+       },
+       "result": "Skadborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Skadborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1015612",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         449090.69,
+         6228450.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rz4w4k6uajahy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rz4w4k6uajahy"
+       },
+       "result": "Skadborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skadborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1071900",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         554310.225,
+         6095780.075
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lw5qhg65tfezk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lw5qhg65tfezk"
+       },
+       "result": "Skadborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skadborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1094300",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         452551.733,
+         6235578.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r2h43vj7dsgk4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "r2h43vj7dsgk4"
+       },
+       "result": "Skadborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Skadborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1140253",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         470694.213,
+         6257203.165
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "teb2ualnz33gs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "teb2ualnz33gs"
+       },
+       "result": "Skadborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Skalborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1133529",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553601.975,
+         6318420.12
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4773fo6plwbeg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4773fo6plwbeg"
+       },
+       "result": "Skalborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Skalborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1143913",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         505156.69,
+         6290228.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oirgkzorbfln4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oirgkzorbfln4"
+       },
+       "result": "Skalborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Skelborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1026269",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         527604.991,
+         6180077.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cofcesoa25oqu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cofcesoa25oqu"
+       },
+       "result": "Skelborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Stisborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1127081",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581294.363,
+         6359980.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jvkktdx6hfxia",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jvkktdx6hfxia"
+       },
+       "result": "Stisborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "stednavn": "Hamborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1092839",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         681602.658,
+         6073998.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rhztd3hz5rg7m",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rhztd3hz5rg7m"
+       },
+       "result": "Hamborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Møborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1051477",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461457.21,
+         6248493.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zgmhlt4jhr23y",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zgmhlt4jhr23y"
+       },
+       "result": "Møborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "stednavn": "Padborg Skov",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "7389649",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         523737.808,
+         6074790.034
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ajsnjpczdtoby",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ajsnjpczdtoby"
+       },
+       "result": "Padborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Skinkelsborg",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1053242",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539488.24,
+         6144760.52
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tbrevmspg7kdg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tbrevmspg7kdg"
+       },
+       "result": "Skinkelsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborgholm",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1114882",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508051.0,
+         6144518.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4pmb4m43hohwy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4pmb4m43hohwy"
+       },
+       "result": "Skodborgholm"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "stednavn": "Søborg Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1060463",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720539.912,
+         6182113.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4hv3dptrafuui",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4hv3dptrafuui"
+       },
+       "result": "Søborg Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Føniksborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1063906",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         526521.554,
+         6161309.89
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p7qvn3ityeze2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p7qvn3ityeze2"
+       },
+       "result": "Føniksborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Jægersborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1144754",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555976.057,
+         6297355.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aul5cxzjlqshm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aul5cxzjlqshm"
+       },
+       "result": "Jægersborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sorø",
+          "kommunekode": "0340"
+         }
+        ],
+        "stednavn": "Pedersborg Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1145130",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         661457.678,
+         6149225.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vgrn4z73nujpe",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vgrn4z73nujpe"
+       },
+       "result": "Pedersborg Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "stednavn": "Rhedersborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1103296",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         519727.636,
+         6104238.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ddqsdfdunvvqw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ddqsdfdunvvqw"
+       },
+       "result": "Rhedersborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl Forfyr",
+        "type": "navigationsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1135674",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         541086.1,
+         6083127.74
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "we7n33bt5ouue",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "we7n33bt5ouue"
+       },
+       "result": "Skodsbøl Forfyr"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Vintersborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1078178",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         639843.172,
+         6090082.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fahkiqsymagvg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fahkiqsymagvg"
+       },
+       "result": "Vintersborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "stednavn": "Visborg Skovmark",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1035317",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566705.592,
+         6288661.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4i2p24ocqo3zm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4i2p24ocqo3zm"
+       },
+       "result": "Visborg Skovmark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Arnborg Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7540172",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         499073.477,
+         6207372.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cd33rx6j4hmyq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cd33rx6j4hmyq"
+       },
+       "result": "Arnborg Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Dyreborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1087817",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577932.859,
+         6103953.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tratbk3lvo6bm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tratbk3lvo6bm"
+       },
+       "result": "Dyreborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Dyreborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7397979",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         578285.058,
+         6103872.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "klj7s6wtzsvlm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "klj7s6wtzsvlm"
+       },
+       "result": "Dyreborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "stednavn": "Grynborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1109222",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         578220.066,
+         6137322.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k3fs2qt4qb3q4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "k3fs2qt4qb3q4"
+       },
+       "result": "Grynborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Knudsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1080390",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         610088.257,
+         6114379.235
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "26oqb6555uq76",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "26oqb6555uq76"
+       },
+       "result": "Knudsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Randsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1021934",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         546909.312,
+         6165488.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eadqspavx6iyw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eadqspavx6iyw"
+       },
+       "result": "Randsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Ravnborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1037860",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571422.204,
+         6295671.875
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jroj2fxzfmssw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jroj2fxzfmssw"
+       },
+       "result": "Ravnborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Rendsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1087543",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         531175.025,
+         6185636.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gvabfrtsrk74w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gvabfrtsrk74w"
+       },
+       "result": "Rendsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Middelfart",
+          "kommunekode": "0410"
+         }
+        ],
+        "stednavn": "Sct. Knudsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1148577",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561362.956,
+         6153671.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6jp5xqxijfq5g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6jp5xqxijfq5g"
+       },
+       "result": "Sct. Knudsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skadeborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1054969",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         451842.201,
+         6241365.545
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s6amm5hl3kn6g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "s6amm5hl3kn6g"
+       },
+       "result": "Skadeborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skodbjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1087265",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         459711.832,
+         6237061.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eiuhu75wxdrpa",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eiuhu75wxdrpa"
+       },
+       "result": "Skodbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborggård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1041990",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467841.655,
+         6262993.89
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gwcc64hr5fy4e",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gwcc64hr5fy4e"
+       },
+       "result": "Skodborggård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Middelfart",
+          "kommunekode": "0410"
+         }
+        ],
+        "stednavn": "Skodshøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1013344",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558876.774,
+         6150692.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ehfo6dmkcnwte",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ehfo6dmkcnwte"
+       },
+       "result": "Skodshøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Samsø",
+          "kommunekode": "0741"
+         }
+        ],
+        "stednavn": "Skodshøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1027866",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602330.171,
+         6198275.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vxemxaqr7i766",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vxemxaqr7i766"
+       },
+       "result": "Skodshøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Skodshøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1070028",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529467.272,
+         6115677.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d3unelgknfxta",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d3unelgknfxta"
+       },
+       "result": "Skodshøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Skodshøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1074136",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548585.18,
+         6310226.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dwlxhv67urj5a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dwlxhv67urj5a"
+       },
+       "result": "Skodshøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Skodsmose",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1147999",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542393.089,
+         6284611.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t45vetkof2zrw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "t45vetkof2zrw"
+       },
+       "result": "Skodsmose"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Skralborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1009941",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         515704.465,
+         6266301.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sx4u75dtz2dws",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sx4u75dtz2dws"
+       },
+       "result": "Skralborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ],
+        "stednavn": "Skramborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1129099",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         622470.385,
+         6348114.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jd7pr6f3v4uq6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jd7pr6f3v4uq6"
+       },
+       "result": "Skramborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Skrejborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1073077",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576391.882,
+         6365480.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dpi44ymkrllly",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dpi44ymkrllly"
+       },
+       "result": "Skrejborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Snabsborg",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1126716",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         488188.973,
+         6130360.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jxxta76fbjsq6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jxxta76fbjsq6"
+       },
+       "result": "Snabsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Stensborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1117053",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         526919.709,
+         6240053.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "amhbjniktvzcq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "amhbjniktvzcq"
+       },
+       "result": "Stensborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Allerød",
+          "kommunekode": "0201"
+         }
+        ],
+        "stednavn": "Stutsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1045096",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         707566.024,
+         6191584.085
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rswxhdj5jeuqo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rswxhdj5jeuqo"
+       },
+       "result": "Stutsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Tradsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1027862",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         523217.72,
+         6181946.51
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ovv4pqqj56uxk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ovv4pqqj56uxk"
+       },
+       "result": "Tradsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Tradsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1029514",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         485516.175,
+         6127960.255
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "czhi35tldfni6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "czhi35tldfni6"
+       },
+       "result": "Tradsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         }
+        ],
+        "stednavn": "Tradsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1048079",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         504860.104,
+         6171463.505
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "36lhmvvm4yr6w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "36lhmvvm4yr6w"
+       },
+       "result": "Tradsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Tradsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1052549",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         460314.425,
+         6245849.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wfgdj3g4vvyhi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wfgdj3g4vvyhi"
+       },
+       "result": "Tradsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Tradsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1091644",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         475298.494,
+         6147701.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "66qwlfxkrccno",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "66qwlfxkrccno"
+       },
+       "result": "Tradsborg"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "postcode": {
+          "id": "2942",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wgxiyjjxsa2r2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "wgxiyjjxsa2r2"
+       },
+       "result": "Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         },
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         },
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         },
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skanderborg",
+          "postcode": "8660"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2941,
+        "upstream": {
+         "postcode": {
+          "id": "8660",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dxefblhejpjtc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "dxefblhejpjtc"
+       },
+       "result": "Skanderborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         },
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Søborg",
+          "postcode": "2860"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "postcode": {
+          "id": "2860",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fxd4gc7oexyca",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "fxd4gc7oexyca"
+       },
+       "result": "Søborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Glesborg",
+          "postcode": "8585"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "postcode": {
+          "id": "8585",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nangc776ikq6o",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "nangc776ikq6o"
+       },
+       "result": "Glesborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         },
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         },
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Silkeborg",
+          "postcode": "8600"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "postcode": {
+          "id": "8600",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         534561.756,
+         6226591.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ndxrojc67dfto",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ndxrojc67dfto"
+       },
+       "result": "Silkeborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Svendborg",
+          "postcode": "5700"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "postcode": {
+          "id": "5700",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         603980.363,
+         6099546.235
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vsvr2q2lk3aco",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "vsvr2q2lk3aco"
+       },
+       "result": "Svendborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg SV",
+          "postcode": "9200"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "postcode": {
+          "id": "9200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         551474.413,
+         6318735.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xawy7b6axgtkm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "xawy7b6axgtkm"
+       },
+       "result": "Aalborg SV"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg SØ",
+          "postcode": "9210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "postcode": {
+          "id": "9210",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556778.666,
+         6318279.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zsc62ooiomgcw",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "zsc62ooiomgcw"
+       },
+       "result": "Aalborg SØ"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Fredensborg",
+          "kommunekode": "0210"
+         },
+         {
+          "kommune": "Helsingør",
+          "kommunekode": "0217"
+         },
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Fredensborg",
+          "postcode": "3480"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "postcode": {
+          "id": "3480",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         711823.762,
+         6208510.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mbhbbfh7k5gmm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "mbhbbfh7k5gmm"
+       },
+       "result": "Fredensborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Sønderborg",
+          "postcode": "6400"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "postcode": {
+          "id": "6400",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548074.596,
+         6088417.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6ou7y7a4wifam",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "6ou7y7a4wifam"
+       },
+       "result": "Sønderborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nyborg",
+          "postcode": "5800"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "postcode": {
+          "id": "5800",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         613573.569,
+         6135349.225
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7emevlagl6f3i",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "7emevlagl6f3i"
+       },
+       "result": "Nyborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         },
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viborg",
+          "postcode": "8800"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "postcode": {
+          "id": "8800",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         520500.301,
+         6254693.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y46akpmomionw",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "y46akpmomionw"
+       },
+       "result": "Viborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg",
+          "postcode": "9000"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "9000",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552573.503,
+         6323230.3
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pjzl5wp7muqra",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pjzl5wp7muqra"
+       },
+       "result": "Aalborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Faaborg",
+          "postcode": "5600"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "5600",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         578451.613,
+         6108162.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b24im3utiazi4",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "b24im3utiazi4"
+       },
+       "result": "Faaborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         },
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         },
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hovborg",
+          "postcode": "6682"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "6682",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         496758.16,
+         6162563.805
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aunz5pwpmyax6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "aunz5pwpmyax6"
+       },
+       "result": "Hovborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Padborg",
+          "postcode": "6330"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "6330",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         519868.046,
+         6079618.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qmdbpkvxauaw6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "qmdbpkvxauaw6"
+       },
+       "result": "Padborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         },
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         },
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         },
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ulfborg",
+          "postcode": "6990"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "6990",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         346711.697,
+         6247044.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yk7gusdw37fn6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "yk7gusdw37fn6"
+       },
+       "result": "Ulfborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Guldborg",
+          "postcode": "4862"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "postcode": {
+          "id": "4862",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         671659.788,
+         6085154.255
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4nkcl6zaxar6o",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "4nkcl6zaxar6o"
+       },
+       "result": "Guldborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         },
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Klovborg",
+          "postcode": "8765"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "postcode": {
+          "id": "8765",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530140.718,
+         6198866.385
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g4kl4kbxkbumi",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "g4kl4kbxkbumi"
+       },
+       "result": "Klovborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nordborg",
+          "postcode": "6430"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "postcode": {
+          "id": "6430",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550712.481,
+         6102106.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "puxa75glzxyhk",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "puxa75glzxyhk"
+       },
+       "result": "Nordborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skørping",
+          "postcode": "9520"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "postcode": {
+          "id": "9520",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557558.101,
+         6300716.64
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sc73gqqdqofzm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "sc73gqqdqofzm"
+       },
+       "result": "Skørping"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ballerup",
+          "kommunekode": "0151"
+         },
+         {
+          "kommune": "Herlev",
+          "kommunekode": "0163"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skovlunde",
+          "postcode": "2740"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "postcode": {
+          "id": "2740",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         713604.632,
+         6179442.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dlsemrf23wqju",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "dlsemrf23wqju"
+       },
+       "result": "Skovlunde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Kalundborg",
+          "postcode": "4400"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "4400",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         623574.495,
+         6176090.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qzyodblxnoy2q",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "qzyodblxnoy2q"
+       },
+       "result": "Kalundborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skælskør",
+          "postcode": "4230"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "4230",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         650112.932,
+         6119584.91
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nm2ia7xlgq3j2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "nm2ia7xlgq3j2"
+       },
+       "result": "Skælskør"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skødstrup",
+          "postcode": "8541"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "8541",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         584211.134,
+         6236398.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hx5kajbkevhtk",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "hx5kajbkevhtk"
+       },
+       "result": "Skødstrup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Tjæreborg",
+          "postcode": "6731"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "6731",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473645.957,
+         6144283.685
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5cqj4kp6rcdfm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "5cqj4kp6rcdfm"
+       },
+       "result": "Tjæreborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vesterborg",
+          "postcode": "4953"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "4953",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         647066.841,
+         6082914.805
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tr6y7wwimoiys",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "tr6y7wwimoiys"
+       },
+       "result": "Vesterborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         },
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Klampenborg",
+          "postcode": "2930"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1579,
+        "upstream": {
+         "postcode": {
+          "id": "2930",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         729504.009,
+         6189217.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g26uwlxiil6u6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "g26uwlxiil6u6"
+       },
+       "result": "Klampenborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vordingborg",
+          "postcode": "4760"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1579,
+        "upstream": {
+         "postcode": {
+          "id": "4760",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         677123.47,
+         6102998.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6yam2l5iyxwy2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "6yam2l5iyxwy2"
+       },
+       "result": "Vordingborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg Øst",
+          "postcode": "9220"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.15,
+        "upstream": {
+         "postcode": {
+          "id": "9220",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562350.215,
+         6322730.305
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kabiznxor3axm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "kabiznxor3axm"
+       },
+       "result": "Aalborg Øst"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Augustenborg",
+          "postcode": "6440"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.15,
+        "upstream": {
+         "postcode": {
+          "id": "6440",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564015.296,
+         6094532.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tuttekl24j27s",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "tuttekl24j27s"
+       },
+       "result": "Augustenborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skals",
+          "postcode": "8832"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "postcode": {
+          "id": "8832",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522032.92,
+         6273395.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "spqljrchvilpq",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "spqljrchvilpq"
+       },
+       "result": "Skals"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         },
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         },
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skive",
+          "postcode": "7800"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "postcode": {
+          "id": "7800",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         497390.527,
+         6264828.93
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mpg6gv6llr32q",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "mpg6gv6llr32q"
+       },
+       "result": "Skive"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skagen",
+          "postcode": "9990"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "9990",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         584753.639,
+         6422324.26
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ccd6wojy7b3z6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ccd6wojy7b3z6"
+       },
+       "result": "Skagen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skamby",
+          "postcode": "5485"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "5485",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581010.68,
+         6153004.395
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhinnk6a3wt3a",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "yhinnk6a3wt3a"
+       },
+       "result": "Skamby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikssund",
+          "kommunekode": "0250"
+         },
+         {
+          "kommune": "Lejre",
+          "kommunekode": "0350"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skibby",
+          "postcode": "4050"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "4050",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         685951.38,
+         6182944.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ehncre5yenp34",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ehncre5yenp34"
+       },
+       "result": "Skibby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skjern",
+          "postcode": "6900"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "6900",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467034.412,
+         6204140.6
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lyekfryugzd3w",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "lyekfryugzd3w"
+       },
+       "result": "Skjern"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vodskov",
+          "postcode": "9310"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "postcode": {
+          "id": "9310",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566030.624,
+         6328981.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cuzvq2hjikyfu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "cuzvq2hjikyfu"
+       },
+       "result": "Vodskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Solbjerg",
+          "postcode": "8355"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "postcode": {
+          "id": "8355",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567767.484,
+         6210062.895
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2wpci37ewoyps",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "2wpci37ewoyps"
+       },
+       "result": "Solbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skærbæk",
+          "postcode": "6780"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "6780",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484792.047,
+         6113237.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ph5daql44spoo",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ph5daql44spoo"
+       },
+       "result": "Skærbæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         },
+         {
+          "kommune": "Halsnæs",
+          "kommunekode": "0260"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skævinge",
+          "postcode": "3320"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "3320",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         696276.141,
+         6202241.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iyfzemrmmcczy",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "iyfzemrmmcczy"
+       },
+       "result": "Skævinge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Sakskøbing",
+          "postcode": "4990"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "postcode": {
+          "id": "4990",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         670595.661,
+         6076158.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t7izz6zz2yxdi",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "t7izz6zz2yxdi"
+       },
+       "result": "Sakskøbing"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skårup Fyn",
+          "postcode": "5881"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "postcode": {
+          "id": "5881",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         610411.016,
+         6104612.755
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ng7jjfoymiuec",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ng7jjfoymiuec"
+       },
+       "result": "Skårup Fyn"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

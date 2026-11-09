@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Geosearch DK 4.0 – hvad er nyt, og hvorfor</title>
+<!--
+  The single source text for "Hvad er nyt" in Geosearch DK. It is shown by
+  whatsnew.py (QTextBrowser, so keep the HTML simple). README.md
+  ("Overgang til Bifrost") and metadata.txt reuse the same bullets: update
+  them together. hvad_er_nyt.en.html is the English
+  translation, shown when QGIS runs in English: keep its facts, links and
+  anchors the same.
+
+  The anchors (name and id) are part of the API: whatsnew.show_whats_new(parent, anchor=...)
+    noegle, nyt, anderledes, visningstekst, matrikel, geometri, kommunefilter,
+    virker-ikke, delord, kommunefilter-server, undertype, sammenlign
+-->
+<style>
+  body { font-family: sans-serif; }
+  h2 { margin-bottom: 4px; }
+  h3 { margin-top: 14px; margin-bottom: 4px; }
+  li { margin-bottom: 6px; }
+  .hvorfor { color: #555555; }
+</style>
+</head>
+<body>
+
+<h2>Geosearch DK 4.0 – nu med Bifrost</h2>
+
+<p>Klimadatastyrelsen lukker søgetjenesten <b>GSearch</b> i november 2026.
+Geosearch DK bruger derfor nu Klimadatastyrelsens nye søgetjeneste,
+<b>Bifrost</b>. Det meste virker som før, men der er nogle forskelle.</p>
+
+<!--
+  #5: Klimadatastyrelsen does not allow a shared key, so DEFAULT_BIFROST_KEY
+  (config/settings.py) is empty. Keep this section and the same paragraph in
+  README.md in step (tests/unit/test_whatsnew_text.py checks this).
+-->
+<h3 id="noegle"><a name="noegle"></a>Du skal bruge en nøgle til Bifrost</h3>
+<p>Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke
+bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle
+version.</p>
+<p>Pluginet har ingen indbygget nøgle, så du skal selv oprette en nøgle og
+indtaste den. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Klik på
+<i>Indtast nøgle</i> i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg <i>Indstillinger → Indstillinger →
+Geosearch DK</i>), og indsæt den under <b>Bifrost API-nøgle</b>.
+<a href="https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen">Sådan opretter du en bruger på Dataforsyningen</a>.
+Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen
+<code>BIFROST_KEY</code>.</p>
+
+<h3 id="matrikel"><a name="matrikel"></a>Vigtigt: Matrikelnumre er blevet til ejendomme</h3>
+<p>Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen
+<b>Matrikelnumre</b> hedder derfor nu <b>Ejendomme</b>. Når du søger på et
+matrikelnummer, finder du hele ejendommen (BFE), som matriklen hører til, og
+kortet viser hele ejendommen, ikke kun matriklen. Det præcise matrikelnummer
+står øverst i listen. Ligger ejendommen på flere matrikler, står det i listen,
+fx <i>3kg, Vangede (del af ejendom med 27 matrikler)</i>.</p>
+<p>Skriv <code>ejd:</code> foran for kun at søge i ejendomme, fx
+<code>ejd: 3kg søllerød</code>. <code>mat:</code> virker stadig.
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#matrikel">Se eksempler</a></p>
+
+<h3 id="nyt"><a name="nyt"></a>Nyt</h3>
+<ul>
+  <li><b>Lejligheder:</b> Du kan nu finde adresser med etage og dør.</li>
+</ul>
+
+<h3 id="anderledes"><a name="anderledes"></a>Virker anderledes</h3>
+<ul>
+  <li id="visningstekst"><a name="visningstekst"></a><b>Teksten i resultatlisten</b> laves nu af
+    pluginet. Stednavne vises som <i>navn (type, kommune)</i>, fx
+    <i>Skodsborg (bebyggelse, Rudersdal)</i>.</li>
+  <li id="geometri"><a name="geometri"></a><b>Kortet</b> zoomer først til et punkt. Den fulde
+    geometri, fx en vej eller en ejendom, kommer et øjeblik efter.</li>
+  <li id="kommunefilter"><a name="kommunefilter"></a><b>Kommunefilteret</b> er nu et valg, du
+    selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så
+    pluginet henter resultater for hele landet og skjuler dem uden for dine
+    kommuner. Vær opmærksom på:
+    <ul>
+      <li><b>Du kan gå glip af resultater.</b> Pluginet ser kun på Bifrosts 100
+        bedste hits for hele landet. Fx giver matrikel <i>1a</i> med filter på
+        Horsens (615) ingen resultater, selvom der findes mange.
+        <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#kommunefilter">Se eksempler</a></li>
+      <li><b>Adresser virker bedst</b>, fordi pluginet sender kommunen med
+        til Bifrost.</li>
+      <li><b>Store stednavne</b>, fx en å eller en landsdel, kan blive skjult,
+        fordi de kun hører til én kommune.</li>
+      <li>Brugte du kommunefilteret i den gamle version, er det slået til.
+        Du kan slå det fra i indstillingerne.</li>
+    </ul></li>
+</ul>
+
+<h3 id="virker-ikke"><a name="virker-ikke"></a>Virker ikke længere – og hvorfor</h3>
+<ul>
+  <li id="delord"><a name="delord"></a><b>Søgning på dele af ord.</b> <i>nørrebrog</i>
+    finder ikke længere Nørrebrogade. Skriv hele ord, fx
+    <i>nørrebrogade 1 københavn</i>. Til gengæld retter Bifrost små
+    stavefejl.<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke.</span>
+    <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#delord">Se eksempler</a></li>
+  <li id="kommunefilter-server"><a name="kommunefilter-server"></a><b>Kommunefilter i
+    søgetjenesten.</b> GSearch filtrerede på kommune, så du fik alle hits i dine
+    kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se
+    <a href="#kommunefilter">Kommunefilteret</a>).<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke.</span></li>
+  <li id="undertype"><a name="undertype"></a><b>Stednavnets undertype.</b> GSearch viste fx
+    <i>Skodsborg (By i Rudersdal Kommune)</i>. Nu vises kun en overordnet type,
+    fx <i>bebyggelse</i> eller <i>naturareal</i>, så steder med samme navn kan
+    være svære at skelne.<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke.</span>
+    <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#visningstekst">Se eksempler</a></li>
+</ul>
+
+<h3 id="sammenlign"><a name="sammenlign"></a>Se forskellene</h3>
+<p>Konkrete eksempler, optaget fra begge tjenester før GSearch lukkede, står i
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md">Forskelle mellem GSearch og Bifrost</a>.
+Fejl og ønsker kan meldes på
+<a href="https://github.com/Septima/qgis-geosearch/issues">GitHub</a>.</p>
+
+</body>
+</html>

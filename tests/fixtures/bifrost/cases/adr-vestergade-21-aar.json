@@ -1,0 +1,2100 @@
+{
+ "case": {
+  "id": "adr-vestergade-21-aar",
+  "input": "vestergade 21 aar",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "weplkiz2pzw72",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 117,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "weplkiz2pzw72",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "21",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          574794.06,
+          6224269.0
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         574793.507027188,
+         6224274.4342835
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-20ca-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574794.06,
+         6224269.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "weplkiz2pzw72",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "weplkiz2pzw72"
+       },
+       "result": "Vestergade 21, 8000 Aarhus C"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "weplkiz2pzw72",
+   "kind": "entrance"
+  },
+  "row_index": 1,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:09+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "vestergade 21 aar",
+    "limit": 5
+   },
+   "elapsed_ms": 145,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "vestergade 21 aar",
+    "matches": [
+     {
+      "components": {
+       "house_number": "21",
+       "kommuner": [
+        {
+         "kommune": "Assens",
+         "kommunekode": "0420"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Assens",
+         "opstillingskredsnummer": "44"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarup",
+         "postcode": "5560"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Aarup",
+         "sognekode": "9075"
+        }
+       ],
+       "street": "Vestergade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8862,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508b-1bd1-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b6-3b68-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566133.23,
+        6137321.5
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "5ry673v3owlxc",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "kcv4vvgavaw3u",
+       "unit": "5ry673v3owlxc"
+      },
+      "result": "Vestergade 21, 5560 Aarup"
+     },
+     {
+      "components": {
+       "house_number": "21",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Vestergade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8862,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5097-20ca-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574794.06,
+        6224269.0
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "weplkiz2pzw72",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "weplkiz2pzw72"
+      },
+      "result": "Vestergade 21, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "Assens",
+         "kommunekode": "0420"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Assens",
+         "opstillingskredsnummer": "44"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarup",
+         "postcode": "5560"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Aarup",
+         "sognekode": "9075"
+        }
+       ],
+       "street": "Vestergade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8807,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508b-1bc7-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b6-3b5e-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566204.35,
+        6137349.19
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ysjf23zgglmeg",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "tgvrshtukmg6c",
+       "unit": "ysjf23zgglmeg"
+      },
+      "result": "Vestergade 11, 5560 Aarup"
+     },
+     {
+      "components": {
+       "house_number": "20",
+       "kommuner": [
+        {
+         "kommune": "Assens",
+         "kommunekode": "0420"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Assens",
+         "opstillingskredsnummer": "44"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarup",
+         "postcode": "5560"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Aarup",
+         "sognekode": "9075"
+        }
+       ],
+       "street": "Vestergade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8807,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508b-1bd0-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b6-3b67-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566026.63,
+        6137217.51
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mdxmbaokxtzii",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "mw2u5aj47qgfa",
+       "unit": "mdxmbaokxtzii"
+      },
+      "result": "Vestergade 20, 5560 Aarup"
+     },
+     {
+      "components": {
+       "house_number": "22",
+       "kommuner": [
+        {
+         "kommune": "Assens",
+         "kommunekode": "0420"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Assens",
+         "opstillingskredsnummer": "44"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarup",
+         "postcode": "5560"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Aarup",
+         "sognekode": "9075"
+        }
+       ],
+       "street": "Vestergade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8807,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508b-1bd2-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b6-3b69-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566011.65,
+        6137212.18
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "tm27ifmyy2mdu",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "siq5ikhkuqw6k",
+       "unit": "tm27ifmyy2mdu"
+      },
+      "result": "Vestergade 22, 5560 Aarup"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "vestergade 21 aar",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 348,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ærø",
+          "kommunekode": "0492"
+         }
+        ],
+        "stednavn": "Vestergade 44",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5238,
+        "upstream": {
+         "stednavn": {
+          "id": "7638919",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590436.739,
+         6083385.155
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ch57bk7bwdy4k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ch57bk7bwdy4k"
+       },
+       "result": "Vestergade 44"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         }
+        ],
+        "stednavn": "Vestergårde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4762,
+        "upstream": {
+         "stednavn": {
+          "id": "1065786",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         512013.163,
+         6294086.09
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "koafuuujeyxsi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "koafuuujeyxsi"
+       },
+       "result": "Vestergårde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Vestergårde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4762,
+        "upstream": {
+         "stednavn": {
+          "id": "1075922",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         584312.809,
+         6341818.68
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r5aehik2sxmiw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "r5aehik2sxmiw"
+       },
+       "result": "Vestergårde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vestergårde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4762,
+        "upstream": {
+         "stednavn": {
+          "id": "1085215",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         494884.438,
+         6278880.275
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d3dlqfbz5dy72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d3dlqfbz5dy72"
+       },
+       "result": "Vestergårde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Vestergårde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4762,
+        "upstream": {
+         "stednavn": {
+          "id": "1124279",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557665.58,
+         6255190.375
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e4yjdidxtz6mu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e4yjdidxtz6mu"
+       },
+       "result": "Vestergårde"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vestervig",
+          "postcode": "7770"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "postcode": {
+          "id": "7770",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         400029.659,
+         6308853.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q5wrgpml6luty",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "q5wrgpml6luty"
+       },
+       "result": "Vestervig"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vesterborg",
+          "postcode": "4953"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2609,
+        "upstream": {
+         "postcode": {
+          "id": "4953",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         647066.841,
+         6082914.805
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tr6y7wwimoiys",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "tr6y7wwimoiys"
+       },
+       "result": "Vesterborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vestbjerg",
+          "postcode": "9380"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2174,
+        "upstream": {
+         "postcode": {
+          "id": "9380",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558683.712,
+         6331692.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5yr5wmwhokd72",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "5yr5wmwhokd72"
+       },
+       "result": "Vestbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         },
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vester Skerninge",
+          "postcode": "5762"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2069,
+        "upstream": {
+         "postcode": {
+          "id": "5762",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         593006.298,
+         6102977.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "udt47n2qpi7fq",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "udt47n2qpi7fq"
+       },
+       "result": "Vester Skerninge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus V",
+          "postcode": "8210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1739,
+        "upstream": {
+         "postcode": {
+          "id": "8210",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571897.925,
+         6225676.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hrm4n4znlr4zc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "hrm4n4znlr4zc"
+       },
+       "result": "Aarhus V"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestergårde, Strandby",
+           "ejerlavskode": 671159,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2aa",
+           "upstream": {
+            "id": 100751724,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2v",
+           "upstream": {
+            "id": 1068148,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2x",
+           "upstream": {
+            "id": 100751700,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2y",
+           "upstream": {
+            "id": 100751702,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "3x",
+           "upstream": {
+            "id": 1068147,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "3aa",
+           "upstream": {
+            "id": 1068091,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "4k",
+           "upstream": {
+            "id": 1068078,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "4dd",
+           "upstream": {
+            "id": 1068146,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "5g",
+           "upstream": {
+            "id": 1068134,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "5p",
+           "upstream": {
+            "id": 1068141,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "5by",
+           "upstream": {
+            "id": 1068130,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "6k",
+           "upstream": {
+            "id": 1068144,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "7c",
+           "upstream": {
+            "id": 1068353,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "7d",
+           "upstream": {
+            "id": 1068137,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "7eg",
+           "upstream": {
+            "id": 100751726,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "7eh",
+           "upstream": {
+            "id": 100751731,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "7ei",
+           "upstream": {
+            "id": 100751730,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "8l",
+           "upstream": {
+            "id": 100751728,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "8m",
+           "upstream": {
+            "id": 100751729,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ertebølle By, Strandby",
+           "ejerlavskode": 671151,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "17a",
+           "upstream": {
+            "id": 1068133,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Myrhøj By, Strandby",
+           "ejerlavskode": 671154,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "1y",
+           "upstream": {
+            "id": 1068870,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Myrhøj By, Strandby",
+           "ejerlavskode": 671154,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2as",
+           "upstream": {
+            "id": 100751703,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Myrhøj By, Strandby",
+           "ejerlavskode": 671154,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "3k",
+           "upstream": {
+            "id": 2202868,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Myrhøj By, Strandby",
+           "ejerlavskode": 671154,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "4o",
+           "upstream": {
+            "id": 100751701,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vestergårde, Strandby",
+           "ejerlavskode": 671159,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2p",
+           "upstream": {
+            "id": 1069392,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vestergårde, Strandby",
+           "ejerlavskode": 671159,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2ab",
+           "upstream": {
+            "id": 100751725,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vestergårde, Strandby",
+           "ejerlavskode": 671159,
+           "kommune": "Vesthimmerlands",
+           "kommunekode": "0820",
+           "lifecycle": "current",
+           "matrikelnummer": "2ac",
+           "upstream": {
+            "id": 100751727,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.4743,
+        "upstream": {
+         "ejendom": {
+          "id": 100763696,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510657.176,
+         6295882.031
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x7rx537zuvrc2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "x7rx537zuvrc2"
+       },
+       "result": "2aa, Vestergårde, Strandby"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterø By, Vesterø",
+        "ejerlavskode": 590351,
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ],
+        "matrikelnummer": "81aa"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "81aa",
+           "upstream": {
+            "id": 2320747,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4602,
+        "upstream": {
+         "ejendom": {
+          "id": 1801542,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         617065.929,
+         6352128.194
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "musryrzkhwsa4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "musryrzkhwsa4"
+       },
+       "result": "81aa, Vesterø By, Vesterø"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterø By, Vesterø",
+        "ejerlavskode": 590351,
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "112ar",
+           "upstream": {
+            "id": 100007473,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "50b",
+           "upstream": {
+            "id": 2551202,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "67a",
+           "upstream": {
+            "id": 2319684,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "67b",
+           "upstream": {
+            "id": 2319904,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "70e",
+           "upstream": {
+            "id": 2597008,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "112l",
+           "upstream": {
+            "id": 2319424,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "175k",
+           "upstream": {
+            "id": 100865347,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4602,
+        "upstream": {
+         "ejendom": {
+          "id": 9162810,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616015.355,
+         6348045.094
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mkpfeljcsp2wm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mkpfeljcsp2wm"
+       },
+       "result": "112ar, Vesterø By, Vesterø"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterø By, Vesterø",
+        "ejerlavskode": 590351,
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ],
+        "matrikelnummer": "113ar"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "113ar",
+           "upstream": {
+            "id": 2319593,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4602,
+        "upstream": {
+         "ejendom": {
+          "id": 3255980,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         614218.555,
+         6348497.204
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wruili4j4hnb6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wruili4j4hnb6"
+       },
+       "result": "113ar, Vesterø By, Vesterø"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterø By, Vesterø",
+        "ejerlavskode": 590351,
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "213a",
+           "upstream": {
+            "id": 2320938,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "100c",
+           "upstream": {
+            "id": 2320929,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "127c",
+           "upstream": {
+            "id": 2320942,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4602,
+        "upstream": {
+         "ejendom": {
+          "id": 1412722,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         618716.945,
+         6349336.311
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "daze7rxu2pk46",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "daze7rxu2pk46"
+       },
+       "result": "213a, Vesterø By, Vesterø"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1364,
+        "upstream": {
+         "kommune": {
+          "id": "0751",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568072.508,
+         6224865.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wlwh3eayxf424",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "wlwh3eayxf424"
+       },
+       "result": "Aarhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "kommune": {
+          "id": "0820",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         524691.608,
+         6297935.68
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "msjddefne5p5i",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "msjddefne5p5i"
+       },
+       "result": "Vesthimmerlands"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3043,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "63",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565722.982,
+         6224413.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v3jnbbxbs7r6s",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "v3jnbbxbs7r6s"
+       },
+       "result": "Aarhus Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Vesterbro",
+          "opstillingskredsnummer": "9"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "9",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722661.635,
+         6173199.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uz5sh5rhdpdmc",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "uz5sh5rhdpdmc"
+       },
+       "result": "Vesterbro"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aalborg Vest",
+          "opstillingskredsnummer": "91"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.24,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "91",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         551381.599,
+         6314156.275
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "llgteaklleez6",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "llgteaklleez6"
+       },
+       "result": "Aalborg Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Viborg Vest",
+          "opstillingskredsnummer": "75"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.16,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "75",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         515066.449,
+         6250085.335
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7jtmchdqphnj4",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "7jtmchdqphnj4"
+       },
+       "result": "Viborg Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "65",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580606.256,
+         6233418.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhftsa67kcn32",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "yhftsa67kcn32"
+       },
+       "result": "Aarhus Øst"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": [
+      {
+       "components": {
+        "politikredse": [
+         {
+          "politikreds": "Københavns Vestegns Politi",
+          "politikredsnummer": "10"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.125,
+        "upstream": {
+         "politikreds": {
+          "id": "10",
+          "source": "DAGI.Politikreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         710100.454,
+         6176317.205
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7cycklgx4j2yg",
+        "kind": "politikreds"
+       },
+       "refs": {
+        "politikreds": "7cycklgx4j2yg"
+       },
+       "result": "Københavns Vestegns Politi"
+      }
+     ]
+    },
+    {
+     "input": "vestergade 21 aar",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

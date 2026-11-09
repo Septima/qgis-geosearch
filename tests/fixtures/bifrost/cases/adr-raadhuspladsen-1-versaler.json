@@ -1,0 +1,1718 @@
+{
+ "case": {
+  "id": "adr-raadhuspladsen-1-versaler",
+  "input": "RÅDHUSPLADSEN 1",
+  "kommuner": null,
+  "types": [
+   "adr"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "ibtxnzcgc2olo",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 194,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "ibtxnzcgc2olo",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København V",
+          "postcode": "1550"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Helligånds",
+          "sognekode": "7002"
+         }
+        ],
+        "street": "Rådhuspladsen"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          724434.93,
+          6175755.61
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         724454.63549553,
+         6175800.01960673
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724434.93,
+         6175755.61
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ibtxnzcgc2olo",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ibtxnzcgc2olo"
+       },
+       "result": "Rådhuspladsen 1, 1550 København V"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "ibtxnzcgc2olo",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:06+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "RÅDHUSPLADSEN 1",
+    "limit": 20
+   },
+   "elapsed_ms": 191,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "RÅDHUSPLADSEN 1",
+    "matches": [
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København V",
+         "postcode": "1550"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724434.93,
+        6175755.61
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ibtxnzcgc2olo",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "ibtxnzcgc2olo"
+      },
+      "result": "Rådhuspladsen 1, 1550 København V"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Halsnæs",
+         "kommunekode": "0260"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Frederikssund",
+         "opstillingskredsnummer": "24"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Frederiksværk",
+         "postcode": "3300"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Hillerød",
+         "retskredsnummer": "18"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Frederiksværk-Vinderød",
+         "sognekode": "9186"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507f-0959-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "762a9a1f-a5fb-4e47-b1b2-9fa94026bc80",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        688190.35,
+        6207578.8
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "e2f7aqkyfhmuw",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "65sufcomzq3og",
+       "unit": "e2f7aqkyfhmuw"
+      },
+      "result": "Rådhuspladsen 1, 3300 Frederiksværk"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Slagelse",
+         "kommunekode": "0330"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Slagelse",
+         "opstillingskredsnummer": "40"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydsjællands og Lolland-Falsters Politi",
+         "politikredsnummer": "7"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Slagelse",
+         "postcode": "4200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Næstved",
+         "retskredsnummer": "15"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Mikkels",
+         "sognekode": "7345"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5084-62c3-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        649189.55,
+        6142347.15
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "2v3ue4fkzqras",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "2v3ue4fkzqras"
+      },
+      "result": "Rådhuspladsen 1, 4200 Slagelse"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Holbæk",
+         "kommunekode": "0316"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Holbæk",
+         "opstillingskredsnummer": "37"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestsjællands Politi",
+         "politikredsnummer": "8"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holbæk",
+         "postcode": "4300"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Holbæk",
+         "retskredsnummer": "16"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Nikolai",
+         "sognekode": "7274"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5083-452c-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "d06991ac-5162-4c26-a4c6-eb76e3a0ee13",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        670327.2692743541,
+        6177835.023645162
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "zvzbaixn2v5ku",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "6pa2l4rswl7nu",
+       "unit": "zvzbaixn2v5ku"
+      },
+      "result": "Rådhuspladsen 1, 4300 Holbæk"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Nordfyns",
+         "kommunekode": "0480"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Middelfart",
+         "opstillingskredsnummer": "45"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Otterup",
+         "postcode": "5450"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Otterup",
+         "sognekode": "7891"
+        }
+       ],
+       "street": "Rådhuspladsen",
+       "sub_locality": "Otterup"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508a-0b0a-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b5-1e71-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        587999.85,
+        6152889.38
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gglzrm63aujes",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "7yw3d3m6w3zpm",
+       "unit": "gglzrm63aujes"
+      },
+      "result": "Rådhuspladsen 1, Otterup, 5450 Otterup"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5096-c91e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50c4-05a3-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574724.583042916,
+        6223800.99596137
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "rom5rbegkveuw",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "6aqdujehcw3x6",
+       "unit": "rom5rbegkveuw"
+      },
+      "result": "Rådhuspladsen 1, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Skanderborg",
+         "kommunekode": "0746"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Skanderborg",
+         "opstillingskredsnummer": "70"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørning",
+         "postcode": "8362"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hørning",
+         "sognekode": "8012"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5093-f86f-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564456.76,
+        6216035.02
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "sminf26pxeupc",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "sminf26pxeupc"
+      },
+      "result": "Rådhuspladsen 1, 8362 Hørning"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Frederikshavn",
+         "kommunekode": "0813"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Frederikshavn",
+         "opstillingskredsnummer": "84"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Sæby",
+         "postcode": "9300"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Hjørring",
+         "retskredsnummer": "1"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sæby",
+         "sognekode": "8440"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509b-eeab-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "c508c198-38f5-4afc-a354-d8d8cca23ec8",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        590645.61,
+        6355513.83
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "axdsx2mmjtwki",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "wphgkk46qtsfm",
+       "unit": "axdsx2mmjtwki"
+      },
+      "result": "Rådhuspladsen 1, 9300 Sæby"
+     },
+     {
+      "components": {
+       "floor": "1",
+       "house_letter": "B",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "6ca6b685-8066-48b9-bcdb-ed1fa493dec6",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "455ac394-a38d-4b28-bc70-84fa1b23f67f",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574732.090557931,
+        6223799.08845755
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "et4lziexaqc24",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "stswa6laxnqi6",
+       "unit": "et4lziexaqc24"
+      },
+      "result": "Rådhuspladsen 1B, 1., 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_letter": "C",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "323ae6a0-6f73-41d4-9281-bfc5d315e130",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "b1f9a8e9-5f34-4ed3-9f0a-a5739b8d4b9b",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574737.480568711,
+        6223798.03845545
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mtxqh3tuya2jq",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "uzvvllfw7f2de",
+       "unit": "mtxqh3tuya2jq"
+      },
+      "result": "Rådhuspladsen 1C, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_letter": "D",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "559e2a41-2930-468e-a8fd-38da268d82bc",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "b7d4c9fd-8ef0-4519-94ce-3f390c2adcb7",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574743.010579771,
+        6223797.40845419
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "jkhfp5lkdljku",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "hgioxjhyoh3co",
+       "unit": "jkhfp5lkdljku"
+      },
+      "result": "Rådhuspladsen 1D, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_letter": "E",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aarhus Øst",
+         "opstillingskredsnummer": "65"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Århus",
+         "retskredsnummer": "4"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "8115"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "80e5e24b-f053-415e-bfab-fdc56b60f93f",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "c4adc5c6-eebb-44ad-8550-c0438539e649",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574749.730593211,
+        6223792.50844439
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "s7irxq2lrlcm2",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "2ca7hi7vx2p7c",
+       "unit": "s7irxq2lrlcm2"
+      },
+      "result": "Rådhuspladsen 1E, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København V",
+         "postcode": "1550"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-ec07-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "09102d77-f5ca-4e79-9984-cebf4404bab5",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724372.77,
+        6175836.28
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "3xtzcsguyhwu6",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "gvvhzheleibiq",
+       "unit": "3xtzcsguyhwu6"
+      },
+      "result": "Rådhuspladsen 11, 1550 København V"
+     },
+     {
+      "components": {
+       "house_number": "14",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København V",
+         "postcode": "1550"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-ec08-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724262.8,
+        6175814.36
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xmnt6eiqtamgc",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "xmnt6eiqtamgc"
+      },
+      "result": "Rådhuspladsen 14, 1550 København V"
+     },
+     {
+      "components": {
+       "house_number": "16",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København V",
+         "postcode": "1550"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-ec09-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724283.29,
+        6175783.9
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6kcm2hltwtd6e",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "6kcm2hltwtd6e"
+      },
+      "result": "Rådhuspladsen 16, 1550 København V"
+     },
+     {
+      "components": {
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "Slagelse",
+         "kommunekode": "0330"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Slagelse",
+         "opstillingskredsnummer": "40"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydsjællands og Lolland-Falsters Politi",
+         "politikredsnummer": "7"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Slagelse",
+         "postcode": "4200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Næstved",
+         "retskredsnummer": "15"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Mikkels",
+         "sognekode": "7345"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5084-62cc-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        649172.63,
+        6142430.04
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ydtysc7rv44yq",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "ydtysc7rv44yq"
+      },
+      "result": "Rådhuspladsen 11, 4200 Slagelse"
+     },
+     {
+      "components": {
+       "house_number": "10",
+       "kommuner": [
+        {
+         "kommune": "Skanderborg",
+         "kommunekode": "0746"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Skanderborg",
+         "opstillingskredsnummer": "70"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørning",
+         "postcode": "8362"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hørning",
+         "sognekode": "8012"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "5bae167c-19bb-4096-8c86-f728b39e38af",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564425.548851098,
+        6216086.70217341
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6o3rvsxfikmfk",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "6o3rvsxfikmfk"
+      },
+      "result": "Rådhuspladsen 10, 8362 Hørning"
+     },
+     {
+      "components": {
+       "house_number": "12",
+       "kommuner": [
+        {
+         "kommune": "Skanderborg",
+         "kommunekode": "0746"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Skanderborg",
+         "opstillingskredsnummer": "70"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørning",
+         "postcode": "8362"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hørning",
+         "sognekode": "8012"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "89d147d1-b5d2-4e99-aa24-2ce3bfe75973",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564422.942015684,
+        6216078.62345585
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "dbim66xg4rx3e",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "dbim66xg4rx3e"
+      },
+      "result": "Rådhuspladsen 12, 8362 Hørning"
+     },
+     {
+      "components": {
+       "house_number": "14",
+       "kommuner": [
+        {
+         "kommune": "Skanderborg",
+         "kommunekode": "0746"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Skanderborg",
+         "opstillingskredsnummer": "70"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørning",
+         "postcode": "8362"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hørning",
+         "sognekode": "8012"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "efc92dc8-6362-4408-80b2-77b1b1c6db2c",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "c796978a-8e9d-48fd-94e5-c2e81f6cb578",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564423.728847458,
+        6216068.71213743
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "uxeels4husbfi",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "kpgji6hjailkk",
+       "unit": "uxeels4husbfi"
+      },
+      "result": "Rådhuspladsen 14, 8362 Hørning"
+     },
+     {
+      "components": {
+       "house_number": "16",
+       "kommuner": [
+        {
+         "kommune": "Skanderborg",
+         "kommunekode": "0746"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Skanderborg",
+         "opstillingskredsnummer": "70"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørning",
+         "postcode": "8362"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hørning",
+         "sognekode": "8012"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "a0834db8-8abd-494d-a161-c1af22bad01b",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564414.628829258,
+        6216049.46209893
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "flzpnh2zst6uq",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "flzpnh2zst6uq"
+      },
+      "result": "Rådhuspladsen 16, 8362 Hørning"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

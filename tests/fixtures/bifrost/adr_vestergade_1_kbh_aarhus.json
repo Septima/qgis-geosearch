@@ -1,0 +1,3225 @@
+{
+ "case": {
+  "kommunefilter": "101, 751",
+  "proposed": false,
+  "selected": [
+   "adr"
+  ],
+  "text": "Vestergade 1"
+ },
+ "geometry": null,
+ "kommune_refs": {
+  "0101": {
+   "body": {
+    "input": "0101",
+    "limit": 1,
+    "target": "kommune"
+   },
+   "endpoint": "search",
+   "keys": [],
+   "response": {
+    "input": "0101",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "kommune": {
+         "id": "0101",
+         "source": "DAGI.Kommuneinddeling"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        726616.488,
+        6173589.445
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gueg6e4pa63d2",
+       "kind": "kommune"
+      },
+      "refs": {
+       "kommune": "gueg6e4pa63d2"
+      },
+      "result": "København"
+     }
+    ]
+   },
+   "status": 200
+  },
+  "0751": {
+   "body": {
+    "input": "0751",
+    "limit": 1,
+    "target": "kommune"
+   },
+   "endpoint": "search",
+   "keys": [],
+   "response": {
+    "input": "0751",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "kommune": {
+         "id": "0751",
+         "source": "DAGI.Kommuneinddeling"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        568072.508,
+        6224865.955
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wlwh3eayxf424",
+       "kind": "kommune"
+      },
+      "refs": {
+       "kommune": "wlwh3eayxf424"
+      },
+      "result": "Aarhus"
+     }
+    ]
+   },
+   "status": 200
+  }
+ },
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "components": {
+      "kommune": "0101"
+     },
+     "input": "Vestergade 1",
+     "limit": 20
+    },
+    {
+     "components": {
+      "kommune": "0751"
+     },
+     "input": "Vestergade 1",
+     "limit": 20
+    }
+   ],
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": [
+    {
+     "input": "Vestergade 1",
+     "matches": [
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24a4-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724533.07,
+         6176026.84
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s5eazgy6n5akk",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "s5eazgy6n5akk"
+       },
+       "result": "Vestergade 1, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "10",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24b6-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724484.73,
+         6176014.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "a5kqxurpejkwu",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "a5kqxurpejkwu"
+       },
+       "result": "Vestergade 10, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "11",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24b9-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724483.63,
+         6175991.12
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "o5fz3iwzudide",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "o5fz3iwzudide"
+       },
+       "result": "Vestergade 11, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "12",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24ba-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724468.63,
+         6176001.31
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aoe4hilp2zdde",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "aoe4hilp2zdde"
+       },
+       "result": "Vestergade 12, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "13",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24bc-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724476.72,
+         6175986.09
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ls3tq3pw2tw4w",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ls3tq3pw2tw4w"
+       },
+       "result": "Vestergade 13, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "14",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24bd-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724446.53,
+         6175983.31
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xgedcg6fk2fuo",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "xgedcg6fk2fuo"
+       },
+       "result": "Vestergade 14, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "15",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24be-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724462.68,
+         6175974.84
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5dxszdv6qxzpg",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "5dxszdv6qxzpg"
+       },
+       "result": "Vestergade 15, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "16",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24bf-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724435.93,
+         6175973.86
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pse2x33cbvd7c",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "pse2x33cbvd7c"
+       },
+       "result": "Vestergade 16, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "17",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24c0-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724456.41,
+         6175969.92
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i542dw3x6gb3a",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "i542dw3x6gb3a"
+       },
+       "result": "Vestergade 17, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "19",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24c9-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724448.74,
+         6175963.68
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2mss3neeubya2",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "2mss3neeubya2"
+       },
+       "result": "Vestergade 19, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "21",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24cf-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724444.88,
+         6175958.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ubldzklywnywa",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ubldzklywnywa"
+       },
+       "result": "Vestergade 21, 1456 København K"
+      },
+      {
+       "components": {
+        "house_number": "31",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24d9-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724414.55,
+         6175918.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pva2aome5uywi",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "pva2aome5uywi"
+       },
+       "result": "Vestergade 31, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "10",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24b7-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724480.91,
+         6176020.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oiffppap743tc",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "oiffppap743tc"
+       },
+       "result": "Vestergade 10A, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "10",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24b8-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724470.71,
+         6176025.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kmbooajta3psc",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "kmbooajta3psc"
+       },
+       "result": "Vestergade 10B, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "C",
+        "house_number": "10",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "a7c213b5-086b-452c-bf34-c7fd87ef7c45",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724464.14,
+         6176065.64
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bqgflerz6x36g",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "bqgflerz6x36g"
+       },
+       "result": "Vestergade 10C, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "D",
+        "house_number": "10",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "492782cd-6f1f-4f63-8c6e-a34ddb1bce13",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724441.87,
+         6176067.77
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2xc6kxq72m7j6",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "2xc6kxq72m7j6"
+       },
+       "result": "Vestergade 10D, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "12",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24bb-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724457.45,
+         6176032.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "z6lxij6afgmw6",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "z6lxij6afgmw6"
+       },
+       "result": "Vestergade 12A, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "17",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "98b36426-617e-4b47-bf9d-f9c3fac2e1f2",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724469.42,
+         6175958.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s7u5of645oa7c",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "s7u5of645oa7c"
+       },
+       "result": "Vestergade 17A, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "18",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24c1-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724424.45,
+         6175959.18
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ikjckbymeqsss",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ikjckbymeqsss"
+       },
+       "result": "Vestergade 18A, 1456 København K"
+      },
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "18",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1456"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.9924,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507b-24c2-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724418.82,
+         6175959.55
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "teowwlhsjbpri",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "teowwlhsjbpri"
+       },
+       "result": "Vestergade 18B, 1456 København K"
+      }
+     ]
+    },
+    {
+     "input": "Vestergade 1",
+     "matches": [
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "3eb1bee0-d891-4a7a-b5e8-4eb56b29808d",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "4922a6b4-3d13-42b7-9067-2c8e81da32f1",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574953.21990644,
+         6224271.783543569
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gx5llra7qfrp6",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "poikd22us5n44",
+        "unit": "gx5llra7qfrp6"
+       },
+       "result": "Vestergade 1B, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "floor": "1",
+        "house_letter": "C",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "8fcf8338-5be6-4560-ac18-6e6c9bdc09de",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "6ca06ebc-3da9-4cfa-970f-51c4b4073fae",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574949.78989958,
+         6224272.343544689
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3zb3ky7pn5w74",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "cxmjcsq6rvb7o",
+        "unit": "3zb3ky7pn5w74"
+       },
+       "result": "Vestergade 1C, 1., 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Østergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6788,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-2f79-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574833.44,
+         6223936.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ijok7mq72mjoy",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ijok7mq72mjoy"
+       },
+       "result": "Østergade 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vesterbrogade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6715,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-2073-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574406.06,
+         6224316.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "24kzmaripcubi",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "24kzmaripcubi"
+       },
+       "result": "Vesterbrogade 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Klostergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5643,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5096-7435-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575111.7002234006,
+         6224418.29383659
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jdierwb6zb7oi",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "jdierwb6zb7oi"
+       },
+       "result": "Klostergade 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Klostergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5643,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5096-7436-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575103.9302078607,
+         6224420.18384037
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jxolqvk6ftvvm",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "jxolqvk6ftvvm"
+       },
+       "result": "Klostergade 1B, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Harlev J",
+          "postcode": "8462"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Harlev",
+          "sognekode": "8081"
+         }
+        ],
+        "street": "Vestervej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5304,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-22b1-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562155.5,
+         6222314.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bnrntfz7cv63e",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "bnrntfz7cv63e"
+       },
+       "result": "Vestervej 1, 8462 Harlev J"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Sankt Markus",
+          "sognekode": "8116"
+         }
+        ],
+        "street": "Vestervang"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5072,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-225c-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574219.81,
+         6224720.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ehf547kxjk3xk",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ehf547kxjk3xk"
+       },
+       "result": "Vestervang 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "floor": "4",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vesterport"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5072,
+        "upstream": {
+         "entrance": {
+          "id": "39ece5fb-f663-0ee2-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "3688c94c-d9b2-4790-a5f5-4c23255788f7",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574529.56,
+         6224253.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m52foj6uwv2fu",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "3q6ism4xu2ufy",
+        "unit": "m52foj6uwv2fu"
+       },
+       "result": "Vesterport 1, 4., 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Ormslev",
+          "sognekode": "8107"
+         }
+        ],
+        "street": "Vestergårdsringen",
+        "sub_locality": "Stavtrup"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4965,
+        "upstream": {
+         "entrance": {
+          "id": "17122892-6367-42d8-8892-7658f863abc9",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "cf400574-04f2-45a0-bcfa-ce1a254717ca",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568939.49,
+         6220920.82
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sbh6hxuvln2ee",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "4rtlhkkcdlonm",
+        "unit": "sbh6hxuvln2ee"
+       },
+       "result": "Vestergårdsringen 1, Stavtrup, 8260 Viby J"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Syd",
+          "opstillingskredsnummer": "62"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hasselager",
+          "postcode": "8361"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Tranbjerg",
+          "sognekode": "8103"
+         }
+        ],
+        "street": "Vestergårdsparken"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4965,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-2122-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c4-a24d-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569081.19,
+         6217127.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5gwzewozwtwaa",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "d72qje6mvciky",
+        "unit": "5gwzewozwtwaa"
+       },
+       "result": "Vestergårdsparken 1, 8361 Hasselager"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vester Alle"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4864,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-202f-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "56f0097a-0fa3-49f3-84db-4ccb66b8a405",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574662.38,
+         6223776.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dphpoc5tmhykw",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "kpcuozb7a7l3m",
+        "unit": "dphpoc5tmhykw"
+       },
+       "result": "Vester Alle 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Christians",
+          "sognekode": "8121"
+         }
+        ],
+        "street": "Østerøgade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4675,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-31a8-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c4-c200-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573866.63,
+         6226058.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xlmgbw6qgl4me",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "bget222rkesns",
+        "unit": "xlmgbw6qgl4me"
+       },
+       "result": "Østerøgade 1A, 8200 Aarhus N"
+      },
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Christians",
+          "sognekode": "8121"
+         }
+        ],
+        "street": "Østerøgade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4675,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-31a9-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c4-c201-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573874.75,
+         6226075.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "niqrbzprroa2a",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "2z4pmgkmlj6k4",
+        "unit": "niqrbzprroa2a"
+       },
+       "result": "Østerøgade 1B, 8200 Aarhus N"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Ormslev",
+          "sognekode": "8107"
+         }
+        ],
+        "street": "Vestermarken",
+        "sub_locality": "Stavtrup"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4675,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-21c4-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c4-a32c-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569146.57,
+         6220932.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i3cc6axu25nxo",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "ztl4cj4uzku7g",
+        "unit": "i3cc6axu25nxo"
+       },
+       "result": "Vestermarken 1, Stavtrup, 8260 Viby J"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Syd",
+          "opstillingskredsnummer": "62"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Malling",
+          "postcode": "8340"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Malling",
+          "sognekode": "8110"
+         }
+        ],
+        "street": "Tværgade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4471,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5095-de27-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c2-66a4-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574532.508716369,
+         6210969.16606127
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tippifla6uu6m",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "ahqsw2plqmzjo",
+        "unit": "tippifla6uu6m"
+       },
+       "result": "Tværgade 1, 8340 Malling"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vesterbro Torv"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4347,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-2068-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574513.62,
+         6224326.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3pledob7vg2ds",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "3pledob7vg2ds"
+       },
+       "result": "Vesterbro Torv 1A, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_letter": "B",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Vesterbro Torv"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4347,
+        "upstream": {
+         "entrance": {
+          "id": "604ad59e-3df9-7474-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574506.29,
+         6224322.1
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ep7beybm77wi6",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ep7beybm77wi6"
+       },
+       "result": "Vesterbro Torv 1B, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ],
+        "street": "Fiskergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4288,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5096-22b6-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574980.0,
+         6224140.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "el7mw6aypkkde",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "el7mw6aypkkde"
+       },
+       "result": "Fiskergade 1, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Risskov",
+          "postcode": "8240"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Midtjylland",
+          "regionskode": "1082"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Århus",
+          "retskredsnummer": "4"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vejlby",
+          "sognekode": "8123"
+         }
+        ],
+        "street": "Vejlbygade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4288,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f5097-1f93-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575644.5,
+         6228410.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "a263l2ybyjaj2",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "a263l2ybyjaj2"
+       },
+       "result": "Vejlbygade 1A, 8240 Risskov"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

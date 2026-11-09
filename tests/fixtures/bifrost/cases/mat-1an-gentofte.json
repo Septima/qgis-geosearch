@@ -1,0 +1,2952 @@
+{
+ "case": {
+  "id": "mat-1an-gentofte",
+  "input": "mat: 1an gentofte",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:32+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "1an gentofte",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 376,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "10an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "10an",
+           "upstream": {
+            "id": 332484,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2002873,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722582.292,
+         6181834.685
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c723hvuwky4be",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "c723hvuwky4be"
+       },
+       "result": "10an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "11an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "11an",
+           "upstream": {
+            "id": 333221,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2003295,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722857.654,
+         6182917.733
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vqnl2zyroy23a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vqnl2zyroy23a"
+       },
+       "result": "11an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "12an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "12an",
+           "upstream": {
+            "id": 332222,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2003366,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722481.147,
+         6183187.704
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ynls36a7l537o",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ynls36a7l537o"
+       },
+       "result": "12an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "14an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "14an",
+           "upstream": {
+            "id": 335195,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2004194,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723619.949,
+         6182625.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hbpfavyq7vona",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "hbpfavyq7vona"
+       },
+       "result": "14an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "15an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "15an",
+           "upstream": {
+            "id": 334596,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2004439,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723475.842,
+         6182117.512
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rmx77bnqas5jy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rmx77bnqas5jy"
+       },
+       "result": "15an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "16an",
+           "upstream": {
+            "id": 336833,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "16oq",
+           "upstream": {
+            "id": 336835,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "u7ipyiprk6qjm",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 188518,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "yzfmlnhtdmfju",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 188519,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "3",
+            "id": "jtei4j47nmrxa",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 188520,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "4",
+            "id": "hoqpxypay5ghm",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 188521,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "5",
+            "id": "rgusrqasxap4i",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 188522,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2004714,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724719.425,
+         6181984.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wuvjfnvvszzt2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wuvjfnvvszzt2"
+       },
+       "result": "16an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "17an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "17an",
+           "upstream": {
+            "id": 336555,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2005297,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724592.398,
+         6182743.789
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "elatct7vblatm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "elatct7vblatm"
+       },
+       "result": "17an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "18an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "18an",
+           "upstream": {
+            "id": 335768,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2005719,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723790.146,
+         6182961.301
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6hgyrjpqluh52",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6hgyrjpqluh52"
+       },
+       "result": "18an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "19an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "19an",
+           "upstream": {
+            "id": 336375,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2006036,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724381.083,
+         6183223.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ni7m44fls6fr6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ni7m44fls6fr6"
+       },
+       "result": "19an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "21an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "21an",
+           "upstream": {
+            "id": 333510,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2006601,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722918.901,
+         6183830.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6oxsvrnpjpxwy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6oxsvrnpjpxwy"
+       },
+       "result": "21an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "31an",
+           "upstream": {
+            "id": 336839,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "31ao",
+           "upstream": {
+            "id": 336882,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "wkdbghjrjh2n6",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 202158,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "imm2l2ojg7iug",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 202159,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.866,
+        "upstream": {
+         "ejendom": {
+          "id": 2008500,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724694.297,
+         6182949.094
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d34prmpmrmwqo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "d34prmpmrmwqo"
+       },
+       "result": "31an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 331535,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000001,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722265.412,
+         6183861.249
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "76yz7oxlty2ba",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "76yz7oxlty2ba"
+       },
+       "result": "1a, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1n"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1n",
+           "upstream": {
+            "id": 331927,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000013,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722414.825,
+         6183736.283
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fslvouxwdedco",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "fslvouxwdedco"
+       },
+       "result": "1n, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1æ"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1æ",
+           "upstream": {
+            "id": 332208,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000025,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722477.354,
+         6183880.618
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2bq7z46opfp2a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "2bq7z46opfp2a"
+       },
+       "result": "1æ, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1aa"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1aa",
+           "upstream": {
+            "id": 331769,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000027,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722341.756,
+         6183654.903
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "a3hhaxqm6zmb2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "a3hhaxqm6zmb2"
+       },
+       "result": "1aa, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ab"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ab",
+           "upstream": {
+            "id": 331583,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000028,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722367.365,
+         6183770.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f6tfkeb6qfim4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "f6tfkeb6qfim4"
+       },
+       "result": "1ab, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ac"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ac",
+           "upstream": {
+            "id": 332441,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000029,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722560.315,
+         6183882.443
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5ma6x5oqhekqc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "5ma6x5oqhekqc"
+       },
+       "result": "1ac, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ad"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ad",
+           "upstream": {
+            "id": 332076,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000030,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722504.303,
+         6183938.324
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i5fck75i7vi4a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "i5fck75i7vi4a"
+       },
+       "result": "1ad, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ae"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ae",
+           "upstream": {
+            "id": 332081,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000031,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722503.609,
+         6183915.326
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zacrzswvqfone",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zacrzswvqfone"
+       },
+       "result": "1ae, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1af"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1af",
+           "upstream": {
+            "id": 332685,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "3qmu5pyqnakem",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 192481,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "cigmrpi22gpbw",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 192482,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000032,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722655.239,
+         6183847.562
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6x42li2fv6mae",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6x42li2fv6mae"
+       },
+       "result": "1af, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ak"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ak",
+           "upstream": {
+            "id": 332453,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000036,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722557.558,
+         6183953.381
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4jmkimxeoyfje",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4jmkimxeoyfje"
+       },
+       "result": "1ak, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1am"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1am",
+           "upstream": {
+            "id": 332061,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000038,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722529.308,
+         6183843.653
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jyen2qqbt3iw6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jyen2qqbt3iw6"
+       },
+       "result": "1am, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ar"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ar",
+           "upstream": {
+            "id": 332454,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000043,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722560.555,
+         6183807.596
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3lapqcqj6zgfq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3lapqcqj6zgfq"
+       },
+       "result": "1ar, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1as"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1as",
+           "upstream": {
+            "id": 332219,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000044,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722461.002,
+         6183713.435
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jtud56ch3afei",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jtud56ch3afei"
+       },
+       "result": "1as, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1at"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1at",
+           "upstream": {
+            "id": 332752,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000045,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722636.396,
+         6183796.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ch2mekx3ups3s",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ch2mekx3ups3s"
+       },
+       "result": "1at, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1av"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1av",
+           "upstream": {
+            "id": 332888,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000047,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722773.817,
+         6183767.175
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jqxzsnmlo3rnm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jqxzsnmlo3rnm"
+       },
+       "result": "1av, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1ay"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1ay",
+           "upstream": {
+            "id": 332451,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000049,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722558.237,
+         6183923.041
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t64a3fghbosuy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "t64a3fghbosuy"
+       },
+       "result": "1ay, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1az"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1az",
+           "upstream": {
+            "id": 332450,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000050,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722563.302,
+         6183903.966
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "73gaehbi3fmru",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "73gaehbi3fmru"
+       },
+       "result": "1az, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1bn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1bn",
+           "upstream": {
+            "id": 332152,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000065,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722489.158,
+         6183740.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6fm4hubtlt4i4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6fm4hubtlt4i4"
+       },
+       "result": "1bn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1cn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1cn",
+           "upstream": {
+            "id": 332785,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000091,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722613.673,
+         6183664.512
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mslu3qatnt2f2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mslu3qatnt2f2"
+       },
+       "result": "1cn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1dn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1dn",
+           "upstream": {
+            "id": 332570,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000117,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722704.695,
+         6183702.522
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c7wxeqrplyfvq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "c7wxeqrplyfvq"
+       },
+       "result": "1dn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1fn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1fn",
+           "upstream": {
+            "id": 331961,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000169,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722412.659,
+         6183652.391
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nivlqrjtacmkw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "nivlqrjtacmkw"
+       },
+       "result": "1fn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1gn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1gn",
+           "upstream": {
+            "id": 332842,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000195,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722797.481,
+         6183961.319
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u2nh3wahfvqw6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "u2nh3wahfvqw6"
+       },
+       "result": "1gn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1in"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1in",
+           "upstream": {
+            "id": 331587,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000247,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722367.718,
+         6183745.466
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ujkfvjuptqxno",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ujkfvjuptqxno"
+       },
+       "result": "1in, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "1kn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "1kn",
+           "upstream": {
+            "id": 331633,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000273,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722357.117,
+         6183580.079
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qe5f42plhfg3e",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qe5f42plhfg3e"
+       },
+       "result": "1kn, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "2an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "2an",
+           "upstream": {
+            "id": 330386,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000328,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722010.234,
+         6183064.394
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ztkfffbdn7rnq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ztkfffbdn7rnq"
+       },
+       "result": "2an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "3an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "3an",
+           "upstream": {
+            "id": 331497,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000368,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722269.572,
+         6183096.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hxpfenxjroldm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "hxpfenxjroldm"
+       },
+       "result": "3an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "4an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "4an",
+           "upstream": {
+            "id": 330596,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2000610,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722100.608,
+         6182826.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7ahdliat7kwva",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "7ahdliat7kwva"
+       },
+       "result": "4an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "5an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "5an",
+           "upstream": {
+            "id": 330860,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2001248,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722193.285,
+         6181834.369
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jj6mlzofyzxtu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jj6mlzofyzxtu"
+       },
+       "result": "5an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "6an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "6an",
+           "upstream": {
+            "id": 332188,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8165,
+        "upstream": {
+         "ejendom": {
+          "id": 2001566,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722517.865,
+         6181171.824
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4trps7hq4vgja",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4trps7hq4vgja"
+       },
+       "result": "6an, Gentofte"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

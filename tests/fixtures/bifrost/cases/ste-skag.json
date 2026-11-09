@@ -1,0 +1,2651 @@
+{
+ "case": {
+  "id": "ste-skag",
+  "input": "ste: skag",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Skagen",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 234,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Skagen",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Skagen",
+        "type": "naturareal"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            639806.21,
+            6118748.68
+           ],
+           [
+            639462.49,
+            6118540.51
+           ],
+           [
+            639585.84,
+            6118478.2
+           ],
+           [
+            639734.49,
+            6118369.67
+           ],
+           [
+            639827.49,
+            6118275.64
+           ],
+           [
+            639926.4,
+            6118181.0
+           ],
+           [
+            640046.97,
+            6118104.04
+           ],
+           [
+            640219.46,
+            6118008.4
+           ],
+           [
+            640346.18,
+            6117938.97
+           ],
+           [
+            640402.9500000001,
+            6117901.16
+           ],
+           [
+            640453.3200000001,
+            6117937.86
+           ],
+           [
+            640445.74,
+            6117940.82
+           ],
+           [
+            640435.23,
+            6117942.92
+           ],
+           [
+            640429.1900000001,
+            6117947.93
+           ],
+           [
+            640419.0,
+            6117954.86
+           ],
+           [
+            640413.6900000001,
+            6117965.29
+           ],
+           [
+            640406.59,
+            6117972.73
+           ],
+           [
+            640399.4,
+            6117979.68
+           ],
+           [
+            640390.23,
+            6117981.64
+           ],
+           [
+            640385.53,
+            6117987.29
+           ],
+           [
+            640378.8200000001,
+            6117996.53
+           ],
+           [
+            640362.23,
+            6118012.05
+           ],
+           [
+            640349.09,
+            6118029.58
+           ],
+           [
+            640351.98,
+            6118040.43
+           ],
+           [
+            640349.29,
+            6118050.49
+           ],
+           [
+            640338.9400000001,
+            6118048.1
+           ],
+           [
+            640328.48,
+            6118051.99
+           ],
+           [
+            640327.79,
+            6118056.07
+           ],
+           [
+            640355.96,
+            6118049.99
+           ],
+           [
+            640393.4,
+            6118040.02
+           ],
+           [
+            640418.59,
+            6118033.34
+           ],
+           [
+            640443.78,
+            6118028.26
+           ],
+           [
+            640489.18,
+            6118013.31
+           ],
+           [
+            640497.85,
+            6118010.22
+           ],
+           [
+            640498.25,
+            6118017.39
+           ],
+           [
+            640498.65,
+            6118035.91
+           ],
+           [
+            640490.39,
+            6118059.11
+           ],
+           [
+            640482.53,
+            6118063.2
+           ],
+           [
+            640475.56,
+            6118059.81
+           ],
+           [
+            640474.86,
+            6118065.49
+           ],
+           [
+            640474.56,
+            6118071.76
+           ],
+           [
+            640469.78,
+            6118074.35
+           ],
+           [
+            640459.03,
+            6118073.96
+           ],
+           [
+            640452.26,
+            6118075.95
+           ],
+           [
+            640446.5700000001,
+            6118076.65
+           ],
+           [
+            640442.3,
+            6118075.56
+           ],
+           [
+            640432.4400000001,
+            6118080.04
+           ],
+           [
+            640404.17,
+            6118086.02
+           ],
+           [
+            640393.22,
+            6118096.98
+           ],
+           [
+            640397.7000000001,
+            6118100.26
+           ],
+           [
+            640409.15,
+            6118098.37
+           ],
+           [
+            640420.1,
+            6118095.18
+           ],
+           [
+            640431.75,
+            6118093.08
+           ],
+           [
+            640451.76,
+            6118081.43
+           ],
+           [
+            640458.43,
+            6118076.95
+           ],
+           [
+            640467.99,
+            6118081.72
+           ],
+           [
+            640471.48,
+            6118090.38
+           ],
+           [
+            640467.5,
+            6118096.36
+           ],
+           [
+            640467.0,
+            6118103.83
+           ],
+           [
+            640468.5,
+            6118110.1
+           ],
+           [
+            640461.03,
+            6118124.34
+           ],
+           [
+            640449.98,
+            6118132.01
+           ],
+           [
+            640442.02,
+            6118131.42
+           ],
+           [
+            640437.9400000001,
+            6118131.52
+           ],
+           [
+            640434.35,
+            6118135.3
+           ],
+           [
+            640427.88,
+            6118139.59
+           ],
+           [
+            640420.51,
+            6118133.81
+           ],
+           [
+            640415.63,
+            6118132.72
+           ],
+           [
+            640408.96,
+            6118125.85
+           ],
+           [
+            640408.16,
+            6118131.43
+           ],
+           [
+            640405.77,
+            6118138.0
+           ],
+           [
+            640401.79,
+            6118142.58
+           ],
+           [
+            640386.26,
+            6118159.71
+           ],
+           [
+            640381.1900000001,
+            6118163.6
+           ],
+           [
+            640378.4,
+            6118168.97
+           ],
+           [
+            640372.63,
+            6118177.34
+           ],
+           [
+            640367.75,
+            6118178.24
+           ],
+           [
+            640366.16,
+            6118185.41
+           ],
+           [
+            640358.39,
+            6118191.18
+           ],
+           [
+            640348.43,
+            6118186.01
+           ],
+           [
+            640340.27,
+            6118187.41
+           ],
+           [
+            640321.15,
+            6118188.21
+           ],
+           [
+            640316.37,
+            6118192.19
+           ],
+           [
+            640309.5,
+            6118190.5
+           ],
+           [
+            640303.8200000001,
+            6118192.39
+           ],
+           [
+            640300.4400000001,
+            6118190.2
+           ],
+           [
+            640297.65,
+            6118188.81
+           ],
+           [
+            640297.65,
+            6118198.97
+           ],
+           [
+            640293.0700000001,
+            6118201.36
+           ],
+           [
+            640294.27,
+            6118204.94
+           ],
+           [
+            640291.18,
+            6118208.03
+           ],
+           [
+            640286.21,
+            6118217.19
+           ],
+           [
+            640279.9400000001,
+            6118229.04
+           ],
+           [
+            640269.38,
+            6118234.03
+           ],
+           [
+            640260.92,
+            6118247.47
+           ],
+           [
+            640252.76,
+            6118258.23
+           ],
+           [
+            640255.4500000001,
+            6118262.71
+           ],
+           [
+            640264.51,
+            6118269.97
+           ],
+           [
+            640267.8,
+            6118276.05
+           ],
+           [
+            640274.47,
+            6118282.52
+           ],
+           [
+            640279.9500000001,
+            6118288.39
+           ],
+           [
+            640280.15,
+            6118294.56
+           ],
+           [
+            640269.98,
+            6118291.62
+           ],
+           [
+            640264.6,
+            6118290.26
+           ],
+           [
+            640256.42,
+            6118288.12
+           ],
+           [
+            640251.92,
+            6118285.66
+           ],
+           [
+            640249.14,
+            6118287.47
+           ],
+           [
+            640242.01,
+            6118292.1
+           ],
+           [
+            640234.17,
+            6118296.23
+           ],
+           [
+            640227.0700000001,
+            6118293.59
+           ],
+           [
+            640223.03,
+            6118298.89
+           ],
+           [
+            640220.2000000001,
+            6118308.17
+           ],
+           [
+            640215.87,
+            6118316.16
+           ],
+           [
+            640199.73,
+            6118314.47
+           ],
+           [
+            640175.8,
+            6118309.45
+           ],
+           [
+            640169.9,
+            6118305.8
+           ],
+           [
+            640160.42,
+            6118302.18
+           ],
+           [
+            640150.15,
+            6118299.36
+           ],
+           [
+            640146.0,
+            6118304.96
+           ],
+           [
+            640125.9,
+            6118306.48
+           ],
+           [
+            640113.21,
+            6118315.33
+           ],
+           [
+            640105.5700000001,
+            6118321.25
+           ],
+           [
+            640096.47,
+            6118329.67
+           ],
+           [
+            640084.0700000001,
+            6118336.22
+           ],
+           [
+            640076.91,
+            6118337.86
+           ],
+           [
+            640070.59,
+            6118345.27
+           ],
+           [
+            640064.24,
+            6118349.1
+           ],
+           [
+            640049.5700000001,
+            6118344.31
+           ],
+           [
+            640032.3200000001,
+            6118342.93
+           ],
+           [
+            640015.71,
+            6118342.94
+           ],
+           [
+            640006.48,
+            6118347.67
+           ],
+           [
+            640000.0,
+            6118349.35
+           ],
+           [
+            639991.99,
+            6118352.93
+           ],
+           [
+            639974.81,
+            6118360.78
+           ],
+           [
+            639963.16,
+            6118367.67
+           ],
+           [
+            639961.93,
+            6118374.7
+           ],
+           [
+            639959.63,
+            6118382.49
+           ],
+           [
+            639954.16,
+            6118388.51
+           ],
+           [
+            639947.4,
+            6118398.25
+           ],
+           [
+            639942.23,
+            6118399.95
+           ],
+           [
+            639937.61,
+            6118401.42
+           ],
+           [
+            639935.31,
+            6118409.53
+           ],
+           [
+            639938.23,
+            6118416.37
+           ],
+           [
+            639944.03,
+            6118419.88
+           ],
+           [
+            639948.29,
+            6118424.88
+           ],
+           [
+            639958.3,
+            6118430.72
+           ],
+           [
+            639957.18,
+            6118436.03
+           ],
+           [
+            639956.46,
+            6118441.58
+           ],
+           [
+            639956.49,
+            6118445.88
+           ],
+           [
+            639955.89,
+            6118453.23
+           ],
+           [
+            639959.47,
+            6118462.77
+           ],
+           [
+            639967.36,
+            6118474.53
+           ],
+           [
+            639968.84,
+            6118482.09
+           ],
+           [
+            639966.85,
+            6118488.93
+           ],
+           [
+            639962.06,
+            6118494.18
+           ],
+           [
+            639954.98,
+            6118503.44
+           ],
+           [
+            639949.36,
+            6118504.55
+           ],
+           [
+            639941.54,
+            6118497.15
+           ],
+           [
+            639931.91,
+            6118494.14
+           ],
+           [
+            639926.11,
+            6118492.3
+           ],
+           [
+            639918.41,
+            6118492.47
+           ],
+           [
+            639912.91,
+            6118493.06
+           ],
+           [
+            639908.53,
+            6118493.65
+           ],
+           [
+            639903.3,
+            6118493.17
+           ],
+           [
+            639900.3200000001,
+            6118496.34
+           ],
+           [
+            639894.36,
+            6118498.13
+           ],
+           [
+            639891.6900000001,
+            6118498.27
+           ],
+           [
+            639891.7000000001,
+            6118501.06
+           ],
+           [
+            639886.86,
+            6118504.12
+           ],
+           [
+            639883.61,
+            6118507.81
+           ],
+           [
+            639878.9400000001,
+            6118507.24
+           ],
+           [
+            639876.81,
+            6118510.69
+           ],
+           [
+            639871.81,
+            6118509.8
+           ],
+           [
+            639868.9500000001,
+            6118511.09
+           ],
+           [
+            639870.81,
+            6118514.19
+           ],
+           [
+            639875.87,
+            6118520.54
+           ],
+           [
+            639877.86,
+            6118525.91
+           ],
+           [
+            639873.18,
+            6118535.95
+           ],
+           [
+            639866.01,
+            6118544.33
+           ],
+           [
+            639856.3200000001,
+            6118550.54
+           ],
+           [
+            639852.67,
+            6118553.59
+           ],
+           [
+            639849.9400000001,
+            6118551.54
+           ],
+           [
+            639851.3200000001,
+            6118547.74
+           ],
+           [
+            639847.16,
+            6118546.01
+           ],
+           [
+            639843.87,
+            6118542.76
+           ],
+           [
+            639843.87,
+            6118536.82
+           ],
+           [
+            639840.5700000001,
+            6118534.53
+           ],
+           [
+            639837.42,
+            6118532.28
+           ],
+           [
+            639831.97,
+            6118529.44
+           ],
+           [
+            639812.3200000001,
+            6118527.01
+           ],
+           [
+            639799.37,
+            6118526.34
+           ],
+           [
+            639785.5700000001,
+            6118527.47
+           ],
+           [
+            639776.74,
+            6118525.09
+           ],
+           [
+            639757.96,
+            6118526.37
+           ],
+           [
+            639723.11,
+            6118533.97
+           ],
+           [
+            639711.29,
+            6118539.03
+           ],
+           [
+            639713.62,
+            6118541.49
+           ],
+           [
+            639727.41,
+            6118545.59
+           ],
+           [
+            639749.9,
+            6118544.01
+           ],
+           [
+            639778.96,
+            6118541.07
+           ],
+           [
+            639809.1900000001,
+            6118540.0
+           ],
+           [
+            639826.4,
+            6118536.53
+           ],
+           [
+            639832.28,
+            6118539.17
+           ],
+           [
+            639835.9500000001,
+            6118546.84
+           ],
+           [
+            639835.27,
+            6118552.27
+           ],
+           [
+            639834.75,
+            6118557.62
+           ],
+           [
+            639836.6,
+            6118560.24
+           ],
+           [
+            639833.43,
+            6118563.29
+           ],
+           [
+            639831.86,
+            6118568.25
+           ],
+           [
+            639827.73,
+            6118577.01
+           ],
+           [
+            639829.88,
+            6118581.98
+           ],
+           [
+            639831.43,
+            6118588.35
+           ],
+           [
+            639833.2000000001,
+            6118597.15
+           ],
+           [
+            639832.1,
+            6118604.94
+           ],
+           [
+            639835.25,
+            6118611.38
+           ],
+           [
+            639852.4500000001,
+            6118625.35
+           ],
+           [
+            639871.71,
+            6118636.35
+           ],
+           [
+            639880.52,
+            6118646.79
+           ],
+           [
+            639886.39,
+            6118660.75
+           ],
+           [
+            639891.41,
+            6118666.82
+           ],
+           [
+            639900.24,
+            6118674.26
+           ],
+           [
+            639900.76,
+            6118681.52
+           ],
+           [
+            639898.31,
+            6118685.2
+           ],
+           [
+            639888.54,
+            6118696.79
+           ],
+           [
+            639884.63,
+            6118698.01
+           ],
+           [
+            639880.72,
+            6118696.92
+           ],
+           [
+            639870.68,
+            6118693.43
+           ],
+           [
+            639853.65,
+            6118680.9
+           ],
+           [
+            639845.4500000001,
+            6118671.7
+           ],
+           [
+            639842.5700000001,
+            6118670.2
+           ],
+           [
+            639838.87,
+            6118671.86
+           ],
+           [
+            639835.1900000001,
+            6118677.11
+           ],
+           [
+            639831.41,
+            6118684.31
+           ],
+           [
+            639825.78,
+            6118689.77
+           ],
+           [
+            639821.84,
+            6118690.71
+           ],
+           [
+            639818.8,
+            6118696.44
+           ],
+           [
+            639816.62,
+            6118698.8
+           ],
+           [
+            639813.53,
+            6118701.77
+           ],
+           [
+            639813.3200000001,
+            6118706.4
+           ],
+           [
+            639812.23,
+            6118710.88
+           ],
+           [
+            639808.23,
+            6118714.53
+           ],
+           [
+            639806.02,
+            6118718.21
+           ],
+           [
+            639807.5700000001,
+            6118723.71
+           ],
+           [
+            639806.17,
+            6118728.98
+           ],
+           [
+            639803.81,
+            6118734.02
+           ],
+           [
+            639805.4400000001,
+            6118739.36
+           ],
+           [
+            639807.5,
+            6118744.01
+           ],
+           [
+            639806.21,
+            6118748.68
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1052984",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         639947.6,
+         6118318.245
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cgdrksfx6lay4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cgdrksfx6lay4"
+       },
+       "result": "Skagen"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 741 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "cgdrksfx6lay4",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:14+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "skag",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 229,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "skag",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Skagen",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1052984",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         639947.6,
+         6118318.245
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cgdrksfx6lay4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cgdrksfx6lay4"
+       },
+       "result": "Skagen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Skagen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1130003",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560169.094,
+         6350171.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3dchuwp3hz5ts",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3dchuwp3hz5ts"
+       },
+       "result": "Skagen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Skagen",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7630255",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594215.684,
+         6399315.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "66wmbqqmlcgj4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "66wmbqqmlcgj4"
+       },
+       "result": "Skagen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skau",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1094123",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461430.148,
+         6238877.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "why5zbiz5iyea",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "why5zbiz5iyea"
+       },
+       "result": "Skau"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Skage Sø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1086568",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         639412.25,
+         6119051.355
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eo3mtkhnpfczo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eo3mtkhnpfczo"
+       },
+       "result": "Skage Sø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Skaghøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1099734",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553443.93,
+         6234463.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ldz33tp36l4os",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ldz33tp36l4os"
+       },
+       "result": "Skaghøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Skagholt",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1128194",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         587261.706,
+         6251709.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jnbyuxmbk5bwk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jnbyuxmbk5bwk"
+       },
+       "result": "Skagholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Skaghorn",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1136489",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562634.672,
+         6113775.15
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dzjpaliwfgbqy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dzjpaliwfgbqy"
+       },
+       "result": "Skaghorn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "stednavn": "Skade",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7524913",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         531596.187,
+         6199167.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jsct5xxov6iz2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jsct5xxov6iz2"
+       },
+       "result": "Skade"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Skads",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7419969",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472000.521,
+         6151417.875
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dcfwmkut7q4tm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dcfwmkut7q4tm"
+       },
+       "result": "Skads"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Skald",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1025242",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         541223.107,
+         6334910.41
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b62l64olc6n5e",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "b62l64olc6n5e"
+       },
+       "result": "Skald"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Skald",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1104733",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540687.859,
+         6334373.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "h7fp3r4xexkxk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "h7fp3r4xexkxk"
+       },
+       "result": "Skald"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Skall",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7433137",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553699.137,
+         6336998.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xtxn6gm7zrkls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xtxn6gm7zrkls"
+       },
+       "result": "Skall"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Skals",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7628003",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         524895.734,
+         6267947.585
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "juwj3y75mitjy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "juwj3y75mitjy"
+       },
+       "result": "Skals"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skank",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1146512",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         495273.375,
+         6251747.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5fd3xvnvwe2jc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5fd3xvnvwe2jc"
+       },
+       "result": "Skank"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "stednavn": "Skast",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7505937",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         480801.616,
+         6101322.255
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dpmuowjukttku",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dpmuowjukttku"
+       },
+       "result": "Skast"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Skaun",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1119934",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529102.937,
+         6246636.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nj3z46amk4vba",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nj3z46amk4vba"
+       },
+       "result": "Skaun"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Skave",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7411505",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         479790.514,
+         6187327.935
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xxhl5a7xqrsms",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xxhl5a7xqrsms"
+       },
+       "result": "Skave"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skave",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "7571313",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         487717.16,
+         6249644.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "otjjjok2ezd4c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "otjjjok2ezd4c"
+       },
+       "result": "Skave"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Morsø",
+          "kommunekode": "0773"
+         }
+        ],
+        "stednavn": "Skavn",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1067030",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         490097.676,
+         6296576.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i7ktqb2edwtgo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "i7ktqb2edwtgo"
+       },
+       "result": "Skavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skavn",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1083303",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         490929.277,
+         6265184.715
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bmfzjqjsgoeu2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bmfzjqjsgoeu2"
+       },
+       "result": "Skavn"
+      },
+      {
+       "components": {
+        "stednavn": "Skagbanke",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1069417",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569503.309,
+         6395557.371
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2wiz4ap3um3lc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2wiz4ap3um3lc"
+       },
+       "result": "Skagbanke"
+      },
+      {
+       "components": {
+        "stednavn": "Skagerrak",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "7370097",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         528546.513,
+         6414172.77
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kzccawfwsvhpc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kzccawfwsvhpc"
+       },
+       "result": "Skagerrak"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Skåde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1076077",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575186.096,
+         6218142.695
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tuhwzoiz4osqw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tuhwzoiz4osqw"
+       },
+       "result": "Skåde"
+      },
+      {
+       "components": {
+        "stednavn": "Skåen",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1076129",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         598384.953,
+         6084191.94
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zigwfjiqgtf2g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zigwfjiqgtf2g"
+       },
+       "result": "Skåen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         }
+        ],
+        "stednavn": "Skåne",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1042831",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         730875.51,
+         6171412.627
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2jx4hlpygtz3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2jx4hlpygtz3w"
+       },
+       "result": "Skåne"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Skabet",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1080661",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576245.825,
+         6342326.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q4djysdymqnog",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "q4djysdymqnog"
+       },
+       "result": "Skabet"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Skader",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7514721",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574624.65,
+         6246166.335
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nrfrztzint322",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nrfrztzint322"
+       },
+       "result": "Skader"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         }
+        ],
+        "stednavn": "Skagbanker",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1021616",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         503253.129,
+         6178870.28
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s5krg6k7n32xy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "s5krg6k7n32xy"
+       },
+       "result": "Skagbanker"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Samsø",
+          "kommunekode": "0741"
+         }
+        ],
+        "stednavn": "Skagebjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1028805",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         597527.189,
+         6188423.505
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sei27rsrqia4s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sei27rsrqia4s"
+       },
+       "result": "Skagebjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Skagen Fyr",
+        "type": "navigationsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1118538",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         597062.825,
+         6400430.728
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mt7zqj2m7dhoo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mt7zqj2m7dhoo"
+       },
+       "result": "Skagen Fyr"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Skagen Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7593742",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594365.258,
+         6399386.355
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zvmm5ahapejta",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zvmm5ahapejta"
+       },
+       "result": "Skagen Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Skalø",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1036020",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         651130.754,
+         6093031.925
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cwkzjijhxjck2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cwkzjijhxjck2"
+       },
+       "result": "Skalø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Skalø",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1075377",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         651089.653,
+         6093144.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f7baoimsv5ocs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "f7baoimsv5ocs"
+       },
+       "result": "Skalø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "stednavn": "Skalø",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1132823",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         592222.779,
+         6148886.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ybkjc5azaabhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ybkjc5azaabhw"
+       },
+       "result": "Skalø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "stednavn": "Skamby",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7410977",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580529.611,
+         6153449.275
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "alwsl2ighw3ei",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "alwsl2ighw3ei"
+       },
+       "result": "Skamby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Skarby",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1054985",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         478228.925,
+         6251908.315
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhfsph2lbhk7c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yhfsph2lbhk7c"
+       },
+       "result": "Skarby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Skarø",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1094376",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         593796.319,
+         6096829.135
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cvovyme757vcy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cvovyme757vcy"
+       },
+       "result": "Skarø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Skarre",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1023419",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         538099.701,
+         6149603.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x4pxa5sjv75hs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "x4pxa5sjv75hs"
+       },
+       "result": "Skarre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Skarre",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1104986",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         538320.492,
+         6149594.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i47jyjjr2h3rm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "i47jyjjr2h3rm"
+       },
+       "result": "Skarre"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

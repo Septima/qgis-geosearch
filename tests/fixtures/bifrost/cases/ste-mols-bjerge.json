@@ -1,0 +1,2291 @@
+{
+ "case": {
+  "id": "ste-mols-bjerge",
+  "input": "mols bjerge",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Mols Bjerge",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 385,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Mols Bjerge",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Mols Bjerge",
+        "type": "landskabsform"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            [
+             597576.04,
+             6230125.68
+            ],
+            [
+             597648.58,
+             6230255.4
+            ],
+            [
+             597728.6900000001,
+             6230420.14
+            ],
+            [
+             597778.7000000001,
+             6230537.37
+            ],
+            [
+             597835.81,
+             6230683.09
+            ],
+            [
+             597915.14,
+             6230891.27
+            ],
+            [
+             597996.31,
+             6231106.96
+            ],
+            [
+             598069.55,
+             6231302.17
+            ],
+            [
+             598156.2000000001,
+             6231531.99
+            ],
+            [
+             598202.9400000001,
+             6231647.33
+            ],
+            [
+             598246.47,
+             6231711.08
+            ],
+            [
+             598332.4400000001,
+             6231790.69
+            ],
+            [
+             598485.97,
+             6231915.51
+            ],
+            [
+             598572.09,
+             6231969.98
+            ],
+            [
+             598717.24,
+             6232045.64
+            ],
+            [
+             598815.2000000001,
+             6232107.09
+            ],
+            [
+             598880.65,
+             6232160.78
+            ],
+            [
+             598960.31,
+             6232241.48
+            ],
+            [
+             598991.98,
+             6232280.93
+            ],
+            [
+             599033.59,
+             6232354.62
+            ],
+            [
+             599075.43,
+             6232420.46
+            ],
+            [
+             599118.93,
+             6232459.81
+            ],
+            [
+             599257.87,
+             6232555.66
+            ],
+            [
+             599417.9500000001,
+             6232665.03
+            ],
+            [
+             599485.74,
+             6232699.11
+            ],
+            [
+             599533.43,
+             6232726.13
+            ],
+            [
+             599508.22,
+             6232778.88
+            ],
+            [
+             599305.03,
+             6232867.47
+            ],
+            [
+             598974.35,
+             6233010.02
+            ],
+            [
+             598815.38,
+             6233078.64
+            ],
+            [
+             598643.31,
+             6233152.94
+            ],
+            [
+             598569.87,
+             6233188.6
+            ],
+            [
+             598489.78,
+             6233241.45
+            ],
+            [
+             598322.83,
+             6233353.24
+            ],
+            [
+             598188.15,
+             6233444.98
+            ],
+            [
+             598152.47,
+             6233501.15
+            ],
+            [
+             598129.93,
+             6233549.08
+            ],
+            [
+             598103.59,
+             6233605.44
+            ],
+            [
+             598080.29,
+             6233641.28
+            ],
+            [
+             597965.34,
+             6233737.89
+            ],
+            [
+             597902.72,
+             6233790.35
+            ],
+            [
+             597843.4500000001,
+             6233840.49
+            ],
+            [
+             597809.38,
+             6233859.15
+            ],
+            [
+             597758.47,
+             6233868.78
+            ],
+            [
+             597665.24,
+             6233868.53
+            ],
+            [
+             597614.68,
+             6233860.44
+            ],
+            [
+             597555.49,
+             6233835.75
+            ],
+            [
+             597501.88,
+             6233817.67
+            ],
+            [
+             597461.84,
+             6233815.75
+            ],
+            [
+             597402.39,
+             6233830.01
+            ],
+            [
+             597358.91,
+             6233840.96
+            ],
+            [
+             597297.52,
+             6233840.93
+            ],
+            [
+             597230.6,
+             6233831.52
+            ],
+            [
+             597177.88,
+             6233844.64
+            ],
+            [
+             597140.11,
+             6233881.52
+            ],
+            [
+             597091.18,
+             6233951.88
+            ],
+            [
+             597033.0700000001,
+             6234026.11
+            ],
+            [
+             596974.65,
+             6234069.82
+            ],
+            [
+             596932.13,
+             6234089.18
+            ],
+            [
+             596821.89,
+             6234109.02
+            ],
+            [
+             596763.78,
+             6234107.85
+            ],
+            [
+             596715.27,
+             6234088.72
+            ],
+            [
+             596654.31,
+             6234066.98
+            ],
+            [
+             596584.02,
+             6234057.06
+            ],
+            [
+             596550.49,
+             6234044.7
+            ],
+            [
+             596501.51,
+             6234010.11
+            ],
+            [
+             596431.43,
+             6233951.08
+            ],
+            [
+             596396.75,
+             6233898.34
+            ],
+            [
+             596361.73,
+             6233843.46
+            ],
+            [
+             596253.54,
+             6233761.41
+            ],
+            [
+             596214.41,
+             6233734.96
+            ],
+            [
+             596163.26,
+             6233730.8
+            ],
+            [
+             596041.01,
+             6233778.47
+            ],
+            [
+             595986.48,
+             6233824.89
+            ],
+            [
+             595946.63,
+             6233873.18
+            ],
+            [
+             595846.3200000001,
+             6233980.5
+            ],
+            [
+             595814.14,
+             6234000.59
+            ],
+            [
+             595766.41,
+             6234016.95
+            ],
+            [
+             595753.48,
+             6234024.47
+            ],
+            [
+             595718.58,
+             6234021.69
+            ],
+            [
+             595666.0700000001,
+             6234019.66
+            ],
+            [
+             595597.65,
+             6234002.52
+            ],
+            [
+             595542.23,
+             6234000.71
+            ],
+            [
+             595445.03,
+             6234009.58
+            ],
+            [
+             595402.38,
+             6233999.82
+            ],
+            [
+             595338.36,
+             6233955.15
+            ],
+            [
+             595280.5,
+             6233921.57
+            ],
+            [
+             595201.48,
+             6233910.23
+            ],
+            [
+             595118.31,
+             6233890.19
+            ],
+            [
+             595064.14,
+             6233882.56
+            ],
+            [
+             594997.73,
+             6233884.34
+            ],
+            [
+             594850.28,
+             6233888.89
+            ],
+            [
+             594736.1900000001,
+             6233795.8
+            ],
+            [
+             594627.1,
+             6233694.06
+            ],
+            [
+             594586.5700000001,
+             6233606.83
+            ],
+            [
+             594563.38,
+             6233489.47
+            ],
+            [
+             594537.3200000001,
+             6233427.73
+            ],
+            [
+             594505.03,
+             6233337.69
+            ],
+            [
+             594499.72,
+             6233272.17
+            ],
+            [
+             594499.53,
+             6233163.21
+            ],
+            [
+             594491.15,
+             6233121.6
+            ],
+            [
+             594476.02,
+             6233049.82
+            ],
+            [
+             594459.18,
+             6232984.17
+            ],
+            [
+             594436.98,
+             6232917.27
+            ],
+            [
+             594387.0,
+             6232898.22
+            ],
+            [
+             594356.35,
+             6232867.45
+            ],
+            [
+             594344.54,
+             6232786.58
+            ],
+            [
+             594334.23,
+             6232697.45
+            ],
+            [
+             594305.43,
+             6232631.38
+            ],
+            [
+             594273.4,
+             6232561.16
+            ],
+            [
+             594246.53,
+             6232500.0
+            ],
+            [
+             594226.68,
+             6232448.5
+            ],
+            [
+             594186.65,
+             6232367.58
+            ],
+            [
+             594147.51,
+             6232305.68
+            ],
+            [
+             594076.74,
+             6232260.24
+            ],
+            [
+             593998.34,
+             6232210.22
+            ],
+            [
+             593937.54,
+             6232157.82
+            ],
+            [
+             593905.3,
+             6232098.86
+            ],
+            [
+             593848.35,
+             6232056.71
+            ],
+            [
+             593788.2000000001,
+             6232011.22
+            ],
+            [
+             593723.27,
+             6231944.66
+            ],
+            [
+             593665.74,
+             6231885.99
+            ],
+            [
+             593594.25,
+             6231831.21
+            ],
+            [
+             593569.7000000001,
+             6231778.3
+            ],
+            [
+             593547.58,
+             6231687.15
+            ],
+            [
+             593516.6900000001,
+             6231656.67
+            ],
+            [
+             593447.26,
+             6231637.91
+            ],
+            [
+             593389.9,
+             6231604.81
+            ],
+            [
+             593339.0,
+             6231564.65
+            ],
+            [
+             593302.53,
+             6231523.32
+            ],
+            [
+             593250.7000000001,
+             6231488.87
+            ],
+            [
+             593164.92,
+             6231460.03
+            ],
+            [
+             593090.09,
+             6231426.22
+            ],
+            [
+             592961.96,
+             6231353.25
+            ],
+            [
+             592887.72,
+             6231292.0
+            ],
+            [
+             592781.66,
+             6231232.23
+            ],
+            [
+             592718.4500000001,
+             6231200.75
+            ],
+            [
+             592713.36,
+             6231182.91
+            ],
+            [
+             592685.83,
+             6231152.46
+            ],
+            [
+             592620.49,
+             6231167.0
+            ],
+            [
+             592592.47,
+             6231143.43
+            ],
+            [
+             592586.22,
+             6231120.48
+            ],
+            [
+             592586.97,
+             6231082.04
+            ],
+            [
+             592625.6,
+             6231021.77
+            ],
+            [
+             592677.53,
+             6230939.82
+            ],
+            [
+             592697.93,
+             6230903.46
+            ],
+            [
+             592725.65,
+             6230859.6
+            ],
+            [
+             592752.92,
+             6230818.88
+            ],
+            [
+             592657.35,
+             6230771.7
+            ],
+            [
+             592610.85,
+             6230738.07
+            ],
+            [
+             592536.34,
+             6230672.58
+            ],
+            [
+             592533.11,
+             6230637.02
+            ],
+            [
+             592606.37,
+             6230586.01
+            ],
+            [
+             592666.67,
+             6230514.64
+            ],
+            [
+             592751.28,
+             6230393.88
+            ],
+            [
+             592800.09,
+             6230340.06
+            ],
+            [
+             592868.87,
+             6230306.03
+            ],
+            [
+             592975.87,
+             6230275.08
+            ],
+            [
+             593049.18,
+             6230242.68
+            ],
+            [
+             593145.48,
+             6230175.77
+            ],
+            [
+             593205.86,
+             6230125.3
+            ],
+            [
+             593268.26,
+             6230111.71
+            ],
+            [
+             593339.66,
+             6230126.59
+            ],
+            [
+             593379.84,
+             6230113.32
+            ],
+            [
+             593448.5,
+             6230056.86
+            ],
+            [
+             593472.63,
+             6230003.98
+            ],
+            [
+             593561.78,
+             6229913.66
+            ],
+            [
+             593651.29,
+             6229795.88
+            ],
+            [
+             593735.59,
+             6229621.83
+            ],
+            [
+             593765.0700000001,
+             6229499.62
+            ],
+            [
+             593803.38,
+             6229298.3
+            ],
+            [
+             593842.9,
+             6229176.08
+            ],
+            [
+             593899.59,
+             6229085.52
+            ],
+            [
+             593894.8,
+             6229015.71
+            ],
+            [
+             593895.4,
+             6228922.93
+            ],
+            [
+             593887.39,
+             6228844.18
+            ],
+            [
+             593867.4400000001,
+             6228739.17
+            ],
+            [
+             593856.02,
+             6228651.88
+            ],
+            [
+             593841.97,
+             6228559.8
+            ],
+            [
+             593842.9500000001,
+             6228469.59
+            ],
+            [
+             593895.0700000001,
+             6228413.02
+            ],
+            [
+             594007.79,
+             6228382.83
+            ],
+            [
+             594143.73,
+             6228349.33
+            ],
+            [
+             594204.18,
+             6228313.91
+            ],
+            [
+             594261.13,
+             6228273.39
+            ],
+            [
+             594342.17,
+             6228258.41
+            ],
+            [
+             594422.58,
+             6228241.09
+            ],
+            [
+             594524.23,
+             6228199.37
+            ],
+            [
+             594617.53,
+             6228157.39
+            ],
+            [
+             594716.62,
+             6228120.27
+            ],
+            [
+             594762.26,
+             6228137.37
+            ],
+            [
+             594826.8200000001,
+             6228214.82
+            ],
+            [
+             594895.4400000001,
+             6228272.91
+            ],
+            [
+             595024.41,
+             6228314.65
+            ],
+            [
+             595151.9400000001,
+             6228343.26
+            ],
+            [
+             595240.4,
+             6228348.46
+            ],
+            [
+             595308.34,
+             6228384.67
+            ],
+            [
+             595352.81,
+             6228497.98
+            ],
+            [
+             595391.04,
+             6228549.97
+            ],
+            [
+             595437.24,
+             6228593.94
+            ],
+            [
+             595496.65,
+             6228682.66
+            ],
+            [
+             595573.77,
+             6228798.67
+            ],
+            [
+             595618.06,
+             6228865.89
+            ],
+            [
+             595689.1900000001,
+             6228978.64
+            ],
+            [
+             595753.18,
+             6229055.31
+            ],
+            [
+             595829.3,
+             6229112.76
+            ],
+            [
+             595923.13,
+             6229151.76
+            ],
+            [
+             596034.88,
+             6229170.08
+            ],
+            [
+             596189.64,
+             6229198.94
+            ],
+            [
+             596329.5700000001,
+             6229262.71
+            ],
+            [
+             596537.56,
+             6229421.44
+            ],
+            [
+             596781.8,
+             6229613.29
+            ],
+            [
+             596955.76,
+             6229731.08
+            ],
+            [
+             597163.84,
+             6229838.75
+            ],
+            [
+             597367.73,
+             6229941.82
+            ],
+            [
+             597477.39,
+             6230016.82
+            ],
+            [
+             597557.34,
+             6230100.31
+            ],
+            [
+             597576.04,
+             6230125.68
+            ]
+           ]
+          ]
+         ],
+         "type": "MultiPolygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1091497",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         595292.392,
+         6231115.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q2njwckijezls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "q2njwckijezls"
+       },
+       "result": "Mols Bjerge"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 866 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "q2njwckijezls",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "MultiPolygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:16+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "mols bjerge",
+    "limit": 5
+   },
+   "elapsed_ms": 214,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "mols bjerge",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Syddjurs",
+         "kommunekode": "0706"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Ebeltoft",
+         "postcode": "8400"
+        },
+        {
+         "city": "Knebel",
+         "postcode": "8420"
+        }
+       ],
+       "street": "Mols Bjerge Vej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "B",
+       "score": 0.75,
+       "upstream": {
+        "street": {
+         "id": "9a4f1d22-bc64-482c-acc1-903bb501ad20",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        595275.06,
+        6232035.4
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "z7grheguxeurq",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "z7grheguxeurq"
+      },
+      "result": "Mols Bjerge Vej"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Varde",
+         "kommunekode": "0573"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Blåvand",
+         "postcode": "6857"
+        }
+       ],
+       "street": "Pouls Bjerge"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4706,
+       "upstream": {
+        "street": {
+         "id": "748a186c-aa7b-48ca-8ddd-fb21c35fa42b",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        445381.81,
+        6156578.21
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ps6jxdnfoln6m",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "ps6jxdnfoln6m"
+      },
+      "result": "Pouls Bjerge, 6857 Blåvand"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Thisted",
+         "kommunekode": "0787"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Thisted",
+         "postcode": "7700"
+        }
+       ],
+       "street": "Bjerget"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4286,
+       "upstream": {
+        "street": {
+         "id": "0d2361f3-5f2c-471b-86f1-ca76b7778b85",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        480102.0,
+        6319273.48
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6ttt6bazf5b3c",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "6ttt6bazf5b3c"
+      },
+      "result": "Bjerget, 7700 Thisted"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Vodskov",
+         "postcode": "9310"
+        }
+       ],
+       "street": "Bjerget"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4286,
+       "upstream": {
+        "street": {
+         "id": "3efb583e-fe08-42d2-8ad7-2015507b4881",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566328.25,
+        6329855.86
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xd4kab4bozczs",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "xd4kab4bozczs"
+      },
+      "result": "Bjerget, 9310 Vodskov"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Hørsholm",
+         "kommunekode": "0223"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hørsholm",
+         "postcode": "2970"
+        }
+       ],
+       "street": "Bjerget"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4286,
+       "upstream": {
+        "street": {
+         "id": "471f87f8-59d1-465d-be3b-d4dfd717ea62",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        713053.23,
+        6198753.9
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "47kyifhbnoxzy",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "47kyifhbnoxzy"
+      },
+      "result": "Bjerget, 2970 Hørsholm"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "mols bjerge",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 880,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "mols bjerge",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Mols Bjerge",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1091497",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         595292.392,
+         6231115.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q2njwckijezls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "q2njwckijezls"
+       },
+       "result": "Mols Bjerge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Bjerge",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "1143343",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472119.015,
+         6310580.29
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lf7vdtseg6nl4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lf7vdtseg6nl4"
+       },
+       "result": "Bjerge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Bjerge",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "7466705",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         638094.885,
+         6162455.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uzfcluk3utm3k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "uzfcluk3utm3k"
+       },
+       "result": "Bjerge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Mols Bjerge Feriecenter",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1148732",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         592483.621,
+         6230713.1
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kmdjft4sgbbqq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kmdjft4sgbbqq"
+       },
+       "result": "Mols Bjerge Feriecenter"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Mols Bjerge Nationalpark",
+        "type": "restriktionsareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.48,
+        "upstream": {
+         "stednavn": {
+          "id": "1094075",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         596521.061,
+         6232411.463
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hbq3qwkqckdtm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hbq3qwkqckdtm"
+       },
+       "result": "Mols Bjerge Nationalpark"
+      }
+     ]
+    },
+    {
+     "input": "mols bjerge",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         },
+         {
+          "kommune": "Sorø",
+          "kommunekode": "0340"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Munke Bjergby",
+          "postcode": "4190"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3,
+        "upstream": {
+         "postcode": {
+          "id": "4190",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         658997.053,
+         6152992.335
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lkmz4qkrq3uue",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "lkmz4qkrq3uue"
+       },
+       "result": "Munke Bjergby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Bjert",
+          "postcode": "6091"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "postcode": {
+          "id": "6091",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         534955.958,
+         6146054.63
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "efy2gbf2ndaqc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "efy2gbf2ndaqc"
+       },
+       "result": "Bjert"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         },
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Bjerringbro",
+          "postcode": "8850"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "8850",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         538233.46,
+         6248952.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wvyl7zsdqdlou",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "wvyl7zsdqdlou"
+       },
+       "result": "Bjerringbro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Bøvlingbjerg",
+          "postcode": "7650"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "postcode": {
+          "id": "7650",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         328999.102,
+         6265220.79
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cqau76flgtvla",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "cqau76flgtvla"
+       },
+       "result": "Bøvlingbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Esbjerg",
+          "postcode": "6700"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "postcode": {
+          "id": "6700",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         466078.782,
+         6146632.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xd4qo7hw3pdww",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "xd4qo7hw3pdww"
+       },
+       "result": "Esbjerg"
+      }
+     ]
+    },
+    {
+     "input": "mols bjerge",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+        "ejerlavskode": 231451,
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "matrikelnummer": "1"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "1",
+           "upstream": {
+            "id": 2484812,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "ejendom": {
+          "id": 2515911,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653340.38,
+         6126907.248
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pbnezofhc7pkk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "pbnezofhc7pkk"
+       },
+       "result": "1, Sdr. Bjerge By, Sdr. Bjerge"
+      },
+      {
+       "components": {
+        "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+        "ejerlavskode": 231451,
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "matrikelnummer": "2a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "2a",
+           "upstream": {
+            "id": 2484751,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "ejendom": {
+          "id": 2515912,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653810.14,
+         6125298.469
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hdvsq3a6f3ux2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "hdvsq3a6f3ux2"
+       },
+       "result": "2a, Sdr. Bjerge By, Sdr. Bjerge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "2b",
+           "upstream": {
+            "id": 2484761,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "16d",
+           "upstream": {
+            "id": 2484765,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "31a",
+           "upstream": {
+            "id": 2484767,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bøgelunde, Sdr. Bjerge",
+           "ejerlavskode": 231452,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "8f",
+           "upstream": {
+            "id": 2485093,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "ejendom": {
+          "id": 1319580,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653714.336,
+         6125260.514
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "spouiettofgio",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "spouiettofgio"
+       },
+       "result": "2b, Sdr. Bjerge By, Sdr. Bjerge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "2c",
+           "upstream": {
+            "id": 2484768,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bøgelunde, Sdr. Bjerge",
+           "ejerlavskode": 231452,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "8b",
+           "upstream": {
+            "id": 2485103,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "ejendom": {
+          "id": 10016860,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653551.676,
+         6125268.084
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gjoxmoiumgnpw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gjoxmoiumgnpw"
+       },
+       "result": "2c, Sdr. Bjerge By, Sdr. Bjerge"
+      },
+      {
+       "components": {
+        "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+        "ejerlavskode": 231451,
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "matrikelnummer": "3a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sdr. Bjerge By, Sdr. Bjerge",
+           "ejerlavskode": 231451,
+           "kommune": "Slagelse",
+           "kommunekode": "0330",
+           "lifecycle": "current",
+           "matrikelnummer": "3a",
+           "upstream": {
+            "id": 2484870,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "ejendom": {
+          "id": 10096686,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         652818.13,
+         6127270.075
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bzpsy25ek56pk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "bzpsy25ek56pk"
+       },
+       "result": "3a, Sdr. Bjerge By, Sdr. Bjerge"
+      }
+     ]
+    },
+    {
+     "input": "mols bjerge",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.1765,
+        "upstream": {
+         "kommune": {
+          "id": "0561",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484027.179,
+         6140377.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4k3qlvyfvnqdc",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "4k3qlvyfvnqdc"
+       },
+       "result": "Esbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Morsø",
+          "kommunekode": "0773"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "kommune": {
+          "id": "0773",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         483469.183,
+         6298159.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xvcnsn3hzdx6m",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "xvcnsn3hzdx6m"
+       },
+       "result": "Morsø"
+      }
+     ]
+    },
+    {
+     "input": "mols bjerge",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Bispebjerg",
+          "opstillingskredsnummer": "6"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "6",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721890.927,
+         6179633.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5nvmig5bvvcig",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "5nvmig5bvvcig"
+       },
+       "result": "Bispebjerg"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Esbjerg By",
+          "opstillingskredsnummer": "52"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "52",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         465729.486,
+         6149144.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6v2cuieulibqe",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "6v2cuieulibqe"
+       },
+       "result": "Esbjerg By"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Esbjerg Omegn",
+          "opstillingskredsnummer": "53"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1304,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "53",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484027.179,
+         6140377.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y5poboqhs5g7c",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "y5poboqhs5g7c"
+       },
+       "result": "Esbjerg Omegn"
+      }
+     ]
+    },
+    {
+     "input": "mols bjerge",
+     "matches": []
+    },
+    {
+     "input": "mols bjerge",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

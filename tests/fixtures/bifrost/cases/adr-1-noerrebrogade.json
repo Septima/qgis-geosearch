@@ -1,0 +1,1717 @@
+{
+ "case": {
+  "id": "adr-1-noerrebrogade",
+  "input": "1 nørrebrogade",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:58:41+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "1 nørrebrogade",
+    "limit": 5
+   },
+   "elapsed_ms": 139,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "1 nørrebrogade",
+    "matches": [
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Nørreballe",
+         "postcode": "4951"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.2778,
+       "upstream": {
+        "city": {
+         "id": "2ohmjvziuwtqw",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        656262.526,
+        6077094.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "2ohmjvziuwtqw",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "2ohmjvziuwtqw"
+      },
+      "result": "Nørreballe"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Nørre Snede",
+         "postcode": "8766"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.2778,
+       "upstream": {
+        "city": {
+         "id": "cl4dcimpdqg3i",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        525667.432,
+        6202181.725
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "cl4dcimpdqg3i",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "cl4dcimpdqg3i"
+      },
+      "result": "Nørre Snede"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Aars",
+         "postcode": "9600"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.2778,
+       "upstream": {
+        "city": {
+         "id": "qltt253dne5l4",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        530313.723,
+        6296683.48
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qltt253dne5l4",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "qltt253dne5l4"
+      },
+      "result": "Aars"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Bogense",
+         "postcode": "5400"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.2778,
+       "upstream": {
+        "city": {
+         "id": "vry65dt7js62o",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        571309.928,
+        6162732.03
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "vry65dt7js62o",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "vry65dt7js62o"
+      },
+      "result": "Bogense"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Borre",
+         "postcode": "4791"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.2778,
+       "upstream": {
+        "city": {
+         "id": "va2sllakyg2zc",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        739426.591,
+        6094835.09
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "va2sllakyg2zc",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "va2sllakyg2zc"
+      },
+      "result": "Borre"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "1 nørrebrogade",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 198,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "1 nørrebrogade",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Nørrebro",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1014258",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723576.755,
+         6178366.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yaiprlpr22puo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yaiprlpr22puo"
+       },
+       "result": "Nørrebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Nørrebro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1099168",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473036.03,
+         6244153.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x46e6zgriimdy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "x46e6zgriimdy"
+       },
+       "result": "Nørrebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Nørrebro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1109179",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484408.93,
+         6173594.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bzfy4gvutulnc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bzfy4gvutulnc"
+       },
+       "result": "Nørrebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Nørrebro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1112620",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         469299.3,
+         6198784.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2m2d77nivhvgm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2m2d77nivhvgm"
+       },
+       "result": "Nørrebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "stednavn": "Nørregade",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1088303",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         483267.341,
+         6091832.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gd2ylp7ifnlim",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gd2ylp7ifnlim"
+       },
+       "result": "Nørregade"
+      }
+     ]
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørreballe",
+          "postcode": "4951"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "postcode": {
+          "id": "4951",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656262.526,
+         6077094.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xce5o4i4om7qm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "xce5o4i4om7qm"
+       },
+       "result": "Nørreballe"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         },
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørre Snede",
+          "postcode": "8766"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "postcode": {
+          "id": "8766",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525667.432,
+         6202181.725
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rpqjxbls5q5lu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "rpqjxbls5q5lu"
+       },
+       "result": "Nørre Snede"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Middelfart",
+          "kommunekode": "0410"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørre Aaby",
+          "postcode": "5580"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "postcode": {
+          "id": "5580",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550501.265,
+         6143277.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pnbk6qwabtot4",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pnbk6qwabtot4"
+       },
+       "result": "Nørre Aaby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         },
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørre Nebel",
+          "postcode": "6830"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "postcode": {
+          "id": "6830",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         451282.379,
+         6187059.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xct7wtyfqk3em",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "xct7wtyfqk3em"
+       },
+       "result": "Nørre Nebel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørresundby",
+          "postcode": "9400"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2609,
+        "upstream": {
+         "postcode": {
+          "id": "9400",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556951.372,
+         6329117.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m7ctltx6gnom2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "m7ctltx6gnom2"
+       },
+       "result": "Nørresundby"
+      }
+     ]
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "1",
+           "upstream": {
+            "id": 672034,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Notmark",
+           "ejerlavskode": 1550656,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "10",
+           "upstream": {
+            "id": 1164950,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Notmark",
+           "ejerlavskode": 1550656,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "33",
+           "upstream": {
+            "id": 1165008,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Notmark",
+           "ejerlavskode": 1550656,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "34",
+           "upstream": {
+            "id": 1164835,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "38a",
+           "upstream": {
+            "id": 672063,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "38b",
+           "upstream": {
+            "id": 100411062,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "39",
+           "upstream": {
+            "id": 672049,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "40",
+           "upstream": {
+            "id": 672053,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "41",
+           "upstream": {
+            "id": 672055,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreskov, Egen",
+           "ejerlavskode": 1560155,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "42",
+           "upstream": {
+            "id": 672044,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Holm, Nordborg",
+           "ejerlavskode": 1560351,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "127",
+           "upstream": {
+            "id": 674079,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Mjels, Oksbøl",
+           "ejerlavskode": 1560452,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "334",
+           "upstream": {
+            "id": 1193052,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Oksbøl Ejerlav, Oksbøl",
+           "ejerlavskode": 1560453,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "258",
+           "upstream": {
+            "id": 1192661,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordborg",
+           "ejerlavskode": 2008651,
+           "kommune": "Sønderborg",
+           "kommunekode": "0540",
+           "lifecycle": "current",
+           "matrikelnummer": "1122",
+           "upstream": {
+            "id": 1192662,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "sdprbv23p3vcg",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100539115,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "eyftq4x3bshhy",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 735745,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 9151758,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561644.818,
+         6095401.618
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mphgncmy7zt5i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mphgncmy7zt5i"
+       },
+       "result": "1, Nørreskov, Egen"
+      },
+      {
+       "components": {
+        "ejerlav": "Nørreby By, Borre",
+        "ejerlavskode": 320255,
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Nørreby By, Borre",
+           "ejerlavskode": 320255,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "10",
+           "upstream": {
+            "id": 2477773,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreby By, Borre",
+           "ejerlavskode": 320255,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "35b",
+           "upstream": {
+            "id": 2477711,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3989,
+        "upstream": {
+         "ejendom": {
+          "id": 1326254,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718278.188,
+         6101247.444
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xewwaaru2kfws",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xewwaaru2kfws"
+       },
+       "result": "10, Nørreby By, Borre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Nørreby By, Borre",
+           "ejerlavskode": 320255,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "13",
+           "upstream": {
+            "id": 2477772,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ålebæk By, Borre",
+           "ejerlavskode": 320251,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "15a",
+           "upstream": {
+            "id": 2477406,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "6a",
+           "upstream": {
+            "id": 2477571,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "6b",
+           "upstream": {
+            "id": 2477568,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7a",
+           "upstream": {
+            "id": 2477503,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7b",
+           "upstream": {
+            "id": 2477543,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7c",
+           "upstream": {
+            "id": 2477569,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7d",
+           "upstream": {
+            "id": 2477434,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7e",
+           "upstream": {
+            "id": 2477461,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7f",
+           "upstream": {
+            "id": 2477507,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7g",
+           "upstream": {
+            "id": 2477523,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7h",
+           "upstream": {
+            "id": 2477521,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7i",
+           "upstream": {
+            "id": 2477454,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7k",
+           "upstream": {
+            "id": 2477433,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7l",
+           "upstream": {
+            "id": 2477444,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7m",
+           "upstream": {
+            "id": 2477438,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7n",
+           "upstream": {
+            "id": 2477428,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7o",
+           "upstream": {
+            "id": 2477441,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7p",
+           "upstream": {
+            "id": 2477436,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7q",
+           "upstream": {
+            "id": 2477426,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7r",
+           "upstream": {
+            "id": 2477435,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7s",
+           "upstream": {
+            "id": 2477526,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7t",
+           "upstream": {
+            "id": 2477439,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7u",
+           "upstream": {
+            "id": 2477425,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "7v",
+           "upstream": {
+            "id": 2477437,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Borre By, Borre",
+           "ejerlavskode": 320253,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "54",
+           "upstream": {
+            "id": 2477570,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nørreby By, Borre",
+           "ejerlavskode": 320255,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "14",
+           "upstream": {
+            "id": 2477774,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Borre",
+           "ejerlavskode": 320257,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "36a",
+           "upstream": {
+            "id": 2477950,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordfelt Hgd., Elmelunde",
+           "ejerlavskode": 320453,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2481318,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordfelt Hgd., Elmelunde",
+           "ejerlavskode": 320453,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1g",
+           "upstream": {
+            "id": 2481317,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordfelt Hgd., Elmelunde",
+           "ejerlavskode": 320453,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1h",
+           "upstream": {
+            "id": 2481316,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordfelt Hgd., Elmelunde",
+           "ejerlavskode": 320453,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1k",
+           "upstream": {
+            "id": 2481322,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Nordfelt Hgd., Elmelunde",
+           "ejerlavskode": 320453,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1p",
+           "upstream": {
+            "id": 2481327,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Torpe By, Elmelunde",
+           "ejerlavskode": 320456,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2482368,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Østermark By, Elmelunde",
+           "ejerlavskode": 320457,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "6a",
+           "upstream": {
+            "id": 2482430,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Østermark By, Elmelunde",
+           "ejerlavskode": 320457,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "6b",
+           "upstream": {
+            "id": 2482431,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "h3pzemlcarsnm",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 724924,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3989,
+        "upstream": {
+         "ejendom": {
+          "id": 8989393,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720278.34,
+         6102571.159
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6yx2bsqj2merw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6yx2bsqj2merw"
+       },
+       "result": "13, Nørreby By, Borre"
+      },
+      {
+       "components": {
+        "ejerlav": "Nørreby By, Borre",
+        "ejerlavskode": 320255,
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "matrikelnummer": "41"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Nørreby By, Borre",
+           "ejerlavskode": 320255,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "41",
+           "upstream": {
+            "id": 2477702,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3989,
+        "upstream": {
+         "ejendom": {
+          "id": 2601169,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719907.003,
+         6099664.322
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tlx4rreoxbpqg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "tlx4rreoxbpqg"
+       },
+       "result": "41, Nørreby By, Borre"
+      },
+      {
+       "components": {
+        "ejerlav": "Nørreby By, Femø",
+        "ejerlavskode": 480751,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "1a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Nørreby By, Femø",
+           "ejerlavskode": 480751,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2254439,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3819,
+        "upstream": {
+         "ejendom": {
+          "id": 3094709,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         662225.404,
+         6095443.808
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g7v2arguevkvw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "g7v2arguevkvw"
+       },
+       "result": "1a, Nørreby By, Femø"
+      }
+     ]
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": []
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Nørrebro",
+          "opstillingskredsnummer": "5"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5294,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "5",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723095.753,
+         6178016.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qivxtabus2vnk",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "qivxtabus2vnk"
+       },
+       "result": "Nørrebro"
+      }
+     ]
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": []
+    },
+    {
+     "input": "1 nørrebrogade",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

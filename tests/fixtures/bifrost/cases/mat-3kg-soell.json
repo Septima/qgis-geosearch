@@ -1,0 +1,2960 @@
+{
+ "case": {
+  "id": "mat-3kg-soell",
+  "input": "mat: 3kg søll",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:30+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "3kg søll",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 170,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kg",
+           "upstream": {
+            "id": 1384672,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 2043966,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719742.989,
+         6190488.113
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eaiznf3scek3g",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "eaiznf3scek3g"
+       },
+       "result": "3kg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "2kg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "2kg",
+           "upstream": {
+            "id": 1384947,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043529,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719999.489,
+         6190655.119
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "us445qvsba4te",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "us445qvsba4te"
+       },
+       "result": "2kg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3g"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3g",
+           "upstream": {
+            "id": 1384304,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043705,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719532.092,
+         6189790.016
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gt2u5cyl3x6mu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gt2u5cyl3x6mu"
+       },
+       "result": "3g, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3k"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3k",
+           "upstream": {
+            "id": 1384777,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043708,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719574.689,
+         6189912.355
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2xhevf3irnch2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "2xhevf3irnch2"
+       },
+       "result": "3k, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ag"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ag",
+           "upstream": {
+            "id": 1384433,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043731,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719370.179,
+         6189873.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ymnbpgki7e3yq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ymnbpgki7e3yq"
+       },
+       "result": "3ag, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3bg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3bg",
+           "upstream": {
+            "id": 1384379,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043757,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719423.306,
+         6190192.031
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rvbgl5fx4ydl4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rvbgl5fx4ydl4"
+       },
+       "result": "3bg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3cg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3cg",
+           "upstream": {
+            "id": 1384431,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043786,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719359.897,
+         6190395.156
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "toy7j2i4noulg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "toy7j2i4noulg"
+       },
+       "result": "3cg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3dg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3dg",
+           "upstream": {
+            "id": 1384317,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043813,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719507.307,
+         6189927.31
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sflkqfglyll4g",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "sflkqfglyll4g"
+       },
+       "result": "3dg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3eg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3eg",
+           "upstream": {
+            "id": 1384096,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043840,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719146.949,
+         6190632.718
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gkb36lt4vpj3s",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gkb36lt4vpj3s"
+       },
+       "result": "3eg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3gg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3gg",
+           "upstream": {
+            "id": 1384450,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043892,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719334.526,
+         6190516.866
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "orvlz2hjy7xxo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "orvlz2hjy7xxo"
+       },
+       "result": "3gg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3hg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3hg",
+           "upstream": {
+            "id": 1384070,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043918,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719208.404,
+         6190748.601
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eqiikhkhrfulm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "eqiikhkhrfulm"
+       },
+       "result": "3hg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ig"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ig",
+           "upstream": {
+            "id": 1384772,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043944,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719573.009,
+         6190478.111
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "z7wmm2lpqdez4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "z7wmm2lpqdez4"
+       },
+       "result": "3ig, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ka",
+           "upstream": {
+            "id": 1384147,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Øverød By, Søllerød",
+           "ejerlavskode": 11453,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "6eq",
+           "upstream": {
+            "id": 1386505,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 1301051,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719020.794,
+         6191249.522
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aak7ohxcrxfiy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "aak7ohxcrxfiy"
+       },
+       "result": "3ka, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kc"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kc",
+           "upstream": {
+            "id": 1384711,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043962,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719681.446,
+         6190481.086
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mcs3ucnlachts",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mcs3ucnlachts"
+       },
+       "result": "3kc, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ke"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ke",
+           "upstream": {
+            "id": 1384691,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043964,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719716.292,
+         6190482.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lxtmggeyusjgu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lxtmggeyusjgu"
+       },
+       "result": "3ke, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kh"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kh",
+           "upstream": {
+            "id": 1384660,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043967,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719760.885,
+         6190487.263
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cosyqvtqcm3a4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "cosyqvtqcm3a4"
+       },
+       "result": "3kh, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ki"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ki",
+           "upstream": {
+            "id": 1384644,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043968,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719780.434,
+         6190488.873
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d54yif73lnaoo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "d54yif73lnaoo"
+       },
+       "result": "3ki, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kk"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kk",
+           "upstream": {
+            "id": 1384640,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043969,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719799.18,
+         6190490.976
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nyd335z2vfpn6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "nyd335z2vfpn6"
+       },
+       "result": "3kk, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kl"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kl",
+           "upstream": {
+            "id": 1384619,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043970,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719822.375,
+         6190492.218
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6l2pbmnvpxjns",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6l2pbmnvpxjns"
+       },
+       "result": "3kl, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3km"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3km",
+           "upstream": {
+            "id": 1384604,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043971,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719844.607,
+         6190495.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mx7dsu2cyyaa6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mx7dsu2cyyaa6"
+       },
+       "result": "3km, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kn"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kn",
+           "upstream": {
+            "id": 1384714,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043972,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719675.037,
+         6190517.294
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gaddfmokrcst6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gaddfmokrcst6"
+       },
+       "result": "3kn, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kp"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kp",
+           "upstream": {
+            "id": 1384697,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043974,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719708.449,
+         6190517.917
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "43tn5jyxvzmpk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "43tn5jyxvzmpk"
+       },
+       "result": "3kp, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kr"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kr",
+           "upstream": {
+            "id": 1384676,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043976,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719744.695,
+         6190519.411
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vsefvc32uyhxy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vsefvc32uyhxy"
+       },
+       "result": "3kr, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kt"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kt",
+           "upstream": {
+            "id": 1384649,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043978,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719785.25,
+         6190518.946
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jyvbptpiifql6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jyvbptpiifql6"
+       },
+       "result": "3kt, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kv"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kv",
+           "upstream": {
+            "id": 1384624,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043980,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719830.509,
+         6190520.663
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "id5mreb3rko6c",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "id5mreb3rko6c"
+       },
+       "result": "3kv, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ky"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ky",
+           "upstream": {
+            "id": 1384715,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043982,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719670.702,
+         6190554.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cdhfldj7mgjpy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "cdhfldj7mgjpy"
+       },
+       "result": "3ky, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3lg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3lg",
+           "upstream": {
+            "id": 1384646,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2043992,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719780.792,
+         6190595.068
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q4ptjq4obmkoi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "q4ptjq4obmkoi"
+       },
+       "result": "3lg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3mg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3mg",
+           "upstream": {
+            "id": 1384779,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2044018,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719555.85,
+         6190595.086
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ratmw54yt7r7m",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ratmw54yt7r7m"
+       },
+       "result": "3mg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3ng"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3ng",
+           "upstream": {
+            "id": 1384098,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2044044,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719153.085,
+         6190730.473
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xlxpvfcv3kip6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xlxpvfcv3kip6"
+       },
+       "result": "3ng, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3og"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3og",
+           "upstream": {
+            "id": 1384761,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2044069,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719628.906,
+         6189907.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5kvncrga6lncu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "5kvncrga6lncu"
+       },
+       "result": "3og, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3pg",
+           "upstream": {
+            "id": 1384613,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3qz",
+           "upstream": {
+            "id": 1384598,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 8854675,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719837.809,
+         6190151.331
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "o6iijbehfga2w",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "o6iijbehfga2w"
+       },
+       "result": "3pg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3rg",
+           "upstream": {
+            "id": 1385011,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3pq",
+           "upstream": {
+            "id": 1384992,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 8854684,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719963.532,
+         6190200.471
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wgcthnlqdpbri",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wgcthnlqdpbri"
+       },
+       "result": "3rg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "4kg",
+           "upstream": {
+            "id": 1384995,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "4hn",
+           "upstream": {
+            "id": 1385003,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2044353,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719955.422,
+         6190980.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bi2psmrogvy22",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "bi2psmrogvy22"
+       },
+       "result": "4kg, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Assens)",
+           "ejerlavskode": 391654,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "3g",
+           "upstream": {
+            "id": 82441,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 82260,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "5n",
+           "upstream": {
+            "id": 2552572,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "5o",
+           "upstream": {
+            "id": 2552573,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "6a",
+           "upstream": {
+            "id": 82257,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "19a",
+           "upstream": {
+            "id": 82318,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bukkerup By, Søllested",
+           "ejerlavskode": 391651,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "39a",
+           "upstream": {
+            "id": 82258,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Søllested By, Søllested (Assens)",
+           "ejerlavskode": 391654,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "14d",
+           "upstream": {
+            "id": 82440,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 8459674,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568153.582,
+         6128431.762
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "57dxa2gw32tgg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "57dxa2gw32tgg"
+       },
+       "result": "3g, Søllested By, Søllested (Assens)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Assens)",
+        "ejerlavskode": 391654,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "3k"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Assens)",
+           "ejerlavskode": 391654,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "3k",
+           "upstream": {
+            "id": 82559,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 2694249,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565901.11,
+         6127205.646
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vfv7k47dljy3i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vfv7k47dljy3i"
+       },
+       "result": "3k, Søllested By, Søllested (Assens)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "ejerlavskode": 501352,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "3g"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "ejerlavskode": 501352,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "3g",
+           "upstream": {
+            "id": 1559169,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 3113476,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         645780.045,
+         6076588.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lcoxjssp6vvei",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lcoxjssp6vvei"
+       },
+       "result": "3g, Søllested By, Søllested (Lolland)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "ejerlavskode": 501352,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "3k"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "ejerlavskode": 501352,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "3k",
+           "upstream": {
+            "id": 1559192,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 3113479,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         645717.498,
+         6076589.411
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aojvg4xqilf6k",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "aojvg4xqilf6k"
+       },
+       "result": "3k, Søllested By, Søllested (Lolland)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "ejerlavskode": 501352,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "3ag"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "ejerlavskode": 501352,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "3ag",
+           "upstream": {
+            "id": 1559045,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 3113502,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         645974.357,
+         6076595.571
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "77nacezgmkzvs",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "77nacezgmkzvs"
+       },
+       "result": "3ag, Søllested By, Søllested (Lolland)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "ejerlavskode": 501352,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "3bg"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "ejerlavskode": 501352,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "3bg",
+           "upstream": {
+            "id": 1559396,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4714,
+        "upstream": {
+         "ejendom": {
+          "id": 3113527,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         646087.538,
+         6076743.299
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lltxjcer6e7us",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lltxjcer6e7us"
+       },
+       "result": "3bg, Søllested By, Søllested (Lolland)"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "3kæ"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "3kæ",
+           "upstream": {
+            "id": 1384695,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4082,
+        "upstream": {
+         "ejendom": {
+          "id": 2043984,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719704.312,
+         6190555.056
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ocfar2y7g6tyo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ocfar2y7g6tyo"
+       },
+       "result": "3kæ, Søllerød By, Søllerød"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

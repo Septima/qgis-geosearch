@@ -1,0 +1,25 @@
+[project]
+name = "geosearch-dk"
+version = "0.0.0"
+description = "QGIS plugin Geosearch DK (dev tooling only; the plugin is not packaged from here)"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "pyyaml>=6"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+# src/ for the plugin package, tests/ for mock_bifrost, tests/tools/ for the
+# case runner. Importing geosearch_dk.bifrost must not need QGIS.
+pythonpath = ["src", "tests", "tests/tools"]
+# The default run is the unit tests. tests/live (-m live, needs BIFROST_KEY) and
+# tests/qgis (QGIS in Docker, make test-qgis) are run explicitly.
+testpaths = ["tests/unit"]
+addopts = "-ra"
+markers = [
+    "live: talks to the real Bifrost; needs BIFROST_KEY (make test-live)",
+    "qgis: needs QGIS; run in Docker with make test-qgis",
+]

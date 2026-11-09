@@ -1,0 +1,8 @@
+# Files left out of the plugin zip (make package: git archive HEAD:src).
+.gitattributes export-ignore
+geosearch_dk/Makefile export-ignore
+geosearch_dk/help/Makefile export-ignore
+geosearch_dk/help/make.bat export-ignore
+geosearch_dk/help/source export-ignore
+geosearch_dk/scripts export-ignore
+geosearch_dk/config/qgissettingmanager/test export-ignore

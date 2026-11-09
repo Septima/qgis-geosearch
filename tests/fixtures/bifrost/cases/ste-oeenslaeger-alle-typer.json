@@ -1,0 +1,1441 @@
+{
+ "case": {
+  "id": "ste-oeenslaeger-alle-typer",
+  "input": "øenslæger",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:57:31+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "øenslæger",
+    "limit": 5
+   },
+   "elapsed_ms": 136,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "øenslæger",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Syddjurs",
+         "kommunekode": "0706"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Kolind",
+         "postcode": "8560"
+        }
+       ],
+       "street": "Øen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3077,
+       "upstream": {
+        "street": {
+         "id": "724aa78a-99cb-493a-bb49-91a7521aa587",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        600643.75,
+        6250073.51
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qb23wdhh7wfxi",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "qb23wdhh7wfxi"
+      },
+      "result": "Øen, 8560 Kolind"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Ringkøbing-Skjern",
+         "kommunekode": "0760"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Tarm",
+         "postcode": "6880"
+        }
+       ],
+       "street": "Øen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3077,
+       "upstream": {
+        "street": {
+         "id": "8bb832b2-2cc9-41c9-acfb-048a45f558eb",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        460029.74,
+        6193878.26
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lgxx6unbu263c",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "lgxx6unbu263c"
+      },
+      "result": "Øen, 6880 Tarm"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Esbjerg",
+         "kommunekode": "0561"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Esbjerg V",
+         "postcode": "6710"
+        }
+       ],
+       "street": "Øen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3077,
+       "upstream": {
+        "street": {
+         "id": "c570c258-ca6e-4095-9d5d-d6db1082ca3a",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        457302.23,
+        6156875.06
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "siwp636v4wu62",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "siwp636v4wu62"
+      },
+      "result": "Øen, 6710 Esbjerg V"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Åbyhøj",
+         "postcode": "8230"
+        }
+       ],
+       "street": "Oehlenschlægersvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.28,
+       "upstream": {
+        "street": {
+         "id": "912e7991-12f8-4c28-97bb-c054f6311031",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        571476.0,
+        6223642.77
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6vm66ffoeo5dc",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "6vm66ffoeo5dc"
+      },
+      "result": "Oehlenschlægersvej, 8230 Åbyhøj"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Odense",
+         "kommunekode": "0461"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Odense M",
+         "postcode": "5230"
+        }
+       ],
+       "street": "Oehlenschlægersvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.28,
+       "upstream": {
+        "street": {
+         "id": "db0fc07b-00e3-49f8-931d-69b3c11bcb1f",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        588157.46,
+        6137848.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qzutnjx27tgjo",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "qzutnjx27tgjo"
+      },
+      "result": "Oehlenschlægersvej, 5230 Odense M"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "øenslæger",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 173,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øenslyst",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1086048",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         600820.859,
+         6249578.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dftqpesw52q7g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dftqpesw52q7g"
+       },
+       "result": "Øenslyst"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1040470",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537505.709,
+         6124604.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "o6etbjlp76os6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "o6etbjlp76os6"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1045828",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585448.74,
+         6113406.185
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nzxhtyrrounaa",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nzxhtyrrounaa"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1070474",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590725.678,
+         6245266.485
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n3ocfuwttysly",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n3ocfuwttysly"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1074629",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590840.494,
+         6245372.64
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ija4fvz2ufpps",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ija4fvz2ufpps"
+       },
+       "result": "Øen"
+      }
+     ]
+    },
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikssund",
+          "kommunekode": "0250"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Jægerspris",
+          "postcode": "3630"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "postcode": {
+          "id": "3630",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682496.602,
+         6194470.835
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7lgvgxmm7dt2w",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "7lgvgxmm7dt2w"
+       },
+       "result": "Jægerspris"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Morsø",
+          "kommunekode": "0773"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Øster Assels",
+          "postcode": "7990"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1304,
+        "upstream": {
+         "postcode": {
+          "id": "7990",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         481280.531,
+         6283259.675
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5ucrdoyhfzue",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "f5ucrdoyhfzue"
+       },
+       "result": "Øster Assels"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         },
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Øster Ulslev",
+          "postcode": "4894"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1304,
+        "upstream": {
+         "postcode": {
+          "id": "4894",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         667603.707,
+         6061861.63
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b4sfyn4gentva",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "b4sfyn4gentva"
+       },
+       "result": "Øster Ulslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         },
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Odder",
+          "postcode": "8300"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "postcode": {
+          "id": "8300",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577947.419,
+         6197549.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w4y7orfk3cxxs",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "w4y7orfk3cxxs"
+       },
+       "result": "Odder"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         },
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ølgod",
+          "postcode": "6870"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "postcode": {
+          "id": "6870",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         477094.139,
+         6183629.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ltsi76g5pdwry",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ltsi76g5pdwry"
+       },
+       "result": "Ølgod"
+      }
+     ]
+    },
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Ønslev By, Ønslev",
+        "ejerlavskode": 511454,
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "matrikelnummer": "1a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2176065,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "ejendom": {
+          "id": 3124592,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682895.166,
+         6082143.628
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f3htnonupodo2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "f3htnonupodo2"
+       },
+       "result": "1a, Ønslev By, Ønslev"
+      },
+      {
+       "components": {
+        "ejerlav": "Ønslev By, Ønslev",
+        "ejerlavskode": 511454,
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "matrikelnummer": "1c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1c",
+           "upstream": {
+            "id": 2176055,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "ejendom": {
+          "id": 3124594,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682854.034,
+         6081761.687
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hwl4alge2gvg2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "hwl4alge2gvg2"
+       },
+       "result": "1c, Ønslev By, Ønslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1d",
+           "upstream": {
+            "id": 2176126,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Byskov By, Ønslev",
+           "ejerlavskode": 511452,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "3b",
+           "upstream": {
+            "id": 2365676,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Byskov By, Ønslev",
+           "ejerlavskode": 511452,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "3c",
+           "upstream": {
+            "id": 2365675,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Byskov By, Ønslev",
+           "ejerlavskode": 511452,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "5e",
+           "upstream": {
+            "id": 2540749,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Byskov By, Ønslev",
+           "ejerlavskode": 511452,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "6i",
+           "upstream": {
+            "id": 2620161,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Byskov By, Ønslev",
+           "ejerlavskode": 511452,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "16f",
+           "upstream": {
+            "id": 2175821,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "4e",
+           "upstream": {
+            "id": 2176136,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "13o",
+           "upstream": {
+            "id": 2176017,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "33i",
+           "upstream": {
+            "id": 2176153,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "ejendom": {
+          "id": 9900490,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682034.947,
+         6080387.345
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bkygf5fhgbtww",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "bkygf5fhgbtww"
+       },
+       "result": "1d, Ønslev By, Ønslev"
+      },
+      {
+       "components": {
+        "ejerlav": "Ønslev By, Ønslev",
+        "ejerlavskode": 511454,
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1e",
+           "upstream": {
+            "id": 2176067,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "7d",
+           "upstream": {
+            "id": 100266260,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "ejendom": {
+          "id": 100260828,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682791.701,
+         6082438.746
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2uullyzswilbm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "2uullyzswilbm"
+       },
+       "result": "1e, Ønslev By, Ønslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1i",
+           "upstream": {
+            "id": 2176057,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Stødstrup By, Eskilstrup",
+           "ejerlavskode": 510254,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "2i",
+           "upstream": {
+            "id": 2170305,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Stødstrup By, Eskilstrup",
+           "ejerlavskode": 510254,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "3c",
+           "upstream": {
+            "id": 2170316,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1n",
+           "upstream": {
+            "id": 2176068,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "1q",
+           "upstream": {
+            "id": 2176061,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "9a",
+           "upstream": {
+            "id": 2175927,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ønslev By, Ønslev",
+           "ejerlavskode": 511454,
+           "kommune": "Guldborgsund",
+           "kommunekode": "0376",
+           "lifecycle": "current",
+           "matrikelnummer": "9an",
+           "upstream": {
+            "id": 2176025,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "zgjnxgwsijuoi",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 724874,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "ejendom": {
+          "id": 9726201,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         683902.411,
+         6083101.163
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6earxro5x2r4i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6earxro5x2r4i"
+       },
+       "result": "1i, Ønslev By, Ønslev"
+      }
+     ]
+    },
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "kommune": {
+          "id": "0727",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571395.077,
+         6198980.225
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fs7jk4ijkbwds",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "fs7jk4ijkbwds"
+       },
+       "result": "Odder"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "kommune": {
+          "id": "0461",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585794.234,
+         6138417.31
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hdhgbtazyj7nm",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "hdhgbtazyj7nm"
+       },
+       "result": "Odense"
+      }
+     ]
+    },
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Odense Øst",
+          "opstillingskredsnummer": "41"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.15,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "41",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591581.504,
+         6139880.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r5oynlicd6ra6",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "r5oynlicd6ra6"
+       },
+       "result": "Odense Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Østerbro",
+          "opstillingskredsnummer": "1"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "1",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724379.236,
+         6179842.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cmqz5drrucdoa",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "cmqz5drrucdoa"
+       },
+       "result": "Østerbro"
+      }
+     ]
+    },
+    {
+     "input": "øenslæger",
+     "matches": []
+    },
+    {
+     "input": "øenslæger",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

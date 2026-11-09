@@ -1,0 +1,2537 @@
+{
+ "case": {
+  "id": "ste-skodsborg",
+  "input": "ste: skodsborg",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Skodsborg",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 189,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            [
+             723801.7000000001,
+             6193233.95
+            ],
+            [
+             723786.66,
+             6193281.15
+            ],
+            [
+             723769.52,
+             6193313.81
+            ],
+            [
+             723707.09,
+             6193423.59
+            ],
+            [
+             723730.48,
+             6193282.27
+            ],
+            [
+             723743.02,
+             6193253.68
+            ],
+            [
+             723744.65,
+             6193226.72
+            ],
+            [
+             723753.84,
+             6193168.59
+            ],
+            [
+             723762.72,
+             6193122.76
+            ],
+            [
+             723770.2000000001,
+             6193072.5
+            ],
+            [
+             723770.79,
+             6193031.39
+            ],
+            [
+             723773.66,
+             6193012.21
+            ],
+            [
+             723775.4400000001,
+             6192980.46
+            ],
+            [
+             723777.74,
+             6192927.0
+            ],
+            [
+             723779.6900000001,
+             6192886.69
+            ],
+            [
+             723780.76,
+             6192842.15
+            ],
+            [
+             723778.36,
+             6192828.81
+            ],
+            [
+             723783.08,
+             6192822.1
+            ],
+            [
+             723774.66,
+             6192782.37
+            ],
+            [
+             723777.21,
+             6192764.06
+            ],
+            [
+             723769.84,
+             6192712.28
+            ],
+            [
+             723772.83,
+             6192692.6
+            ],
+            [
+             723766.5,
+             6192620.53
+            ],
+            [
+             723761.48,
+             6192572.26
+            ],
+            [
+             723755.16,
+             6192569.72
+            ],
+            [
+             723753.46,
+             6192530.68
+            ],
+            [
+             723757.39,
+             6192325.44
+            ],
+            [
+             723748.7000000001,
+             6192338.39
+            ],
+            [
+             723743.5,
+             6192373.71
+            ],
+            [
+             723727.63,
+             6192386.25
+            ],
+            [
+             723705.2000000001,
+             6192387.39
+            ],
+            [
+             723719.58,
+             6192340.33
+            ],
+            [
+             723714.24,
+             6192304.06
+            ],
+            [
+             723704.05,
+             6192302.75
+            ],
+            [
+             723694.3200000001,
+             6192281.16
+            ],
+            [
+             723688.66,
+             6192245.34
+            ],
+            [
+             723669.01,
+             6192243.91
+            ],
+            [
+             723668.11,
+             6192215.4
+            ],
+            [
+             723662.79,
+             6192183.72
+            ],
+            [
+             723682.73,
+             6192184.9
+            ],
+            [
+             723691.14,
+             6192159.83
+            ],
+            [
+             723703.4500000001,
+             6192090.43
+            ],
+            [
+             723694.85,
+             6192081.89
+            ],
+            [
+             723717.8200000001,
+             6191978.65
+            ],
+            [
+             723736.1900000001,
+             6191908.72
+            ],
+            [
+             723699.1900000001,
+             6191870.88
+            ],
+            [
+             723694.34,
+             6191852.61
+            ],
+            [
+             723709.3,
+             6191838.23
+            ],
+            [
+             723711.39,
+             6191831.62
+            ],
+            [
+             723748.5700000001,
+             6191889.76
+            ],
+            [
+             723766.9400000001,
+             6191895.88
+            ],
+            [
+             723800.27,
+             6191899.74
+            ],
+            [
+             723793.83,
+             6191887.82
+            ],
+            [
+             723789.29,
+             6191882.4
+            ],
+            [
+             723797.6,
+             6191840.91
+            ],
+            [
+             723822.24,
+             6191746.31
+            ],
+            [
+             723833.24,
+             6191702.61
+            ],
+            [
+             723836.16,
+             6191687.28
+            ],
+            [
+             723839.76,
+             6191669.3
+            ],
+            [
+             723844.83,
+             6191655.41
+            ],
+            [
+             723850.2000000001,
+             6191649.38
+            ],
+            [
+             723857.8,
+             6191639.63
+            ],
+            [
+             723862.48,
+             6191621.29
+            ],
+            [
+             723865.3200000001,
+             6191606.28
+            ],
+            [
+             723867.52,
+             6191594.18
+            ],
+            [
+             723869.78,
+             6191579.61
+            ],
+            [
+             723872.86,
+             6191561.97
+            ],
+            [
+             723875.98,
+             6191546.55
+            ],
+            [
+             723877.4500000001,
+             6191538.79
+            ],
+            [
+             723878.72,
+             6191532.94
+            ],
+            [
+             723880.14,
+             6191525.04
+            ],
+            [
+             723880.78,
+             6191513.88
+            ],
+            [
+             723879.79,
+             6191500.14
+            ],
+            [
+             723879.62,
+             6191491.92
+            ],
+            [
+             723880.41,
+             6191486.96
+            ],
+            [
+             723882.54,
+             6191480.43
+            ],
+            [
+             723887.64,
+             6191466.26
+            ],
+            [
+             723896.0700000001,
+             6191451.82
+            ],
+            [
+             723900.4400000001,
+             6191422.51
+            ],
+            [
+             723904.22,
+             6191396.36
+            ],
+            [
+             723913.86,
+             6191337.75
+            ],
+            [
+             723927.68,
+             6191281.73
+            ],
+            [
+             723933.47,
+             6191241.25
+            ],
+            [
+             723950.17,
+             6191199.83
+            ],
+            [
+             723968.2000000001,
+             6191136.82
+            ],
+            [
+             723973.53,
+             6191118.38
+            ],
+            [
+             723993.77,
+             6191065.32
+            ],
+            [
+             724021.0,
+             6191001.03
+            ],
+            [
+             724042.3,
+             6190948.33
+            ],
+            [
+             724059.25,
+             6190906.48
+            ],
+            [
+             724075.92,
+             6190865.68
+            ],
+            [
+             724128.01,
+             6190749.02
+            ],
+            [
+             724154.01,
+             6190692.63
+            ],
+            [
+             724148.4,
+             6190686.22
+            ],
+            [
+             724150.46,
+             6190672.66
+            ],
+            [
+             724189.59,
+             6190580.46
+            ],
+            [
+             724245.53,
+             6190491.1
+            ],
+            [
+             724273.8,
+             6190493.86
+            ],
+            [
+             724300.06,
+             6190481.55
+            ],
+            [
+             724306.53,
+             6190468.58
+            ],
+            [
+             724307.4,
+             6190475.61
+            ],
+            [
+             724320.05,
+             6190471.11
+            ],
+            [
+             724337.49,
+             6190468.22
+            ],
+            [
+             724356.38,
+             6190463.65
+            ],
+            [
+             724372.01,
+             6190462.12
+            ],
+            [
+             724388.88,
+             6190459.95
+            ],
+            [
+             724398.74,
+             6190453.59
+            ],
+            [
+             724395.43,
+             6190446.92
+            ],
+            [
+             724397.47,
+             6190438.74
+            ],
+            [
+             724393.85,
+             6190412.03
+            ],
+            [
+             724391.3200000001,
+             6190394.51
+            ],
+            [
+             724404.18,
+             6190382.46
+            ],
+            [
+             724438.65,
+             6190387.74
+            ],
+            [
+             724457.48,
+             6190404.43
+            ],
+            [
+             724458.54,
+             6190408.07
+            ],
+            [
+             724454.68,
+             6190428.79
+            ],
+            [
+             724449.78,
+             6190444.15
+            ],
+            [
+             724441.54,
+             6190459.74
+            ],
+            [
+             724451.3,
+             6190474.34
+            ],
+            [
+             724450.96,
+             6190483.15
+            ],
+            [
+             724441.52,
+             6190483.7
+            ],
+            [
+             724450.73,
+             6190494.19
+            ],
+            [
+             724467.61,
+             6190506.47
+            ],
+            [
+             724463.3,
+             6190514.59
+            ],
+            [
+             724424.65,
+             6190537.05
+            ],
+            [
+             724410.63,
+             6190543.47
+            ],
+            [
+             724407.37,
+             6190544.57
+            ],
+            [
+             724396.28,
+             6190555.19
+            ],
+            [
+             724394.5,
+             6190559.47
+            ],
+            [
+             724389.28,
+             6190559.43
+            ],
+            [
+             724376.11,
+             6190572.26
+            ],
+            [
+             724359.61,
+             6190588.75
+            ],
+            [
+             724352.1,
+             6190597.6
+            ],
+            [
+             724340.28,
+             6190609.85
+            ],
+            [
+             724333.23,
+             6190622.71
+            ],
+            [
+             724326.5700000001,
+             6190632.77
+            ],
+            [
+             724314.86,
+             6190643.32
+            ],
+            [
+             724290.67,
+             6190673.76
+            ],
+            [
+             724278.13,
+             6190688.82
+            ],
+            [
+             724264.5,
+             6190686.35
+            ],
+            [
+             724257.36,
+             6190691.1
+            ],
+            [
+             724249.91,
+             6190699.62
+            ],
+            [
+             724241.99,
+             6190708.78
+            ],
+            [
+             724233.96,
+             6190717.77
+            ],
+            [
+             724225.78,
+             6190726.45
+            ],
+            [
+             724217.26,
+             6190736.32
+            ],
+            [
+             724225.86,
+             6190750.79
+            ],
+            [
+             724188.83,
+             6190798.92
+            ],
+            [
+             724174.31,
+             6190820.23
+            ],
+            [
+             724163.68,
+             6190845.36
+            ],
+            [
+             724152.14,
+             6190872.02
+            ],
+            [
+             724121.17,
+             6190931.92
+            ],
+            [
+             724110.8200000001,
+             6190972.85
+            ],
+            [
+             724111.86,
+             6190979.28
+            ],
+            [
+             724106.74,
+             6190993.8
+            ],
+            [
+             724084.68,
+             6191061.33
+            ],
+            [
+             724080.84,
+             6191080.94
+            ],
+            [
+             724067.5700000001,
+             6191147.56
+            ],
+            [
+             724069.28,
+             6191179.18
+            ],
+            [
+             724064.02,
+             6191200.67
+            ],
+            [
+             724061.5700000001,
+             6191213.29
+            ],
+            [
+             724056.81,
+             6191234.51
+            ],
+            [
+             724043.21,
+             6191286.58
+            ],
+            [
+             724040.46,
+             6191312.02
+            ],
+            [
+             724035.63,
+             6191373.34
+            ],
+            [
+             724036.48,
+             6191431.82
+            ],
+            [
+             724034.81,
+             6191485.15
+            ],
+            [
+             724029.24,
+             6191519.83
+            ],
+            [
+             724009.93,
+             6191617.76
+            ],
+            [
+             724001.1,
+             6191672.6
+            ],
+            [
+             724002.78,
+             6191726.87
+            ],
+            [
+             723998.06,
+             6191786.98
+            ],
+            [
+             723987.99,
+             6191862.83
+            ],
+            [
+             723982.47,
+             6191900.18
+            ],
+            [
+             723977.58,
+             6191935.06
+            ],
+            [
+             723964.1900000001,
+             6191967.88
+            ],
+            [
+             723960.61,
+             6191994.79
+            ],
+            [
+             723951.24,
+             6192065.69
+            ],
+            [
+             723948.47,
+             6192086.05
+            ],
+            [
+             723941.64,
+             6192121.35
+            ],
+            [
+             723940.88,
+             6192146.78
+            ],
+            [
+             723945.43,
+             6192175.73
+            ],
+            [
+             723940.53,
+             6192210.7
+            ],
+            [
+             723934.98,
+             6192244.5
+            ],
+            [
+             723930.52,
+             6192246.09
+            ],
+            [
+             723920.37,
+             6192263.98
+            ],
+            [
+             723933.75,
+             6192315.0
+            ],
+            [
+             723924.51,
+             6192367.47
+            ],
+            [
+             723914.17,
+             6192412.67
+            ],
+            [
+             723904.7000000001,
+             6192476.11
+            ],
+            [
+             723909.67,
+             6192483.09
+            ],
+            [
+             723912.2000000001,
+             6192489.87
+            ],
+            [
+             723906.09,
+             6192549.9
+            ],
+            [
+             723891.9400000001,
+             6192564.01
+            ],
+            [
+             723891.86,
+             6192616.15
+            ],
+            [
+             723891.04,
+             6192638.48
+            ],
+            [
+             723887.05,
+             6192667.14
+            ],
+            [
+             723883.14,
+             6192684.83
+            ],
+            [
+             723867.17,
+             6192692.09
+            ],
+            [
+             723869.22,
+             6192667.75
+            ],
+            [
+             723866.73,
+             6192645.6
+            ],
+            [
+             723845.6,
+             6192645.0
+            ],
+            [
+             723839.34,
+             6192647.18
+            ],
+            [
+             723835.7000000001,
+             6192654.17
+            ],
+            [
+             723839.01,
+             6192664.88
+            ],
+            [
+             723837.08,
+             6192712.64
+            ],
+            [
+             723841.68,
+             6192726.77
+            ],
+            [
+             723851.06,
+             6192781.0
+            ],
+            [
+             723846.81,
+             6192837.86
+            ],
+            [
+             723841.31,
+             6192890.56
+            ],
+            [
+             723835.62,
+             6192913.91
+            ],
+            [
+             723834.41,
+             6192956.95
+            ],
+            [
+             723828.96,
+             6193008.35
+            ],
+            [
+             723816.33,
+             6193129.69
+            ],
+            [
+             723810.3200000001,
+             6193184.52
+            ],
+            [
+             723801.7000000001,
+             6193233.95
+            ]
+           ]
+          ]
+         ],
+         "type": "MultiPolygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7484561",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e3b35gin6kt46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 859 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "e3b35gin6kt46",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "MultiPolygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:18+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "skodsborg",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 251,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7484561",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e3b35gin6kt46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Dam",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1069615",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723374.191,
+         6191540.295
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mzxzitjismblg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mzxzitjismblg"
+       },
+       "result": "Skodsborg Dam"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Eng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1146660",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723709.513,
+         6191735.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g7cwn7ues2d7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "g7cwn7ues2d7a"
+       },
+       "result": "Skodsborg Eng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Station",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5882,
+        "upstream": {
+         "stednavn": {
+          "id": "1055683",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723718.63,
+         6192176.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "swnarffxruiuc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "swnarffxruiuc"
+       },
+       "result": "Skodsborg Station"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "1104551",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         468159.129,
+         6263176.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qae2ryek43c4u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qae2ryek43c4u"
+       },
+       "result": "Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "7492385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509710.62,
+         6141371.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zwxqzyvhxi7ry",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zwxqzyvhxi7ry"
+       },
+       "result": "Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1128072",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473453.173,
+         6190323.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eth6gvgzyxiek",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eth6gvgzyxiek"
+       },
+       "result": "Skodsbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "7491937",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542161.298,
+         6083709.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4wg7gqp6qs6so",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4wg7gqp6qs6so"
+       },
+       "result": "Skodsbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1019240",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         649593.242,
+         6159967.86
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hxvkh7wwdn7og",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hxvkh7wwdn7og"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1027721",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         494069.42,
+         6206176.745
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dwdhglo6i3cqs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dwdhglo6i3cqs"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1088792",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         533038.535,
+         6240006.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fbydzo4fo27ku",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fbydzo4fo27ku"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Skovsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1129818",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874256.443,
+         6129502.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zezeh7gdqzyac",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zezeh7gdqzyac"
+       },
+       "result": "Skovsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Kurhotel Skodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5263,
+        "upstream": {
+         "stednavn": {
+          "id": "1011673",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723869.849,
+         6191709.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bqigwrprgl7da",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bqigwrprgl7da"
+       },
+       "result": "Kurhotel Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1111670",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510857.621,
+         6138587.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e6ehqu4fobluu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e6ehqu4fobluu"
+       },
+       "result": "Skodborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Skodsbjerg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1141518",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         515891.606,
+         6125097.17
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xwr2m46ci7lrk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xwr2m46ci7lrk"
+       },
+       "result": "Skodsbjerg"
+      },
+      {
+       "components": {
+        "stednavn": "Skodsborg Strandpark",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7534645",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723891.403,
+         6192768.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xzvrtzat2ezuq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xzvrtzat2ezuq"
+       },
+       "result": "Skodsborg Strandpark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Stadsborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1018381",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591496.851,
+         6254115.765
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kz4xs4szfplik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kz4xs4szfplik"
+       },
+       "result": "Stadsborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Nr Skodborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1009888",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467929.195,
+         6263535.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "226x3mx635bvq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "226x3mx635bvq"
+       },
+       "result": "Nr Skodborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1062627",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540446.844,
+         6085008.61
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ozavfmzvt6s72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ozavfmzvt6s72"
+       },
+       "result": "Skodsbøl Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Godsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1025337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         456071.87,
+         6253773.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "soyh2ydpwpzhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "soyh2ydpwpzhw"
+       },
+       "result": "Godsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Skolborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "7438817",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         460587.01,
+         6174610.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ivsme52bncvhi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ivsme52bncvhi"
+       },
+       "result": "Skolborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Skovborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1069150",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532023.32,
+         6194137.16
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e7vjh4ycsih72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e7vjh4ycsih72"
+       },
+       "result": "Skovborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Klodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1147913",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560739.992,
+         6184906.765
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zngei6aosfxgc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zngei6aosfxgc"
+       },
+       "result": "Klodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Spidsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1093832",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         471215.887,
+         6261822.655
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fltei36cy42zq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fltei36cy42zq"
+       },
+       "result": "Spidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Spidsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1105043",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581103.449,
+         6258461.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mpuprdylnjtmm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mpuprdylnjtmm"
+       },
+       "result": "Spidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Stadsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1010029",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509980.165,
+         6273188.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "li4lsk6vcvrk6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "li4lsk6vcvrk6"
+       },
+       "result": "Stadsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Stadsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1140163",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591913.585,
+         6254210.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wknwqbzt3mb6i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wknwqbzt3mb6i"
+       },
+       "result": "Stadsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Stidsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1149955",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585035.077,
+         6359474.29
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nlrgin2t4hjhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nlrgin2t4hjhw"
+       },
+       "result": "Stidsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Trodsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1098889",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         528486.729,
+         6141072.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ccd3ozsartg62",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ccd3ozsartg62"
+       },
+       "result": "Trodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Bæk",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1082207",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510750.67,
+         6141448.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xhvzc5czosv7u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xhvzc5czosv7u"
+       },
+       "result": "Skodborg Bæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Skodborg Høj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1052654",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         485819.327,
+         6170640.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "it7667bgx4vwy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "it7667bgx4vwy"
+       },
+       "result": "Skodborg Høj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborg Huse",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1123605",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467224.536,
+         6261374.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "52grgeleekteo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "52grgeleekteo"
+       },
+       "result": "Skodborg Huse"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Mark",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1134687",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508893.52,
+         6142984.3
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vrbl5vncwywuy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vrbl5vncwywuy"
+       },
+       "result": "Skodborg Mark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Skonningsborg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1099071",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461133.199,
+         6238942.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zkezsapsrs4h4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zkezsapsrs4h4"
+       },
+       "result": "Skonningsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Aborg Skov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1150949",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558313.034,
+         6129831.515
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oetxizyhgogrc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oetxizyhgogrc"
+       },
+       "result": "Aborg Skov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Glesborg Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7539227",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605652.523,
+         6260705.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mvu22ahovn7pm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mvu22ahovn7pm"
+       },
+       "result": "Glesborg Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborg Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1089963",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509596.656,
+         6141408.205
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y5he5njhyaiyy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "y5he5njhyaiyy"
+       },
+       "result": "Skodborg Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Skodsbøl Mark",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1150067",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         541112.848,
+         6084405.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "to6vrovx4jctm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "to6vrovx4jctm"
+       },
+       "result": "Skodsbøl Mark"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Skodsbølgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1024636",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473221.865,
+         6190410.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j4k2ytikc443s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j4k2ytikc443s"
+       },
+       "result": "Skodsbølgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Skodborghus",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1047664",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508837.876,
+         6144670.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p33k4w3bnkjh4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p33k4w3bnkjh4"
+       },
+       "result": "Skodborghus"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

@@ -1,0 +1,2095 @@
+{
+ "case": {
+  "id": "pos-aabenraa-aa",
+  "input": "pos: åbenrå",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "km6i6vqscmveg",
+      "kind": "postcode"
+     },
+     "limit": 1,
+     "target": "postcode"
+    },
+    "elapsed_ms": 230,
+    "endpoint": "project",
+    "keys": [
+     "pos"
+    ],
+    "response": {
+     "input": {
+      "id": "km6i6vqscmveg",
+      "kind": "postcode"
+     },
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aabenraa",
+          "postcode": "6200"
+         }
+        ]
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            517514.2,
+            6084911.92
+           ],
+           [
+            517516.06,
+            6085059.04
+           ],
+           [
+            517650.02,
+            6085306.45
+           ],
+           [
+            517906.15,
+            6086202.77
+           ],
+           [
+            518183.54,
+            6086215.23
+           ],
+           [
+            518472.35,
+            6086366.25
+           ],
+           [
+            518310.95,
+            6086919.13
+           ],
+           [
+            519783.75,
+            6088443.59
+           ],
+           [
+            520398.54,
+            6089692.21
+           ],
+           [
+            521011.37,
+            6090005.97
+           ],
+           [
+            521687.27,
+            6089399.41
+           ],
+           [
+            521908.04,
+            6089355.06
+           ],
+           [
+            522087.73,
+            6089263.16
+           ],
+           [
+            522467.0,
+            6089433.45
+           ],
+           [
+            522705.57,
+            6089563.91
+           ],
+           [
+            522625.09,
+            6089842.83
+           ],
+           [
+            522814.43,
+            6090679.43
+           ],
+           [
+            523262.34,
+            6091100.17
+           ],
+           [
+            523667.25,
+            6091277.82
+           ],
+           [
+            523235.57,
+            6091647.04
+           ],
+           [
+            522425.38,
+            6092710.3
+           ],
+           [
+            522613.07,
+            6092786.53
+           ],
+           [
+            522433.35,
+            6093601.24
+           ],
+           [
+            522444.07,
+            6093756.87
+           ],
+           [
+            522413.41,
+            6094248.33
+           ],
+           [
+            522313.86,
+            6094495.87
+           ],
+           [
+            522608.07,
+            6094560.95
+           ],
+           [
+            522968.59,
+            6094611.74
+           ],
+           [
+            523139.79,
+            6094663.06
+           ],
+           [
+            523301.12,
+            6094695.99
+           ],
+           [
+            523362.3,
+            6094784.96
+           ],
+           [
+            523343.12,
+            6095098.21
+           ],
+           [
+            523404.64,
+            6095446.2
+           ],
+           [
+            523764.23,
+            6095668.63
+           ],
+           [
+            523848.16,
+            6095901.19
+           ],
+           [
+            523934.64,
+            6096063.58
+           ],
+           [
+            523966.54,
+            6096166.8
+           ],
+           [
+            524046.3,
+            6096249.7
+           ],
+           [
+            524067.3,
+            6096403.09
+           ],
+           [
+            524225.5,
+            6096657.96
+           ],
+           [
+            524537.69,
+            6097018.63
+           ],
+           [
+            524405.35,
+            6097138.27
+           ],
+           [
+            524613.57,
+            6097290.83
+           ],
+           [
+            524550.99,
+            6097374.43
+           ],
+           [
+            524419.11,
+            6097407.31
+           ],
+           [
+            524273.67,
+            6097387.95
+           ],
+           [
+            524077.72,
+            6097591.73
+           ],
+           [
+            524072.87,
+            6097783.04
+           ],
+           [
+            524100.33,
+            6097871.46
+           ],
+           [
+            523961.11,
+            6097944.96
+           ],
+           [
+            523578.58,
+            6097959.62
+           ],
+           [
+            523336.64,
+            6098281.69
+           ],
+           [
+            522632.92,
+            6099107.36
+           ],
+           [
+            522633.3,
+            6099282.51
+           ],
+           [
+            522606.74,
+            6099320.03
+           ],
+           [
+            522607.68,
+            6099653.45
+           ],
+           [
+            522808.59,
+            6099688.37
+           ],
+           [
+            522947.48,
+            6099948.06
+           ],
+           [
+            522805.28,
+            6100071.5
+           ],
+           [
+            522536.31,
+            6100222.57
+           ],
+           [
+            522642.61,
+            6100931.17
+           ],
+           [
+            522703.44,
+            6101106.7
+           ],
+           [
+            523085.71,
+            6101961.89
+           ],
+           [
+            523272.11,
+            6102125.86
+           ],
+           [
+            523269.86,
+            6102365.15
+           ],
+           [
+            523495.98,
+            6102883.92
+           ],
+           [
+            523758.67,
+            6103671.17
+           ],
+           [
+            523794.15,
+            6104401.88
+           ],
+           [
+            524428.25,
+            6104867.06
+           ],
+           [
+            525501.8,
+            6105207.85
+           ],
+           [
+            526747.51,
+            6106126.62
+           ],
+           [
+            526854.62,
+            6106475.67
+           ],
+           [
+            526933.18,
+            6106930.89
+           ],
+           [
+            526973.37,
+            6106977.6
+           ],
+           [
+            527329.93,
+            6107202.07
+           ],
+           [
+            527456.69,
+            6107368.17
+           ],
+           [
+            527648.58,
+            6107269.59
+           ],
+           [
+            527713.92,
+            6107266.99
+           ],
+           [
+            527756.46,
+            6107251.92
+           ],
+           [
+            527891.37,
+            6107261.84
+           ],
+           [
+            527949.53,
+            6107245.33
+           ],
+           [
+            528192.43,
+            6107215.75
+           ],
+           [
+            528339.92,
+            6107304.73
+           ],
+           [
+            528447.0,
+            6107232.67
+           ],
+           [
+            528502.27,
+            6107199.84
+           ],
+           [
+            528723.46,
+            6107134.45
+           ],
+           [
+            528816.49,
+            6107186.6
+           ],
+           [
+            528879.96,
+            6107100.3
+           ],
+           [
+            528954.23,
+            6107170.93
+           ],
+           [
+            529071.5,
+            6107256.39
+           ],
+           [
+            529058.63,
+            6107309.1
+           ],
+           [
+            529103.16,
+            6107411.42
+           ],
+           [
+            529221.45,
+            6107485.49
+           ],
+           [
+            529297.52,
+            6107681.73
+           ],
+           [
+            530044.08,
+            6107935.57
+           ],
+           [
+            530366.25,
+            6108445.31
+           ],
+           [
+            531083.38,
+            6108687.55
+           ],
+           [
+            532351.03,
+            6108440.86
+           ],
+           [
+            533238.81,
+            6108082.37
+           ],
+           [
+            539104.47,
+            6105046.6
+           ],
+           [
+            538690.37,
+            6101083.2
+           ],
+           [
+            539768.74,
+            6099554.95
+           ],
+           [
+            540597.44,
+            6097786.59
+           ],
+           [
+            540771.15,
+            6097422.38
+           ],
+           [
+            540278.12,
+            6095864.05
+           ],
+           [
+            540332.63,
+            6095764.55
+           ],
+           [
+            540388.85,
+            6095615.22
+           ],
+           [
+            540272.16,
+            6095403.54
+           ],
+           [
+            540218.5,
+            6095001.79
+           ],
+           [
+            540062.08,
+            6094849.45
+           ],
+           [
+            540015.57,
+            6094649.74
+           ],
+           [
+            539889.16,
+            6094518.24
+           ],
+           [
+            539844.06,
+            6094474.11
+           ],
+           [
+            539831.33,
+            6094392.41
+           ],
+           [
+            539801.39,
+            6094271.16
+           ],
+           [
+            539769.97,
+            6094214.45
+           ],
+           [
+            539721.29,
+            6094107.61
+           ],
+           [
+            539598.18,
+            6093837.58
+           ],
+           [
+            539525.29,
+            6093776.03
+           ],
+           [
+            539475.89,
+            6093741.15
+           ],
+           [
+            539420.2,
+            6093662.5
+           ],
+           [
+            539430.91,
+            6093604.49
+           ],
+           [
+            539361.33,
+            6093493.77
+           ],
+           [
+            539289.67,
+            6093328.39
+           ],
+           [
+            539216.32,
+            6093102.35
+           ],
+           [
+            539133.55,
+            6092845.29
+           ],
+           [
+            539055.53,
+            6092625.0
+           ],
+           [
+            539025.39,
+            6092497.65
+           ],
+           [
+            538911.31,
+            6092402.61
+           ],
+           [
+            538633.51,
+            6092188.18
+           ],
+           [
+            538535.27,
+            6092053.91
+           ],
+           [
+            538367.39,
+            6091909.42
+           ],
+           [
+            538163.15,
+            6091895.29
+           ],
+           [
+            537966.79,
+            6091509.86
+           ],
+           [
+            537907.07,
+            6091191.55
+           ],
+           [
+            537802.78,
+            6091066.37
+           ],
+           [
+            537748.23,
+            6090746.34
+           ],
+           [
+            537701.93,
+            6090666.41
+           ],
+           [
+            537558.38,
+            6090439.94
+           ],
+           [
+            537422.23,
+            6090200.76
+           ],
+           [
+            537279.37,
+            6090090.14
+           ],
+           [
+            537335.7,
+            6090023.62
+           ],
+           [
+            536953.91,
+            6089737.43
+           ],
+           [
+            536791.13,
+            6089578.89
+           ],
+           [
+            536463.86,
+            6089693.43
+           ],
+           [
+            536440.02,
+            6089549.44
+           ],
+           [
+            535779.24,
+            6088961.99
+           ],
+           [
+            535517.94,
+            6088798.16
+           ],
+           [
+            535281.75,
+            6088490.79
+           ],
+           [
+            535144.26,
+            6088755.48
+           ],
+           [
+            535021.43,
+            6088669.25
+           ],
+           [
+            534929.88,
+            6088681.38
+           ],
+           [
+            534640.27,
+            6088682.15
+           ],
+           [
+            534531.81,
+            6088957.58
+           ],
+           [
+            534106.67,
+            6089385.3
+           ],
+           [
+            533693.66,
+            6089432.76
+           ],
+           [
+            533552.92,
+            6089821.42
+           ],
+           [
+            533292.71,
+            6090431.77
+           ],
+           [
+            533128.04,
+            6090623.76
+           ],
+           [
+            533124.05,
+            6090705.91
+           ],
+           [
+            532991.76,
+            6090677.24
+           ],
+           [
+            532758.81,
+            6090770.12
+           ],
+           [
+            532458.68,
+            6090544.01
+           ],
+           [
+            532367.65,
+            6090444.35
+           ],
+           [
+            532206.87,
+            6090458.29
+           ],
+           [
+            532173.74,
+            6090657.96
+           ],
+           [
+            531955.64,
+            6090710.79
+           ],
+           [
+            531797.63,
+            6090771.1
+           ],
+           [
+            531225.5,
+            6090698.41
+           ],
+           [
+            531223.51,
+            6090327.68
+           ],
+           [
+            531521.59,
+            6090023.57
+           ],
+           [
+            531733.67,
+            6089350.42
+           ],
+           [
+            531429.46,
+            6088696.71
+           ],
+           [
+            531143.83,
+            6088458.75
+           ],
+           [
+            530747.31,
+            6088185.46
+           ],
+           [
+            530115.2,
+            6087714.12
+           ],
+           [
+            529789.95,
+            6087197.06
+           ],
+           [
+            529914.81,
+            6086948.28
+           ],
+           [
+            530208.47,
+            6086631.27
+           ],
+           [
+            530156.59,
+            6085974.61
+           ],
+           [
+            529810.64,
+            6084620.06
+           ],
+           [
+            528155.44,
+            6084672.17
+           ],
+           [
+            527813.82,
+            6085238.06
+           ],
+           [
+            527656.03,
+            6085996.73
+           ],
+           [
+            527493.54,
+            6086045.41
+           ],
+           [
+            527316.93,
+            6086189.03
+           ],
+           [
+            527096.97,
+            6086545.89
+           ],
+           [
+            526968.9,
+            6086496.9
+           ],
+           [
+            526636.89,
+            6086549.18
+           ],
+           [
+            526339.87,
+            6086377.85
+           ],
+           [
+            526163.59,
+            6086381.21
+           ],
+           [
+            525943.66,
+            6086284.83
+           ],
+           [
+            525802.87,
+            6086244.15
+           ],
+           [
+            525503.72,
+            6086238.26
+           ],
+           [
+            524074.84,
+            6086011.56
+           ],
+           [
+            524032.55,
+            6085929.1
+           ],
+           [
+            524219.56,
+            6085082.61
+           ],
+           [
+            523951.64,
+            6084793.97
+           ],
+           [
+            523726.81,
+            6084822.25
+           ],
+           [
+            523474.08,
+            6084842.26
+           ],
+           [
+            523297.28,
+            6084758.34
+           ],
+           [
+            522931.57,
+            6084818.85
+           ],
+           [
+            522823.15,
+            6084729.98
+           ],
+           [
+            522725.98,
+            6084723.93
+           ],
+           [
+            522513.45,
+            6084757.78
+           ],
+           [
+            522087.92,
+            6084809.83
+           ],
+           [
+            521991.14,
+            6084798.19
+           ],
+           [
+            521844.03,
+            6084788.06
+           ],
+           [
+            521787.02,
+            6084846.62
+           ],
+           [
+            521726.94,
+            6084834.01
+           ],
+           [
+            521696.17,
+            6084828.9
+           ],
+           [
+            521625.17,
+            6084811.21
+           ],
+           [
+            521562.3,
+            6084780.98
+           ],
+           [
+            521489.57,
+            6084703.99
+           ],
+           [
+            521419.43,
+            6084705.72
+           ],
+           [
+            521357.83,
+            6084645.42
+           ],
+           [
+            521250.25,
+            6084638.26
+           ],
+           [
+            521164.53,
+            6084690.71
+           ],
+           [
+            521080.57,
+            6084705.26
+           ],
+           [
+            521026.17,
+            6084663.4
+           ],
+           [
+            520828.63,
+            6084601.88
+           ],
+           [
+            520445.5,
+            6085191.0
+           ],
+           [
+            520260.34,
+            6085280.08
+           ],
+           [
+            519629.3,
+            6085593.14
+           ],
+           [
+            519462.0,
+            6085696.97
+           ],
+           [
+            519176.65,
+            6085634.52
+           ],
+           [
+            519027.75,
+            6085500.93
+           ],
+           [
+            518913.12,
+            6085272.47
+           ],
+           [
+            518626.76,
+            6085323.64
+           ],
+           [
+            518569.22,
+            6085390.06
+           ],
+           [
+            517514.2,
+            6084911.92
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "postcode": {
+          "id": "6200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532344.642,
+         6096633.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "km6i6vqscmveg",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "km6i6vqscmveg"
+       },
+       "result": "Aabenraa"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 691 vertices"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "km6i6vqscmveg",
+   "kind": "postcode"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:22+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "åbenrå",
+     "limit": 40,
+     "target": "postcode"
+    }
+   ],
+   "elapsed_ms": 129,
+   "endpoint": "search",
+   "keys": [
+    "pos"
+   ],
+   "response": [
+    {
+     "input": "åbenrå",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aabenraa",
+          "postcode": "6200"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "postcode": {
+          "id": "6200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532344.642,
+         6096633.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "km6i6vqscmveg",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "km6i6vqscmveg"
+       },
+       "result": "Aabenraa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         },
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         },
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aabybro",
+          "postcode": "9440"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "postcode": {
+          "id": "9440",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         544528.9,
+         6333588.925
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w3q2llfevublm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "w3q2llfevublm"
+       },
+       "result": "Aabybro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Åbyhøj",
+          "postcode": "8230"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "postcode": {
+          "id": "8230",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572036.252,
+         6223439.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "74il6yftaieeo",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "74il6yftaieeo"
+       },
+       "result": "Åbyhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         },
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aars",
+          "postcode": "9600"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "9600",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530313.723,
+         6296683.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4h55c54e3rqxm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "4h55c54e3rqxm"
+       },
+       "result": "Aars"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         },
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Asaa",
+          "postcode": "9340"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "9340",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         589510.508,
+         6331336.085
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hxr2nyof5geiy",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "hxr2nyof5geiy"
+       },
+       "result": "Asaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Middelfart",
+          "kommunekode": "0410"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørre Aaby",
+          "postcode": "5580"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "5580",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550501.265,
+         6143277.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pnbk6qwabtot4",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pnbk6qwabtot4"
+       },
+       "result": "Nørre Aaby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         },
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vrå",
+          "postcode": "9760"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "9760",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557076.917,
+         6358163.235
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "puue2ego5e3ak",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "puue2ego5e3ak"
+       },
+       "result": "Vrå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         },
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Årre",
+          "postcode": "6818"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "postcode": {
+          "id": "6818",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         478758.998,
+         6159506.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nebmwkrpgbyxc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "nebmwkrpgbyxc"
+       },
+       "result": "Årre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Middelfart",
+          "kommunekode": "0410"
+         },
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         },
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarup",
+          "postcode": "5560"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "postcode": {
+          "id": "5560",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565865.677,
+         6138327.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pc7uxdrdxsgq6",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pc7uxdrdxsgq6"
+       },
+       "result": "Aarup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         },
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ålbæk",
+          "postcode": "9982"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "9982",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573058.021,
+         6392744.385
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "soq575ejegmlq",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "soq575ejegmlq"
+       },
+       "result": "Ålbæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg",
+          "postcode": "9000"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "9000",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552573.503,
+         6323230.3
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pjzl5wp7muqra",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pjzl5wp7muqra"
+       },
+       "result": "Aalborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Årslev",
+          "postcode": "5792"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "postcode": {
+          "id": "5792",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591635.646,
+         6128699.4
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "an2f5doxnlng4",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "an2f5doxnlng4"
+       },
+       "result": "Årslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "postcode": {
+          "id": "8000",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577561.955,
+         6222970.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g435mecz6suyu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "g435mecz6suyu"
+       },
+       "result": "Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "postcode": {
+          "id": "8200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571609.685,
+         6229385.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qahk27yhlivye",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "qahk27yhlivye"
+       },
+       "result": "Aarhus N"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus V",
+          "postcode": "8210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.125,
+        "upstream": {
+         "postcode": {
+          "id": "8210",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571897.925,
+         6225676.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hrm4n4znlr4zc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "hrm4n4znlr4zc"
+       },
+       "result": "Aarhus V"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aakirkeby",
+          "postcode": "3720"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "postcode": {
+          "id": "3720",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         873118.019,
+         6092229.58
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qotghsrkep4jg",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "qotghsrkep4jg"
+       },
+       "result": "Aakirkeby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         },
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         },
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         },
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalestrup",
+          "postcode": "9620"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "postcode": {
+          "id": "9620",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         531051.355,
+         6282717.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uf3rg2atjg23s",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "uf3rg2atjg23s"
+       },
+       "result": "Aalestrup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg SV",
+          "postcode": "9200"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "9200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         551474.413,
+         6318735.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xawy7b6axgtkm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "xawy7b6axgtkm"
+       },
+       "result": "Aalborg SV"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Helsingør",
+          "kommunekode": "0217"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ålsgårde",
+          "postcode": "3140"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "3140",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720278.346,
+         6222034.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tozeqekjenahq",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "tozeqekjenahq"
+       },
+       "result": "Ålsgårde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         },
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         },
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Østervrå",
+          "postcode": "9750"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "9750",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576637.165,
+         6355216.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rm5yx536g27hm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "rm5yx536g27hm"
+       },
+       "result": "Østervrå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg SØ",
+          "postcode": "9210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1053,
+        "upstream": {
+         "postcode": {
+          "id": "9210",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556778.666,
+         6318279.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zsc62ooiomgcw",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "zsc62ooiomgcw"
+       },
+       "result": "Aalborg SØ"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Allingåbro",
+          "postcode": "8961"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1053,
+        "upstream": {
+         "postcode": {
+          "id": "8961",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591937.043,
+         6264777.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7z5ccvvxt3biu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "7z5ccvvxt3biu"
+       },
+       "result": "Allingåbro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aalborg Øst",
+          "postcode": "9220"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "postcode": {
+          "id": "9220",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562350.215,
+         6322730.305
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kabiznxor3axm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "kabiznxor3axm"
+       },
+       "result": "Aalborg Øst"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

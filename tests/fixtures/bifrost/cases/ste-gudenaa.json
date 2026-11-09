@@ -1,0 +1,2741 @@
+{
+ "case": {
+  "id": "ste-gudenaa",
+  "input": "gudenå",
+  "kommuner": null,
+  "types": [
+   "ste"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Gudenå",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 252,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Gudenå",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Gudenå",
+        "type": "vandløb"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            543332.09,
+            6202082.62
+           ],
+           [
+            543916.68,
+            6203128.78
+           ],
+           [
+            543755.74,
+            6203898.61
+           ],
+           [
+            543584.6900000001,
+            6204176.04
+           ],
+           [
+            543585.8200000001,
+            6204348.07
+           ],
+           [
+            543328.88,
+            6204586.15
+           ],
+           [
+            543219.95,
+            6205016.55
+           ],
+           [
+            543055.02,
+            6205399.79
+           ],
+           [
+            542989.76,
+            6205437.72
+           ],
+           [
+            542852.99,
+            6205704.66
+           ],
+           [
+            542788.23,
+            6205935.65
+           ],
+           [
+            542981.91,
+            6206084.17
+           ],
+           [
+            543179.6900000001,
+            6206283.02
+           ],
+           [
+            543324.58,
+            6206448.53
+           ],
+           [
+            543428.09,
+            6206536.45
+           ],
+           [
+            543425.7,
+            6206677.97
+           ],
+           [
+            543380.480000001,
+            6206912.02
+           ],
+           [
+            543461.12,
+            6207267.98
+           ],
+           [
+            543473.76,
+            6207603.51
+           ],
+           [
+            543425.85,
+            6207961.42
+           ],
+           [
+            543208.66,
+            6207955.63
+           ],
+           [
+            542845.68,
+            6208226.31
+           ],
+           [
+            542605.05,
+            6208705.79
+           ],
+           [
+            542588.24,
+            6208751.51
+           ]
+          ],
+          [
+           [
+            543332.09,
+            6202082.62
+           ],
+           [
+            543056.46,
+            6201840.85
+           ]
+          ],
+          [
+           [
+            543056.46,
+            6201840.85
+           ],
+           [
+            543332.09,
+            6202082.62
+           ]
+          ],
+          [
+           [
+            542588.24,
+            6208751.51
+           ],
+           [
+            542586.9400000001,
+            6208829.99
+           ]
+          ],
+          [
+           [
+            542588.24,
+            6208751.51
+           ],
+           [
+            542586.9400000001,
+            6208829.99
+           ]
+          ],
+          [
+           [
+            542586.9400000001,
+            6208829.99
+           ],
+           [
+            542231.4400000001,
+            6209028.38
+           ],
+           [
+            542020.1,
+            6209447.01
+           ],
+           [
+            542042.67,
+            6209685.98
+           ],
+           [
+            541742.53,
+            6209793.79
+           ],
+           [
+            541696.15,
+            6210250.18
+           ],
+           [
+            541770.9,
+            6210551.28
+           ],
+           [
+            541855.81,
+            6210957.74
+           ],
+           [
+            542054.65,
+            6211152.55
+           ],
+           [
+            542321.14,
+            6211122.05
+           ],
+           [
+            542564.15,
+            6211291.8
+           ],
+           [
+            542713.7,
+            6211349.54
+           ],
+           [
+            542971.68,
+            6211348.83
+           ],
+           [
+            543117.66,
+            6211277.52
+           ],
+           [
+            543427.39,
+            6211411.93
+           ],
+           [
+            543625.3200000001,
+            6211352.31
+           ],
+           [
+            543870.76,
+            6212137.43
+           ],
+           [
+            544455.52,
+            6212619.21
+           ],
+           [
+            545035.9400000001,
+            6213028.31
+           ],
+           [
+            545608.64,
+            6213555.82
+           ],
+           [
+            547615.66,
+            6213149.34
+           ],
+           [
+            546817.93,
+            6216430.17
+           ],
+           [
+            546719.58,
+            6216480.41
+           ],
+           [
+            546619.95,
+            6216560.06
+           ],
+           [
+            545399.9,
+            6216719.42
+           ],
+           [
+            543127.17,
+            6218839.05
+           ],
+           [
+            537095.73,
+            6221501.54
+           ],
+           [
+            535486.42,
+            6223044.88
+           ],
+           [
+            534711.0,
+            6224352.61
+           ],
+           [
+            534483.66,
+            6224969.66
+           ],
+           [
+            534543.75,
+            6225455.27
+           ],
+           [
+            536306.61,
+            6225287.29
+           ]
+          ],
+          [
+           [
+            537926.9400000001,
+            6225802.45
+           ],
+           [
+            539392.45,
+            6226248.0
+           ],
+           [
+            540000.0,
+            6226601.94
+           ],
+           [
+            540418.62,
+            6227163.65
+           ],
+           [
+            540662.63,
+            6227885.48
+           ],
+           [
+            540303.05,
+            6228624.27
+           ],
+           [
+            540698.41,
+            6229377.34
+           ],
+           [
+            541415.08,
+            6230249.68
+           ],
+           [
+            541538.59,
+            6230799.22
+           ],
+           [
+            541517.4400000001,
+            6231151.15
+           ],
+           [
+            541549.48,
+            6231310.81
+           ],
+           [
+            541516.84,
+            6231525.76
+           ],
+           [
+            541499.31,
+            6231742.29
+           ],
+           [
+            541567.27,
+            6231907.11
+           ],
+           [
+            541681.63,
+            6232130.7
+           ],
+           [
+            541542.46,
+            6232391.68
+           ],
+           [
+            541440.89,
+            6232687.35
+           ],
+           [
+            541554.5700000001,
+            6232939.55
+           ],
+           [
+            541589.43,
+            6233113.59
+           ],
+           [
+            541565.62,
+            6233264.04
+           ],
+           [
+            541487.3200000001,
+            6233619.27
+           ],
+           [
+            541419.3200000001,
+            6233932.77
+           ],
+           [
+            541410.25,
+            6234235.04
+           ],
+           [
+            541325.1900000001,
+            6234572.92
+           ],
+           [
+            541290.05,
+            6235000.0
+           ],
+           [
+            541081.71,
+            6235224.32
+           ],
+           [
+            540822.01,
+            6235475.6
+           ],
+           [
+            540750.81,
+            6235723.15
+           ],
+           [
+            540696.99,
+            6236105.86
+           ],
+           [
+            540699.86,
+            6236360.75
+           ],
+           [
+            540650.15,
+            6236531.34
+           ],
+           [
+            540797.3,
+            6236811.07
+           ],
+           [
+            541020.09,
+            6237154.49
+           ],
+           [
+            541046.56,
+            6237453.11
+           ],
+           [
+            540997.99,
+            6237691.0
+           ],
+           [
+            541156.93,
+            6237933.33
+           ],
+           [
+            541231.91,
+            6238090.16
+           ],
+           [
+            541255.33,
+            6238501.5
+           ],
+           [
+            541015.66,
+            6238874.35
+           ],
+           [
+            541236.64,
+            6239261.82
+           ],
+           [
+            541698.98,
+            6239458.48
+           ],
+           [
+            541999.14,
+            6239863.07
+           ],
+           [
+            541870.59,
+            6240439.46
+           ],
+           [
+            541381.1900000001,
+            6241062.98
+           ],
+           [
+            539967.24,
+            6241209.02
+           ],
+           [
+            535950.24,
+            6243165.55
+           ],
+           [
+            537257.1,
+            6245596.48
+           ],
+           [
+            537559.39,
+            6245956.28
+           ],
+           [
+            538053.66,
+            6246474.86
+           ],
+           [
+            538755.23,
+            6246626.53
+           ],
+           [
+            539389.25,
+            6247032.3
+           ],
+           [
+            539940.87,
+            6247454.72
+           ],
+           [
+            540708.77,
+            6247619.67
+           ],
+           [
+            541341.7,
+            6248082.09
+           ],
+           [
+            542061.4,
+            6247863.66
+           ],
+           [
+            543501.47,
+            6248254.64
+           ],
+           [
+            544643.4,
+            6248856.13
+           ],
+           [
+            546544.14,
+            6249482.15
+           ],
+           [
+            547477.3,
+            6249976.33
+           ],
+           [
+            548411.62,
+            6250144.22
+           ],
+           [
+            549259.25,
+            6250218.4
+           ],
+           [
+            550037.88,
+            6250201.24
+           ],
+           [
+            551022.24,
+            6250385.91
+           ],
+           [
+            552100.35,
+            6249698.99
+           ],
+           [
+            552733.92,
+            6249499.35
+           ],
+           [
+            553319.22,
+            6249464.55
+           ],
+           [
+            553798.09,
+            6249245.54
+           ],
+           [
+            554156.01,
+            6248808.58
+           ],
+           [
+            554907.27,
+            6248852.21
+           ],
+           [
+            555261.51,
+            6248929.54
+           ],
+           [
+            555793.9400000001,
+            6248993.87
+           ],
+           [
+            556133.53,
+            6249109.48
+           ],
+           [
+            556177.54,
+            6249547.35
+           ],
+           [
+            556070.43,
+            6249943.87
+           ],
+           [
+            556070.11,
+            6250286.61
+           ],
+           [
+            556000.0,
+            6251080.44
+           ],
+           [
+            556519.22,
+            6251942.56
+           ],
+           [
+            557320.22,
+            6252453.1
+           ],
+           [
+            558440.0,
+            6252819.01
+           ],
+           [
+            559697.15,
+            6253826.35
+           ],
+           [
+            559711.0700000001,
+            6254891.73
+           ],
+           [
+            559983.17,
+            6255718.11
+           ],
+           [
+            560848.58,
+            6257135.91
+           ],
+           [
+            562403.13,
+            6257453.96
+           ],
+           [
+            563781.16,
+            6257266.66
+           ],
+           [
+            564056.4500000001,
+            6257376.14
+           ]
+          ],
+          [
+           [
+            525079.16,
+            6195394.58
+           ],
+           [
+            525282.86,
+            6195268.97
+           ],
+           [
+            525404.9,
+            6195204.7
+           ],
+           [
+            525432.8200000001,
+            6195115.03
+           ],
+           [
+            525554.0700000001,
+            6194961.42
+           ],
+           [
+            525546.39,
+            6194723.88
+           ],
+           [
+            525660.6900000001,
+            6194665.84
+           ],
+           [
+            525656.8,
+            6194563.38
+           ],
+           [
+            525721.72,
+            6194499.04
+           ],
+           [
+            525752.7,
+            6194379.93
+           ],
+           [
+            525767.41,
+            6194263.27
+           ],
+           [
+            525800.03,
+            6194222.96
+           ],
+           [
+            525856.3,
+            6194127.93
+           ],
+           [
+            525927.37,
+            6194061.23
+           ],
+           [
+            525980.88,
+            6194020.98
+           ],
+           [
+            526064.35,
+            6193967.32
+           ],
+           [
+            526133.62,
+            6193981.33
+           ],
+           [
+            526187.93,
+            6193953.86
+           ],
+           [
+            526247.83,
+            6193908.41
+           ],
+           [
+            526342.1,
+            6193916.98
+           ],
+           [
+            526437.4,
+            6193890.11
+           ],
+           [
+            526649.81,
+            6193786.37
+           ],
+           [
+            526701.02,
+            6193739.95
+           ],
+           [
+            526857.21,
+            6193567.13
+           ],
+           [
+            526954.55,
+            6193481.59
+           ],
+           [
+            527019.39,
+            6193240.67
+           ],
+           [
+            527150.55,
+            6193103.82
+           ],
+           [
+            527262.15,
+            6193089.27
+           ],
+           [
+            527406.65,
+            6192907.42
+           ],
+           [
+            527560.49,
+            6192439.79
+           ],
+           [
+            527963.59,
+            6191887.06
+           ],
+           [
+            528383.11,
+            6191412.7
+           ],
+           [
+            528654.67,
+            6191252.97
+           ],
+           [
+            528753.39,
+            6191067.06
+           ],
+           [
+            528802.28,
+            6190786.44
+           ],
+           [
+            528786.46,
+            6190592.19
+           ],
+           [
+            528994.46,
+            6190394.63
+           ],
+           [
+            529348.7,
+            6190224.74
+           ],
+           [
+            529591.84,
+            6190099.88
+           ],
+           [
+            529892.18,
+            6189960.26
+           ],
+           [
+            530092.31,
+            6189964.2
+           ],
+           [
+            530418.53,
+            6189950.61
+           ],
+           [
+            530786.95,
+            6189841.26
+           ],
+           [
+            530933.41,
+            6189824.96
+           ],
+           [
+            531010.5,
+            6189616.87
+           ],
+           [
+            531335.16,
+            6189591.81
+           ],
+           [
+            531560.27,
+            6189537.09
+           ],
+           [
+            531689.89,
+            6189500.53
+           ],
+           [
+            531816.55,
+            6189508.09
+           ],
+           [
+            531892.92,
+            6189483.38
+           ],
+           [
+            532068.02,
+            6189489.84
+           ],
+           [
+            532228.13,
+            6189549.77
+           ],
+           [
+            532421.28,
+            6189703.66
+           ],
+           [
+            532651.34,
+            6189803.88
+           ],
+           [
+            532879.35,
+            6189930.14
+           ],
+           [
+            532989.27,
+            6190079.13
+           ],
+           [
+            533058.87,
+            6190182.21
+           ],
+           [
+            533141.47,
+            6190166.39
+           ],
+           [
+            533236.85,
+            6190189.08
+           ],
+           [
+            533243.25,
+            6190130.84
+           ],
+           [
+            533324.58,
+            6190161.9
+           ],
+           [
+            533433.79,
+            6190086.23
+           ],
+           [
+            533762.47,
+            6190059.41
+           ],
+           [
+            533972.04,
+            6190299.05
+           ],
+           [
+            534208.24,
+            6190390.71
+           ],
+           [
+            534293.1,
+            6190540.78
+           ],
+           [
+            534387.87,
+            6190542.45
+           ],
+           [
+            534501.16,
+            6190642.71
+           ],
+           [
+            534617.87,
+            6190685.5
+           ],
+           [
+            534747.1,
+            6190847.23
+           ],
+           [
+            534861.39,
+            6191027.29
+           ],
+           [
+            534853.66,
+            6191238.08
+           ],
+           [
+            534895.68,
+            6191361.27
+           ],
+           [
+            534980.51,
+            6191598.88
+           ],
+           [
+            535202.77,
+            6191669.3
+           ],
+           [
+            535303.98,
+            6191772.92
+           ],
+           [
+            535310.65,
+            6191829.39
+           ],
+           [
+            535444.79,
+            6191869.15
+           ],
+           [
+            535487.15,
+            6192043.1
+           ],
+           [
+            535371.35,
+            6192262.41
+           ],
+           [
+            535426.5,
+            6192681.96
+           ],
+           [
+            535662.87,
+            6192995.08
+           ],
+           [
+            535923.37,
+            6193227.19
+           ],
+           [
+            536222.88,
+            6193482.48
+           ],
+           [
+            536654.5700000001,
+            6193807.53
+           ],
+           [
+            536929.68,
+            6194140.91
+           ],
+           [
+            537151.21,
+            6194179.65
+           ],
+           [
+            537381.3200000001,
+            6194256.47
+           ],
+           [
+            537435.72,
+            6194514.09
+           ],
+           [
+            537713.22,
+            6194688.76
+           ],
+           [
+            537882.35,
+            6194876.63
+           ],
+           [
+            538265.8200000001,
+            6195326.41
+           ],
+           [
+            538588.91,
+            6195495.2
+           ],
+           [
+            538601.56,
+            6195729.24
+           ],
+           [
+            538638.83,
+            6196028.39
+           ],
+           [
+            538636.89,
+            6196388.21
+           ],
+           [
+            538578.4400000001,
+            6196918.06
+           ],
+           [
+            538921.27,
+            6197189.27
+           ],
+           [
+            539233.12,
+            6197581.07
+           ],
+           [
+            539648.53,
+            6197853.7
+           ],
+           [
+            540033.95,
+            6198392.3
+           ],
+           [
+            539791.45,
+            6199028.44
+           ],
+           [
+            540619.5,
+            6198987.01
+           ],
+           [
+            541071.73,
+            6199347.56
+           ],
+           [
+            541282.8200000001,
+            6199735.33
+           ],
+           [
+            541591.86,
+            6200099.67
+           ],
+           [
+            541736.47,
+            6200546.57
+           ],
+           [
+            541994.01,
+            6200935.23
+           ],
+           [
+            542133.76,
+            6201287.95
+           ],
+           [
+            542698.87,
+            6201474.59
+           ],
+           [
+            543056.46,
+            6201840.85
+           ]
+          ],
+          [
+           [
+            525050.95,
+            6195253.75
+           ],
+           [
+            525074.12,
+            6195400.12
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1085861",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539883.71,
+         6220323.94
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yznvl3ubf6u3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yznvl3ubf6u3w"
+       },
+       "result": "Gudenå"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 7467 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "yznvl3ubf6u3w",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "MultiLineString"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:16+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "gudenå",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 245,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "gudenå",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Gudenå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1085861",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539883.71,
+         6220323.94
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yznvl3ubf6u3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yznvl3ubf6u3w"
+       },
+       "result": "Gudenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå Øst",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6154,
+        "upstream": {
+         "stednavn": {
+          "id": "1034769",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561743.3,
+         6256526.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ljddhscvb6jxg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ljddhscvb6jxg"
+       },
+       "result": "Gudenå Øst"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå Vest",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6154,
+        "upstream": {
+         "stednavn": {
+          "id": "1151385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561563.77,
+         6256613.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3bsh4ikhvknik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3bsh4ikhvknik"
+       },
+       "result": "Gudenå Vest"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå-Krukken",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7535694",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564022.761,
+         6257350.837
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6vkget7tqzmls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6vkget7tqzmls"
+       },
+       "result": "Gudenå-Krukken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenåbroen",
+        "type": "vej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1134345",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561154.22,
+         6257251.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5piqyk3iha7mu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5piqyk3iha7mu"
+       },
+       "result": "Gudenåbroen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenåhuset",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1078829",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540533.671,
+         6248225.19
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "miamyspak7wnc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "miamyspak7wnc"
+       },
+       "result": "Gudenåhuset"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenåmuseet",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1139157",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         543605.302,
+         6212683.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oa7jmcxxxgdtq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oa7jmcxxxgdtq"
+       },
+       "result": "Gudenåmuseet"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenåparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "7333618",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562571.59,
+         6257607.219
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t7vtufygrvpgk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "t7vtufygrvpgk"
+       },
+       "result": "Gudenåparken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudenåskolen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "7652128",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548454.229,
+         6216222.545
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j52gefddxpyxw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j52gefddxpyxw"
+       },
+       "result": "Gudenåskolen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudensø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1058740",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547691.192,
+         6213783.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wei2ssuuaemuk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wei2ssuuaemuk"
+       },
+       "result": "Gudensø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Gudenåcenteret",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1068605",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530230.187,
+         6190645.075
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e5b3p7dtxxli6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e5b3p7dtxxli6"
+       },
+       "result": "Gudenåcenteret"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Gudenåkollegiet",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7381357",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530425.784,
+         6190589.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k5qgcusheujiy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "k5qgcusheujiy"
+       },
+       "result": "Gudenåkollegiet"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Pigen i Gudenåen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7535695",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         563822.886,
+         6257281.981
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5hluzylmp4poo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5hluzylmp4poo"
+       },
+       "result": "Pigen i Gudenåen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Gudenhøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3846,
+        "upstream": {
+         "stednavn": {
+          "id": "1088927",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         490633.0,
+         6236730.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vyaktm6hjydws",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vyaktm6hjydws"
+       },
+       "result": "Gudenhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3846,
+        "upstream": {
+         "stednavn": {
+          "id": "1080899",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540100.485,
+         6241470.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k4mxvk2g4ngty",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "k4mxvk2g4ngty"
+       },
+       "result": "Gudenlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenå",
+        "type": "lufthavn"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1046487",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         619010.108,
+         6256849.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dge2gqcctvvka",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dge2gqcctvvka"
+       },
+       "result": "Grenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "7630272",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616116.675,
+         6252687.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qawens7wstdmm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qawens7wstdmm"
+       },
+       "result": "Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenslund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1147223",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542230.263,
+         6209161.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "266js3aedo2p4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "266js3aedo2p4"
+       },
+       "result": "Gudenslund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "stednavn": "Grønå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7577401",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         500756.33,
+         6086286.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cq6a3to2s6jp2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cq6a3to2s6jp2"
+       },
+       "result": "Grønå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Gudenåens Udspring",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1122225",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525029.06,
+         6195265.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fguy7i57hubeg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fguy7i57hubeg"
+       },
+       "result": "Gudenåens Udspring"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7411233",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555520.119,
+         6094208.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iankl633z5esy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "iankl633z5esy"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7411249",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555520.119,
+         6094208.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j7whwaa6d7dai",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j7whwaa6d7dai"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Næstved",
+          "kommunekode": "0370"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7443601",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         670828.353,
+         6127553.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6gs2ngpjbxm6u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6gs2ngpjbxm6u"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenådalens Museum",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1140950",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539855.743,
+         6248323.18
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bmklmxhdxgnxe",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bmklmxhdxgnxe"
+       },
+       "result": "Gudenådalens Museum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudum Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1102368",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         648611.24,
+         6146918.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xq4bulif6bxju",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xq4bulif6bxju"
+       },
+       "result": "Gudum Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Nordenå",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1101504",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461747.472,
+         6189883.42
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ebwr32dmypeao",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ebwr32dmypeao"
+       },
+       "result": "Nordenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenådalens Friskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2917,
+        "upstream": {
+         "stednavn": {
+          "id": "7617425",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         538263.565,
+         6248642.81
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d33khm5bl6yby",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d33khm5bl6yby"
+       },
+       "result": "Gudenådalens Friskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Gudsø Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1045328",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         535583.74,
+         6154408.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xw3ybagwxn3uk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xw3ybagwxn3uk"
+       },
+       "result": "Gudsø Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Ny Grenaa",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1130458",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         614647.42,
+         6253410.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mc2667tazxdzu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mc2667tazxdzu"
+       },
+       "result": "Ny Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudensøgården",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2778,
+        "upstream": {
+         "stednavn": {
+          "id": "1024606",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547469.565,
+         6213744.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c5q6uggz3sy6k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "c5q6uggz3sy6k"
+       },
+       "result": "Gudensøgården"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1115944",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608962.01,
+         6112676.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "brmhapksw6ihc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "brmhapksw6ihc"
+       },
+       "result": "Gudme"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7459825",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608741.181,
+         6112838.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qvxxj7l3ff5v6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qvxxj7l3ff5v6"
+       },
+       "result": "Gudme"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1147390",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467209.179,
+         6263822.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bwctxivj222uo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bwctxivj222uo"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7432337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564848.732,
+         6312219.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aqvr3scs57tko",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aqvr3scs57tko"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7468353",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         651120.815,
+         6146431.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ir746qgawzmna",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ir746qgawzmna"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7482625",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467154.7,
+         6263903.565
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ziimoro6fhugo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ziimoro6fhugo"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Senå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1094377",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         500416.87,
+         6331378.89
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "krwixciybomum",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "krwixciybomum"
+       },
+       "result": "Senå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Gudenaadalens Efterskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2692,
+        "upstream": {
+         "stednavn": {
+          "id": "1068493",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548990.1,
+         6250026.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ymugsdi5nrmuq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ymugsdi5nrmuq"
+       },
+       "result": "Gudenaadalens Efterskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenåcamping Brædstrup",
+        "type": "campingplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2593,
+        "upstream": {
+         "stednavn": {
+          "id": "1097836",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540735.81,
+         6199079.085
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ctvyumy4dk366",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ctvyumy4dk366"
+       },
+       "result": "Gudenåcamping Brædstrup"
+      },
+      {
+       "components": {
+        "stednavn": "Grenaa Havn",
+        "type": "havnebassin"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "7529213",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         618989.873,
+         6253910.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pwbqjnyqw7sey",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pwbqjnyqw7sey"
+       },
+       "result": "Grenaa Havn"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

@@ -19,8 +19,9 @@ author               : asger@septima.dk
 """
 
 from builtins import object
+import os
 
-from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
+from qgis.PyQt.QtCore import QCoreApplication, QTranslator, Qt
 from qgis.PyQt.QtWidgets import QDockWidget, QAction
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import QgsApplication
@@ -28,6 +29,9 @@ from qgis.core import QgsApplication
 from .config import Settings, OptionsFactory
 
 from .searchbox import SearchBox
+from . import whatsnew
+from .bifrost import translation
+from .language import translation_file, ui_language
 
 
 class SeptimaGeoSearch(object):
@@ -36,30 +40,16 @@ class SeptimaGeoSearch(object):
         # Save reference to the QGIS interface
         self.iface = iface
 
-        # initialize plugin directory
-        self.plugin_dir = (
-            QFileInfo(QgsApplication.qgisUserDatabaseFilePath()).path()
-            + "/python/plugins/"
-            + __package__
-        )
-
-        # initialize locale. Default to Danish
-        self.config = QSettings()
-        localePath = ""
-        try:
-            locale = self.config.value("locale/userLocale")[0:2]
-        except:
-            locale = "da"
-
-        if QFileInfo(self.plugin_dir).exists():
-            localePath = self.plugin_dir + "/i18n/" + locale + ".qt.qm"
-
-        if QFileInfo(localePath).exists():
+        # English in an English QGIS, otherwise the Danish source texts.
+        self.translator = None
+        path = translation_file(ui_language())
+        if path and os.path.exists(path):
             self.translator = QTranslator()
-            self.translator.load(localePath)
-
-            if qVersion() > "4.3.3":
+            if self.translator.load(path):
                 QgsApplication.installTranslator(self.translator)
+            else:
+                self.translator = None
+        translation.set_translate(QCoreApplication.translate)
 
         # new config method
         self.settings = Settings()
@@ -80,10 +70,25 @@ class SeptimaGeoSearch(object):
         self.iface.addDockWidget(
             Qt.DockWidgetArea.TopDockWidgetArea, self.searchdockwidget
         )
+        # QGIS restores the saved dock size after initGui; fit it to the banner
+        self.searchdockwidget.dockLocationChanged.connect(self.searchwidget.fitDock)
+        self.iface.initializationCompleted.connect(self.searchwidget.fitDock)
         # Make changed settings apply immediately
         self.settings.settings_updated.connect(self.searchwidget.readconfig)
+        if self.settings.kommunefilter_migrated_now:
+            self.settings.kommunefilter_migrated_now = False
+            self.searchwidget.showKommunefilterMigrationNotice()
 
     def unload(self):
+        whatsnew.close_whats_new()
+        try:
+            self.iface.initializationCompleted.disconnect(self.searchwidget.fitDock)
+        except TypeError:
+            pass
         self.searchwidget.unload()  # try to avoid processing events, when QGIS is closing
         self.iface.removeDockWidget(self.searchdockwidget)
         self.iface.unregisterOptionsWidgetFactory(self.options_factory)
+        translation.set_translate(None)
+        if self.translator is not None:
+            QgsApplication.removeTranslator(self.translator)
+            self.translator = None

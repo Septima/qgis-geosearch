@@ -1,0 +1,1756 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": true,
+  "selected": [
+   "sog"
+  ],
+  "text": "vor frue"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "vor frue",
+     "limit": 40,
+     "target": "sogn"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "sog"
+   ],
+   "response": [
+    {
+     "input": "vor frue",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "7158"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "7158",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694507.026,
+         6166776.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nvv27pu7lw374",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "nvv27pu7lw374"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "7268"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "7268",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         635986.848,
+         6179628.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "67q7735rkxxjk",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "67q7735rkxxjk"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "7675"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "7675",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         603147.563,
+         6103941.695
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "orqawrpeb4e7q",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "orqawrpeb4e7q"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "7779"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "7779",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         588819.183,
+         6139841.355
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4kzvvek4nekkc",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "4kzvvek4nekkc"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8115"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "8115",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574043.339,
+         6223690.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j6aud6vh7ndqm",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "j6aud6vh7ndqm"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8368"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "8368",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556167.239,
+         6321840.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "twtigoelqebnw",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "twtigoelqebnw"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "8961"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "8961",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         531374.7,
+         6122785.16
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wdktxmq5g5gog",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "wdktxmq5g5gog"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frue",
+          "sognekode": "9174"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "sogn": {
+          "id": "9174",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723979.241,
+         6176509.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r6l6vivsq7buu",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "r6l6vivsq7buu"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frelsers",
+          "sognekode": "7082"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "sogn": {
+          "id": "7082",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         728347.79,
+         6176532.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dvxqxw7ih23zm",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "dvxqxw7ih23zm"
+       },
+       "result": "Vor Frelsers"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frelsers",
+          "sognekode": "7894"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "sogn": {
+          "id": "7894",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         534731.761,
+         6174250.12
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qh2ge2eoeygam",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "qh2ge2eoeygam"
+       },
+       "result": "Vor Frelsers"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frelsers",
+          "sognekode": "8053"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "sogn": {
+          "id": "8053",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552449.13,
+         6192435.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4bu2pppvzxlec",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "4bu2pppvzxlec"
+       },
+       "result": "Vor Frelsers"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frelsers",
+          "sognekode": "8366"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "sogn": {
+          "id": "8366",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555028.205,
+         6323718.4
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tthfjx6jaml4q",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "tthfjx6jaml4q"
+       },
+       "result": "Vor Frelsers"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vor Frelsers",
+          "sognekode": "8905"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "sogn": {
+          "id": "8905",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         465512.339,
+         6147336.74
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7d37wi6cuphcm",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "7d37wi6cuphcm"
+       },
+       "result": "Vor Frelsers"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fruering",
+          "sognekode": "8035"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "sogn": {
+          "id": "8035",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562895.274,
+         6208096.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m5lpfsk6rlsxw",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "m5lpfsk6rlsxw"
+       },
+       "result": "Fruering"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorde",
+          "sognekode": "8563"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "sogn": {
+          "id": "8563",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522631.484,
+         6263728.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oqpqq6zyko2pg",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "oqpqq6zyko2pg"
+       },
+       "result": "Vorde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorup",
+          "sognekode": "8146"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "sogn": {
+          "id": "8146",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         563886.768,
+         6255295.275
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y34s37gihrroo",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "y34s37gihrroo"
+       },
+       "result": "Vorup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorgod",
+          "sognekode": "8766"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "sogn": {
+          "id": "8766",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         482690.282,
+         6217030.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nrf5orldilkvg",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "nrf5orldilkvg"
+       },
+       "result": "Vorgod"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorning",
+          "sognekode": "8639"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "sogn": {
+          "id": "8639",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         545347.621,
+         6265835.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pyajfen5j6q2e",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "pyajfen5j6q2e"
+       },
+       "result": "Vorning"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorbasse",
+          "sognekode": "8944"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "sogn": {
+          "id": "8944",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         504257.534,
+         6164975.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rptg6zwkoomre",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "rptg6zwkoomre"
+       },
+       "result": "Vorbasse"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorupør",
+          "sognekode": "9129"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "sogn": {
+          "id": "9129",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461866.606,
+         6311084.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "myjjckjgiac3y",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "myjjckjgiac3y"
+       },
+       "result": "Vorupør"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vorslunde",
+          "sognekode": "9284"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "sogn": {
+          "id": "9284",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         507146.189,
+         6190305.695
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "paf3sxgqgrdgs",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "paf3sxgqgrdgs"
+       },
+       "result": "Vorslunde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voel",
+          "sognekode": "8021"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "sogn": {
+          "id": "8021",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         543316.919,
+         6227746.335
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ufwqlzgo7kjqa",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "ufwqlzgo7kjqa"
+       },
+       "result": "Voel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voer",
+          "sognekode": "8262"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "sogn": {
+          "id": "8262",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577846.832,
+         6264389.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "56obg3isqlxs2",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "56obg3isqlxs2"
+       },
+       "result": "Voer"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voer",
+          "sognekode": "8448"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "sogn": {
+          "id": "8448",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         579538.203,
+         6346051.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jieqgdyxcag6a",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "jieqgdyxcag6a"
+       },
+       "result": "Voer"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vordingborg",
+          "sognekode": "7469"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "sogn": {
+          "id": "7469",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         689551.123,
+         6098941.575
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "umawpkcnrdzte",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "umawpkcnrdzte"
+       },
+       "result": "Vordingborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vonge",
+          "sognekode": "9286"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "sogn": {
+          "id": "9286",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         526018.38,
+         6192287.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gnedeooxeycck",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "gnedeooxeycck"
+       },
+       "result": "Vonge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vroue",
+          "sognekode": "8508"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "sogn": {
+          "id": "8508",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         502932.837,
+         6255862.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zb5xw6l6wwahm",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "zb5xw6l6wwahm"
+       },
+       "result": "Vroue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fræer",
+          "sognekode": "8302"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "8302",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556146.707,
+         6300009.125
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bqqkh6tpgtbjw",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "bqqkh6tpgtbjw"
+       },
+       "result": "Fræer"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vodder",
+          "sognekode": "9033"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "9033",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         491240.465,
+         6117793.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fo5fdewonggva",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "fo5fdewonggva"
+       },
+       "result": "Vodder"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Vojens",
+          "sognekode": "8975"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "8975",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         520690.571,
+         6123158.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3kb65lcimsrps",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "3kb65lcimsrps"
+       },
+       "result": "Vojens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voldby",
+          "sognekode": "8023"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "8023",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555658.478,
+         6232236.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7jngw2jmvw5ne",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "7jngw2jmvw5ne"
+       },
+       "result": "Voldby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voldby",
+          "sognekode": "8235"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "8235",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         615611.26,
+         6258682.505
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y4ty4gqb5nu2w",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "y4ty4gqb5nu2w"
+       },
+       "result": "Voldby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Voldum",
+          "sognekode": "8143"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "sogn": {
+          "id": "8143",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573228.873,
+         6247854.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lid7nrimbntoc",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "lid7nrimbntoc"
+       },
+       "result": "Voldum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Framlev",
+          "sognekode": "8082"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "8082",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562294.542,
+         6223709.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iiuwbga4nusko",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "iiuwbga4nusko"
+       },
+       "result": "Framlev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fraugde",
+          "sognekode": "7879"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "7879",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594311.709,
+         6135381.09
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hsg3yu65wa6i2",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "hsg3yu65wa6i2"
+       },
+       "result": "Fraugde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fredens",
+          "sognekode": "7782"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "7782",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         589876.156,
+         6143948.395
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4fpklcukywsk6",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "4fpklcukywsk6"
+       },
+       "result": "Fredens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fredens",
+          "sognekode": "8101"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "8101",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573475.289,
+         6221226.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p5mdarvep6asy",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "p5mdarvep6asy"
+       },
+       "result": "Fredens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fredens",
+          "sognekode": "8791"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "8791",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         499571.853,
+         6221540.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "isadq3dj6p3fe",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "isadq3dj6p3fe"
+       },
+       "result": "Fredens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Fredens",
+          "sognekode": "9139"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "9139",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605398.331,
+         6103483.29
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uxggjh3m274r4",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "uxggjh3m274r4"
+       },
+       "result": "Fredens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Frejlev",
+          "sognekode": "8330"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "sogn": {
+          "id": "8330",
+          "source": "DAGI.Sogneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550304.547,
+         6318492.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "khqic6ulvwukq",
+        "kind": "sogn"
+       },
+       "refs": {
+        "sogn": "khqic6ulvwukq"
+       },
+       "result": "Frejlev"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

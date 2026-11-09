@@ -1,0 +1,1503 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": false,
+  "selected": [
+   "adr",
+   "ste",
+   "pos",
+   "mat",
+   "kom",
+   "ops",
+   "pol",
+   "reg"
+  ],
+  "text": "aarhus"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": {
+    "input": "aarhus",
+    "limit": 5
+   },
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "aarhus",
+    "matches": [
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.7778,
+       "upstream": {
+        "city": {
+         "id": "alg47jzq7a3kq",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        577561.955,
+        6222970.37
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "alg47jzq7a3kq",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "alg47jzq7a3kq"
+      },
+      "result": "Aarhus C"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Aarhus N",
+         "postcode": "8200"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.7778,
+       "upstream": {
+        "city": {
+         "id": "ndcntzzopep7u",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        571609.685,
+        6229385.0
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ndcntzzopep7u",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "ndcntzzopep7u"
+      },
+      "result": "Aarhus N"
+     },
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Aarhus V",
+         "postcode": "8210"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.7778,
+       "upstream": {
+        "city": {
+         "id": "xqvtv72zfqiuc",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        571897.925,
+        6225676.96
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xqvtv72zfqiuc",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "xqvtv72zfqiuc"
+      },
+      "result": "Aarhus V"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Odder",
+         "kommunekode": "0727"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Odder",
+         "postcode": "8300"
+        }
+       ],
+       "street": "Århusvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5455,
+       "upstream": {
+        "street": {
+         "id": "0725b02d-44d1-4850-952e-08eb36466b1c",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        572890.57,
+        6207103.84
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qzxq5iyhztglm",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "qzxq5iyhztglm"
+      },
+      "result": "Århusvej, 8300 Odder"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Favrskov",
+         "kommunekode": "0710"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hinnerup",
+         "postcode": "8382"
+        }
+       ],
+       "street": "Århusvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5455,
+       "upstream": {
+        "street": {
+         "id": "0bd5f59f-579e-4a74-b29e-3716b259b8db",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        566978.01,
+        6234041.75
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "atvnq7uz5k6x2",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "atvnq7uz5k6x2"
+      },
+      "result": "Århusvej, 8382 Hinnerup"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "aarhus",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "aarhus",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Århus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1057752",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467703.578,
+         6298415.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5jfmymzcqm4kc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5jfmymzcqm4kc"
+       },
+       "result": "Århus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Aarhus",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7631521",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572231.425,
+         6224738.757
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5hsruu5jxboha",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5hsruu5jxboha"
+       },
+       "result": "Aarhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Århus Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.875,
+        "upstream": {
+         "stednavn": {
+          "id": "1052855",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565385.22,
+         6221491.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y6j7oaqna6j3c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "y6j7oaqna6j3c"
+       },
+       "result": "Århus Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Aarhus Ø",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7,
+        "upstream": {
+         "stednavn": {
+          "id": "7629313",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575922.557,
+         6224689.238
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2ur7ecx57inro",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2ur7ecx57inro"
+       },
+       "result": "Aarhus Ø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Aarhus BSS",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6364,
+        "upstream": {
+         "stednavn": {
+          "id": "7631902",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         501738.26,
+         6220493.685
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pqejnhj4spn6o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pqejnhj4spn6o"
+       },
+       "result": "Aarhus BSS"
+      }
+     ]
+    },
+    {
+     "input": "aarhus",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7778,
+        "upstream": {
+         "postcode": {
+          "id": "8000",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577561.955,
+         6222970.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g435mecz6suyu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "g435mecz6suyu"
+       },
+       "result": "Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7778,
+        "upstream": {
+         "postcode": {
+          "id": "8200",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571609.685,
+         6229385.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qahk27yhlivye",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "qahk27yhlivye"
+       },
+       "result": "Aarhus N"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus V",
+          "postcode": "8210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7778,
+        "upstream": {
+         "postcode": {
+          "id": "8210",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571897.925,
+         6225676.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hrm4n4znlr4zc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "hrm4n4znlr4zc"
+       },
+       "result": "Aarhus V"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         },
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aars",
+          "postcode": "9600"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "postcode": {
+          "id": "9600",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530313.723,
+         6296683.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4h55c54e3rqxm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "4h55c54e3rqxm"
+       },
+       "result": "Aars"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         },
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Årre",
+          "postcode": "6818"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3,
+        "upstream": {
+         "postcode": {
+          "id": "6818",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         478758.998,
+         6159506.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nebmwkrpgbyxc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "nebmwkrpgbyxc"
+       },
+       "result": "Årre"
+      }
+     ]
+    },
+    {
+     "input": "aarhus",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Århus Bygrunde",
+        "ejerlavskode": 2006351,
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 282057,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1d",
+           "upstream": {
+            "id": 281925,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1i",
+           "upstream": {
+            "id": 100033530,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1r",
+           "upstream": {
+            "id": 100402810,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "2148fo",
+           "upstream": {
+            "id": 100574961,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "2148fq",
+           "upstream": {
+            "id": 100873757,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "jcyp2rdkobsns",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100219244,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "emgeaa3xpdvwa",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 745994,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "jsynb5pu6rfjw",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 745996,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "qxqizo7eejcvu",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 746033,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4375,
+        "upstream": {
+         "ejendom": {
+          "id": 5620649,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575294.628,
+         6223274.51
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3lcwrj5hdgkla",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3lcwrj5hdgkla"
+       },
+       "result": "1a, Århus Bygrunde"
+      },
+      {
+       "components": {
+        "ejerlav": "Århus Bygrunde",
+        "ejerlavskode": 2006351,
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "matrikelnummer": "1h"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1h",
+           "upstream": {
+            "id": 282043,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4375,
+        "upstream": {
+         "ejendom": {
+          "id": 5620657,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575177.156,
+         6223262.018
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rl3rjld2iby5w",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rl3rjld2iby5w"
+       },
+       "result": "1h, Århus Bygrunde"
+      },
+      {
+       "components": {
+        "ejerlav": "Århus Bygrunde",
+        "ejerlavskode": 2006351,
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1k",
+           "upstream": {
+            "id": 100113770,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1m",
+           "upstream": {
+            "id": 100113768,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4375,
+        "upstream": {
+         "ejendom": {
+          "id": 100101380,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575342.649,
+         6223442.581
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ck4af4a5mwv6a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ck4af4a5mwv6a"
+       },
+       "result": "1k, Århus Bygrunde"
+      },
+      {
+       "components": {
+        "ejerlav": "Århus Bygrunde",
+        "ejerlavskode": 2006351,
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "matrikelnummer": "1n"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1n",
+           "upstream": {
+            "id": 100343560,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "3gccms2impvge",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 745735,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4375,
+        "upstream": {
+         "ejendom": {
+          "id": 100328950,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575314.769,
+         6223567.308
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "epnwj6axoqcaa",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "epnwj6axoqcaa"
+       },
+       "result": "1n, Århus Bygrunde"
+      },
+      {
+       "components": {
+        "ejerlav": "Århus Bygrunde",
+        "ejerlavskode": 2006351,
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "matrikelnummer": "1o"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Århus Bygrunde",
+           "ejerlavskode": 2006351,
+           "kommune": "Aarhus",
+           "kommunekode": "0751",
+           "lifecycle": "current",
+           "matrikelnummer": "1o",
+           "upstream": {
+            "id": 100402811,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4375,
+        "upstream": {
+         "ejendom": {
+          "id": 100390314,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575241.95,
+         6223390.599
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jorxpmpsavcu6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jorxpmpsavcu6"
+       },
+       "result": "1o, Århus Bygrunde"
+      }
+     ]
+    },
+    {
+     "input": "aarhus",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "kommune": {
+          "id": "0751",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568072.508,
+         6224865.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wlwh3eayxf424",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "wlwh3eayxf424"
+       },
+       "result": "Aarhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1538,
+        "upstream": {
+         "kommune": {
+          "id": "0851",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561730.817,
+         6329962.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rscxp2rl5hbqa",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "rscxp2rl5hbqa"
+       },
+       "result": "Aalborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "kommune": {
+          "id": "0580",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522540.071,
+         6093026.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gf5rai4h5oxtm",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "gf5rai4h5oxtm"
+       },
+       "result": "Aabenraa"
+      }
+     ]
+    },
+    {
+     "input": "aarhus",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Syd",
+          "opstillingskredsnummer": "62"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6364,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "62",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572442.333,
+         6215408.485
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gqijiv3dsxbus",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "gqijiv3dsxbus"
+       },
+       "result": "Aarhus Syd"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "64",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573898.469,
+         6233652.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fct6fk7wfwhlu",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "fct6fk7wfwhlu"
+       },
+       "result": "Aarhus Nord"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "65",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580606.256,
+         6233418.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhftsa67kcn32",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "yhftsa67kcn32"
+       },
+       "result": "Aarhus Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "63",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565722.982,
+         6224413.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v3jnbbxbs7r6s",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "v3jnbbxbs7r6s"
+       },
+       "result": "Aarhus Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aabenraa",
+          "opstillingskredsnummer": "50"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "50",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522540.071,
+         6093026.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5y3omwg2dz22",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "f5y3omwg2dz22"
+       },
+       "result": "Aabenraa"
+      }
+     ]
+    },
+    {
+     "input": "aarhus",
+     "matches": []
+    },
+    {
+     "input": "aarhus",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

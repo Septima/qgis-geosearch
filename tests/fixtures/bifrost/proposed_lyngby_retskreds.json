@@ -1,0 +1,73 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": true,
+  "selected": [
+   "ret"
+  ],
+  "text": "lyngby"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "lyngby",
+     "limit": 40,
+     "target": "retskreds"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "ret"
+   ],
+   "response": [
+    {
+     "input": "lyngby",
+     "matches": [
+      {
+       "components": {
+        "retskredse": [
+         {
+          "retskreds": "Retten i Lyngby",
+          "retskredsnummer": "20"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.4375,
+        "upstream": {
+         "retskreds": {
+          "id": "20",
+          "source": "DAGI.Retskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         716949.468,
+         6189480.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dhc2pqb3cnqci",
+        "kind": "retskreds"
+       },
+       "refs": {
+        "retskreds": "dhc2pqb3cnqci"
+       },
+       "result": "Retten i Lyngby"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

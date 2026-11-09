@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Geosearch DK 4.0 – what is new, and why</title>
+<!--
+  English version of hvad_er_nyt.html, shown when QGIS runs in English
+  (whatsnew.help_file). Keep the facts, the links and the anchors the same as
+  in the Danish text, and update both together
+  (tests/unit/test_whatsnew_text.py checks the anchors and links).
+-->
+<style>
+  body { font-family: sans-serif; }
+  h2 { margin-bottom: 4px; }
+  h3 { margin-top: 14px; margin-bottom: 4px; }
+  li { margin-bottom: 6px; }
+  .hvorfor { color: #555555; }
+</style>
+</head>
+<body>
+
+<h2>Geosearch DK 4.0 – now with Bifrost</h2>
+
+<p>The Danish Agency for Climate Data (Klimadatastyrelsen) closes the search
+service <b>GSearch</b> in November 2026. Geosearch DK therefore now uses the
+agency's new search service, <b>Bifrost</b>. Most things work as before, but
+there are some differences.</p>
+
+<!--
+  #5: Klimadatastyrelsen does not allow a shared key, so DEFAULT_BIFROST_KEY
+  (config/settings.py) is empty.
+-->
+<h3 id="noegle"><a name="noegle"></a>You need a key for Bifrost</h3>
+<p>Bifrost requires its own API key. A Dataforsyningen token cannot be used,
+so the plugin has removed the token you may have entered in the old
+version.</p>
+<p>The plugin does not have a built-in key, so you have to create a key and
+enter it yourself. As long as there is no key, the search panel shows a yellow
+bar. Click
+<i>Enter key</i> in the yellow bar or the wrench in the search panel (or choose
+<i>Settings → Options → Geosearch DK</i>), and paste it under <b>Bifrost API key</b>.
+<a href="https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen">How to create a user at Dataforsyningen</a>.
+Your IT department can also set the key for everyone with the environment
+variable <code>BIFROST_KEY</code>.</p>
+
+<h3 id="matrikel"><a name="matrikel"></a>Important: Cadastral numbers have become properties</h3>
+<p>Bifrost cannot search parcels, only properties. The search type
+<b>Cadastral numbers</b> is therefore now called <b>Properties</b>. When you
+search for a cadastral number, you find the whole property (BFE) that the
+parcel belongs to, and the map shows the whole property, not just the parcel.
+The exact cadastral number is at the top of the list. If the property is on
+more than one parcel, the list says so, e.g.
+<i>3kg, Vangede (del af ejendom med 27 matrikler)</i>.</p>
+<p>Type <code>ejd:</code> first to search only properties, e.g.
+<code>ejd: 3kg søllerød</code>. <code>mat:</code> still works.
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#matrikel">See examples (in Danish)</a></p>
+
+<h3 id="nyt"><a name="nyt"></a>New</h3>
+<ul>
+  <li><b>Apartments:</b> You can now find addresses with floor and door.</li>
+</ul>
+
+<h3 id="anderledes"><a name="anderledes"></a>Works differently</h3>
+<ul>
+  <li id="visningstekst"><a name="visningstekst"></a><b>The text in the result list</b> is now
+    made by the plugin. Place names are shown as <i>name (type, municipality)</i>, e.g.
+    <i>Skodsborg (bebyggelse, Rudersdal)</i>.</li>
+  <li id="geometri"><a name="geometri"></a><b>The map</b> first zooms to a point. The full
+    geometry, e.g. a road or a property, follows a moment later.</li>
+  <li id="kommunefilter"><a name="kommunefilter"></a><b>The municipality filter</b> is now an
+    option you switch on yourself in the settings. Bifrost cannot filter by
+    municipality, so the plugin fetches results for the whole country and hides
+    those outside your municipalities. Be aware:
+    <ul>
+      <li><b>You can miss results.</b> The plugin only looks at Bifrost's 100
+        best hits for the whole country. For example, cadastral number <i>1a</i> with a
+        filter on Horsens (615) gives no results, even though there are many.
+        <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#kommunefilter">See examples (in Danish)</a></li>
+      <li><b>Addresses work best</b>, because the plugin sends the municipality
+        to Bifrost.</li>
+      <li><b>Large place names</b>, e.g. a river or a region of the country, can
+        be hidden, because they belong to only one municipality.</li>
+      <li>If you used the municipality filter in the old version, it is switched
+        on. You can switch it off in the settings.</li>
+    </ul></li>
+</ul>
+
+<h3 id="virker-ikke"><a name="virker-ikke"></a>No longer works – and why</h3>
+<ul>
+  <li id="delord"><a name="delord"></a><b>Searching for parts of words.</b> <i>nørrebrog</i>
+    no longer finds Nørrebrogade. Type whole words, e.g.
+    <i>nørrebrogade 1 københavn</i>. On the other hand, Bifrost corrects small
+    spelling mistakes.<br>
+    <span class="hvorfor">Why: Bifrost does not offer it.</span>
+    <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#delord">See examples (in Danish)</a></li>
+  <li id="kommunefilter-server"><a name="kommunefilter-server"></a><b>Municipality filter in
+    the search service.</b> GSearch filtered by municipality, so you got all hits in your
+    municipalities. Now the plugin filters by itself, and that can give fewer results (see
+    <a href="#kommunefilter">The municipality filter</a>).<br>
+    <span class="hvorfor">Why: Bifrost does not offer it.</span></li>
+  <li id="undertype"><a name="undertype"></a><b>The subtype of place names.</b> GSearch showed e.g.
+    <i>Skodsborg (By i Rudersdal Kommune)</i>. Now only a general type is shown,
+    e.g. <i>bebyggelse</i> or <i>naturareal</i>, so places with the same name can
+    be hard to tell apart.<br>
+    <span class="hvorfor">Why: Bifrost does not offer it.</span>
+    <a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#visningstekst">See examples (in Danish)</a></li>
+</ul>
+
+<h3 id="sammenlign"><a name="sammenlign"></a>See the differences</h3>
+<p>Concrete examples, recorded from both services before GSearch closed, are in
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md">Differences between GSearch and Bifrost</a> (in Danish).
+Bugs and wishes can be reported on
+<a href="https://github.com/Septima/qgis-geosearch/issues">GitHub</a>.</p>
+
+</body>
+</html>

@@ -1,0 +1,1882 @@
+{
+ "case": {
+  "id": "adr-oesterlund-14",
+  "input": "østerlund 14",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "smxsxeuzxzyh6",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 139,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "smxsxeuzxzyh6",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "14",
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Hjørring",
+          "opstillingskredsnummer": "85"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Nordjyllands Politi",
+          "politikredsnummer": "1"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Sindal",
+          "postcode": "9870"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Nordjylland",
+          "regionskode": "1081"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Hjørring",
+          "retskredsnummer": "1"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Sindal",
+          "sognekode": "8459"
+         }
+        ],
+        "street": "Østerlund"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          572398.1,
+          6371274.63
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         572395.19162783,
+         6371288.55344908
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f509b-8111-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50c9-22fc-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572398.1,
+         6371274.63
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ykul6b3civvee",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "smxsxeuzxzyh6",
+        "unit": "ykul6b3civvee"
+       },
+       "result": "Østerlund 14, 9870 Sindal"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "smxsxeuzxzyh6",
+   "kind": "entrance"
+  },
+  "row_index": 1,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:57:31+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "østerlund 14",
+    "limit": 5
+   },
+   "elapsed_ms": 134,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "østerlund 14",
+    "matches": [
+     {
+      "components": {
+       "house_number": "14",
+       "kommuner": [
+        {
+         "kommune": "Herning",
+         "kommunekode": "0657"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Herning Nord",
+         "opstillingskredsnummer": "81"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestjyllands Politi",
+         "politikredsnummer": "3"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Herning",
+         "postcode": "7400"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Herning",
+         "retskredsnummer": "7"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Gjellerup",
+         "sognekode": "8799"
+        }
+       ],
+       "street": "Østerlund",
+       "sub_locality": "Gjellerup"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "1b231335-7dbf-461c-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "282eb622-3ff8-351f-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        502026.83,
+        6222522.17
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xsm7by3r6o346",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "qha5nmherzmjy",
+       "unit": "xsm7by3r6o346"
+      },
+      "result": "Østerlund 14, Gjellerup, 7400 Herning"
+     },
+     {
+      "components": {
+       "house_number": "14",
+       "kommuner": [
+        {
+         "kommune": "Hjørring",
+         "kommunekode": "0860"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Hjørring",
+         "opstillingskredsnummer": "85"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Sindal",
+         "postcode": "9870"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Hjørring",
+         "retskredsnummer": "1"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sindal",
+         "sognekode": "8459"
+        }
+       ],
+       "street": "Østerlund"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509b-8111-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50c9-22fc-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        572398.1,
+        6371274.63
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ykul6b3civvee",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "smxsxeuzxzyh6",
+       "unit": "ykul6b3civvee"
+      },
+      "result": "Østerlund 14, 9870 Sindal"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Vedbæk",
+         "postcode": "2950"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Østerlund",
+       "sub_locality": "Trørød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c87e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a7-026b-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        721963.66,
+        6193769.77
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wnbem46wzed42",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "abannslwrblx4",
+       "unit": "wnbem46wzed42"
+      },
+      "result": "Østerlund 1, Trørød, 2950 Vedbæk"
+     },
+     {
+      "components": {
+       "house_number": "4",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Vedbæk",
+         "postcode": "2950"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Østerlund",
+       "sub_locality": "Trørød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c882-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a7-026f-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        722041.66,
+        6193749.71
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6qwibzjj7yg6s",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "scln5otiugehy",
+       "unit": "6qwibzjj7yg6s"
+      },
+      "result": "Østerlund 4, Trørød, 2950 Vedbæk"
+     },
+     {
+      "components": {
+       "house_number": "10",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Vedbæk",
+         "postcode": "2950"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Østerlund",
+       "sub_locality": "Trørød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c887-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a7-0274-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        722112.2,
+        6193751.35
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "3wuvtng7rzlqg",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ibymuqdkq3y42",
+       "unit": "3wuvtng7rzlqg"
+      },
+      "result": "Østerlund 10, Trørød, 2950 Vedbæk"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "østerlund 14",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 284,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Østerlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7857,
+        "upstream": {
+         "stednavn": {
+          "id": "1010451",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         455953.549,
+         6248735.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5jgnc4ygnkw7o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5jgnc4ygnkw7o"
+       },
+       "result": "Østerlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Østerlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7857,
+        "upstream": {
+         "stednavn": {
+          "id": "1014595",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522535.785,
+         6185314.845
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5wxmky7klafig",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5wxmky7klafig"
+       },
+       "result": "Østerlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Østerlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7857,
+        "upstream": {
+         "stednavn": {
+          "id": "1016290",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         588614.286,
+         6127074.14
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sxmadgc3w5w4c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sxmadgc3w5w4c"
+       },
+       "result": "Østerlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Østerlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7857,
+        "upstream": {
+         "stednavn": {
+          "id": "1033784",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         487343.391,
+         6234435.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6ce2v4ltsddzo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6ce2v4ltsddzo"
+       },
+       "result": "Østerlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Østerlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7857,
+        "upstream": {
+         "stednavn": {
+          "id": "1033985",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540735.425,
+         6257497.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bk5dl433ppf56",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bk5dl433ppf56"
+       },
+       "result": "Østerlund"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         },
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         },
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Østervrå",
+          "postcode": "9750"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3158,
+        "upstream": {
+         "postcode": {
+          "id": "9750",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576637.165,
+         6355216.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rm5yx536g27hm",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "rm5yx536g27hm"
+       },
+       "result": "Østervrå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Østermarie",
+          "postcode": "3751"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3,
+        "upstream": {
+         "postcode": {
+          "id": "3751",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         887161.609,
+         6133979.125
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "egwxie72i5czc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "egwxie72i5czc"
+       },
+       "result": "Østermarie"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Morsø",
+          "kommunekode": "0773"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Øster Assels",
+          "postcode": "7990"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "postcode": {
+          "id": "7990",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         481280.531,
+         6283259.675
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5ucrdoyhfzue",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "f5ucrdoyhfzue"
+       },
+       "result": "Øster Assels"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         },
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Øster Ulslev",
+          "postcode": "4894"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "postcode": {
+          "id": "4894",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         667603.707,
+         6061861.63
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b4sfyn4gentva",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "b4sfyn4gentva"
+       },
+       "result": "Øster Ulslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Østbirk",
+          "postcode": "8752"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "postcode": {
+          "id": "8752",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         546933.459,
+         6203450.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zphyxqhbhhs2o",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "zphyxqhbhhs2o"
+       },
+       "result": "Østbirk"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "14a",
+           "upstream": {
+            "id": 1957536,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Odderbæk, Thyregod",
+           "ejerlavskode": 1121458,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "2d",
+           "upstream": {
+            "id": 1956344,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "5l",
+           "upstream": {
+            "id": 1957549,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6a",
+           "upstream": {
+            "id": 1957565,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6ab",
+           "upstream": {
+            "id": 1957539,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6ac",
+           "upstream": {
+            "id": 1957530,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "14k",
+           "upstream": {
+            "id": 1957489,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "14l",
+           "upstream": {
+            "id": 1957528,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "20a",
+           "upstream": {
+            "id": 1957562,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5443,
+        "upstream": {
+         "ejendom": {
+          "id": 9117747,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         519187.748,
+         6197180.443
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "shgtm6rjqvt7s",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "shgtm6rjqvt7s"
+       },
+       "result": "14a, Vesterlund By, Vester"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterlund By, Vester",
+        "ejerlavskode": 1121655,
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "14b",
+           "upstream": {
+            "id": 1957529,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6y",
+           "upstream": {
+            "id": 1957548,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6ai",
+           "upstream": {
+            "id": 2655665,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "6ak",
+           "upstream": {
+            "id": 2655662,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vesterlund By, Vester",
+           "ejerlavskode": 1121655,
+           "kommune": "Vejle",
+           "kommunekode": "0630",
+           "lifecycle": "current",
+           "matrikelnummer": "7b",
+           "upstream": {
+            "id": 1957533,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5443,
+        "upstream": {
+         "ejendom": {
+          "id": 9936297,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         520203.274,
+         6196647.987
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "76cvsonynz5ns",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "76cvsonynz5ns"
+       },
+       "result": "14b, Vesterlund By, Vester"
+      },
+      {
+       "components": {
+        "ejerlav": "Østerlarsker",
+        "ejerlavskode": 1390351,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "14a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Østerlarsker",
+           "ejerlavskode": 1390351,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "14a",
+           "upstream": {
+            "id": 580149,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5092,
+        "upstream": {
+         "ejendom": {
+          "id": 9260455,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         880124.027,
+         6130628.428
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u6nnrers6eyt6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "u6nnrers6eyt6"
+       },
+       "result": "14a, Østerlarsker"
+      },
+      {
+       "components": {
+        "ejerlav": "Østerlarsker",
+        "ejerlavskode": 1390351,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Østerlarsker",
+           "ejerlavskode": 1390351,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "14b",
+           "upstream": {
+            "id": 580062,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Østerlarsker",
+           "ejerlavskode": 1390351,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "14e",
+           "upstream": {
+            "id": 580095,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Østerlarsker",
+           "ejerlavskode": 1390351,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "18e",
+           "upstream": {
+            "id": 580072,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5092,
+        "upstream": {
+         "ejendom": {
+          "id": 9260456,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         880163.475,
+         6130458.111
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b5rnq4ssrbpzq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "b5rnq4ssrbpzq"
+       },
+       "result": "14b, Østerlarsker"
+      },
+      {
+       "components": {
+        "ejerlav": "Østerlarsker",
+        "ejerlavskode": 1390351,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "14c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Østerlarsker",
+           "ejerlavskode": 1390351,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "14c",
+           "upstream": {
+            "id": 580044,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5092,
+        "upstream": {
+         "ejendom": {
+          "id": 5160278,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         880456.623,
+         6130234.746
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "njosrynvd5y7u",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "njosrynvd5y7u"
+       },
+       "result": "14c, Østerlarsker"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1579,
+        "upstream": {
+         "kommune": {
+          "id": "0530",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         499603.075,
+         6177653.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4ptnztg6jfn4i",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "4ptnztg6jfn4i"
+       },
+       "result": "Billund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1304,
+        "upstream": {
+         "kommune": {
+          "id": "0165",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         710803.898,
+         6175139.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zvphzmj6tpjp2",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "zvphzmj6tpjp2"
+       },
+       "result": "Albertslund"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Østerbro",
+          "opstillingskredsnummer": "1"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.3333,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "1",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724379.236,
+         6179842.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cmqz5drrucdoa",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "cmqz5drrucdoa"
+       },
+       "result": "Østerbro"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Sundbyøster",
+          "opstillingskredsnummer": "4"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2273,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "4",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         727373.093,
+         6174749.58
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hp23ad5lxnbd4",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "hp23ad5lxnbd4"
+       },
+       "result": "Sundbyøster"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Odense Øst",
+          "opstillingskredsnummer": "41"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "41",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591581.504,
+         6139880.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r5oynlicd6ra6",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "r5oynlicd6ra6"
+       },
+       "result": "Odense Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "65",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580606.256,
+         6233418.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhftsa67kcn32",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "yhftsa67kcn32"
+       },
+       "result": "Aarhus Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Viborg Øst",
+          "opstillingskredsnummer": "76"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "76",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537459.212,
+         6261209.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "axny642tpv2um",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "axny642tpv2um"
+       },
+       "result": "Viborg Øst"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": [
+      {
+       "components": {
+        "politikredse": [
+         {
+          "politikreds": "Østjyllands Politi",
+          "politikredsnummer": "2"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.1333,
+        "upstream": {
+         "politikreds": {
+          "id": "2",
+          "source": "DAGI.Politikreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566182.96,
+         6236711.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6janvqcdrje7y",
+        "kind": "politikreds"
+       },
+       "refs": {
+        "politikreds": "6janvqcdrje7y"
+       },
+       "result": "Østjyllands Politi"
+      }
+     ]
+    },
+    {
+     "input": "østerlund 14",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

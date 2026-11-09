@@ -1,0 +1,84 @@
+name: Tests
+
+on:
+  push:
+    branches: [master, bifrost]
+  pull_request:
+    branches: [master, bifrost]
+  schedule:
+    # Nightly live run against Bifrost. GitHub runs schedules from the default
+    # branch only, so this starts once the workflow is on master.
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+    inputs:
+      live:
+        description: Also run the live suite against Bifrost
+        type: boolean
+        default: true
+
+concurrency:
+  group: tests-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run pytest
+
+  publish-check:
+    name: Publish check (plugin zip)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: make publish-check
+
+  qgis:
+    name: QGIS ${{ matrix.qgis }} (Docker)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        qgis: ["3", "4"] # qgis/qgis:3.44 (LTR, Qt5) and qgis/qgis:4.2 (Qt6)
+    steps:
+      - uses: actions/checkout@v4
+      - run: tests/qgis/run.sh ${{ matrix.qgis }}
+
+  live:
+    name: Live suite (Bifrost)
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.live)
+    runs-on: ubuntu-latest
+    env:
+      BIFROST_KEY: ${{ secrets.BIFROST_KEY }}
+      BIFROST_LIVE_REPORT: out/bifrost-live-report.md
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Check for the BIFROST_KEY secret
+        id: key
+        run: |
+          if [ -z "$BIFROST_KEY" ]; then
+            echo "::warning::The BIFROST_KEY secret is not set; skipping the live suite"
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Run tests/cases.yaml against Bifrost
+        if: steps.key.outputs.present == 'true'
+        run: uv run pytest -m live tests/live
+      - name: Report in the job summary
+        if: always() && steps.key.outputs.present == 'true'
+        run: '[ -f "$BIFROST_LIVE_REPORT" ] && head -c 900000 "$BIFROST_LIVE_REPORT" >> "$GITHUB_STEP_SUMMARY" || true'
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.key.outputs.present == 'true'
+        with:
+          name: bifrost-live-report
+          path: out/bifrost-live-report.md
+          if-no-files-found: ignore

@@ -1,0 +1,931 @@
+{
+ "case": {
+  "id": "kf-vestergade-751",
+  "input": "vestergade",
+  "kommuner": [
+   "751"
+  ],
+  "types": [
+   "adr"
+  ]
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:39+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "components": {
+      "kommune": "0751"
+     },
+     "input": "vestergade",
+     "limit": 20
+    }
+   ],
+   "elapsed_ms": 138,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": [
+    {
+     "input": "vestergade",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Vestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "street": {
+          "id": "17b7f600-ed21-4321-a1d9-8909b4c71c44",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574624.26,
+         6224260.86
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qsfvt6kcl3zf4",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "qsfvt6kcl3zf4"
+       },
+       "result": "Vestergade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Østergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6759,
+        "upstream": {
+         "street": {
+          "id": "aac9ea44-c7de-421b-a3d0-0b5a09590bf0",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574980.32,
+         6223875.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iit7x5ll3ryac",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "iit7x5ll3ryac"
+       },
+       "result": "Østergade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Vesterbrogade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6685,
+        "upstream": {
+         "street": {
+          "id": "265d946e-afe2-4c05-b267-c3de05d8af4a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574263.7,
+         6224278.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "73ertxjvp5rfq",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "73ertxjvp5rfq"
+       },
+       "result": "Vesterbrogade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "F. Vestergaards Gade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6581,
+        "upstream": {
+         "street": {
+          "id": "ad395767-9175-40b9-b80d-5842be0a06b9",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574271.66,
+         6222681.82
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "46bsjv2r5pwe6",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "46bsjv2r5pwe6"
+       },
+       "result": "F. Vestergaards Gade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Værkmestergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6156,
+        "upstream": {
+         "street": {
+          "id": "1a3e1790-fe80-4461-ad7f-6424b3b48889",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574547.36,
+         6223308.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xwlhg7b6tfiho",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "xwlhg7b6tfiho"
+       },
+       "result": "Værkmestergade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Klostergade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5607,
+        "upstream": {
+         "street": {
+          "id": "e4601266-d183-4536-a999-58df1abd6e69",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574897.55,
+         6224412.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "badr6fx55kotc",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "badr6fx55kotc"
+       },
+       "result": "Klostergade, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "street": "Vestergaardsvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5459,
+        "upstream": {
+         "street": {
+          "id": "12d01180-f8dd-4910-8b10-fe707402247e",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572084.92,
+         6221070.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g6yyfru2ik6pa",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "g6yyfru2ik6pa"
+       },
+       "result": "Vestergaardsvej, 8260 Viby J"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Harlev J",
+          "postcode": "8462"
+         }
+        ],
+        "street": "Vestervej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5267,
+        "upstream": {
+         "street": {
+          "id": "f1490663-c836-4b5e-bf47-1b589deb4ebe",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562028.52,
+         6222226.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jg6a3akznesws",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "jg6a3akznesws"
+       },
+       "result": "Vestervej, 8462 Harlev J"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Vesterport"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5034,
+        "upstream": {
+         "street": {
+          "id": "e866f407-6194-487e-aacb-c6760baa8081",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574510.02,
+         6224274.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iblvnxjfvlzwe",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "iblvnxjfvlzwe"
+       },
+       "result": "Vesterport, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Vestervang"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5034,
+        "upstream": {
+         "street": {
+          "id": "4bdf43a2-6a61-435f-a4f4-731efd044071",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574136.61,
+         6224994.25
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kpy7xw2vujtrs",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "kpy7xw2vujtrs"
+       },
+       "result": "Vestervang, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hasselager",
+          "postcode": "8361"
+         }
+        ],
+        "street": "Vestergårdsparken"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4927,
+        "upstream": {
+         "street": {
+          "id": "c5220419-feac-4867-b50f-4b5f91b0a955",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569023.3,
+         6217143.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s5h6354r5tm2i",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "s5h6354r5tm2i"
+       },
+       "result": "Vestergårdsparken, 8361 Hasselager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "street": "Vestergårdsringen"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4927,
+        "upstream": {
+         "street": {
+          "id": "4541af79-9448-4519-81df-8450c96aadcb",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568953.97,
+         6220904.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "a5si3l3zk2zx4",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "a5si3l3zk2zx4"
+       },
+       "result": "Vestergårdsringen, 8260 Viby J"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "street": "Vestergårdsvangen"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4927,
+        "upstream": {
+         "street": {
+          "id": "3154d632-6523-46d9-9424-7890d173dc9b",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568925.56,
+         6220810.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ih6kwaxdhrha2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "ih6kwaxdhrha2"
+       },
+       "result": "Vestergårdsvangen, 8260 Viby J"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ],
+        "street": "Vester Alle"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4825,
+        "upstream": {
+         "street": {
+          "id": "909bace3-5655-4498-a68c-d88c484a2c65",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574508.3,
+         6223994.22
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l7gykaud2i7jw",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "l7gykaud2i7jw"
+       },
+       "result": "Vester Alle, 8000 Aarhus C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         },
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         },
+         {
+          "city": "Aarhus V",
+          "postcode": "8210"
+         }
+        ],
+        "street": "Vestre Ringgade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4797,
+        "upstream": {
+         "street": {
+          "id": "068b9d1b-0464-4111-9a0e-9110464c786a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573583.45,
+         6224812.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zvu2ovjpfbkjw",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "zvu2ovjpfbkjw"
+       },
+       "result": "Vestre Ringgade"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ],
+        "street": "Østerøgade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4636,
+        "upstream": {
+         "street": {
+          "id": "b27ff865-4794-4643-8bee-e3b6b1ff6259",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573916.16,
+         6226181.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cjtnyk5inelbm",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "cjtnyk5inelbm"
+       },
+       "result": "Østerøgade, 8200 Aarhus N"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus N",
+          "postcode": "8200"
+         }
+        ],
+        "street": "Vesterengvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4636,
+        "upstream": {
+         "street": {
+          "id": "cb58fd88-a124-41ca-8425-ad4caee6cadc",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573447.43,
+         6227019.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "odov7zyh777iw",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "odov7zyh777iw"
+       },
+       "result": "Vesterengvej, 8200 Aarhus N"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Viby J",
+          "postcode": "8260"
+         }
+        ],
+        "street": "Vestermarken"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4636,
+        "upstream": {
+         "street": {
+          "id": "9f0f2a32-c52a-4533-8b4e-7c56553265d8",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569142.03,
+         6220762.18
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2xh3meppvtaqo",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "2xh3meppvtaqo"
+       },
+       "result": "Vestermarken, 8260 Viby J"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Åbyhøj",
+          "postcode": "8230"
+         }
+        ],
+        "street": "Vesterløkken"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4464,
+        "upstream": {
+         "street": {
+          "id": "b4e13b3a-d73a-4c1d-9633-efca17a0b380",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571518.75,
+         6222738.63
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pak4ny5igjkfe",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "pak4ny5igjkfe"
+       },
+       "result": "Vesterløkken, 8230 Åbyhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Tilst",
+          "postcode": "8381"
+         }
+        ],
+        "street": "Vestervænget"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4464,
+        "upstream": {
+         "street": {
+          "id": "4d919057-acf0-45fc-ba09-4bee3410f804",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568646.36,
+         6228140.54
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "isn6r3hhwveds",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "isn6r3hhwveds"
+       },
+       "result": "Vestervænget, 8381 Tilst"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

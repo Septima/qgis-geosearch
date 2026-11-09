@@ -1,0 +1,3137 @@
+{
+ "case": {
+  "id": "mat-1a-soenderby",
+  "input": "1a sønderby",
+  "kommuner": null,
+  "types": [
+   "mat"
+  ]
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:29+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "1a sønderby",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 879,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "1a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 87567,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.9129,
+        "upstream": {
+         "ejendom": {
+          "id": 2694505,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561267.126,
+         6119855.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k23rmbajncnj6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "k23rmbajncnj6"
+       },
+       "result": "1a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Borre",
+        "ejerlavskode": 320257,
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "matrikelnummer": "1a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Borre",
+           "ejerlavskode": 320257,
+           "kommune": "Vordingborg",
+           "kommunekode": "0390",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2477886,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.767,
+        "upstream": {
+         "ejendom": {
+          "id": 2601247,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720069.386,
+         6099550.173
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4lhrzwyis2k4w",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4lhrzwyis2k4w"
+       },
+       "result": "1a, Sønderby By, Borre"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Tved",
+        "ejerlavskode": 690952,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Tved",
+           "ejerlavskode": 690952,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2390894,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Tved",
+           "ejerlavskode": 690952,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "2a",
+           "upstream": {
+            "id": 2390927,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Tved",
+           "ejerlavskode": 690952,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "2n",
+           "upstream": {
+            "id": 2390908,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.767,
+        "upstream": {
+         "ejendom": {
+          "id": 10235302,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         480898.721,
+         6323386.351
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tqwzurjwumop4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "tqwzurjwumop4"
+       },
+       "result": "1a, Sønderby By, Tved"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Glud",
+           "ejerlavskode": 1100453,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 1546401,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Kirkholm By, As",
+           "ejerlavskode": 1100151,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "1s",
+           "upstream": {
+            "id": 100058258,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Glud",
+           "ejerlavskode": 1100453,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "1p",
+           "upstream": {
+            "id": 100048465,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Glud",
+           "ejerlavskode": 1100453,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "16d",
+           "upstream": {
+            "id": 1546392,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Glud",
+           "ejerlavskode": 1100453,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "17m",
+           "upstream": {
+            "id": 1546402,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Glud",
+           "ejerlavskode": 1100453,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "17p",
+           "upstream": {
+            "id": 1546404,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Åstrup By, Rårup",
+           "ejerlavskode": 1100963,
+           "kommune": "Hedensted",
+           "kommunekode": "0766",
+           "lifecycle": "current",
+           "matrikelnummer": "1c",
+           "upstream": {
+            "id": 100058260,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.767,
+        "upstream": {
+         "ejendom": {
+          "id": 7045889,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562378.29,
+         6181060.078
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ir3ghvxvsbjt4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ir3ghvxvsbjt4"
+       },
+       "result": "1a, Sønderby By, Glud"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "10a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "10a",
+           "upstream": {
+            "id": 87702,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 9917379,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560190.814,
+         6120662.163
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gbryzrwm2rosi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gbryzrwm2rosi"
+       },
+       "result": "10a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "11a",
+           "upstream": {
+            "id": 87709,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "50b",
+           "upstream": {
+            "id": 87717,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 7179507,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559919.225,
+         6120807.465
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "frnw6qxkyzbpu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "frnw6qxkyzbpu"
+       },
+       "result": "11a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "12a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "12a",
+           "upstream": {
+            "id": 87507,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 2694537,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561588.938,
+         6119749.432
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ug4cvntrughq6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ug4cvntrughq6"
+       },
+       "result": "12a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16a",
+           "upstream": {
+            "id": 87582,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16bl",
+           "upstream": {
+            "id": 87506,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16bm",
+           "upstream": {
+            "id": 87607,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "87",
+           "upstream": {
+            "id": 100066631,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 9509671,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561306.847,
+         6122467.536
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "phxz2qu7etop2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "phxz2qu7etop2"
+       },
+       "result": "16a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "17a",
+           "upstream": {
+            "id": 87673,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Mullerød By, Dreslette",
+           "ejerlavskode": 390360,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "2ah",
+           "upstream": {
+            "id": 92008,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Hagenskov Hgd., Sønderby",
+           "ejerlavskode": 391751,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "1bø",
+           "upstream": {
+            "id": 87413,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16b",
+           "upstream": {
+            "id": 87647,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "20f",
+           "upstream": {
+            "id": 87686,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "20h",
+           "upstream": {
+            "id": 87694,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "31a",
+           "upstream": {
+            "id": 87680,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "31b",
+           "upstream": {
+            "id": 87689,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "48g",
+           "upstream": {
+            "id": 87539,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 9509676,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566503.946,
+         6117870.743
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wmke6jyuq7vcq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wmke6jyuq7vcq"
+       },
+       "result": "17a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "18a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "18a",
+           "upstream": {
+            "id": 2557710,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 9820430,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560160.963,
+         6120414.641
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iffeh6aajfu7e",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "iffeh6aajfu7e"
+       },
+       "result": "18a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "19a",
+           "upstream": {
+            "id": 87591,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ebberup By, Kærum",
+           "ejerlavskode": 391052,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "15g",
+           "upstream": {
+            "id": 86007,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Ebberup By, Kærum",
+           "ejerlavskode": 391052,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "15m",
+           "upstream": {
+            "id": 85944,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "39a",
+           "upstream": {
+            "id": 87695,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "46e",
+           "upstream": {
+            "id": 87671,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 10163138,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561814.334,
+         6122516.289
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bz5q3wljuzya6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "bz5q3wljuzya6"
+       },
+       "result": "19a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "21a",
+           "upstream": {
+            "id": 87533,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "72a",
+           "upstream": {
+            "id": 87534,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 1334329,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561347.389,
+         6122100.368
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gbrvrzazofjds",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "gbrvrzazofjds"
+       },
+       "result": "21a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "41a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "41a",
+           "upstream": {
+            "id": 87721,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 7018023,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559517.944,
+         6120931.621
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dt4cfmghp2zyy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "dt4cfmghp2zyy"
+       },
+       "result": "41a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "61a",
+           "upstream": {
+            "id": 87638,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "61b",
+           "upstream": {
+            "id": 87631,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 9509684,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560975.546,
+         6121840.023
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uzvaxpzs4axvc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "uzvaxpzs4axvc"
+       },
+       "result": "61a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "81a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "81a",
+           "upstream": {
+            "id": 87749,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7454,
+        "upstream": {
+         "ejendom": {
+          "id": 2695021,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562662.943,
+         6121666.441
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sljezm6elozuw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "sljezm6elozuw"
+       },
+       "result": "81a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "1b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "1b",
+           "upstream": {
+            "id": 87516,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694506,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561560.114,
+         6119801.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yn3xjjf4hsmoo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yn3xjjf4hsmoo"
+       },
+       "result": "1b, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "1c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "1c",
+           "upstream": {
+            "id": 87565,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694507,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561422.926,
+         6119835.178
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kihwqq6eowbys",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "kihwqq6eowbys"
+       },
+       "result": "1c, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "2a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "2a",
+           "upstream": {
+            "id": 87537,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694509,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561300.296,
+         6122069.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x5y6dyvrcmsbk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "x5y6dyvrcmsbk"
+       },
+       "result": "2a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "7a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "7a",
+           "upstream": {
+            "id": 87659,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694518,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560847.687,
+         6122406.614
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nxywe67jqjais",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "nxywe67jqjais"
+       },
+       "result": "7a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "8a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "8a",
+           "upstream": {
+            "id": 87708,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694521,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559896.439,
+         6120668.601
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jsudz4xncaqow",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jsudz4xncaqow"
+       },
+       "result": "8a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "9a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "9a",
+           "upstream": {
+            "id": 87519,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694524,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561425.361,
+         6121948.321
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "apk4t6i4hoffq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "apk4t6i4hoffq"
+       },
+       "result": "9a, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16æ"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16æ",
+           "upstream": {
+            "id": 87956,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694561,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561773.259,
+         6122020.656
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fvr47sxt7he22",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "fvr47sxt7he22"
+       },
+       "result": "16æ, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16aa"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16aa",
+           "upstream": {
+            "id": 87961,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694563,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561742.261,
+         6121986.819
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xfdmxv5c3fppk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xfdmxv5c3fppk"
+       },
+       "result": "16aa, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ab"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ab",
+           "upstream": {
+            "id": 87970,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694564,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561710.494,
+         6121992.138
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vsr743dth7e7i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vsr743dth7e7i"
+       },
+       "result": "16ab, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ac"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ac",
+           "upstream": {
+            "id": 87976,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694565,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561685.613,
+         6121999.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6z2oa2q5xhyiq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6z2oa2q5xhyiq"
+       },
+       "result": "16ac, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ad"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ad",
+           "upstream": {
+            "id": 87983,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694566,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561655.787,
+         6122006.906
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3ryoywejgimq6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3ryoywejgimq6"
+       },
+       "result": "16ad, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ae"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ae",
+           "upstream": {
+            "id": 87990,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694567,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561625.579,
+         6122010.032
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6ow4f3sgvhaz6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6ow4f3sgvhaz6"
+       },
+       "result": "16ae, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16af"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16af",
+           "upstream": {
+            "id": 87498,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694568,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561594.647,
+         6122024.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7pk3mc4bbq4ui",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "7pk3mc4bbq4ui"
+       },
+       "result": "16af, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ag"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ag",
+           "upstream": {
+            "id": 87497,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694569,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561603.362,
+         6122065.274
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g3a4axuspsql2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "g3a4axuspsql2"
+       },
+       "result": "16ag, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ah"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ah",
+           "upstream": {
+            "id": 87989,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694570,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561637.335,
+         6122057.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qy35rogfywdbg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qy35rogfywdbg"
+       },
+       "result": "16ah, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ai"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ai",
+           "upstream": {
+            "id": 87980,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694571,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561669.22,
+         6122048.937
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oshqdmwa4yqpc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "oshqdmwa4yqpc"
+       },
+       "result": "16ai, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ak"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ak",
+           "upstream": {
+            "id": 87974,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694572,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561701.769,
+         6122042.17
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qow2ciaf7ruus",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qow2ciaf7ruus"
+       },
+       "result": "16ak, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16al"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16al",
+           "upstream": {
+            "id": 87967,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694573,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561731.508,
+         6122034.996
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ytex75wemz53u",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ytex75wemz53u"
+       },
+       "result": "16al, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16am"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16am",
+           "upstream": {
+            "id": 87966,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694574,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561732.009,
+         6122063.547
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ekxhm6d2g7m64",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ekxhm6d2g7m64"
+       },
+       "result": "16am, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16an",
+           "upstream": {
+            "id": 87965,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694575,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561735.709,
+         6122090.752
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3smvouocx6b24",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3smvouocx6b24"
+       },
+       "result": "16an, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ao"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ao",
+           "upstream": {
+            "id": 87964,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694576,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561733.725,
+         6122120.312
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4b6yr6qsjhc4k",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4b6yr6qsjhc4k"
+       },
+       "result": "16ao, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ap"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ap",
+           "upstream": {
+            "id": 87963,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694577,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561734.979,
+         6122146.411
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ngnrdi4ydzlfs",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ngnrdi4ydzlfs"
+       },
+       "result": "16ap, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16aq"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16aq",
+           "upstream": {
+            "id": 87969,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694578,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561707.262,
+         6122140.234
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nixnzphckgjxo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "nixnzphckgjxo"
+       },
+       "result": "16aq, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16ar"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16ar",
+           "upstream": {
+            "id": 87971,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694579,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561706.511,
+         6122106.392
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pjzaqkfrmqyxo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "pjzaqkfrmqyxo"
+       },
+       "result": "16ar, Sønderby By, Sønderby"
+      },
+      {
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752,
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "matrikelnummer": "16as"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Sønderby By, Sønderby",
+           "ejerlavskode": 391752,
+           "kommune": "Assens",
+           "kommunekode": "0420",
+           "lifecycle": "current",
+           "matrikelnummer": "16as",
+           "upstream": {
+            "id": 87973,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6455,
+        "upstream": {
+         "ejendom": {
+          "id": 2694580,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561701.844,
+         6122074.589
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lqsof3wirpmpi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lqsof3wirpmpi"
+       },
+       "result": "16as, Sønderby By, Sønderby"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}
