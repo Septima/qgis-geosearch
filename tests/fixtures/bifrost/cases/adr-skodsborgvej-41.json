@@ -1,0 +1,1737 @@
+{
+ "case": {
+  "id": "adr-skodsborgvej-41",
+  "input": "skodsborgvej 41",
+  "kommuner": null,
+  "types": [
+   "adr"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "rycz4pdnnbzfq",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 190,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "rycz4pdnnbzfq",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "41",
+        "kommuner": [
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Lyngby",
+          "opstillingskredsnummer": "14"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Nordsjællands Politi",
+          "politikredsnummer": "9"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Virum",
+          "postcode": "2830"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Lyngby",
+          "retskredsnummer": "20"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Lundtofte",
+          "sognekode": "7123"
+         }
+        ],
+        "street": "Skodsborgvej"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          718639.14,
+          6189214.99
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         718656.069971936,
+         6189190.95422869
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507d-6699-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50a6-65d5-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718639.14,
+         6189214.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ko3ihnifnvzko",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "rycz4pdnnbzfq",
+        "unit": "ko3ihnifnvzko"
+       },
+       "result": "Skodsborgvej 41, 2830 Virum"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "rycz4pdnnbzfq",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:11+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "skodsborgvej 41",
+    "limit": 20
+   },
+   "elapsed_ms": 201,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "skodsborgvej 41",
+    "matches": [
+     {
+      "components": {
+       "house_number": "41",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-6699-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65d5-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718639.14,
+        6189214.99
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ko3ihnifnvzko",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "rycz4pdnnbzfq",
+       "unit": "ko3ihnifnvzko"
+      },
+      "result": "Skodsborgvej 41, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "41",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b234-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b201-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564780.46,
+        6318780.05
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "u3rwxnxbfncji",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "k4brroc5sphgu",
+       "unit": "u3rwxnxbfncji"
+      },
+      "result": "Skodsborgvej 41, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "341",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nærum",
+         "postcode": "2850"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Nærum",
+         "sognekode": "7129"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9937,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-be49-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-f25f-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        721906.08,
+        6191508.13
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "grgf6q7khzd3a",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "j5rkperfmkjmm",
+       "unit": "grgf6q7khzd3a"
+      },
+      "result": "Skodsborgvej 341, 2850 Nærum"
+     },
+     {
+      "components": {
+       "house_number": "410",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9937,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-be61-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723832.57,
+        6191877.75
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "o44syxm4ia64u",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "o44syxm4ia64u"
+      },
+      "result": "Skodsborgvej 410, 2942 Skodsborg"
+     },
+     {
+      "components": {
+       "house_number": "412",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9937,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-be62-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723844.3,
+        6191899.66
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "cdqk52amrphf6",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "cdqk52amrphf6"
+      },
+      "result": "Skodsborgvej 412, 2942 Skodsborg"
+     },
+     {
+      "components": {
+       "house_number": "414",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9937,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-be63-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723865.11,
+        6191902.87
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "tjb33aj2duv6k",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "tjb33aj2duv6k"
+      },
+      "result": "Skodsborgvej 414, 2942 Skodsborg"
+     },
+     {
+      "components": {
+       "house_number": "416",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vedbæk",
+         "sognekode": "7126"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9937,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-be64-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723885.9,
+        6191903.7
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nawjn4dma4pne",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "nawjn4dma4pne"
+      },
+      "result": "Skodsborgvej 416, 2942 Skodsborg"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-667e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718371.1,
+        6189112.44
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "g5il6b6lwhlau",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "g5il6b6lwhlau"
+      },
+      "result": "Skodsborgvej 1, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "40",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-6698-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65d4-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718662.98,
+        6189168.73
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nfvqdd4v2zk2m",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "cd3mjnxibgbog",
+       "unit": "nfvqdd4v2zk2m"
+      },
+      "result": "Skodsborgvej 40, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "42",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-669a-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65d6-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718682.73,
+        6189182.3
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "tkiwnnd6sdire",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "hac62elfendom",
+       "unit": "tkiwnnd6sdire"
+      },
+      "result": "Skodsborgvej 42, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "43",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-669b-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65d7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718647.54,
+        6189227.92
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "35zugijps2vc4",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "xkvytplbtlc6y",
+       "unit": "35zugijps2vc4"
+      },
+      "result": "Skodsborgvej 43, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "44",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-669c-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65d8-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718711.43,
+        6189208.34
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pmug6kajkftm6",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "jrg6hg5kzgajs",
+       "unit": "pmug6kajkftm6"
+      },
+      "result": "Skodsborgvej 44, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "46",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-669e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65da-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718727.12,
+        6189220.41
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "624h6orjrfydk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ejekinkmu5sik",
+       "unit": "624h6orjrfydk"
+      },
+      "result": "Skodsborgvej 46, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "49",
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Lyngby",
+         "opstillingskredsnummer": "14"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lundtofte",
+         "sognekode": "7123"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-66a0-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-65dc-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718717.13,
+        6189272.04
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "offretx4kypkk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "65kw3fvn34wyc",
+       "unit": "offretx4kypkk"
+      },
+      "result": "Skodsborgvej 49, 2830 Virum"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b20c-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b1d9-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564884.93,
+        6318904.4
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "a5zcj7i77xfey",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "mhcq7zocjpkli",
+       "unit": "a5zcj7i77xfey"
+      },
+      "result": "Skodsborgvej 1, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "4",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b20f-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b1dc-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564898.66,
+        6318968.63
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mvqriqez6bar2",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "5p52hqm3al6sq",
+       "unit": "mvqriqez6bar2"
+      },
+      "result": "Skodsborgvej 4, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b216-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b1e3-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564867.46,
+        6318778.76
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ri5ydkiwj2ka4",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "pskhgdedjnkha",
+       "unit": "ri5ydkiwj2ka4"
+      },
+      "result": "Skodsborgvej 11, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "21",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b220-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b1ed-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564846.96,
+        6318835.31
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lhcj5kiv7kzhs",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "o6r2r73y6kdqu",
+       "unit": "lhcj5kiv7kzhs"
+      },
+      "result": "Skodsborgvej 21, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "31",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b22a-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b1f7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564798.36,
+        6318893.28
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "binocz3nrhjbk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "b2xvojpsuwlxs",
+       "unit": "binocz3nrhjbk"
+      },
+      "result": "Skodsborgvej 31, 9270 Klarup"
+     },
+     {
+      "components": {
+       "house_number": "40",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Øst",
+         "opstillingskredsnummer": "90"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Romdrup-Klarup",
+         "sognekode": "9187"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-b233-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-b200-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564784.83,
+        6318973.97
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "z3t4idmzjv4nk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "g6h5auonydrea",
+       "unit": "z3t4idmzjv4nk"
+      },
+      "result": "Skodsborgvej 40, 9270 Klarup"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

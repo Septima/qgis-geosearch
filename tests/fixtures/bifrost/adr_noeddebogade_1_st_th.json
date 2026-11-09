@@ -1,0 +1,1571 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": false,
+  "selected": [
+   "adr"
+  ],
+  "text": "Nøddebogade 1 st th"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": {
+    "input": "Nøddebogade 1 st th",
+    "limit": 20
+   },
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "Nøddebogade 1 st th",
+    "matches": [
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5a1-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723570.31,
+        6178009.22
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "zu567tprexcbm",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "zu567tprexcbm"
+      },
+      "result": "Nøddebogade 1, st. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "tv",
+       "floor": "st",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6496,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5a2-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723570.31,
+        6178009.22
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "jzjz7rmdvq44u",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "jzjz7rmdvq44u"
+      },
+      "result": "Nøddebogade 1, st. tv, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5463,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5e8-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723530.39,
+        6178071.29
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mdskqd3jswuoc",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "mdskqd3jswuoc"
+      },
+      "result": "Nøddebogade 11, st. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "17",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5463,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e606-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723509.62,
+        6178105.12
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "q6uwpqytx4hca",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "q6uwpqytx4hca"
+      },
+      "result": "Nøddebogade 17, st. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Høje-Taastrup",
+         "kommunekode": "0169"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Taastrup",
+         "opstillingskredsnummer": "19"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Vestegns Politi",
+         "politikredsnummer": "10"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hedehusene",
+         "postcode": "2640"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Glostrup",
+         "retskredsnummer": "21"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Hedehusene",
+         "sognekode": "9083"
+        }
+       ],
+       "street": "Nøddebovej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5411,
+       "upstream": {
+        "unit": {
+         "id": "0a3f50a5-d25b-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        701187.57,
+        6171983.96
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "smsurpbbfgol6",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "smsurpbbfgol6"
+      },
+      "result": "Nøddebovej 1, st. th, 2640 Hedehusene"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "1",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4677,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5a3-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723570.31,
+        6178009.22
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "4b5hcs5qgndya",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "4b5hcs5qgndya"
+      },
+      "result": "Nøddebogade 1, 1. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "3",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4677,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5a7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723570.31,
+        6178009.22
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ebr3fnmcizfog",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "ebr3fnmcizfog"
+      },
+      "result": "Nøddebogade 1, 3. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "4",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4677,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5a9-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723570.31,
+        6178009.22
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "weoylpfeof5xq",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "weoylpfeof5xq"
+      },
+      "result": "Nøddebogade 1, 4. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "tv",
+       "floor": "st",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4402,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5e9-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723530.39,
+        6178071.29
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "oikg3w6n63uyu",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "oikg3w6n63uyu"
+      },
+      "result": "Nøddebogade 11, st. tv, 2200 København N"
+     },
+     {
+      "components": {
+       "floor": "st",
+       "house_number": "13",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4402,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5f3-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723523.34,
+        6178082.97
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wyqiuc3gaoydm",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "wyqiuc3gaoydm"
+      },
+      "result": "Nøddebogade 13, st., 2200 København N"
+     },
+     {
+      "components": {
+       "floor": "st",
+       "house_number": "15",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4402,
+       "upstream": {
+        "unit": {
+         "id": "4a78ea4c-0516-6ee8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723517.88,
+        6178091.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wwci5nde35u5y",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "wwci5nde35u5y"
+      },
+      "result": "Nøddebogade 15, st., 2200 København N"
+     },
+     {
+      "components": {
+       "door": "tv",
+       "floor": "st",
+       "house_number": "17",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4402,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e607-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723509.62,
+        6178105.12
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "7uzba6khltyhg",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "7uzba6khltyhg"
+      },
+      "result": "Nøddebogade 17, st. tv, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Horsens",
+         "kommunekode": "0615"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Horsens",
+         "opstillingskredsnummer": "71"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Horsens",
+         "postcode": "8700"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frelsers",
+         "sognekode": "8053"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4251,
+       "upstream": {
+        "unit": {
+         "id": "0a3f50bb-79e2-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        552872.61,
+        6191805.04
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "2eokumhmlop4i",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "2eokumhmlop4i"
+      },
+      "result": "Nørrebrogade 1, st. th, 8700 Horsens"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Randers",
+         "kommunekode": "0730"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Randers Syd",
+         "opstillingskredsnummer": "68"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Østjyllands Politi",
+         "politikredsnummer": "2"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Randers C",
+         "postcode": "8900"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Randers",
+         "retskredsnummer": "3"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Peders",
+         "sognekode": "8182"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4251,
+       "upstream": {
+        "unit": {
+         "id": "0a3f50c1-1d6a-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        563960.047920096,
+        6258468.706937416
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "2wy4nw6uxm4tk",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "2wy4nw6uxm4tk"
+      },
+      "result": "Nørrebrogade 1, st. th, 8900 Randers C"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_letter": "C",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Halsnæs",
+         "kommunekode": "0260"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Frederikssund",
+         "opstillingskredsnummer": "24"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hundested",
+         "postcode": "3390"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Hillerød",
+         "retskredsnummer": "18"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Torup",
+         "sognekode": "7408"
+        }
+       ],
+       "street": "Nørregade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4086,
+       "upstream": {
+        "unit": {
+         "id": "0a3f50a9-f536-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        677870.66,
+        6205973.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "waik7vlnx56i6",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "waik7vlnx56i6"
+      },
+      "result": "Nørregade 1C, st. th, 3390 Hundested"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "st",
+       "house_letter": "B",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Køge",
+         "kommunekode": "0259"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Køge",
+         "opstillingskredsnummer": "34"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestsjællands Politi",
+         "politikredsnummer": "8"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Køge",
+         "postcode": "4600"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Roskilde",
+         "retskredsnummer": "17"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Køge",
+         "sognekode": "7206"
+        }
+       ],
+       "street": "Nørregade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4086,
+       "upstream": {
+        "unit": {
+         "id": "0a3f50ab-8204-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        701242.83,
+        6150245.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "kew2zbiccu4hm",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "kew2zbiccu4hm"
+      },
+      "result": "Nørregade 1B, st. th, 4600 Køge"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "3",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3735,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5ef-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723530.39,
+        6178071.29
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "foqnis445cvo6",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "foqnis445cvo6"
+      },
+      "result": "Nøddebogade 11, 3. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "4",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3735,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5f1-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723530.39,
+        6178071.29
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nrmrvcv27wc6i",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "nrmrvcv27wc6i"
+      },
+      "result": "Nøddebogade 11, 4. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "2",
+       "house_number": "15",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3735,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e5ff-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723517.88,
+        6178091.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "t5l2usyffqotu",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "t5l2usyffqotu"
+      },
+      "result": "Nøddebogade 15, 2. th, 2200 København N"
+     },
+     {
+      "components": {
+       "door": "th",
+       "floor": "4",
+       "house_number": "15",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Nørrebro",
+         "opstillingskredsnummer": "5"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Simeon-Sankt Johannes",
+         "sognekode": "9169"
+        }
+       ],
+       "street": "Nøddebogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.3735,
+       "upstream": {
+        "unit": {
+         "id": "0a3f509f-e604-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723517.88,
+        6178091.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "doxbjvuqx2u6u",
+       "kind": "unit"
+      },
+      "refs": {
+       "unit": "doxbjvuqx2u6u"
+      },
+      "result": "Nøddebogade 15, 4. th, 2200 København N"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ]
+}

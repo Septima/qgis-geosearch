@@ -1,0 +1,1473 @@
+{
+ "case": {
+  "id": "adr-vangeb-77",
+  "input": "vangeb 77",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:57:29+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "vangeb 77",
+    "limit": 5
+   },
+   "elapsed_ms": 181,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "vangeb 77",
+    "matches": [
+     {
+      "components": {
+       "house_number": "77",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Nord",
+         "opstillingskredsnummer": "92"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nørresundby",
+         "postcode": "9400"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lindholm",
+         "sognekode": "8377"
+        }
+       ],
+       "street": "Vangen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "B",
+       "score": 0.5607,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-d9fc-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-ebef-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        555752.65,
+        6326056.5
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "og4pxiki2ro3i",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "4yavi4rw43xha",
+       "unit": "og4pxiki2ro3i"
+      },
+      "result": "Vangen 77, 9400 Nørresundby"
+     },
+     {
+      "components": {
+       "floor": "1",
+       "house_number": "177",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Nord",
+         "opstillingskredsnummer": "92"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nørresundby",
+         "postcode": "9400"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lindholm",
+         "sognekode": "8377"
+        }
+       ],
+       "street": "Vangen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5571,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-da2f-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-ec98-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        555945.71,
+        6326096.1
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pkc6wrqdiajzs",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ilitlowv5srbe",
+       "unit": "pkc6wrqdiajzs"
+      },
+      "result": "Vangen 177, 1., 9400 Nørresundby"
+     },
+     {
+      "components": {
+       "house_number": "277",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Nord",
+         "opstillingskredsnummer": "92"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nørresundby",
+         "postcode": "9400"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lindholm",
+         "sognekode": "8377"
+        }
+       ],
+       "street": "Vangen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5571,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-da61-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        556041.63,
+        6325923.32
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "d5x3iargtymlc",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "d5x3iargtymlc"
+      },
+      "result": "Vangen 277, 9400 Nørresundby"
+     },
+     {
+      "components": {
+       "floor": "2",
+       "house_number": "377",
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aalborg Nord",
+         "opstillingskredsnummer": "92"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordjyllands Politi",
+         "politikredsnummer": "1"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nørresundby",
+         "postcode": "9400"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Nordjylland",
+         "regionskode": "1081"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Aalborg",
+         "retskredsnummer": "2"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Lindholm",
+         "sognekode": "8377"
+        }
+       ],
+       "street": "Vangen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5571,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f509c-da94-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ca-ed50-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        556065.28,
+        6326100.52
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "vowdi3apuktsq",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "3yq3tcvhqvxco",
+       "unit": "vowdi3apuktsq"
+      },
+      "result": "Vangen 377, 2., 9400 Nørresundby"
+     },
+     {
+      "components": {
+       "house_number": "7",
+       "kommuner": [
+        {
+         "kommune": "Bornholm",
+         "kommunekode": "0400"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Aakirkeby",
+         "opstillingskredsnummer": "28"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Bornholms Politi",
+         "politikredsnummer": "12"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nexø",
+         "postcode": "3730"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten på Bornholm",
+         "retskredsnummer": "24"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Nexø",
+         "sognekode": "7571"
+        }
+       ],
+       "street": "Vangen",
+       "sub_locality": "Nexø"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5546,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5087-b21d-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b2-369c-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        890831.87,
+        6119558.07
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ekrpevjyqfalo",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "xdakgnxhlhhm2",
+       "unit": "ekrpevjyqfalo"
+      },
+      "result": "Vangen 7, Nexø, 3730 Nexø"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "vangeb 77",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 199,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "vangeb 77",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Helsingør",
+          "kommunekode": "0217"
+         }
+        ],
+        "stednavn": "Vangebo",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1142336",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721770.966,
+         6214798.885
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5nuq6cx3xvxms",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5nuq6cx3xvxms"
+       },
+       "result": "Vangebo"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "stednavn": "Vange",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4545,
+        "upstream": {
+         "stednavn": {
+          "id": "1101831",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         499032.658,
+         6086566.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ya6f7voaqiius",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ya6f7voaqiius"
+       },
+       "result": "Vange"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Vangen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1019252",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         546761.528,
+         6177649.125
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u7wpuizpzi476",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "u7wpuizpzi476"
+       },
+       "result": "Vangen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         }
+        ],
+        "stednavn": "Vangen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1034850",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         521287.077,
+         6294201.84
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mvriqtdcm73hi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mvriqtdcm73hi"
+       },
+       "result": "Vangen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vangen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1055060",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562091.957,
+         6371781.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6greia7mkcegm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6greia7mkcegm"
+       },
+       "result": "Vangen"
+      }
+     ]
+    },
+    {
+     "input": "vangeb 77",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vandel",
+          "postcode": "7184"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "postcode": {
+          "id": "7184",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         512288.625,
+         6174922.74
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7doumrx5ybfno",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "7doumrx5ybfno"
+       },
+       "result": "Vandel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         },
+         {
+          "kommune": "Frederiksberg",
+          "kommunekode": "0147"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vanløse",
+          "postcode": "2720"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "postcode": {
+          "id": "2720",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718964.852,
+         6176743.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pkr4mt3e6ggss",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pkr4mt3e6ggss"
+       },
+       "result": "Vanløse"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         },
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Engesvang",
+          "postcode": "7442"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "postcode": {
+          "id": "7442",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         519593.265,
+         6228321.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4ipc5y7gitqdi",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "4ipc5y7gitqdi"
+       },
+       "result": "Engesvang"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Langebæk",
+          "postcode": "4772"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "postcode": {
+          "id": "4772",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         698336.812,
+         6097204.175
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b6zxspe3qy3yq",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "b6zxspe3qy3yq"
+       },
+       "result": "Langebæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         },
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vadum",
+          "postcode": "9430"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "postcode": {
+          "id": "9430",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552973.953,
+         6332806.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "utpmmncw2ttdg",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "utpmmncw2ttdg"
+       },
+       "result": "Vadum"
+      }
+     ]
+    },
+    {
+     "input": "vangeb 77",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "7b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "7b",
+           "upstream": {
+            "id": 345691,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 2069533,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720880.131,
+         6184151.942
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u3l4iacycdffa",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "u3l4iacycdffa"
+       },
+       "result": "7b, Vangede"
+      },
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "7c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "7c",
+           "upstream": {
+            "id": 345373,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 2069534,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720751.442,
+         6184185.825
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4m3qwp6jsnuqa",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4m3qwp6jsnuqa"
+       },
+       "result": "7c, Vangede"
+      },
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "7e"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "7e",
+           "upstream": {
+            "id": 345699,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 9649044,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720872.817,
+         6184680.722
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cogs5tpr32x4q",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "cogs5tpr32x4q"
+       },
+       "result": "7e, Vangede"
+      },
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "7o"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "7o",
+           "upstream": {
+            "id": 345335,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 2069545,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720773.149,
+         6184115.367
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yqgpqn7q3jtas",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yqgpqn7q3jtas"
+       },
+       "result": "7o, Vangede"
+      },
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "7q"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "7q",
+           "upstream": {
+            "id": 345379,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 2069547,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720700.474,
+         6184847.468
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x747vktmripsw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "x747vktmripsw"
+       },
+       "result": "7q, Vangede"
+      }
+     ]
+    },
+    {
+     "input": "vangeb 77",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "kommune": {
+          "id": "0573",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         469014.319,
+         6168724.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "scakv2jczgk6y",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "scakv2jczgk6y"
+       },
+       "result": "Varde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Langeland",
+          "kommunekode": "0482"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "kommune": {
+          "id": "0482",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         613857.111,
+         6090005.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vhyijlisqz2bo",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "vhyijlisqz2bo"
+       },
+       "result": "Langeland"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vallensbæk",
+          "kommunekode": "0187"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "kommune": {
+          "id": "0187",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         712139.432,
+         6170394.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uotwzjsd47fsk",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "uotwzjsd47fsk"
+       },
+       "result": "Vallensbæk"
+      }
+     ]
+    },
+    {
+     "input": "vangeb 77",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Valby",
+          "opstillingskredsnummer": "8"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "8",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720293.17,
+         6173441.955
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yxhji3dwikqnw",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "yxhji3dwikqnw"
+       },
+       "result": "Valby"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Varde",
+          "opstillingskredsnummer": "54"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "54",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         469014.319,
+         6168724.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nzagqbj3hrjgw",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "nzagqbj3hrjgw"
+       },
+       "result": "Varde"
+      }
+     ]
+    },
+    {
+     "input": "vangeb 77",
+     "matches": []
+    },
+    {
+     "input": "vangeb 77",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

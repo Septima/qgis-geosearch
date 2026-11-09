@@ -1,0 +1,86 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": false,
+  "selected": [
+   "adr",
+   "ste",
+   "pos",
+   "mat",
+   "kom",
+   "ops",
+   "pol",
+   "reg"
+  ],
+  "text": "pos: 8000"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "8000",
+     "limit": 40,
+     "target": "postcode"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "pos"
+   ],
+   "response": [
+    {
+     "input": "8000",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Aarhus C",
+          "postcode": "8000"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "postcode": {
+          "id": "8000",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577561.955,
+         6222970.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g435mecz6suyu",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "g435mecz6suyu"
+       },
+       "result": "Aarhus C"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

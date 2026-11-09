@@ -1,0 +1,3933 @@
+{
+ "case": {
+  "id": "ste-gudenaa-kommunefilter-730",
+  "input": "ste: gudenå",
+  "kommuner": [
+   "730"
+  ],
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:59:02+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "gudenå",
+     "limit": 100,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 229,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "gudenå",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Gudenå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1085861",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539883.71,
+         6220323.94
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yznvl3ubf6u3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yznvl3ubf6u3w"
+       },
+       "result": "Gudenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå Øst",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6154,
+        "upstream": {
+         "stednavn": {
+          "id": "1034769",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561743.3,
+         6256526.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ljddhscvb6jxg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ljddhscvb6jxg"
+       },
+       "result": "Gudenå Øst"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå Vest",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6154,
+        "upstream": {
+         "stednavn": {
+          "id": "1151385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561563.77,
+         6256613.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3bsh4ikhvknik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3bsh4ikhvknik"
+       },
+       "result": "Gudenå Vest"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenå-Krukken",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7535694",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564022.761,
+         6257350.837
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6vkget7tqzmls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6vkget7tqzmls"
+       },
+       "result": "Gudenå-Krukken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenåbroen",
+        "type": "vej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1134345",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561154.22,
+         6257251.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5piqyk3iha7mu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5piqyk3iha7mu"
+       },
+       "result": "Gudenåbroen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenåhuset",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1078829",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540533.671,
+         6248225.19
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "miamyspak7wnc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "miamyspak7wnc"
+       },
+       "result": "Gudenåhuset"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenåmuseet",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1139157",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         543605.302,
+         6212683.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oa7jmcxxxgdtq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oa7jmcxxxgdtq"
+       },
+       "result": "Gudenåmuseet"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Gudenåparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "7333618",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562571.59,
+         6257607.219
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t7vtufygrvpgk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "t7vtufygrvpgk"
+       },
+       "result": "Gudenåparken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudenåskolen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "7652128",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548454.229,
+         6216222.545
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j52gefddxpyxw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j52gefddxpyxw"
+       },
+       "result": "Gudenåskolen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudensø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1058740",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547691.192,
+         6213783.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wei2ssuuaemuk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wei2ssuuaemuk"
+       },
+       "result": "Gudensø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Gudenåcenteret",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "stednavn": {
+          "id": "1068605",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530230.187,
+         6190645.075
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e5b3p7dtxxli6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e5b3p7dtxxli6"
+       },
+       "result": "Gudenåcenteret"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Gudenåkollegiet",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7381357",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530425.784,
+         6190589.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k5qgcusheujiy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "k5qgcusheujiy"
+       },
+       "result": "Gudenåkollegiet"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Pigen i Gudenåen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7535695",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         563822.886,
+         6257281.981
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5hluzylmp4poo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5hluzylmp4poo"
+       },
+       "result": "Pigen i Gudenåen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Gudenhøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3846,
+        "upstream": {
+         "stednavn": {
+          "id": "1088927",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         490633.0,
+         6236730.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vyaktm6hjydws",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vyaktm6hjydws"
+       },
+       "result": "Gudenhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3846,
+        "upstream": {
+         "stednavn": {
+          "id": "1080899",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540100.485,
+         6241470.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k4mxvk2g4ngty",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "k4mxvk2g4ngty"
+       },
+       "result": "Gudenlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenå",
+        "type": "lufthavn"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1046487",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         619010.108,
+         6256849.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dge2gqcctvvka",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dge2gqcctvvka"
+       },
+       "result": "Grenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "7630272",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616116.675,
+         6252687.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qawens7wstdmm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qawens7wstdmm"
+       },
+       "result": "Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenslund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1147223",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542230.263,
+         6209161.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "266js3aedo2p4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "266js3aedo2p4"
+       },
+       "result": "Gudenslund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tønder",
+          "kommunekode": "0550"
+         }
+        ],
+        "stednavn": "Grønå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7577401",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         500756.33,
+         6086286.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cq6a3to2s6jp2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cq6a3to2s6jp2"
+       },
+       "result": "Grønå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Gudenåens Udspring",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1122225",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525029.06,
+         6195265.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fguy7i57hubeg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fguy7i57hubeg"
+       },
+       "result": "Gudenåens Udspring"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7411233",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555520.119,
+         6094208.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iankl633z5esy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "iankl633z5esy"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7411249",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555520.119,
+         6094208.405
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j7whwaa6d7dai",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j7whwaa6d7dai"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Næstved",
+          "kommunekode": "0370"
+         }
+        ],
+        "stednavn": "Guderup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "7443601",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         670828.353,
+         6127553.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6gs2ngpjbxm6u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6gs2ngpjbxm6u"
+       },
+       "result": "Guderup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenådalens Museum",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1140950",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         539855.743,
+         6248323.18
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bmklmxhdxgnxe",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bmklmxhdxgnxe"
+       },
+       "result": "Gudenådalens Museum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudum Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1102368",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         648611.24,
+         6146918.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xq4bulif6bxju",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xq4bulif6bxju"
+       },
+       "result": "Gudum Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Nordenå",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1101504",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         461747.472,
+         6189883.42
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ebwr32dmypeao",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ebwr32dmypeao"
+       },
+       "result": "Nordenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenådalens Friskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2917,
+        "upstream": {
+         "stednavn": {
+          "id": "7617425",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         538263.565,
+         6248642.81
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d33khm5bl6yby",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d33khm5bl6yby"
+       },
+       "result": "Gudenådalens Friskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Gudsø Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1045328",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         535583.74,
+         6154408.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xw3ybagwxn3uk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xw3ybagwxn3uk"
+       },
+       "result": "Gudsø Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Ny Grenaa",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1130458",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         614647.42,
+         6253410.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mc2667tazxdzu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mc2667tazxdzu"
+       },
+       "result": "Ny Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Gudensøgården",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2778,
+        "upstream": {
+         "stednavn": {
+          "id": "1024606",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547469.565,
+         6213744.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c5q6uggz3sy6k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "c5q6uggz3sy6k"
+       },
+       "result": "Gudensøgården"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1115944",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608962.01,
+         6112676.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "brmhapksw6ihc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "brmhapksw6ihc"
+       },
+       "result": "Gudme"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7459825",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608741.181,
+         6112838.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qvxxj7l3ff5v6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qvxxj7l3ff5v6"
+       },
+       "result": "Gudme"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1147390",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467209.179,
+         6263822.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bwctxivj222uo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bwctxivj222uo"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7432337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564848.732,
+         6312219.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aqvr3scs57tko",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aqvr3scs57tko"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7468353",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         651120.815,
+         6146431.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ir746qgawzmna",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ir746qgawzmna"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudum",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7482625",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467154.7,
+         6263903.565
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ziimoro6fhugo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ziimoro6fhugo"
+       },
+       "result": "Gudum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Senå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1094377",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         500416.87,
+         6331378.89
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "krwixciybomum",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "krwixciybomum"
+       },
+       "result": "Senå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Gudenaadalens Efterskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2692,
+        "upstream": {
+         "stednavn": {
+          "id": "1068493",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548990.1,
+         6250026.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ymugsdi5nrmuq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ymugsdi5nrmuq"
+       },
+       "result": "Gudenaadalens Efterskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Gudenåcamping Brædstrup",
+        "type": "campingplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2593,
+        "upstream": {
+         "stednavn": {
+          "id": "1097836",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         540735.81,
+         6199079.085
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ctvyumy4dk366",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ctvyumy4dk366"
+       },
+       "result": "Gudenåcamping Brædstrup"
+      },
+      {
+       "components": {
+        "stednavn": "Grenaa Havn",
+        "type": "havnebassin"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "7529213",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         618989.873,
+         6253910.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pwbqjnyqw7sey",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pwbqjnyqw7sey"
+       },
+       "result": "Grenaa Havn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Guddal",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1024992",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         587592.704,
+         6363672.615
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "a32pwelhpsyhy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "a32pwelhpsyhy"
+       },
+       "result": "Guddal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Gudenåcentralens Plantage",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1019279",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         536917.285,
+         6243534.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7dob3ukn5o4ko",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7dob3ukn5o4ko"
+       },
+       "result": "Gudenåcentralens Plantage"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Gudsø",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "7492897",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         536312.538,
+         6153989.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w5qpuvhpyzgdu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "w5qpuvhpyzgdu"
+       },
+       "result": "Gudsø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Lønå",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1037803",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         513723.314,
+         6194002.93
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "doskrjlrvcg7u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "doskrjlrvcg7u"
+       },
+       "result": "Lønå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "stednavn": {
+          "id": "1106166",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         615740.307,
+         6253680.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jzvrkvpptu4xa",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jzvrkvpptu4xa"
+       },
+       "result": "Grenaa Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Guderup Kær",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "stednavn": {
+          "id": "1030762",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         471620.65,
+         6297864.645
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ahceorzpshw2a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ahceorzpshw2a"
+       },
+       "result": "Guderup Kær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Gudenåens Camping Silkeborg",
+        "type": "campingplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2333,
+        "upstream": {
+         "stednavn": {
+          "id": "1115768",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         534973.31,
+         6223657.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p3fhoxmuqpnh6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p3fhoxmuqpnh6"
+       },
+       "result": "Gudenåens Camping Silkeborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Gudhjem",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "stednavn": {
+          "id": "7489553",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         879779.923,
+         6134254.725
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nol5xoqudytp6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nol5xoqudytp6"
+       },
+       "result": "Gudhjem"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Gudnæs",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "stednavn": {
+          "id": "1102855",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         470913.424,
+         6296112.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "56jkbtwafn3jo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "56jkbtwafn3jo"
+       },
+       "result": "Gudnæs"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "stednavn": "Gudskov",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "stednavn": {
+          "id": "7501569",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590821.808,
+         6149309.407
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "skksnqwub4iwi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "skksnqwub4iwi"
+       },
+       "result": "Gudskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Skønå",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "stednavn": {
+          "id": "1013774",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         587072.268,
+         6115380.135
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eextl57fe4vc2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eextl57fe4vc2"
+       },
+       "result": "Skønå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Strand",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "stednavn": {
+          "id": "1054553",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         618017.788,
+         6252019.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wnfaypkettzuk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wnfaypkettzuk"
+       },
+       "result": "Grenaa Strand"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Strand",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "stednavn": {
+          "id": "1130580",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         618229.301,
+         6249319.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "srrqutyixi6hg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "srrqutyixi6hg"
+       },
+       "result": "Grenaa Strand"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Guderuphallen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "stednavn": {
+          "id": "1027695",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555239.411,
+         6094247.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bv72gqrjyqffy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bv72gqrjyqffy"
+       },
+       "result": "Guderuphallen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaaen",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1039750",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         617010.66,
+         6253396.74
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "565a4kryqabjg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "565a4kryqabjg"
+       },
+       "result": "Grenaaen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudbjerg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "7491265",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         606457.842,
+         6113146.444
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ob72am2vj25ba",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ob72am2vj25ba"
+       },
+       "result": "Gudbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ærø",
+          "kommunekode": "0492"
+         }
+        ],
+        "stednavn": "Gudsgave",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1150672",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         596337.304,
+         6079012.07
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mku3bta65fih2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mku3bta65fih2"
+       },
+       "result": "Gudsgave"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudumbro",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1134027",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467568.877,
+         6263630.095
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wureypghfvn7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wureypghfvn7a"
+       },
+       "result": "Gudumbro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Gudumhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1077446",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         467489.419,
+         6257355.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jf5fwfwiqpagq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jf5fwfwiqpagq"
+       },
+       "result": "Gudumhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Helsingør",
+          "kommunekode": "0217"
+         }
+        ],
+        "stednavn": "Gurre Å",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1130529",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         713615.48,
+         6217531.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mf7r73jn2famk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mf7r73jn2famk"
+       },
+       "result": "Gurre Å"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Løvenå",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1024942",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         488950.17,
+         6232548.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bwdc7oixxxdem",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bwdc7oixxxdem"
+       },
+       "result": "Løvenå"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Golfklub",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1108737",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         614167.587,
+         6253724.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4su6nmwhfo4rm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4su6nmwhfo4rm"
+       },
+       "result": "Grenaa Golfklub"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Stadion",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1129005",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         615964.786,
+         6252695.175
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4hvzugtrcy6pi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4hvzugtrcy6pi"
+       },
+       "result": "Grenaa Stadion"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Station",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1092285",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         615985.49,
+         6253593.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4elqbafgbyxu2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4elqbafgbyxu2"
+       },
+       "result": "Grenaa Station"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Frikirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1033854",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616124.923,
+         6253723.62
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3t74465uomuvo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3t74465uomuvo"
+       },
+       "result": "Grenaa Frikirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Gymnasium",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1031935",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616624.993,
+         6253096.575
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bgwkjfgku7pla",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bgwkjfgku7pla"
+       },
+       "result": "Grenaa Gymnasium"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Samsø",
+          "kommunekode": "0741"
+         }
+        ],
+        "stednavn": "Grydenæs",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1037043",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         596563.42,
+         6182707.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "phc2itpqouf6a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "phc2itpqouf6a"
+       },
+       "result": "Grydenæs"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme Sø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1080814",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608331.585,
+         6112858.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tvdbqandyu7ne",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tvdbqandyu7ne"
+       },
+       "result": "Gudme Sø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Guds Ager",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1025162",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530736.351,
+         6134759.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7a7ph34cyjujc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7a7ph34cyjujc"
+       },
+       "result": "Guds Ager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Gudsbjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1094170",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529640.748,
+         6138578.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5jxjcqcn4rric",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5jxjcqcn4rric"
+       },
+       "result": "Gudsbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudum Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1058707",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         650743.91,
+         6145357.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vdizumts7ljb6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vdizumts7ljb6"
+       },
+       "result": "Gudum Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudum Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1127037",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564348.56,
+         6312586.6
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yzrhfksudrvf2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yzrhfksudrvf2"
+       },
+       "result": "Gudum Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudumholm",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "7452577",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567036.058,
+         6314400.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ftw2pntfmqcro",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ftw2pntfmqcro"
+       },
+       "result": "Gudumholm"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Gudumkær",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1009304",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         502395.34,
+         6225417.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eegvf6rboli4k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eegvf6rboli4k"
+       },
+       "result": "Gudumkær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudumlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1076614",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567285.869,
+         6311241.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vvgurnlmvliui",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vvgurnlmvliui"
+       },
+       "result": "Gudumlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gudumlund",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1149518",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         465454.789,
+         6260885.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wlmk22saeds72",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wlmk22saeds72"
+       },
+       "result": "Gudumlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudumlund",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "7528337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567434.678,
+         6311201.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qzyabwxnayhoq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qzyabwxnayhoq"
+       },
+       "result": "Gudumlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gug",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1139462",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557057.464,
+         6319074.615
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kagvdmjkxbcy4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kagvdmjkxbcy4"
+       },
+       "result": "Gug"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Gyldenså",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1048568",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         886032.58,
+         6126490.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bozvpgkun4uwi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bozvpgkun4uwi"
+       },
+       "result": "Gyldenså"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Koldenåe",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1062654",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         563678.779,
+         6349243.105
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n2pd6tllkp5sw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n2pd6tllkp5sw"
+       },
+       "result": "Koldenåe"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Politigården i Grenaa",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1923,
+        "upstream": {
+         "stednavn": {
+          "id": "1024814",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         615751.06,
+         6252636.375
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "auohmzfuk7h44",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "auohmzfuk7h44"
+       },
+       "result": "Politigården i Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Bibliotek",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "stednavn": {
+          "id": "1046119",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616447.161,
+         6253362.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7bulch7d4oozo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7bulch7d4oozo"
+       },
+       "result": "Grenaa Bibliotek"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenå Motorbane",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "stednavn": {
+          "id": "1047150",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         614131.86,
+         6253082.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "inqezooblkome",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "inqezooblkome"
+       },
+       "result": "Grenå Motorbane"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Gudmegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1058697",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580104.79,
+         6265343.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "53rkqh5xngc2i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "53rkqh5xngc2i"
+       },
+       "result": "Gudmegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odsherred",
+          "kommunekode": "0306"
+         }
+        ],
+        "stednavn": "Gudmindrup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "7454481",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         660337.921,
+         6199401.62
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "itsj4v2sjjfro",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "itsj4v2sjjfro"
+       },
+       "result": "Gudmindrup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Fredericia",
+          "kommunekode": "0607"
+         }
+        ],
+        "stednavn": "Gudsø Vig",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1091504",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537473.671,
+         6152055.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "h6nu4hpvgpbko",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "h6nu4hpvgpbko"
+       },
+       "result": "Gudsø Vig"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Gudum Kær",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1083786",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568408.345,
+         6313458.22
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6vuxyzhful6x2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6vuxyzhful6x2"
+       },
+       "result": "Gudum Kær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Gudum Kær",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1123721",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         503886.193,
+         6225586.09
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vpx7oa7atwchu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vpx7oa7atwchu"
+       },
+       "result": "Gudum Kær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Gudumgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1080582",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         652168.516,
+         6145498.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nojncfpu647ww",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nojncfpu647ww"
+       },
+       "result": "Gudumgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Lønå Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1061207",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         512966.94,
+         6193915.58
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jmo2xyiyfqt4y",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jmo2xyiyfqt4y"
+       },
+       "result": "Lønå Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenå Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "stednavn": {
+          "id": "1018473",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616061.237,
+         6253984.085
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xbfiode7ti4b4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xbfiode7ti4b4"
+       },
+       "result": "Grenå Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Grenaa Svømmehal",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "stednavn": {
+          "id": "7372659",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616491.184,
+         6252703.4
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x6vgb7cwseb5q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "x6vgb7cwseb5q"
+       },
+       "result": "Grenaa Svømmehal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nordfyns",
+          "kommunekode": "0480"
+         }
+        ],
+        "stednavn": "Gued",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "stednavn": {
+          "id": "1096724",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         578867.25,
+         6162843.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ipad3mnb22fm6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ipad3mnb22fm6"
+       },
+       "result": "Gued"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Gust",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "stednavn": {
+          "id": "1031994",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         493539.475,
+         6274982.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hcl56uxgkomdq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hcl56uxgkomdq"
+       },
+       "result": "Gust"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Den Grå Ko",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1113550",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552303.243,
+         6353290.071
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "urnplelmb2kwi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "urnplelmb2kwi"
+       },
+       "result": "Den Grå Ko"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Den Grå Ko",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1116651",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         579162.884,
+         6339614.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "inzxudh4cizti",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "inzxudh4cizti"
+       },
+       "result": "Den Grå Ko"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Den Gule By",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1034945",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722935.475,
+         6174008.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fju7iepqkz7cg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fju7iepqkz7cg"
+       },
+       "result": "Den Gule By"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Guddalsbæk",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1139563",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         587588.15,
+         6363641.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bj5sms6jwvbli",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bj5sms6jwvbli"
+       },
+       "result": "Guddalsbæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Gudme Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1096628",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608869.282,
+         6112868.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4ahymo22rdbkq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4ahymo22rdbkq"
+       },
+       "result": "Gudme Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Gudmundsdal",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1765,
+        "upstream": {
+         "stednavn": {
+          "id": "1056348",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564981.624,
+         6110140.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hdch74f25dyhg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hdch74f25dyhg"
+       },
+       "result": "Gudmundsdal"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

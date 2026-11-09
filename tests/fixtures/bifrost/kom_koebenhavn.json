@@ -1,0 +1,191 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": false,
+  "selected": [
+   "adr",
+   "ste",
+   "pos",
+   "mat",
+   "kom",
+   "ops",
+   "pol",
+   "reg"
+  ],
+  "text": "kom:københavn"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "københavn",
+     "limit": 40,
+     "target": "kommune"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "kom"
+   ],
+   "response": [
+    {
+     "input": "københavn",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "kommune": {
+          "id": "0101",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726616.488,
+         6173589.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gueg6e4pa63d2",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "gueg6e4pa63d2"
+       },
+       "result": "København"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Køge",
+          "kommunekode": "0259"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "kommune": {
+          "id": "0259",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694049.849,
+         6149202.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yy6dvs5plt7eq",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "yy6dvs5plt7eq"
+       },
+       "result": "Køge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1364,
+        "upstream": {
+         "kommune": {
+          "id": "0813",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         587235.774,
+         6369762.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nrfeiec54rqy2",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "nrfeiec54rqy2"
+       },
+       "result": "Frederikshavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "kommune": {
+          "id": "0621",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529691.554,
+         6147109.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qdvz5bhvvp55q",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "qdvz5bhvvp55q"
+       },
+       "result": "Kolding"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

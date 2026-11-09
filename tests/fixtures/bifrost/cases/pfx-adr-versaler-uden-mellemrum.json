@@ -1,0 +1,1778 @@
+{
+ "case": {
+  "id": "pfx-adr-versaler-uden-mellemrum",
+  "input": "ADR:vangebovej 71",
+  "kommuner": null,
+  "types": [
+   "ste"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "gv2y3jol2nyta",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 208,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "gv2y3jol2nyta",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "71",
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Rudersdal",
+          "opstillingskredsnummer": "26"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Nordsjællands Politi",
+          "politikredsnummer": "9"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Holte",
+          "postcode": "2840"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Lyngby",
+          "retskredsnummer": "20"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Søllerød",
+          "sognekode": "7125"
+         }
+        ],
+        "street": "Vangebovej",
+        "sub_locality": "Søllerød"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          719746.21,
+          6190493.67
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         719749.598553628,
+         6190466.51851438
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507d-c493-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50a6-fbcd-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719746.21,
+         6190493.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m3zgetqqy6yii",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "gv2y3jol2nyta",
+        "unit": "m3zgetqqy6yii"
+       },
+       "result": "Vangebovej 71, Søllerød, 2840 Holte"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "gv2y3jol2nyta",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:38+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "vangebovej 71",
+    "limit": 20
+   },
+   "elapsed_ms": 156,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "vangebovej 71",
+    "matches": [
+     {
+      "components": {
+       "house_number": "71",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c493-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbcd-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719746.21,
+        6190493.67
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "m3zgetqqy6yii",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "gv2y3jol2nyta",
+       "unit": "m3zgetqqy6yii"
+      },
+      "result": "Vangebovej 71, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "31",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c477-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbb0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719244.05,
+        6190493.13
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nkkf4xatfylqs",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "u6rttap3bxnvc",
+       "unit": "nkkf4xatfylqs"
+      },
+      "result": "Vangebovej 31, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "41",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c47e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbb7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719354.07,
+        6190514.63
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pnjksf6htugaw",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "k5ykamylt2vzi",
+       "unit": "pnjksf6htugaw"
+      },
+      "result": "Vangebovej 41, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "51",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c486-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbc0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719470.26,
+        6190509.12
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "w5msxyiejoy2w",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "v5vagmcpbu5r2",
+       "unit": "w5msxyiejoy2w"
+      },
+      "result": "Vangebovej 51, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "61",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c48e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbc8-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719651.11,
+        6190477.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lor6rbkudokvk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "g7pr6ju6giq3i",
+       "unit": "lor6rbkudokvk"
+      },
+      "result": "Vangebovej 61, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "73",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c494-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbce-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719758.45,
+        6190486.98
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wbot5qstenxuy",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "mtnrsf3sgwoji",
+       "unit": "wbot5qstenxuy"
+      },
+      "result": "Vangebovej 73, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "75",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c495-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbcf-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719782.93,
+        6190496.5
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "q3a477v7n5gco",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "k6t5srqddccbe",
+       "unit": "q3a477v7n5gco"
+      },
+      "result": "Vangebovej 75, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "77",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c496-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbd0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719796.13,
+        6190491.92
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "bzxzuqr3dzrv6",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "s3suwb4ced4xe",
+       "unit": "bzxzuqr3dzrv6"
+      },
+      "result": "Vangebovej 77, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "79",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c497-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbd1-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719827.24,
+        6190499.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "obslgtr4s6cak",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "d5lvpdfme47e6",
+       "unit": "obslgtr4s6cak"
+      },
+      "result": "Vangebovej 79, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "81",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9893,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c498-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbd2-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719840.83,
+        6190496.6
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "42crxuljqzbua",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "wxyafpwnbd4zg",
+       "unit": "42crxuljqzbua"
+      },
+      "result": "Vangebovej 81, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "2",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Ny Holte",
+         "sognekode": "7127"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c464-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        717720.02,
+        6190496.48
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "3bzghjjabrjfg",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "3bzghjjabrjfg"
+      },
+      "result": "Vangebovej 2, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "6",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c467-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718905.65,
+        6190364.78
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6b3avs2x5zbyc",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "taflblmbwzuno",
+       "unit": "6b3avs2x5zbyc"
+      },
+      "result": "Vangebovej 6, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "8",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c468-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba1-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718936.93,
+        6190380.29
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "hl3q7m6g6p35m",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "siue4gtk5veqe",
+       "unit": "hl3q7m6g6p35m"
+      },
+      "result": "Vangebovej 8, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "10",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c469-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba2-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718971.52,
+        6190395.3
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wpqrh57satosa",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ekztjlqhfwdpg",
+       "unit": "wpqrh57satosa"
+      },
+      "result": "Vangebovej 10, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "12",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46a-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba3-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719002.1,
+        6190405.49
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "f6acw3b7h6wwq",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "4gyuwcr5opvqw",
+       "unit": "f6acw3b7h6wwq"
+      },
+      "result": "Vangebovej 12, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "13",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46b-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba4-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        718997.38,
+        6190443.65
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "sdjqmvyxpxh2s",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "nljnnefq5fase",
+       "unit": "sdjqmvyxpxh2s"
+      },
+      "result": "Vangebovej 13, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "14",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46c-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba5-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719022.21,
+        6190411.11
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6z55ebmcxplkc",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "upswwycvniw7a",
+       "unit": "6z55ebmcxplkc"
+      },
+      "result": "Vangebovej 14, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "16",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46d-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba6-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719045.98,
+        6190416.36
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "li64f5jenqk36",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "5xg4lai6o66qy",
+       "unit": "li64f5jenqk36"
+      },
+      "result": "Vangebovej 16, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "17",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719071.0,
+        6190459.18
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gvdowzawewimi",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "wtsb7mozbqgmg",
+       "unit": "gvdowzawewimi"
+      },
+      "result": "Vangebovej 17, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "18",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.8979,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c46f-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fba8-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719063.57,
+        6190420.52
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xk6hhooqerr3a",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "fgtxxpf3yisv2",
+       "unit": "xk6hhooqerr3a"
+      },
+      "result": "Vangebovej 18, Søllerød, 2840 Holte"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

@@ -1,0 +1,1597 @@
+{
+ "case": {
+  "id": "ste-oeenslaeger",
+  "input": "ste: øenslæger",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T19:57:31+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "øenslæger",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 231,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "øenslæger",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øenslyst",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1086048",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         600820.859,
+         6249578.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dftqpesw52q7g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dftqpesw52q7g"
+       },
+       "result": "Øenslyst"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1040470",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537505.709,
+         6124604.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "o6etbjlp76os6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "o6etbjlp76os6"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1045828",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585448.74,
+         6113406.185
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nzxhtyrrounaa",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nzxhtyrrounaa"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1070474",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590725.678,
+         6245266.485
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n3ocfuwttysly",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n3ocfuwttysly"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1074629",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590840.494,
+         6245372.64
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ija4fvz2ufpps",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ija4fvz2ufpps"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1089449",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722719.525,
+         6178414.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w3nslgs2gxsvi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "w3nslgs2gxsvi"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1109405",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         631673.414,
+         6172410.884
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dfefo56rzxedy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dfefo56rzxedy"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Allerød",
+          "kommunekode": "0201"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1111090",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         709951.897,
+         6196792.16
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7ir4s5lwskyd4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7ir4s5lwskyd4"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Langeland",
+          "kommunekode": "0482"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1136770",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608147.084,
+         6068852.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4vikhhu5anrcw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4vikhhu5anrcw"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Langeland",
+          "kommunekode": "0482"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "7497681",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608274.382,
+         6069028.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iona5h4jaofzm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "iona5h4jaofzm"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikssund",
+          "kommunekode": "0250"
+         }
+        ],
+        "stednavn": "Øen",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "7631861",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         699647.179,
+         6193389.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zv2gmbmialwz2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zv2gmbmialwz2"
+       },
+       "result": "Øen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "stednavn": "Øager",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1064017",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694468.853,
+         6104222.555
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rqk3hn5yg64qu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rqk3hn5yg64qu"
+       },
+       "result": "Øager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Lægens",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1034818",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         599805.397,
+         6248235.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aq4tqdn5babbg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aq4tqdn5babbg"
+       },
+       "result": "Lægens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "stednavn": "Ønslev",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "7443697",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         683317.388,
+         6081756.685
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gffw2f656dnyc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gffw2f656dnyc"
+       },
+       "result": "Ønslev"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "stednavn": "Østager",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "stednavn": {
+          "id": "1139955",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         598907.59,
+         6133864.635
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zvi7jzs2tkko2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zvi7jzs2tkko2"
+       },
+       "result": "Østager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Øens Kollegium",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2174,
+        "upstream": {
+         "stednavn": {
+          "id": "1072542",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         727681.39,
+         6174306.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kgqah3oyxlvrs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kgqah3oyxlvrs"
+       },
+       "result": "Øens Kollegium"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Oens",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1035024",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         549105.232,
+         6186533.271
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ot4h23tvvie7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ot4h23tvvie7a"
+       },
+       "result": "Oens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Oehlenschlægersgades Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2121,
+        "upstream": {
+         "stednavn": {
+          "id": "1119651",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723316.285,
+         6174789.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gvjjnavfcpdfo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gvjjnavfcpdfo"
+       },
+       "result": "Oehlenschlægersgades Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringsted",
+          "kommunekode": "0329"
+         }
+        ],
+        "stednavn": "Øager Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1014440",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682061.33,
+         6151109.13
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "27ptgm3ru2qoo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "27ptgm3ru2qoo"
+       },
+       "result": "Øager Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "stednavn": "Øager Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1100039",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         683838.44,
+         6109716.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5vb2u6r57b2js",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5vb2u6r57b2js"
+       },
+       "result": "Øager Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Østerager",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1102575",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         459148.639,
+         6224775.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2n2duheihpdgg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2n2duheihpdgg"
+       },
+       "result": "Østerager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Østerager",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1109184",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         493831.674,
+         6225556.485
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qz4w3hvrwlicg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qz4w3hvrwlicg"
+       },
+       "result": "Østerager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Slæggerup",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1026582",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         698336.159,
+         6174552.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vuhbbxtjwrzew",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vuhbbxtjwrzew"
+       },
+       "result": "Slæggerup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Egense Øre",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1100192",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         579207.196,
+         6316339.625
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pr7ehlrfwli4c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pr7ehlrfwli4c"
+       },
+       "result": "Egense Øre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Løger Odde",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1045267",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         535959.612,
+         6149738.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "inra2ojjjm2ss",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "inra2ojjjm2ss"
+       },
+       "result": "Løger Odde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Ø Hyldager",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1126721",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         453678.97,
+         6255779.885
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "azw7w6lm4zdka",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "azw7w6lm4zdka"
+       },
+       "result": "Ø Hyldager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "stednavn": "Øager Huse",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1042390",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         683868.962,
+         6109521.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3w5ige6z35vb6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3w5ige6z35vb6"
+       },
+       "result": "Øager Huse"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "stednavn": "Østersøen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1017950",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         711041.369,
+         6093549.365
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hmy6sfbdw3gto",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hmy6sfbdw3gto"
+       },
+       "result": "Østersøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Østersøen",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1136339",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         597772.669,
+         6131289.696
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "45d3aka6xgdnm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "45d3aka6xgdnm"
+       },
+       "result": "Østersøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Østersøen",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "stednavn": {
+          "id": "1136534",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         864420.306,
+         6137274.15
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hgxo4k3ekymrk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hgxo4k3ekymrk"
+       },
+       "result": "Østersøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Anlægssøen",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "stednavn": {
+          "id": "7620641",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         649468.291,
+         6141893.335
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "562zofxynksjm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "562zofxynksjm"
+       },
+       "result": "Anlægssøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringsted",
+          "kommunekode": "0329"
+         }
+        ],
+        "stednavn": "Anlægssøen",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "stednavn": {
+          "id": "7620962",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         676971.987,
+         6148228.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4tblykphxtyey",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4tblykphxtyey"
+       },
+       "result": "Anlægssøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Danland Øer",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1905,
+        "upstream": {
+         "stednavn": {
+          "id": "1096848",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         603932.292,
+         6231260.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ltkfm2tykzrwi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ltkfm2tykzrwi"
+       },
+       "result": "Danland Øer"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Løens",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1146030",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         635762.921,
+         6176209.74
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rkpig7nicifhu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rkpig7nicifhu"
+       },
+       "result": "Løens"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Øerne",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1120324",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605074.179,
+         6224847.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gr466vf2hztoo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gr466vf2hztoo"
+       },
+       "result": "Øerne"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Helsingør",
+          "kommunekode": "0217"
+         }
+        ],
+        "stednavn": "Øerne",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1125770",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720240.126,
+         6215404.695
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "544ma3bqjenfk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "544ma3bqjenfk"
+       },
+       "result": "Øerne"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "stednavn": "Økær",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1067281",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         507060.755,
+         6200918.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t6dzxdqn57z2q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "t6dzxdqn57z2q"
+       },
+       "result": "Økær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Økær",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "7427969",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         513281.026,
+         6260266.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s5f5oqqspvv4q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "s5f5oqqspvv4q"
+       },
+       "result": "Økær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Opager",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1096947",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         647340.959,
+         6071203.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3jskjltx4yfks",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3jskjltx4yfks"
+       },
+       "result": "Opager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lejre",
+          "kommunekode": "0350"
+         }
+        ],
+        "stednavn": "Osager",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1875,
+        "upstream": {
+         "stednavn": {
+          "id": "1113134",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         684465.135,
+         6162284.845
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kvobjpadrfjuw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kvobjpadrfjuw"
+       },
+       "result": "Osager"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

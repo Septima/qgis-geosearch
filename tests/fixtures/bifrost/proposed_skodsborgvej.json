@@ -1,0 +1,1816 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": true,
+  "selected": [
+   "vej"
+  ],
+  "text": "skodsborgvej"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "skodsborgvej",
+     "limit": 40,
+     "target": "street"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "vej"
+   ],
+   "response": [
+    {
+     "input": "skodsborgvej",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         },
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Virum",
+          "postcode": "2830"
+         },
+         {
+          "city": "Holte",
+          "postcode": "2840"
+         },
+         {
+          "city": "Nærum",
+          "postcode": "2850"
+         },
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ],
+        "street": "Skodsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "street": {
+          "id": "0d39f5fc-471d-4381-8d5c-3ebccaf38c26",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720700.83,
+         6190806.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xomjdltrrj7nc",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "xomjdltrrj7nc"
+       },
+       "result": "Skodsborgvej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Klarup",
+          "postcode": "9270"
+         }
+        ],
+        "street": "Skodsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "street": {
+          "id": "2a5c877b-a91f-41ad-b06a-2b0460237ab8",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         564711.76,
+         6318944.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lwbzvldgkx672",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "lwbzvldgkx672"
+       },
+       "result": "Skodsborgvej, 9270 Klarup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ],
+        "street": "Høje Skodsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6842,
+        "upstream": {
+         "street": {
+          "id": "08891f8b-0cd5-47e3-b872-b49349041ac1",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723781.15,
+         6192734.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yrutmb3qzfliu",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "yrutmb3qzfliu"
+       },
+       "result": "Høje Skodsborgvej, 2942 Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Rødding",
+          "postcode": "6630"
+         }
+        ],
+        "street": "Skodborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6667,
+        "upstream": {
+         "street": {
+          "id": "29b667d3-ea9e-4c54-a8cf-56844243ad4a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         506431.96,
+         6138925.41
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v6l6ws2pt7y6g",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "v6l6ws2pt7y6g"
+       },
+       "result": "Skodborgvej, 6630 Rødding"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rødovre",
+          "kommunekode": "0175"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Rødovre",
+          "postcode": "2610"
+         }
+        ],
+        "street": "Skodborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6667,
+        "upstream": {
+         "street": {
+          "id": "942e8c3a-ddaf-492f-a038-00c8dc674cda",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717684.78,
+         6174662.79
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x744mnecuq5ve",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "x744mnecuq5ve"
+       },
+       "result": "Skodborgvej, 2610 Rødovre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Lemvig",
+          "postcode": "7620"
+         }
+        ],
+        "street": "Skodborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6667,
+        "upstream": {
+         "street": {
+          "id": "9c324114-f0f3-468c-8b72-fde0382e75f0",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         468180.21,
+         6262801.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b2453alsza42s",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "b2453alsza42s"
+       },
+       "result": "Skodborgvej, 7620 Lemvig"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Kibæk",
+          "postcode": "6933"
+         }
+        ],
+        "street": "Skovsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.625,
+        "upstream": {
+         "street": {
+          "id": "ac946a43-dd62-49b7-9f56-77852cba4f5a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         493740.92,
+         6205993.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qj7a45c6b44bc",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "qj7a45c6b44bc"
+       },
+       "result": "Skovsborgvej, 6933 Kibæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Kjellerup",
+          "postcode": "8620"
+         },
+         {
+          "city": "Rødkærsbro",
+          "postcode": "8840"
+         }
+        ],
+        "street": "Skovsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.625,
+        "upstream": {
+         "street": {
+          "id": "c6b49e3c-06b3-4471-a83e-5780ae504634",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532593.31,
+         6239918.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zfazzbmfv4x3c",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "zfazzbmfv4x3c"
+       },
+       "result": "Skovsborgvej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vonge",
+          "postcode": "7173"
+         }
+        ],
+        "street": "Skovborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5625,
+        "upstream": {
+         "street": {
+          "id": "42d851aa-a909-4ce1-a1e4-69d2757b6803",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525937.32,
+         6190986.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7yx6hfgui7al2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "7yx6hfgui7al2"
+       },
+       "result": "Skovborgvej, 7173 Vonge"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Juelsminde",
+          "postcode": "7130"
+         }
+        ],
+        "street": "Klodsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "street": {
+          "id": "ac651e59-0a9e-4e1f-9d4d-67cfb3dd3979",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560556.61,
+         6184900.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "du74zmhdtc7n4",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "du74zmhdtc7n4"
+       },
+       "result": "Klodsborgvej, 7130 Juelsminde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Broager",
+          "postcode": "6310"
+         }
+        ],
+        "street": "Skodsbølvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "street": {
+          "id": "9deb6885-68b8-4f45-ad53-6d438b17e0b6",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         541752.11,
+         6083922.56
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6sdjjtorzfnuo",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "6sdjjtorzfnuo"
+       },
+       "result": "Skodsbølvej, 6310 Broager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Tarm",
+          "postcode": "6880"
+         }
+        ],
+        "street": "Skodsbølvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "street": {
+          "id": "f7bf69cf-7a98-420d-9d32-a595fd68e07f",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473089.85,
+         6191057.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nacicwihqw37i",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "nacicwihqw37i"
+       },
+       "result": "Skodsbølvej, 6880 Tarm"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ],
+        "street": "Skodsborg Strandvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5238,
+        "upstream": {
+         "street": {
+          "id": "166e957e-f0df-4e0b-b8f4-6e5503cd381a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723870.96,
+         6192448.92
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ekjy5m2rpyvb2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "ekjy5m2rpyvb2"
+       },
+       "result": "Skodsborg Strandvej, 2942 Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København N",
+          "postcode": "2200"
+         }
+        ],
+        "street": "Skodsborggade"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "street": {
+          "id": "e81aec25-b457-45da-a496-167771f235af",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722663.01,
+         6178048.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dt3bnua4mnxtg",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "dt3bnua4mnxtg"
+       },
+       "result": "Skodsborggade, 2200 København N"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hammel",
+          "postcode": "8450"
+         }
+        ],
+        "street": "Standsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "street": {
+          "id": "63b1f285-0d83-42b2-9cc7-e873f9c6812e",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         551379.85,
+         6234765.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zqqvbvrwd2qeu",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "zqqvbvrwd2qeu"
+       },
+       "result": "Standsborgvej, 8450 Hammel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Tinglev",
+          "postcode": "6360"
+         },
+         {
+          "city": "Bylderup-Bov",
+          "postcode": "6372"
+         }
+        ],
+        "street": "Saksborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4706,
+        "upstream": {
+         "street": {
+          "id": "f2524b7e-4718-4dde-8db1-19d07684cff0",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509275.66,
+         6087299.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "duhhqfa3hbr4y",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "duhhqfa3hbr4y"
+       },
+       "result": "Saksborgvej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Odder",
+          "postcode": "8300"
+         }
+        ],
+        "street": "Skalborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4706,
+        "upstream": {
+         "street": {
+          "id": "5473f1ac-0232-4c20-aeea-bed6040e4301",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574792.43,
+         6204992.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ggvwhwkbordqs",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "ggvwhwkbordqs"
+       },
+       "result": "Skalborgvej, 8300 Odder"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørager",
+          "postcode": "9610"
+         }
+        ],
+        "street": "Skalborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4706,
+        "upstream": {
+         "street": {
+          "id": "89136e20-69cf-4b90-a2df-9b1944705276",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         545745.73,
+         6290719.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xeapgnbzpsadq",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "xeapgnbzpsadq"
+       },
+       "result": "Skalborgvej, 9610 Nørager"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hobro",
+          "postcode": "9500"
+         }
+        ],
+        "street": "Skalborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4706,
+        "upstream": {
+         "street": {
+          "id": "9a287094-1344-4168-8fe1-c5dfd228818b",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         554723.5,
+         6275292.84
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2qflzkpcp3rqe",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "2qflzkpcp3rqe"
+       },
+       "result": "Skalborgvej, 9500 Hobro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Jelling",
+          "postcode": "7300"
+         }
+        ],
+        "street": "Skelborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4706,
+        "upstream": {
+         "street": {
+          "id": "8e3e4bf7-7928-4a68-9a9f-686db415c060",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         527786.31,
+         6179862.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nffeajk5utii2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "nffeajk5utii2"
+       },
+       "result": "Skelborgvej, 7300 Jelling"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Rødding",
+          "postcode": "6630"
+         }
+        ],
+        "street": "Skodborg Engvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "street": {
+          "id": "8c88997d-81f9-4caf-8231-ad596bd85c38",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         509456.42,
+         6141724.16
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mbwxqfgcjr27g",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "mbwxqfgcjr27g"
+       },
+       "result": "Skodborg Engvej, 6630 Rødding"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ],
+        "street": "Skodsborgparken"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "street": {
+          "id": "e642385f-b29c-4b6b-a09a-385a5a007720",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723784.37,
+         6192222.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gajdpmohdeyz2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "gajdpmohdeyz2"
+       },
+       "result": "Skodsborgparken, 2942 Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Børkop",
+          "postcode": "7080"
+         }
+        ],
+        "street": "Randsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "d574103d-9e86-4d89-8bf9-00b28e963fcf",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         546797.9,
+         6165326.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "76asv2fct6hce",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "76asv2fct6hce"
+       },
+       "result": "Randsborgvej, 7080 Børkop"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Sønderborg",
+          "postcode": "6400"
+         }
+        ],
+        "street": "Rendsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "f5b13313-6f0f-48b9-a85a-ec60d3dbed37",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         545892.23,
+         6085717.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k673p5dv4pipo",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "k673p5dv4pipo"
+       },
+       "result": "Rendsborgvej, 6400 Sønderborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Struer",
+          "postcode": "7600"
+         }
+        ],
+        "street": "Sarpsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "9e6d4b73-16f9-46e4-9158-bf748086794c",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473076.62,
+         6261046.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kwlu6zojjfacq",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "kwlu6zojjfacq"
+       },
+       "result": "Sarpsborgvej, 7600 Struer"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Læsø",
+          "postcode": "9940"
+         }
+        ],
+        "street": "Skramborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "b49c3cc0-0740-44a3-8335-24d2b61bdd87",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         622394.91,
+         6348008.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bgfqdubvkwf7g",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "bgfqdubvkwf7g"
+       },
+       "result": "Skramborgvej, 9940 Læsø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Kjellerup",
+          "postcode": "8620"
+         }
+        ],
+        "street": "Stensborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "6af08ad7-e4dc-46c6-b433-8ca5fb76e31d",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         527491.95,
+         6239993.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6seysxz2xx2n6",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "6seysxz2xx2n6"
+       },
+       "result": "Stensborgvej, 8620 Kjellerup"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nørresundby",
+          "postcode": "9400"
+         }
+        ],
+        "street": "Stigsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "3173bef3-ec69-44d3-94bf-899c5768ddea",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557174.66,
+         6324395.14
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "virwityknr2us",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "virwityknr2us"
+       },
+       "result": "Stigsborgvej, 9400 Nørresundby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Tjæreborg",
+          "postcode": "6731"
+         }
+        ],
+        "street": "Tradsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "street": {
+          "id": "f40b8da2-fbe6-435e-a873-14bcba01ce4e",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         475054.33,
+         6147891.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "46ritspfwykbi",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "46ritspfwykbi"
+       },
+       "result": "Tradsborgvej, 6731 Tjæreborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Faaborg",
+          "postcode": "5600"
+         }
+        ],
+        "street": "Knoldsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4211,
+        "upstream": {
+         "street": {
+          "id": "56982111-fcba-499e-813a-4fda39fb189e",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576704.55,
+         6104431.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ktvhutgbf7xtw",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "ktvhutgbf7xtw"
+       },
+       "result": "Knoldsborgvej, 5600 Faaborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vejle",
+          "postcode": "7100"
+         }
+        ],
+        "street": "Skjoldborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4211,
+        "upstream": {
+         "street": {
+          "id": "d2aea913-961b-4212-a056-22011fc9d700",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         531709.61,
+         6168090.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mbch37lzyls24",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "mbch37lzyls24"
+       },
+       "result": "Skjoldborgvej, 7100 Vejle"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Grenaa",
+          "postcode": "8500"
+         }
+        ],
+        "street": "Stavnsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4211,
+        "upstream": {
+         "street": {
+          "id": "65e45af0-6c81-4065-87c9-a3ed2be2649a",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         610968.4,
+         6266782.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "53tusrswud7me",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "53tusrswud7me"
+       },
+       "result": "Stavnsborgvej, 8500 Grenaa"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hvidovre",
+          "kommunekode": "0167"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hvidovre",
+          "postcode": "2650"
+         }
+        ],
+        "street": "Elsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "5c1eec21-8d64-42d5-a163-574a2b4eaba4",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719215.51,
+         6172869.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qfnutupfohudw",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "qfnutupfohudw"
+       },
+       "result": "Elsborgvej, 2650 Hvidovre"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         },
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Kjellerup",
+          "postcode": "8620"
+         },
+         {
+          "city": "Rødkærsbro",
+          "postcode": "8840"
+         }
+        ],
+        "street": "Elsborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "de171ca7-dea8-4bb1-b259-1f28157cbc90",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529762.01,
+         6243037.55
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s42k5fsrajm5g",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "s42k5fsrajm5g"
+       },
+       "result": "Elsborgvej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ørum Djurs",
+          "postcode": "8586"
+         }
+        ],
+        "street": "Lasborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "cbb086f4-4dc1-4018-e044-00144f3ead67",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         600850.43,
+         6259011.2
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ibvckzarotps2",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "ibvckzarotps2"
+       },
+       "result": "Lasborgvej, 8586 Ørum Djurs"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Frederikshavn",
+          "postcode": "9900"
+         }
+        ],
+        "street": "Lisborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "cd144eec-57fc-48b6-b148-1fa70011086d",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591369.39,
+         6365675.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qf345arxxlf6o",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "qf345arxxlf6o"
+       },
+       "result": "Lisborgvej, 9900 Frederikshavn"
+      },
+      {
+       "components": {
+        "street": "Rasborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "5b0fd334-f290-400e-858e-b5e61022d50b",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         678186.49,
+         6206172.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pg7tduga5hpxs",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "pg7tduga5hpxs"
+       },
+       "result": "Rasborgvej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Solbjerg",
+          "postcode": "8355"
+         }
+        ],
+        "street": "Rasborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "6c578c02-41fb-4083-bea7-86a552bf894f",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567950.24,
+         6208484.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v4gcrfeqbcgjm",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "v4gcrfeqbcgjm"
+       },
+       "result": "Rasborgvej, 8355 Solbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Frederikshavn",
+          "postcode": "9900"
+         }
+        ],
+        "street": "Rosborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "329a5de4-2026-40b4-86c3-5f1714eafc14",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         591458.88,
+         6367816.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lt6ndf4tmsg4e",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "lt6ndf4tmsg4e"
+       },
+       "result": "Rosborgvej, 9900 Frederikshavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Lemvig",
+          "postcode": "7620"
+         }
+        ],
+        "street": "Sodborgvej"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4118,
+        "upstream": {
+         "street": {
+          "id": "ef2a530e-1d75-419a-b63f-7c54542f85fb",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         456659.46,
+         6265073.66
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2m54rixn4cayg",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "2m54rixn4cayg"
+       },
+       "result": "Sodborgvej, 7620 Lemvig"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ]
+}

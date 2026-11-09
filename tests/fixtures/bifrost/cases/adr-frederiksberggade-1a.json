@@ -1,0 +1,1733 @@
+{
+ "case": {
+  "id": "adr-frederiksberggade-1a",
+  "input": "frederiksberggade 1a",
+  "kommuner": null,
+  "types": [
+   "adr"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "ybzeqlgd42e76",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 130,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "ybzeqlgd42e76",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_letter": "A",
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København K",
+          "postcode": "1459"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Helligånds",
+          "sognekode": "7002"
+         }
+        ],
+        "street": "Frederiksberggade"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          724581.86,
+          6175984.91
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         724576.326740855,
+         6175991.29092548
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507a-6f8e-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724581.86,
+         6175984.91
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ybzeqlgd42e76",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ybzeqlgd42e76"
+       },
+       "result": "Frederiksberggade 1A, 1459 København K"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "ybzeqlgd42e76",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:12+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "frederiksberggade 1a",
+    "limit": 20
+   },
+   "elapsed_ms": 291,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "frederiksberggade 1a",
+    "matches": [
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-6f8e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724581.86,
+        6175984.91
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ybzeqlgd42e76",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "ybzeqlgd42e76"
+      },
+      "result": "Frederiksberggade 1A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-6f99-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "d71e61a0-27f1-4d39-9860-7b0f1c793da8",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724552.843295974,
+        6175959.88924351
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "bhspaq3zriars",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "3jaumzk6gy6qm",
+       "unit": "bhspaq3zriars"
+      },
+      "result": "Frederiksberggade 11A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "12",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "46fccf4c-dfac-4d7e-a25d-c3c40af91dbf",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724539.11,
+        6175968.41
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "4xlc34y5jgr4o",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "4xlc34y5jgr4o"
+      },
+      "result": "Frederiksberggade 12A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "17",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-6fa0-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724527.32,
+        6175914.5
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "p44unkqk2plmw",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "p44unkqk2plmw"
+      },
+      "result": "Frederiksberggade 17A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "51",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-5058-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ba-fd2d-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514125.95,
+        6188616.66
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qe766lnuqrhmq",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "mb7ejf55ftpri",
+       "unit": "qe766lnuqrhmq"
+      },
+      "result": "Frederiksberggade 51A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "13",
+       "kommuner": [
+        {
+         "kommune": "Silkeborg",
+         "kommunekode": "0740"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Silkeborg Syd",
+         "opstillingskredsnummer": "78"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestjyllands Politi",
+         "politikredsnummer": "3"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Silkeborg",
+         "postcode": "8600"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Viborg",
+         "retskredsnummer": "5"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Silkeborg",
+         "sognekode": "8017"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "f26124ef-19d0-46e3-bc73-5954a70b3d6e",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "e15c4a41-6307-4821-967a-3c99c1d2a902",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        534269.3953498456,
+        6224409.6917047445
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xph4vhv3ofkp4",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "jxakbaxzqivo6",
+       "unit": "xph4vhv3ofkp4"
+      },
+      "result": "Frederiksberggade 13A, 8600 Silkeborg"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "15",
+       "kommuner": [
+        {
+         "kommune": "Silkeborg",
+         "kommunekode": "0740"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Silkeborg Syd",
+         "opstillingskredsnummer": "78"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestjyllands Politi",
+         "politikredsnummer": "3"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Silkeborg",
+         "postcode": "8600"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Viborg",
+         "retskredsnummer": "5"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Silkeborg",
+         "sognekode": "8017"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5095-54d0-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50c1-ca65-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        534273.6045506272,
+        6224395.452786155
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "okl2o4no2o64c",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ttucz3ljddjzk",
+       "unit": "okl2o4no2o64c"
+      },
+      "result": "Frederiksberggade 15A, 8600 Silkeborg"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "11",
+       "kommuner": [
+        {
+         "kommune": "Horsens",
+         "kommunekode": "0615"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Horsens",
+         "opstillingskredsnummer": "71"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Horsens",
+         "postcode": "8700"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Horsens",
+         "retskredsnummer": "8"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frelsers",
+         "sognekode": "8053"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9897,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-9e69-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        552267.36,
+        6191966.13
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "clynr6k5iywri",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "clynr6k5iywri"
+      },
+      "result": "Frederiksberggade 11A, 8700 Horsens"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "3",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-6f91-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724575.93,
+        6175980.13
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "zvroqugt4vngk",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "zvroqugt4vngk"
+      },
+      "result": "Frederiksberggade 3A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "25",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-6fa6-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724467.91,
+        6175884.14
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ld2wwbdazxtzg",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "ld2wwbdazxtzg"
+      },
+      "result": "Frederiksberggade 25A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "28",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "d6d56637-0d07-4105-8fe3-ccce9f677203",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "455d29b7-265b-4292-bd74-b3ecfa18a52f",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724468.03,
+        6175920.87
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "zrllet72esmke",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "qfetc3vi3w2cm",
+       "unit": "zrllet72esmke"
+      },
+      "result": "Frederiksberggade 28A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "30",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København K",
+         "postcode": "1459"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Vor Frue",
+         "sognekode": "9174"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "f1107201-be00-4495-beaa-8fffc1a15919",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724458.73,
+        6175894.83
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pmqbwx6ob6yku",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "pmqbwx6ob6yku"
+      },
+      "result": "Frederiksberggade 30A, 1459 København K"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "2",
+       "kommuner": [
+        {
+         "kommune": "Kolding",
+         "kommunekode": "0621"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Kolding Nord",
+         "opstillingskredsnummer": "59"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Lunderskov",
+         "postcode": "6640"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Skanderup",
+         "sognekode": "8939"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5090-6e72-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50bc-5f81-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        519132.54,
+        6148176.42
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ecppscevvc2gm",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "pl646zmogeznm",
+       "unit": "ecppscevvc2gm"
+      },
+      "result": "Frederiksberggade 2A, 6640 Lunderskov"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "7",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-5029-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ba-fcfe-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514539.2761700567,
+        6188598.53798421
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "u7oa6rjkgdmo6",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "dyt4xgujjemde",
+       "unit": "u7oa6rjkgdmo6"
+      },
+      "result": "Frederiksberggade 7A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "29",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-503d-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ba-fd12-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514363.92,
+        6188636.3
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "g5ur3rbkwbuyi",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "ps5y3gfd56snu",
+       "unit": "g5ur3rbkwbuyi"
+      },
+      "result": "Frederiksberggade 29A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "36",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "7308e677-a577-46e2-a6fb-9605e02f4b78",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "2ab85de6-eea1-4f3e-878a-32e78a01a589",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514361.4487228977,
+        6188657.637315278
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6zyxhzgcnm7re",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "zvgqvoexonbqe",
+       "unit": "6zyxhzgcnm7re"
+      },
+      "result": "Frederiksberggade 36A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "43",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-504b-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514201.121182394,
+        6188614.34198355
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pz7f5ecy2yf4s",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "pz7f5ecy2yf4s"
+      },
+      "result": "Frederiksberggade 43A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "47",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-504f-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ba-fd24-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514162.85,
+        6188617.27
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mo3ukds2cdquu",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "j33vqyf3fgfk6",
+       "unit": "mo3ukds2cdquu"
+      },
+      "result": "Frederiksberggade 47A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "49",
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Vejle Nord",
+         "opstillingskredsnummer": "56"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydøstjyllands Politi",
+         "politikredsnummer": "4"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Give",
+         "postcode": "7323"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Kolding",
+         "retskredsnummer": "9"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Give",
+         "sognekode": "7983"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508f-5053-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50ba-fd28-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        514124.38,
+        6188595.59
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "4jd527gvrqum4",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "hglxmnib67doi",
+       "unit": "4jd527gvrqum4"
+      },
+      "result": "Frederiksberggade 49A, 7323 Give"
+     },
+     {
+      "components": {
+       "house_letter": "A",
+       "house_number": "3",
+       "kommuner": [
+        {
+         "kommune": "Silkeborg",
+         "kommunekode": "0740"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Silkeborg Syd",
+         "opstillingskredsnummer": "78"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestjyllands Politi",
+         "politikredsnummer": "3"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Silkeborg",
+         "postcode": "8600"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Midtjylland",
+         "regionskode": "1082"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Viborg",
+         "retskredsnummer": "5"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Silkeborg",
+         "sognekode": "8017"
+        }
+       ],
+       "street": "Frederiksberggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.902,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5095-54c0-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        534244.75,
+        6224482.69
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "53zbjwyrwckcc",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "53zbjwyrwckcc"
+      },
+      "result": "Frederiksberggade 3A, 8600 Silkeborg"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

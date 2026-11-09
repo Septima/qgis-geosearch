@@ -1,0 +1,304 @@
+{
+ "case": {
+  "id": "mat-bfe-6033528",
+  "input": "6033528",
+  "kommuner": null,
+  "types": [
+   "mat"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "336vfydjxw4rc",
+      "kind": "ejendom"
+     },
+     "limit": 1,
+     "target": "ejendom"
+    },
+    "elapsed_ms": 119,
+    "endpoint": "project",
+    "keys": [
+     "mat"
+    ],
+    "response": {
+     "input": {
+      "id": "336vfydjxw4rc",
+      "kind": "ejendom"
+     },
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Vestervold Kvarter, København",
+        "ejerlavskode": 2000179,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "matrikelnummer": "162"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervold Kvarter, København",
+           "ejerlavskode": 2000179,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "162",
+           "upstream": {
+            "id": 10438851,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            724374.754,
+            6175779.673
+           ],
+           [
+            724377.76,
+            6175754.815
+           ],
+           [
+            724411.296,
+            6175728.984
+           ],
+           [
+            724402.787,
+            6175718.25
+           ],
+           [
+            724501.168,
+            6175639.77
+           ],
+           [
+            724501.484,
+            6175640.152
+           ],
+           [
+            724506.161,
+            6175645.939
+           ],
+           [
+            724509.734,
+            6175650.342
+           ],
+           [
+            724510.014,
+            6175650.118
+           ],
+           [
+            724526.903,
+            6175636.696
+           ],
+           [
+            724571.137,
+            6175692.204
+           ],
+           [
+            724554.229,
+            6175705.597
+           ],
+           [
+            724495.958,
+            6175752.208
+           ],
+           [
+            724496.811,
+            6175753.32
+           ],
+           [
+            724488.662,
+            6175759.805
+           ],
+           [
+            724487.945,
+            6175758.846
+           ],
+           [
+            724454.79,
+            6175785.103
+           ],
+           [
+            724422.197,
+            6175810.581
+           ],
+           [
+            724397.007,
+            6175807.734
+           ],
+           [
+            724374.754,
+            6175779.673
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 6033528,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724495.727,
+         6175696.138
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "336vfydjxw4rc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "336vfydjxw4rc"
+       },
+       "result": "162, Vestervold Kvarter, København"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "336vfydjxw4rc",
+   "kind": "ejendom"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:30+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "6033528",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 204,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "6033528",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Vestervold Kvarter, København",
+        "ejerlavskode": 2000179,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "matrikelnummer": "162"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervold Kvarter, København",
+           "ejerlavskode": 2000179,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "162",
+           "upstream": {
+            "id": 10438851,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 6033528,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724495.727,
+         6175696.138
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "336vfydjxw4rc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "336vfydjxw4rc"
+       },
+       "result": "162, Vestervold Kvarter, København"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

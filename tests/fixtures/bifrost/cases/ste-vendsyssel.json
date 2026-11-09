@@ -1,0 +1,2681 @@
+{
+ "case": {
+  "id": "ste-vendsyssel",
+  "input": "ste: vendsyssel",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Vendsyssel",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 893,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Vendsyssel",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel",
+        "type": "topografi"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            595611.4669,
+            6398889.8105
+           ],
+           [
+            596471.7869,
+            6399895.0205
+           ],
+           [
+            597001.8269,
+            6400325.1205
+           ],
+           [
+            597534.3569,
+            6400798.1205
+           ],
+           [
+            598721.7869,
+            6401418.2705
+           ],
+           [
+            596667.2169,
+            6402188.5905
+           ],
+           [
+            594402.1569,
+            6401985.0105
+           ],
+           [
+            592472.6002,
+            6400951.9505
+           ],
+           [
+            591119.5569,
+            6400016.5005
+           ],
+           [
+            589812.7736,
+            6398808.4772
+           ],
+           [
+            588263.9269,
+            6397383.1305
+           ],
+           [
+            586488.4536,
+            6395821.1872
+           ],
+           [
+            584716.6069,
+            6394214.7272
+           ],
+           [
+            583059.8109,
+            6392685.4185
+           ],
+           [
+            581565.2309,
+            6391308.2605
+           ],
+           [
+            581357.9169,
+            6391086.6805
+           ],
+           [
+            581132.2469,
+            6390869.4305
+           ],
+           [
+            580886.2869,
+            6390644.1405
+           ],
+           [
+            580546.3769,
+            6390373.1205
+           ],
+           [
+            580165.9669,
+            6389993.5505
+           ],
+           [
+            579406.2469,
+            6389321.5272
+           ],
+           [
+            577477.3705,
+            6387995.1469
+           ],
+           [
+            575523.1319,
+            6386651.7472
+           ],
+           [
+            573615.0669,
+            6385923.6365
+           ],
+           [
+            571592.8702,
+            6384969.2805
+           ],
+           [
+            569538.7236,
+            6384094.5238
+           ],
+           [
+            567435.2669,
+            6383570.7205
+           ],
+           [
+            565590.7969,
+            6383642.3105
+           ],
+           [
+            563572.2369,
+            6383632.1272
+           ],
+           [
+            561270.4169,
+            6383472.0405
+           ],
+           [
+            559378.2319,
+            6383641.0655
+           ],
+           [
+            557832.1569,
+            6384273.8305
+           ],
+           [
+            558294.1569,
+            6384155.8305
+           ],
+           [
+            558142.8569,
+            6383925.1655
+           ],
+           [
+            557764.8069,
+            6383960.3705
+           ],
+           [
+            557427.1869,
+            6383751.5305
+           ],
+           [
+            557542.4769,
+            6384046.4505
+           ],
+           [
+            557162.4869,
+            6384400.8555
+           ],
+           [
+            556759.9969,
+            6383521.2205
+           ],
+           [
+            555600.6469,
+            6381995.6205
+           ],
+           [
+            554538.4469,
+            6379949.6705
+           ],
+           [
+            553552.474,
+            6377939.3505
+           ],
+           [
+            552235.9733,
+            6375832.5339
+           ],
+           [
+            550668.2098,
+            6373873.5234
+           ],
+           [
+            549687.2169,
+            6372760.3205
+           ],
+           [
+            549267.0969,
+            6372309.4905
+           ],
+           [
+            548487.4969,
+            6371605.7305
+           ],
+           [
+            547956.7369,
+            6371058.5505
+           ],
+           [
+            547645.7269,
+            6370652.7805
+           ],
+           [
+            547499.5369,
+            6370345.7105
+           ],
+           [
+            547012.8269,
+            6369193.9705
+           ],
+           [
+            546174.2669,
+            6367243.8305
+           ],
+           [
+            545344.9369,
+            6365188.4205
+           ],
+           [
+            544630.5169,
+            6363405.7205
+           ],
+           [
+            543834.5113,
+            6361530.7683
+           ],
+           [
+            542779.8119,
+            6359464.9205
+           ],
+           [
+            541857.6869,
+            6357960.4405
+           ],
+           [
+            540891.2183,
+            6355985.5748
+           ],
+           [
+            539981.9569,
+            6354424.3905
+           ],
+           [
+            539448.8769,
+            6353526.6405
+           ],
+           [
+            538354.9769,
+            6351478.9848
+           ],
+           [
+            537041.4169,
+            6349397.1305
+           ],
+           [
+            535765.9069,
+            6347361.4605
+           ],
+           [
+            534564.1419,
+            6345474.1205
+           ],
+           [
+            533132.8098,
+            6343417.5405
+           ],
+           [
+            532074.7669,
+            6342052.0255
+           ],
+           [
+            530165.3389,
+            6340490.1305
+           ],
+           [
+            531382.8769,
+            6339345.7738
+           ],
+           [
+            533604.5376,
+            6338379.7662
+           ],
+           [
+            535521.0802,
+            6337035.5038
+           ],
+           [
+            536882.5761,
+            6334887.7797
+           ],
+           [
+            538252.5336,
+            6332900.0072
+           ],
+           [
+            540318.0855,
+            6332381.9714
+           ],
+           [
+            540067.4602,
+            6331087.0972
+           ],
+           [
+            540480.9519,
+            6329245.4243
+           ],
+           [
+            541481.3869,
+            6328300.0705
+           ],
+           [
+            541667.9669,
+            6328438.4005
+           ],
+           [
+            541429.8769,
+            6327984.9605
+           ],
+           [
+            541131.2569,
+            6327631.4905
+           ],
+           [
+            540916.4369,
+            6327316.5105
+           ],
+           [
+            540581.5969,
+            6326985.9405
+           ],
+           [
+            540234.4269,
+            6326801.9105
+           ],
+           [
+            539813.9069,
+            6326955.0505
+           ],
+           [
+            539516.9669,
+            6325696.6905
+           ],
+           [
+            540511.9769,
+            6325740.8605
+           ],
+           [
+            541946.0269,
+            6325018.9205
+           ],
+           [
+            542846.8269,
+            6324628.8905
+           ],
+           [
+            543953.2569,
+            6324693.0705
+           ],
+           [
+            545213.0269,
+            6325032.3105
+           ],
+           [
+            546364.2902,
+            6326293.7205
+           ],
+           [
+            546320.3669,
+            6326493.2405
+           ],
+           [
+            546791.3369000009,
+            6327378.7705
+           ],
+           [
+            546995.8469,
+            6328022.8005
+           ],
+           [
+            547605.8969,
+            6328200.3105
+           ],
+           [
+            547288.7069,
+            6328541.9805
+           ],
+           [
+            547274.5519,
+            6329446.7955
+           ],
+           [
+            548076.2769,
+            6329246.9605
+           ],
+           [
+            549334.7069,
+            6328564.8505
+           ],
+           [
+            550214.6169,
+            6327944.7605
+           ],
+           [
+            551278.3769,
+            6327195.0405
+           ],
+           [
+            552302.6869,
+            6326308.4205
+           ],
+           [
+            552870.8419,
+            6325585.033
+           ],
+           [
+            554197.8169,
+            6324880.9405
+           ],
+           [
+            554858.4469,
+            6324800.1205
+           ],
+           [
+            555868.2669,
+            6324050.7705
+           ],
+           [
+            557160.3969,
+            6323899.5705
+           ],
+           [
+            557871.2069,
+            6324345.7205
+           ],
+           [
+            558066.0669,
+            6324871.7205
+           ],
+           [
+            557981.5669,
+            6325564.6805
+           ],
+           [
+            558501.7869,
+            6326181.1905
+           ],
+           [
+            558515.2719,
+            6326269.4505
+           ],
+           [
+            559288.9569,
+            6327094.2805
+           ],
+           [
+            559851.9869,
+            6327484.3405
+           ],
+           [
+            561084.5519,
+            6327783.6605
+           ],
+           [
+            562463.9944,
+            6326755.6005
+           ],
+           [
+            563479.3669,
+            6325622.9905
+           ],
+           [
+            564717.4919,
+            6324640.4205
+           ],
+           [
+            565658.2469,
+            6323978.5005
+           ],
+           [
+            566380.4869,
+            6323856.5005
+           ],
+           [
+            566809.7969,
+            6323438.0505
+           ],
+           [
+            567909.2269,
+            6322534.2605
+           ],
+           [
+            569052.6219,
+            6321446.5905
+           ],
+           [
+            570070.4369,
+            6320507.5405
+           ],
+           [
+            571337.4469,
+            6319418.4005
+           ],
+           [
+            572246.6869,
+            6318383.7055
+           ],
+           [
+            573526.2219,
+            6317400.9105
+           ],
+           [
+            574307.5869,
+            6316910.4505
+           ],
+           [
+            575187.1469,
+            6316632.1955
+           ],
+           [
+            576096.3669,
+            6316635.6705
+           ],
+           [
+            577574.8969,
+            6317194.5555
+           ],
+           [
+            578580.9269,
+            6317425.0305
+           ],
+           [
+            579268.3369000009,
+            6317159.5305
+           ],
+           [
+            579743.2269,
+            6317148.988
+           ],
+           [
+            580604.0669,
+            6317054.8305
+           ],
+           [
+            581335.1269,
+            6317536.1805
+           ],
+           [
+            581806.1869,
+            6318609.0905
+           ],
+           [
+            582171.3569,
+            6319648.8505
+           ],
+           [
+            582609.8969,
+            6321052.6105
+           ],
+           [
+            582866.5569,
+            6321874.2405
+           ],
+           [
+            583130.2469,
+            6322568.6405
+           ],
+           [
+            583367.6169,
+            6323331.0505
+           ],
+           [
+            583328.6769,
+            6323487.8705
+           ],
+           [
+            583396.5369,
+            6324006.6805
+           ],
+           [
+            583681.0369,
+            6324495.2905
+           ],
+           [
+            583807.6869,
+            6325174.4805
+           ],
+           [
+            583623.5069,
+            6324716.8705
+           ],
+           [
+            583698.5969,
+            6325680.7705
+           ],
+           [
+            583814.5669,
+            6326286.7005
+           ],
+           [
+            583971.0969,
+            6326957.3505
+           ],
+           [
+            584108.7369,
+            6327803.0505
+           ],
+           [
+            584284.9169,
+            6328481.9405
+           ],
+           [
+            584404.6969,
+            6329090.6305
+           ],
+           [
+            584579.2569,
+            6329709.1805
+           ],
+           [
+            584660.4469,
+            6330138.4205
+           ],
+           [
+            584764.3369000009,
+            6330538.2705
+           ],
+           [
+            584889.3869,
+            6330886.4205
+           ],
+           [
+            584896.0669,
+            6331623.8305
+           ],
+           [
+            585194.0569,
+            6332115.5905
+           ],
+           [
+            585363.5469,
+            6332771.2905
+           ],
+           [
+            585562.8169,
+            6333400.0205
+           ],
+           [
+            585798.7969,
+            6333941.6305
+           ],
+           [
+            585892.9569,
+            6333939.7605
+           ],
+           [
+            586317.9169,
+            6334355.0705
+           ],
+           [
+            586108.2369,
+            6334501.1105
+           ],
+           [
+            586025.1969,
+            6334718.5505
+           ],
+           [
+            586183.3569,
+            6334983.1905
+           ],
+           [
+            586289.4669,
+            6335227.6605
+           ],
+           [
+            586453.3869,
+            6335680.6705
+           ],
+           [
+            586690.1569,
+            6336187.7805
+           ],
+           [
+            586864.3769,
+            6336597.1605
+           ],
+           [
+            587148.5469,
+            6337106.8305
+           ],
+           [
+            587401.3269,
+            6337585.5405
+           ],
+           [
+            587834.5769,
+            6338214.2305
+           ],
+           [
+            588374.0569,
+            6338821.0705
+           ],
+           [
+            588843.7369,
+            6339615.6905
+           ],
+           [
+            589314.1969,
+            6340230.7405
+           ],
+           [
+            589754.5869,
+            6340645.4905
+           ],
+           [
+            590044.9069,
+            6340969.2505
+           ],
+           [
+            590758.2719,
+            6340911.2755
+           ],
+           [
+            590523.8769,
+            6341362.3205
+           ],
+           [
+            590898.8769,
+            6341584.7605
+           ],
+           [
+            591560.5969,
+            6341919.3005
+           ],
+           [
+            591992.1969,
+            6342307.3005
+           ],
+           [
+            592418.1869,
+            6342684.8005
+           ],
+           [
+            592754.1069,
+            6343137.0705
+           ],
+           [
+            593011.5569,
+            6343449.2405
+           ],
+           [
+            593163.2269,
+            6343949.5905
+           ],
+           [
+            593010.9769,
+            6343552.9205
+           ],
+           [
+            593320.8869,
+            6343670.1005
+           ],
+           [
+            593250.4669,
+            6343330.6105
+           ],
+           [
+            593431.3469,
+            6344077.6455
+           ],
+           [
+            593529.4569,
+            6346071.5605
+           ],
+           [
+            593323.3744,
+            6348247.8155
+           ],
+           [
+            592869.4069,
+            6350385.8505
+           ],
+           [
+            592399.1069,
+            6352491.3505
+           ],
+           [
+            592002.0919,
+            6354374.1505
+           ],
+           [
+            592371.2169,
+            6355418.8005
+           ],
+           [
+            592189.1569,
+            6355670.7005
+           ],
+           [
+            591582.4869,
+            6356948.6205
+           ],
+           [
+            591330.6669,
+            6358286.6105
+           ],
+           [
+            591169.9969,
+            6359747.3205
+           ],
+           [
+            591113.5269,
+            6361180.2505
+           ],
+           [
+            591338.2969,
+            6362586.1105
+           ],
+           [
+            591583.5369,
+            6363482.6905
+           ],
+           [
+            591694.0669,
+            6364645.5905
+           ],
+           [
+            591832.9969,
+            6365151.6705
+           ],
+           [
+            591831.3369,
+            6365678.4505
+           ],
+           [
+            591895.5894,
+            6366350.838
+           ],
+           [
+            592963.0236,
+            6366508.1305
+           ],
+           [
+            592478.8069,
+            6366491.1905
+           ],
+           [
+            592810.5769,
+            6366824.0705
+           ],
+           [
+            592725.4802,
+            6367048.8605
+           ],
+           [
+            593008.7669,
+            6366976.8705
+           ],
+           [
+            593048.8819,
+            6367445.4155
+           ],
+           [
+            593361.2169,
+            6367385.0105
+           ],
+           [
+            593308.6869,
+            6366800.9205
+           ],
+           [
+            593488.3069,
+            6367470.0705
+           ],
+           [
+            593649.4469,
+            6368326.1605
+           ],
+           [
+            592807.6769,
+            6368659.0605
+           ],
+           [
+            592475.1769,
+            6369693.8805
+           ],
+           [
+            592112.5369,
+            6370076.5705
+           ],
+           [
+            592184.7169,
+            6370474.4105
+           ],
+           [
+            591339.8629,
+            6371419.1165
+           ],
+           [
+            590227.2069,
+            6372935.5705
+           ],
+           [
+            590294.2159,
+            6373161.2065
+           ],
+           [
+            590144.5469,
+            6373516.4205
+           ],
+           [
+            590200.9669,
+            6373568.7205
+           ],
+           [
+            588900.6386,
+            6374835.9455
+           ],
+           [
+            587485.1489,
+            6376689.2565
+           ],
+           [
+            586537.7669,
+            6377786.3105
+           ],
+           [
+            586202.7969,
+            6379077.4705
+           ],
+           [
+            585598.3269,
+            6380845.5605
+           ],
+           [
+            585262.8419,
+            6382969.7705
+           ],
+           [
+            585456.1469,
+            6384167.8455
+           ],
+           [
+            585467.0869000009,
+            6384959.7105
+           ],
+           [
+            586083.0169,
+            6386981.1405
+           ],
+           [
+            586950.4436,
+            6388881.2838
+           ],
+           [
+            587916.9069,
+            6390506.1805
+           ],
+           [
+            588630.0269,
+            6391685.8105
+           ],
+           [
+            589414.4969,
+            6392879.9605
+           ],
+           [
+            590413.9169,
+            6394303.2072
+           ],
+           [
+            591669.4919,
+            6395865.1655
+           ],
+           [
+            592921.9969,
+            6397223.2405
+           ],
+           [
+            593456.8069,
+            6397628.1205
+           ],
+           [
+            594868.9269,
+            6397992.3205
+           ],
+           [
+            594810.1069,
+            6398320.4705
+           ],
+           [
+            594529.1269,
+            6398445.4305
+           ],
+           [
+            594932.2269,
+            6398371.9705
+           ],
+           [
+            595562.6269,
+            6398722.8405
+           ],
+           [
+            595702.0544,
+            6398776.2555
+           ],
+           [
+            595611.4669,
+            6398889.8105
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1014385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566959.888,
+         6359405.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "da3mwndaye7ju",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "da3mwndaye7ju"
+       },
+       "result": "Vendsyssel"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 65753 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "da3mwndaye7ju",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:17+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "vendsyssel",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 162,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "vendsyssel",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1014385",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566959.888,
+         6359405.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "da3mwndaye7ju",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "da3mwndaye7ju"
+       },
+       "result": "Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Vendsyssel",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1133847",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558527.96,
+         6327008.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u5ug7h6ax2p3c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "u5ug7h6ax2p3c"
+       },
+       "result": "Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "AOF Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7333,
+        "upstream": {
+         "stednavn": {
+          "id": "7595958",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557164.361,
+         6347858.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5tfp6evh6fz2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "f5tfp6evh6fz2"
+       },
+       "result": "AOF Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "CKU Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7333,
+        "upstream": {
+         "stednavn": {
+          "id": "7649558",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558450.722,
+         6368792.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gxo4jpneoqowm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gxo4jpneoqowm"
+       },
+       "result": "CKU Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "FGU Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7333,
+        "upstream": {
+         "stednavn": {
+          "id": "1124557",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560525.145,
+         6367420.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "slaa7cx7rfk2m",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "slaa7cx7rfk2m"
+       },
+       "result": "FGU Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Vendsyssel-Thy",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7333,
+        "upstream": {
+         "stednavn": {
+          "id": "1018383",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555925.987,
+         6336332.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vhqysxfsqvbke",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vhqysxfsqvbke"
+       },
+       "result": "Vendsyssel-Thy"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Hospice Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5789,
+        "upstream": {
+         "stednavn": {
+          "id": "1087542",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590110.914,
+         6366492.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3ddlbtcq72rhk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3ddlbtcq72rhk"
+       },
+       "result": "Hospice Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel Plantage",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.55,
+        "upstream": {
+         "stednavn": {
+          "id": "1014475",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         542619.972,
+         6358431.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bkvrwi5535g5c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bkvrwi5535g5c"
+       },
+       "result": "Vendsyssel Plantage"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "SOSU Nord Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5238,
+        "upstream": {
+         "stednavn": {
+          "id": "1069871",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561270.868,
+         6368893.53
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hvlyngyuuwimq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hvlyngyuuwimq"
+       },
+       "result": "SOSU Nord Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel Kunstmuseum",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4783,
+        "upstream": {
+         "stednavn": {
+          "id": "1143348",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559219.86,
+         6369129.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "atkcszjz7r3wm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "atkcszjz7r3wm"
+       },
+       "result": "Vendsyssel Kunstmuseum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "FGU Vendsyssel Hjørring",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.44,
+        "upstream": {
+         "stednavn": {
+          "id": "1086115",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556948.161,
+         6370501.585
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qd7gbvu2yc6eo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qd7gbvu2yc6eo"
+       },
+       "result": "FGU Vendsyssel Hjørring"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Idrætscenter Vendsyssel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.44,
+        "upstream": {
+         "stednavn": {
+          "id": "1065402",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557209.109,
+         6356755.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mvww3a7eo7hmo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mvww3a7eo7hmo"
+       },
+       "result": "Idrætscenter Vendsyssel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "FGU Vendsyssel Dronninglund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3929,
+        "upstream": {
+         "stednavn": {
+          "id": "1067022",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575813.673,
+         6336477.94
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jkpvob2ujb6fi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jkpvob2ujb6fi"
+       },
+       "result": "FGU Vendsyssel Dronninglund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "FGU Vendsyssel Frederikshavn",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3929,
+        "upstream": {
+         "stednavn": {
+          "id": "1072755",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         589038.403,
+         6371239.535
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ly32p6qxyatnu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ly32p6qxyatnu"
+       },
+       "result": "FGU Vendsyssel Frederikshavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel Historiske Museum",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3793,
+        "upstream": {
+         "stednavn": {
+          "id": "1030065",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558975.845,
+         6369107.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xcil5ikmwxmpm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xcil5ikmwxmpm"
+       },
+       "result": "Vendsyssel Historiske Museum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Vendsyssel Rådgivnings Center",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3548,
+        "upstream": {
+         "stednavn": {
+          "id": "1087104",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559727.238,
+         6349919.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6b7zofxp6cgg2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6b7zofxp6cgg2"
+       },
+       "result": "Vendsyssel Rådgivnings Center"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendsyssel Historiske Museums Have",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3235,
+        "upstream": {
+         "stednavn": {
+          "id": "7355706",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         558942.013,
+         6369101.749
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bup5vmonjc2bs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bup5vmonjc2bs"
+       },
+       "result": "Vendsyssel Historiske Museums Have"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendal",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1016595",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         481780.608,
+         6271757.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "263ljgi3qwb7s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "263ljgi3qwb7s"
+       },
+       "result": "Vendal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendal",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1047148",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         481851.338,
+         6272099.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qgh2toe6e76oy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qgh2toe6e76oy"
+       },
+       "result": "Vendal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Vendal",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1118832",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         460546.111,
+         6292357.235
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p2gdp2obe463w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p2gdp2obe463w"
+       },
+       "result": "Vendal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Sysselhaven",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2778,
+        "upstream": {
+         "stednavn": {
+          "id": "1090023",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585302.265,
+         6371253.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lisw34siizcsc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lisw34siizcsc"
+       },
+       "result": "Sysselhaven"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Køge",
+          "kommunekode": "0259"
+         }
+        ],
+        "stednavn": "Vendelbo",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1036625",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694559.848,
+         6156411.39
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xtuk6i4l6crni",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xtuk6i4l6crni"
+       },
+       "result": "Vendelbo"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendelbo",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1153489",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         582163.479,
+         6371431.395
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vgs4lddc6ki5c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vgs4lddc6ki5c"
+       },
+       "result": "Vendelbo"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holstebro",
+          "kommunekode": "0661"
+         }
+        ],
+        "stednavn": "Vester Hessel",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "stednavn": {
+          "id": "1093690",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         487301.493,
+         6248515.29
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hxsunbnfz2vak",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hxsunbnfz2vak"
+       },
+       "result": "Vester Hessel"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendalhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "stednavn": {
+          "id": "1113896",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         482027.045,
+         6271951.15
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bxbno4dhqzihq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bxbno4dhqzihq"
+       },
+       "result": "Vendalhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringsted",
+          "kommunekode": "0329"
+         }
+        ],
+        "stednavn": "Vendebæk",
+        "type": "vandløb"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2353,
+        "upstream": {
+         "stednavn": {
+          "id": "1029010",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         684900.74,
+         6140020.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7zsq5oci4twgo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7zsq5oci4twgo"
+       },
+       "result": "Vendebæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Veng",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "stednavn": {
+          "id": "7524561",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         554770.351,
+         6218759.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u3lmo6so6fvig",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "u3lmo6so6fvig"
+       },
+       "result": "Veng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holbæk",
+          "kommunekode": "0316"
+         }
+        ],
+        "stednavn": "Vendsbjerggård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2273,
+        "upstream": {
+         "stednavn": {
+          "id": "1027812",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         654347.09,
+         6167050.15
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7qfdsgdqsf3he",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7qfdsgdqsf3he"
+       },
+       "result": "Vendsbjerggård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Hardsyssel Efterskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "stednavn": {
+          "id": "1103942",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         474601.752,
+         6256007.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vs5k5iogmvqxq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vs5k5iogmvqxq"
+       },
+       "result": "Hardsyssel Efterskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Sysselhøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "stednavn": {
+          "id": "1024149",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585390.618,
+         6371318.58
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l37kltfl2skz4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "l37kltfl2skz4"
+       },
+       "result": "Sysselhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Struer",
+          "kommunekode": "0671"
+         }
+        ],
+        "stednavn": "Venø",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "stednavn": {
+          "id": "1137889",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         476930.825,
+         6267216.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vnauif7byx7ys",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vnauif7byx7ys"
+       },
+       "result": "Venø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Park Vendia",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1051619",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         560463.408,
+         6369684.692
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5wlni7ogplt6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "f5wlni7ogplt6"
+       },
+       "result": "Park Vendia"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Sysselbjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1146464",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530841.273,
+         6157158.385
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rqsfmbvbcgm2g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rqsfmbvbcgm2g"
+       },
+       "result": "Sysselbjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendal Høj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1150354",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         481880.36,
+         6272315.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sowb4yxczwz3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sowb4yxczwz3w"
+       },
+       "result": "Vendal Høj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendalgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1096228",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         482630.941,
+         6272366.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3ukdehca7p4nq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3ukdehca7p4nq"
+       },
+       "result": "Vendalgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vendalgaard",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1096229",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         482630.941,
+         6272366.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "golvte3qz56zw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "golvte3qz56zw"
+       },
+       "result": "Vendalgaard"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Vendelbohus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1026985",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559025.971,
+         6369295.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ani6yzbdwbh6m",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ani6yzbdwbh6m"
+       },
+       "result": "Vendelbohus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Vendelsmose",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1056828",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         604851.532,
+         6123700.175
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yzbvb2c4kxcr2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yzbvb2c4kxcr2"
+       },
+       "result": "Vendelsmose"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "stednavn": "Vendersvold",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1069675",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         521947.524,
+         6106188.551
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hqwxqoxkv23ha",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hqwxqoxkv23ha"
+       },
+       "result": "Vendersvold"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Vesselbjerg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2105,
+        "upstream": {
+         "stednavn": {
+          "id": "1076971",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         482868.991,
+         6174948.775
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uv3ofhio2fmzc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "uv3ofhio2fmzc"
+       },
+       "result": "Vesselbjerg"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

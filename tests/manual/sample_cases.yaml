@@ -1,0 +1,35 @@
+# Small sample for trying tests/manual/visual_run.py before tests/cases.yaml
+# (Step 1, #13) exists. Same schema as tests/cases.yaml.
+- id: sample-adr-vangebovej-71
+  story: "Brugeren vil finde Vangebovej 71 og se huset på kortet."
+  input: "Vangebovej 71"
+  types: [adr]
+  kommuner: []
+  expect: { text: "Vangebovej 71", within: 3, geometry: point }
+  notes: ""
+
+- id: sample-pos-8000
+  story: "Brugeren vil se postdistriktet 8000 Aarhus C."
+  input: "8000"
+  types: [pos]
+  expect: { text: "8000 Aarhus C", within: 1, geometry: polygon }
+
+- id: sample-kom-prefix
+  story: "Brugeren bruger prefix-syntaks for kun at søge i kommuner."
+  input: "kom:Køge"
+  expect: { text: "Køge Kommune", within: 1, geometry: polygon }
+
+- id: sample-ste-skodsborg
+  story: "Brugeren skriver starten af et stednavn."
+  input: "skodsb"
+  types: [ste]
+  expect: { text: "Skodsborg", within: 3 }
+  known_gap: 3
+  notes: "Type-ahead on partial words may be lost with Bifrost (#3)."
+
+- id: sample-adr-kommunefilter
+  story: "Brugeren har kommunefilter på København og søger en adresse."
+  input: "Rådhuspladsen 1"
+  types: [adr]
+  kommuner: [101]
+  expect: { text: "Rådhuspladsen 1", within: 1, geometry: point }

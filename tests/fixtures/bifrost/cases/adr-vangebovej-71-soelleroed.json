@@ -1,0 +1,1628 @@
+{
+ "case": {
+  "id": "adr-vangebovej-71-soelleroed",
+  "input": "vangebovej 71 søllerød",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "gv2y3jol2nyta",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 216,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "gv2y3jol2nyta",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "71",
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Rudersdal",
+          "opstillingskredsnummer": "26"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Nordsjællands Politi",
+          "politikredsnummer": "9"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Holte",
+          "postcode": "2840"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Retten i Lyngby",
+          "retskredsnummer": "20"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Søllerød",
+          "sognekode": "7125"
+         }
+        ],
+        "street": "Vangebovej",
+        "sub_locality": "Søllerød"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          719746.21,
+          6190493.67
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         719749.598553628,
+         6190466.51851438
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507d-c493-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         },
+         "unit": {
+          "id": "0a3f50a6-fbcd-32b8-e044-0003ba298018",
+          "source": "DAR.Adresse"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719746.21,
+         6190493.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m3zgetqqy6yii",
+        "kind": "unit"
+       },
+       "refs": {
+        "entrance": "gv2y3jol2nyta",
+        "unit": "m3zgetqqy6yii"
+       },
+       "result": "Vangebovej 71, Søllerød, 2840 Holte"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "gv2y3jol2nyta",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:05+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "vangebovej 71 søllerød",
+    "limit": 5
+   },
+   "elapsed_ms": 233,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "vangebovej 71 søllerød",
+    "matches": [
+     {
+      "components": {
+       "house_number": "71",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c493-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbcd-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719746.21,
+        6190493.67
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "m3zgetqqy6yii",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "gv2y3jol2nyta",
+       "unit": "m3zgetqqy6yii"
+      },
+      "result": "Vangebovej 71, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "31",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9899,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c477-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbb0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719244.05,
+        6190493.13
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nkkf4xatfylqs",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "u6rttap3bxnvc",
+       "unit": "nkkf4xatfylqs"
+      },
+      "result": "Vangebovej 31, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "41",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9899,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c47e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbb7-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719354.07,
+        6190514.63
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pnjksf6htugaw",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "k5ykamylt2vzi",
+       "unit": "pnjksf6htugaw"
+      },
+      "result": "Vangebovej 41, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "51",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9899,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c486-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbc0-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719470.26,
+        6190509.12
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "w5msxyiejoy2w",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "v5vagmcpbu5r2",
+       "unit": "w5msxyiejoy2w"
+      },
+      "result": "Vangebovej 51, Søllerød, 2840 Holte"
+     },
+     {
+      "components": {
+       "house_number": "61",
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Rudersdal",
+         "opstillingskredsnummer": "26"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Lyngby",
+         "retskredsnummer": "20"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Søllerød",
+         "sognekode": "7125"
+        }
+       ],
+       "street": "Vangebovej",
+       "sub_locality": "Søllerød"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.9899,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507d-c48e-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50a6-fbc8-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        719651.11,
+        6190477.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lor6rbkudokvk",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "g7pr6ju6giq3i",
+       "unit": "lor6rbkudokvk"
+      },
+      "result": "Vangebovej 61, Søllerød, 2840 Holte"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 309,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Søllerød",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.44,
+        "upstream": {
+         "stednavn": {
+          "id": "7426529",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719679.931,
+         6190354.775
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "niwsy552ceqgg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "niwsy552ceqgg"
+       },
+       "result": "Søllerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Vangebovej",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.44,
+        "upstream": {
+         "stednavn": {
+          "id": "1129437",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717719.755,
+         6190494.08
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7qrexp4gm3sz6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7qrexp4gm3sz6"
+       },
+       "result": "Vangebovej"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Søllerød Sø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4231,
+        "upstream": {
+         "stednavn": {
+          "id": "1150822",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718411.802,
+         6190895.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2j7tjxsb2sork",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2j7tjxsb2sork"
+       },
+       "result": "Søllerød Sø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Søllerød Slot",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3793,
+        "upstream": {
+         "stednavn": {
+          "id": "1057966",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719033.29,
+         6190910.635
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mr6nh74idgqry",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mr6nh74idgqry"
+       },
+       "result": "Søllerød Slot"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "stednavn": "Skallerød Vang",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3667,
+        "upstream": {
+         "stednavn": {
+          "id": "1014149",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         707600.004,
+         6208206.99
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sygwgby3mwina",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sygwgby3mwina"
+       },
+       "result": "Skallerød Vang"
+      }
+     ]
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Søllested",
+          "postcode": "4920"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2414,
+        "upstream": {
+         "postcode": {
+          "id": "4920",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         647335.467,
+         6074348.595
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fswuqcyweamd4",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "fswuqcyweamd4"
+       },
+       "result": "Søllested"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Allerød",
+          "kommunekode": "0201"
+         },
+         {
+          "kommune": "Fredensborg",
+          "kommunekode": "0210"
+         },
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Allerød",
+          "postcode": "3450"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "postcode": {
+          "id": "3450",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         708729.368,
+         6197320.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pd32gg3wclhfy",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pd32gg3wclhfy"
+       },
+       "result": "Allerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Allerød",
+          "kommunekode": "0201"
+         },
+         {
+          "kommune": "Fredensborg",
+          "kommunekode": "0210"
+         },
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Hillerød",
+          "postcode": "3400"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2069,
+        "upstream": {
+         "postcode": {
+          "id": "3400",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         705391.729,
+         6203812.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pf46nofuikdme",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "pf46nofuikdme"
+       },
+       "result": "Hillerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holbæk",
+          "kommunekode": "0316"
+         },
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Svebølle",
+          "postcode": "4470"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "4470",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         644987.966,
+         6168701.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x73z4ylyshx4q",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "x73z4ylyshx4q"
+       },
+       "result": "Svebølle"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Holbæk",
+          "kommunekode": "0316"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Vipperød",
+          "postcode": "4390"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "postcode": {
+          "id": "4390",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         672851.953,
+         6172365.715
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "k7rrrroal3hnc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "k7rrrroal3hnc"
+       },
+       "result": "Vipperød"
+      }
+     ]
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Øverød By, Søllerød",
+        "ejerlavskode": 11453,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "71"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Øverød By, Søllerød",
+           "ejerlavskode": 11453,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "71",
+           "upstream": {
+            "id": 1385644,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.6055,
+        "upstream": {
+         "ejendom": {
+          "id": 7476938,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718199.563,
+         6192153.814
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m2v3zr7i3m262",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "m2v3zr7i3m262"
+       },
+       "result": "71, Øverød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "7d",
+           "upstream": {
+            "id": 1384157,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "7bø",
+           "upstream": {
+            "id": 1384114,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.469,
+        "upstream": {
+         "ejendom": {
+          "id": 8854706,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719082.922,
+         6190663.494
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t55eshtuu4kfs",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "t55eshtuu4kfs"
+       },
+       "result": "7d, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "7e"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "7e",
+           "upstream": {
+            "id": 1384208,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.469,
+        "upstream": {
+         "ejendom": {
+          "id": 2044628,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718899.197,
+         6190655.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jfjtmyioqwlha",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jfjtmyioqwlha"
+       },
+       "result": "7e, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "7f"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "7f",
+           "upstream": {
+            "id": 1384217,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.469,
+        "upstream": {
+         "ejendom": {
+          "id": 2044629,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718884.726,
+         6190622.837
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y6k3mrsnjgmye",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "y6k3mrsnjgmye"
+       },
+       "result": "7f, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "7g"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "7g",
+           "upstream": {
+            "id": 1384214,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.469,
+        "upstream": {
+         "ejendom": {
+          "id": 2044630,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718880.91,
+         6190591.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ia43pmw7okbca",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ia43pmw7okbca"
+       },
+       "result": "7g, Søllerød By, Søllerød"
+      }
+     ]
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Allerød",
+          "kommunekode": "0201"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "kommune": {
+          "id": "0201",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         708920.946,
+         6195101.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fkd6cnspwrapy",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "fkd6cnspwrapy"
+       },
+       "result": "Allerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2069,
+        "upstream": {
+         "kommune": {
+          "id": "0219",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         701795.385,
+         6202533.915
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ycsknjju2ybic",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "ycsknjju2ybic"
+       },
+       "result": "Hillerød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Solrød",
+          "kommunekode": "0269"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1786,
+        "upstream": {
+         "kommune": {
+          "id": "0269",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         700012.345,
+         6159251.925
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vwzws4nosxebm",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "vwzws4nosxebm"
+       },
+       "result": "Solrød"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sorø",
+          "kommunekode": "0340"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1071,
+        "upstream": {
+         "kommune": {
+          "id": "0340",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         661650.602,
+         6150816.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "u7wao7ekxpjpe",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "u7wao7ekxpjpe"
+       },
+       "result": "Sorø"
+      }
+     ]
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Hillerød",
+          "opstillingskredsnummer": "23"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.2069,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "23",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         702221.961,
+         6209503.6
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "stk2lrcns4sj6",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "stk2lrcns4sj6"
+       },
+       "result": "Hillerød"
+      }
+     ]
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": []
+    },
+    {
+     "input": "vangebovej 71 søllerød",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

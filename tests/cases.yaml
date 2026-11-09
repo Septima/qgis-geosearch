@@ -1,0 +1,725 @@
+# Case catalogue for Geosearch DK.
+#
+# Each case is a user story: the user wants to find something, types `input`
+# with the given plugin settings, expects to see `expect.text` within the top
+# `expect.within` rows of the popup, and when it is clicked the map shows a
+# geometry of kind `expect.geometry`.
+#
+# Fields:
+#   id          unique kebab-case id, used as the fixture file name
+#   story       Danish user story
+#   input       exactly what is typed, including any prefix such as "mat:"
+#   types       plugin resource keys (adr ste pos mat kom ops pol reg);
+#               omitted = all 8 (the plugin default). A prefix in `input`
+#               overrides this, exactly as in the plugin.
+#   kommuner    optional kommunefilter codes, e.g. ["615"]
+#   expect      what the user should see. Written from what Geosearch DK 3.x showed
+#               with GSearch, before GSearch closed in November 2026
+#     text      visningstekst of the intended hit
+#     within    the hit appears within the top N rows of the popup
+#     geometry  point | line | polygon
+#     empty     true = no rows at all (the popup does not open); used instead of text
+#   known_gap   optional: issue number in AsgerPetersen/qgis-geosearch if Bifrost is
+#               expected to fail the case
+#   bifrost     optional: where Bifrost should behave differently from `expect` on purpose
+#     expect    replaces `expect` for Bifrost (null = no expectation)
+#     reason    why (shown in the Bifrost report)
+#   notes       free text
+#
+# The cases are run against Bifrost by `pytest -m live` (tests/live) and recorded with
+#   BIFROST_KEY=... uv run python tests/tools/record_bifrost.py --cases
+# which also writes tests/fixtures/bifrost/cases/REPORT.md. `make test` replays
+# the recordings (tests/unit/test_case_fixtures.py).
+
+# --------------------------------------------------------------------------
+# Adresser (husnumre)
+# --------------------------------------------------------------------------
+- id: adr-vangebovej-71
+  story: "Brugeren vil finde Vangebovej 71 og zoome til adressen"
+  input: "Vangebovej 71"
+  types: [adr]
+  expect:
+    text: "Vangebovej 71, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  notes: "Fra sammenligningssiden. Adressen har et supplerende bynavn (Søllerød)."
+
+- id: adr-vangebovej-71-alle-typer
+  story: "Brugeren har alle typer slået til og vil finde Vangebovej 71"
+  input: "Vangebovej 71"
+  expect:
+    text: "Vangebovej 71, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+
+- id: adr-vangebovej-71-soelleroed
+  story: "Brugeren skriver det supplerende bynavn med for at finde Vangebovej 71"
+  input: "vangebovej 71 søllerød"
+  expect:
+    text: "Vangebovej 71, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+
+- id: adr-raadhuspladsen-1
+  story: "Brugeren vil finde Københavns Rådhus på Rådhuspladsen 1"
+  input: "rådhuspladsen 1"
+  expect:
+    text: "Rådhuspladsen 1, 1550 København V"
+    within: 3
+    geometry: point
+
+- id: adr-raadhuspladsen-1-versaler
+  story: "Brugeren skriver adressen med store bogstaver"
+  input: "RÅDHUSPLADSEN 1"
+  types: [adr]
+  expect:
+    text: "Rådhuspladsen 1, 1550 København V"
+    within: 3
+    geometry: point
+
+- id: adr-raadhuspl
+  story: "Brugeren vil finde Rådhuspladsen 1 i København og har kun nået at skrive en del af vejnavnet"
+  input: "rådhuspl"
+  expect:
+    text: "Rådhuspladsen 1, 1550 København V"
+    within: 3
+    geometry: point
+  known_gap: 3
+  notes: "Delvist ord. Bifrost giver kun veje med navnet Rådhuspladsen, ingen adresser."
+
+- id: adr-noerrebrog-1
+  story: "Brugeren vil finde Nørrebrogade 1 og forkorter vejnavnet"
+  input: "nørrebrog 1"
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 3
+    geometry: point
+  known_gap: 3
+  notes: "Bifrost retter til 'Nørrebro 1'."
+
+- id: adr-noerrebrog
+  story: "Brugeren vil finde Nørrebrogade og har kun skrevet 'nørrebrog'"
+  input: "nørrebrog"
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 5
+    geometry: point
+  known_gap: 3
+  notes: "Fra sammenligningssiden. Delvist ord: Bifrost giver veje med navnet Nørrebro."
+
+- id: adr-vangeb
+  story: "Brugeren vil finde en adresse på Vangebovej eller Vangeboled i Holte og har kun skrevet 'vangeb'"
+  input: "vangeb"
+  expect:
+    text: "Vangeboled 1, Søllerød, 2840 Holte"
+    within: 5
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Delvist ord: Bifrost giver veje med navnet Vangen."
+
+- id: adr-vangeb-77
+  story: "Brugeren vil finde Vangebovej 77 og forkorter vejnavnet"
+  input: "vangeb 77"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Bifrost retter til 'Vangen 77'."
+
+- id: adr-77-vangeb
+  story: "Brugeren skriver husnummeret først og forkorter vejnavnet for at finde Vangebovej 77"
+  input: "77 vangeb"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Både husnummer først og delvist ord."
+
+- id: adr-14-oesterlund
+  story: "Brugeren skriver husnummeret først for at finde Østerlund 14"
+  input: "14 østerlund"
+  expect:
+    text: "Østerlund 14, 9870 Sindal"
+    within: 2
+    geometry: point
+  known_gap: 33
+  notes: "Fra brugeren: nogle brugere skriver husnummeret først. Der er to adresser Østerlund 14 (Sindal og Gjellerup)."
+
+- id: adr-oesterlund-14
+  story: "Brugeren vil finde Østerlund 14 og skriver husnummeret efter vejnavnet"
+  input: "østerlund 14"
+  expect:
+    text: "Østerlund 14, 9870 Sindal"
+    within: 2
+    geometry: point
+  notes: "Modstykke til adr-14-oesterlund."
+
+- id: adr-77-vangebovej
+  story: "Brugeren skriver husnummeret først og hele vejnavnet for at finde Vangebovej 77"
+  input: "77 vangebovej"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  notes: "Husnummer først med helt vejnavn. Modstykke til adr-77-vangeb."
+
+- id: adr-1-noerrebrogade
+  story: "Brugeren skriver husnummeret først og hele vejnavnet for at finde Nørrebrogade 1"
+  input: "1 nørrebrogade"
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 5
+    geometry: point
+  known_gap: 33
+  notes: "Husnummer først med helt vejnavn."
+
+- id: adr-noerrebrogade-vejnavn
+  story: "Brugeren skriver kun vejnavnet Nørrebrogade og vil se vejen i København"
+  input: "Nørrebrogade"
+  types: [adr]
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 10
+    geometry: point
+  bifrost:
+    expect:
+      text: "Nørrebrogade (2200 København N)"
+      within: 10
+      geometry: line
+    reason: "Bifrosts /resolve giver veje, ikke husnumre, når der kun står et vejnavn. Pluginet viser vejene under Husnumre."
+  notes: "Uden husnummer viste 3.x husnumre på vejen (GSearch husnummer). Med Bifrost vises vejene."
+
+- id: adr-vestergade-21-aarhus
+  story: "Brugeren vil finde Vestergade 21 i Aarhus og skriver byen med"
+  input: "vestergade 21 aarhus"
+  expect:
+    text: "Vestergade 21, 8000 Aarhus C"
+    within: 1
+    geometry: point
+
+- id: adr-vestergade-21-aar
+  story: "Brugeren vil finde Vestergade 21 i Aarhus og forkorter byen"
+  input: "vestergade 21 aar"
+  expect:
+    text: "Vestergade 21, 8000 Aarhus C"
+    within: 3
+    geometry: point
+  known_gap: 3
+
+- id: adr-skodsb
+  story: "Brugeren vil finde en adresse på Skodsborg Strandvej og har kun skrevet 'skodsb'"
+  input: "skodsb"
+  expect:
+    text: "Skodsborg Strandvej 1, 2942 Skodsborg"
+    within: 5
+    geometry: point
+  known_gap: 3
+  notes: "Fra sammenligningssiden. Bifrost giver byen Skodsborg og fuzzy veje (Skodsbølvej ...)."
+
+- id: adr-skodsborgvej-41
+  story: "Brugeren vil finde Skodsborgvej 41"
+  input: "skodsborgvej 41"
+  types: [adr]
+  expect:
+    text: "Skodsborgvej 41, 2830 Virum"
+    within: 3
+    geometry: point
+  notes: "GSearch fuldender også husnumre, fx 41 -> 410, 414. Det gør Bifrost ikke (#3)."
+
+- id: adr-skodsborgvej-414
+  story: "Brugeren vil finde Skodsborgvej 414 og skriver hele adressen"
+  input: "skodsborgvej 414"
+  types: [adr]
+  expect:
+    text: "Skodsborgvej 414, 2942 Skodsborg"
+    within: 3
+    geometry: point
+
+- id: adr-frederiksberggade-1a
+  story: "Brugeren vil finde en adresse med husbogstav: Frederiksberggade 1A"
+  input: "frederiksberggade 1a"
+  types: [adr]
+  expect:
+    text: "Frederiksberggade 1A, 1459 København K"
+    within: 1
+    geometry: point
+
+- id: adr-noeddebogade-1-st-th
+  story: "Brugeren vil finde lejligheden Nøddebogade 1, st. th."
+  input: "nøddebogade 1 st th"
+  types: [adr]
+  expect:
+    empty: true
+  bifrost:
+    expect:
+      text: "Nøddebogade 1, st. th, 2200 København N"
+      within: 1
+      geometry: point
+    reason: "Bifrost finder selve lejligheden (ny mulighed)."
+  notes: "GSearch søger kun husnumre, så etage/dør giver ingen hits. Bifrost kan finde selve lejligheden (ny mulighed)."
+
+# --------------------------------------------------------------------------
+# Stednavne
+# --------------------------------------------------------------------------
+- id: ste-skagen
+  story: "Brugeren vil finde byen Skagen"
+  input: "skagen"
+  expect:
+    text: "Skagen (By i Frederikshavn Kommune)"
+    within: 10
+    geometry: polygon
+  known_gap: 1
+  notes: "Tvetydigt navn: 'Skagen (Mark i Agersø)' kommer før byen. Bifrost kan ikke lave samme visningstekst (#1)."
+
+- id: ste-skag
+  story: "Brugeren vil finde Skagen og har kun skrevet 'skag'"
+  input: "ste: skag"
+  expect:
+    text: "Skagen (By i Frederikshavn Kommune)"
+    within: 10
+    geometry: polygon
+  known_gap: 3
+
+- id: ste-mols-bjerge
+  story: "Brugeren vil finde naturområdet Mols Bjerge"
+  input: "mols bjerge"
+  expect:
+    text: "Mols Bjerge (Højdedrag i Knebel)"
+    within: 10
+    geometry: polygon
+  known_gap: 1
+  notes: "Med alle typer kommer adresser på Mols Bjerge Vej først. Undertypen (Højdedrag) og lokaliteten (i Knebel) findes ikke i Bifrost."
+
+- id: ste-gudenaa
+  story: "Brugeren vil finde Gudenåen og se vandløbet på kortet"
+  input: "gudenå"
+  types: [ste]
+  expect:
+    text: "Gudenå (Vandløb i Vonge)"
+    within: 3
+    geometry: line
+  known_gap: 1
+
+- id: ste-vendsyssel
+  story: "Brugeren vil finde landsdelen Vendsyssel"
+  input: "ste: vendsyssel"
+  expect:
+    text: "Vendsyssel (Landsdel i Region Nordjylland)"
+    within: 3
+    geometry: polygon
+  known_gap: 1
+  notes: "Fra #1: to hits hedder 'Vendsyssel' og kan ikke skelnes i Bifrost uden geometri."
+
+- id: ste-skodsborg
+  story: "Brugeren vil finde byen Skodsborg"
+  input: "ste: skodsborg"
+  expect:
+    text: "Skodsborg (By i Rudersdal Kommune)"
+    within: 3
+    geometry: polygon
+  known_gap: 1
+
+- id: ste-raadhuspladsen
+  story: "Brugeren vil finde pladsen Rådhuspladsen som stednavn"
+  input: "ste: rådhuspladsen"
+  expect:
+    text: "Rådhuspladsen (Seværdighed i København V)"
+    within: 3
+    geometry: polygon
+  known_gap: 1
+
+- id: ste-oeenslaeger
+  story: "Brugeren vil finde stednavne med Oehlenschläger og staver det, som det udtales"
+  input: "ste: øenslæger"
+  expect:
+    text: "Oehlenschlägers Bøg (Løvtræ i Tranekær)"
+    within: 3
+    geometry: point
+  known_gap: 34
+  notes: "Fra brugeren. GSearch finder stavemåden Oehlenschläger ud fra udtalen."
+
+- id: ste-oeenslaeger-alle-typer
+  story: "Brugeren har alle typer slået til og søger på 'øenslæger'"
+  input: "øenslæger"
+  expect:
+    text: "Oehlenschlægersgade 1, 1663 København V"
+    within: 5
+    geometry: point
+  known_gap: 34
+  notes: "Fra brugeren. Med alle typer kommer adresserne først."
+
+- id: ste-tivoli
+  story: "Brugeren vil finde forlystelsesparken Tivoli i København"
+  input: "tivoli"
+  types: [ste]
+  expect:
+    text: "Tivoli (Forlystelsespark i København V)"
+    within: 5
+    geometry: polygon
+  known_gap: 1
+
+- id: ste-anholt
+  story: "Brugeren vil finde øen Anholt"
+  input: "anholt"
+  types: [ste]
+  expect:
+    text: "Anholt (Ø i Kattegat)"
+    within: 5
+    geometry: polygon
+  known_gap: 1
+
+- id: ste-roskilde-fjord
+  story: "Brugeren vil finde Roskilde Fjord"
+  input: "roskilde fjord"
+  types: [ste]
+  expect:
+    text: "Roskilde Fjord (Fjord i Isefjord)"
+    within: 1
+    geometry: polygon
+  known_gap: 1
+
+- id: ste-gudenaa-kommunefilter-730
+  story: "Brugeren har kommunefilter på Randers og vil finde Gudenå, der løber gennem Randers"
+  input: "ste: gudenå"
+  kommuner: ["730"]
+  expect:
+    text: "Gudenå (Vandløb i Vonge)"
+    within: 5
+    geometry: line
+  known_gap: 35
+  notes: "Gudenå løber gennem otte kommuner. GSearch har dem alle på objektet; Bifrost har kun én (0740 Silkeborg)."
+
+- id: ste-vor-frue-kommunefilter
+  story: "Brugeren har kommunefilter på København og Aalborg og vil finde Vor Frue"
+  input: "vor frue"
+  types: [ste]
+  kommuner: ["101", "851"]
+  expect:
+    text: "Vor Frue Kirke (Kirke i København K)"
+    within: 5
+    geometry: polygon
+  known_gap: 2
+  notes: "Fra sammenligningssiden. Bifrost har intet kommunefilter; kun 5 af top 100 ligger i kommunerne."
+
+# --------------------------------------------------------------------------
+# Postnumre
+# --------------------------------------------------------------------------
+- id: pos-8000
+  story: "Brugeren vil finde postnummer 8000"
+  input: "8000"
+  expect:
+    text: "8000 Aarhus C"
+    within: 10
+    geometry: polygon
+  notes: "Med alle typer kommer adresser i 8000 Aarhus C først."
+
+- id: pos-80
+  story: "Brugeren vil finde postnummer 8000 og har kun skrevet '80'"
+  input: "pos: 80"
+  expect:
+    text: "8000 Aarhus C"
+    within: 3
+    geometry: polygon
+  known_gap: 3
+
+- id: pos-aarhus
+  story: "Brugeren vil finde postdistriktet Aarhus C ud fra navnet"
+  input: "aarhus"
+  types: [pos]
+  expect:
+    text: "8000 Aarhus C"
+    within: 3
+    geometry: polygon
+
+- id: pos-aar
+  story: "Brugeren vil finde Aarhus C og har kun skrevet 'aar'"
+  input: "pos: aar"
+  expect:
+    text: "8000 Aarhus C"
+    within: 5
+    geometry: polygon
+  known_gap: 3
+
+- id: pos-aabenraa-aa
+  story: "Brugeren skriver 'åbenrå' med å og vil finde 6200 Aabenraa"
+  input: "pos: åbenrå"
+  expect:
+    text: "6200 Aabenraa"
+    within: 1
+    geometry: polygon
+  notes: "Stavevariant aa/å."
+
+# --------------------------------------------------------------------------
+# Matrikler
+# --------------------------------------------------------------------------
+- id: mat-5a
+  story: "Brugeren vil finde matrikel 5a uden at angive ejerlav"
+  input: "5a"
+  types: [mat]
+  expect:
+    text: "5a, Kirke Sonnerup By, Kirke Sonnerup"
+    within: 5
+    geometry: polygon
+  known_gap: 4
+  notes: "Brugeren får 40 tilfældige 5a-matrikler; ingen bestemt er 'den rigtige'. Rækkefølgen er anderledes i Bifrost (ejendomme)."
+
+- id: mat-1a-soenderby
+  story: "Brugeren vil finde matrikel 1a i ejerlavet Sønderby"
+  input: "1a sønderby"
+  types: [mat]
+  expect:
+    text: "1a, Sønderby, Kegnæs"
+    within: 3
+    geometry: polygon
+  known_gap: 4
+
+- id: mat-162-vestervold
+  story: "Brugeren vil finde matrikel 162 i Vestervold Kvarter"
+  input: "162 vestervold"
+  types: [mat]
+  expect:
+    text: "162, Vestervold Kvarter, København"
+    within: 1
+    geometry: polygon
+  known_gap: 4
+
+- id: mat-162-vesterv
+  story: "Brugeren vil finde matrikel 162 i Vestervold Kvarter og forkorter ejerlavet"
+  input: "mat: 162 vesterv"
+  expect:
+    text: "162, Vestervold Kvarter, København"
+    within: 1
+    geometry: polygon
+  known_gap: 3
+
+- id: mat-bfe-6033528
+  story: "Brugeren vil finde en ejendom ud fra BFE-nummeret 6033528"
+  input: "6033528"
+  types: [mat]
+  expect:
+    text: "162, Vestervold Kvarter, København"
+    within: 1
+    geometry: polygon
+  known_gap: 4
+
+- id: mat-3kg-soell
+  story: "Brugeren vil finde matrikel 3kg i Søllerød og forkorter ejerlavet"
+  input: "mat: 3kg søll"
+  expect:
+    text: "3kg, Øverød By, Søllerød"
+    within: 2
+    geometry: polygon
+  known_gap: 4
+  notes: "Fra #4: Bifrost finder kun Søllerød By plus nærliggende numre og misser Øverød."
+
+- id: mat-3kg-soelleroed
+  story: "Brugeren vil finde matrikel 3kg i Søllerød og skriver hele navnet"
+  input: "3kg søllerød"
+  types: [mat]
+  expect:
+    text: "3kg, Søllerød By, Søllerød"
+    within: 2
+    geometry: polygon
+  known_gap: 4
+
+- id: mat-3kg
+  story: "Brugeren vil se alle matrikler med nummer 3kg"
+  input: "mat: 3kg"
+  expect:
+    text: "3kg, Øverød By, Søllerød"
+    within: 40
+    geometry: polygon
+  known_gap: 4
+  notes: "Kun 40 af alle 3kg-matrikler i landet vises. 3kg, Søllerød By er ikke blandt dem."
+
+- id: mat-1a-kommunefilter-615
+  story: "Brugeren har kommunefilter på Horsens og vil finde matrikel 1a"
+  input: "1a"
+  types: [mat]
+  kommuner: ["615"]
+  expect:
+    text: "1a, Nim By, Nim"
+    within: 3
+    geometry: polygon
+  known_gap: 2
+  notes: "Fra #2: alle 40 GSearch-hits ligger i Horsens Kommune (0615). Bifrost har 0 af top 100 i Horsens."
+
+- id: mat-1an-gentofte
+  story: "Brugeren vil finde den udgåede matrikel 1an i Gentofte"
+  input: "mat: 1an gentofte"
+  expect:
+    empty: true
+  known_gap: 4
+  notes: "Udgåede matrikler er ikke med i pluginets GSearch-typer. Bifrost kan finde dem (lifecycle retired), se #4 og #6."
+
+# --------------------------------------------------------------------------
+# Kommuner
+# --------------------------------------------------------------------------
+- id: kom-101
+  story: "Brugeren vil finde Københavns Kommune ud fra kommunekoden"
+  input: "kom: 101"
+  expect:
+    text: "Københavns Kommune"
+    within: 1
+    geometry: polygon
+
+- id: kom-koeb
+  story: "Brugeren vil finde Københavns Kommune og har kun skrevet 'køb'"
+  input: "kom: køb"
+  expect:
+    text: "Københavns Kommune"
+    within: 1
+    geometry: polygon
+  known_gap: 3
+  notes: "Bifrost giver Køge først."
+
+- id: kom-aarhus-alle-typer
+  story: "Brugeren har alle typer slået til og vil finde Aarhus Kommune"
+  input: "aarhus"
+  expect:
+    text: "Aarhus Kommune"
+    within: 20
+    geometry: polygon
+  notes: "Viser hvordan en bred søgning fordeler sig over alle typer."
+
+- id: kom-aabenraa-aa
+  story: "Brugeren skriver 'åbenrå' med å og vil finde Aabenraa Kommune"
+  input: "kommune: åbenrå"
+  expect:
+    text: "Aabenraa Kommune"
+    within: 1
+    geometry: polygon
+  notes: "Præfiks skrevet fuldt ud ('kommune:') og stavevariant aa/å."
+
+# --------------------------------------------------------------------------
+# Kredse og regioner
+# --------------------------------------------------------------------------
+- id: ops-aarhus
+  story: "Brugeren vil finde opstillingskredsen Aarhus Nord"
+  input: "ops: aarhus"
+  expect:
+    text: "Aarhus Nordkredsen"
+    within: 3
+    geometry: polygon
+
+- id: ops-aar
+  story: "Brugeren vil finde en opstillingskreds i Aarhus og har kun skrevet 'aar'"
+  input: "ops: aar"
+  expect:
+    text: "Aarhus Nordkredsen"
+    within: 5
+    geometry: polygon
+  known_gap: 3
+
+- id: pol-midt
+  story: "Brugeren vil finde Midt- og Vestjyllands Politikreds"
+  input: "pol: midt"
+  expect:
+    text: "Midt- og Vestjyllands Politikreds"
+    within: 1
+    geometry: polygon
+
+- id: pol-koebenhavn
+  story: "Brugeren vil finde Københavns Politikreds"
+  input: "københavn"
+  types: [pol]
+  expect:
+    text: "Københavns Politikreds"
+    within: 1
+    geometry: polygon
+
+- id: reg-midt
+  story: "Brugeren vil finde Region Midtjylland"
+  input: "reg: midt"
+  expect:
+    text: "Region Midtjylland"
+    within: 1
+    geometry: polygon
+
+- id: reg-hovedstaden-alle-typer
+  story: "Brugeren har alle typer slået til og vil finde Region Hovedstaden"
+  input: "hovedstaden"
+  expect:
+    text: "Region Hovedstaden"
+    within: 20
+    geometry: polygon
+
+# --------------------------------------------------------------------------
+# Præfiks-syntaks
+# --------------------------------------------------------------------------
+- id: pfx-kom-aar
+  story: "Brugeren bruger præfikset 'kom:' for kun at søge i kommuner"
+  input: "kom: aar"
+  expect:
+    text: "Aarhus Kommune"
+    within: 3
+    geometry: polygon
+  known_gap: 3
+  notes: "Kun kommuner må vises."
+
+- id: pfx-adr-versaler-uden-mellemrum
+  story: "Brugeren skriver præfikset med store bogstaver og uden mellemrum"
+  input: "ADR:vangebovej 71"
+  types: [ste]
+  expect:
+    text: "Vangebovej 71, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  notes: "Præfikset overstyrer de valgte typer (her kun stednavne)."
+
+- id: pfx-ukendt-praefiks
+  story: "Brugeren skriver et præfiks som pluginet ikke kender ('udg:' for udgåede matrikler)"
+  input: "udg: 1an gentofte"
+  expect:
+    text: "Husnumre - Der skete en fejl"
+    within: 1
+  bifrost:
+    expect: null
+    reason: "Bifrost svarer uden fejl på teksten inkl. 'udg:'; der er ikke noget bestemt hit at forvente."
+  notes: "Ukendt præfiks: hele teksten inkl. 'udg:' sendes til alle typer. GSearch svarer HTTP 400 (Invalid input) på alle 8, så pop-op'en viser 8 fejlrækker."
+
+- id: pfx-kun-praefiks
+  story: "Brugeren har kun skrevet præfikset 'adr:'"
+  input: "adr:"
+  expect:
+    empty: true
+  notes: "Tom søgetekst efter præfiks: pluginet sender ingen forespørgsel."
+
+# --------------------------------------------------------------------------
+# Kommunefilter
+# --------------------------------------------------------------------------
+- id: kf-vestergade-751
+  story: "Brugeren har kommunefilter på Aarhus og vil finde Vestergade"
+  input: "vestergade"
+  types: [adr]
+  kommuner: ["751"]
+  expect:
+    text: "Vestergade 1B, 8000 Aarhus C"
+    within: 3
+    geometry: point
+  known_gap: 3
+  notes: "Uden husnummer: GSearch giver husnumre på vejen. Alle hits skal ligge i Aarhus."
+
+- id: kf-vestergade-1-101
+  story: "Brugeren har kommunefilter på København og vil finde Vestergade 1"
+  input: "vestergade 1"
+  types: [adr]
+  kommuner: ["101"]
+  expect:
+    text: "Vestergade 1, 1456 København K"
+    within: 1
+    geometry: point
+  notes: "Fra #2: virker også i Bifrost via fastlåst kommune i /resolve."
+
+- id: kf-lyngby-230-173
+  story: "Brugeren har kommunefilter på Rudersdal og Lyngby-Taarbæk og søger på 'lyngby'"
+  input: "lyngby"
+  kommuner: ["230", "173"]
+  expect:
+    text: "2800 Kongens Lyngby"
+    within: 20
+    geometry: polygon
+  known_gap: 2
+  notes: "Fra sammenligningssiden. Alle typer; kun hits i de to kommuner. Kredse der dækker flere kommuner kommer med, fordi filteret er 'kommunekode like'."

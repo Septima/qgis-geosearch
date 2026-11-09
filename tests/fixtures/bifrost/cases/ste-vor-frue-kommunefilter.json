@@ -1,0 +1,4202 @@
+{
+ "case": {
+  "id": "ste-vor-frue-kommunefilter",
+  "input": "vor frue",
+  "kommuner": [
+   "101",
+   "851"
+  ],
+  "types": [
+   "ste"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Vor Frue Kirke",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 275,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Vor Frue Kirke",
+     "matches": []
+    },
+    "status": 200,
+    "trimmed": "kept 0 of 10 matches (same ref id)"
+   },
+   {
+    "body": {
+     "geometry": true,
+     "input": "Vor Frue Kirke",
+     "limit": 100,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 450,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Vor Frue Kirke",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            [
+             724582.37,
+             6176154.06
+            ],
+            [
+             724645.77,
+             6176181.21
+            ],
+            [
+             724645.11,
+             6176182.76
+            ],
+            [
+             724645.96,
+             6176183.14
+            ],
+            [
+             724647.3,
+             6176183.88
+            ],
+            [
+             724648.56,
+             6176184.75
+            ],
+            [
+             724649.71,
+             6176185.76
+            ],
+            [
+             724650.76,
+             6176186.88
+            ],
+            [
+             724651.68,
+             6176188.1
+            ],
+            [
+             724652.15,
+             6176188.84
+            ],
+            [
+             724652.85,
+             6176190.18
+            ],
+            [
+             724653.4,
+             6176191.59
+            ],
+            [
+             724653.81,
+             6176193.04
+            ],
+            [
+             724654.05,
+             6176194.53
+            ],
+            [
+             724654.15,
+             6176196.03
+            ],
+            [
+             724654.08,
+             6176197.54
+            ],
+            [
+             724653.86,
+             6176199.03
+            ],
+            [
+             724654.02,
+             6176199.1
+            ],
+            [
+             724653.93,
+             6176199.32
+            ],
+            [
+             724651.7000000001,
+             6176204.59
+            ],
+            [
+             724651.48,
+             6176204.5
+            ],
+            [
+             724650.9,
+             6176205.27
+            ],
+            [
+             724649.89,
+             6176206.38
+            ],
+            [
+             724648.77,
+             6176207.38
+            ],
+            [
+             724647.55,
+             6176208.26
+            ],
+            [
+             724646.25,
+             6176209.0
+            ],
+            [
+             724644.88,
+             6176209.61
+            ],
+            [
+             724643.4500000001,
+             6176210.07
+            ],
+            [
+             724641.980000001,
+             6176210.38
+            ],
+            [
+             724641.86,
+             6176210.39
+            ],
+            [
+             724640.36,
+             6176210.54
+            ],
+            [
+             724638.86,
+             6176210.52
+            ],
+            [
+             724637.37,
+             6176210.35
+            ],
+            [
+             724635.9,
+             6176210.03
+            ],
+            [
+             724634.48,
+             6176209.55
+            ],
+            [
+             724633.74,
+             6176211.34
+            ],
+            [
+             724611.05,
+             6176201.85
+            ],
+            [
+             724593.230000001,
+             6176194.25
+            ],
+            [
+             724569.89,
+             6176184.67
+            ],
+            [
+             724582.37,
+             6176154.06
+            ]
+           ]
+          ]
+         ],
+         "type": "MultiPolygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1108214",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724608.212,
+         6176181.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2z4jpqjmb3gti",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2z4jpqjmb3gti"
+       },
+       "result": "Vor Frue Kirke"
+      }
+     ]
+    },
+    "status": 200,
+    "trimmed": "kept 1 of 100 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "2z4jpqjmb3gti",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "MultiPolygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:21+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "vor frue",
+     "limit": 100,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 224,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "vor frue",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7466209",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695013.586,
+         6167065.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mdwx6gdiaxfha",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mdwx6gdiaxfha"
+       },
+       "result": "Vor Frue"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Vor Frue Kilde",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1027223",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         510170.51,
+         6240038.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4ia6c7oasaf6u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4ia6c7oasaf6u"
+       },
+       "result": "Vor Frue Kilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Vor Frue Kilde",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1034171",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575510.45,
+         6249088.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "il3gfphpx25xw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "il3gfphpx25xw"
+       },
+       "result": "Vor Frue Kilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Vor Frue Kilde",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1125512",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         549107.58,
+         6350203.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3mm5g66nv6baw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3mm5g66nv6baw"
+       },
+       "result": "Vor Frue Kilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Vor Frue Kilde",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1144830",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525217.28,
+         6331656.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "o7cyr4sq4gnv4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "o7cyr4sq4gnv4"
+       },
+       "result": "Vor Frue Kilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kalundborg",
+          "kommunekode": "0326"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1018769",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         630835.029,
+         6172480.215
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "32ktjzak4y6ac",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "32ktjzak4y6ac"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1032083",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         533764.34,
+         6224955.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hkhaiphf6czys",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hkhaiphf6czys"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1041821",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         588380.682,
+         6139936.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ggzcby3bypifu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ggzcby3bypifu"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1042953",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         501359.301,
+         6268956.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n256tluu4nq3s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n256tluu4nq3s"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1058608",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695138.771,
+         6166950.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pwswnosqvwf7o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pwswnosqvwf7o"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Næstved",
+          "kommunekode": "0370"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1060980",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         675968.341,
+         6123440.615
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mwxbozg7bkens",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mwxbozg7bkens"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1072126",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         613799.379,
+         6130918.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6mxtxiwliboq6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6mxtxiwliboq6"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1097009",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457533.307,
+         6267511.635
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wukaxlqcc2t46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wukaxlqcc2t46"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1100487",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         530988.959,
+         6122696.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pnbrlkr37dmu2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pnbrlkr37dmu2"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1103922",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559587.91,
+         6092938.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vzzcqjd2vqrg6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vzzcqjd2vqrg6"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herlev",
+          "kommunekode": "0163"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1105898",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         715928.492,
+         6180968.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sic5ogyur7csw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sic5ogyur7csw"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1105917",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556804.2,
+         6125122.07
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cmzv6skfhsklq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cmzv6skfhsklq"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1108214",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724608.212,
+         6176181.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2z4jpqjmb3gti",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2z4jpqjmb3gti"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1124825",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556057.376,
+         6322926.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mpcx7wlbdyide",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mpcx7wlbdyide"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1130999",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602825.101,
+         6102680.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3komsim5hfaou",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3komsim5hfaou"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1135891",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         648906.575,
+         6142340.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3riozqtf5wkmg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3riozqtf5wkmg"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1149752",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605666.656,
+         6138806.025
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hhddzum3liug2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hhddzum3liug2"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1152579",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548459.756,
+         6099267.66
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xqi5mzkuykjq2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xqi5mzkuykjq2"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "7612594",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574842.87,
+         6224327.965
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n3xa2htvy3kkq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n3xa2htvy3kkq"
+       },
+       "result": "Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Næstved",
+          "kommunekode": "0370"
+         }
+        ],
+        "stednavn": "Vor Frue Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1038507",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         676007.308,
+         6123441.585
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6asrckrchucc6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6asrckrchucc6"
+       },
+       "result": "Vor Frue Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "1126870",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695208.415,
+         6166859.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "44wmwvmebucgs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "44wmwvmebucgs"
+       },
+       "result": "Vor Frue Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue Friskole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5625,
+        "upstream": {
+         "stednavn": {
+          "id": "1078267",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695844.3,
+         6165891.035
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mkxbeh2kjfdj6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mkxbeh2kjfdj6"
+       },
+       "result": "Vor Frue Friskole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Vor Frue Kloster",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1027948",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717115.042,
+         6195577.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "epwnx3fjm22jq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "epwnx3fjm22jq"
+       },
+       "result": "Vor Frue Kloster"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Vor Frue Kloster",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1067105",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717115.042,
+         6195577.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "36demi6cerqhw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "36demi6cerqhw"
+       },
+       "result": "Vor Frue Kloster"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Vor Frue Kloster",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1080675",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717230.343,
+         6195413.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6yboil5tocdts",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6yboil5tocdts"
+       },
+       "result": "Vor Frue Kloster"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Gl. Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "7348018",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693998.808,
+         6170156.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j46awj75q7546",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j46awj75q7546"
+       },
+       "result": "Gl. Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Vor Frue Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1023977",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602802.23,
+         6102671.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ky3zjgh6mequ4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ky3zjgh6mequ4"
+       },
+       "result": "Vor Frue Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vordingborg",
+          "kommunekode": "0390"
+         }
+        ],
+        "stednavn": "Vor Frue Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1057346",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         685859.615,
+         6099587.055
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ebt63xeudxntm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ebt63xeudxntm"
+       },
+       "result": "Vor Frue Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1058154",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695143.808,
+         6166931.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4evrctdiz7qcy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4evrctdiz7qcy"
+       },
+       "result": "Vor Frue Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Katolsk Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "7620626",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574817.708,
+         6223593.845
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sz5ykea4guewa",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sz5ykea4guewa"
+       },
+       "result": "Katolsk Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Nyborg Vor Frue Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1072127",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         613799.379,
+         6130918.34
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "adgw4wwhf7lla",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "adgw4wwhf7lla"
+       },
+       "result": "Nyborg Vor Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Gl. Vor Frue Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1081365",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694021.853,
+         6170165.27
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eimooceluphmw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eimooceluphmw"
+       },
+       "result": "Gl. Vor Frue Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Vor Frue Idrætsanlæg",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1103400",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695259.265,
+         6166783.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jzuhcwaivpzs2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jzuhcwaivpzs2"
+       },
+       "result": "Vor Frue Idrætsanlæg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ],
+        "stednavn": "Frue Klit",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3571,
+        "upstream": {
+         "stednavn": {
+          "id": "1125777",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         445561.336,
+         6162855.055
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zwi6zdu6dict6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zwi6zdu6dict6"
+       },
+       "result": "Frue Klit"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Frue Vads Eng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3529,
+        "upstream": {
+         "stednavn": {
+          "id": "1078623",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565652.029,
+         6242412.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fe6prt2rtnweg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fe6prt2rtnweg"
+       },
+       "result": "Frue Vads Eng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skive",
+          "kommunekode": "0779"
+         }
+        ],
+        "stednavn": "Frue Kirke",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1123182",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         494597.51,
+         6285179.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2vsbqgwq5moam",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2vsbqgwq5moam"
+       },
+       "result": "Frue Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Frue Plads",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1085213",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724606.628,
+         6176216.097
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fwh5xljm7ggcu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fwh5xljm7ggcu"
+       },
+       "result": "Frue Plads"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Fruebro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1049703",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522169.11,
+         6327247.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y6ugw6y6vxu6k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "y6ugw6y6vxu6k"
+       },
+       "result": "Fruebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Fruebro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1106917",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522589.87,
+         6327300.91
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rh7n5wyt3gutq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rh7n5wyt3gutq"
+       },
+       "result": "Fruebro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Viborg",
+          "kommunekode": "0791"
+         }
+        ],
+        "stednavn": "Fruedal",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1112436",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         517051.061,
+         6258360.755
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3d2u7no5d4kjs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3d2u7no5d4kjs"
+       },
+       "result": "Fruedal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Fruedal",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1132899",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550316.89,
+         6240573.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7de35xqaqnkwg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7de35xqaqnkwg"
+       },
+       "result": "Fruedal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Køge",
+          "kommunekode": "0259"
+         }
+        ],
+        "stednavn": "Fruedal",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "7486081",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695504.695,
+         6142424.55
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7o6zkz6ygnblo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7o6zkz6ygnblo"
+       },
+       "result": "Fruedal"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Fruemaj",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1146727",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         528704.382,
+         6122225.315
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d5duwsjcl6i7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d5duwsjcl6i7a"
+       },
+       "result": "Fruemaj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Fruerby",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1069714",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         486515.75,
+         6199140.07
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ar2cvvhozhtmo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ar2cvvhozhtmo"
+       },
+       "result": "Fruerby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Fruerø",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1010713",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         660568.357,
+         6071487.015
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6bh7oukhenh2o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6bh7oukhenh2o"
+       },
+       "result": "Fruerø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Fruesko",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3077,
+        "upstream": {
+         "stednavn": {
+          "id": "1112128",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552518.509,
+         6301366.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m6bgdytsioz5c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "m6bgdytsioz5c"
+       },
+       "result": "Fruesko"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Fruebøg",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1118022",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         524717.68,
+         6150379.355
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mwdpvuankol62",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mwdpvuankol62"
+       },
+       "result": "Fruebøg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Fruehale",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1081893",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522552.142,
+         6329404.85
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "udrr6yx34jryy",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "udrr6yx34jryy"
+       },
+       "result": "Fruehale"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Fruehøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1020580",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         527836.85,
+         6193838.86
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wey56sq5ojd2q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wey56sq5ojd2q"
+       },
+       "result": "Fruehøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Fruehøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1072638",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575209.9,
+         6233789.45
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nkl2bmn5avk5q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nkl2bmn5avk5q"
+       },
+       "result": "Fruehøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Morsø",
+          "kommunekode": "0773"
+         }
+        ],
+        "stednavn": "Fruehøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1101209",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         487477.793,
+         6298161.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zlzzdrk3citlk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zlzzdrk3citlk"
+       },
+       "result": "Fruehøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Fruehøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1112720",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         550748.562,
+         6219806.58
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ayi7ng7h4dfnq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ayi7ng7h4dfnq"
+       },
+       "result": "Fruehøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kerteminde",
+          "kommunekode": "0440"
+         }
+        ],
+        "stednavn": "Fruehøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1118911",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605945.616,
+         6149483.365
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "357ep6cjrfeea",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "357ep6cjrfeea"
+       },
+       "result": "Fruehøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Frueholm",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1152764",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         525884.054,
+         6164709.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bvb4c4wqp4uha",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bvb4c4wqp4uha"
+       },
+       "result": "Frueholm"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Frueholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1070475",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         524889.51,
+         6150276.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fngoja6arkxa6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fngoja6arkxa6"
+       },
+       "result": "Frueholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Frueholt",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1149181",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         527601.76,
+         6147686.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "skbukyitp5zyg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "skbukyitp5zyg"
+       },
+       "result": "Frueholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Fruekær",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1050450",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472006.992,
+         6156847.755
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kr42zcpgks3tq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kr42zcpgks3tq"
+       },
+       "result": "Fruekær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         }
+        ],
+        "stednavn": "Fruekær",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1091733",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         557819.299,
+         6244772.06
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ffk64b7ngsgos",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ffk64b7ngsgos"
+       },
+       "result": "Fruekær"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1027997",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594314.739,
+         6122679.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rucfdaoskgzuu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rucfdaoskgzuu"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Langeland",
+          "kommunekode": "0482"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1049722",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         608102.194,
+         6076385.82
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kzoqxu7hogdn2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kzoqxu7hogdn2"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1069444",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508398.497,
+         6157550.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2uflgc23k5e4u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2uflgc23k5e4u"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1111715",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         586051.289,
+         6128830.885
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n25v537vdl2oi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n25v537vdl2oi"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1126450",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         548194.784,
+         6292289.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ieriyyqwfezja",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ieriyyqwfezja"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1130324",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571129.627,
+         6198366.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ri5wm4ioga662",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ri5wm4ioga662"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "stednavn": "Fruelund",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "7527377",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547741.691,
+         6291941.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ixfotv676ic3c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ixfotv676ic3c"
+       },
+       "result": "Fruelund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "stednavn": "Fruemose",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1058458",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         676316.326,
+         6076459.4
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tn2m2tlxvuz7q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tn2m2tlxvuz7q"
+       },
+       "result": "Fruemose"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Jammerbugt",
+          "kommunekode": "0849"
+         }
+        ],
+        "stednavn": "Fruemose",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1100793",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         519458.554,
+         6323066.995
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nrp6hldqn6qn4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "nrp6hldqn6qn4"
+       },
+       "result": "Fruemose"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Fruerbol",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1009341",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         462343.965,
+         6262673.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rq6yyrqaqxqc6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rq6yyrqaqxqc6"
+       },
+       "result": "Fruerbol"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Fruerbro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1009956",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581687.91,
+         6357704.07
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4fbokjd43qvfm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4fbokjd43qvfm"
+       },
+       "result": "Fruerbro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Fruerdam",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1062401",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         569021.231,
+         6374614.08
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7a2gbbvrckwhg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7a2gbbvrckwhg"
+       },
+       "result": "Fruerdam"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aabenraa",
+          "kommunekode": "0580"
+         }
+        ],
+        "stednavn": "Fruereng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1020787",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         524310.76,
+         6089258.945
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xcqg4xvi2ltnq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xcqg4xvi2ltnq"
+       },
+       "result": "Fruereng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rebild",
+          "kommunekode": "0840"
+         }
+        ],
+        "stednavn": "Fruerhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1050930",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         566236.683,
+         6298766.37
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s6nw47fqh7ec2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "s6nw47fqh7ec2"
+       },
+       "result": "Fruerhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ],
+        "stednavn": "Fruering",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "7516817",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561719.593,
+         6210456.382
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ebo4qa6xwizey",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ebo4qa6xwizey"
+       },
+       "result": "Fruering"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Frueskov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1048783",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         601253.792,
+         6101718.95
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e6ln6vbzjhcwi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e6ln6vbzjhcwi"
+       },
+       "result": "Frueskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Frueskov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1077256",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         607173.922,
+         6130071.49
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "muzdbji77i63g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "muzdbji77i63g"
+       },
+       "result": "Frueskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Frueskov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1094973",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594571.804,
+         6116904.73
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ttcnsiclkaxvq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ttcnsiclkaxvq"
+       },
+       "result": "Frueskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "stednavn": "Frueskov",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1111647",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         657995.704,
+         6067135.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gbqshhvipd6ka",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gbqshhvipd6ka"
+       },
+       "result": "Frueskov"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Herning",
+          "kommunekode": "0657"
+         }
+        ],
+        "stednavn": "Fruevang",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "stednavn": {
+          "id": "1025250",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         488836.612,
+         6198048.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6xye35cxco4gw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6xye35cxco4gw"
+       },
+       "result": "Fruevang"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Fruerstue Eng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2778,
+        "upstream": {
+         "stednavn": {
+          "id": "1064360",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529110.572,
+         6221229.845
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oawqaa2cyatjq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oawqaa2cyatjq"
+       },
+       "result": "Fruerstue Eng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1015836",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590290.049,
+         6366969.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w7qdsbqszni4w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "w7qdsbqszni4w"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aalborg",
+          "kommunekode": "0851"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1023989",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         554990.93,
+         6323308.935
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qgb2zoxvvcau4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qgb2zoxvvcau4"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1031521",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726001.094,
+         6175533.825
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "upfjsgfs4ynkg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "upfjsgfs4ynkg"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1091407",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         465160.795,
+         6146960.67
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cxqlboz7c6pue",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cxqlboz7c6pue"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1140026",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         533938.779,
+         6173937.675
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b2y6pf2bzn3e4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "b2y6pf2bzn3e4"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1143158",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590129.373,
+         6139781.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pim7lplelu6m6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pim7lplelu6m6"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Vor Frelsers Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "1152568",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553301.053,
+         6191077.215
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "r4w3dpbotsrzm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "r4w3dpbotsrzm"
+       },
+       "result": "Vor Frelsers Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Vork",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2727,
+        "upstream": {
+         "stednavn": {
+          "id": "7482817",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         520998.494,
+         6168043.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "roppyc4f37x76",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "roppyc4f37x76"
+       },
+       "result": "Vork"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "stednavn": "Fruebjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1033038",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         704781.539,
+         6208187.68
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "p2k2viuvz72wk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "p2k2viuvz72wk"
+       },
+       "result": "Fruebjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hedensted",
+          "kommunekode": "0766"
+         }
+        ],
+        "stednavn": "Fruebjerg",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1080161",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         532431.521,
+         6184020.835
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ahksikneglzlq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ahksikneglzlq"
+       },
+       "result": "Fruebjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Fruebjerg",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1125423",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556749.686,
+         6096203.98
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n5bozkuzylpcm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n5bozkuzylpcm"
+       },
+       "result": "Fruebjerg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Fruegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1069064",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         462212.29,
+         6300877.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cj3fxg77dxddo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cj3fxg77dxddo"
+       },
+       "result": "Fruegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Fruegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1085548",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561519.53,
+         6351294.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "owjxdabovl35s",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "owjxdabovl35s"
+       },
+       "result": "Fruegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ],
+        "stednavn": "Fruegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1096788",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         601539.516,
+         6096228.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oqwkh5c3rhbzg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oqwkh5c3rhbzg"
+       },
+       "result": "Fruegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Næstved",
+          "kommunekode": "0370"
+         }
+        ],
+        "stednavn": "Fruegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1104860",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         664963.74,
+         6123394.025
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jubinxsxuog6q",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jubinxsxuog6q"
+       },
+       "result": "Fruegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Fruegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "stednavn": {
+          "id": "1122925",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537802.315,
+         6166313.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ad7g7j7xub4f2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ad7g7j7xub4f2"
+       },
+       "result": "Fruegård"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

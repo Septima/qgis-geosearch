@@ -1,0 +1,1091 @@
+{
+ "case": {
+  "id": "pfx-ukendt-praefiks",
+  "input": "udg: 1an gentofte",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:39+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "udg: 1an gentofte",
+    "limit": 5
+   },
+   "elapsed_ms": 173,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "udg: 1an gentofte",
+    "matches": [
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Gentofte",
+         "postcode": "2820"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "city": {
+         "id": "cznm2h5xk2vc2",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        721383.623,
+        6184474.345
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "cznm2h5xk2vc2",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "cznm2h5xk2vc2"
+      },
+      "result": "Gentofte"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "street": "Gentoftevej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6154,
+       "upstream": {
+        "street": {
+         "id": "e30cfa5b-65d7-41bc-8c93-72d7a27f24aa",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        574392.3,
+        6222159.38
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "a5rrkfbdti3pg",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "a5rrkfbdti3pg"
+      },
+      "result": "Gentoftevej, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Gentofte",
+         "kommunekode": "0157"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Gentofte",
+         "postcode": "2820"
+        }
+       ],
+       "street": "Gentoftegade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5714,
+       "upstream": {
+        "street": {
+         "id": "fd731790-43a0-4dd4-87c2-a22f697597fe",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        722239.04,
+        6183467.24
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ipicgcuuixqam",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "ipicgcuuixqam"
+      },
+      "result": "Gentoftegade, 2820 Gentofte"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Gentofte",
+         "kommunekode": "0157"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Gentofte",
+         "postcode": "2820"
+        },
+        {
+         "city": "Hellerup",
+         "postcode": "2900"
+        }
+       ],
+       "street": "Gentofte Hospitalsvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4091,
+       "upstream": {
+        "street": {
+         "id": "dfa2cb9d-b43b-4b96-ada9-e1274f9bbb50",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        722582.38,
+        6182821.47
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "f5homlatebl4k",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "f5homlatebl4k"
+      },
+      "result": "Gentofte Hospitalsvej"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Gentofte",
+         "kommunekode": "0157"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Dyssegård",
+         "postcode": "2870"
+        }
+       ],
+       "street": "Grøntoften"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.4,
+       "upstream": {
+        "street": {
+         "id": "02ea6f81-b2c2-486e-8d47-a6c8ebec5126",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        721240.0,
+        6181595.78
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nzf7gyigzcjiw",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "nzf7gyigzcjiw"
+      },
+      "result": "Grøntoften, 2870 Dyssegård"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 756,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "udg: 1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Gentofte",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "1099956",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         447917.674,
+         6260138.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "im4ptffhpld2w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "im4ptffhpld2w"
+       },
+       "result": "Gentofte"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "stednavn": "Gentofte",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5294,
+        "upstream": {
+         "stednavn": {
+          "id": "7573557",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722731.988,
+         6184135.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "otjymdkghfzds",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "otjymdkghfzds"
+       },
+       "result": "Gentofte"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "stednavn": "Gentofte HF",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1114565",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722132.702,
+         6183611.285
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cbg7dyrzxzhma",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "cbg7dyrzxzhma"
+       },
+       "result": "Gentofte HF"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "stednavn": "Gentofte Sø",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1072016",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721825.613,
+         6183744.0
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "sgunyhnnkh3fi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "sgunyhnnkh3fi"
+       },
+       "result": "Gentofte Sø"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "stednavn": "Gentofte Enge",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1070481",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721619.361,
+         6183563.339
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5wmi5x76hgypq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5wmi5x76hgypq"
+       },
+       "result": "Gentofte Enge"
+      }
+     ]
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         },
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Gentofte",
+          "postcode": "2820"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5294,
+        "upstream": {
+         "postcode": {
+          "id": "2820",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721383.623,
+         6184474.345
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v4ujcvdsfju6m",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "v4ujcvdsfju6m"
+       },
+       "result": "Gentofte"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kerteminde",
+          "kommunekode": "0440"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Martofte",
+          "postcode": "5390"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "postcode": {
+          "id": "5390",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         604635.117,
+         6164259.995
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "s55vlhhslz4io",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "s55vlhhslz4io"
+       },
+       "result": "Martofte"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         },
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Nimtofte",
+          "postcode": "8581"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "postcode": {
+          "id": "8581",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         595588.32,
+         6255092.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5e7lnfyjxjyem",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "5e7lnfyjxjyem"
+       },
+       "result": "Nimtofte"
+      }
+     ]
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "10an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "10an",
+           "upstream": {
+            "id": 332484,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7206,
+        "upstream": {
+         "ejendom": {
+          "id": 2002873,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722582.292,
+         6181834.685
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c723hvuwky4be",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "c723hvuwky4be"
+       },
+       "result": "10an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "11an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "11an",
+           "upstream": {
+            "id": 333221,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7206,
+        "upstream": {
+         "ejendom": {
+          "id": 2003295,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722857.654,
+         6182917.733
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vqnl2zyroy23a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vqnl2zyroy23a"
+       },
+       "result": "11an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "12an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "12an",
+           "upstream": {
+            "id": 332222,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7206,
+        "upstream": {
+         "ejendom": {
+          "id": 2003366,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722481.147,
+         6183187.704
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ynls36a7l537o",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ynls36a7l537o"
+       },
+       "result": "12an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "14an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "14an",
+           "upstream": {
+            "id": 335195,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7206,
+        "upstream": {
+         "ejendom": {
+          "id": 2004194,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723619.949,
+         6182625.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hbpfavyq7vona",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "hbpfavyq7vona"
+       },
+       "result": "14an, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "15an"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "15an",
+           "upstream": {
+            "id": 334596,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7206,
+        "upstream": {
+         "ejendom": {
+          "id": 2004439,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723475.842,
+         6182117.512
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rmx77bnqas5jy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rmx77bnqas5jy"
+       },
+       "result": "15an, Gentofte"
+      }
+     ]
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5294,
+        "upstream": {
+         "kommune": {
+          "id": "0157",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722525.949,
+         6184154.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "grxr7iid7smjs",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "grxr7iid7smjs"
+       },
+       "result": "Gentofte"
+      }
+     ]
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Gentofte",
+          "opstillingskredsnummer": "13"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.5294,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "13",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722525.949,
+         6184154.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2pwfgrugxvvt4",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "2pwfgrugxvvt4"
+       },
+       "result": "Gentofte"
+      }
+     ]
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": []
+    },
+    {
+     "input": "udg: 1an gentofte",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

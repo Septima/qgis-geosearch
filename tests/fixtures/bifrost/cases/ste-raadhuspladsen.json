@@ -1,0 +1,1732 @@
+{
+ "case": {
+  "id": "ste-raadhuspladsen",
+  "input": "ste: rådhuspladsen",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Rådhuspladsen",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 217,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Rådhuspladsen",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            724343.4818,
+            6175882.4997
+           ],
+           [
+            724293.996,
+            6175848.5344
+           ],
+           [
+            724279.3751,
+            6175842.911
+           ],
+           [
+            724276.2261,
+            6175840.6616
+           ],
+           [
+            724289.4972,
+            6175820.8673
+           ],
+           [
+            724330.6605,
+            6175769.8069
+           ],
+           [
+            724345.7312,
+            6175752.0369
+           ],
+           [
+            724364.1759,
+            6175734.2671
+           ],
+           [
+            724387.1194,
+            6175714.2477
+           ],
+           [
+            724457.5243,
+            6175795.4495
+           ],
+           [
+            724402.8649,
+            6175837.7375
+           ],
+           [
+            724361.7017,
+            6175865.6295
+           ],
+           [
+            724354.0538,
+            6175870.803
+           ],
+           [
+            724343.4818,
+            6175882.4997
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1014528",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724370.42,
+         6175808.158
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j23goajftbzzk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j23goajftbzzk"
+       },
+       "result": "Rådhuspladsen"
+      }
+     ]
+    },
+    "status": 200,
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "j23goajftbzzk",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:18+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "rådhuspladsen",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 184,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "rådhuspladsen",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1014528",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724370.42,
+         6175808.158
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j23goajftbzzk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j23goajftbzzk"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7344505",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719507.389,
+         6182968.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aregzpveehy3g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aregzpveehy3g"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7642888",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724367.607,
+         6175837.482
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l3q3du7k4zjjs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "l3q3du7k4zjjs"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "H.C. Andersen - Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5769,
+        "upstream": {
+         "stednavn": {
+          "id": "1089720",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724407.425,
+         6175719.802
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qly3k7j6tgn2o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qly3k7j6tgn2o"
+       },
+       "result": "H.C. Andersen - Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Høje-Taastrup",
+          "kommunekode": "0169"
+         }
+        ],
+        "stednavn": "Domhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1079814",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         707623.526,
+         6171882.442
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jpls7czycqsqo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jpls7czycqsqo"
+       },
+       "result": "Domhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Rådhusparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1070500",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553103.158,
+         6190800.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fhynxpfop2ux6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fhynxpfop2ux6"
+       },
+       "result": "Rådhusparken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Rådhusparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "7351870",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574665.313,
+         6223634.706
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kioaymextmx56",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kioaymextmx56"
+       },
+       "result": "Rådhusparken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Rådhusparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "7362752",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694275.691,
+         6169619.51
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "des3ideslin3u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "des3ideslin3u"
+       },
+       "result": "Rådhusparken"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederiksberg",
+          "kommunekode": "0147"
+         }
+        ],
+        "stednavn": "Frederiksberg Rådhusplads",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1122727",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722099.103,
+         6175916.977
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gwkzrz62qzqn6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gwkzrz62qzqn6"
+       },
+       "result": "Frederiksberg Rådhusplads"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhushaven",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1014525",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724493.023,
+         6175708.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fytewizunkq56",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fytewizunkq56"
+       },
+       "result": "Rådhushaven"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Solrød",
+          "kommunekode": "0269"
+         }
+        ],
+        "stednavn": "Rådhushaven",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1101091",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         702811.379,
+         6158871.421
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pyjbi4ffbkhha",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pyjbi4ffbkhha"
+       },
+       "result": "Rådhushaven"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Slagelse",
+          "kommunekode": "0330"
+         }
+        ],
+        "stednavn": "Rådhushaven",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "7329477",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         635768.423,
+         6133598.264
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4fqqeimonhgqk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4fqqeimonhgqk"
+       },
+       "result": "Rådhushaven"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Rådhushaven",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "7351869",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         529874.66,
+         6149459.828
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5t55dyo47k7hw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5t55dyo47k7hw"
+       },
+       "result": "Rådhushaven"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Halsnæs",
+          "kommunekode": "0260"
+         }
+        ],
+        "stednavn": "Rådhussalen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "7361460",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         688246.125,
+         6207558.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2r2gdtggsltry",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2r2gdtggsltry"
+       },
+       "result": "Rådhussalen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ],
+        "stednavn": "Rådhussøen",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1139407",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         711272.381,
+         6173049.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6k7j6bp4h57fs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "6k7j6bp4h57fs"
+       },
+       "result": "Rådhussøen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "stednavn": "Gladsaxe Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1102418",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719494.25,
+         6183026.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rqsurlnpt2rv2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rqsurlnpt2rv2"
+       },
+       "result": "Gladsaxe Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuset",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1058176",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726703.541,
+         6175719.895
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pgtaohdmrcdx6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pgtaohdmrcdx6"
+       },
+       "result": "Rådhuset"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "CitizenM Copenhagen Radhuspladsen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3824,
+        "upstream": {
+         "stednavn": {
+          "id": "7323373",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724227.257,
+         6175860.92
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i2rjq5b2ndysm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "i2rjq5b2ndysm"
+       },
+       "result": "CitizenM Copenhagen Radhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Mariagerfjord",
+          "kommunekode": "0846"
+         }
+        ],
+        "stednavn": "Arden Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "7648596",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552694.763,
+         6291830.62
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lmwksu5kwrocg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lmwksu5kwrocg"
+       },
+       "result": "Arden Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ],
+        "stednavn": "Cirkuspladsen",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "1009523",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         535559.769,
+         6227441.75
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mioxvnpdvdre6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mioxvnpdvdre6"
+       },
+       "result": "Cirkuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odense",
+          "kommunekode": "0461"
+         }
+        ],
+        "stednavn": "Cirkuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "1130136",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         585742.215,
+         6139799.9
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "olcpbo2kxmrk6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "olcpbo2kxmrk6"
+       },
+       "result": "Cirkuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Cirkuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "7531119",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         867907.63,
+         6141429.144
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lslc3sxlisvag",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lslc3sxlisvag"
+       },
+       "result": "Cirkuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hørsholm",
+          "kommunekode": "0223"
+         }
+        ],
+        "stednavn": "Rådhushallen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "7365032",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719102.417,
+         6200264.615
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tilt5huunra5g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tilt5huunra5g"
+       },
+       "result": "Rådhushallen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejen",
+          "kommunekode": "0575"
+         }
+        ],
+        "stednavn": "Vejen Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.381,
+        "upstream": {
+         "stednavn": {
+          "id": "7635120",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508667.862,
+         6147943.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3vuupvb7io43i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3vuupvb7io43i"
+       },
+       "result": "Vejen Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rødovre",
+          "kommunekode": "0175"
+         }
+        ],
+        "stednavn": "Rødovre Rådhusplæne",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3704,
+        "upstream": {
+         "stednavn": {
+          "id": "1098165",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717175.75,
+         6175996.596
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rabnbrhxul346",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "rabnbrhxul346"
+       },
+       "result": "Rødovre Rådhusplæne"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Assens",
+          "kommunekode": "0420"
+         }
+        ],
+        "stednavn": "Assens Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1092563",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556701.666,
+         6124799.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l6a75znzdxpbe",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "l6a75znzdxpbe"
+       },
+       "result": "Assens Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Skagen Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1128388",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         594410.409,
+         6398580.38
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kohs4c3xpan46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kohs4c3xpan46"
+       },
+       "result": "Skagen Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hørsholm",
+          "kommunekode": "0223"
+         }
+        ],
+        "stednavn": "Bådpladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.35,
+        "upstream": {
+         "stednavn": {
+          "id": "1022814",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721842.64,
+         6198510.656
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2wdittzneqww2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2wdittzneqww2"
+       },
+       "result": "Bådpladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Horsens Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3478,
+        "upstream": {
+         "stednavn": {
+          "id": "7387768",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555450.739,
+         6192173.09
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v5phkarzfccri",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "v5phkarzfccri"
+       },
+       "result": "Horsens Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Aarhus Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1032653",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         574730.436,
+         6223669.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2ngmxvvktsrke",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2ngmxvvktsrke"
+       },
+       "result": "Aarhus Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faxe",
+          "kommunekode": "0320"
+         }
+        ],
+        "stednavn": "Faxe Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1107781",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         687907.935,
+         6134959.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kl3l5wftcw6w4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kl3l5wftcw6w4"
+       },
+       "result": "Faxe Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Syddjurs",
+          "kommunekode": "0706"
+         }
+        ],
+        "stednavn": "Rådhusbakke",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1072321",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         605199.857,
+         6241660.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mfouqov3yfalu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mfouqov3yfalu"
+       },
+       "result": "Rådhusbakke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Esbjerg",
+          "kommunekode": "0561"
+         }
+        ],
+        "stednavn": "Rådhussamlingen",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3333,
+        "upstream": {
+         "stednavn": {
+          "id": "1143983",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         484939.97,
+         6131292.065
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "h3zsqc2qiz7ay",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "h3zsqc2qiz7ay"
+       },
+       "result": "Rådhussamlingen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ærø",
+          "kommunekode": "0492"
+         }
+        ],
+        "stednavn": "Ærø Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1125303",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         590197.424,
+         6083401.41
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4iuvm76xfqfz6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4iuvm76xfqfz6"
+       },
+       "result": "Ærø Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Fanø",
+          "kommunekode": "0563"
+         }
+        ],
+        "stednavn": "Fanø Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1143361",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         462267.638,
+         6144612.93
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vesyu624dothm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vesyu624dothm"
+       },
+       "result": "Fanø Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Greve",
+          "kommunekode": "0253"
+         }
+        ],
+        "stednavn": "Greve Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1101728",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         707447.761,
+         6164656.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jnqnhx6jtoree",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jnqnhx6jtoree"
+       },
+       "result": "Greve Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Køge",
+          "kommunekode": "0259"
+         }
+        ],
+        "stednavn": "Køge Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1014177",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         701248.718,
+         6150202.795
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tazc5okwkq7lc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tazc5okwkq7lc"
+       },
+       "result": "Køge Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         }
+        ],
+        "stednavn": "Odder Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1032389",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         571740.295,
+         6203727.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uuy4xmt5p5h5o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "uuy4xmt5p5h5o"
+       },
+       "result": "Odder Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Odsherred",
+          "kommunekode": "0306"
+         }
+        ],
+        "stednavn": "Peterspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "1037962",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         661486.829,
+         6192606.257
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xwq7fw42onrds",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "xwq7fw42onrds"
+       },
+       "result": "Peterspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Peterspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3182,
+        "upstream": {
+         "stednavn": {
+          "id": "7351857",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562662.402,
+         6375286.618
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zlly4guilcf7i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zlly4guilcf7i"
+       },
+       "result": "Peterspladsen"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

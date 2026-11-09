@@ -1,0 +1,4066 @@
+{
+ "case": {
+  "id": "mat-5a",
+  "input": "5a",
+  "kommuner": null,
+  "types": [
+   "mat"
+  ]
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:28+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "5a",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 5524,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "5a",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Frederiksberg",
+        "ejerlavskode": 10051,
+        "kommuner": [
+         {
+          "kommune": "Frederiksberg",
+          "kommunekode": "0147"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Frederiksberg",
+           "ejerlavskode": 10051,
+           "kommune": "Frederiksberg",
+           "kommunekode": "0147",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 100030984,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 100030062,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720543.34,
+         6176955.662
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yoh4rae4muisw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yoh4rae4muisw"
+       },
+       "result": "5a, Frederiksberg"
+      },
+      {
+       "components": {
+        "ejerlav": "Gentofte",
+        "ejerlavskode": 10151,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gentofte",
+           "ejerlavskode": 10151,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 330698,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2001210,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722099.082,
+         6181770.973
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n22ns2omf4okm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "n22ns2omf4okm"
+       },
+       "result": "5a, Gentofte"
+      },
+      {
+       "components": {
+        "ejerlav": "Buddinge",
+        "ejerlavskode": 10251,
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 919450,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5c",
+           "upstream": {
+            "id": 919831,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5at",
+           "upstream": {
+            "id": 920897,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5au",
+           "upstream": {
+            "id": 920857,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5av",
+           "upstream": {
+            "id": 920906,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5ax",
+           "upstream": {
+            "id": 920944,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5ay",
+           "upstream": {
+            "id": 919522,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5az",
+           "upstream": {
+            "id": 919778,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5aæ",
+           "upstream": {
+            "id": 920070,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5ba",
+           "upstream": {
+            "id": 919844,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5bb",
+           "upstream": {
+            "id": 919294,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5bc",
+           "upstream": {
+            "id": 920899,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5bd",
+           "upstream": {
+            "id": 919856,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Buddinge",
+           "ejerlavskode": 10251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5be",
+           "upstream": {
+            "id": 920917,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8777388,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719111.943,
+         6181512.467
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x3d343w6q47ty",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "x3d343w6q47ty"
+       },
+       "result": "5a, Buddinge"
+      },
+      {
+       "components": {
+        "ejerlav": "Gladsaxe",
+        "ejerlavskode": 10252,
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Gladsaxe",
+           "ejerlavskode": 10252,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 923886,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gladsaxe",
+           "ejerlavskode": 10252,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5c",
+           "upstream": {
+            "id": 923880,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gladsaxe",
+           "ejerlavskode": 10252,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5e",
+           "upstream": {
+            "id": 923882,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gladsaxe",
+           "ejerlavskode": 10252,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5f",
+           "upstream": {
+            "id": 923881,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "xkmzf5qi7wfvs",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651546,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "fni2mvdqbduue",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651547,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "wm5kc4xtgnbc4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651548,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "bzlq2mztenbi2",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651549,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "4gfvifgwumkpa",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651550,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "jr3twhyrzenpm",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651551,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "lxx62wnydfrae",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651554,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "5zystckvp2z6o",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100651555,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "3a5opsj5kqwf6",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654054,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ysah56phnrmt4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654105,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "vcoqmfy6i7dgi",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654113,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "y2nskeux7nvlq",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654114,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "uvvexri63pijo",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654115,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "d4qwlw6fsopyo",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654116,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "6nl6e5tbyrjg6",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654118,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "jsrmyrv7mpb32",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654120,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ozu7lcuxpze3k",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654125,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "7gq7w3wfd3ju4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654127,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "5xn7qpcjeqkxa",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654128,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "so2icz42eu5vq",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654130,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "4o4grrqu2vp5e",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654133,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "izg7nldmtqy4m",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654135,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "qbpdzudmmymku",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654141,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "3rpmiafk7v7ww",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654144,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "dc7o4xgg47nma",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654145,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "bpz77tpbf6zps",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654147,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "jfflpgtkzdpsu",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654158,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "uvr7tujlp4v3k",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654159,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "c5m4umwstaxwg",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654160,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "2pzjig2dydqac",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100654161,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ccdwoeno24g26",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100655336,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "lmro2dfxc36jm",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100655340,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "2fzkd3ypfavvu",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100655342,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ce4bapr66bcum",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100763245,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "qkz3lfsozife4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100763246,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "hgmj2qg77hb3q",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100821771,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ogckpspf3kyi2",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100858615,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "6c3ub2nyd5nkg",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100859628,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ipndwrj5uqeww",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100859648,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "nnfjeesstwaas",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100985959,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "y5elxsv566ebm",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 711939,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "twcw6m3idz73g",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 711940,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "eheaibi6vnlye",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 711941,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "cjigns2uq6rzi",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 711942,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 9522597,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         716542.779,
+         6182768.378
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "slm3so4ehudp2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "slm3so4ehudp2"
+       },
+       "result": "5a, Gladsaxe"
+      },
+      {
+       "components": {
+        "ejerlav": "Hellerup",
+        "ejerlavskode": 10352,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Hellerup",
+           "ejerlavskode": 10352,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 337534,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 7118309,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724893.478,
+         6181320.549
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l4z6utfrscwda",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "l4z6utfrscwda"
+       },
+       "result": "5a, Hellerup"
+      },
+      {
+       "components": {
+        "ejerlav": "Herlev",
+        "ejerlavskode": 10451,
+        "kommuner": [
+         {
+          "kommune": "Herlev",
+          "kommunekode": "0163"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Herlev",
+           "ejerlavskode": 10451,
+           "kommune": "Herlev",
+           "kommunekode": "0163",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1352317,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 9785229,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         716434.782,
+         6180261.96
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "isd3v7vhkkpsw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "isd3v7vhkkpsw"
+       },
+       "result": "5a, Herlev"
+      },
+      {
+       "components": {
+        "ejerlav": "Hvidovre By, Hvidovre",
+        "ejerlavskode": 10551,
+        "kommuner": [
+         {
+          "kommune": "Hvidovre",
+          "kommunekode": "0167"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Hvidovre By, Hvidovre",
+           "ejerlavskode": 10551,
+           "kommune": "Hvidovre",
+           "kommunekode": "0167",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 258005,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Hvidovre By, Hvidovre",
+           "ejerlavskode": 10551,
+           "kommune": "Hvidovre",
+           "kommunekode": "0167",
+           "lifecycle": "current",
+           "matrikelnummer": "5bq",
+           "upstream": {
+            "id": 258419,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 1300623,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717595.924,
+         6174066.905
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nn6vls7pcrak2",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "nn6vls7pcrak2"
+       },
+       "result": "5a, Hvidovre By, Hvidovre"
+      },
+      {
+       "components": {
+        "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+        "ejerlavskode": 10752,
+        "kommuner": [
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "ejerlavskode": 10752,
+           "kommune": "Lyngby-Taarbæk",
+           "kommunekode": "0173",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 2457487,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "ejerlavskode": 10752,
+           "kommune": "Lyngby-Taarbæk",
+           "kommunekode": "0173",
+           "lifecycle": "current",
+           "matrikelnummer": "5ug",
+           "upstream": {
+            "id": 2457452,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "ejerlavskode": 10752,
+           "kommune": "Lyngby-Taarbæk",
+           "kommunekode": "0173",
+           "lifecycle": "current",
+           "matrikelnummer": "5uh",
+           "upstream": {
+            "id": 2457464,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8864414,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719689.435,
+         6187610.583
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "z6q6wjegdgu2y",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "z6q6wjegdgu2y"
+       },
+       "result": "5a, Kgs. Lyngby By, Kgs. Lyngby"
+      },
+      {
+       "components": {
+        "ejerlav": "St. Magleby By, St. Magleby",
+        "ejerlavskode": 10851,
+        "kommuner": [
+         {
+          "kommune": "Dragør",
+          "kommunekode": "0155"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "St. Magleby By, St. Magleby",
+           "ejerlavskode": 10851,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 176062,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "St. Magleby By, St. Magleby",
+           "ejerlavskode": 10851,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5az",
+           "upstream": {
+            "id": 176060,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8752210,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         729637.476,
+         6166724.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ud3jluckot4tk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ud3jluckot4tk"
+       },
+       "result": "5a, St. Magleby By, St. Magleby"
+      },
+      {
+       "components": {
+        "ejerlav": "Rødovre By, Rødovre",
+        "ejerlavskode": 11151,
+        "kommuner": [
+         {
+          "kommune": "Rødovre",
+          "kommunekode": "0175"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Rødovre By, Rødovre",
+           "ejerlavskode": 11151,
+           "kommune": "Rødovre",
+           "kommunekode": "0175",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1628474,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8776840,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         717954.871,
+         6176226.906
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "cvaernd32an46",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "cvaernd32an46"
+       },
+       "result": "5a, Rødovre By, Rødovre"
+      },
+      {
+       "components": {
+        "ejerlav": "Skovshoved",
+        "ejerlavskode": 11253,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skovshoved",
+           "ejerlavskode": 11253,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 341555,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2042525,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         725703.346,
+         6185135.166
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g6sf3kao4k6hs",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "g6sf3kao4k6hs"
+       },
+       "result": "5a, Skovshoved"
+      },
+      {
+       "components": {
+        "ejerlav": "Holte By, Søllerød",
+        "ejerlavskode": 11451,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Holte By, Søllerød",
+           "ejerlavskode": 11451,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 100072644,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 100066047,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719231.403,
+         6193746.288
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "msx7g3hbg5znm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "msx7g3hbg5znm"
+       },
+       "result": "5a, Holte By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Søllerød By, Søllerød",
+           "ejerlavskode": 11452,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1384449,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2044503,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719447.705,
+         6189648.15
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "osk5dphtnroto",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "osk5dphtnroto"
+       },
+       "result": "5a, Søllerød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Øverød By, Søllerød",
+        "ejerlavskode": 11453,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Øverød By, Søllerød",
+           "ejerlavskode": 11453,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1386027,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Øverød By, Søllerød",
+           "ejerlavskode": 11453,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5cq",
+           "upstream": {
+            "id": 1385965,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Øverød By, Søllerød",
+           "ejerlavskode": 11453,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5cr",
+           "upstream": {
+            "id": 1386030,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8854734,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718615.12,
+         6192587.007
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mglbn3sfyw64e",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mglbn3sfyw64e"
+       },
+       "result": "5a, Øverød By, Søllerød"
+      },
+      {
+       "components": {
+        "ejerlav": "Taarbæk By, Taarbæk",
+        "ejerlavskode": 11552,
+        "kommuner": [
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Taarbæk By, Taarbæk",
+           "ejerlavskode": 11552,
+           "kommune": "Lyngby-Taarbæk",
+           "kommunekode": "0173",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 2459736,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2047087,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         725382.29,
+         6188083.636
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3a2mnw7fsrt36",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3a2mnw7fsrt36"
+       },
+       "result": "5a, Taarbæk By, Taarbæk"
+      },
+      {
+       "components": {
+        "ejerlav": "Løjtegård, Tårnby",
+        "ejerlavskode": 11654,
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Løjtegård, Tårnby",
+           "ejerlavskode": 11654,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 356591,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2048552,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         727135.437,
+         6170030.091
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zc4ywllgfyfug",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zc4ywllgfyfug"
+       },
+       "result": "5a, Løjtegård, Tårnby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skelgårde, Tårnby",
+           "ejerlavskode": 11657,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 357978,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tømmerup By, Tårnby",
+           "ejerlavskode": 11659,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "62b",
+           "upstream": {
+            "id": 363061,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8841416,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         727406.946,
+         6168366.048
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "73ypka4faiohk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "73ypka4faiohk"
+       },
+       "result": "5a, Skelgårde, Tårnby"
+      },
+      {
+       "components": {
+        "ejerlav": "Tårnby By, Tårnby",
+        "ejerlavskode": 11658,
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Tårnby By, Tårnby",
+           "ejerlavskode": 11658,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 368849,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tårnby By, Tårnby",
+           "ejerlavskode": 11658,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "9m",
+           "upstream": {
+            "id": 369108,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tårnby By, Tårnby",
+           "ejerlavskode": 11658,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "9qe",
+           "upstream": {
+            "id": 368745,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8841426,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726913.306,
+         6171297.824
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j7ftkldn5t4jc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "j7ftkldn5t4jc"
+       },
+       "result": "5a, Tårnby By, Tårnby"
+      },
+      {
+       "components": {
+        "ejerlav": "Tømmerup By, Tårnby",
+        "ejerlavskode": 11659,
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Tømmerup By, Tårnby",
+           "ejerlavskode": 11659,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 2543442,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tømmerup By, Tårnby",
+           "ejerlavskode": 11659,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5u",
+           "upstream": {
+            "id": 363051,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tømmerup By, Tårnby",
+           "ejerlavskode": 11659,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5æ",
+           "upstream": {
+            "id": 2600614,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 9237581,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         727648.026,
+         6168911.628
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "iyre2qnwys2xw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "iyre2qnwys2xw"
+       },
+       "result": "5a, Tømmerup By, Tårnby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Tårnby",
+          "kommunekode": "0185"
+         },
+         {
+          "kommune": "Dragør",
+          "kommunekode": "0155"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ullerup By, Tårnby",
+           "ejerlavskode": 11660,
+           "kommune": "Tårnby",
+           "kommunekode": "0185",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 393900,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "St. Magleby By, St. Magleby",
+           "ejerlavskode": 10851,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "20d",
+           "upstream": {
+            "id": 175633,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 9876015,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         728937.088,
+         6166442.984
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qpnfsdbrhyr5g",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qpnfsdbrhyr5g"
+       },
+       "result": "5a, Ullerup By, Tårnby"
+      },
+      {
+       "components": {
+        "ejerlav": "Agershvile, Vedbæk",
+        "ejerlavskode": 11851,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Agershvile, Vedbæk",
+           "ejerlavskode": 11851,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1386703,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2057430,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723644.663,
+         6194339.677
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "quncrynpb4b3i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "quncrynpb4b3i"
+       },
+       "result": "5a, Agershvile, Vedbæk"
+      },
+      {
+       "components": {
+        "ejerlav": "Frydenlund, Vedbæk",
+        "ejerlavskode": 11853,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Frydenlund, Vedbæk",
+           "ejerlavskode": 11853,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1387189,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 1301195,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722909.024,
+         6193868.673
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xvynlits7wxzy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xvynlits7wxzy"
+       },
+       "result": "5a, Frydenlund, Vedbæk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Trørød By, Vedbæk",
+           "ejerlavskode": 11856,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1388126,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Trørød By, Gl. Holte",
+           "ejerlavskode": 13853,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5mt",
+           "upstream": {
+            "id": 1393789,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 1302315,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         722260.699,
+         6193241.892
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ra2gj7tlil2sa",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ra2gj7tlil2sa"
+       },
+       "result": "5a, Trørød By, Vedbæk"
+      },
+      {
+       "components": {
+        "ejerlav": "Vedbæk By, Vedbæk",
+        "ejerlavskode": 11858,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vedbæk By, Vedbæk",
+           "ejerlavskode": 11858,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1388745,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2059685,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723366.232,
+         6195018.673
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yxyisao5thrx6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yxyisao5thrx6"
+       },
+       "result": "5a, Vedbæk By, Vedbæk"
+      },
+      {
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255,
+        "kommuner": [
+         {
+          "kommune": "Gentofte",
+          "kommunekode": "0157"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 344734,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vangede",
+           "ejerlavskode": 12255,
+           "kommune": "Gentofte",
+           "kommunekode": "0157",
+           "lifecycle": "current",
+           "matrikelnummer": "112",
+           "upstream": {
+            "id": 100641464,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2069384,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         720241.838,
+         6184939.652
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zo4pxoc36dpo6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zo4pxoc36dpo6"
+       },
+       "result": "5a, Vangede"
+      },
+      {
+       "components": {
+        "ejerlav": "Virum By, Virum",
+        "ejerlavskode": 12352,
+        "kommuner": [
+         {
+          "kommune": "Lyngby-Taarbæk",
+          "kommunekode": "0173"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Virum By, Virum",
+           "ejerlavskode": 12352,
+           "kommune": "Lyngby-Taarbæk",
+           "kommunekode": "0173",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 2468897,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2073765,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718440.056,
+         6188430.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "z3a2b2jjtefmg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "z3a2b2jjtefmg"
+       },
+       "result": "5a, Virum By, Virum"
+      },
+      {
+       "components": {
+        "ejerlav": "Hvidovre By, Strandmark",
+        "ejerlavskode": 12451,
+        "kommuner": [
+         {
+          "kommune": "Hvidovre",
+          "kommunekode": "0167"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Hvidovre By, Strandmark",
+           "ejerlavskode": 12451,
+           "kommune": "Hvidovre",
+           "kommunekode": "0167",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 100073980,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 100067181,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719551.34,
+         6169678.205
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kmvjum2akgzow",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "kmvjum2akgzow"
+       },
+       "result": "5a, Hvidovre By, Strandmark"
+      },
+      {
+       "components": {
+        "ejerlav": "Islev By, Islev",
+        "ejerlavskode": 12651,
+        "kommuner": [
+         {
+          "kommune": "Rødovre",
+          "kommunekode": "0175"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Islev By, Islev",
+           "ejerlavskode": 12651,
+           "kommune": "Rødovre",
+           "kommunekode": "0175",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1630155,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2082733,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         716386.547,
+         6179163.304
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4cdwbkafyvfhc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4cdwbkafyvfhc"
+       },
+       "result": "5a, Islev By, Islev"
+      },
+      {
+       "components": {
+        "ejerlav": "Bagsværd",
+        "ejerlavskode": 12751,
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Bagsværd",
+           "ejerlavskode": 12751,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 928687,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Bagsværd",
+           "ejerlavskode": 12751,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5el",
+           "upstream": {
+            "id": 929138,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "6j6nd53syva5o",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 214564,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "zlhywvha4xogq",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 214565,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "3",
+            "id": "4cwuftlpnjdvg",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 214566,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "4",
+            "id": "koxmq6ieu65pu",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 214567,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8777562,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         715909.631,
+         6184953.617
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ptfra2khpa4nw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ptfra2khpa4nw"
+       },
+       "result": "5a, Bagsværd"
+      },
+      {
+       "components": {
+        "ejerlav": "Dragør By, Dragør",
+        "ejerlavskode": 12951,
+        "kommuner": [
+         {
+          "kommune": "Dragør",
+          "kommunekode": "0155"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Dragør By, Dragør",
+           "ejerlavskode": 12951,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 179432,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Dragør By, Dragør",
+           "ejerlavskode": 12951,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5b",
+           "upstream": {
+            "id": 179418,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Dragør By, Dragør",
+           "ejerlavskode": 12951,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5c",
+           "upstream": {
+            "id": 179420,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Dragør By, Dragør",
+           "ejerlavskode": 12951,
+           "kommune": "Dragør",
+           "kommunekode": "0155",
+           "lifecycle": "current",
+           "matrikelnummer": "5d",
+           "upstream": {
+            "id": 179421,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8752258,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         731530.948,
+         6166967.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zog3ze2eoth2c",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zog3ze2eoth2c"
+       },
+       "result": "5a, Dragør By, Dragør"
+      },
+      {
+       "components": {
+        "ejerlav": "Mørkhøj",
+        "ejerlavskode": 13251,
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Mørkhøj",
+           "ejerlavskode": 13251,
+           "kommune": "Gladsaxe",
+           "kommunekode": "0159",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 932766,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2098919,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718434.188,
+         6181630.523
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jrvkvfctcz6ro",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jrvkvfctcz6ro"
+       },
+       "result": "5a, Mørkhøj"
+      },
+      {
+       "components": {
+        "ejerlav": "Trørød By, Gl. Holte",
+        "ejerlavskode": 13853,
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Trørød By, Gl. Holte",
+           "ejerlavskode": 13853,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 100051407,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Trørød By, Gl. Holte",
+           "ejerlavskode": 13853,
+           "kommune": "Rudersdal",
+           "kommunekode": "0230",
+           "lifecycle": "current",
+           "matrikelnummer": "5fp",
+           "upstream": {
+            "id": 1393838,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2104569,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         721806.796,
+         6193741.331
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lpgmjsqs63arc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lpgmjsqs63arc"
+       },
+       "result": "5a, Trørød By, Gl. Holte"
+      },
+      {
+       "components": {
+        "ejerlav": "Ballerup By, Ballerup",
+        "ejerlavskode": 20151,
+        "kommuner": [
+         {
+          "kommune": "Ballerup",
+          "kommunekode": "0151"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ballerup By, Ballerup",
+           "ejerlavskode": 20151,
+           "kommune": "Ballerup",
+           "kommunekode": "0151",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1533960,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "xwkfnx47fyiic",
+            "lifecycle": "retired",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 710592,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 9598940,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         711169.019,
+         6182758.341
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3xm3dh5jn2nko",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3xm3dh5jn2nko"
+       },
+       "result": "5a, Ballerup By, Ballerup"
+      },
+      {
+       "components": {
+        "ejerlav": "Brøndbyvester By, Brøndbyvester",
+        "ejerlavskode": 20251,
+        "kommuner": [
+         {
+          "kommune": "Brøndby",
+          "kommunekode": "0153"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Brøndbyvester By, Brøndbyvester",
+           "ejerlavskode": 20251,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1789098,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Brøndbyvester By, Brøndbyvester",
+           "ejerlavskode": 20251,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "1n",
+           "upstream": {
+            "id": 1789228,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "id": "ouq56y7uv6xe4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632252,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "2r4rml2drl6pe",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632274,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "qd6jgo6qlxuiw",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632275,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "r2zk2mr7utcx4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632276,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "iwllewt653jgm",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632277,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "nyuhywqi4pnpm",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632278,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "zali5mcr67wl4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632279,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "zmcq2orgljdg4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632307,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "j77o2lpx2qbra",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632311,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "7gfhih6jo4yi4",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632312,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "fnfszrtqfknlg",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632331,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "a3x23lqfy4hdo",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632336,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "obszswqq5yzzk",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632338,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "a4kcnfaf33msg",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632340,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "vfof2piufc3hw",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632341,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "74p7c7z4lci7w",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632344,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "mgpztmckfqrqs",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632351,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "7oa4k7rwrjoqi",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632372,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "uxtevt2iqtg3s",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632375,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "yysy2tvywyi7u",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632376,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "fnv5bklewm6uy",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632424,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "s5jur37ohz5nu",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632431,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "cdqs7hreyoii6",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632434,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "cwmuc3gjfjitk",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632437,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "2ufga2hw3csdc",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632440,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "kuwxsvpwbo32g",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632442,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "liwdrpkwwup2m",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632444,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "ioqdgvfnqddok",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632447,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "6xjzsmghmkrsc",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632450,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           },
+           {
+            "id": "2x33qur6kcjty",
+            "lifecycle": "current",
+            "type": "bygning_paa_fremmed_grund",
+            "upstream": {
+             "id": 100632452,
+             "source": "MAT.BygningPaaFremmedGrund"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 1302494,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         713338.869,
+         6171229.851
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w37w7rtd7zmsi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "w37w7rtd7zmsi"
+       },
+       "result": "5a, Brøndbyvester By, Brøndbyvester"
+      },
+      {
+       "components": {
+        "ejerlav": "Brøndbyøster By, Brøndbyøster",
+        "ejerlavskode": 20351,
+        "kommuner": [
+         {
+          "kommune": "Brøndby",
+          "kommunekode": "0153"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Brøndbyøster By, Brøndbyøster",
+           "ejerlavskode": 20351,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1791879,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Brøndbyøster By, Brøndbyøster",
+           "ejerlavskode": 20351,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "5dx",
+           "upstream": {
+            "id": 1792241,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Brøndbyøster By, Brøndbyøster",
+           "ejerlavskode": 20351,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "5dy",
+           "upstream": {
+            "id": 1791830,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Brøndbyøster By, Brøndbyøster",
+           "ejerlavskode": 20351,
+           "kommune": "Brøndby",
+           "kommunekode": "0153",
+           "lifecycle": "current",
+           "matrikelnummer": "5dz",
+           "upstream": {
+            "id": 1791839,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8831859,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         716325.967,
+         6173570.483
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "liz7iyawytdje",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "liz7iyawytdje"
+       },
+       "result": "5a, Brøndbyøster By, Brøndbyøster"
+      },
+      {
+       "components": {
+        "ejerlav": "Ejby By, Glostrup",
+        "ejerlavskode": 20451,
+        "kommuner": [
+         {
+          "kommune": "Glostrup",
+          "kommunekode": "0161"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Ejby By, Glostrup",
+           "ejerlavskode": 20451,
+           "kommune": "Glostrup",
+           "kommunekode": "0161",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 221015,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2117007,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         715233.123,
+         6177906.771
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6urlydfrfopqu",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6urlydfrfopqu"
+       },
+       "result": "5a, Ejby By, Glostrup"
+      },
+      {
+       "components": {
+        "ejerlav": "Hvissinge By, Glostrup",
+        "ejerlavskode": 20453,
+        "kommuner": [
+         {
+          "kommune": "Glostrup",
+          "kommunekode": "0161"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Hvissinge By, Glostrup",
+           "ejerlavskode": 20453,
+           "kommune": "Glostrup",
+           "kommunekode": "0161",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 223502,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2120631,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         714537.716,
+         6175583.839
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y5hgpj5g7dnsy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "y5hgpj5g7dnsy"
+       },
+       "result": "5a, Hvissinge By, Glostrup"
+      },
+      {
+       "components": {
+        "ejerlav": "Herstedvester By, Herstedvester",
+        "ejerlavskode": 20551,
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Herstedvester By, Herstedvester",
+           "ejerlavskode": 20551,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 999007,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2122623,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         709911.771,
+         6175577.586
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xpu6hk67febwm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xpu6hk67febwm"
+       },
+       "result": "5a, Herstedvester By, Herstedvester"
+      },
+      {
+       "components": {
+        "ejerlav": "Risby By, Herstedvester",
+        "ejerlavskode": 20552,
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ],
+        "matrikelnummer": "5a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Risby By, Herstedvester",
+           "ejerlavskode": 20552,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1000516,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 2124248,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         709086.287,
+         6176596.794
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vxhnzcvkqasnk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vxhnzcvkqasnk"
+       },
+       "result": "5a, Risby By, Herstedvester"
+      },
+      {
+       "components": {
+        "ejerlav": "Vridsløselille By, Herstedvester",
+        "ejerlavskode": 20553,
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "5a",
+           "upstream": {
+            "id": 1000835,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "5dl",
+           "upstream": {
+            "id": 1000768,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "32d",
+           "upstream": {
+            "id": 1001207,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "32f",
+           "upstream": {
+            "id": 1001253,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "32h",
+           "upstream": {
+            "id": 1001180,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vridsløselille By, Herstedvester",
+           "ejerlavskode": 20553,
+           "kommune": "Albertslund",
+           "kommunekode": "0165",
+           "lifecycle": "current",
+           "matrikelnummer": "32i",
+           "upstream": {
+            "id": 1001209,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "ejendom": {
+          "id": 8784859,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         709965.139,
+         6172847.186
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zorstc5tkijsi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zorstc5tkijsi"
+       },
+       "result": "5a, Vridsløselille By, Herstedvester"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

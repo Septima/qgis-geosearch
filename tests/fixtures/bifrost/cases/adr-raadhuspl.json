@@ -1,0 +1,1290 @@
+{
+ "case": {
+  "id": "adr-raadhuspl",
+  "input": "rådhuspl",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:07+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "rådhuspl",
+    "limit": 5
+   },
+   "elapsed_ms": 131,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "rådhuspl",
+    "matches": [
+     {
+      "components": {
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "0e466d32-4d11-4886-9e62-07b8f7c6143d",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        531000.0,
+        6123071.66
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "f33vm2zcasmym",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "f33vm2zcasmym"
+      },
+      "result": "Rådhuspladsen"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Stevns",
+         "kommunekode": "0336"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Store Heddinge",
+         "postcode": "4660"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "2f755b70-e20c-4db9-a376-a44441bfbfd5",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        714843.07,
+        6134768.12
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "6ptvibvbnwdmw",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "6ptvibvbnwdmw"
+      },
+      "result": "Rådhuspladsen, 4660 Store Heddinge"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Holbæk",
+         "kommunekode": "0316"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holbæk",
+         "postcode": "4300"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "34d613ab-0429-45d7-a7d2-f24562ad4984",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        670300.51,
+        6177812.96
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lgtv63ee5ez32",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "lgtv63ee5ez32"
+      },
+      "result": "Rådhuspladsen, 4300 Holbæk"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Nordfyns",
+         "kommunekode": "0480"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Otterup",
+         "postcode": "5450"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "a3527bb0-91c7-4810-9e00-efc2bc40bf53",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        587933.77,
+        6152938.83
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ar5qphagsr7k6",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "ar5qphagsr7k6"
+      },
+      "result": "Rådhuspladsen, 5450 Otterup"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Halsnæs",
+         "kommunekode": "0260"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Frederiksværk",
+         "postcode": "3300"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "b18c41f1-afd6-48f0-af6d-ea14163b19df",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        688258.45,
+        6207619.86
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gd45d4a6qhhl6",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "gd45d4a6qhhl6"
+      },
+      "result": "Rådhuspladsen, 3300 Frederiksværk"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "rådhuspl",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 490,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "rådhuspl",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5625,
+        "upstream": {
+         "stednavn": {
+          "id": "1014528",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724370.42,
+         6175808.158
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j23goajftbzzk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j23goajftbzzk"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5625,
+        "upstream": {
+         "stednavn": {
+          "id": "7344505",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719507.389,
+         6182968.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aregzpveehy3g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aregzpveehy3g"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5625,
+        "upstream": {
+         "stednavn": {
+          "id": "7642888",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724367.607,
+         6175837.482
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l3q3du7k4zjjs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "l3q3du7k4zjjs"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuset",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1058176",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726703.541,
+         6175719.895
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pgtaohdmrcdx6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "pgtaohdmrcdx6"
+       },
+       "result": "Rådhuset"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Rådhusparken",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1070500",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553103.158,
+         6190800.03
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fhynxpfop2ux6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fhynxpfop2ux6"
+       },
+       "result": "Rådhusparken"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspl",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vesthimmerlands",
+          "kommunekode": "0820"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Ranum",
+          "postcode": "9681"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1429,
+        "upstream": {
+         "postcode": {
+          "id": "9681",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         508070.91,
+         6306649.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zo4rmb6qtkavi",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "zo4rmb6qtkavi"
+       },
+       "result": "Ranum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Randbøl",
+          "postcode": "7183"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1176,
+        "upstream": {
+         "postcode": {
+          "id": "7183",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         517003.48,
+         6171077.155
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jykibbfde6g2e",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "jykibbfde6g2e"
+       },
+       "result": "Randbøl"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Randers C",
+          "postcode": "8900"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1111,
+        "upstream": {
+         "postcode": {
+          "id": "8900",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         563381.583,
+         6258147.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yr2fol4gbvbe2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "yr2fol4gbvbe2"
+       },
+       "result": "Randers C"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Randers NV",
+          "postcode": "8920"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1053,
+        "upstream": {
+         "postcode": {
+          "id": "8920",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555954.009,
+         6259179.04
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3f2okqh64tvgg",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "3f2okqh64tvgg"
+       },
+       "result": "Randers NV"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Favrskov",
+          "kommunekode": "0710"
+         },
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Randers SV",
+          "postcode": "8940"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1053,
+        "upstream": {
+         "postcode": {
+          "id": "8940",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         562345.128,
+         6252737.12
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gwmcwqpbvum3q",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "gwmcwqpbvum3q"
+       },
+       "result": "Randers SV"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspl",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Råby By, Råby",
+        "ejerlavskode": 880755,
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "matrikelnummer": "1b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "1b",
+           "upstream": {
+            "id": 1268150,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "ejendom": {
+          "id": 4083042,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         575688.964,
+         6274433.408
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wt3k3zkxdzrug",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wt3k3zkxdzrug"
+       },
+       "result": "1b, Råby By, Råby"
+      },
+      {
+       "components": {
+        "ejerlav": "Råby By, Råby",
+        "ejerlavskode": 880755,
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "2a",
+           "upstream": {
+            "id": 1268154,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "2s",
+           "upstream": {
+            "id": 1268424,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "ejendom": {
+          "id": 8552396,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576038.232,
+         6274145.612
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "q5acxpka5v6ww",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "q5acxpka5v6ww"
+       },
+       "result": "2a, Råby By, Råby"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "2c",
+           "upstream": {
+            "id": 1268428,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Dalsgård, Råby",
+           "ejerlavskode": 880751,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "1d",
+           "upstream": {
+            "id": 1267860,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "12h",
+           "upstream": {
+            "id": 1268399,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "13m",
+           "upstream": {
+            "id": 1268411,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "13s",
+           "upstream": {
+            "id": 1268417,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "14m",
+           "upstream": {
+            "id": 1268433,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "24a",
+           "upstream": {
+            "id": 1268451,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "ejendom": {
+          "id": 7178424,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         577250.111,
+         6274551.297
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xrldt4qtdrngg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xrldt4qtdrngg"
+       },
+       "result": "2c, Råby By, Råby"
+      },
+      {
+       "components": {
+        "ejerlav": "Råby By, Råby",
+        "ejerlavskode": 880755,
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "2h",
+           "upstream": {
+            "id": 1268124,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "4h",
+           "upstream": {
+            "id": 1268441,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "6e",
+           "upstream": {
+            "id": 1268430,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "7o",
+           "upstream": {
+            "id": 1268127,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "ejendom": {
+          "id": 1443937,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576171.445,
+         6273729.563
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xlnltoah4xnn6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xlnltoah4xnn6"
+       },
+       "result": "2h, Råby By, Råby"
+      },
+      {
+       "components": {
+        "ejerlav": "Råby By, Råby",
+        "ejerlavskode": 880755,
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "2i",
+           "upstream": {
+            "id": 1268120,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Råby By, Råby",
+           "ejerlavskode": 880755,
+           "kommune": "Randers",
+           "kommunekode": "0730",
+           "lifecycle": "current",
+           "matrikelnummer": "7f",
+           "upstream": {
+            "id": 1268140,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2,
+        "upstream": {
+         "ejendom": {
+          "id": 1443935,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         576282.57,
+         6273761.091
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "giqvsqmcvv27e",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "giqvsqmcvv27e"
+       },
+       "result": "2i, Råby By, Råby"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspl",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.125,
+        "upstream": {
+         "kommune": {
+          "id": "0730",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561577.223,
+         6266305.17
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "svmjrfam5d4zm",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "svmjrfam5d4zm"
+       },
+       "result": "Randers"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspl",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Randers Syd",
+          "opstillingskredsnummer": "68"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.1,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "68",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         552067.64,
+         6259409.68
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2te2ae3roogua",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "2te2ae3roogua"
+       },
+       "result": "Randers Syd"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspl",
+     "matches": []
+    },
+    {
+     "input": "rådhuspl",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

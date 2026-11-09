@@ -1,0 +1,2641 @@
+{
+ "case": {
+  "id": "ste-anholt",
+  "input": "anholt",
+  "kommuner": null,
+  "types": [
+   "ste"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Anholt",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 203,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Anholt",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "landskabsform"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            [
+             653615.75,
+             6288538.77
+            ],
+            [
+             653599.26,
+             6288533.1
+            ],
+            [
+             653615.46,
+             6288520.27
+            ],
+            [
+             653671.1,
+             6288441.4
+            ],
+            [
+             653725.49,
+             6288366.38
+            ],
+            [
+             653674.38,
+             6288335.74
+            ],
+            [
+             653620.4,
+             6288333.0
+            ],
+            [
+             653567.53,
+             6288352.8
+            ],
+            [
+             653530.18,
+             6288374.96
+            ],
+            [
+             653506.2000000001,
+             6288376.63
+            ],
+            [
+             653514.72,
+             6288364.35
+            ],
+            [
+             653562.16,
+             6288335.14
+            ],
+            [
+             653610.87,
+             6288317.47
+            ],
+            [
+             653670.17,
+             6288318.39
+            ],
+            [
+             653722.26,
+             6288336.6
+            ],
+            [
+             653788.81,
+             6288373.77
+            ],
+            [
+             653875.06,
+             6288324.81
+            ],
+            [
+             653974.47,
+             6288247.66
+            ],
+            [
+             654122.68,
+             6288113.94
+            ],
+            [
+             654281.88,
+             6287957.15
+            ],
+            [
+             654360.8,
+             6287840.73
+            ],
+            [
+             654409.86,
+             6287749.73
+            ],
+            [
+             654504.4400000001,
+             6287562.65
+            ],
+            [
+             654616.11,
+             6287285.82
+            ],
+            [
+             654910.9500000001,
+             6286556.2
+            ],
+            [
+             655159.93,
+             6286066.0
+            ],
+            [
+             655392.17,
+             6285790.05
+            ],
+            [
+             655577.67,
+             6285664.47
+            ],
+            [
+             655773.9,
+             6285591.63
+            ],
+            [
+             656023.3200000001,
+             6285544.97
+            ],
+            [
+             656303.75,
+             6285520.92
+            ],
+            [
+             656654.61,
+             6285566.88
+            ],
+            [
+             657053.6900000001,
+             6285641.75
+            ],
+            [
+             657405.53,
+             6285717.66
+            ],
+            [
+             657794.38,
+             6285820.2
+            ],
+            [
+             657972.63,
+             6285904.75
+            ],
+            [
+             658157.18,
+             6286046.87
+            ],
+            [
+             658315.1,
+             6286236.79
+            ],
+            [
+             658465.4400000001,
+             6286446.89
+            ],
+            [
+             658565.11,
+             6286632.98
+            ],
+            [
+             658732.79,
+             6286958.74
+            ],
+            [
+             658820.48,
+             6287137.96
+            ],
+            [
+             658925.8200000001,
+             6287354.26
+            ],
+            [
+             659105.01,
+             6287667.02
+            ],
+            [
+             659300.71,
+             6287979.77
+            ],
+            [
+             659512.92,
+             6288281.9
+            ],
+            [
+             659670.23,
+             6288494.48
+            ],
+            [
+             659736.0700000001,
+             6288564.26
+            ],
+            [
+             659829.35,
+             6288679.66
+            ],
+            [
+             659941.89,
+             6288807.73
+            ],
+            [
+             660091.39,
+             6288970.99
+            ],
+            [
+             660222.9500000001,
+             6289106.91
+            ],
+            [
+             660336.05,
+             6289221.47
+            ],
+            [
+             660443.38,
+             6289325.26
+            ],
+            [
+             660540.15,
+             6289428.16
+            ],
+            [
+             660649.88,
+             6289514.42
+            ],
+            [
+             660732.42,
+             6289585.77
+            ],
+            [
+             660788.74,
+             6289656.42
+            ],
+            [
+             660832.49,
+             6289700.73
+            ],
+            [
+             660930.86,
+             6289783.07
+            ],
+            [
+             660962.65,
+             6289821.98
+            ],
+            [
+             661059.47,
+             6289907.89
+            ],
+            [
+             661180.05,
+             6290003.71
+            ],
+            [
+             661239.01,
+             6290058.78
+            ],
+            [
+             661330.14,
+             6290128.92
+            ],
+            [
+             661396.16,
+             6290179.21
+            ],
+            [
+             661475.54,
+             6290234.58
+            ],
+            [
+             661532.89,
+             6290291.34
+            ],
+            [
+             661587.9500000001,
+             6290351.09
+            ],
+            [
+             661696.71,
+             6290422.74
+            ],
+            [
+             661731.4500000001,
+             6290463.63
+            ],
+            [
+             661789.8200000001,
+             6290504.54
+            ],
+            [
+             661903.55,
+             6290583.48
+            ],
+            [
+             662007.9400000001,
+             6290643.87
+            ],
+            [
+             662083.13,
+             6290700.24
+            ],
+            [
+             662193.18,
+             6290782.86
+            ],
+            [
+             662323.22,
+             6290866.6
+            ],
+            [
+             662537.42,
+             6291025.68
+            ],
+            [
+             662643.37,
+             6291083.21
+            ],
+            [
+             662655.38,
+             6291128.55
+            ],
+            [
+             662731.66,
+             6291158.0
+            ],
+            [
+             662738.81,
+             6291173.99
+            ],
+            [
+             662767.17,
+             6291190.01
+            ],
+            [
+             662777.6,
+             6291193.28
+            ],
+            [
+             662734.56,
+             6291189.64
+            ],
+            [
+             662595.68,
+             6291144.14
+            ],
+            [
+             662548.68,
+             6291170.82
+            ],
+            [
+             662433.56,
+             6291168.4
+            ],
+            [
+             662293.61,
+             6291195.3
+            ],
+            [
+             662273.93,
+             6291234.25
+            ],
+            [
+             662292.93,
+             6291242.33
+            ],
+            [
+             662306.15,
+             6291239.25
+            ],
+            [
+             662261.71,
+             6291261.3
+            ],
+            [
+             662223.48,
+             6291305.32
+            ],
+            [
+             662219.02,
+             6291299.46
+            ],
+            [
+             662215.17,
+             6291282.69
+            ],
+            [
+             662192.1,
+             6291307.06
+            ],
+            [
+             662183.4500000001,
+             6291327.84
+            ],
+            [
+             662177.0700000001,
+             6291320.83
+            ],
+            [
+             662159.06,
+             6291340.32
+            ],
+            [
+             662152.4500000001,
+             6291337.32
+            ],
+            [
+             662138.17,
+             6291331.76
+            ],
+            [
+             662126.0700000001,
+             6291336.51
+            ],
+            [
+             662116.28,
+             6291340.66
+            ],
+            [
+             662104.26,
+             6291331.08
+            ],
+            [
+             662091.4500000001,
+             6291333.43
+            ],
+            [
+             662087.81,
+             6291320.2
+            ],
+            [
+             662072.5,
+             6291325.42
+            ],
+            [
+             662067.6,
+             6291308.95
+            ],
+            [
+             662057.73,
+             6291312.13
+            ],
+            [
+             662052.15,
+             6291311.5
+            ],
+            [
+             662048.71,
+             6291294.51
+            ],
+            [
+             661963.87,
+             6291251.2
+            ],
+            [
+             661827.84,
+             6291194.06
+            ],
+            [
+             661640.65,
+             6291129.17
+            ],
+            [
+             661275.48,
+             6291006.48
+            ],
+            [
+             661038.36,
+             6290919.26
+            ],
+            [
+             660888.22,
+             6290861.42
+            ],
+            [
+             660776.0,
+             6290817.92
+            ],
+            [
+             660597.89,
+             6290744.09
+            ],
+            [
+             660410.8,
+             6290676.55
+            ],
+            [
+             660328.85,
+             6290646.7
+            ],
+            [
+             660180.4500000001,
+             6290606.39
+            ],
+            [
+             660066.6900000001,
+             6290576.62
+            ],
+            [
+             660004.53,
+             6290551.4
+            ],
+            [
+             659900.67,
+             6290522.37
+            ],
+            [
+             659789.63,
+             6290487.38
+            ],
+            [
+             659682.85,
+             6290441.33
+            ],
+            [
+             659620.01,
+             6290408.46
+            ],
+            [
+             659543.74,
+             6290376.89
+            ],
+            [
+             659455.37,
+             6290335.6
+            ],
+            [
+             659368.8200000001,
+             6290300.8
+            ],
+            [
+             659287.24,
+             6290264.83
+            ],
+            [
+             659181.0700000001,
+             6290223.41
+            ],
+            [
+             659085.15,
+             6290182.78
+            ],
+            [
+             659003.14,
+             6290143.94
+            ],
+            [
+             658914.13,
+             6290098.93
+            ],
+            [
+             658861.68,
+             6290081.86
+            ],
+            [
+             658817.4500000001,
+             6290053.08
+            ],
+            [
+             658730.52,
+             6290013.38
+            ],
+            [
+             658646.46,
+             6289975.51
+            ],
+            [
+             658556.46,
+             6289931.62
+            ],
+            [
+             658477.51,
+             6289899.14
+            ],
+            [
+             658415.38,
+             6289878.92
+            ],
+            [
+             658318.03,
+             6289841.05
+            ],
+            [
+             658229.99,
+             6289811.15
+            ],
+            [
+             658162.46,
+             6289783.41
+            ],
+            [
+             658075.87,
+             6289764.4
+            ],
+            [
+             657998.53,
+             6289739.18
+            ],
+            [
+             657920.15,
+             6289714.5
+            ],
+            [
+             657838.47,
+             6289695.14
+            ],
+            [
+             657740.67,
+             6289671.66
+            ],
+            [
+             657648.26,
+             6289648.17
+            ],
+            [
+             657576.21,
+             6289629.08
+            ],
+            [
+             657501.55,
+             6289617.47
+            ],
+            [
+             657427.63,
+             6289602.78
+            ],
+            [
+             657352.06,
+             6289587.4
+            ],
+            [
+             657330.55,
+             6289588.27
+            ],
+            [
+             657282.99,
+             6289590.05
+            ],
+            [
+             657222.53,
+             6289582.57
+            ],
+            [
+             657155.23,
+             6289574.51
+            ],
+            [
+             657072.7000000001,
+             6289573.05
+            ],
+            [
+             656965.98,
+             6289570.79
+            ],
+            [
+             656851.53,
+             6289574.48
+            ],
+            [
+             656754.27,
+             6289573.31
+            ],
+            [
+             656670.9,
+             6289577.06
+            ],
+            [
+             656583.92,
+             6289585.83
+            ],
+            [
+             656491.42,
+             6289594.53
+            ],
+            [
+             656413.16,
+             6289602.75
+            ],
+            [
+             656313.72,
+             6289609.68
+            ],
+            [
+             656243.73,
+             6289624.46
+            ],
+            [
+             656156.98,
+             6289646.76
+            ],
+            [
+             656078.98,
+             6289663.34
+            ],
+            [
+             656010.09,
+             6289687.3
+            ],
+            [
+             655924.71,
+             6289710.76
+            ],
+            [
+             655837.42,
+             6289734.09
+            ],
+            [
+             655749.0,
+             6289753.49
+            ],
+            [
+             655672.04,
+             6289767.33
+            ],
+            [
+             655596.84,
+             6289775.64
+            ],
+            [
+             655500.67,
+             6289784.26
+            ],
+            [
+             655400.12,
+             6289783.37
+            ],
+            [
+             655332.36,
+             6289774.66
+            ],
+            [
+             655267.8200000001,
+             6289767.77
+            ],
+            [
+             655198.76,
+             6289752.01
+            ],
+            [
+             655116.55,
+             6289725.57
+            ],
+            [
+             655055.3,
+             6289701.86
+            ],
+            [
+             654997.5700000001,
+             6289674.07
+            ],
+            [
+             654939.48,
+             6289647.74
+            ],
+            [
+             654875.46,
+             6289612.74
+            ],
+            [
+             654832.15,
+             6289591.44
+            ],
+            [
+             654804.8200000001,
+             6289583.87
+            ],
+            [
+             654771.0700000001,
+             6289564.57
+            ],
+            [
+             654699.89,
+             6289506.52
+            ],
+            [
+             654657.96,
+             6289469.85
+            ],
+            [
+             654612.74,
+             6289431.23
+            ],
+            [
+             654552.66,
+             6289378.88
+            ],
+            [
+             654496.46,
+             6289330.51
+            ],
+            [
+             654461.14,
+             6289295.63
+            ],
+            [
+             654424.5700000001,
+             6289257.06
+            ],
+            [
+             654393.0700000001,
+             6289226.65
+            ],
+            [
+             654340.12,
+             6289174.43
+            ],
+            [
+             654304.3200000001,
+             6289136.15
+            ],
+            [
+             654245.63,
+             6289076.86
+            ],
+            [
+             654196.77,
+             6289024.71
+            ],
+            [
+             654157.25,
+             6288969.93
+            ],
+            [
+             654105.62,
+             6288917.75
+            ],
+            [
+             654055.5,
+             6288873.24
+            ],
+            [
+             654012.36,
+             6288844.61
+            ],
+            [
+             653986.3200000001,
+             6288839.12
+            ],
+            [
+             653922.0700000001,
+             6288799.34
+            ],
+            [
+             653855.96,
+             6288763.71
+            ],
+            [
+             653809.4400000001,
+             6288742.06
+            ],
+            [
+             653766.23,
+             6288720.19
+            ],
+            [
+             653720.86,
+             6288699.94
+            ],
+            [
+             653689.87,
+             6288698.99
+            ],
+            [
+             653673.49,
+             6288701.73
+            ],
+            [
+             653572.93,
+             6288712.25
+            ],
+            [
+             653509.18,
+             6288640.04
+            ],
+            [
+             653455.96,
+             6288557.22
+            ],
+            [
+             653450.38,
+             6288487.29
+            ],
+            [
+             653472.8200000001,
+             6288420.46
+            ],
+            [
+             653489.68,
+             6288417.92
+            ],
+            [
+             653475.87,
+             6288471.14
+            ],
+            [
+             653471.46,
+             6288524.38
+            ],
+            [
+             653482.66,
+             6288559.54
+            ],
+            [
+             653558.9400000001,
+             6288659.07
+            ],
+            [
+             653634.68,
+             6288623.84
+            ],
+            [
+             653640.26,
+             6288612.71
+            ],
+            [
+             653664.68,
+             6288576.06
+            ],
+            [
+             653761.84,
+             6288565.29
+            ],
+            [
+             653863.01,
+             6288544.64
+            ],
+            [
+             653888.78,
+             6288471.86
+            ],
+            [
+             653872.86,
+             6288432.9
+            ],
+            [
+             653875.09,
+             6288428.42
+            ],
+            [
+             653873.4500000001,
+             6288426.84
+            ],
+            [
+             653849.06,
+             6288415.97
+            ],
+            [
+             653791.4500000001,
+             6288387.61
+            ],
+            [
+             653744.01,
+             6288364.82
+            ],
+            [
+             653725.01,
+             6288382.09
+            ],
+            [
+             653688.0,
+             6288433.4
+            ],
+            [
+             653656.46,
+             6288477.14
+            ],
+            [
+             653614.67,
+             6288534.42
+            ],
+            [
+             653615.75,
+             6288538.77
+            ]
+           ]
+          ]
+         ],
+         "type": "MultiPolygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1027931",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656744.885,
+         6288430.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qjxvowu6i5jh4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qjxvowu6i5jh4"
+       },
+       "result": "Anholt"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 966 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "qjxvowu6i5jh4",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "MultiPolygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:19+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "anholt",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 153,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "anholt",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1027931",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656744.885,
+         6288430.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qjxvowu6i5jh4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qjxvowu6i5jh4"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "stednavn": "Anholt",
+        "type": "havnebassin"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1070374",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653773.89,
+         6288473.795
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3tpfi4m665gik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3tpfi4m665gik"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Frederikshavn",
+          "kommunekode": "0813"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1093089",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         579523.885,
+         6354377.78
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v3qe6namrqp2k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "v3qe6namrqp2k"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1093231",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         453001.079,
+         6194739.095
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7drxvadf7rkye",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7drxvadf7rkye"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1115524",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         447780.865,
+         6234460.62
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fsjmdt3glybc4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fsjmdt3glybc4"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "lufthavn"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1122045",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656491.641,
+         6286723.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "klgubqelzx46i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "klgubqelzx46i"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7437057",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561003.765,
+         6093793.361
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "elknszdaq7yuk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "elknszdaq7yuk"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7441777",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655826.888,
+         6287305.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jfi5u7lfgeawq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jfi5u7lfgeawq"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Anholt",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7520337",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         523699.536,
+         6139350.42
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "glpkuuj4xzxme",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "glpkuuj4xzxme"
+       },
+       "result": "Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "stednavn": "Anholt Bro",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6364,
+        "upstream": {
+         "stednavn": {
+          "id": "1012545",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         447463.5,
+         6234078.07
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c6seismalkkru",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "c6seismalkkru"
+       },
+       "result": "Anholt Bro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Fyr",
+        "type": "navigationsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6364,
+        "upstream": {
+         "stednavn": {
+          "id": "1094104",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         662115.82,
+         6291291.66
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "axnn4bvrower6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "axnn4bvrower6"
+       },
+       "result": "Anholt Fyr"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Kro",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6364,
+        "upstream": {
+         "stednavn": {
+          "id": "1098502",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655642.036,
+         6288009.23
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "weoomkedjdfiw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "weoomkedjdfiw"
+       },
+       "result": "Anholt Kro"
+      },
+      {
+       "components": {
+        "stednavn": "Anholt Havn",
+        "type": "havnebassin"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "1070373",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         653773.89,
+         6288473.795
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dbktvavs4yas6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dbktvavs4yas6"
+       },
+       "result": "Anholt Havn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Bakke",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1140322",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         581285.68,
+         6271064.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zct7xjyk5rwnu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zct7xjyk5rwnu"
+       },
+       "result": "Anholt Bakke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Kirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1027532",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655771.118,
+         6287271.53
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2rthksetnwz7u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2rthksetnwz7u"
+       },
+       "result": "Anholt Kirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Skole",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1098328",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655860.062,
+         6287340.475
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "djypxjjggokik",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "djypxjjggokik"
+       },
+       "result": "Anholt Skole"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Randers",
+          "kommunekode": "0730"
+         }
+        ],
+        "stednavn": "Bette Anholt",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5385,
+        "upstream": {
+         "stednavn": {
+          "id": "1020802",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         582431.838,
+         6280375.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ejf75n76tjoim",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ejf75n76tjoim"
+       },
+       "result": "Bette Anholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Anholtlund",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1017211",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         523319.675,
+         6139173.005
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "t4ycfgccrbbpg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "t4ycfgccrbbpg"
+       },
+       "result": "Anholtlund"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Camping",
+        "type": "campingplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1034995",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         654319.752,
+         6288924.01
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m5jkfztfpxwb6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "m5jkfztfpxwb6"
+       },
+       "result": "Anholt Camping"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Elværk",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "1080902",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656032.35,
+         6287287.48
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gkyxmpfxemqes",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "gkyxmpfxemqes"
+       },
+       "result": "Anholt Elværk"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Stadion",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4667,
+        "upstream": {
+         "stednavn": {
+          "id": "7324657",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655304.272,
+         6287611.334
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wqrwdhuowt33i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wqrwdhuowt33i"
+       },
+       "result": "Anholt Stadion"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Kolding",
+          "kommunekode": "0621"
+         }
+        ],
+        "stednavn": "Anholtgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1092969",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         523636.34,
+         6139286.05
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yu2dabos5letw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "yu2dabos5letw"
+       },
+       "result": "Anholtgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Anholtgård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4615,
+        "upstream": {
+         "stednavn": {
+          "id": "1143446",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         526859.69,
+         6168713.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w3drs6cspigbs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "w3drs6cspigbs"
+       },
+       "result": "Anholtgård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Billund",
+          "kommunekode": "0530"
+         }
+        ],
+        "stednavn": "Granholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4545,
+        "upstream": {
+         "stednavn": {
+          "id": "1091401",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         500730.863,
+         6174173.755
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "d5mjtvsv4ouly",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "d5mjtvsv4ouly"
+       },
+       "result": "Granholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hjørring",
+          "kommunekode": "0860"
+         }
+        ],
+        "stednavn": "Granholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4545,
+        "upstream": {
+         "stednavn": {
+          "id": "1146507",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         568496.1,
+         6360349.02
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eti6thv63cijk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eti6thv63cijk"
+       },
+       "result": "Granholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Nyborg",
+          "kommunekode": "0450"
+         }
+        ],
+        "stednavn": "Anhof",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4444,
+        "upstream": {
+         "stednavn": {
+          "id": "1024553",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         609777.321,
+         6120667.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3daz5rewn2f24",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3daz5rewn2f24"
+       },
+       "result": "Anhof"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Åbenholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1124354",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573299.462,
+         6342484.595
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wedgfebcbrpy6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wedgfebcbrpy6"
+       },
+       "result": "Åbenholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Vejle",
+          "kommunekode": "0630"
+         }
+        ],
+        "stednavn": "Assenholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4167,
+        "upstream": {
+         "stednavn": {
+          "id": "1089115",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         526590.713,
+         6191139.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "n7smleydhfx6e",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "n7smleydhfx6e"
+       },
+       "result": "Assenholt"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faaborg-Midtfyn",
+          "kommunekode": "0430"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1022688",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         599201.619,
+         6130443.705
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5bce2jgrt6eiq",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5bce2jgrt6eiq"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1032616",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547866.44,
+         6195307.46
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wyboqcqnpbyrc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wyboqcqnpbyrc"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1033562",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         880798.859,
+         6127403.425
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j3mrbcduzlyrk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j3mrbcduzlyrk"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Haderslev",
+          "kommunekode": "0510"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "fortidsminde"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1059796",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         544090.25,
+         6124612.87
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dryw3v5ent5mu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "dryw3v5ent5mu"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1070014",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         884170.863,
+         6120322.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hmrjqvu46ce3w",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hmrjqvu46ce3w"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1079117",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572502.664,
+         6222789.395
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "btdn5qdow7lqo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "btdn5qdow7lqo"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1099880",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         503182.129,
+         6322159.195
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hdod737nbicdg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hdod737nbicdg"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1149335",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         547783.489,
+         6195173.055
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tcsssxp32e34i",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "tcsssxp32e34i"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Anhøj",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1150850",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         872432.79,
+         6122761.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "27cmz6aidkkya",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "27cmz6aidkkya"
+       },
+       "result": "Anhøj"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Flyveplads",
+        "type": "lufthavn"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "1122044",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         656491.641,
+         6286723.11
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ghjtvsx7feubg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ghjtvsx7feubg"
+       },
+       "result": "Anholt Flyveplads"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "stednavn": "Anholt Kirkegård",
+        "type": "begravelsesplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3889,
+        "upstream": {
+         "stednavn": {
+          "id": "7563621",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         655979.761,
+         6287228.875
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "liwqxjme2rboc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "liwqxjme2rboc"
+       },
+       "result": "Anholt Kirkegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Brønderslev",
+          "kommunekode": "0810"
+         }
+        ],
+        "stednavn": "Benholt",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1044343",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         579626.845,
+         6341304.445
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ort2g7frncu5o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ort2g7frncu5o"
+       },
+       "result": "Benholt"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

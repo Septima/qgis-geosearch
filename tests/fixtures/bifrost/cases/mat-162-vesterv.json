@@ -1,0 +1,2926 @@
+{
+ "case": {
+  "id": "mat-162-vesterv",
+  "input": "mat: 162 vesterv",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:30+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "162 vesterv",
+     "limit": 40,
+     "target": "ejendom"
+    }
+   ],
+   "elapsed_ms": 296,
+   "endpoint": "search",
+   "keys": [
+    "mat"
+   ],
+   "response": [
+    {
+     "input": "162 vesterv",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16a",
+           "upstream": {
+            "id": 1836986,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Oksenbøl By, Vestervig",
+           "ejerlavskode": 721254,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "3e",
+           "upstream": {
+            "id": 1836160,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 7217321,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457137.807,
+         6291160.346
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lwi77372n74x6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lwi77372n74x6"
+       },
+       "result": "16a, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16f"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16f",
+           "upstream": {
+            "id": 1837309,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433527,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         460186.018,
+         6290504.651
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rjwa2tnsu47se",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rjwa2tnsu47se"
+       },
+       "result": "16f, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16i"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16i",
+           "upstream": {
+            "id": 1836841,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433529,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457707.546,
+         6290704.295
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "pyyy2fzxl2djm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "pyyy2fzxl2djm"
+       },
+       "result": "16i, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16k"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16k",
+           "upstream": {
+            "id": 1836827,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433530,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457738.872,
+         6290694.058
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lfq5vxlf7t5yi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lfq5vxlf7t5yi"
+       },
+       "result": "16k, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16l"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16l",
+           "upstream": {
+            "id": 1836815,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433531,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457764.635,
+         6290680.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xg3otv7jsoack",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xg3otv7jsoack"
+       },
+       "result": "16l, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16m"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16m",
+           "upstream": {
+            "id": 1836805,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433532,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457786.708,
+         6290664.66
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lby33fgpesqkw",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lby33fgpesqkw"
+       },
+       "result": "16m, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16n"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16n",
+           "upstream": {
+            "id": 1836798,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433533,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457813.427,
+         6290641.21
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yuctraoxglcty",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yuctraoxglcty"
+       },
+       "result": "16n, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16o"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16o",
+           "upstream": {
+            "id": 1836803,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433534,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457796.881,
+         6290606.752
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dvx4k4q6dudbc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "dvx4k4q6dudbc"
+       },
+       "result": "16o, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16p"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16p",
+           "upstream": {
+            "id": 1836810,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433535,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457774.473,
+         6290620.918
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7zgj6e4t2oxwo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "7zgj6e4t2oxwo"
+       },
+       "result": "16p, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16q"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16q",
+           "upstream": {
+            "id": 1836821,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433536,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457750.512,
+         6290637.678
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rrk3xp5knm5gi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rrk3xp5knm5gi"
+       },
+       "result": "16q, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16r"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16r",
+           "upstream": {
+            "id": 1836838,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433537,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457721.29,
+         6290655.08
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "euxwle5igii6c",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "euxwle5igii6c"
+       },
+       "result": "16r, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16s"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16s",
+           "upstream": {
+            "id": 1836853,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433538,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457692.788,
+         6290673.998
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4h423anzclhba",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "4h423anzclhba"
+       },
+       "result": "16s, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16t"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16t",
+           "upstream": {
+            "id": 1836857,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433539,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457678.27,
+         6290649.228
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xoskwah2l6l5k",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xoskwah2l6l5k"
+       },
+       "result": "16t, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16u"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16u",
+           "upstream": {
+            "id": 1836850,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433540,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457699.161,
+         6290637.008
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3ijfhculcgdne",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3ijfhculcgdne"
+       },
+       "result": "16u, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16v"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16v",
+           "upstream": {
+            "id": 1836837,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433541,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457723.909,
+         6290618.389
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m5kgtoskph52i",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "m5kgtoskph52i"
+       },
+       "result": "16v, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16x"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16x",
+           "upstream": {
+            "id": 1836823,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433542,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457747.136,
+         6290600.865
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "23nwgumqmdzyi",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "23nwgumqmdzyi"
+       },
+       "result": "16x, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16y"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16y",
+           "upstream": {
+            "id": 1836816,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433543,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457769.955,
+         6290584.832
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ahakfmsmy7qe6",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ahakfmsmy7qe6"
+       },
+       "result": "16y, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16z"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16z",
+           "upstream": {
+            "id": 1836836,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5774,
+        "upstream": {
+         "ejendom": {
+          "id": 3433544,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457728.832,
+         6290560.374
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3x4xynrngg3wc",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3x4xynrngg3wc"
+       },
+       "result": "16z, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "162c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "162c",
+           "upstream": {
+            "id": 551867,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5669,
+        "upstream": {
+         "ejendom": {
+          "id": 5151564,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         872823.193,
+         6121238.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mlfsatj5h6ahe",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "mlfsatj5h6ahe"
+       },
+       "result": "162c, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterby By, Vestervig",
+        "ejerlavskode": 721262,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "12"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterby By, Vestervig",
+           "ejerlavskode": 721262,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "12",
+           "upstream": {
+            "id": 1836738,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5401,
+        "upstream": {
+         "ejendom": {
+          "id": 3432941,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457519.168,
+         6292964.018
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "h2jvzbb7pwp26",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "h2jvzbb7pwp26"
+       },
+       "result": "12, Vesterby By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterby By, Vestervig",
+        "ejerlavskode": 721262,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterby By, Vestervig",
+           "ejerlavskode": 721262,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16",
+           "upstream": {
+            "id": 1836736,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5401,
+        "upstream": {
+         "ejendom": {
+          "id": 3432966,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457553.364,
+         6292938.093
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jhryog5gptjxk",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jhryog5gptjxk"
+       },
+       "result": "16, Vesterby By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterø By, Vesterø",
+        "ejerlavskode": 590351,
+        "kommuner": [
+         {
+          "kommune": "Læsø",
+          "kommunekode": "0825"
+         }
+        ],
+        "matrikelnummer": "262"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterø By, Vesterø",
+           "ejerlavskode": 590351,
+           "kommune": "Læsø",
+           "kommunekode": "0825",
+           "lifecycle": "current",
+           "matrikelnummer": "262",
+           "upstream": {
+            "id": 2320372,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 7276380,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         616261.435,
+         6346029.751
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "33b3tqvw3sjuq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "33b3tqvw3sjuq"
+       },
+       "result": "262, Vesterø By, Vesterø"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "16a"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "16a",
+           "upstream": {
+            "id": 551638,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 8908242,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874280.054,
+         6119616.425
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qmv6ttrypg4s4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qmv6ttrypg4s4"
+       },
+       "result": "16a, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "16b",
+           "upstream": {
+            "id": 551640,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "16g",
+           "upstream": {
+            "id": 100744592,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "176b",
+           "upstream": {
+            "id": 2110343,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 100755749,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874340.364,
+         6118943.208
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dxgpwm73rs4hm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "dxgpwm73rs4hm"
+       },
+       "result": "16b, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "16c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "16c",
+           "upstream": {
+            "id": 551647,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 7424017,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874084.839,
+         6120893.915
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3akobpajy7p3m",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3akobpajy7p3m"
+       },
+       "result": "16c, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "16d"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "16d",
+           "upstream": {
+            "id": 551643,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 5150766,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874339.315,
+         6118831.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kmjg43eez2exe",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "kmjg43eez2exe"
+       },
+       "result": "16d, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "102"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "102",
+           "upstream": {
+            "id": 551085,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 5151478,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         868762.929,
+         6123621.248
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3p6vbgjl4bpfg",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3p6vbgjl4bpfg"
+       },
+       "result": "102, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "160"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "160",
+           "upstream": {
+            "id": 551457,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 8899984,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         872449.004,
+         6121570.829
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zzurdjezjry3m",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zzurdjezjry3m"
+       },
+       "result": "160, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "163"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "163",
+           "upstream": {
+            "id": 551422,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 5151565,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         872683.726,
+         6121172.622
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lqdsq7gi5tses",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "lqdsq7gi5tses"
+       },
+       "result": "163, Vestermarie"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestermarie",
+        "ejerlavskode": 1370451,
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "matrikelnummer": "192"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestermarie",
+           "ejerlavskode": 1370451,
+           "kommune": "Bornholm",
+           "kommunekode": "0400",
+           "lifecycle": "current",
+           "matrikelnummer": "192",
+           "upstream": {
+            "id": 552003,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5345,
+        "upstream": {
+         "ejendom": {
+          "id": 9807234,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         874523.828,
+         6125667.6
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vy7d6ejsus2x4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vy7d6ejsus2x4"
+       },
+       "result": "192, Vestermarie"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterborg By, Vesterborg",
+           "ejerlavskode": 501653,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "16a",
+           "upstream": {
+            "id": 1559742,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Hellinge By, Halsted",
+           "ejerlavskode": 500752,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "3d",
+           "upstream": {
+            "id": 1557680,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Hellinge By, Halsted",
+           "ejerlavskode": 500752,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "7e",
+           "upstream": {
+            "id": 1557620,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Hellinge By, Halsted",
+           "ejerlavskode": 500752,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "7f",
+           "upstream": {
+            "id": 2662217,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Stokkemarke Skovhuse, Stokkemarke",
+           "ejerlavskode": 501258,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2187864,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Stokkemarke Skovhuse, Stokkemarke",
+           "ejerlavskode": 501258,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "4h",
+           "upstream": {
+            "id": 2187870,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3115626,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         644617.502,
+         6080309.307
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g7in3m22jaace",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "g7in3m22jaace"
+       },
+       "result": "16a, Vesterborg By, Vesterborg"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterborg By, Vesterborg",
+        "ejerlavskode": 501653,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "16b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterborg By, Vesterborg",
+           "ejerlavskode": 501653,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "16b",
+           "upstream": {
+            "id": 1559691,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3115627,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         645791.364,
+         6081171.883
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yr37sohengmde",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "yr37sohengmde"
+       },
+       "result": "16b, Vesterborg By, Vesterborg"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterborg By, Vesterborg",
+        "ejerlavskode": 501653,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "16d"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterborg By, Vesterborg",
+           "ejerlavskode": 501653,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "16d",
+           "upstream": {
+            "id": 1559748,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3115628,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         644566.98,
+         6081051.111
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "harekyirtexik",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "harekyirtexik"
+       },
+       "result": "16d, Vesterborg By, Vesterborg"
+      },
+      {
+       "components": {
+        "ejerlav": "Vesterborg By, Vesterborg",
+        "ejerlavskode": 501653,
+        "kommuner": [
+         {
+          "kommune": "Lolland",
+          "kommunekode": "0360"
+         }
+        ],
+        "matrikelnummer": "16h"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vesterborg By, Vesterborg",
+           "ejerlavskode": 501653,
+           "kommune": "Lolland",
+           "kommunekode": "0360",
+           "lifecycle": "current",
+           "matrikelnummer": "16h",
+           "upstream": {
+            "id": 1559700,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3115632,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         645776.322,
+         6081185.205
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wj52wchotsyuy",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "wj52wchotsyuy"
+       },
+       "result": "16h, Vesterborg By, Vesterborg"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16æ"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16æ",
+           "upstream": {
+            "id": 1836848,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433545,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457703.701,
+         6290579.361
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vdavb4x6mvfmo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vdavb4x6mvfmo"
+       },
+       "result": "16æ, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16ø"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16ø",
+           "upstream": {
+            "id": 1836856,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433546,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457680.438,
+         6290598.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qtk5vbcjkk64y",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "qtk5vbcjkk64y"
+       },
+       "result": "16ø, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16aa"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16aa",
+           "upstream": {
+            "id": 1836870,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433547,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457654.146,
+         6290619.598
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "6xcab7yycfffq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "6xcab7yycfffq"
+       },
+       "result": "16aa, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16ab"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16ab",
+           "upstream": {
+            "id": 1836873,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433548,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457643.049,
+         6290593.506
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vxpoi4l3j452a",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vxpoi4l3j452a"
+       },
+       "result": "16ab, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16ac"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16ac",
+           "upstream": {
+            "id": 1836864,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433549,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457670.885,
+         6290570.447
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vskoqu6t4jaja",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "vskoqu6t4jaja"
+       },
+       "result": "16ac, Vestervig By, Vestervig"
+      },
+      {
+       "components": {
+        "ejerlav": "Vestervig By, Vestervig",
+        "ejerlavskode": 721263,
+        "kommuner": [
+         {
+          "kommune": "Thisted",
+          "kommunekode": "0787"
+         }
+        ],
+        "matrikelnummer": "16ad"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Vestervig By, Vestervig",
+           "ejerlavskode": 721263,
+           "kommune": "Thisted",
+           "kommunekode": "0787",
+           "lifecycle": "current",
+           "matrikelnummer": "16ad",
+           "upstream": {
+            "id": 1836852,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "ejendom": {
+          "id": 3433550,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         457696.504,
+         6290545.846
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "w4x7jhgzwstbe",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "w4x7jhgzwstbe"
+       },
+       "result": "16ad, Vestervig By, Vestervig"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

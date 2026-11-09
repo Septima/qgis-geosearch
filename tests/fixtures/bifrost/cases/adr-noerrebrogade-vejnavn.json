@@ -1,0 +1,1549 @@
+{
+ "case": {
+  "id": "adr-noerrebrogade-vejnavn",
+  "input": "Nørrebrogade",
+  "kommuner": null,
+  "types": [
+   "adr"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "qm7f3eu6cv35i",
+      "kind": "street"
+     },
+     "limit": 1,
+     "target": "street"
+    },
+    "elapsed_ms": 147,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "qm7f3eu6cv35i",
+      "kind": "street"
+     },
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København N",
+          "postcode": "2200"
+         }
+        ],
+        "street": "Nørrebrogade"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            722259.18,
+            6178488.16
+           ],
+           [
+            722267.37,
+            6178485.08
+           ],
+           [
+            722296.28,
+            6178472.32
+           ],
+           [
+            722300.35,
+            6178470.51
+           ],
+           [
+            722303.11,
+            6178469.29
+           ],
+           [
+            722312.58,
+            6178465.09
+           ],
+           [
+            722323.93,
+            6178460.16
+           ],
+           [
+            722330.0,
+            6178457.54
+           ],
+           [
+            722356.88,
+            6178440.91
+           ],
+           [
+            722374.34,
+            6178429.16
+           ],
+           [
+            722380.95,
+            6178421.28
+           ],
+           [
+            722381.61,
+            6178420.84
+           ],
+           [
+            722384.45,
+            6178418.95
+           ],
+           [
+            722419.63,
+            6178395.68
+           ]
+          ],
+          [
+           [
+            723001.15,
+            6177701.52
+           ],
+           [
+            722991.12,
+            6177685.96
+           ],
+           [
+            723037.4,
+            6177637.52
+           ],
+           [
+            723084.4,
+            6177681.78
+           ],
+           [
+            723092.59,
+            6177673.19
+           ]
+          ],
+          [
+           [
+            723402.75,
+            6177439.88
+           ],
+           [
+            723374.77,
+            6177414.52
+           ],
+           [
+            723371.44,
+            6177411.34
+           ],
+           [
+            723370.27,
+            6177410.23
+           ],
+           [
+            723367.0,
+            6177407.11
+           ],
+           [
+            723304.11,
+            6177473.13
+           ],
+           [
+            723289.94,
+            6177488.0
+           ],
+           [
+            723279.2,
+            6177499.41
+           ],
+           [
+            723266.81,
+            6177512.7
+           ],
+           [
+            723266.25,
+            6177513.29
+           ],
+           [
+            723226.33,
+            6177556.11
+           ],
+           [
+            723221.18,
+            6177561.61
+           ],
+           [
+            723209.14,
+            6177574.44
+           ],
+           [
+            723193.34,
+            6177591.46
+           ],
+           [
+            723105.92,
+            6177684.89
+           ],
+           [
+            723077.63,
+            6177715.12
+           ],
+           [
+            723032.1,
+            6177762.47
+           ],
+           [
+            723025.09,
+            6177769.76
+           ],
+           [
+            723017.78,
+            6177777.17
+           ],
+           [
+            722988.66,
+            6177806.69
+           ],
+           [
+            722975.71,
+            6177820.42
+           ],
+           [
+            722954.36,
+            6177843.56
+           ],
+           [
+            722952.57,
+            6177845.74
+           ],
+           [
+            722941.29,
+            6177857.65
+           ],
+           [
+            722940.0,
+            6177859.01
+           ],
+           [
+            722937.56,
+            6177861.58
+           ],
+           [
+            722936.42,
+            6177862.79
+           ],
+           [
+            722929.69,
+            6177869.89
+           ],
+           [
+            722919.11,
+            6177881.18
+           ],
+           [
+            722904.28,
+            6177897.01
+           ],
+           [
+            722887.34,
+            6177915.08
+           ],
+           [
+            722886.74,
+            6177915.72
+           ],
+           [
+            722879.91,
+            6177923.01
+           ],
+           [
+            722867.23,
+            6177936.47
+           ],
+           [
+            722848.3,
+            6177956.92
+           ],
+           [
+            722820.6,
+            6177986.86
+           ],
+           [
+            722820.15,
+            6177987.36
+           ],
+           [
+            722814.22,
+            6177993.66
+           ],
+           [
+            722808.35,
+            6177999.98
+           ],
+           [
+            722788.9,
+            6178020.8
+           ],
+           [
+            722780.8,
+            6178029.06
+           ],
+           [
+            722780.15,
+            6178029.73
+           ],
+           [
+            722757.01,
+            6178053.31
+           ],
+           [
+            722735.96,
+            6178074.78
+           ],
+           [
+            722720.72,
+            6178090.96
+           ],
+           [
+            722715.93,
+            6178095.97
+           ],
+           [
+            722693.1,
+            6178119.84
+           ],
+           [
+            722690.08,
+            6178123.04
+           ],
+           [
+            722687.34,
+            6178125.94
+           ],
+           [
+            722662.28,
+            6178152.51
+           ],
+           [
+            722629.98,
+            6178186.53
+           ],
+           [
+            722629.58,
+            6178186.95
+           ],
+           [
+            722597.2,
+            6178221.59
+           ],
+           [
+            722596.84,
+            6178221.98
+           ],
+           [
+            722575.75,
+            6178244.36
+           ],
+           [
+            722566.5,
+            6178254.18
+           ],
+           [
+            722557.25,
+            6178264.01
+           ],
+           [
+            722552.59,
+            6178268.94
+           ],
+           [
+            722542.59,
+            6178279.53
+           ],
+           [
+            722540.26,
+            6178282.0
+           ],
+           [
+            722518.57,
+            6178304.98
+           ],
+           [
+            722502.0,
+            6178322.38
+           ],
+           [
+            722494.22,
+            6178330.7
+           ],
+           [
+            722492.67,
+            6178332.35
+           ],
+           [
+            722482.69,
+            6178343.03
+           ],
+           [
+            722468.6,
+            6178357.07
+           ],
+           [
+            722457.24,
+            6178366.92
+           ],
+           [
+            722435.62,
+            6178381.57
+           ],
+           [
+            722424.15,
+            6178392.7
+           ],
+           [
+            722419.98,
+            6178395.46
+           ],
+           [
+            722419.63,
+            6178395.68
+           ],
+           [
+            722416.09,
+            6178390.41
+           ],
+           [
+            722415.15,
+            6178388.87
+           ],
+           [
+            722414.47,
+            6178387.84
+           ],
+           [
+            722412.86,
+            6178385.39
+           ],
+           [
+            722396.6,
+            6178360.72
+           ],
+           [
+            722397.53,
+            6178353.82
+           ],
+           [
+            722421.79,
+            6178342.19
+           ],
+           [
+            722426.48,
+            6178335.56
+           ],
+           [
+            722421.64,
+            6178308.13
+           ],
+           [
+            722419.29,
+            6178292.02
+           ],
+           [
+            722444.04,
+            6178287.15
+           ]
+          ],
+          [
+           [
+            723367.0,
+            6177407.11
+           ],
+           [
+            723405.19,
+            6177367.03
+           ],
+           [
+            723413.65,
+            6177358.15
+           ],
+           [
+            723427.48,
+            6177344.02
+           ],
+           [
+            723439.19,
+            6177331.74
+           ],
+           [
+            723464.37,
+            6177305.35
+           ],
+           [
+            723480.92,
+            6177288.39
+           ],
+           [
+            723489.35,
+            6177279.75
+           ],
+           [
+            723489.97,
+            6177279.11
+           ],
+           [
+            723491.69,
+            6177277.35
+           ],
+           [
+            723519.18,
+            6177261.08
+           ],
+           [
+            723550.85,
+            6177242.41
+           ],
+           [
+            723573.4,
+            6177228.89
+           ],
+           [
+            723582.02,
+            6177223.68
+           ],
+           [
+            723584.2,
+            6177222.36
+           ],
+           [
+            723585.01,
+            6177221.88
+           ],
+           [
+            723595.8,
+            6177215.36
+           ],
+           [
+            723597.84,
+            6177214.12
+           ],
+           [
+            723598.97,
+            6177213.44
+           ],
+           [
+            723604.73,
+            6177209.96
+           ],
+           [
+            723619.59,
+            6177201.11
+           ],
+           [
+            723640.78,
+            6177188.44
+           ],
+           [
+            723641.63,
+            6177187.94
+           ],
+           [
+            723701.63,
+            6177152.09
+           ],
+           [
+            723728.02,
+            6177135.97
+           ],
+           [
+            723735.99,
+            6177131.1
+           ],
+           [
+            723741.49,
+            6177127.77
+           ],
+           [
+            723771.28,
+            6177109.73
+           ],
+           [
+            723787.8,
+            6177100.19
+           ],
+           [
+            723828.98,
+            6177076.41
+           ],
+           [
+            723849.82,
+            6177064.74
+           ],
+           [
+            723849.92,
+            6177064.68
+           ],
+           [
+            723920.83,
+            6177024.96
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "street": {
+          "id": "4e37a7be-b121-4b13-9f61-ab39b9a264ef",
+          "source": "DAR.NavngivenVej"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723032.1,
+         6177762.47
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qm7f3eu6cv35i",
+        "kind": "street"
+       },
+       "refs": {
+        "street": "qm7f3eu6cv35i"
+       },
+       "result": "Nørrebrogade, 2200 København N"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "qm7f3eu6cv35i",
+   "kind": "street"
+  },
+  "row_index": 3,
+  "type": "MultiLineString"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-08T14:53:51+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "Nørrebrogade",
+    "limit": 20
+   },
+   "elapsed_ms": 244,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "Nørrebrogade",
+    "matches": [
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Horsens",
+         "kommunekode": "0615"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Horsens",
+         "postcode": "8700"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "05436b40-8363-4ee3-801f-9eb244f18753",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        552816.09,
+        6192141.9
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "dra5ci33wzkwi",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "dra5ci33wzkwi"
+      },
+      "result": "Nørrebrogade, 8700 Horsens"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Fredericia",
+         "kommunekode": "0607"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Fredericia",
+         "postcode": "7000"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "1ec03a40-8b29-4a9c-93b5-f531f06cfb95",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        547115.42,
+        6159219.27
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "wj2v7o6qgcezo",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "wj2v7o6qgcezo"
+      },
+      "result": "Nørrebrogade, 7000 Fredericia"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Randers",
+         "kommunekode": "0730"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Randers C",
+         "postcode": "8900"
+        },
+        {
+         "city": "Randers NØ",
+         "postcode": "8930"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "25d0746c-ada9-45a1-8af7-69dcf07171f8",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        563795.35,
+        6259373.82
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xjhug3u5svjck",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "xjhug3u5svjck"
+      },
+      "result": "Nørrebrogade"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "4e37a7be-b121-4b13-9f61-ab39b9a264ef",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723032.1,
+        6177762.47
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "qm7f3eu6cv35i",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "qm7f3eu6cv35i"
+      },
+      "result": "Nørrebrogade, 2200 København N"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Holstebro",
+         "kommunekode": "0661"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holstebro",
+         "postcode": "7500"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "54edf685-233f-4b46-94be-5a1f7f7b4d70",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        475969.12,
+        6246891.09
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "la2ebwd7unyfk",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "la2ebwd7unyfk"
+      },
+      "result": "Nørrebrogade, 7500 Holstebro"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Hedensted",
+         "kommunekode": "0766"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hedensted",
+         "postcode": "8722"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "713cb554-4f22-4cc2-ab3f-151de4f4f4db",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        543802.25,
+        6180719.25
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "x4iyeogzg3iau",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "x4iyeogzg3iau"
+      },
+      "result": "Nørrebrogade, 8722 Hedensted"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Lolland",
+         "kommunekode": "0360"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Maribo",
+         "postcode": "4930"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "773ea1d0-ca4b-4f3b-addb-ef333b2fcf72",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        660875.13,
+        6072950.19
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pktjcicsh4ak6",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "pktjcicsh4ak6"
+      },
+      "result": "Nørrebrogade, 4930 Maribo"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Vejle",
+         "kommunekode": "0630"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Vejle",
+         "postcode": "7100"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "7a8fa22f-1a20-43c6-a3f7-8f0485968137",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        533930.52,
+        6174171.6
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "fcoksqivodfhs",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "fcoksqivodfhs"
+      },
+      "result": "Nørrebrogade, 7100 Vejle"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aarhus",
+         "kommunekode": "0751"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Aarhus C",
+         "postcode": "8000"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "d7c108ce-431d-4842-a12f-b7bc3ef103b0",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        575001.73,
+        6225282.1
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "kfvynqyesamwq",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "kfvynqyesamwq"
+      },
+      "result": "Nørrebrogade, 8000 Aarhus C"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Esbjerg",
+         "kommunekode": "0561"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Esbjerg",
+         "postcode": "6700"
+        }
+       ],
+       "street": "Nørrebrogade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "street": {
+         "id": "e8ec9093-1e56-45b6-bf25-4868ec9cf286",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        465942.34,
+        6147768.64
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "dhc6r4udi7tjg",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "dhc6r4udi7tjg"
+      },
+      "result": "Nørrebrogade, 6700 Esbjerg"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Faxe",
+         "kommunekode": "0320"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Karise",
+         "postcode": "4653"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "102a2b40-8fa0-4af8-b7bd-3ea181739f99",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        702793.14,
+        6133893.58
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "sxhtlbtvx5k22",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "sxhtlbtvx5k22"
+      },
+      "result": "Nørrebro, 4653 Karise"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Brønderslev",
+         "kommunekode": "0810"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Brønderslev",
+         "postcode": "9700"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "2ca445f5-7594-4f4d-815e-9c4e2c0ec743",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        567059.73,
+        6344834.16
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "r5runvwthwwjq",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "r5runvwthwwjq"
+      },
+      "result": "Nørrebro, 9700 Brønderslev"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Hjørring",
+         "kommunekode": "0860"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Hjørring",
+         "postcode": "9800"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "32369654-78b9-4aec-8b12-dd7a64622517",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        559048.94,
+        6369533.03
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "nqrn7ahli57xu",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "nqrn7ahli57xu"
+      },
+      "result": "Nørrebro, 9800 Hjørring"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Sønderborg",
+         "kommunekode": "0540"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Sønderborg",
+         "postcode": "6400"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "5a5e05fe-6681-4089-964b-64e532769551",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        550423.87,
+        6085127.14
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "mrqtlprvncbhc",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "mrqtlprvncbhc"
+      },
+      "result": "Nørrebro, 6400 Sønderborg"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Langeland",
+         "kommunekode": "0482"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Rudkøbing",
+         "postcode": "5900"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "6a85dad8-faf0-4424-82ef-0d74e782c9b8",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        610544.5,
+        6089548.02
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "3rlh6es7mhapi",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "3rlh6es7mhapi"
+      },
+      "result": "Nørrebro, 5900 Rudkøbing"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Ærø",
+         "kommunekode": "0492"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Søby Ærø",
+         "postcode": "5985"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "b969a652-3192-479f-95e5-95b923aa4eaf",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        580452.48,
+        6088877.16
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "go4ffce5e76te",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "go4ffce5e76te"
+      },
+      "result": "Nørrebro, 5985 Søby Ærø"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Hjørring",
+         "kommunekode": "0860"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Bindslev",
+         "postcode": "9881"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "e6297d08-9bca-4096-8a4a-ba9e8f576e97",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        571895.81,
+        6378440.59
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gvpnuygujwsji",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "gvpnuygujwsji"
+      },
+      "result": "Nørrebro, 9881 Bindslev"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Morsø",
+         "kommunekode": "0773"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Nykøbing M",
+         "postcode": "7900"
+        }
+       ],
+       "street": "Nørrebro"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "fc0c8d09-969b-4c69-b7d6-c3f596812c43",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        489784.64,
+        6296430.01
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "omlhyh4rjlzq4",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "omlhyh4rjlzq4"
+      },
+      "result": "Nørrebro, 7900 Nykøbing M"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Rebild",
+         "kommunekode": "0840"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Bælum",
+         "postcode": "9574"
+        }
+       ],
+       "street": "Nørregade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "00fc4f6d-e419-4571-bc7f-a2fa5c6ad69e",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        568421.09,
+        6299128.09
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "pk4yuqitpivis",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "pk4yuqitpivis"
+      },
+      "result": "Nørregade, 9574 Bælum"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Kolding",
+         "kommunekode": "0621"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Christiansfeld",
+         "postcode": "6070"
+        }
+       ],
+       "street": "Nørregade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5625,
+       "upstream": {
+        "street": {
+         "id": "01be68e2-231b-47c8-807e-48d2e2dbb995",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        530478.73,
+        6134517.26
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "dbs4pb34tyuaq",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "dbs4pb34tyuaq"
+      },
+      "result": "Nørregade, 6070 Christiansfeld"
+     }
+    ]
+   },
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

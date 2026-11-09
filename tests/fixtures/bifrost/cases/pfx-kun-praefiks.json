@@ -1,0 +1,14 @@
+{
+ "case": {
+  "id": "pfx-kun-praefiks",
+  "input": "adr:",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:39+00:00",
+ "requests": [],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

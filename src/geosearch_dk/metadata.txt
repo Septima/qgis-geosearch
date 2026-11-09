@@ -9,8 +9,8 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=4.99
 supportsQt6=True
 description=Search and zoom to named places in Denmark
-about= Uses Dataforsyningen services for searching Danish addresses, road names, place names, land registry and a lot more. This plugin is developed by Septima.
-version=3.1.1
+about=Search box for Danish addresses, apartments, road names, place names, cadastral parcels and properties, postcodes, municipalities and more. Version 4.0 uses Klimadatastyrelsen's search service Bifrost, because GSearch closes in November 2026. Bifrost needs its own API key (enter it in the plugin settings); a Dataforsyningen token cannot be used. Some things work differently and some no longer work, because Bifrost does not offer them: search on partial words (type whole words), a server-side municipality filter (the filter is now an opt-in local filter) and the place name subtype. Click the (i) button in the search panel to read what has changed and why (in Danish). This plugin is developed by Septima.
+version=4.0.0
 author=Septima
 email=kontakt@septima.dk
 
@@ -19,7 +19,14 @@ email=kontakt@septima.dk
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2026-09-10 3.1.1 Revert network error check
+changelog=2026-11-06 4.0.0 Switch from GSearch, which closes in November 2026, to Klimadatastyrelsen's Bifrost.
+    New: apartments (floor/door).
+    Bifrost needs its own API key, entered in the plugin settings or the BIFROST_KEY environment variable; the stored Dataforsyningen token is removed.
+    Important: the type Matrikelnumre is now Ejendomme and finds the whole property (BFE), not the parcel; new prefix ejd: (mat: still works).
+    Changed: display texts are built by the plugin; the geometry appears shortly after the zoom; the municipality filter is an opt-in local filter.
+    No longer possible, because Bifrost does not offer it: search on partial words, a server-side municipality filter, the place name subtype.
+    A "Hvad er nyt" dialog (the (i) button in the search panel) explains what has changed and why.
+    2026-09-10 3.1.1 Revert network error check
     2026-08-05 3.1.0 Update to new QIS security check standards
     2026-07-31 3.0.2 Circumvent gzip compression issue on Dataforsyningen
     2025-12-11 3.0.1 Additional code updates to make it Qt6-compatible
@@ -45,7 +52,7 @@ changelog=2026-09-10 3.1.1 Revert network error check
     2015-05-20 0.1.23 Add municipality filter setting.
 
 # tags are comma separated with spaces allowed
-tags=Danmark, dansk, Dataforsyningen, søg, adresse, stednavn, matrikel, Klimadatastyrelsen, geodata
+tags=Danmark, Denmark, dansk, Bifrost, Klimadatastyrelsen, GSearch, søg, search, adresse, address, stednavn, matrikel, ejendom, geodata
 
 homepage=https://github.com/Septima/qgis-geosearch
 tracker=https://github.com/Septima/qgis-geosearch/issues

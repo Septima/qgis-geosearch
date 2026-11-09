@@ -1,0 +1,2659 @@
+{
+ "case": {
+  "id": "ste-roskilde-fjord",
+  "input": "roskilde fjord",
+  "kommuner": null,
+  "types": [
+   "ste"
+  ]
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": "Roskilde Fjord",
+     "limit": 10,
+     "target": "stednavn"
+    },
+    "elapsed_ms": 512,
+    "endpoint": "search",
+    "keys": [
+     "ste"
+    ],
+    "response": {
+     "input": "Roskilde Fjord",
+     "matches": [
+      {
+       "components": {
+        "stednavn": "Roskilde Fjord",
+        "type": "farvand"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            690412.96,
+            6192863.86
+           ],
+           [
+            690565.35,
+            6193442.65
+           ],
+           [
+            690588.4,
+            6194021.86
+           ],
+           [
+            690921.29,
+            6194569.28
+           ],
+           [
+            691112.29,
+            6194512.75
+           ],
+           [
+            691361.49,
+            6194509.93
+           ],
+           [
+            691507.61,
+            6194543.04
+           ],
+           [
+            691626.11,
+            6194637.23
+           ],
+           [
+            691770.3200000001,
+            6194786.79
+           ],
+           [
+            691778.13,
+            6195060.74
+           ],
+           [
+            691790.91,
+            6195417.18
+           ],
+           [
+            691710.4,
+            6195562.91
+           ],
+           [
+            691716.14,
+            6195858.74
+           ],
+           [
+            691736.76,
+            6196202.03
+           ],
+           [
+            691807.1900000001,
+            6196513.56
+           ],
+           [
+            691829.74,
+            6196737.63
+           ],
+           [
+            691484.62,
+            6197148.47
+           ],
+           [
+            690946.42,
+            6197994.61
+           ],
+           [
+            690371.8200000001,
+            6199572.59
+           ],
+           [
+            690421.03,
+            6200896.7
+           ],
+           [
+            690204.18,
+            6201621.23
+           ],
+           [
+            689795.11,
+            6202620.41
+           ],
+           [
+            689221.88,
+            6203486.28
+           ],
+           [
+            688784.05,
+            6204213.44
+           ],
+           [
+            688597.49,
+            6205251.43
+           ],
+           [
+            688265.1900000001,
+            6205632.1
+           ],
+           [
+            687939.76,
+            6205994.59
+           ],
+           [
+            687720.87,
+            6206358.68
+           ],
+           [
+            687394.6,
+            6206150.02
+           ],
+           [
+            687608.97,
+            6206403.89
+           ],
+           [
+            687577.98,
+            6206559.35
+           ],
+           [
+            687321.66,
+            6206302.92
+           ],
+           [
+            686247.54,
+            6206291.75
+           ],
+           [
+            685250.92,
+            6206052.76
+           ],
+           [
+            684311.8,
+            6205455.05
+           ],
+           [
+            683811.8,
+            6204975.22
+           ],
+           [
+            683068.24,
+            6204380.76
+           ],
+           [
+            681247.55,
+            6203692.21
+           ],
+           [
+            681466.4,
+            6202913.05
+           ],
+           [
+            681825.16,
+            6202751.03
+           ],
+           [
+            682413.9,
+            6202724.96
+           ],
+           [
+            682888.36,
+            6202652.9
+           ],
+           [
+            683353.11,
+            6202614.07
+           ],
+           [
+            683808.47,
+            6202542.49
+           ],
+           [
+            684324.83,
+            6202454.54
+           ],
+           [
+            684609.39,
+            6202233.66
+           ],
+           [
+            684928.92,
+            6202182.75
+           ],
+           [
+            685375.12,
+            6201966.86
+           ],
+           [
+            685634.15,
+            6201699.73
+           ],
+           [
+            685729.35,
+            6201521.45
+           ],
+           [
+            685827.89,
+            6201260.28
+           ],
+           [
+            685968.89,
+            6200998.59
+           ],
+           [
+            686113.86,
+            6200829.17
+           ],
+           [
+            686395.75,
+            6200590.19
+           ],
+           [
+            686625.27,
+            6200489.75
+           ],
+           [
+            687025.36,
+            6200433.79
+           ],
+           [
+            687309.93,
+            6200562.43
+           ],
+           [
+            687634.26,
+            6200673.18
+           ],
+           [
+            688104.41,
+            6200311.52
+           ],
+           [
+            688517.37,
+            6200044.89
+           ],
+           [
+            688738.11,
+            6199935.11
+           ],
+           [
+            689059.62,
+            6199717.77
+           ],
+           [
+            689128.39,
+            6199074.61
+           ],
+           [
+            688629.48,
+            6198286.1
+           ],
+           [
+            688303.18,
+            6197942.86
+           ],
+           [
+            688186.08,
+            6197648.68
+           ],
+           [
+            687712.51,
+            6197007.86
+           ],
+           [
+            687714.52,
+            6196494.33
+           ],
+           [
+            687761.42,
+            6196090.25
+           ],
+           [
+            687732.2000000001,
+            6195679.86
+           ],
+           [
+            687666.23,
+            6195329.8
+           ],
+           [
+            687600.97,
+            6195035.83
+           ],
+           [
+            687574.47,
+            6194930.17
+           ],
+           [
+            687607.17,
+            6194792.07
+           ],
+           [
+            687712.71,
+            6194599.03
+           ],
+           [
+            687815.39,
+            6194494.77
+           ],
+           [
+            687942.42,
+            6194442.38
+           ],
+           [
+            688100.87,
+            6194303.12
+           ],
+           [
+            688201.3,
+            6194223.81
+           ],
+           [
+            688355.86,
+            6194280.76
+           ],
+           [
+            688422.33,
+            6194106.91
+           ],
+           [
+            688669.04,
+            6194118.86
+           ],
+           [
+            689072.8200000001,
+            6193881.77
+           ],
+           [
+            689794.33,
+            6193276.49
+           ],
+           [
+            690022.54,
+            6192673.33
+           ],
+           [
+            690093.02,
+            6192252.44
+           ],
+           [
+            690091.25,
+            6191742.09
+           ],
+           [
+            690483.6,
+            6191519.83
+           ],
+           [
+            690192.48,
+            6191047.71
+           ],
+           [
+            690279.64,
+            6190725.84
+           ],
+           [
+            690240.4,
+            6190373.41
+           ],
+           [
+            690309.04,
+            6189917.99
+           ],
+           [
+            690512.05,
+            6189548.16
+           ],
+           [
+            691039.36,
+            6189456.27
+           ],
+           [
+            690998.14,
+            6189004.02
+           ],
+           [
+            690636.53,
+            6188748.79
+           ],
+           [
+            690558.54,
+            6188314.97
+           ],
+           [
+            690653.96,
+            6187831.48
+           ],
+           [
+            690905.41,
+            6187622.13
+           ],
+           [
+            691098.51,
+            6187944.84
+           ],
+           [
+            691396.33,
+            6187734.98
+           ],
+           [
+            691772.9500000001,
+            6187758.08
+           ],
+           [
+            691670.91,
+            6187526.41
+           ],
+           [
+            691581.16,
+            6187172.43
+           ],
+           [
+            691537.41,
+            6186879.58
+           ],
+           [
+            691490.67,
+            6186694.04
+           ],
+           [
+            691452.36,
+            6186422.89
+           ],
+           [
+            691434.04,
+            6186214.74
+           ],
+           [
+            691457.67,
+            6186083.83
+           ],
+           [
+            691540.39,
+            6185907.16
+           ],
+           [
+            691602.31,
+            6185768.26
+           ],
+           [
+            691709.62,
+            6185512.4
+           ],
+           [
+            691882.71,
+            6185293.34
+           ],
+           [
+            691935.5700000001,
+            6185026.74
+           ],
+           [
+            692069.1900000001,
+            6184758.18
+           ],
+           [
+            692276.08,
+            6184564.97
+           ],
+           [
+            692403.83,
+            6184358.73
+           ],
+           [
+            692238.14,
+            6184030.33
+           ],
+           [
+            692212.72,
+            6183659.43
+           ],
+           [
+            691837.67,
+            6183394.07
+           ],
+           [
+            692169.99,
+            6182893.96
+           ],
+           [
+            692092.6900000001,
+            6182426.94
+           ],
+           [
+            692218.38,
+            6181947.93
+           ],
+           [
+            692398.17,
+            6181272.0
+           ],
+           [
+            692341.78,
+            6180655.6
+           ],
+           [
+            692250.18,
+            6180279.04
+           ],
+           [
+            692146.81,
+            6180535.94
+           ],
+           [
+            691248.68,
+            6180449.06
+           ],
+           [
+            690829.55,
+            6180255.53
+           ],
+           [
+            690666.74,
+            6180373.09
+           ],
+           [
+            690534.79,
+            6180115.15
+           ],
+           [
+            690251.13,
+            6179955.18
+           ],
+           [
+            690050.77,
+            6179945.6
+           ],
+           [
+            689344.05,
+            6179011.22
+           ],
+           [
+            688872.1,
+            6179305.8
+           ],
+           [
+            688886.39,
+            6180110.7
+           ],
+           [
+            688686.4400000001,
+            6180672.35
+           ],
+           [
+            688080.4,
+            6180405.4
+           ],
+           [
+            687768.4500000001,
+            6181235.5
+           ],
+           [
+            687552.9,
+            6180893.71
+           ],
+           [
+            687460.9,
+            6180305.82
+           ],
+           [
+            687231.65,
+            6179238.56
+           ],
+           [
+            686966.9,
+            6178275.98
+           ],
+           [
+            686683.0700000001,
+            6177616.68
+           ],
+           [
+            686496.9,
+            6177046.13
+           ],
+           [
+            686216.63,
+            6176126.46
+           ],
+           [
+            685811.38,
+            6175807.31
+           ],
+           [
+            685444.8200000001,
+            6175067.92
+           ],
+           [
+            684969.66,
+            6173959.26
+           ],
+           [
+            684804.36,
+            6173477.02
+           ],
+           [
+            684806.6,
+            6173144.39
+           ],
+           [
+            684744.29,
+            6172934.09
+           ],
+           [
+            684462.4,
+            6172743.27
+           ],
+           [
+            684316.84,
+            6172349.52
+           ],
+           [
+            684318.05,
+            6172012.84
+           ],
+           [
+            684218.59,
+            6171486.98
+           ],
+           [
+            684346.59,
+            6170963.36
+           ],
+           [
+            684755.78,
+            6170873.0
+           ],
+           [
+            684982.26,
+            6172045.43
+           ],
+           [
+            685738.87,
+            6172593.26
+           ],
+           [
+            685676.02,
+            6172769.68
+           ],
+           [
+            685597.43,
+            6173796.4
+           ],
+           [
+            687756.59,
+            6174267.14
+           ],
+           [
+            688452.88,
+            6174428.13
+           ],
+           [
+            687825.9,
+            6175811.88
+           ],
+           [
+            687949.35,
+            6177462.04
+           ],
+           [
+            688874.89,
+            6177381.4
+           ],
+           [
+            688446.97,
+            6176224.34
+           ],
+           [
+            688868.04,
+            6175902.33
+           ],
+           [
+            689327.11,
+            6176299.92
+           ],
+           [
+            689936.72,
+            6176122.95
+           ],
+           [
+            690649.83,
+            6176111.73
+           ],
+           [
+            691168.6,
+            6175264.39
+           ],
+           [
+            691712.88,
+            6175006.81
+           ],
+           [
+            691256.66,
+            6174649.06
+           ],
+           [
+            689963.02,
+            6174907.72
+           ],
+           [
+            688998.93,
+            6175477.79
+           ],
+           [
+            688685.31,
+            6175158.98
+           ],
+           [
+            689134.4400000001,
+            6174436.93
+           ],
+           [
+            689216.86,
+            6173692.12
+           ],
+           [
+            689331.61,
+            6173350.05
+           ],
+           [
+            689574.37,
+            6173509.27
+           ],
+           [
+            690698.5700000001,
+            6173544.66
+           ],
+           [
+            691318.62,
+            6173345.65
+           ],
+           [
+            691996.49,
+            6173962.12
+           ],
+           [
+            692331.9,
+            6173809.62
+           ],
+           [
+            692309.52,
+            6173414.26
+           ],
+           [
+            692208.64,
+            6172675.52
+           ],
+           [
+            692438.0700000001,
+            6172074.32
+           ],
+           [
+            692962.3200000001,
+            6171949.92
+           ],
+           [
+            693255.6,
+            6171747.12
+           ],
+           [
+            693724.93,
+            6171427.03
+           ],
+           [
+            694153.79,
+            6171942.56
+           ],
+           [
+            694148.42,
+            6172400.01
+           ],
+           [
+            694247.3200000001,
+            6172934.43
+           ],
+           [
+            694343.76,
+            6173384.62
+           ],
+           [
+            694214.47,
+            6173791.84
+           ],
+           [
+            693712.12,
+            6173902.25
+           ],
+           [
+            692999.66,
+            6174452.21
+           ],
+           [
+            693299.1,
+            6175069.45
+           ],
+           [
+            693357.31,
+            6175533.84
+           ],
+           [
+            693898.75,
+            6175761.36
+           ],
+           [
+            694252.34,
+            6175338.2
+           ],
+           [
+            694515.33,
+            6176259.62
+           ],
+           [
+            694081.66,
+            6176248.37
+           ],
+           [
+            694300.59,
+            6176630.08
+           ],
+           [
+            695182.71,
+            6177116.86
+           ],
+           [
+            694684.56,
+            6177517.53
+           ],
+           [
+            695594.14,
+            6178163.54
+           ],
+           [
+            694971.27,
+            6179323.86
+           ],
+           [
+            695217.81,
+            6179749.45
+           ],
+           [
+            695891.4500000001,
+            6180107.11
+           ],
+           [
+            695931.64,
+            6180360.87
+           ],
+           [
+            695366.84,
+            6180394.23
+           ],
+           [
+            695186.49,
+            6180609.78
+           ],
+           [
+            694733.61,
+            6181119.35
+           ],
+           [
+            694507.8200000001,
+            6181429.9
+           ],
+           [
+            694416.33,
+            6181747.16
+           ],
+           [
+            694311.2000000001,
+            6182182.87
+           ],
+           [
+            694595.36,
+            6182860.76
+           ],
+           [
+            694538.43,
+            6183320.95
+           ],
+           [
+            694210.91,
+            6183788.56
+           ],
+           [
+            693907.73,
+            6183992.43
+           ],
+           [
+            693673.27,
+            6184223.44
+           ],
+           [
+            693723.37,
+            6184407.27
+           ],
+           [
+            693649.68,
+            6184682.58
+           ],
+           [
+            693673.28,
+            6184882.12
+           ],
+           [
+            693658.38,
+            6185314.07
+           ],
+           [
+            693653.91,
+            6185608.35
+           ],
+           [
+            693640.85,
+            6186013.59
+           ],
+           [
+            693097.9,
+            6186273.87
+           ],
+           [
+            692664.21,
+            6186724.88
+           ],
+           [
+            692759.78,
+            6187030.29
+           ],
+           [
+            692930.77,
+            6187481.99
+           ],
+           [
+            692904.33,
+            6188112.52
+           ],
+           [
+            692831.23,
+            6188296.49
+           ],
+           [
+            692676.72,
+            6188543.2
+           ],
+           [
+            692490.81,
+            6188799.33
+           ],
+           [
+            692347.71,
+            6188996.67
+           ],
+           [
+            692193.06,
+            6189176.38
+           ],
+           [
+            692263.96,
+            6189584.76
+           ],
+           [
+            692040.93,
+            6190271.48
+           ],
+           [
+            691842.3,
+            6190891.44
+           ],
+           [
+            691692.74,
+            6191261.34
+           ],
+           [
+            691466.71,
+            6191036.92
+           ],
+           [
+            691452.5,
+            6191514.41
+           ],
+           [
+            691355.67,
+            6191773.71
+           ],
+           [
+            691262.4,
+            6192183.43
+           ],
+           [
+            691043.33,
+            6192517.89
+           ],
+           [
+            690591.4400000001,
+            6192847.92
+           ],
+           [
+            690412.96,
+            6192863.86
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1141946",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         691561.166,
+         6188706.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3o4wblvg55zm4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3o4wblvg55zm4"
+       },
+       "result": "Roskilde Fjord"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 35181 vertices",
+    "trimmed": "kept 1 of 10 matches (same ref id)"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "3o4wblvg55zm4",
+   "kind": "stednavn"
+  },
+  "row_index": 0,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:20+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "roskilde fjord",
+     "limit": 40,
+     "target": "stednavn"
+    }
+   ],
+   "elapsed_ms": 238,
+   "endpoint": "search",
+   "keys": [
+    "ste"
+   ],
+   "response": [
+    {
+     "input": "roskilde fjord",
+     "matches": [
+      {
+       "components": {
+        "stednavn": "Roskilde Fjord",
+        "type": "farvand"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "1141946",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         691561.166,
+         6188706.83
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3o4wblvg55zm4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3o4wblvg55zm4"
+       },
+       "result": "Roskilde Fjord"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.6,
+        "upstream": {
+         "stednavn": {
+          "id": "7630267",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694571.027,
+         6170928.76
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "siuvi333f4efo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "siuvi333f4efo"
+       },
+       "result": "Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "FGU Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5556,
+        "upstream": {
+         "stednavn": {
+          "id": "1087227",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         696190.783,
+         6170822.835
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ldpqcs4yxc4nw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ldpqcs4yxc4nw"
+       },
+       "result": "FGU Roskilde"
+      },
+      {
+       "components": {
+        "stednavn": "Roskilde Fjord Vildtreservat",
+        "type": "restriktionsareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5357,
+        "upstream": {
+         "stednavn": {
+          "id": "1078594",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693034.935,
+         6184021.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "66vhtn7kpi7fc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "66vhtn7kpi7fc"
+       },
+       "result": "Roskilde Fjord Vildtreservat"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "AU Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5,
+        "upstream": {
+         "stednavn": {
+          "id": "1027919",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694943.093,
+         6176537.22
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ez245rm27245c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ez245rm27245c"
+       },
+       "result": "AU Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "HTX Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "7592816",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694090.462,
+         6168668.72
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "uar4mlkfhdcxi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "uar4mlkfhdcxi"
+       },
+       "result": "HTX Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde BMX",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "1134391",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         692993.97,
+         6168430.249
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3ueahne5pxvmi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "3ueahne5pxvmi"
+       },
+       "result": "Roskilde BMX"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Albertslund",
+          "kommunekode": "0165"
+         }
+        ],
+        "stednavn": "Roskilde Kro",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "1075297",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         709154.58,
+         6173289.62
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "y2a4ypljexmns",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "y2a4ypljexmns"
+       },
+       "result": "Roskilde Kro"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Ring",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "1052665",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693968.948,
+         6169565.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "m63gq5gdosu5a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "m63gq5gdosu5a"
+       },
+       "result": "Roskilde Ring"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "STU Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "7381330",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         697593.567,
+         6170946.975
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kmz5yrnjtyfai",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "kmz5yrnjtyfai"
+       },
+       "result": "STU Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "ZBC Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4737,
+        "upstream": {
+         "stednavn": {
+          "id": "7648914",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693762.61,
+         6168984.465
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bkw22cz2slmlu",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "bkw22cz2slmlu"
+       },
+       "result": "ZBC Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Bowl",
+        "type": "idrætsanlæg"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1116838",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         697160.371,
+         6171677.118
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "li5c2brvdptwm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "li5c2brvdptwm"
+       },
+       "result": "Roskilde Bowl"
+      },
+      {
+       "components": {
+        "stednavn": "Roskilde Havn",
+        "type": "havnebassin"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "7397032",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693538.66,
+         6171637.17
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4wq5v656iqll6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "4wq5v656iqll6"
+       },
+       "result": "Roskilde Havn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringsted",
+          "kommunekode": "0329"
+         }
+        ],
+        "stednavn": "Roskildegård",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.45,
+        "upstream": {
+         "stednavn": {
+          "id": "1093161",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         673187.003,
+         6148479.145
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "oly2f7masfjmi",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "oly2f7masfjmi"
+       },
+       "result": "Roskildegård"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Frikirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4348,
+        "upstream": {
+         "stednavn": {
+          "id": "1039147",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693166.294,
+         6170718.581
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j2habc35zjcfc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j2habc35zjcfc"
+       },
+       "result": "Roskilde Frikirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lejre",
+          "kommunekode": "0350"
+         }
+        ],
+        "stednavn": "Roskilde Bakke",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1052875",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         682041.085,
+         6169008.435
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "i6u7cnsqbpjve",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "i6u7cnsqbpjve"
+       },
+       "result": "Roskilde Bakke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lejre",
+          "kommunekode": "0350"
+         }
+        ],
+        "stednavn": "Roskilde Bakke",
+        "type": "landskabsform"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1129374",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         684833.174,
+         6167726.045
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5jzgwr42fzstw",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "5jzgwr42fzstw"
+       },
+       "result": "Roskilde Bakke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Hvile",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1140450",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         695479.28,
+         6170550.985
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b7wjkiqrl3bpm",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "b7wjkiqrl3bpm"
+       },
+       "result": "Roskilde Hvile"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Palæ",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4286,
+        "upstream": {
+         "stednavn": {
+          "id": "1114443",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693936.577,
+         6170545.455
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "klgcjirex545y",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "klgcjirex545y"
+       },
+       "result": "Roskilde Palæ"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Campus Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1101473",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         697707.344,
+         6171680.43
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qt33jold2n2ls",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qt33jold2n2ls"
+       },
+       "result": "Campus Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Arrest",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1095332",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693795.542,
+         6170012.805
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wcyiwhqmy3z2e",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wcyiwhqmy3z2e"
+       },
+       "result": "Roskilde Arrest"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Museum",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1015759",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694039.434,
+         6170598.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hfirsfjbsoyta",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hfirsfjbsoyta"
+       },
+       "result": "Roskilde Museum"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Rådhus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1140182",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694401.945,
+         6169650.35
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "lnzofzh7wxm3k",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "lnzofzh7wxm3k"
+       },
+       "result": "Roskilde Rådhus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Fjord",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1020531",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         452312.449,
+         6255774.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wtzqfm3ta3fu4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wtzqfm3ta3fu4"
+       },
+       "result": "Fjord"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Guldborgsund",
+          "kommunekode": "0376"
+         }
+        ],
+        "stednavn": "Roskildehave",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4,
+        "upstream": {
+         "stednavn": {
+          "id": "1035707",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         670875.099,
+         6077554.97
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zcfnpj4cw4m6g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "zcfnpj4cw4m6g"
+       },
+       "result": "Roskildehave"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Comwell Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1044735",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694652.248,
+         6173154.71
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jkbcjbkbegnny",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jkbcjbkbegnny"
+       },
+       "result": "Comwell Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Retten i Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1026038",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693785.508,
+         6169476.49
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "anodpcywlld4a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "anodpcywlld4a"
+       },
+       "result": "Retten i Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Camping",
+        "type": "campingplads"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1127587",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693366.726,
+         6174202.165
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7ld3f4xd53xem",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "7ld3f4xd53xem"
+       },
+       "result": "Roskilde Camping"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Kloster",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1141680",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694270.804,
+         6170534.53
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wlyarkjkkhsx6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "wlyarkjkkhsx6"
+       },
+       "result": "Roskilde Kloster"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Station",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "1025759",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694386.66,
+         6170203.14
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "vx72r3kzpqz4c",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "vx72r3kzpqz4c"
+       },
+       "result": "Roskilde Station"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Sygehus",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3913,
+        "upstream": {
+         "stednavn": {
+          "id": "7632491",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         694503.787,
+         6169945.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2voyllpxld7u4",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2voyllpxld7u4"
+       },
+       "result": "Roskilde Sygehus"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Domkirke",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1041927",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693852.425,
+         6170611.1
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ot7t5kptaffcs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "ot7t5kptaffcs"
+       },
+       "result": "Roskilde Domkirke"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Lufthavn",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1025254",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         697190.185,
+         6164931.28
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "hpseqjknmiwp2",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "hpseqjknmiwp2"
+       },
+       "result": "Roskilde Lufthavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Roskilde Lufthavn",
+        "type": "lufthavn"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.375,
+        "upstream": {
+         "stednavn": {
+          "id": "1035967",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         697654.569,
+         6164264.931
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "omw4njfwpqpd6",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "omw4njfwpqpd6"
+       },
+       "result": "Roskilde Lufthavn"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "stednavn": "Rosenkilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1073390",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         700019.43,
+         6204213.66
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "25tzhamgpg4tk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "25tzhamgpg4tk"
+       },
+       "result": "Rosenkilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Bornholm",
+          "kommunekode": "0400"
+         }
+        ],
+        "stednavn": "Rosenkilde",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1140777",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         866352.23,
+         6142282.59
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2dw5pjkyrbojs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "2dw5pjkyrbojs"
+       },
+       "result": "Rosenkilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Hillerød",
+          "kommunekode": "0219"
+         }
+        ],
+        "stednavn": "Rosenkilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "stednavn": {
+          "id": "1149050",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         700069.5,
+         6198092.3
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mezhrgdwz2hug",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mezhrgdwz2hug"
+       },
+       "result": "Rosenkilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "stednavn": "Rønkilde Nord",
+        "type": "topografi"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3636,
+        "upstream": {
+         "stednavn": {
+          "id": "1130158",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         518676.818,
+         6221095.495
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "eeuic3i4zyuky",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "eeuic3i4zyuky"
+       },
+       "result": "Rønkilde Nord"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "Danhostel Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.36,
+        "upstream": {
+         "stednavn": {
+          "id": "1046885",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693632.255,
+         6171397.345
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "izd4zlbjwfvac",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "izd4zlbjwfvac"
+       },
+       "result": "Danhostel Roskilde"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Roskilde",
+          "kommunekode": "0265"
+         }
+        ],
+        "stednavn": "HF og VUC Roskilde",
+        "type": "bygning"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.36,
+        "upstream": {
+         "stednavn": {
+          "id": "1139060",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         693937.701,
+         6170327.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fqhcskkjtbcby",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "fqhcskkjtbcby"
+       },
+       "result": "HF og VUC Roskilde"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

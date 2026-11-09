@@ -1,0 +1,1364 @@
+{
+ "case": {
+  "id": "ops-aar",
+  "input": "ops: aar",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "fct6fk7wfwhlu",
+      "kind": "opstillingskreds"
+     },
+     "limit": 1,
+     "target": "opstillingskreds"
+    },
+    "elapsed_ms": 155,
+    "endpoint": "project",
+    "keys": [
+     "ops"
+    ],
+    "response": {
+     "input": {
+      "id": "fct6fk7wfwhlu",
+      "kind": "opstillingskreds"
+     },
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ]
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          [
+           [
+            569564.03,
+            6232146.72
+           ],
+           [
+            569639.44,
+            6232260.9
+           ],
+           [
+            569671.09,
+            6232497.5
+           ],
+           [
+            569716.52,
+            6232768.38
+           ],
+           [
+            569630.53,
+            6232933.97
+           ],
+           [
+            569636.47,
+            6233091.81
+           ],
+           [
+            569685.96,
+            6233344.52
+           ],
+           [
+            569808.07,
+            6233887.2
+           ],
+           [
+            569778.55,
+            6234096.19
+           ],
+           [
+            569658.79,
+            6234362.24
+           ],
+           [
+            569672.54,
+            6234785.22
+           ],
+           [
+            569788.84,
+            6235853.05
+           ],
+           [
+            569886.14,
+            6235813.07
+           ],
+           [
+            570281.72,
+            6236122.11
+           ],
+           [
+            570197.09,
+            6236805.1
+           ],
+           [
+            570042.42,
+            6237202.47
+           ],
+           [
+            569879.55,
+            6237760.13
+           ],
+           [
+            569823.51,
+            6239114.0
+           ],
+           [
+            569791.75,
+            6239676.62
+           ],
+           [
+            569928.93,
+            6239972.19
+           ],
+           [
+            570003.82,
+            6240337.57
+           ],
+           [
+            570480.25,
+            6240749.57
+           ],
+           [
+            570472.78,
+            6240831.06
+           ],
+           [
+            570699.66,
+            6240951.08
+           ],
+           [
+            570934.13,
+            6241071.93
+           ],
+           [
+            571613.35,
+            6240855.19
+           ],
+           [
+            571990.13,
+            6240620.22
+           ],
+           [
+            571919.75,
+            6240303.72
+           ],
+           [
+            572094.27,
+            6240003.96
+           ],
+           [
+            572157.97,
+            6239894.71
+           ],
+           [
+            572224.27,
+            6239890.02
+           ],
+           [
+            572361.06,
+            6240017.49
+           ],
+           [
+            572555.49,
+            6240130.23
+           ],
+           [
+            572746.74,
+            6240488.62
+           ],
+           [
+            572841.74,
+            6240627.96
+           ],
+           [
+            573044.62,
+            6240840.63
+           ],
+           [
+            573241.59,
+            6241017.31
+           ],
+           [
+            573371.12,
+            6241150.5
+           ],
+           [
+            573455.7,
+            6241168.95
+           ],
+           [
+            573532.39,
+            6241226.6
+           ],
+           [
+            573508.44,
+            6241386.46
+           ],
+           [
+            573648.26,
+            6241575.46
+           ],
+           [
+            573695.69,
+            6241729.82
+           ],
+           [
+            573541.35,
+            6241872.27
+           ],
+           [
+            573475.82,
+            6242081.0
+           ],
+           [
+            573643.06,
+            6242270.96
+           ],
+           [
+            573734.09,
+            6242405.77
+           ],
+           [
+            573801.28,
+            6242706.44
+           ],
+           [
+            574006.04,
+            6242812.88
+           ],
+           [
+            574113.39,
+            6242820.38
+           ],
+           [
+            574366.05,
+            6242970.52
+           ],
+           [
+            574635.65,
+            6243209.91
+           ],
+           [
+            574874.91,
+            6243278.9
+           ],
+           [
+            575098.75,
+            6243414.63
+           ],
+           [
+            575274.72,
+            6243490.12
+           ],
+           [
+            575544.94,
+            6243219.87
+           ],
+           [
+            575898.57,
+            6243085.85
+           ],
+           [
+            576316.35,
+            6242411.87
+           ],
+           [
+            576485.21,
+            6242142.93
+           ],
+           [
+            577754.85,
+            6241852.47
+           ],
+           [
+            578183.95,
+            6241897.67
+           ],
+           [
+            578276.81,
+            6242067.38
+           ],
+           [
+            578358.81,
+            6242084.3
+           ],
+           [
+            578452.65,
+            6242053.21
+           ],
+           [
+            578521.05,
+            6241997.8
+           ],
+           [
+            578751.81,
+            6241929.58
+           ],
+           [
+            578856.37,
+            6241990.83
+           ],
+           [
+            578888.43,
+            6241736.78
+           ],
+           [
+            578795.1,
+            6241200.54
+           ],
+           [
+            578704.43,
+            6240783.56
+           ],
+           [
+            578574.31,
+            6240698.3
+           ],
+           [
+            578613.97,
+            6240283.49
+           ],
+           [
+            578425.62,
+            6239953.12
+           ],
+           [
+            578349.68,
+            6239522.36
+           ],
+           [
+            578314.71,
+            6239249.68
+           ],
+           [
+            578264.55,
+            6238898.09
+           ],
+           [
+            577967.07,
+            6238499.98
+           ],
+           [
+            577966.85,
+            6238247.95
+           ],
+           [
+            577922.6,
+            6237678.48
+           ],
+           [
+            577904.2,
+            6237150.71
+           ],
+           [
+            577917.7,
+            6236870.85
+           ],
+           [
+            577897.63,
+            6236679.0
+           ],
+           [
+            577871.03,
+            6236575.85
+           ],
+           [
+            577815.36,
+            6236495.85
+           ],
+           [
+            577945.6,
+            6236286.96
+           ],
+           [
+            578026.78,
+            6236046.58
+           ],
+           [
+            578095.73,
+            6235925.32
+           ],
+           [
+            577971.76,
+            6235729.03
+           ],
+           [
+            577619.02,
+            6235820.67
+           ],
+           [
+            577508.59,
+            6235835.74
+           ],
+           [
+            577396.93,
+            6235815.19
+           ],
+           [
+            577114.43,
+            6235599.36
+           ],
+           [
+            576993.16,
+            6235214.89
+           ],
+           [
+            577451.19,
+            6234595.24
+           ],
+           [
+            577622.73,
+            6234559.36
+           ],
+           [
+            577829.45,
+            6234343.53
+           ],
+           [
+            577967.35,
+            6234254.36
+           ],
+           [
+            577954.79,
+            6234134.7
+           ],
+           [
+            577879.54,
+            6233864.6
+           ],
+           [
+            578017.22,
+            6233681.66
+           ],
+           [
+            578033.19,
+            6233580.89
+           ],
+           [
+            578170.44,
+            6233459.96
+           ],
+           [
+            578179.48,
+            6233407.61
+           ],
+           [
+            578208.03,
+            6233305.16
+           ],
+           [
+            578240.12,
+            6233233.87
+           ],
+           [
+            578266.92,
+            6233173.03
+           ],
+           [
+            578312.41,
+            6233091.39
+           ],
+           [
+            578458.97,
+            6232747.4
+           ],
+           [
+            577802.91,
+            6232177.13
+           ],
+           [
+            577278.68,
+            6231827.35
+           ],
+           [
+            577173.47,
+            6231531.24
+           ],
+           [
+            576918.11,
+            6231051.59
+           ],
+           [
+            576480.44,
+            6230908.05
+           ],
+           [
+            576262.86,
+            6230898.53
+           ],
+           [
+            575837.25,
+            6230744.54
+           ],
+           [
+            575598.32,
+            6230879.11
+           ],
+           [
+            575091.41,
+            6230851.83
+           ],
+           [
+            574949.51,
+            6230744.37
+           ],
+           [
+            574669.05,
+            6230764.02
+           ],
+           [
+            574636.8,
+            6230473.15
+           ],
+           [
+            574586.27,
+            6230308.05
+           ],
+           [
+            574480.64,
+            6230094.65
+           ],
+           [
+            574348.13,
+            6229734.71
+           ],
+           [
+            574016.25,
+            6229058.69
+           ],
+           [
+            573401.35,
+            6228943.89
+           ],
+           [
+            573666.87,
+            6228246.66
+           ],
+           [
+            573797.73,
+            6227987.28
+           ],
+           [
+            574217.59,
+            6227824.08
+           ],
+           [
+            574418.0,
+            6227719.7
+           ],
+           [
+            575045.89,
+            6227404.49
+           ],
+           [
+            575154.37,
+            6227340.78
+           ],
+           [
+            575103.24,
+            6227340.5
+           ],
+           [
+            575130.68,
+            6227299.81
+           ],
+           [
+            575512.66,
+            6227133.34
+           ],
+           [
+            575586.37,
+            6227123.12
+           ],
+           [
+            576041.37,
+            6227025.28
+           ],
+           [
+            576239.12,
+            6226973.53
+           ],
+           [
+            576564.32,
+            6226942.86
+           ],
+           [
+            576597.6,
+            6226738.75
+           ],
+           [
+            576530.96,
+            6226627.33
+           ],
+           [
+            576499.42,
+            6226504.68
+           ],
+           [
+            576531.72,
+            6226506.76
+           ],
+           [
+            576473.57,
+            6226444.49
+           ],
+           [
+            576456.74,
+            6226373.45
+           ],
+           [
+            576410.12,
+            6226329.34
+           ],
+           [
+            576008.3,
+            6225762.8
+           ],
+           [
+            576002.41,
+            6225604.05
+           ],
+           [
+            576013.06,
+            6225565.3
+           ],
+           [
+            575876.08,
+            6225474.41
+           ],
+           [
+            575761.81,
+            6225476.02
+           ],
+           [
+            575724.72,
+            6225512.48
+           ],
+           [
+            574838.02,
+            6225733.81
+           ],
+           [
+            574444.71,
+            6225858.74
+           ],
+           [
+            574393.21,
+            6225679.26
+           ],
+           [
+            574283.85,
+            6224519.56
+           ],
+           [
+            574208.81,
+            6224288.41
+           ],
+           [
+            574223.54,
+            6224146.64
+           ],
+           [
+            573958.96,
+            6223808.2
+           ],
+           [
+            573655.69,
+            6223803.38
+           ],
+           [
+            573065.83,
+            6224057.66
+           ],
+           [
+            570998.71,
+            6223769.3
+           ],
+           [
+            570979.88,
+            6224261.0
+           ],
+           [
+            570922.61,
+            6224793.71
+           ],
+           [
+            570795.35,
+            6225288.58
+           ],
+           [
+            570804.31,
+            6225374.03
+           ],
+           [
+            570681.39,
+            6225545.69
+           ],
+           [
+            570390.57,
+            6225607.84
+           ],
+           [
+            570365.83,
+            6225937.71
+           ],
+           [
+            570350.39,
+            6226334.94
+           ],
+           [
+            570216.77,
+            6226616.21
+           ],
+           [
+            570852.9,
+            6226795.44
+           ],
+           [
+            571084.01,
+            6226874.88
+           ],
+           [
+            571213.1,
+            6226838.4
+           ],
+           [
+            571493.72,
+            6226788.41
+           ],
+           [
+            571885.68,
+            6226862.43
+           ],
+           [
+            572049.01,
+            6226867.25
+           ],
+           [
+            572171.0,
+            6226997.99
+           ],
+           [
+            572200.46,
+            6227092.68
+           ],
+           [
+            572449.33,
+            6227068.48
+           ],
+           [
+            572462.72,
+            6227730.01
+           ],
+           [
+            572315.69,
+            6228060.15
+           ],
+           [
+            572044.72,
+            6228353.7
+           ],
+           [
+            571959.04,
+            6228413.94
+           ],
+           [
+            571901.6,
+            6228559.35
+           ],
+           [
+            572006.1,
+            6228632.39
+           ],
+           [
+            572068.68,
+            6228662.65
+           ],
+           [
+            572102.56,
+            6228708.4
+           ],
+           [
+            572117.98,
+            6228744.85
+           ],
+           [
+            572127.5,
+            6228993.7
+           ],
+           [
+            572189.99,
+            6229021.37
+           ],
+           [
+            572114.63,
+            6229172.42
+           ],
+           [
+            571997.69,
+            6229220.48
+           ],
+           [
+            571880.68,
+            6229442.82
+           ],
+           [
+            571874.99,
+            6229479.33
+           ],
+           [
+            571857.52,
+            6229504.02
+           ],
+           [
+            571891.56,
+            6229717.79
+           ],
+           [
+            571613.95,
+            6229922.57
+           ],
+           [
+            571474.88,
+            6229981.73
+           ],
+           [
+            571356.21,
+            6230062.72
+           ],
+           [
+            571284.42,
+            6230134.52
+           ],
+           [
+            571220.35,
+            6230134.88
+           ],
+           [
+            571129.56,
+            6230157.42
+           ],
+           [
+            571027.04,
+            6230212.76
+           ],
+           [
+            570770.77,
+            6230160.65
+           ],
+           [
+            570534.26,
+            6230127.31
+           ],
+           [
+            570436.33,
+            6230166.42
+           ],
+           [
+            570449.38,
+            6230216.38
+           ],
+           [
+            570586.11,
+            6230678.53
+           ],
+           [
+            570647.42,
+            6230703.57
+           ],
+           [
+            570125.15,
+            6231144.55
+           ],
+           [
+            569599.25,
+            6231650.16
+           ],
+           [
+            569591.57,
+            6231837.6
+           ],
+           [
+            569621.1,
+            6232022.46
+           ],
+           [
+            569564.03,
+            6232146.72
+           ]
+          ],
+          [
+           [
+            570984.23,
+            6224787.87
+           ],
+           [
+            571022.99,
+            6224782.06
+           ],
+           [
+            571022.29,
+            6224818.49
+           ],
+           [
+            570984.23,
+            6224787.87
+           ]
+          ]
+         ],
+         "type": "Polygon"
+        },
+        "srid": 25832,
+        "vejpunkt": null
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "64",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573898.469,
+         6233652.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fct6fk7wfwhlu",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "fct6fk7wfwhlu"
+       },
+       "result": "Aarhus Nord"
+      }
+     ]
+    },
+    "status": 200,
+    "thinned": "geometry thinned from 645 vertices"
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "fct6fk7wfwhlu",
+   "kind": "opstillingskreds"
+  },
+  "row_index": 1,
+  "type": "Polygon"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:35+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "aar",
+     "limit": 40,
+     "target": "opstillingskreds"
+    }
+   ],
+   "elapsed_ms": 204,
+   "endpoint": "search",
+   "keys": [
+    "ops"
+   ],
+   "response": [
+    {
+     "input": "aar",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Syd",
+          "opstillingskredsnummer": "62"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "62",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         572442.333,
+         6215408.485
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "gqijiv3dsxbus",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "gqijiv3dsxbus"
+       },
+       "result": "Aarhus Syd"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Nord",
+          "opstillingskredsnummer": "64"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "64",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         573898.469,
+         6233652.785
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fct6fk7wfwhlu",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "fct6fk7wfwhlu"
+       },
+       "result": "Aarhus Nord"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Øst",
+          "opstillingskredsnummer": "65"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "65",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         580606.256,
+         6233418.32
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "yhftsa67kcn32",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "yhftsa67kcn32"
+       },
+       "result": "Aarhus Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aarhus Vest",
+          "opstillingskredsnummer": "63"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2308,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "63",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         565722.982,
+         6224413.815
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "v3jnbbxbs7r6s",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "v3jnbbxbs7r6s"
+       },
+       "result": "Aarhus Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aabenraa",
+          "opstillingskredsnummer": "50"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1818,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "50",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         522540.071,
+         6093026.36
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f5y3omwg2dz22",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "f5y3omwg2dz22"
+       },
+       "result": "Aabenraa"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aakirkeby",
+          "opstillingskredsnummer": "28"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1667,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "28",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         884074.383,
+         6126753.835
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ltdtpqncwiloy",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "ltdtpqncwiloy"
+       },
+       "result": "Aakirkeby"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aalborg Nord",
+          "opstillingskredsnummer": "92"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "92",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         561730.817,
+         6329962.44
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "5jvh27dol5qfy",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "5jvh27dol5qfy"
+       },
+       "result": "Aalborg Nord"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aalborg Øst",
+          "opstillingskredsnummer": "90"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "90",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567794.76,
+         6311814.7
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jtbwqs5tchdgo",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "jtbwqs5tchdgo"
+       },
+       "result": "Aalborg Øst"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Aalborg Vest",
+          "opstillingskredsnummer": "91"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1333,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "91",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         551381.599,
+         6314156.275
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "llgteaklleez6",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "llgteaklleez6"
+       },
+       "result": "Aalborg Vest"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Assens",
+          "opstillingskredsnummer": "44"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.1,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "44",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         567637.685,
+         6126061.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "f4unssnmnlj2a",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "f4unssnmnlj2a"
+       },
+       "result": "Assens"
+      }
+     ]
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

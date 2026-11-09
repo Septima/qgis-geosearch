@@ -1,0 +1,1282 @@
+{
+ "case": {
+  "id": "adr-raadhuspladsen-1",
+  "input": "rådhuspladsen 1",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": {
+  "attempts": [
+   {
+    "body": {
+     "geometry": true,
+     "input": {
+      "id": "ibtxnzcgc2olo",
+      "kind": "entrance"
+     },
+     "limit": 1,
+     "target": "entrance"
+    },
+    "elapsed_ms": 129,
+    "endpoint": "project",
+    "keys": [
+     "adr"
+    ],
+    "response": {
+     "input": {
+      "id": "ibtxnzcgc2olo",
+      "kind": "entrance"
+     },
+     "matches": [
+      {
+       "components": {
+        "house_number": "1",
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Indre By",
+          "opstillingskredsnummer": "3"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikreds": "Københavns Politi",
+          "politikredsnummer": "11"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "København V",
+          "postcode": "1550"
+         }
+        ],
+        "regioner": [
+         {
+          "region": "Region Hovedstaden",
+          "regionskode": "1084"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskreds": "Københavns Byret",
+          "retskredsnummer": "23"
+         }
+        ],
+        "sogne": [
+         {
+          "sogn": "Helligånds",
+          "sognekode": "7002"
+         }
+        ],
+        "street": "Rådhuspladsen"
+       },
+       "geometry": {
+        "geojson": {
+         "coordinates": [
+          724434.93,
+          6175755.61
+         ],
+         "type": "Point"
+        },
+        "srid": 25832,
+        "vejpunkt": [
+         724454.63549553,
+         6175800.01960673
+        ]
+       },
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "entrance": {
+          "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+          "source": "DAR.Husnummer"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724434.93,
+         6175755.61
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ibtxnzcgc2olo",
+        "kind": "entrance"
+       },
+       "refs": {
+        "entrance": "ibtxnzcgc2olo"
+       },
+       "result": "Rådhuspladsen 1, 1550 København V"
+      }
+     ]
+    },
+    "status": 200
+   }
+  ],
+  "fallback_to_point": false,
+  "ref": {
+   "id": "ibtxnzcgc2olo",
+   "kind": "entrance"
+  },
+  "row_index": 0,
+  "type": "Point"
+ },
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:06+00:00",
+ "requests": [
+  {
+   "body": {
+    "input": "rådhuspladsen 1",
+    "limit": 5
+   },
+   "elapsed_ms": 142,
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "rådhuspladsen 1",
+    "matches": [
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Indre By",
+         "opstillingskredsnummer": "3"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Københavns Politi",
+         "politikredsnummer": "11"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København V",
+         "postcode": "1550"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Københavns Byret",
+         "retskredsnummer": "23"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Helligånds",
+         "sognekode": "7002"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        724434.93,
+        6175755.61
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "ibtxnzcgc2olo",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "ibtxnzcgc2olo"
+      },
+      "result": "Rådhuspladsen 1, 1550 København V"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Halsnæs",
+         "kommunekode": "0260"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Frederikssund",
+         "opstillingskredsnummer": "24"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Nordsjællands Politi",
+         "politikredsnummer": "9"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Frederiksværk",
+         "postcode": "3300"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Hovedstaden",
+         "regionskode": "1084"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Hillerød",
+         "retskredsnummer": "18"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Frederiksværk-Vinderød",
+         "sognekode": "9186"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f507f-0959-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "762a9a1f-a5fb-4e47-b1b2-9fa94026bc80",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        688190.35,
+        6207578.8
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "e2f7aqkyfhmuw",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "65sufcomzq3og",
+       "unit": "e2f7aqkyfhmuw"
+      },
+      "result": "Rådhuspladsen 1, 3300 Frederiksværk"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Slagelse",
+         "kommunekode": "0330"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Slagelse",
+         "opstillingskredsnummer": "40"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Sydsjællands og Lolland-Falsters Politi",
+         "politikredsnummer": "7"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Slagelse",
+         "postcode": "4200"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Næstved",
+         "retskredsnummer": "15"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Mikkels",
+         "sognekode": "7345"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5084-62c3-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        649189.55,
+        6142347.15
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "2v3ue4fkzqras",
+       "kind": "entrance"
+      },
+      "refs": {
+       "entrance": "2v3ue4fkzqras"
+      },
+      "result": "Rådhuspladsen 1, 4200 Slagelse"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Holbæk",
+         "kommunekode": "0316"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Holbæk",
+         "opstillingskredsnummer": "37"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Midt- og Vestsjællands Politi",
+         "politikredsnummer": "8"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Holbæk",
+         "postcode": "4300"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Sjælland",
+         "regionskode": "1085"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Holbæk",
+         "retskredsnummer": "16"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Sankt Nikolai",
+         "sognekode": "7274"
+        }
+       ],
+       "street": "Rådhuspladsen"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f5083-452c-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "d06991ac-5162-4c26-a4c6-eb76e3a0ee13",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        670327.2692743541,
+        6177835.023645162
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "zvzbaixn2v5ku",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "6pa2l4rswl7nu",
+       "unit": "zvzbaixn2v5ku"
+      },
+      "result": "Rådhuspladsen 1, 4300 Holbæk"
+     },
+     {
+      "components": {
+       "house_number": "1",
+       "kommuner": [
+        {
+         "kommune": "Nordfyns",
+         "kommunekode": "0480"
+        }
+       ],
+       "opstillingskredse": [
+        {
+         "opstillingskreds": "Middelfart",
+         "opstillingskredsnummer": "45"
+        }
+       ],
+       "politikredse": [
+        {
+         "politikreds": "Fyns Politi",
+         "politikredsnummer": "6"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Otterup",
+         "postcode": "5450"
+        }
+       ],
+       "regioner": [
+        {
+         "region": "Region Syddanmark",
+         "regionskode": "1083"
+        }
+       ],
+       "retskredse": [
+        {
+         "retskreds": "Retten i Odense",
+         "retskredsnummer": "12"
+        }
+       ],
+       "sogne": [
+        {
+         "sogn": "Otterup",
+         "sognekode": "7891"
+        }
+       ],
+       "street": "Rådhuspladsen",
+       "sub_locality": "Otterup"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 1.0,
+       "upstream": {
+        "entrance": {
+         "id": "0a3f508a-0b0a-32b8-e044-0003ba298018",
+         "source": "DAR.Husnummer"
+        },
+        "unit": {
+         "id": "0a3f50b5-1e71-32b8-e044-0003ba298018",
+         "source": "DAR.Adresse"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        587999.85,
+        6152889.38
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gglzrm63aujes",
+       "kind": "unit"
+      },
+      "refs": {
+       "entrance": "7yw3d3m6w3zpm",
+       "unit": "gglzrm63aujes"
+      },
+      "result": "Rådhuspladsen 1, Otterup, 5450 Otterup"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "elapsed_ms": 955,
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "rådhuspladsen 1",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8824,
+        "upstream": {
+         "stednavn": {
+          "id": "1014528",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724370.42,
+         6175808.158
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "j23goajftbzzk",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "j23goajftbzzk"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8824,
+        "upstream": {
+         "stednavn": {
+          "id": "7344505",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         719507.389,
+         6182968.5
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "aregzpveehy3g",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "aregzpveehy3g"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "Rådhuspladsen",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.8824,
+        "upstream": {
+         "stednavn": {
+          "id": "7642888",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724367.607,
+         6175837.482
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "l3q3du7k4zjjs",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "l3q3du7k4zjjs"
+       },
+       "result": "Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "stednavn": "H.C. Andersen - Rådhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5357,
+        "upstream": {
+         "stednavn": {
+          "id": "1089720",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         724407.425,
+         6175719.802
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qly3k7j6tgn2o",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qly3k7j6tgn2o"
+       },
+       "result": "H.C. Andersen - Rådhuspladsen"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Høje-Taastrup",
+          "kommunekode": "0169"
+         }
+        ],
+        "stednavn": "Domhuspladsen",
+        "type": "seværdighed"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.4091,
+        "upstream": {
+         "stednavn": {
+          "id": "1079814",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         707623.526,
+         6171882.442
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jpls7czycqsqo",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "jpls7czycqsqo"
+       },
+       "result": "Domhuspladsen"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Faxe",
+          "kommunekode": "0320"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Faxe Ladeplads",
+          "postcode": "4654"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "B",
+        "score": 0.1071,
+        "upstream": {
+         "postcode": {
+          "id": "4654",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         702150.861,
+         6122081.24
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "2nofuqw6gysya",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "2nofuqw6gysya"
+       },
+       "result": "Faxe Ladeplads"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": [
+      {
+       "components": {
+        "ejerlav": "Eksercerpladsen, København",
+        "ejerlavskode": 2000155,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 100044868,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "145",
+           "upstream": {
+            "id": 10410080,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2887,
+        "upstream": {
+         "ejendom": {
+          "id": 6004757,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         725366.618,
+         6174244.166
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "scnp7ddypy7vo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "scnp7ddypy7vo"
+       },
+       "result": "1a, Eksercerpladsen, København"
+      },
+      {
+       "components": {
+        "ejerlav": "Eksercerpladsen, København",
+        "ejerlavskode": 2000155,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "matrikelnummer": "1b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "1b",
+           "upstream": {
+            "id": 100048705,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2887,
+        "upstream": {
+         "ejendom": {
+          "id": 100045119,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726034.495,
+         6173802.852
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fwwqmchrb7lvo",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "fwwqmchrb7lvo"
+       },
+       "result": "1b, Eksercerpladsen, København"
+      },
+      {
+       "components": {
+        "ejerlav": "Eksercerpladsen, København",
+        "ejerlavskode": 2000155,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "matrikelnummer": "1c"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "1c",
+           "upstream": {
+            "id": 100048706,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "zfanmd2ttnxwa",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 413149,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "z3iewnhbv72wy",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 413150,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2887,
+        "upstream": {
+         "ejendom": {
+          "id": 100045118,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726060.028,
+         6173738.115
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "x7a6ejwe7ytwa",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "x7a6ejwe7ytwa"
+       },
+       "result": "1c, Eksercerpladsen, København"
+      },
+      {
+       "components": {
+        "ejerlav": "Eksercerpladsen, København",
+        "ejerlavskode": 2000155,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ],
+        "matrikelnummer": "1d"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "1d",
+           "upstream": {
+            "id": 100048707,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2887,
+        "upstream": {
+         "ejendom": {
+          "id": 100045120,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726064.18,
+         6173674.874
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "b5c7j4uxzruwm",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "b5c7j4uxzruwm"
+       },
+       "result": "1d, Eksercerpladsen, København"
+      },
+      {
+       "components": {
+        "ejerlav": "Eksercerpladsen, København",
+        "ejerlavskode": 2000155,
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "1e",
+           "upstream": {
+            "id": 100048708,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Eksercerpladsen, København",
+           "ejerlavskode": 2000155,
+           "kommune": "København",
+           "kommunekode": "0101",
+           "lifecycle": "current",
+           "matrikelnummer": "141",
+           "upstream": {
+            "id": 10410076,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": [
+           {
+            "ejerlejlighedsnummer": "1",
+            "id": "simfz6zkb2w42",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 114652,
+             "source": "MAT.Ejerlejlighed"
+            }
+           },
+           {
+            "ejerlejlighedsnummer": "2",
+            "id": "2l2ampbc7xd5w",
+            "lifecycle": "current",
+            "type": "ejerlejlighed",
+            "upstream": {
+             "id": 114653,
+             "source": "MAT.Ejerlejlighed"
+            }
+           }
+          ]
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2887,
+        "upstream": {
+         "ejendom": {
+          "id": 6004753,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726090.876,
+         6173798.998
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "jq7aasbqcz44w",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "jq7aasbqcz44w"
+       },
+       "result": "1e, Eksercerpladsen, København"
+      }
+     ]
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": []
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": []
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": []
+    },
+    {
+     "input": "rådhuspladsen 1",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

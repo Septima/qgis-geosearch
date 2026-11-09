@@ -1,0 +1,36 @@
+{
+ "case": {
+  "id": "pos-80",
+  "input": "pos: 80",
+  "kommuner": null,
+  "types": null
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "recorded_at": "2026-11-06T14:59:21+00:00",
+ "requests": [
+  {
+   "body": [
+    {
+     "input": "80",
+     "limit": 40,
+     "target": "postcode"
+    }
+   ],
+   "elapsed_ms": 199,
+   "endpoint": "search",
+   "keys": [
+    "pos"
+   ],
+   "response": [
+    {
+     "input": "80",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ],
+ "service": "https://bifrost.test42.dataforsyningen.dk"
+}

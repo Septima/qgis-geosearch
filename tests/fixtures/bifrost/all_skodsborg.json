@@ -1,0 +1,1746 @@
+{
+ "case": {
+  "kommunefilter": "",
+  "proposed": false,
+  "selected": [
+   "adr",
+   "ste",
+   "pos",
+   "mat",
+   "kom",
+   "ops",
+   "pol",
+   "reg"
+  ],
+  "text": "skodsborg"
+ },
+ "geometry": null,
+ "kommune_refs": {},
+ "memberships": {},
+ "requests": [
+  {
+   "body": {
+    "input": "skodsborg",
+    "limit": 5
+   },
+   "endpoint": "resolve",
+   "keys": [
+    "adr"
+   ],
+   "response": {
+    "input": "skodsborg",
+    "matches": [
+     {
+      "components": {
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ]
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "A",
+       "score": 1.0,
+       "upstream": {
+        "city": {
+         "id": "jfkdmehz3bs2g",
+         "source": "bifrost.city"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        726604.387,
+        6192440.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "jfkdmehz3bs2g",
+       "kind": "city"
+      },
+      "refs": {
+       "city": "jfkdmehz3bs2g"
+      },
+      "result": "Skodsborg"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Lyngby-Taarbæk",
+         "kommunekode": "0173"
+        },
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Virum",
+         "postcode": "2830"
+        },
+        {
+         "city": "Holte",
+         "postcode": "2840"
+        },
+        {
+         "city": "Nærum",
+         "postcode": "2850"
+        },
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6429,
+       "upstream": {
+        "street": {
+         "id": "0d39f5fc-471d-4381-8d5c-3ebccaf38c26",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        720700.83,
+        6190806.01
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "xomjdltrrj7nc",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "xomjdltrrj7nc"
+      },
+      "result": "Skodsborgvej"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Aalborg",
+         "kommunekode": "0851"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Klarup",
+         "postcode": "9270"
+        }
+       ],
+       "street": "Skodsborgvej"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6429,
+       "upstream": {
+        "street": {
+         "id": "2a5c877b-a91f-41ad-b06a-2b0460237ab8",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        564711.76,
+        6318944.75
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "lwbzvldgkx672",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "lwbzvldgkx672"
+      },
+      "result": "Skodsborgvej, 9270 Klarup"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "København",
+         "kommunekode": "0101"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "København N",
+         "postcode": "2200"
+        }
+       ],
+       "street": "Skodsborggade"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.6,
+       "upstream": {
+        "street": {
+         "id": "e81aec25-b457-45da-a496-167771f235af",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        722663.01,
+        6178048.44
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "dt3bnua4mnxtg",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "dt3bnua4mnxtg"
+      },
+      "result": "Skodsborggade, 2200 København N"
+     },
+     {
+      "components": {
+       "kommuner": [
+        {
+         "kommune": "Rudersdal",
+         "kommunekode": "0230"
+        }
+       ],
+       "postcodes": [
+        {
+         "city": "Skodsborg",
+         "postcode": "2942"
+        }
+       ],
+       "street": "Skodsborgparken"
+      },
+      "geometry": null,
+      "lifecycle": "current",
+      "meta": {
+       "confidence": "C",
+       "score": 0.5294,
+       "upstream": {
+        "street": {
+         "id": "e642385f-b29c-4b6b-a09a-385a5a007720",
+         "source": "DAR.NavngivenVej"
+        }
+       }
+      },
+      "point": {
+       "coordinates": [
+        723784.37,
+        6192222.88
+       ],
+       "type": "Point"
+      },
+      "ref": {
+       "id": "gajdpmohdeyz2",
+       "kind": "street"
+      },
+      "refs": {
+       "street": "gajdpmohdeyz2"
+      },
+      "result": "Skodsborgparken, 2942 Skodsborg"
+     }
+    ]
+   },
+   "status": 200
+  },
+  {
+   "body": [
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "stednavn"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "postcode"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "ejendom"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "kommune"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "opstillingskreds"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "politikreds"
+    },
+    {
+     "input": "skodsborg",
+     "limit": 5,
+     "target": "region"
+    }
+   ],
+   "endpoint": "search",
+   "keys": [
+    "ste",
+    "pos",
+    "mat",
+    "kom",
+    "ops",
+    "pol",
+    "reg"
+   ],
+   "response": [
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "stednavn": {
+          "id": "7484561",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "e3b35gin6kt46",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Dam",
+        "type": "sø"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1069615",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723374.191,
+         6191540.295
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "mzxzitjismblg",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "mzxzitjismblg"
+       },
+       "result": "Skodsborg Dam"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Eng",
+        "type": "naturareal"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.7143,
+        "upstream": {
+         "stednavn": {
+          "id": "1146660",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723709.513,
+         6191735.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "g7cwn7ues2d7a",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "g7cwn7ues2d7a"
+       },
+       "result": "Skodsborg Eng"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "stednavn": "Skodsborg Station",
+        "type": "standsningssted"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5882,
+        "upstream": {
+         "stednavn": {
+          "id": "1055683",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         723718.63,
+         6192176.8
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "swnarffxruiuc",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "swnarffxruiuc"
+       },
+       "result": "Skodsborg Station"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Lemvig",
+          "kommunekode": "0665"
+         }
+        ],
+        "stednavn": "Skodborg",
+        "type": "bebyggelse"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.5833,
+        "upstream": {
+         "stednavn": {
+          "id": "1104551",
+          "source": "DS.Stednavn"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         468159.129,
+         6263176.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "qae2ryek43c4u",
+        "kind": "stednavn"
+       },
+       "refs": {
+        "stednavn": "qae2ryek43c4u"
+       },
+       "result": "Skodborg"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Rudersdal",
+          "kommunekode": "0230"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skodsborg",
+          "postcode": "2942"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "A",
+        "score": 1.0,
+        "upstream": {
+         "postcode": {
+          "id": "2942",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "wgxiyjjxsa2r2",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "wgxiyjjxsa2r2"
+       },
+       "result": "Skodsborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Horsens",
+          "kommunekode": "0615"
+         },
+         {
+          "kommune": "Odder",
+          "kommunekode": "0727"
+         },
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         },
+         {
+          "kommune": "Aarhus",
+          "kommunekode": "0751"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Skanderborg",
+          "postcode": "8660"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2941,
+        "upstream": {
+         "postcode": {
+          "id": "8660",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "dxefblhejpjtc",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "dxefblhejpjtc"
+       },
+       "result": "Skanderborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "København",
+          "kommunekode": "0101"
+         },
+         {
+          "kommune": "Gladsaxe",
+          "kommunekode": "0159"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Søborg",
+          "postcode": "2860"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2857,
+        "upstream": {
+         "postcode": {
+          "id": "2860",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "fxd4gc7oexyca",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "fxd4gc7oexyca"
+       },
+       "result": "Søborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Norddjurs",
+          "kommunekode": "0707"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Glesborg",
+          "postcode": "8585"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2667,
+        "upstream": {
+         "postcode": {
+          "id": "8585",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "nangc776ikq6o",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "nangc776ikq6o"
+       },
+       "result": "Glesborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         },
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         },
+         {
+          "kommune": "Ikast-Brande",
+          "kommunekode": "0756"
+         }
+        ],
+        "postcodes": [
+         {
+          "city": "Silkeborg",
+          "postcode": "8600"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "postcode": {
+          "id": "8600",
+          "source": "DAGI.Postnummerinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         534561.756,
+         6226591.665
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ndxrojc67dfto",
+        "kind": "postcode"
+       },
+       "refs": {
+        "postcode": "ndxrojc67dfto"
+       },
+       "result": "Silkeborg"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         },
+         {
+          "kommune": "Varde",
+          "kommunekode": "0573"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1a",
+           "upstream": {
+            "id": 2303687,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Gråhede By, Ådum",
+           "ejerlavskode": 1200152,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1d",
+           "upstream": {
+            "id": 2303205,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Tøstrup By, Ådum",
+           "ejerlavskode": 1200157,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1c",
+           "upstream": {
+            "id": 2303682,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1n",
+           "upstream": {
+            "id": 2303693,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1o",
+           "upstream": {
+            "id": 2303705,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1u",
+           "upstream": {
+            "id": 2303690,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Foersum By, Egvad",
+           "ejerlavskode": 1200252,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "2c",
+           "upstream": {
+            "id": 2303900,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Foersum By, Egvad",
+           "ejerlavskode": 1200252,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "11f",
+           "upstream": {
+            "id": 2303894,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Vallund By, Ølgod",
+           "ejerlavskode": 1330666,
+           "kommune": "Varde",
+           "kommunekode": "0573",
+           "lifecycle": "current",
+           "matrikelnummer": "9b",
+           "upstream": {
+            "id": 985068,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "ejendom": {
+          "id": 8432790,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472351.849,
+         6190964.198
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "3d24rhgolf26c",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "3d24rhgolf26c"
+       },
+       "result": "1a, Skodsbøl, Ådum"
+      },
+      {
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158,
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "matrikelnummer": "1b"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1b",
+           "upstream": {
+            "id": 2303706,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "ejendom": {
+          "id": 4466785,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472791.984,
+         6190874.547
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ts2kwdctfqnge",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "ts2kwdctfqnge"
+       },
+       "result": "1b, Skodsbøl, Ådum"
+      },
+      {
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158,
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ]
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1f",
+           "upstream": {
+            "id": 2303708,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1g",
+           "upstream": {
+            "id": 2303694,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1h",
+           "upstream": {
+            "id": 2303707,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1l",
+           "upstream": {
+            "id": 2303695,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1m",
+           "upstream": {
+            "id": 2303709,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1p",
+           "upstream": {
+            "id": 2303700,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1q",
+           "upstream": {
+            "id": 2303689,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1r",
+           "upstream": {
+            "id": 2303701,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1s",
+           "upstream": {
+            "id": 2303697,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1t",
+           "upstream": {
+            "id": 2303703,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1v",
+           "upstream": {
+            "id": 100105704,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1z",
+           "upstream": {
+            "id": 100409183,
+            "source": "MAT.Jordstykke"
+           }
+          },
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1æ",
+           "upstream": {
+            "id": 100409182,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "ejendom": {
+          "id": 8432791,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         472769.942,
+         6190469.538
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xcn73zfxq26og",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "xcn73zfxq26og"
+       },
+       "result": "1f, Skodsbøl, Ådum"
+      },
+      {
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158,
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "matrikelnummer": "1i"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1i",
+           "upstream": {
+            "id": 2303692,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "ejendom": {
+          "id": 7169289,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473218.801,
+         6190464.813
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "zo6yacpbu25fq",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "zo6yacpbu25fq"
+       },
+       "result": "1i, Skodsbøl, Ådum"
+      },
+      {
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158,
+        "kommuner": [
+         {
+          "kommune": "Ringkøbing-Skjern",
+          "kommunekode": "0760"
+         }
+        ],
+        "matrikelnummer": "1k"
+       },
+       "ejendom": {
+        "parcels": {
+         "complete": true,
+         "items": [
+          {
+           "ejerlav": "Skodsbøl, Ådum",
+           "ejerlavskode": 1200158,
+           "kommune": "Ringkøbing-Skjern",
+           "kommunekode": "0760",
+           "lifecycle": "current",
+           "matrikelnummer": "1k",
+           "upstream": {
+            "id": 2303686,
+            "source": "MAT.Jordstykke"
+           }
+          }
+         ]
+        },
+        "relations": {
+         "children": {
+          "complete": true,
+          "refs": []
+         },
+         "parents": {
+          "complete": true,
+          "refs": []
+         }
+        },
+        "type": "samlet_fast_ejendom"
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.3684,
+        "upstream": {
+         "ejendom": {
+          "id": 7945603,
+          "source": "MAT.SamletFastEjendom"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         473751.859,
+         6190462.091
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "rbcedhlhphjo4",
+        "kind": "ejendom"
+       },
+       "refs": {
+        "ejendom": "rbcedhlhphjo4"
+       },
+       "result": "1k, Skodsbøl, Ådum"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Skanderborg",
+          "kommunekode": "0746"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2941,
+        "upstream": {
+         "kommune": {
+          "id": "0746",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         553205.992,
+         6215883.855
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "4g2kaelduf6im",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "4g2kaelduf6im"
+       },
+       "result": "Skanderborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Silkeborg",
+          "kommunekode": "0740"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "kommune": {
+          "id": "0740",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         537834.497,
+         6226474.69
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "xfesabtvns5pw",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "xfesabtvns5pw"
+       },
+       "result": "Silkeborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Svendborg",
+          "kommunekode": "0479"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "kommune": {
+          "id": "0479",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         601749.963,
+         6109890.33
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c3h7fi7t6ikym",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "c3h7fi7t6ikym"
+       },
+       "result": "Svendborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Fredensborg",
+          "kommunekode": "0210"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "kommune": {
+          "id": "0210",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         714864.85,
+         6205788.28
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "kfj25kgqxygpy",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "kfj25kgqxygpy"
+       },
+       "result": "Fredensborg"
+      },
+      {
+       "components": {
+        "kommuner": [
+         {
+          "kommune": "Sønderborg",
+          "kommunekode": "0540"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "kommune": {
+          "id": "0540",
+          "source": "DAGI.Kommuneinddeling"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "shcdgza3xmtsy",
+        "kind": "kommune"
+       },
+       "refs": {
+        "kommune": "shcdgza3xmtsy"
+       },
+       "result": "Sønderborg"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": [
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Skanderborg",
+          "opstillingskredsnummer": "70"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2941,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "70",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         555005.341,
+         6209540.65
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "7j4l2hb2wgh3e",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "7j4l2hb2wgh3e"
+       },
+       "result": "Skanderborg"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Svendborg",
+          "opstillingskredsnummer": "47"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.25,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "47",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         601745.325,
+         6109885.525
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "tnvrfj5zuiomq",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "tnvrfj5zuiomq"
+       },
+       "result": "Svendborg"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Fredensborg",
+          "opstillingskredsnummer": "22"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "22",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         715183.126,
+         6204324.255
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "bfv63uxdgppja",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "bfv63uxdgppja"
+       },
+       "result": "Fredensborg"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Sønderborg",
+          "opstillingskredsnummer": "49"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2222,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "49",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "c5w6hcgpve7fo",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "c5w6hcgpve7fo"
+       },
+       "result": "Sønderborg"
+      },
+      {
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskreds": "Nyborg",
+          "opstillingskredsnummer": "46"
+         }
+        ]
+       },
+       "geometry": null,
+       "lifecycle": "current",
+       "meta": {
+        "confidence": "C",
+        "score": 0.2143,
+        "upstream": {
+         "opstillingskreds": {
+          "id": "46",
+          "source": "DAGI.Opstillingskreds"
+         }
+        }
+       },
+       "point": {
+        "coordinates": [
+         602822.982,
+         6140198.325
+        ],
+        "type": "Point"
+       },
+       "ref": {
+        "id": "ifcl2vkynqweo",
+        "kind": "opstillingskreds"
+       },
+       "refs": {
+        "opstillingskreds": "ifcl2vkynqweo"
+       },
+       "result": "Nyborg"
+      }
+     ]
+    },
+    {
+     "input": "skodsborg",
+     "matches": []
+    },
+    {
+     "input": "skodsborg",
+     "matches": []
+    }
+   ],
+   "status": 200
+  }
+ ]
+}
