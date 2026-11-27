@@ -46,7 +46,9 @@ def parse_kommunekoder(text):
 
 def kommune_ref_request(code):
     """Request that looks up the Bifrost ref of kommune ``code``."""
-    return BifrostRequest(SEARCH, {"input": code, "target": "kommune", "limit": 1})
+    return BifrostRequest(
+        SEARCH, {"input": code, "target": "kommune", "limit": 1}
+    )
 
 
 def kommune_ref_from_response(code, response):
@@ -192,7 +194,8 @@ class KommunefilterCache:
                     callback(UnknownKommune(code))
                     return
             self._ensure_all(
-                [("members", c, t) for t in targets for c in codes], after_members
+                [("members", c, t) for t in targets for c in codes],
+                after_members,
             )
 
         self._ensure_all([("ref", c) for c in codes], after_refs)

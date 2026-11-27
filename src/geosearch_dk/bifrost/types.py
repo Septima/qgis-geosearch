@@ -54,7 +54,12 @@ class SearchType(NamedTuple):
 # Today's eight types, in display order (the order of the old settings.resources).
 TYPES = (
     SearchType(
-        "adr", "Husnumre", RESOLVE, "entrance", accept_units=True, accept_streets=True
+        "adr",
+        "Husnumre",
+        RESOLVE,
+        "entrance",
+        accept_units=True,
+        accept_streets=True,
     ),
     SearchType("ste", "Stednavne", SEARCH, "stednavn"),
     SearchType("pos", "Postdistrikter", SEARCH, "postcode"),
@@ -68,22 +73,34 @@ TYPES = (
         kommune_filter=FILTER_PROJECT,
     ),
     SearchType(
-        "pol", "Politikredse", SEARCH, "politikreds", kommune_filter=FILTER_PROJECT
+        "pol",
+        "Politikredse",
+        SEARCH,
+        "politikreds",
+        kommune_filter=FILTER_PROJECT,
     ),
-    SearchType("reg", "Regioner", SEARCH, "region", kommune_filter=FILTER_PROJECT),
+    SearchType(
+        "reg", "Regioner", SEARCH, "region", kommune_filter=FILTER_PROJECT
+    ),
 )
 
 # The types 3.x offered are searched by default. A type added later (e.g. from
 # PROPOSED_TYPES) starts switched off, also for users upgrading from 3.x.
-DEFAULT_ON_KEYS = frozenset(("adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg"))
+DEFAULT_ON_KEYS = frozenset(
+    ("adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg")
+)
 
 # Candidates from #6 (undecided). Not offered in the UI; kept here so that
 # deciding #6 is a data change. They go through exactly the same code paths.
 PROPOSED_TYPES = (
     SearchType("sog", "Sogne", SEARCH, "sogn"),
     SearchType("vej", "Navngivne veje", SEARCH, "street"),
-    SearchType("ret", "Retskredse", SEARCH, "retskreds", kommune_filter=FILTER_PROJECT),
-    SearchType("udg", "Udgåede matrikler", SEARCH, "ejendom", lifecycle=("retired",)),
+    SearchType(
+        "ret", "Retskredse", SEARCH, "retskreds", kommune_filter=FILTER_PROJECT
+    ),
+    SearchType(
+        "udg", "Udgåede matrikler", SEARCH, "ejendom", lifecycle=("retired",)
+    ),
     SearchType(
         "by",
         "Byer (postdistriktsnavne)",
@@ -91,7 +108,9 @@ PROPOSED_TYPES = (
         "city",
         kommune_filter=FILTER_PROJECT,
     ),
-    SearchType("ejl", "Ejerlav", SEARCH, "ejerlav", kommune_filter=FILTER_PROJECT),
+    SearchType(
+        "ejl", "Ejerlav", SEARCH, "ejerlav", kommune_filter=FILTER_PROJECT
+    ),
 )
 
 

@@ -147,7 +147,9 @@ class SearchBox(QFrame, FORM_CLASS):
             notice.KEY: QgsApplication.getThemeIcon("/mIconWarning.svg"),
         }
         self._bannerShown = None  # (state, narrow) of the text shown
-        self._bannerFitted = None  # (visible, label height) the dock was fitted to
+        self._bannerFitted = (
+            None  # (visible, label height) the dock was fitted to
+        )
         self.bannerCloseButton.setToolTip(self.tr("Skjul beskeden"))
         self.bannerCloseButton.clicked.connect(self.closeBanner)
         self.bannerLabel.linkActivated.connect(self._bannerLinkActivated)
@@ -160,7 +162,9 @@ class SearchBox(QFrame, FORM_CLASS):
         """notice.KEY, notice.INFO or None."""
         return notice.banner_state(
             has_key=bool(self.settings.bifrost_key()),
-            upgraded=self.settings.value(settings_model.UPGRADED_FROM_3X_SETTING),
+            upgraded=self.settings.value(
+                settings_model.UPGRADED_FROM_3X_SETTING
+            ),
             seen_version=self.settings.value(notice.SEEN_SETTING),
             closed_version=self.settings.value(notice.CLOSED_SETTING),
         )
@@ -193,7 +197,9 @@ class SearchBox(QFrame, FORM_CLASS):
             message = (
                 self.tr("Søgning kræver en Bifrost-nøgle.")
                 if narrow
-                else self.tr("Bifrost kræver en API-nøgle, og der er ikke angivet nogen.")
+                else self.tr(
+                    "Bifrost kræver en API-nøgle, og der er ikke angivet nogen."
+                )
             )
             links = [
                 (notice.LINK_ENTER_KEY, self.tr("Indtast nøgle")),
@@ -233,7 +239,9 @@ class SearchBox(QFrame, FORM_CLASS):
             # heightForWidth is bounded by the label's own min and max height
             self.bannerLabel.setMinimumHeight(0)
             self.bannerLabel.setMaximumHeight(QWIDGETSIZE_MAX)
-            self.bannerLabel.setFixedHeight(self.bannerLabel.heightForWidth(width))
+            self.bannerLabel.setFixedHeight(
+                self.bannerLabel.heightForWidth(width)
+            )
         self._shrinkToContents()
 
     def eventFilter(self, obj, event):
@@ -325,7 +333,9 @@ class SearchBox(QFrame, FORM_CLASS):
         self.updateBanner()
 
     def handleKommunefilterError(self, message):
-        self._pushSettingsMessage("kommunefilter", self.tr("Kommunefilter"), message)
+        self._pushSettingsMessage(
+            "kommunefilter", self.tr("Kommunefilter"), message
+        )
 
     def showKommunefilterInfo(self):
         """Explain the kommune filter (the grey "skjult" row was chosen)."""
@@ -361,7 +371,9 @@ class SearchBox(QFrame, FORM_CLASS):
         whatsnew_button.setText(self.tr("Hvad er nyt"))
         whatsnew_button.pressed.connect(self.showKommunefilterWhatsNew)
         widget.layout().addWidget(whatsnew_button)
-        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.MessageLevel.Info)
+        self.qgisIface.messageBar().pushWidget(
+            widget, level=Qgis.MessageLevel.Info
+        )
 
     def showKommunefilterWhatsNew(self):
         whatsnew.show_whats_new(
@@ -530,10 +542,14 @@ class SearchBox(QFrame, FORM_CLASS):
         current = self.qgisIface.mapCanvas().extent()
         tolerance = max(current.width(), current.height()) * 1e-6
         return (
-            abs(current.xMinimum() - self._zoomed_extent.xMinimum()) <= tolerance
-            and abs(current.yMinimum() - self._zoomed_extent.yMinimum()) <= tolerance
-            and abs(current.xMaximum() - self._zoomed_extent.xMaximum()) <= tolerance
-            and abs(current.yMaximum() - self._zoomed_extent.yMaximum()) <= tolerance
+            abs(current.xMinimum() - self._zoomed_extent.xMinimum())
+            <= tolerance
+            and abs(current.yMinimum() - self._zoomed_extent.yMinimum())
+            <= tolerance
+            and abs(current.xMaximum() - self._zoomed_extent.xMaximum())
+            <= tolerance
+            and abs(current.yMaximum() - self._zoomed_extent.yMaximum())
+            <= tolerance
         )
 
     def _showGeometry(self, geom):
@@ -556,7 +572,10 @@ class SearchBox(QFrame, FORM_CLASS):
         )
 
     def unload(self):
-        for signal in (self.settings.settings_updated, whatsnew.notifier.opened):
+        for signal in (
+            self.settings.settings_updated,
+            whatsnew.notifier.opened,
+        ):
             try:
                 signal.disconnect(self.updateBanner)
             except (TypeError, RuntimeError):

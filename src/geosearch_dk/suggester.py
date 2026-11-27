@@ -184,7 +184,13 @@ class Suggester(QObject):
             item.setData(
                 2,
                 Qt.ItemDataRole.UserRole,
-                ({"status": HIDDEN_STATUS, "text": hidden_text, "count": hidden_count},),
+                (
+                    {
+                        "status": HIDDEN_STATUS,
+                        "text": hidden_text,
+                        "count": hidden_count,
+                    },
+                ),
             )
 
         row_count = self.resultlistwidget.topLevelItemCount()

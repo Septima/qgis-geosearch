@@ -141,7 +141,9 @@ def build_requests(term, types, kommuner=(), limits=None):
 
     resolve_types = [t for t in types if t.endpoint == RESOLVE]
     if resolve_types:
-        lifecycle = sorted({lc for t in resolve_types for lc in (t.lifecycle or ())})
+        lifecycle = sorted(
+            {lc for t in resolve_types for lc in (t.lifecycle or ())}
+        )
         if filtering:
             body = [
                 _with_lifecycle(
@@ -155,7 +157,9 @@ def build_requests(term, types, kommuner=(), limits=None):
                 for code in kommuner
             ]
         else:
-            limit = min(RESOLVE_MAX_LIMIT, max(limits[t.key] for t in resolve_types))
+            limit = min(
+                RESOLVE_MAX_LIMIT, max(limits[t.key] for t in resolve_types)
+            )
             body = _with_lifecycle({"input": term, "limit": limit}, lifecycle)
         requests.append(
             BifrostRequest(RESOLVE, body, tuple(t.key for t in resolve_types))
@@ -168,9 +172,11 @@ def build_requests(term, types, kommuner=(), limits=None):
                 {
                     "input": term,
                     "target": t.target,
-                    "limit": SEARCH_MAX_LIMIT
-                    if filtering
-                    else min(SEARCH_MAX_LIMIT, limits[t.key]),
+                    "limit": (
+                        SEARCH_MAX_LIMIT
+                        if filtering
+                        else min(SEARCH_MAX_LIMIT, limits[t.key])
+                    ),
                 },
                 t.lifecycle,
             )
@@ -264,17 +270,26 @@ def normalize(match, search_type):
     ref = match.get("ref") or {}
     kind = ref.get("kind")
     target = search_type.target
-    if search_type.endpoint == RESOLVE and target == "entrance" and kind == "unit":
+    if (
+        search_type.endpoint == RESOLVE
+        and target == "entrance"
+        and kind == "unit"
+    ):
         entrance = (match.get("refs") or {}).get("entrance")
         if entrance and not _is_apartment(match):
             return make_row(
-                search_type, match, "entrance", {"kind": "entrance", "id": entrance}
+                search_type,
+                match,
+                "entrance",
+                {"kind": "entrance", "id": entrance},
             )
         if search_type.accept_units:
             return make_row(search_type, match)
         return None
     if search_type.endpoint == RESOLVE and kind == "street":
-        return make_row(search_type, match) if search_type.accept_streets else None
+        return (
+            make_row(search_type, match) if search_type.accept_streets else None
+        )
     if kind != target:
         return None
     return make_row(search_type, match)
@@ -286,7 +301,8 @@ def error_row(search_type, message=None):
         "key": search_type.key,
         "title": search_type.title,
         "status": STATUS_ERROR,
-        "text": tr("bifrost", "%s - Der skete en fejl") % tr("bifrost", search_type.title),
+        "text": tr("bifrost", "%s - Der skete en fejl")
+        % tr("bifrost", search_type.title),
         "message": message,
         "kind": None,
         "ref": None,
@@ -308,15 +324,23 @@ def kommunefilter_error_row(error):
     if isinstance(error, UnknownKommune):
         code = error.code.lstrip("0") or "0"
         text = tr("bifrost", "Ukendt kommunekode %s i kommunefilteret") % code
-        message = tr(
-            "bifrost",
-            "Kommunefilteret i indstillingerne indeholder kommunekoden %s, som "
-            "Bifrost ikke kender. Ret eller fjern koden under Indstillinger > "
-            "Geosearch DK.",
-        ) % code
+        message = (
+            tr(
+                "bifrost",
+                "Kommunefilteret i indstillingerne indeholder kommunekoden %s, som "
+                "Bifrost ikke kender. Ret eller fjern koden under Indstillinger > "
+                "Geosearch DK.",
+            )
+            % code
+        )
     else:
-        text = tr("bifrost", "%s - Der skete en fejl") % tr("bifrost", "Kommunefilter")
-        message = tr("bifrost", "Kommunefilteret kunne ikke hentes fra Bifrost: %s") % error
+        text = tr("bifrost", "%s - Der skete en fejl") % tr(
+            "bifrost", "Kommunefilter"
+        )
+        message = (
+            tr("bifrost", "Kommunefilteret kunne ikke hentes fra Bifrost: %s")
+            % error
+        )
     return {
         "key": KOMMUNEFILTER_KEY,
         "title": "Kommunefilter",
@@ -411,7 +435,9 @@ def _response_items(request, response):
     """``[(keys, response_item)]`` for a request and its decoded response."""
     if isinstance(request.body, list):
         if not isinstance(response, list) or len(response) != len(request.body):
-            raise ValueError("Bifrost batch response does not match the request")
+            raise ValueError(
+                "Bifrost batch response does not match the request"
+            )
         if request.endpoint == SEARCH:
             return [((k,), item) for k, item in zip(request.keys, response)]
         return [(request.keys, item) for item in response]
@@ -507,7 +533,12 @@ def geometry_request(row, attempt=0):
         return BifrostRequest(SEARCH, body, (row["key"],))
     if attempt > 0:
         return None
-    body = {"input": dict(ref), "target": ref["kind"], "limit": 1, "geometry": True}
+    body = {
+        "input": dict(ref),
+        "target": ref["kind"],
+        "limit": 1,
+        "geometry": True,
+    }
     lifecycle = row.get("lifecycle")
     if lifecycle and lifecycle != "current":
         body["lifecycle"] = [lifecycle]
@@ -524,7 +555,9 @@ def geometry_from_response(row, response):
     matches = (response or {}).get("matches") or []
     if row["ref"]["kind"] == "stednavn":
         matches = [
-            m for m in matches if (m.get("ref") or {}).get("id") == row["ref"]["id"]
+            m
+            for m in matches
+            if (m.get("ref") or {}).get("id") == row["ref"]["id"]
         ]
     for match in matches:
         geometry = match.get("geometry")

@@ -71,7 +71,9 @@ class SeptimaGeoSearch(object):
             Qt.DockWidgetArea.TopDockWidgetArea, self.searchdockwidget
         )
         # QGIS restores the saved dock size after initGui; fit it to the banner
-        self.searchdockwidget.dockLocationChanged.connect(self.searchwidget.fitDock)
+        self.searchdockwidget.dockLocationChanged.connect(
+            self.searchwidget.fitDock
+        )
         self.iface.initializationCompleted.connect(self.searchwidget.fitDock)
         # Make changed settings apply immediately
         self.settings.settings_updated.connect(self.searchwidget.readconfig)
@@ -82,7 +84,9 @@ class SeptimaGeoSearch(object):
     def unload(self):
         whatsnew.close_whats_new()
         try:
-            self.iface.initializationCompleted.disconnect(self.searchwidget.fitDock)
+            self.iface.initializationCompleted.disconnect(
+                self.searchwidget.fitDock
+            )
         except TypeError:
             pass
         self.searchwidget.unload()  # try to avoid processing events, when QGIS is closing

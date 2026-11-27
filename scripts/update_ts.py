@@ -109,7 +109,9 @@ def collect():
     contexts = OrderedDict()
 
     def add(context, source, path, line):
-        locations = contexts.setdefault(context, OrderedDict()).setdefault(source, [])
+        locations = contexts.setdefault(context, OrderedDict()).setdefault(
+            source, []
+        )
         locations.append((_rel(path), line))
 
     for name in UI_FILES:
@@ -138,13 +140,22 @@ def read_ts(path=TS_FILE):
         name = context.findtext("name")
         for message in context.iter("message"):
             element = message.find("translation")
-            finished = element.get("type") not in ("unfinished", "obsolete", "vanished")
-            result[(name, message.findtext("source"))] = (element.text or "", finished)
+            finished = element.get("type") not in (
+                "unfinished",
+                "obsolete",
+                "vanished",
+            )
+            result[(name, message.findtext("source"))] = (
+                element.text or "",
+                finished,
+            )
     return result
 
 
 def write_ts(contexts, translations, path=TS_FILE):
-    ts = ET.Element("TS", version="2.1", language="en_DK", sourcelanguage="da_DK")
+    ts = ET.Element(
+        "TS", version="2.1", language="en_DK", sourcelanguage="da_DK"
+    )
     for name in sorted(contexts):
         context = ET.SubElement(ts, "context")
         ET.SubElement(context, "name").text = name
@@ -179,8 +190,10 @@ def main():
     ]
     for context, source in missing:
         print(f"untranslated [{context}]: {source}")
-    print(f"{TS_FILE}: {sum(len(v) for v in contexts.values())} texts, "
-          f"{len(missing)} untranslated")
+    print(
+        f"{TS_FILE}: {sum(len(v) for v in contexts.values())} texts, "
+        f"{len(missing)} untranslated"
+    )
 
 
 if __name__ == "__main__":

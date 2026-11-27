@@ -40,7 +40,9 @@ STYLES = {
 }
 
 
-def banner_state(has_key, upgraded, seen_version, closed_version, version=NOTICE_VERSION):
+def banner_state(
+    has_key, upgraded, seen_version, closed_version, version=NOTICE_VERSION
+):
     """Which banner to show: KEY, INFO or None. The key banner wins."""
     if not has_key:
         return KEY

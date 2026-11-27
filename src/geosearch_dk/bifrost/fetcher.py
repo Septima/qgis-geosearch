@@ -58,7 +58,9 @@ class BifrostFetcher(QObject):
     def __init__(self, settings, client=None, parent=None):
         QObject.__init__(self, parent)
         self.settings = settings
-        self.client = client or BifrostClient(self.base_url, self.key, parent=self)
+        self.client = client or BifrostClient(
+            self.base_url, self.key, parent=self
+        )
         self.client.not_authorized.connect(self.not_authorized)
         self.result = None
         self.hidden = {}
@@ -103,7 +105,9 @@ class BifrostFetcher(QObject):
         # A reply to the previous search must not show up after a query that
         # sends nothing, e.g. one that is now only a prefix such as "adr:".
         self.cancel_search()
-        plan = plan_search(term, self.selected_keys(), kommunefilter=self.kommunefilter())
+        plan = plan_search(
+            term, self.selected_keys(), kommunefilter=self.kommunefilter()
+        )
         if not plan.requests:
             return None
         if not self.key():
@@ -117,7 +121,9 @@ class BifrostFetcher(QObject):
                 return
             parts[name] = value
             if len(parts) == 2:
-                self._on_search(search_id, plan, parts["responses"], parts["members"])
+                self._on_search(
+                    search_id, plan, parts["responses"], parts["members"]
+                )
 
         if plan.kommuner:
             base_url = self.base_url()
