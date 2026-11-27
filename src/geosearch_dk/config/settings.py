@@ -36,9 +36,7 @@ DEFAULT_BIFROST_KEY = ""
 # Used when the "Bifrost URL" setting is empty: production.
 DEFAULT_BIFROST_URL = DEFAULT_BASE_URL
 # How to get a key: Klimadatastyrelsen's page with the user guide. Pending #5.
-BIFROST_KEY_HELP_URL = (
-    "https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen"
-)
+BIFROST_KEY_HELP_URL = "https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen"
 
 
 class _QSettingsStore:
@@ -63,9 +61,13 @@ class Settings(SettingManager):
 
         self.add_setting(String("kommunefilter", Scope.Global, ""))
         # The kommune filter is client-side and opt-in since Bifrost (#11).
-        self.add_setting(Bool(model.KOMMUNEFILTER_ENABLED_SETTING, Scope.Global, False))
+        self.add_setting(
+            Bool(model.KOMMUNEFILTER_ENABLED_SETTING, Scope.Global, False)
+        )
         # Set once the 3.x kommunefilter has been migrated (see _migratesettings).
-        self.add_setting(Bool(model.KOMMUNEFILTER_MIGRATED_SETTING, Scope.Global, False))
+        self.add_setting(
+            Bool(model.KOMMUNEFILTER_MIGRATED_SETTING, Scope.Global, False)
+        )
         # Empty: DEFAULT_BIFROST_URL. The default is not stored, so a new
         # default (#5) reaches everyone who has not set a URL.
         self.add_setting(String(model.URL_SETTING, Scope.Global, ""))
@@ -76,8 +78,12 @@ class Settings(SettingManager):
         self.add_setting(String(notice.SEEN_SETTING, Scope.Global, ""))
         self.add_setting(String(notice.CLOSED_SETTING, Scope.Global, ""))
         # Whether this is an upgrade from 3.x, decided once (see _migratesettings).
-        self.add_setting(Bool(model.UPGRADE_CHECKED_SETTING, Scope.Global, False))
-        self.add_setting(Bool(model.UPGRADED_FROM_3X_SETTING, Scope.Global, False))
+        self.add_setting(
+            Bool(model.UPGRADE_CHECKED_SETTING, Scope.Global, False)
+        )
+        self.add_setting(
+            Bool(model.UPGRADED_FROM_3X_SETTING, Scope.Global, False)
+        )
         # Set to put the cursor in the key field when the settings page opens.
         self.focus_key_on_open = False
 

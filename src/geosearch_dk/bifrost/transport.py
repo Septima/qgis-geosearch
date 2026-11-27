@@ -129,7 +129,11 @@ def _detail(body):
         for k in ("detail", "error", "message", "title"):
             if data.get(k):
                 v = data[k]
-                return v if isinstance(v, str) else json.dumps(v, ensure_ascii=False)
+                return (
+                    v
+                    if isinstance(v, str)
+                    else json.dumps(v, ensure_ascii=False)
+                )
     return json.dumps(data, ensure_ascii=False)[:300]
 
 
@@ -143,13 +147,17 @@ def decode_response(status, body, retry_after=None):
     if status in (401, 403):
         raise BifrostNotAuthorized(status, _detail(body))
     if status >= 400 or status < 200:
-        raise BifrostHttpError(status, _detail(body), parse_retry_after(retry_after))
+        raise BifrostHttpError(
+            status, _detail(body), parse_retry_after(retry_after)
+        )
     if isinstance(body, bytes):
         body = body.decode("utf-8")
     try:
         return json.loads(body)
     except ValueError as e:
-        raise BifrostHttpError(status, tr("bifrost", "Ugyldigt svar: %s") % e) from e
+        raise BifrostHttpError(
+            status, tr("bifrost", "Ugyldigt svar: %s") % e
+        ) from e
 
 
 def retry_delay(error, retries_done):

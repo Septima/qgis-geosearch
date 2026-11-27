@@ -58,7 +58,9 @@ class WhatsNewDialog(QDialog):
         self.browser.setSource(QUrl.fromLocalFile(help_file()))
 
         buttons = QDialogButtonBox(QDialogButtonBox.StandardButton.Close, self)
-        buttons.button(QDialogButtonBox.StandardButton.Close).setText(self.tr("Luk"))
+        buttons.button(QDialogButtonBox.StandardButton.Close).setText(
+            self.tr("Luk")
+        )
         buttons.rejected.connect(self.reject)
 
         layout = QVBoxLayout(self)

@@ -80,7 +80,9 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.muncodeValidator = QRegularExpressionValidator(regex)
         self.kommunefilter.setValidator(self.muncodeValidator)
         self.kommunefilterInfoLabel.setText(kommunefilter_info.info_html())
-        self.kommunefilter_enabled.toggled.connect(self._update_kommunefilter_enabled)
+        self.kommunefilter_enabled.toggled.connect(
+            self._update_kommunefilter_enabled
+        )
         self._update_kommunefilter_enabled()
         self.kommunefilterWhatsNewLabel.linkActivated.connect(
             self._show_kommunefilter_whatsnew
@@ -94,7 +96,9 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         # A widget in the (modal) options dialog as parent, so the notice is
         # not blocked behind it.
         whatsnew.show_whats_new(
-            self, anchor=kommunefilter_info.WHATSNEW_ANCHOR, settings=self.settings
+            self,
+            anchor=kommunefilter_info.WHATSNEW_ANCHOR,
+            settings=self.settings,
         )
 
     def _update_kommunefilter_enabled(self, *args):

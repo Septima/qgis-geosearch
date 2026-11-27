@@ -67,7 +67,9 @@ class BifrostCall(QObject):
         key = self._client.key()
         if not key:
             # Async, so the callback never runs inside send().
-            QTimer.singleShot(0, lambda i=i: self._set_result(i, BifrostMissingKey()))
+            QTimer.singleShot(
+                0, lambda i=i: self._set_result(i, BifrostMissingKey())
+            )
             return
         url = transport.endpoint_url(self._client.base_url(), req.endpoint)
         request = QNetworkRequest(QUrl(url))
@@ -117,14 +119,17 @@ class BifrostCall(QObject):
                 tr("bifrost", "Bifrost svarede ikke inden for %d sekunder")
                 % (self._timeout_ms // 1000)
             )
-        status = reply.attribute(QNetworkRequest.Attribute.HttpStatusCodeAttribute)
+        status = reply.attribute(
+            QNetworkRequest.Attribute.HttpStatusCodeAttribute
+        )
         body = bytes(reply.readAll())
         if status is None:
             if reply.error() == QNetworkReply.NetworkError.NoError:
                 status = 200
             else:
                 return BifrostNetworkError(
-                    tr("bifrost", "Kunne ikke kontakte Bifrost: %s") % reply.errorString()
+                    tr("bifrost", "Kunne ikke kontakte Bifrost: %s")
+                    % reply.errorString()
                 )
         retry_after = None
         if reply.hasRawHeader(b"Retry-After"):
@@ -163,7 +168,9 @@ class BifrostClient(QObject):
         QObject.__init__(self, parent)
         self._base_url = base_url
         self._key = key
-        self.network_manager = network_manager or QgsNetworkAccessManager.instance()
+        self.network_manager = (
+            network_manager or QgsNetworkAccessManager.instance()
+        )
         self._calls = set()
 
     def base_url(self):

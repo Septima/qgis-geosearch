@@ -31,13 +31,44 @@ MAX_SIZE = 25 * 1024 * 1024
 FLAKE8_CRITICAL = "E901,E902,E999,F821,F823,F831"
 # Binary files the plugin needs: icons and the compiled translation
 BINARY_OK = {".png", ".jpg", ".jpeg", ".gif", ".ico", ".qm"}
-SUSPICIOUS = {".exe", ".dll", ".so", ".dylib", ".pyd", ".pyc", ".pyo", ".bat",
-              ".cmd", ".sh", ".ps1", ".jar", ".zip", ".whl", ".egg"}
+SUSPICIOUS = {
+    ".exe",
+    ".dll",
+    ".so",
+    ".dylib",
+    ".pyd",
+    ".pyc",
+    ".pyo",
+    ".bat",
+    ".cmd",
+    ".sh",
+    ".ps1",
+    ".jar",
+    ".zip",
+    ".whl",
+    ".egg",
+}
 # Config files the scanners honour; shipping one gives the status
 # "Validated (configured)" instead of a plain pass.
-SCANNER_CONFIG = {".bandit", ".secrets.baseline", ".flake8", "setup.cfg", "tox.ini"}
-REQUIRED_KEYS = ("name", "qgisMinimumVersion", "description", "about", "version",
-                 "author", "email", "repository", "homepage", "tracker")
+SCANNER_CONFIG = {
+    ".bandit",
+    ".secrets.baseline",
+    ".flake8",
+    "setup.cfg",
+    "tox.ini",
+}
+REQUIRED_KEYS = (
+    "name",
+    "qgisMinimumVersion",
+    "description",
+    "about",
+    "version",
+    "author",
+    "email",
+    "repository",
+    "homepage",
+    "tracker",
+)
 LINK_KEYS = ("repository", "homepage", "tracker")
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -74,7 +105,9 @@ def check_structure(zf: zipfile.ZipFile, size: int, r: Report) -> None:
     infos = zf.infolist()
     tops = {PurePosixPath(i.filename).parts[0] for i in infos}
     if tops != {PLUGIN}:
-        r.error(f"top-level entries must be the single folder {PLUGIN}/, got {sorted(tops)}")
+        r.error(
+            f"top-level entries must be the single folder {PLUGIN}/, got {sorted(tops)}"
+        )
     else:
         r.ok(f"single top-level folder {PLUGIN}/")
 
@@ -93,7 +126,9 @@ def check_structure(zf: zipfile.ZipFile, size: int, r: Report) -> None:
         name = info.filename
         mode = info.external_attr >> 16
         if path.name in SCANNER_CONFIG:
-            r.error(f"scanner config file: {name} (status would be 'Validated (configured)')")
+            r.error(
+                f"scanner config file: {name} (status would be 'Validated (configured)')"
+            )
             bad += 1
         elif any(p.startswith(".") for p in path.parts):
             r.error(f"hidden file or folder: {name}")
@@ -154,11 +189,19 @@ def check_metadata(zf: zipfile.ZipFile, r: Report) -> None:
     elif version:
         r.ok(f"version = {version}")
 
-    changelog = [ln.strip() for ln in meta.get("changelog", "").splitlines() if ln.strip()]
+    changelog = [
+        ln.strip()
+        for ln in meta.get("changelog", "").splitlines()
+        if ln.strip()
+    ]
     if not changelog:
         r.error("changelog is empty")
-    elif version and not re.search(rf"(^|\s){re.escape(version)}(\s|$)", changelog[0]):
-        r.error(f"the first changelog line does not mention version {version}: {changelog[0][:80]!r}")
+    elif version and not re.search(
+        rf"(^|\s){re.escape(version)}(\s|$)", changelog[0]
+    ):
+        r.error(
+            f"the first changelog line does not mention version {version}: {changelog[0][:80]!r}"
+        )
     else:
         r.ok(f"changelog starts with: {changelog[0][:70]}")
 
@@ -190,7 +233,9 @@ def check_scanners(workdir: Path, r: Report) -> None:
     uvx = shutil.which("uvx")
     if not uvx:
         section("Scanners")
-        r.error("uvx not found; install uv (https://docs.astral.sh/uv/) to run the scanners")
+        r.error(
+            "uvx not found; install uv (https://docs.astral.sh/uv/) to run the scanners"
+        )
         return
 
     section("bandit (a finding blocks the version)")
@@ -201,8 +246,10 @@ def check_scanners(workdir: Path, r: Report) -> None:
         r.error(f"bandit failed:\n{indent(p.stdout + p.stderr)}")
     else:
         for res in results:
-            r.error(f"bandit {res['test_id']} ({res['issue_severity']}) "
-                    f"{res['filename']}:{res['line_number']}: {res['issue_text']}")
+            r.error(
+                f"bandit {res['test_id']} ({res['issue_severity']}) "
+                f"{res['filename']}:{res['line_number']}: {res['issue_text']}"
+            )
         if not results:
             r.ok("no findings")
 
@@ -215,7 +262,9 @@ def check_scanners(workdir: Path, r: Report) -> None:
     else:
         for filename, secrets in results.items():
             for s in secrets:
-                r.error(f"detect-secrets {s['type']} {filename}:{s['line_number']}")
+                r.error(
+                    f"detect-secrets {s['type']} {filename}:{s['line_number']}"
+                )
         if not results:
             r.ok("no findings")
 
@@ -230,14 +279,21 @@ def check_scanners(workdir: Path, r: Report) -> None:
     p = run([uvx, "flake8", "--count", "--exit-zero", "-q", PLUGIN], workdir)
     lines = p.stdout.strip().splitlines()
     count = lines[-1] if lines and lines[-1].isdigit() else "?"
-    print(f"  info     {count} findings in {len(lines) - 1} files (shown on plugins.qgis.org, do not block)")
+    print(
+        f"  info     {count} findings in {len(lines) - 1} files (shown on plugins.qgis.org, do not block)"
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("zip", nargs="?", default=str(ROOT / "dist" / f"{PLUGIN}.zip"))
-    ap.add_argument("--workdir", default=str(ROOT / "dist" / "publish-check"),
-                    help="where the zip is unpacked (emptied first)")
+    ap.add_argument(
+        "zip", nargs="?", default=str(ROOT / "dist" / f"{PLUGIN}.zip")
+    )
+    ap.add_argument(
+        "--workdir",
+        default=str(ROOT / "dist" / "publish-check"),
+        help="where the zip is unpacked (emptied first)",
+    )
     args = ap.parse_args(argv)
 
     zip_path = Path(args.zip)
